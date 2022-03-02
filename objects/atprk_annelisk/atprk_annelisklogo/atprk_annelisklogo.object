@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_annelisklogo",
+  "colonyTags" : ["atprk_annelisk","commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A logo of an unknown alien corporation.",
+  "shortdescription" : "Old Corporate Logo",
+  "race" : "generic",
+
+  "apexDescription" : "A corporate logo that resembles a snake eating its own tail.",
+  "avianDescription" : "Judging by the logo design, there used to be a company that... kept doing something forever, I guess?...",
+  "floranDescription" : "Ssstupid sssnake eating itssself!",
+  "glitchDescription" : "Informed. A snake eating its own tail is often associated with endless cycles. But what does it mean in this case?",
+  "humanDescription" : "It seems that some ancient corporation chose a snake eating its tail as their logo.",
+  "hylotlDescription" : "A snake eating its own tail, one of the symbols of infinity.",
+  "novakidDescription" : "It must've been some ol' company, I'm feelin' it.",
+  
+  "inventoryIcon" : "atprk_annelisklogoicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_annelisklogo.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

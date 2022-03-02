@@ -1,0 +1,83 @@
+{
+  "objectName" : "atprk_anneliskvending",
+  "colonyTags" : ["atprk_annelisk","commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 135,
+  "lightColor" : [151, 118, 91],
+  "printable" : false,
+
+  "shortdescription" : "Old Vending Machine",
+  "description" : "A discarded yet still functional vending machine.",
+  "race" : "generic",
+
+  "apexDescription" : "A vending machine that sells questionable drinks.",
+  "avianDescription" : "I doubt I should buy anything from this vending machine. Who knows how long it's been standing here.",
+  "floranDescription" : "Machine full of ssspoiled drinksss.",
+  "glitchDescription" : "Upset. All of these beverages must be spoiled by now.",
+  "humanDescription" : "An old vending machine that still sells something. Wow.",
+  "hylotlDescription" : "I don't trust this old vending machine. What if all the drinks are spoiled?",
+  "novakidDescription" : "Don't wanna buy anythin' from a rusty vendin' machine.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Old Vending Machine",
+        "subtitle" : " Buy some drinks... if you dare!"
+      }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "atprk_intoxicola" },
+      { "item" : "atprk_liquidcometdrink" },
+      { "item" : "atprk_goojuice" },
+      { "item" : "atprk_neutraldrink" }
+    ]
+  },
+
+  "inventoryIcon" : "atprk_anneliskvendingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskvending.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

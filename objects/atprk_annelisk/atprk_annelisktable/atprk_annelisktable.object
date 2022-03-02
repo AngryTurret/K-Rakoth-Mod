@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_annelisktable",
+  "colonyTags" : ["atprk_annelisk","commerce"],
+  "rarity" : "Common",
+  "description" : "A rusty metal table for an office lobby.",
+  "shortdescription" : "Old Corporate Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 40,
+
+  "apexDescription" : "An old rusty table of moderate quality.",
+  "avianDescription" : "There are still some notes lying under the table's leg.",
+  "floranDescription" : "Good table for showing hunting trophiesss.",
+  "glitchDescription" : "Disgusted. Is this all rust?",
+  "humanDescription" : "Can I clean the rust off somehow?",
+  "hylotlDescription" : "A tasteless lobby table.",
+  "novakidDescription" : "A pretty heavy table covered in rust.",
+
+  "inventoryIcon" : "atprk_annelisktableicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_annelisktable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk_annelisktable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

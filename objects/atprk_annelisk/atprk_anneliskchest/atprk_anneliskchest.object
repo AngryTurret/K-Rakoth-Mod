@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_anneliskchest",
+  "colonyTags" : ["atprk_annelisk","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 30,
+  "description" : "A repurposed delivery package.",
+  "shortdescription" : "Old Corporate Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A small delivery package containing treasures.",
+  "avianDescription" : "Somebody had to abandon their delivery package, it seems.",
+  "floranDescription" : "Boring-looking plassstic chesst...",
+  "glitchDescription" : "Neutral. A delivery package used as a treasure box.",
+  "humanDescription" : "I bet there's no food inside, is there?",
+  "hylotlDescription" : "A hard delivery package, abandoned long ago.",
+  "novakidDescription" : "A strange plastic chest. Guess it's very cheap.",
+
+  "inventoryIcon" : "atprk_anneliskchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

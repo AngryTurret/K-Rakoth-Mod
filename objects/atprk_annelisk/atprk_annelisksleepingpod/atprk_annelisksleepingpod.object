@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_annelisksleepingpod",
+  "colonyTags" : ["atprk_annelisk"],
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "Sleeping horizontally is overrated anyway.",
+  "shortdescription" : "Corporate Sleeping Pod",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 175,
+  "lightColor" : [89, 27, 27],
+  
+  "apexDescription" : "A secure sleeping pod that prevents you from falling over.",
+  "avianDescription" : "There is no way staying the night in this pod will not cause claustrophobia.",
+  "floranDescription" : "Russsty pod. Floran can climb inssside and ressst.",
+  "glitchDescription" : "Alarmed. I hear something dripping from its side.",
+  "humanDescription" : "Hey, I remember visiting a hotel with pods like that.",
+  "hylotlDescription" : "A high-tech bed of sorts. No aesthetics, just pure yet questionable efficiency.",
+  "novakidDescription" : "Only an oddball would sleep in that position.",
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/atprk_annelisk/atprk_annelisksleepingpod/atprk_annelisksleepingpodcover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "nude",
+    "bed1"
+  ],
+
+  "inventoryIcon" : "atprk_annelisksleepingpodicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_annelisksleepingpod.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_annelisksleepingpod.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

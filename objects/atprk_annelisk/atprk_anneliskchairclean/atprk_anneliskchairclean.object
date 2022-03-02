@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk_anneliskchairclean",
+  "colonyTags" : ["atprk_annelisk"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A short metal seat with a cushion on it.",
+  "shortdescription" : "Corporate Seat",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "An office chair.",
+  "avianDescription" : "I would appreciate a backrest, you know.",
+  "floranDescription" : "Sssilly chair, it looks like a stump.",
+  "glitchDescription" : "Unimpressed. A plain metal chair without a backrest.",
+  "humanDescription" : "An uncomfortable metal seat. At least it has a cushion.",
+  "hylotlDescription" : "What a repugnant seat. Its creator clearly had no comfort in mind.",
+  "novakidDescription" : "Not the best, but this'll do.",
+
+  "inventoryIcon" : "atprk_anneliskchaircleanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskchairclean.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

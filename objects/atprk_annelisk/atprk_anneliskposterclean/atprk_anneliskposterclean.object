@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_anneliskposterclean",
+  "colonyTags" : ["atprk_annelisk", "commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+
+  "shortdescription" : "Corporate Poster",
+  "description" : "A poster of what appears to be a company logo.",
+  "race" : "generic",
+
+  "apexDescription" : "A poster depicting a logo of unknown company.",
+  "avianDescription" : "Apparently, there was an old company with this logo.",
+  "floranDescription" : "Sssome hieroglyph of sssortss.",
+  "glitchDescription" : "Disinterested. Some sort of ancient advertisement.",
+  "humanDescription" : "Look, there is some corporate logo! I wonder what kind of corporation it was...",
+  "hylotlDescription" : "It does not look anything like the Letheia logo, so it is definitely something else.",
+  "novakidDescription" : "A company logo maybe, go figure.",
+
+  "inventoryIcon" : "atprk_anneliskpostercleanicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskposterclean.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

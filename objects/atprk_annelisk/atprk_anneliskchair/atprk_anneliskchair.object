@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk_anneliskchair",
+  "colonyTags" : ["atprk_annelisk"],
+  "rarity" : "Common",
+  "description" : "A short rusty seat with a dirty cushion on it.",
+  "shortdescription" : "Old Corporate Seat",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 60,
+
+  "apexDescription" : "Sitting on this chair may be unhygienic.",
+  "avianDescription" : "I would appreciate a backrest, you know.",
+  "floranDescription" : "Sssilly chair, it looks like a stump.",
+  "glitchDescription" : "Unimpressed. A rust-covered chair without a backrest.",
+  "humanDescription" : "An uncomfortable seat covered in rust.",
+  "hylotlDescription" : "What a repugnant seat. Its creator clearly had no comfort in mind.",
+  "novakidDescription" : "Not the best, but this'll do.",
+
+  "inventoryIcon" : "atprk_anneliskchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}
