@@ -1,0 +1,67 @@
+{
+  "objectName" : "atprk-4dcratesmall",
+  "colonyTags" : ["atprk_krakoth","atprk_4d","storage","commerce"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A more compact version of the Extradimensional Crate.",
+  "shortdescription" : "Extradimensional Box",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 75,
+  "health" : 1.5,
+
+  "apexDescription" : "A very efficient usage of third- and fourth-dimensional space.",
+  "avianDescription" : "I wonder if I can make four-dimensional storage even smaller. I could carry it around!",
+  "floranDescription" : "It's bigger on the inssside!",
+  "glitchDescription" : "Surprised. This container's capacity is comparable to a large cargo crate.",
+  "humanDescription" : "Ah, a nice little storage that can keep a lot of stuff in it.",
+  "hylotlDescription" : "With this extradimensional box, I can use space more efficiently.",
+  "novakidDescription" : "This lil' box has enough place for all my guns!",
+
+  "learnBlueprintsOnPickup" : [
+    "atprk-4dcratetiny"
+  ],
+
+  "inventoryIcon" : "atprk-4dcratesmallicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratesmall.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratesmalllit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratesmall.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratesmalllit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/mechbeacon_pulse2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mechbeacon_pulse1.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

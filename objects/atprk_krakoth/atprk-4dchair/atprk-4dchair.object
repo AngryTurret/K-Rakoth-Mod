@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk-4dchair",
+  "colonyTags" : ["atprk_krakoth","atprk_4d"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A chair from another dimension.",
+  "shortdescription" : "Extradimensional Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 110,
+
+  "apexDescription" : "Are there any side effects of resting on this extradimensional chair?",
+  "avianDescription" : "It does not look very safe.",
+  "floranDescription" : "Floran sssit on sssomething out of this dimensssion.",
+  "glitchDescription" : "Doubtful. This chair doesn't look safe.",
+  "humanDescription" : "My butt won't become four-dimensional from sitting on that chair, will it?",
+  "hylotlDescription" : "I would rather not risk sitting on this otherworldly chair.",
+  "novakidDescription" : "A chair that has more dimensions than anythin' else you can rest on.",
+
+  "inventoryIcon" : "atprk-4dchairicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dchair.png:<color>", "fullbright" : true }, { "image" : "atprk-4dchairlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dchair.png:<color>", "fullbright" : true }, { "image" : "atprk-4dchairlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

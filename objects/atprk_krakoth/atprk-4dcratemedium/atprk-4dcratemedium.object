@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk-4dcratemedium",
+  "colonyTags" : ["atprk_krakoth","atprk_4d","storage","commerce"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "This container can store much more items thanks to the fourth-dimensional space inside of it.",
+  "shortdescription" : "Extradimensional Crate",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 220,
+  "health" : 1.5,
+
+  "apexDescription" : "A four-dimensional crate? But I thought the fourth dimension was temporal, not spatial!",
+  "avianDescription" : "Is this a four-dimensional container? By Kluex, how is this possible?",
+  "floranDescription" : "Floran doess not get it. Is thisss a box insside another box?",
+  "glitchDescription" : "Intrigued. This container has additional four-dimensional space to store even more items.",
+  "humanDescription" : "Wait, is that glowing cube in the middle the actual crate?",
+  "hylotlDescription" : "I never would've thought that tesseract crates are possible.",
+  "novakidDescription" : "Somethin' ain't right about this crate, if you ask me.",
+
+  "inventoryIcon" : "atprk-4dcratemediumicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratemedium.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratemediumlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratemedium.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratemediumlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/mechbeacon_pulse2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mechbeacon_pulse1.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

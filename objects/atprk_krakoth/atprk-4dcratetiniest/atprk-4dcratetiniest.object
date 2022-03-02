@@ -1,0 +1,60 @@
+{
+  "objectName" : "atprk-4dcratetiniest",
+  "colonyTags" : ["atprk_krakoth","atprk_4d","storage","commerce"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 60,
+  "description" : "A tiny extradimensional storage. It cannot get any smaller.",
+  "shortdescription" : "Extradimensional Capsule",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 1.5,
+
+  "apexDescription" : "At this point it does not even look all that efficient.",
+  "avianDescription" : "I cannot believe how small it is...",
+  "floranDescription" : "Tiny boxesss for the win!",
+  "glitchDescription" : "Inspired. In theory, this capsule could be made even smaller... for science!",
+  "humanDescription" : "Okay, now this is just plain stupid.",
+  "hylotlDescription" : "Perfection.",
+  "novakidDescription" : "Not gonna lie, I didn't expect that lil' thing to work.",
+
+  "inventoryIcon" : "atprk-4dcratetiniesticon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratetiniest.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratetiniestlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dcratetiniest.png:<color>", "fullbright" : true }, { "image" : "atprk-4dcratetiniestlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/mechbeacon_pulse2.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mechbeacon_pulse1.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

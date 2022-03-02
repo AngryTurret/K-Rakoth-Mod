@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk-4dperfect",
+  "colonyTags" : ["atprk_4d","misc"],
+  "rarity" : "legendary",
+  "category" : "generic",
+  "printable" : false,
+  "price" : 0,
+
+  "description" : "A perfectly generic four-dimensional object.",
+  "shortdescription" : "Perfectly Generic Tesseract",
+  "race" : "generic",
+
+  "apexDescription" : "The way I see it, it appears to be one of the best tesseracts I've ever seen.",
+  "avianDescription" : "A perfect tesseract, perhaps even too perfect for my taste.",
+  "floranDescription" : "Sssupercube's very unnatural. Too perfect.",
+  "glitchDescription" : "Curious. Why are all other tesseracts pink, anyway?",
+  "humanDescription" : "What's so special about a perfectly tesseract-shaped tesseract?",
+  "hylotlDescription" : "A geometric perfection born from chaos of the fourth dimension.",
+  "novakidDescription" : "Now it's somehow even more generic than before!",
+
+
+  "inventoryIcon" : "atprk-4dperfecticon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dperfect.png:<color>", "fullbright" : true }, { "image" : "atprk-4dperfectlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dperfect.png:<color>", "fullbright" : true }, { "image" : "atprk-4dperfectlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "learnBlueprintsOnPickup" : [ "perfecthead", "perfectchest", "perfectpants" ]
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "atprk-4dtable",
+  "colonyTags" : ["atprk_krakoth","atprk_4d","commerce"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A table top is actually a complex multidimensional object. Impressive, right?",
+  "shortdescription" : "Extradimensional Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 150,
+
+  "apexDescription" : "It is not very responsible to use non-Euclidean geometry this way.",
+  "avianDescription" : "I hope my lunch will not phase through this table.",
+  "floranDescription" : "Now Floran can chop meatsss on extradimensssional thingsss!",
+  "glitchDescription" : "Distrust. It'd better not create a dimensional rift while I'm having dinner.",
+  "humanDescription" : "Cool, a table that exists in few dimensions at once.",
+  "hylotlDescription" : "An extradimensional object used as a table top. I question its safety.",
+  "novakidDescription" : "Some timey-wimey table, I guess.",
+
+  "inventoryIcon" : "atprk-4dtableicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dtable.png:<color>", "fullbright" : true }, { "image" : "atprk-4dtablelit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-4dtable.png:<color>", "fullbright" : true }, { "image" : "atprk-4dtablelit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

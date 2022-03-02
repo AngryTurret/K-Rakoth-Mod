@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk-4dcrateframe",
+  "colonyTags" : ["atprk_krakoth","atprk_4d"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A deactivated extradimensional crate. How do I turn it on now?",
+  "shortdescription" : "Extradimensional Crate Frame",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 180,
+  "health" : 1.5,
+
+  "apexDescription" : "A frame of a four-dimensional space generator.",
+  "avianDescription" : "A deactivated storage frame.",
+  "floranDescription" : "Ssstrange cage?",
+  "glitchDescription" : "Analytical. It appears to be a frame of an extradimensional crate.",
+  "humanDescription" : "A useless container frame.",
+  "hylotlDescription" : "Perhaps it was a device that could generate a small pocket dimension.",
+  "novakidDescription" : "It used t' be a container, but now it's useless junk.",
+
+  "inventoryIcon" : "atprk-4dcrateframeicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-4dcrateframe.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk-4dcrateframe.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}
