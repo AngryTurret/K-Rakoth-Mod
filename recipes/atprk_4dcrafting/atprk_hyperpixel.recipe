@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "voxel10k", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_hyperpixel",
+    "count" : 1
+  },
+  "groups" : [ "atprk_4dcrafting", "mod" ]
+}

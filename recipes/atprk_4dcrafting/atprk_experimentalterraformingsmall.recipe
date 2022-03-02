@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_experimentalterraforming", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_experimentalterraformingsmall",
+    "count" : 1
+  },
+  "groups" : [ "atprk_4dcrafting", "mod" ]
+}

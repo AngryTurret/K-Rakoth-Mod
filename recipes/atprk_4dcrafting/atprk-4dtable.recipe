@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 2},
+    { "item" : "atprk_4dcube", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk-4dtable",
+    "count" : 1
+  },
+  "groups" : [ "atprk_4dcrafting", "mod" ]
+}
