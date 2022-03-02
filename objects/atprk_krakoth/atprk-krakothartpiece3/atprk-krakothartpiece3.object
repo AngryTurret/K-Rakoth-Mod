@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk-krakothartpiece3",
+  "colonyTags" : ["atprk_krakoth","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "An ancient painting depicting the war of two elder races.",
+  "shortdescription" : "The War in Heaven",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+  "printable" : false,
+
+  "apexDescription" : "This painting depicts a conflict between the Ancients and K'Rakoths.",
+  "avianDescription" : "Something tells me their confrontation did not end well.",
+  "floranDescription" : "Fight! Fight! Fight!",
+  "glitchDescription" : "Astonished. A well-painted picture of a conflict between two elder races.",
+  "humanDescription" : "A war between two elder races must've been spectacular.",
+  "hylotlDescription" : "How come even the eldest and wisest civilizations engaged in violence?",
+  "novakidDescription" : "I root for the Ancients.",
+
+  "inventoryIcon" : "atprk-krakothartpiece3icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothartpiece3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-eldritchwalllight",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "description" : "A hi-tech wall light.",
+  "shortdescription" : "Elder Wall Light",
+  "race" : "generic",
+
+  "apexDescription" : "I wonder where this light drains energy from.",
+  "avianDescription" : "Pink light like that feels strongly unnatural.",
+  "floranDescription" : "Large octogonal light.",
+  "glitchDescription" : "Neutral. An octogonal wall light.",
+  "humanDescription" : "Someone forgot to turn it off.",
+  "hylotlDescription" : "A hi-tech wall light. Simple yet efficient.",
+  "novakidDescription" : "This light could blind a person!",
+
+  "category" : "light",
+  "price" : 60,
+  "printable" : false,
+  "lightColor" : [255, 83, 198],
+
+  "inventoryIcon" : "atprk-eldritchwalllighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchwalllight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk-eldritchwalllight.png",
+    "fg" : "atprk-eldritchwalllightlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

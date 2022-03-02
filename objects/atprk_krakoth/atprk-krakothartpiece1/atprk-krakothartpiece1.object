@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk-krakothartpiece1",
+  "colonyTags" : ["atprk_krakoth","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "An ancient painting depicting a K'Rakoth with a tesseract.",
+  "shortdescription" : "The Seeker of Knowledge",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+  "printable" : false,
+
+  "apexDescription" : "The object in this specimen's tentacles appears to be a tesseract. Curious.",
+  "avianDescription" : "Is this an ancient scientist experimenting with higher planes?",
+  "floranDescription" : "Why does thiss sssquid need a purple box?",
+  "glitchDescription" : "Doubtful. How can a three-dimensional creature hold something from the fourth dimension?",
+  "humanDescription" : "I'm not sure if it's a scientist or a wizard.",
+  "hylotlDescription" : "A portrait of an ancient scholar, it seems. They are holding a hypercube.",
+  "novakidDescription" : "That squid right there is castin' a spell!",
+
+  "inventoryIcon" : "atprk-krakothartpiece1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothartpiece1.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

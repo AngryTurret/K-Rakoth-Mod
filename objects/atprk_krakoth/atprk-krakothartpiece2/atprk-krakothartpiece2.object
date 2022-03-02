@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk-krakothartpiece2",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "An ancient painting of Ri'shaan devouring different people.",
+  "shortdescription" : "The Feasting God",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+  "printable" : false,
+
+  "apexDescription" : "If my theories are correct, then Ri'shaan is the Ruin, and this painting proves it.",
+  "avianDescription" : "Oh Kluex, is this really what I think it is?",
+  "floranDescription" : "Giant sssquid thing lookss at falling prey.",
+  "glitchDescription" : "Fearful. I'm pretty sure that one of these people is a Glitch!",
+  "humanDescription" : "I knew it! Ri'shaan is clearly the Ruin!... That's actually very bad.",
+  "hylotlDescription" : "The supposed god in the bottom looks way too familiar to me, and I don't like it.",
+  "novakidDescription" : "Darn, those squidfaces fed people to the Ruin!",
+
+  "inventoryIcon" : "atprk-krakothartpiece2icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothartpiece2.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

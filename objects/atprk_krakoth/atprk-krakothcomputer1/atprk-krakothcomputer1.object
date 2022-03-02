@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-krakothcomputer1",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
+  "rarity" : "Common",
+  "description" : "An advanced computer that calculates... something unimaginable, probably.",
+  "shortdescription" : "Elder Computer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 350,
+  "printable" : false,
+
+  "apexDescription" : "If only I understood how to operate this computer...",
+  "avianDescription" : "An extremely complex computer. Everything is written in an alien language.",
+  "floranDescription" : "Floran hasss no clue how to make it work.",
+  "glitchDescription" : "Inspired. This computer may hold much valuable data. Sadly, I don't know how to operate it yet.",
+  "humanDescription" : "All three screens show many strange symbols.",
+  "hylotlDescription" : "An advanced computer. I could try to browse it, but I doubt it will be fruitful.",
+  "novakidDescription" : "Everything's written in K'Rakothan language. Go figure what any of that means.",
+
+  "inventoryIcon" : "atprk-krakothcomputer1icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-krakothcomputer1.png:<color>", "fullbright" : true }, { "image" : "atprk-krakothcomputer1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-krakothcomputer1.png:<color>", "fullbright" : true }, { "image" : "atprk-krakothcomputer1lit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

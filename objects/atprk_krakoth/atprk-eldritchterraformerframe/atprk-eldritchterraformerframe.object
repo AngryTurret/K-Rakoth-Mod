@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-eldritchterraformerframe",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
+  "rarity" : "Legendary",
+  "description" : "K'Rakoths tried to reverse-engineer this terraformer, it seems.",
+  "shortdescription" : "Deactivated Terraformer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 550,
+  "printable" : false,
+
+  "apexDescription" : "A deactivated terraformer. It lacks its core.",
+  "avianDescription" : "Apparently, K'Rakoths managed to obtain some technology built by the Ancients.",
+  "floranDescription" : "Terraformer that doesssn't work for ssome reassson.",
+  "glitchDescription" : "Curious. How did K'Rakoths obtain this terraformer?",
+  "humanDescription" : "A deactivated terraformer. It seems to lack few parts.",
+  "hylotlDescription" : "A terraformer without its core. It is possible that K'Rakoths tried to reverse-engineer it.",
+  "novakidDescription" : "A terraformer stolen by K'Rakoths.",
+
+  "inventoryIcon" : "atprk-eldritchterraformerframeicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframe.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframelit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframe.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframelit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

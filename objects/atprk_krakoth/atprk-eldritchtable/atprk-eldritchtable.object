@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk-eldritchtable",
+  "colonyTags" : ["atprk_krakoth","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 105,
+  "description" : "A creepy ancient table.",
+  "shortdescription" : "Eldritch Table",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Is there something under a table? I cannot see.",
+  "avianDescription" : "I... I don't know what to say about this weird table...",
+  "floranDescription" : "Sssomething isss hiding under the table!",
+  "glitchDescription" : "Relieved. Oh, it's just a decorative head, not a real one.",
+  "humanDescription" : "Something is really off-putting about this table.",
+  "hylotlDescription" : "It looks like a small K'Rakoth holding a table... but it's also creepy.",
+  "novakidDescription" : "What's up with a squid head under a table?",
+
+  "inventoryIcon" : "atprk-eldritchtableicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchtable.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk-eldritchtable.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ]
+}
