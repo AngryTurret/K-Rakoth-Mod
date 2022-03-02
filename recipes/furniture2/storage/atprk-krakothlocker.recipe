@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk-krakothlocker",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "storage", "all", "mod" ]
+}

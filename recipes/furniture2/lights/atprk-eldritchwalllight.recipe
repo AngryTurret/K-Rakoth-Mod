@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 1 },
+    { "item" : "atprk_aeonbattery", "count" : 1 }  
+  ],
+  "output" : { "item" : "atprk-eldritchwalllight", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "lights", "all", "mod" ]
+}

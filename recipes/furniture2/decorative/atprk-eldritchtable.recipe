@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 3 }
+  ],
+  "output" : { "item" : "atprk-eldritchtable", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all", "mod" ]
+}

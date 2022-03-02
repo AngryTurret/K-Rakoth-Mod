@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "atprk-krakothsmalldoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all", "mod" ]
+}
