@@ -1,0 +1,137 @@
+{
+  "name" : "atprk_deepnecropolis",
+  "friendlyName" : "Deep Necropolis",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 1, "pyromantle" ],
+          [ 1, "wisper" ],
+          [ 1, "voltip" ],
+          [ 1, "snaunt" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "rock14",
+  "subBlocks" : [ "stonerubble", "rockbrick" ],
+  "ores" : "depth3",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 1,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 1,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_deepnecropolis" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChallengeDoors",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "challengedoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_deepnecropolismicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/underground5d.parallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

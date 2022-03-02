@@ -1,0 +1,82 @@
+{
+  "name" : "atprk_noolithbirthplace",
+  "friendlyName" : "Noolith Birthplace",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "atprk_roxmol" ],
+          [ 1.0, "atprk_shapelessdweller" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "blaststone",
+  "subBlocks" : [ "magmarock", "crystalblock" ],
+  "ores" : "depth3",
+
+  "undergroundPlaceables" : {
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_noolithbirthplace" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.15, "atprk_glaciovolcaniccrystal1" ], [0.15, "atprk_glaciovolcaniccrystal2" ], [0.15, "atprk_glaciovolcaniccrystal3" ], [0.15, "atprk_glaciovolcaniccrystal4" ], [0.20, "atprk_glaciovolcaniccrystal5" ], [0.20, "atprk_glaciovolcaniccrystal6" ], [0.20, "atprk_glaciovolcaniccrystal7" ], [0.20, "atprk_glaciovolcaniccrystal8" ]  ],
+            "parameters" : { }
+          }
+
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_noolithbirthplacemicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_shapelesscavedwellings" ]
+      }
+    ]
+  }
+}

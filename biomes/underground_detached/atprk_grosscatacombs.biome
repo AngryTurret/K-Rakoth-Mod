@@ -1,0 +1,125 @@
+{
+  "name" : "atprk_grosscatacombs",
+  "friendlyName" : "Gross Catacombs",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1.0, "hemogoblin" ],
+          [ 1.0, "oogler" ],
+          [ 1.0, "spookit" ],
+          [ 1.0, "petricub" ],
+          [ 1.0, "batong" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.2, "dartcritter" ],
+          [ 0.2, "maggotcritter" ],
+          [ 0.2, "spidercritter" ],
+          [ 0.2, "swarmcritter" ],
+          [ 0.2, "swarmflyingcritter" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "rock15",
+  "subBlocks" : [ "sewage", "fleshblock" ],
+  "ores" : "depth1",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "fleshgrass" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "mushroomseed" ] ],
+            "parameters" : { "startingStage" : 2 }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "fleshgrass" ],
+    "grassModDensity" : 0.5,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_grosscatacombsmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "mushroomseed" ] ],
+            "parameters" : { "startingStage" : 2 }
+          }
+        ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

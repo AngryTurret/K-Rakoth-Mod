@@ -1,0 +1,91 @@
+{
+  "name" : "atprk_navalminefield",
+  "friendlyName" : "Underwater Minefield",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 5,
+        "pool" : [
+          [ 1, "smallFishOcean1" ],
+          [ 1, "smallFishOcean2" ],
+          [ 1, "atprk_krakothmine" ],
+          [ 1, "squidcritter" ],
+          [ 1, "skellyfishcritter" ]
+        ]
+      }
+    ]
+  },
+
+  "parallax" : "/parallax/surface/atprk_navalminefield.parallax",
+
+  "hueShiftOptions" : [-45, 0, 45],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "stonerubble", "junk", "rock14" ],
+  "ores" : "surface",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.8,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_navalminefield" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "smashbones1" ], [0.25, "smashbones2" ], [0.25, "smashbones3" ], [0.25, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:everywhere",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_navalminefieldmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "moltenbones",
+            "baseHueShiftMax" : 10,
+            "modHueShiftMax" : 10
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "grass",
+        "grasses" : [ "pebbles" ]
+      }
+    ]
+  }
+}

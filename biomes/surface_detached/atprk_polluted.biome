@@ -1,0 +1,169 @@
+{
+  "name" : "atprk_polluted",
+  "friendlyName" : "Polluted",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "atprk_oculopter" ],
+          [ 1.0, "atprk_androne" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 1, "hazmatcritter" ],
+          [ 1, "gullcritter" ],
+          [ 1, "groopcritter" ],
+          [ 1, "swarmflyingcritter" ],
+          [ 1, "ravencritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "scorchedcity"
+    }
+  },
+
+  "mainBlock" : "rock01",
+  "subBlocks" : [ "drydirt", "junk" ],
+  "ores" : "surface",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.45,
+
+    "ceilingGrassMod" : [ "tarceiling" ],
+    "ceilingGrassModDensity" : 0.6,
+
+    "baseHueShiftMax" : 60,
+    "modHueShiftMax" : 180,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.25, "capsulemed" ], [0.15, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_pollutedmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 2,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 80,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "deadtree1", "underwood", "atprk_rusty" ],
+        "treeFoliageList" : [ "deadmoss", "deadleaves", "mossy", "scattered", "atprk_rustyempty" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_pollutedbush",
+            "baseHueShiftMax" : 50,
+            "modHueShiftMax" : 20
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_polluted" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "atprk_pollutedjunk1" ], [0.25, "atprk_pollutedjunk2" ], [0.25, "atprk_pollutedjunk3" ], [0.25, "atprk_pollutedjunk4" ], [0.25, "atprk_pollutedjunk5" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "charredgrass" ],
+    "grassModDensity" : 0.8,
+
+    "ceilingGrassMod" : [ "moss" ],
+    "ceilingGrassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.25, "capsulemed" ], [0.15, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_pollutedbush",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 20
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_polluted" ]
+      }
+    ]
+  }
+}

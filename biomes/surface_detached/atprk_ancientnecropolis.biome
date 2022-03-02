@@ -1,0 +1,128 @@
+{
+  "name" : "atprk_ancientnecropolis",
+  "friendlyName" : "Ancient Necropolis",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 1, "quibblecritter" ],
+          [ 1, "dartcritter" ],
+          [ 1, "wurmcritter" ],
+          [ 1, "krawlcritter" ]      
+        ]
+      },
+      {
+        "select" : 4,
+        "pool" : [ 
+          [ 1, "voltip" ],
+          [ 1, "pyromantle" ],
+          [ 1, "wisper" ],
+          [ 1, "snaunt" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "rock14",
+  "subBlocks" : [ "rustymetal", "stonerubble" ],
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.8,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_ancientnecropolis" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.1, "atprk_ancientdebris1" ], [0.1, "atprk_ancientdebris2" ], [0.1, "atprk_ancientdebris3" ], [0.1, "atprk_ancientdebris4" ], [0.1, "atprk_ancientdebris5" ], [0.1, "atprk_ancientdebris6" ], [0.1, "atprk_ancientdebris7" ], [0.1, "atprk_ancientdebris8" ], [0.1, "atprk_ancientdebris9" ], [0.1, "atprk_ancientdebris10" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_ancientnecropolismicrodungeons" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.5,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_ancientnecropolis" ]
+      }
+    ]
+  }
+}

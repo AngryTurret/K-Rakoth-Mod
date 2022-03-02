@@ -1,0 +1,122 @@
+{
+  "name" : "atprk_glaciovolcanic",
+  "friendlyName" : "Glaciovolcanic",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "atprk_roxmol" ],
+          [ 1.0, "atprk_sapphase" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "crystaltortoisecritter" ],
+          [ 1, "hollowcritter" ],
+          [ 1, "prismscabcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "snow"
+    }
+  },
+
+  "hueShiftOptions" : [0],
+
+  "mainBlock" : "blaststone",
+  "subBlocks" : [ "frozenwater", "magmarock", "slush" ],
+  "ores" : "depth1",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.6,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_glaciovolcanicmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_shapelessdwellings" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "atprk_glaciovolcaniccrystal1" ], [0.25, "atprk_glaciovolcaniccrystal2" ], [0.25, "atprk_glaciovolcaniccrystal3" ], [0.25, "atprk_glaciovolcaniccrystal4" ], [0.05, "atprk_glaciovolcaniccrystal5" ], [0.05, "atprk_glaciovolcaniccrystal6" ], [0.05, "atprk_glaciovolcaniccrystal7" ], [0.05, "atprk_glaciovolcaniccrystal8" ]  ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.3,
+
+    "ceilingGrassMod" : [ "ceilingsnow" ],
+    "ceilingGrassModDensity" : 0.5,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.15, "atprk_glaciovolcaniccrystal1" ], [0.15, "atprk_glaciovolcaniccrystal2" ], [0.15, "atprk_glaciovolcaniccrystal3" ], [0.15, "atprk_glaciovolcaniccrystal4" ], [0.20, "atprk_glaciovolcaniccrystal5" ], [0.20, "atprk_glaciovolcaniccrystal6" ], [0.20, "atprk_glaciovolcaniccrystal7" ], [0.20, "atprk_glaciovolcaniccrystal8" ]  ],
+            "parameters" : { }
+          }
+
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_glaciovolcanic" ]
+      }
+    ]
+  }
+}

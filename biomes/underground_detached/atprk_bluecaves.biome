@@ -1,0 +1,188 @@
+{
+  "name" : "atprk_bluecaves",
+  "friendlyName" : "Blue Caves",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1.0, "wisper" ],
+          [ 1.0, "lilodon" ],
+          [ 1.0, "pulpin" ],
+          [ 1.0, "skimbus" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.25, "glowingballcritter" ],
+          [ 0.25, "slugbluecritter" ],
+          [ 0.25, "glowingfishcritter" ],
+          [ 0.25, "quibblecritter" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "alienrock",
+  "subBlocks" : [ "cobblestone", "biorock2" ],
+  "ores" : "depth2",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "colourfulgrass" ],
+    "grassModDensity" : 1,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "bioroots",
+            "baseHueShiftMax" : 5,
+            "modHueShiftMax" : 5
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "geometric" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildfeathercrownseed" ] ],
+            "parameters" : { "startingStage" : 3 }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "colourfulgrass" ],
+    "grassModDensity" : 1,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "bioroots",
+            "baseHueShiftMax" : 5,
+            "modHueShiftMax" : 5
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "geometric" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:layer1Chests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildfeathercrownseed" ] ],
+            "parameters" : { "startingStage" : 3 }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "name" : "atprk_boilingocean",
+  "friendlyName" : "Boiling Ocean",
+
+  "statusEffects" : [ "biomeheat" ],
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.1666, "scandroid" ],
+          [ 0.1666, "petricub" ],
+          [ 0.1666, "ignome" ],
+          [ 0.1666, "crabcano" ],
+          [ 0.1666, "monopus" ],
+          [ 0.1666, "smoglin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "tidefly" ],
+          [ 0.3, "heathugger" ],
+          [ 0.3, "glowbug" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      }, 
+      {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      },      
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "appofloatcritter" ],
+          [ 1, "squidcritter" ],
+          [ 1, "glitchscabcritter" ],
+          [ 1, "crabcritter" ],
+          [ 1, "charfishcritter" ],
+          [ 1, "jellocritter" ],
+          [ 1, "fishchilicritter" ],
+          [ 1, "volcanicflowercritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+
+  "weather" : [
+    [0, [
+      "/weather.config:atprk_boilingocean"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // gray cloudy day, light-pink sunrise and dull purple sunset
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [182, 158, 180], [235, 169, 230] ],
+      "dayColors" : [ [141, 141, 141], [210, 210, 210] ],
+      "eveningColors" : [ [99, 71, 108], [162, 109, 158] ],
+      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
+
+      "morningLightColor" : [150, 114, 156],
+      "dayLightColor" : [200, 200, 200],
+      "eveningLightColor" : [160, 120, 180],
+      "nightLightColor" : [40, 20, 60]
+    },
+    {
+      // sunny pinkish day, yellow sunrise and red/orange sunset
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [244, 211, 80], [255, 243, 189] ],
+      "dayColors" : [ [241, 167, 214], [241, 202, 218] ],
+      "eveningColors" : [ [179, 53, 53], [255, 173, 67] ],
+      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
+
+      "morningLightColor" : [202, 162, 40],
+      "dayLightColor" : [222, 200, 200],
+      "eveningLightColor" : [180, 130, 110],
+      "nightLightColor" : [40, 20, 60]
+    },
+    {
+      // teal day, dark-teal sunrise and green sunset
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [54, 81, 64], [124, 225, 157] ],
+      "dayColors" : [ [142, 214, 189], [203, 231, 221] ],
+      "eveningColors" : [ [25, 65, 45], [52, 187, 100] ],
+      "nightColors" : [ [24, 53, 49, 80], [42, 60, 70, 160] ],
+
+      "morningLightColor" : [93, 142, 95],
+      "dayLightColor" : [170, 220, 200],
+      "eveningLightColor" : [71, 145, 92],
+      "nightLightColor" : [20, 60, 40]
+    }
+  ],
+
+  "mainBlock" : "clay",
+  "subBlocks" : [ "blaststone" ],
+  "ores" : "surface",
+
+  "parallax" : "/parallax/surface/atprk_boilingocean.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/ocean_surface_stormy.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/ocean_surface_stormy.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/accretion-disc.ogg", "/music/casiopeia.ogg", "/music/desert-exploration2.ogg", "/music/the-eternal-tide.ogg", "/music/vast-immortal-suns.ogg", "/music/inviolate-loop.ogg", "/music/body-electric-loop.ogg", "/music/atlas.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/nomads.ogg", "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg", "/music/mercury.ogg", "/music/epsilon-indi.ogg", "/music/forsaken-grotto.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "charredgrass" ],
+    "grassModDensity" : 0.5,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_boilingocean" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_boilingoceanmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "grass",
+        "grasses" : [ "crisp", "pebbles", "savannahgrass" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "wicked",
+            "baseHueShiftMax" : 10,
+            "modHueShiftMax" : 10
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildautomatoseed" ] ],
+            "parameters" : {
+              "startingStage" : 4
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildboltbulbseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "charredgrass" ],
+    "grassModDensity" : 0.7,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}
