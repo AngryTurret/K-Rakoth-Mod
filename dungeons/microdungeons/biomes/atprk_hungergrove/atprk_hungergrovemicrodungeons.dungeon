@@ -1,0 +1,144 @@
+{
+  "metadata" : {
+    "name" : "atprk_hungergrovemicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_clifffenronruins1", "atprk_clifffenronruins2", "atprk_cliffplant1", "atprk_cliffplant2", "atprk_cliffplant3", "atprk_cliffplant4", "atprk_fenronritualtotem", "atprk_fenronsmallruins1", "atprk_fenronsmallruins2", "atprk_maneaterplant1", "atprk_maneaterplant2", "atprk_maneaterplant3", "atprk_maneaterplant4", "atprk_maneaterplant5", "atprk_maneaterplant6", "atprk_maneaterplant7", "atprk_maneaterplant8", "atprk_maneaterwaste" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_clifffenronruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_clifffenronruins1.json" ]
+    },
+    {
+      "name" : "atprk_clifffenronruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_clifffenronruins2.json" ]
+    },
+    {
+      "name" : "atprk_cliffplant1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_cliffplant1.json" ]
+    },
+    {
+      "name" : "atprk_cliffplant2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_cliffplant2.json" ]
+    },
+    {
+      "name" : "atprk_cliffplant3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_cliffplant3.json" ]
+    },
+    {
+      "name" : "atprk_cliffplant4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_cliffplant4.json" ]
+    },
+    {
+      "name" : "atprk_fenronritualtotem",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_fenronritualtotem.json" ]
+    },
+    {
+      "name" : "atprk_fenronsmallruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_fenronsmallruins1.json" ]
+    },
+    {
+      "name" : "atprk_fenronsmallruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_fenronsmallruins2.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant1.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant2.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant3.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant4.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant5.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant6.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant7.json" ]
+    },
+    {
+      "name" : "atprk_maneaterplant8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterplant8.json" ]
+    },
+    {
+      "name" : "atprk_maneaterwaste",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_maneaterwaste.json" ]
+    }
+  ]
+}
