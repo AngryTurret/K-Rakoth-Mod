@@ -1,0 +1,58 @@
+{
+  "objectName" : "atprk_terraformercorepedestal",
+  "colonyTags" : ["atprk_krakoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+
+  "description" : "A round core extracted from an ancient terraformer.",
+  "shortdescription" : "Terraformer Core Pedestal",
+  "race" : "generic",
+
+  "apexDescription" : "A round core extracted from an ancient terraformer. Perhaps I could take it.",
+  "avianDescription" : "It must be a terraformer core. Maybe I can do something with it.",
+  "floranDescription" : "Shiny marble. It may be ussseful.",
+  "glitchDescription" : "Analytical. This object looks like a terraformer core. It may be utilized somehow.",
+  "humanDescription" : "A terraformer core! Maybe I could make my own terraformer with this thing.",
+  "hylotlDescription" : "A core extracted from an ancient terraformer. With right tools, one can use it once again.",
+  "novakidDescription" : "A round core of a terraformer, if my mind ain't foolin' me. Handy stuff.",
+
+  "inventoryIcon" : "atprk_terraformercorepedestalicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_terraformercorepedestal.png:<color>", "fullbright" : true }, { "image" : "atprk_terraformercorepedestallit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_terraformercorepedestal.png:<color>", "fullbright" : true }, { "image" : "atprk_terraformercorepedestallit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/wiredtarget_break1.ogg", "/sfx/objects/wiredtarget_break2.ogg", "/sfx/objects/wiredtarget_break3.ogg", "/sfx/objects/wiredtarget_break4.ogg", "/sfx/objects/wiredtarget_break5.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_terraformercore", 1, { } ], [ "atprk_eldertech", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
