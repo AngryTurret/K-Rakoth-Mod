@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk-gildedfloorbutton",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 40,
+  "description" : "A small floor-mounted button that activates traps.",
+  "shortdescription" : "Gilded Floor Button",
+  "race" : "generic",
+
+  "apexDescription" : "Perhaps covering secret buttons in gold is not the best idea.",
+  "avianDescription" : "This button shines so much it's hard not to spot it.",
+  "floranDescription" : "Sssmall button! Shiny!",
+  "glitchDescription" : "Sneering. Nice try, but my sensors are good enough to detect this button.",
+  "humanDescription" : "Hey, I see a small button on the floor!",
+  "hylotlDescription" : "I probably shouldn't step on it.",
+  "novakidDescription" : "That's a sneaky lil' button right there.",
+
+
+  "inventoryIcon" : "atprk-gildedfloorbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedfloorbutton.png:<color>.off",
+      "imagePosition" : [-6, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/proximitysensor/proximitysensor.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/proximitysensor/pressureplate3.animation",
+  "animationParts" : {
+    "switch" : "atprk-gildedfloorbutton.png"
+  },
+  "animationPosition" : [-6, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-0.3, 0], [0.3, 0.5] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "floorbutton"
+    ],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

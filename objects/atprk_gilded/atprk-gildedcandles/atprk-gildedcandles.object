@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk-gildedcandles",
+  "colonyTags" : ["atprk_krakoth","pretty","valuable","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 125,
+  "description" : "Because fire cannot burn underwater, you know.",
+  "shortdescription" : "Gilded Coral Candles",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Quite a creative use of natural bioluminescence.",
+  "avianDescription" : "It's not fire that's glowing...",
+  "floranDescription" : "Golden ssstick with no fire, ssstill glowss. Nice.",
+  "glitchDescription" : "Nostalgic. Golden candlesticks like this can be found in many Glitch manors... except they have no corals.",
+  "humanDescription" : "I never thought of using glowing corals in such way.",
+  "hylotlDescription" : "It's curious how ancient Hylotl also used glowing corals to illuminate their surroundings.",
+  "novakidDescription" : "A candlestick you ain't have to light up everytime.",
+
+  "statusEffects" : [ ],
+  
+  "lightColor" : [240, 120, 0],
+  "lightPosition" : [0, 4],
+
+  "inventoryIcon" : "atprk-gildedcandlesicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedcandles.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, -1], [0, -1] ]
+    },
+    {
+      "image" : "atprk-gildedcandles.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, -1], [0, -1] ]
+    }
+  ],
+
+  "animation" : "atprk-gildedcandles.animation",
+  "animationParts" : {
+    "bg" : "atprk-gildedcandles.png",
+    "fg" : "atprk-gildedcandleslit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ]
+}

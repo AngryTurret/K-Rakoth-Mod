@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedportrait-worm",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A religious emblem shaped like a Annelisk head.",
+  "shortdescription" : "Gilded Worm Emblem",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "It's hard to tell whether it's a snake or a worm.",
+  "avianDescription" : "A worm? A snake? Maybe neither or both.",
+  "floranDescription" : "Floran doesss not know whossse face it iss.",
+  "glitchDescription" : "Puzzled. Is this a reptiloid creature? It could be an insectoid, though.",
+  "humanDescription" : "What is this, a mask? Doesn't look like a normal face, anyway.",
+  "hylotlDescription" : "Featureless faces like this one are not recognizable at all. Who is this?",
+  "novakidDescription" : "A... uh... brandless Novakid? No, wait, it has eyes.",
+  
+  "inventoryIcon" : "atprk-gildedportrait-wormicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedportrait-worm.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

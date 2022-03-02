@@ -1,0 +1,58 @@
+{
+  "objectName" : "atprk-gildedpressureplatform",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 75,
+  "description" : "A golden platform that moves inside the wall once stepped on.",
+  "shortdescription" : "Gilded Pressure Platform",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "I suspect it is yet another pressure sensitive platform, but golden.",
+  "avianDescription" : "A pressure sensitive platform made of gold... I think.",
+  "floranDescription" : "A fancy platform. Can Floran ssstep on it?",
+  "glitchDescription" : "Doubtful. Something is off about this platform.",
+  "humanDescription" : "A pressure platform but somewhat fancier.",
+  "hylotlDescription" : "What a waste of precious metals, honestly.",
+  "novakidDescription" : "It may be golden but I shouldn't stand on it for too long.",
+
+  "inventoryIcon" : "atprk-gildedpressureplatformicon.png",
+
+  "scripts" : [ "/objects/wired/door/trapdoor.lua" ],
+  "scriptDelta" : 10,
+
+  "animation" : "/objects/wired/door/4framedoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/stonedoor_open_fast.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/stonedoor_close_fast.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk-gildedpressureplatform.png"
+  },
+
+  "orientations" : [
+    {
+      "image" : "atprk-gildedpressureplatform.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "detectArea" : [ [-1.95, 0.5], [2.95, 1.25] ],
+
+  "stayClosedTime" : 0.4, // before the platform disappears
+  "stayOpenTime" : 2.0 // after the platform has disappeared and all players have left
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedglass",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "description" : "A minor K'Rakoth artifact. You shouldn't really drink from it.",
+  "shortdescription" : "Gilded Glass",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 75,
+
+  "apexDescription" : "A well-crafted juice glass.",
+  "avianDescription" : "A beautiful glass for rare drinks.",
+  "floranDescription" : "Big cup, Floran can drink a lot with thisss.",
+  "glitchDescription" : "Humble. I don't think it's the right time for a feast.",
+  "humanDescription" : "A fine glass to deal with thirst.",
+  "hylotlDescription" : "I wonder what liquids it contained.",
+  "novakidDescription" : "A mighty fine golden cup.",
+
+  "inventoryIcon" : "atprk-gildedglassicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-gildedglass.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

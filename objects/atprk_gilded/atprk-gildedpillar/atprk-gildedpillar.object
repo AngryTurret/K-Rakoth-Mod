@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-gildedpillar",
+  "colonyTags" : ["atprk_krakoth","atprk_religious"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An ancient pillar covered in dark gold.",
+  "shortdescription" : "Gilded Pillar",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 145,
+
+  "apexDescription" : "I don't think this pillar is very functional.",
+  "avianDescription" : "This pillar stayed intact for so long...",
+  "floranDescription" : "Ssstrong golden pillar.",
+  "glitchDescription" : "Informed. This pillar isn't really covered in gold. It appears to be an alloy.",
+  "humanDescription" : "Some heavy-looking pillar.",
+  "hylotlDescription" : "A beautiful pillar covered in gold.",
+  "novakidDescription" : "Why'd anyone waste so much gold on a pillar?",
+
+  "inventoryIcon" : "atprk-gildedpillaricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedpillar.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk-gildedpillar.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

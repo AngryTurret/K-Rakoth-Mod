@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk-gildedemblemlarge",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 180,
+  "printable" : false,
+
+  "apexDescription" : "It is not Big Ape watching me, is it?",
+  "avianDescription" : "The gaze of this emblem unnerves me.",
+  "floranDescription" : "Hossstile look... It wantss to attack me!",
+  "glitchDescription" : "Curious. I wonder if its eyelids can move.",
+  "humanDescription" : "How big must a contact lens for this eye be?",
+  "hylotlDescription" : "If this eye was designed to intimidate parishioners, then it does quite well.",
+  "novakidDescription" : "Not much t' look at there, buddy.",
+
+
+  "description" : "A large gilded emblem shaped like an eye.",
+  "shortdescription" : "Large Gilded Eye Emblem",
+  "race" : "generic",
+
+  "inventoryIcon" : "atprk-gildedemblemlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedemblemlarge.png:<color>",
+      "imagePosition" : [-48, -32],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

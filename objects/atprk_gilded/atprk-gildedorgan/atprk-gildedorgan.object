@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedorgan",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty","valuable"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 240,
+
+  "description" : "A large gilded organ that hasn't been used for ages.",
+  "shortdescription" : "Gilded Organ",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Some Apex nobles keep organs in their mansions as well.",
+  "avianDescription" : "An ominous organ indeed. I wonder what kind of music K'Rakoths played.",
+  "floranDescription" : "Bunch of shiny pipesss.",
+  "glitchDescription" : "Impressed. Albeit uncanny, this organ is well-crafted.",
+  "humanDescription" : "An ominous organ. A good choice for a mansion or a church.",
+  "hylotlDescription" : "A crude musical instrument.",
+  "novakidDescription" : "A big ol' organ that wouldn't be out o' place in a church.",
+
+  "inventoryIcon" : "atprk-gildedorganicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-gildedorgan.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

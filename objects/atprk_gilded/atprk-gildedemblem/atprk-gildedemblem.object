@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedemblem",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+
+  "description" : "A literal golden eye.",
+  "shortdescription" : "Gilded Eye Emblem",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Big Ape is watching us the same way this evil eye is.",
+  "avianDescription" : "Who are you, a mysterious beholder?",
+  "floranDescription" : "What isss thiss eye looking at?",
+  "glitchDescription" : "Sneering. It's all fun and games until this eye blinks.",
+  "humanDescription" : "Yeah, totally doesn't look like the Ruin or anything.",
+  "hylotlDescription" : "It's rude to stare like that.",
+  "novakidDescription" : "Ay, what're you lookin' at? Never seen a livin' star before?",
+  
+  "inventoryIcon" : "atprk-gildedemblemicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedemblem.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

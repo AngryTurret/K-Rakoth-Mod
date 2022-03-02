@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedportrait-tailed",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A religious emblem shaped like a Fenron head.",
+  "shortdescription" : "Gilded Feral Emblem",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Neither Apex, nor Human, nor Fenerox, but clearly mammalian.",
+  "avianDescription" : "A face of a vaguely feline creature.",
+  "floranDescription" : "Wild cat'sss face?",
+  "glitchDescription" : "Irked. This face definitely has feline features but doesn't quite match most known species.",
+  "humanDescription" : "Look, there are many furry races out there, how am I supposed to know which one this emblem represents?",
+  "hylotlDescription" : "A mysterious feline being.",
+  "novakidDescription" : "Kinda looks like a wild cat if you ask me.",
+  
+  "inventoryIcon" : "atprk-gildedportrait-tailedicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedportrait-tailed.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

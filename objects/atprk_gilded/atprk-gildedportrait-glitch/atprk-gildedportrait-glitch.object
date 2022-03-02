@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-gildedportrait-glitch",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A religious emblem shaped like a Glitch head.",
+  "shortdescription" : "Gilded Automaton Emblem",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Is this a Glitch saint's portrait or just a meaningless decoration?",
+  "avianDescription" : "Looks like K'Rakoths had some respect to the Glitch. This portrait is very accurate.",
+  "floranDescription" : "Metal man's face made of gold.",
+  "glitchDescription" : "Impressed. K'Rakoths made a truly accurate replica of a Glitch's face.",
+  "humanDescription" : "The elder race appreciated the Glitch, it seems.",
+  "hylotlDescription" : "It sure looks amazing, but why not a beautiful Hylotl's face?",
+  "novakidDescription" : "A giant Glitch's head. Probably ain't real.",
+  
+  "inventoryIcon" : "atprk-gildedportrait-glitchicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedportrait-glitch.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

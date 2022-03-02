@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-gildedstatue",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty","valuable"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  "description" : "A gilded statue of a K'Rakoth. It has a noble look.",
+  "shortdescription" : "Gilded Statue",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Is this what K'Rakoth ruler looked like?",
+  "avianDescription" : "A statue of a K'Rakoth priest, I suppose.",
+  "floranDescription" : "Golden king or sssomething.",
+  "glitchDescription" : "Respectful. This specimen looks like a worthy king.",
+  "humanDescription" : "A priest? A king? Maybe an alien angel? Who knows.",
+  "hylotlDescription" : "A golden statue of a very important K'Rakoth.",
+  "novakidDescription" : "This golden fella probably had a big name.",
+
+  "inventoryIcon" : "atprk-gildedstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-gildedstatue.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
