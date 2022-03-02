@@ -1,0 +1,72 @@
+{
+  "objectName" : "atprk_4dcraftingsmall",
+  "colonyTags" : ["crafting","electronic"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/atprk_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Mini-Compressor",
+        "subtitle" : "Think outside the third dimension",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_4dcraftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "atprk_4dcrafting" ]
+  },
+  "printable" : false,
+  "description" : "A more compact version of the Dimensional Compressor. Or should I say the Compressed Compressor?",
+  "shortdescription" : "Mini-Compressor",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 150,
+
+  "learnBlueprintsOnPickup" : [
+    "atprk_reconstructiontablesmall",
+    "atprk_relicexchangesmall",
+    "atprk_experimentalterraformingsmall",
+    "atprk-4dperfect"
+  ],
+
+  "lightColor" : [99, 13, 84],
+
+  "apexDescription" : "An ancient device that allows its user to create multidimensional objects.",
+  "avianDescription" : "This console creates rather complex but somewhat mundane objects.",
+  "floranDescription" : "Floran can make hypercubesss to sstore ssstuff in.",
+  "glitchDescription" : "Intrigued. With this console, I'll be able to create small four-dimensional spaces.",
+  "humanDescription" : "Now I can make my own hypercubes and store items in them!",
+  "hylotlDescription" : "An ancient machine that folds reality itself to make mundane objects.",
+  "novakidDescription" : "Something weird's goin' on here, but I could use it.",
+
+  "inventoryIcon" : "atprk_4dcraftingsmallicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_4dcraftingsmall.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_4dcraftingsmalllit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_4dcraftingsmall.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_4dcraftingsmalllit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
