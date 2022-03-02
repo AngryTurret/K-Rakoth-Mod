@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk_ufotable",
+  "colonyTags" : ["atprk_ufo","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A futuristic table shaped like a small UFO.",
+  "shortdescription" : "Xeno Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 65,
+
+  "apexDescription" : "What purpose does a flying table serve?",
+  "avianDescription" : "This table is held in the air by the will of Kluex... or some anti-gravity tech maybe.",
+  "floranDescription" : "Ssstay on the floor, ssstupid table!",
+  "glitchDescription" : "Surprised. This table absorbs milk by unknown means.",
+  "humanDescription" : "If tiny aliens come out of this table and steal my breakfast, I'm selling it.",
+  "hylotlDescription" : "I sense a very subtle anime reference but I cannot put my finger on it...",
+  "novakidDescription" : "I'm so confused. How do I stop it from floatin' above the ground?",
+
+  "inventoryIcon" : "atprk_ufotableicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ufotable.png:<color>", "fullbright" : true }, { "image" : "atprk_ufotablelit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ufotable.png:<color>", "fullbright" : true }, { "image" : "atprk_ufotablelit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_ufochair",
+  "colonyTags" : ["atprk_ufo"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A futuristic floating chair. Don't fall off!",
+  "shortdescription" : "Xeno Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 65,
+
+  "apexDescription" : "A hi-tech chair that can levitate. For some reason.",
+  "avianDescription" : "An alien-looking chair... if you can even call it a chair...",
+  "floranDescription" : "Sssaucers are not for sssitting, they are for eating! Even if they fly.",
+  "glitchDescription" : "Amused. Two flying saucer-shaped pads you can sit on? Count me in!",
+  "humanDescription" : "An alien chair. Or maybe it's just two floating pads made into a chair.",
+  "hylotlDescription" : "A chair comprised of two hovering discs. While creative, it does not look very comfortable.",
+  "novakidDescription" : "An ugly flyin' chair.",
+
+  "inventoryIcon" : "atprk_ufochairicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ufochair.png:<color>", "fullbright" : true }, { "image" : "atprk_ufochairlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ufochair.png:<color>", "fullbright" : true }, { "image" : "atprk_ufochairlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_ufochest",
+  "colonyTags" : ["atprk_ufo","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 55,
+  "description" : "A levitating metal chest.",
+  "shortdescription" : "Xeno Chest",
+  "race" : "generic",
+  "health" : 1.8,
+
+  "apexDescription" : "A hovering container? Why would anyone need anything like that?",
+  "avianDescription" : "Even chests can fly, who would have thought?",
+  "floranDescription" : "Weird floating chessst. Floran can't keep it down. That's ssstupid!",
+  "glitchDescription" : "Analytical. This container does not appear to be able to stop levitating above the ground.",
+  "humanDescription" : "A floating alien chest. Cool.",
+  "hylotlDescription" : "An otherworldly container.",
+  "novakidDescription" : "Why won't you stay on the ground? What's the point havin' a flyin' box?",
+
+
+  "inventoryIcon" : "atprk_ufochesticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_ufochest.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_ufochestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_ufochest.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_ufochestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_ufobed",
+  "colonyTags" : ["atprk_ufo"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A metallic bed of an alien design.",
+  "shortdescription" : "Xeno Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "I do not trust this bed.",
+  "avianDescription" : "A bed that lets you float in the air while you sleep.",
+  "floranDescription" : "Flying bed is sssilly.",
+  "glitchDescription" : "Curious. How likely is it to fall off this bed when you sleep?",
+  "humanDescription" : "Sleeping in this bed feels like being abducted by aliens in the night.",
+  "hylotlDescription" : "A surprisingly soothing hovering bed. Perfect for meditation.",
+  "novakidDescription" : "A bit 'o a suspicious lookin' bed, I wouldn't rest on that.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/atprk_ufo/atprk_ufobed/atprk_ufobedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_ufobedicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_ufobed.png:<color>", "fullbright" : true }, { "image" : "atprk_ufobedlit.png:<color>" } ],
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-12, 16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_ufobed.png:<color>", "fullbright" : true }, { "image" : "atprk_ufobedlit.png:<color>" } ],
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-12, 16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

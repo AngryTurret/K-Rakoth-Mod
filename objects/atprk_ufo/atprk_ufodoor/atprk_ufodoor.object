@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_ufodoor",
+  "colonyTags" : ["atprk_ufo","door"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "door",
+  "price" : 125,
+  "description" : "An alien forcefield that separates two areas.",
+  "shortdescription" : "Xeno Barrier",
+  "race" : "generic",
+
+  "closedLight" : [161, 255, 99],
+
+  "apexDescription" : "A light barrier designed by an unidentified race.",
+  "avianDescription" : "A door formed by pure light.",
+  "floranDescription" : "Glowy door? Floran doesssn't need it, it givesss Floran's housse away!",
+  "glitchDescription" : "Impressed. A hard light barrier that cannot be breached.",
+  "humanDescription" : "Wait, how do I know if it's really safe?",
+  "hylotlDescription" : "I would not trust a door made of nothing but light. But at least it looks pleasing.",
+  "novakidDescription" : "Am I seein' my own reflection, or is it the door itself glowin?",
+
+  "inventoryIcon" : "atprk_ufodooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ufodoor.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/fullbrightanimatedslidingdoor.animation",
+  "animationParts" : {
+    "bg" : "atprk_ufodoor.png",
+    "fg" : "atprk_ufodoorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

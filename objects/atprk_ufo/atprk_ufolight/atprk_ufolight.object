@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk_ufolight",
+  "colonyTags" : ["atprk_ufo","light"],
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "An extraterrestrial lamp.",
+  "shortdescription" : "Xeno Lamp",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 90,
+  "lightColor" : [161, 255, 99],
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.35,
+
+  "apexDescription" : "A floating lamp shaped like a UFO.",
+  "avianDescription" : "I can feel my feathers being pulled by this green beam of light. That's not good.",
+  "floranDescription" : "Sssmall invadersss! Floran can sssmash them all!",
+  "glitchDescription" : "Intimidated. I swear I saw one of these abducting a Mooshi!",
+  "humanDescription" : "Are there tiny aliens piloting this lamp? I hope there are.",
+  "hylotlDescription" : "An alien lamp of a peculiar design.",
+  "novakidDescription" : "I should probably keep it away from my Mooshi.",
+
+  "inventoryIcon" : "atprk_ufolighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_ufolight.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_ufolightlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, -32],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -4],
+      "beamAngle" : 270
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_ufolight.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_ufolightlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, -32],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -4],
+      "beamAngle" : 270
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_ufolight.png",
+    "fg" : "atprk_ufolightlit.png"
+  },
+  "animationPosition" : [-8, -32],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, -3] ]
+}

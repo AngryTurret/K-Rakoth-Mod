@@ -1,0 +1,14 @@
+{
+
+  "frameGrid" : {
+    "size" : [24, 40],
+    "dimensions" : [2, 9],
+    "names" : [
+      [ "default.on", "default.off" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.on"
+  }
+}
