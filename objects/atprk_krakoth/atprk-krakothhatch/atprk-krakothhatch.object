@@ -1,0 +1,58 @@
+{
+  "objectName" : "atprk-krakothhatch",
+  "colonyTags" : ["atprk_krakoth","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "description" : "A durable airlock hatch made of ancient alloys.",
+  "shortdescription" : "Eldritch Hatch",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A sturdy hatch. It has been active for a long time.",
+  "avianDescription" : "A large hatch made of some heavy metals.",
+  "floranDescription" : "Giant ancient doorsss.",
+  "glitchDescription" : "Unsettled. Any particular reason this hatch is so big?",
+  "humanDescription" : "Just what was this giant hatch supposed to keep inside?",
+  "hylotlDescription" : "Even our underwater cities don't have hatches this sturdy.",
+  "novakidDescription" : "The door's pretty tough.",
+
+  "inventoryIcon" : "atprk-krakothhatchicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothhatch.png:default",
+      "imagePosition" : [-24, -8],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+      
+      "animationPosition" : [-24, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk-krakothhatch.png"
+  },
+
+  "inputNodes" : [ [-3, 1] ],
+  "outputNodes" : [ [4, -1] ]
+}

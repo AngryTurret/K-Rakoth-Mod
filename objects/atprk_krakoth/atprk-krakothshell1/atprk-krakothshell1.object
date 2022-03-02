@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothshell1",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+
+  "shortdescription" : "Eldritch Shell",
+  "description" : "A large decorative shell made of unknown alloys.",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "An ancient decoration made of unknown alloys. It must be very durable.",
+  "avianDescription" : "This shell looks heavy. I hope it doesn't fall off the wall.",
+  "floranDescription" : "Floran doesssn't see any metal ssnails around. Where is thiss shell from?",
+  "glitchDescription" : "Confused. Did this shell belong to a giant mechanical snail?",
+  "humanDescription" : "This giant shell could crush a person. Gotta be careful around it!",
+  "hylotlDescription" : "How delightful. Looks like K'Rakoth were as fond of nature as Hylotl are.",
+  "novakidDescription" : "Hangin' a giant metal snail on a wall is kinda exotic, t' say at least.",
+
+
+  "inventoryIcon" : "atprk-krakothshell1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothshell1.png:<color>",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

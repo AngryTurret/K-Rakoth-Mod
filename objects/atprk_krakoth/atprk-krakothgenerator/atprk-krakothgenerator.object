@@ -1,0 +1,84 @@
+{
+  "objectName" : "atprk-krakothgenerator",
+  "colonyTags" : ["atprk_krakoth","electronic"],
+  "rarity" : "Legendary",
+  "description" : "An ancient shield generator.",
+  "shortdescription" : "Eldritch Shield Generator",
+  "race" : "generic",
+  "price" : 1000,
+  "lightColor" : [99, 13, 84],
+  "category" : "wire",
+  "printable" : false,
+
+  "apexDescription" : "An advanced shield generator.",
+  "avianDescription" : "This generates a mighty shield.",
+  "floranDescription" : "Thisss thing mussst make shieldss.",
+  "glitchDescription" : "Neutral. Some sort of a shield generator.",
+  "humanDescription" : "Looks like an advanced shield generator.",
+  "hylotlDescription" : "An advanced protection device.",
+  "novakidDescription" : "This machine generates a shield.",
+
+  "inventoryIcon" : "atprk-krakothgeneratoricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothgenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk-krakothgenerator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "atprk-krakothgenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
+      "off" : [ "/sfx/objects/apexconsole2switch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk-krakothgenerator.png",
+    "fg" : "atprk-krakothgeneratorlit.png"
+  },
+
+  "animationPosition" : [-16, 0],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg" ],
+  "health" : 250,
+  "interactive" : false,
+
+  "smashParticles" : [ { "count" : 50, "particle" : "generatorshard" }, { "count" : 10, "particle" : "generatorglassshard" } ],
+  "smashDropPool" : "empty",
+  "breakDropPool" : "empty",
+
+  "scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+  "inputNodes" : [ [0, 2] ],
+
+  "explodeOnSmash" : true,
+  "explosionProjectile" : "explosivegenerator",
+  "explosionOffset" : [1, 2]
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-krakothmonitor1",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Common",
+  "description" : "A monitor once used by K'Rakoths. It shows some strange hieroglyphs.",
+  "shortdescription" : "Elder Monitor",
+  "race" : "generic",
+  "printable" : false,
+
+  "category" : "decorative",
+  "price" : 250,
+  "lightColor" : [57, 3, 47],
+
+  "apexDescription" : "The text on this monitor is unreadable.",
+  "avianDescription" : "A wall mounted monitor that says something I cannot read.",
+  "floranDescription" : "Ssstrange vertical linesss.",
+  "glitchDescription" : "Baffled. The text on this monitor is unreadable.",
+  "humanDescription" : "I don't understand anything this monitor shows.",
+  "hylotlDescription" : "I cannot understand what this monitor says and shows me.",
+  "novakidDescription" : "Vertical lines, weird windows... What does any of that mean?",
+
+  "inventoryIcon" : "atprk-krakothmonitor1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothmonitor1.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk-krakothmonitor1.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "atprk-krakothmonitor1.animation",
+  "animationParts" : {
+    "bg" : "atprk-krakothmonitor1.png",
+    "fg" : "atprk-krakothmonitor1lit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

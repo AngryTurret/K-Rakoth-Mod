@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk-krakothstasiscanister",
+  "colonyTags" : ["atprk_krakoth","storage"],
+  "rarity" : "Common",
+  "printable" : false,
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 125,
+  "description" : "A durable canister that seemingly freezes time within itself.",
+  "shortdescription" : "Elder Stasis Canister",
+  "race" : "generic",
+  "health" : 2.0,
+
+  "lightColor" : [151, 41, 114],
+
+  "apexDescription" : "A canister built with some sort of time-freezing technology.",
+  "avianDescription" : "I can see its contents through... uh... thick glass, I guess.",
+  "floranDescription" : "How doess pink tube freeze ssstuff without getting cold?",
+  "glitchDescription" : "Intrigued. If Glitch villagers had similar technology, they wouldn't worry about famine.",
+  "humanDescription" : "I have no idea what this canister is made of but it certainly looks cool.",
+  "hylotlDescription" : "Hm, it seems that this canister was built to last for centuries.",
+  "novakidDescription" : "What a weird glowin' barrel. Everything's way too still inside.",
+
+  "inventoryIcon" : "atprk-krakothstasiscanistericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk-krakothstasiscanister.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk-krakothstasiscanisterlit.png:<color>.<key>" } ],
+      "imagePosition" : [-12, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk-krakothstasiscanister.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk-krakothstasiscanisterlit.png:<color>.<key>" } ],
+      "imagePosition" : [-12, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0
+}

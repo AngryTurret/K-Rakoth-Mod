@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-krakothmonitor2",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Common",
+  "description" : "A monitor once used by K'Rakoths. It shows some strange hieroglyphs.",
+  "shortdescription" : "Elder Monitor",
+  "race" : "generic",
+  "printable" : false,
+
+  "category" : "decorative",
+  "price" : 250,
+  "lightColor" : [57, 3, 47],
+
+  "apexDescription" : "The text on this monitor is unreadable. At least I can distinguish a tesseract.",
+  "avianDescription" : "While I clearly see a hypercube here, I don't understand anything else on this monitor.",
+  "floranDescription" : "Linesss, cubesss, lettersss I cannot read...",
+  "glitchDescription" : "Informed. The picture in the corner appears to be a hypercube.",
+  "humanDescription" : "Why does this screen show a four-dimensional cube?",
+  "hylotlDescription" : "An ancient monitor that displays a tesseract model.",
+  "novakidDescription" : "It shows a picture of a hypercube. But why?",
+
+  "inventoryIcon" : "atprk-krakothmonitor2icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothmonitor2.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk-krakothmonitor2.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "atprk-krakothmonitor2.animation",
+  "animationParts" : {
+    "bg" : "atprk-krakothmonitor2.png",
+    "fg" : "atprk-krakothmonitor2lit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

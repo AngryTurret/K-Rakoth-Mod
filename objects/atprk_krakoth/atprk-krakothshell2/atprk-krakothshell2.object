@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-krakothshell2",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "shortdescription" : "Eldritch Shell",
+  "description" : "A small decorative shell made of unknown alloys.",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "An impossibly hard metal shell.",
+  "avianDescription" : "This decorative shell looks very realistic if you don't watch it too close.",
+  "floranDescription" : "Sssmall metal ssnail?",
+  "glitchDescription" : "Attentive. This shell has a couple of scratches on it.",
+  "humanDescription" : "Aw, what an adorable metal shell!",
+  "hylotlDescription" : "How delightful. Looks like K'Rakoth were as fond of nature as Hylotl are.",
+  "novakidDescription" : "Who'd decorate a house with dead metal snails?",
+
+  "inventoryIcon" : "atprk-krakothshell2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothshell2.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

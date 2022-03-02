@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk-krakothsmalldoor",
+  "colonyTags" : ["atprk_krakoth","door"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 110,
+  "description" : "An ancient airlock door.",
+  "shortdescription" : "Eldritch Ship Door",
+  "race" : "generic",
+
+  "apexDescription" : "A secure door of an ancient design.",
+  "avianDescription" : "A door made from ancient alloys.",
+  "floranDescription" : "Very ssstrong door. Floran can ussse door as shield.",
+  "glitchDescription" : "Approving. A secure door.",
+  "humanDescription" : "A strong airlock door.",
+  "hylotlDescription" : "I feel very secure behind this door.",
+  "novakidDescription" : "A mighty airlock door.",
+
+  "inventoryIcon" : "atprk-krakothsmalldooricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothsmalldoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk-krakothsmalldoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
