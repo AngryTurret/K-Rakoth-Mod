@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_radiotrophicwood", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "atprk_radiotrophicpillar",
+    "count" : 10
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "materials", "all", "mod" ]
+}
