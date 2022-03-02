@@ -1,0 +1,26 @@
+{
+  "itemName" : "atprk_traproot",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "atprk_traproot.png",
+  "description" : "A predatory but mostly edible plant. It will eat you if you aren't careful.",
+  "shortdescription" : "Traproot",
+  "foodValue" : 6,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 8
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "atprk_cookedtraproot", "atprk_venuskiss" ]
+}

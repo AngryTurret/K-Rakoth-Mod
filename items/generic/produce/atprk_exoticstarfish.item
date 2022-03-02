@@ -1,0 +1,12 @@
+{
+  "itemName" : "atprk_exoticstarfish",
+  "rarity" : "Rare",
+  "price" : 15,
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "atprk_exoticstarfish.png",
+  "description" : "An alien starfish specimen. Can be cooked if you're skilled enough.",
+  "shortdescription" : "Exotic Starfish",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "atprk_deepseasteak", "atprk_starfishsushi", "atprk_stellarsauce" ]
+}
