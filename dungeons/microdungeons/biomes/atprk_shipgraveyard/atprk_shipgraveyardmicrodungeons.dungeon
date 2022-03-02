@@ -1,0 +1,130 @@
+{
+  "metadata" : {
+    "name" : "atprk_shipgraveyardmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_rustycockpit1", "atprk_rustycockpit2", "atprk_smallcrater", "atprk_smallstarship", "atprk_rustycratestack", "atprk_rustyrocket", "atprk_shipdebris1", "atprk_shipdebris2", "atprk_shipdebris3", "atprk_shipdebris4", "atprk_shipdebris5", "atprk_shipdebris6", "atprk_shipdebris7",  "atprk_shipdebris8", "atprk_shipdebris9", "atprk_shipdebris10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_rustycockpit1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rustycockpit1.json" ]
+    },
+    {
+      "name" : "atprk_rustycockpit2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rustycockpit2.json" ]
+    },
+    {
+      "name" : "atprk_smallcrater",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallcrater.json" ]
+    },
+    {
+      "name" : "atprk_smallstarship",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallstarship.json" ]
+    },
+    {
+      "name" : "atprk_rustycratestack",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rustycratestack.json" ]
+    },
+    {
+      "name" : "atprk_rustyrocket",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rustyrocket.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris1.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris2.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris3.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris4.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris5.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris6.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris7.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris8.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris9.json" ]
+    },
+    {
+      "name" : "atprk_shipdebris10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shipdebris10.json" ]
+    }
+  ]
+}
