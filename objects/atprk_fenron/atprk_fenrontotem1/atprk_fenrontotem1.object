@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_fenrontotem1",
+  "colonyTags" : ["atprk_fenron"],
+  "rarity" : "Common",
+  "description" : "An overgrown totem with few vaguely feline faces.",
+  "shortdescription" : "Overgrown Stone Totem",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 145,
+
+  "apexDescription" : "A tall totem covered in thick red vines.",
+  "avianDescription" : "This totem has been there so long it got covered in gross red vines.",
+  "floranDescription" : "Red vinesss hold thisss totem. Let it go!",
+  "glitchDescription" : "Observant. The faces on this overgrown totem remind feline animals.",
+  "humanDescription" : "An old totem covered in gross red vines. Should I cut them?",
+  "hylotlDescription" : "Sooner or later, everything gets reclaimed by nature.",
+  "novakidDescription" : "A totem with three sharp-teethed faces.",
+
+  "inventoryIcon" : "atprk_fenrontotem1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenrontotem1.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk_fenrontotem1.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

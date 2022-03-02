@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_fenronbed",
+  "colonyTags" : ["atprk_fenron"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A rather uncomfortable bed made from hard stone.",
+  "shortdescription" : "Refined Stone Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "I do not see how you can sleep comfortably in a bed like this.",
+  "avianDescription" : "I'd rather not sleep in this bed unless I want to torture my back.",
+  "floranDescription" : "Ssstrong bed for ssstrong ssleepers.",
+  "glitchDescription" : "Confident. A bed that is way too uncomfortable to sleep in.",
+  "humanDescription" : "Does anyone have a pillow? Actually, it could use a mattress too.",
+  "hylotlDescription" : "I suspect this bed is actually a religious altar of sorts.",
+  "novakidDescription" : "Why'd anyone sleep in that? Even the bare floor's softer.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_fenronbedicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-6, 18],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_fenronbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-6, 18],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

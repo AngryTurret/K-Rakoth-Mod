@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_fenrontotem2",
+  "colonyTags" : ["atprk_fenron"],
+  "rarity" : "Common",
+  "description" : "A short stone totem overtaken by vines.",
+  "shortdescription" : "Overgrown Stone Totem",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 85,
+
+  "apexDescription" : "The top part of this totem is missing. I wonder where it is.",
+  "avianDescription" : "This totem collapsed some time ago.",
+  "floranDescription" : "Ssstone face in vinesss.",
+  "glitchDescription" : "Resentful. This totem head is now all alone.",
+  "humanDescription" : "I hope this totem wasn't desecrated and simply collapsed by itself.",
+  "hylotlDescription" : "A lone totem head reclaimed by nature.",
+  "novakidDescription" : "A shattered boulder with a face and vines.",
+
+  "inventoryIcon" : "atprk_fenrontotem2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fenrontotem2.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

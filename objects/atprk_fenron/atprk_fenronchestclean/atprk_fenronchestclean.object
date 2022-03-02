@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_fenronchestclean",
+  "colonyTags" : ["atprk_fenron","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 90,
+  "description" : "A small stone chest.",
+  "shortdescription" : "Refined Stone Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A simple stone chest.",
+  "avianDescription" : "A hardy stone chest that looks surprisingly predatory.",
+  "floranDescription" : "Hard chessst. Floran can keep bonesss in here.",
+  "glitchDescription" : "Neutral. A stone chest ornamented by a small feline face.",
+  "humanDescription" : "A simple chest with a feline face on its lid.",
+  "hylotlDescription" : "A decorated chest made of sturdy stone.",
+  "novakidDescription" : "A hard stone chest with an angry cat's face on it.",
+
+  "inventoryIcon" : "atprk_fenronchestcleanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fenronchestclean.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_fenrontableclean",
+  "colonyTags" : ["atprk_fenron","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A simple stone table made from round rocks.",
+  "shortdescription" : "Refined Stone Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 50,
+
+  "apexDescription" : "A rough table. At least I can call it functional.",
+  "avianDescription" : "Eating at this table would still be unhygienic.",
+  "floranDescription" : "Boring ssstone table.",
+  "glitchDescription" : "Disinterested. Not the most sophisticated design I've seen.",
+  "humanDescription" : "A durable stone table with rounded edges.",
+  "hylotlDescription" : "A crude stone table.",
+  "novakidDescription" : "I guess stackin' a pair o' rocks on each other now counts as a table. What a time t' be alive.",
+
+  "inventoryIcon" : "atprk_fenrontablecleanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fenrontableclean.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

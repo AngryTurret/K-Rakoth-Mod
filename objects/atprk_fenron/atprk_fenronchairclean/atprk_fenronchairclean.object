@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_fenronchairclean",
+  "colonyTags" : ["atprk_fenron"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A primitive stone chair.",
+  "shortdescription" : "Refined Stone Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+
+  "apexDescription" : "A primitive chair made of rocks. There is not much more to it.",
+  "avianDescription" : "A crude chair in a mighty need of a soft cushion.",
+  "floranDescription" : "Hard ssstone chair.",
+  "glitchDescription" : "Resentful. These is nothing confortable about this stone chair.",
+  "humanDescription" : "An uncomfortable stone chair.",
+  "hylotlDescription" : "A primitive chair built from round rocks.",
+  "novakidDescription" : "A crude chair made o' rocks.",
+
+  "inventoryIcon" : "atprk_fenronchaircleanicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronchairclean.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [0, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "atprk_fenronchairclean.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [2, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+  
+}

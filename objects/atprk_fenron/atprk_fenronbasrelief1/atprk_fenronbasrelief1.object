@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_fenronbasrelief1",
+  "colonyTags" : ["atprk_fenron","pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A fragment of a bigger stone bas-relief.",
+  "shortdescription" : "Stone Bas-Relief Piece",
+  "race" : "generic",
+  "printable" : false,
+
+  "learnBlueprintsOnPickup" : [
+    "atprk_fenronbasrelieffull"
+  ],
+
+  "apexDescription" : "If this is not a part of a bigger picture, I will be disappointed.",
+  "avianDescription" : "I need to find the other three fragments to see the whole picture.",
+  "floranDescription" : "Floran mussst collect the other piecesss.",
+  "glitchDescription" : "Intrigued. If I manage to find three more fragments, I will see the whole image.",
+  "humanDescription" : "Maybe if I collect more pieces I'll see what it means.",
+  "hylotlDescription" : "An incomplete bas-relief. Three pieces are clearly missing.",
+  "novakidDescription" : "A crude image on a stone tablet. I need three more of those.",
+
+  "inventoryIcon" : "atprk_fenronbasrelief1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronbasrelief1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

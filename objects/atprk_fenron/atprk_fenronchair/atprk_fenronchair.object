@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk_fenronchair",
+  "colonyTags" : ["atprk_fenron"],
+  "rarity" : "Common",
+  "description" : "A stone chair covered in vines.",
+  "shortdescription" : "Overgrown Stone Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 30,
+
+  "apexDescription" : "Vines are the only living things that find this chair comfortable.",
+  "avianDescription" : "The only reason you're able to sit on this crude chair is because it's covered in soft vines.",
+  "floranDescription" : "Hard ssstone chair in vinesss.",
+  "glitchDescription" : "Disgusted. I don't want these gross vines to wrap around my circuits while I'm sitting.",
+  "humanDescription" : "Vines are soft, but they aren't soft enough to make this chair comfortable.",
+  "hylotlDescription" : "It would be too easy to lose concentration sitting on this hard tasteless chair.",
+  "novakidDescription" : "A chair covered in dirt and vines? Nah, not the best I've seen.",
+
+  "inventoryIcon" : "atprk_fenronchairicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronchair.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [0, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "atprk_fenronchair.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [2, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+  
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_fenronchest",
+  "colonyTags" : ["atprk_fenron","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A small, overgrown chest.",
+  "shortdescription" : "Overgrown Stone Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "This chest's lid is slightly open if you look close enough.",
+  "avianDescription" : "There are vines inside this chest. I hope they aren't wrapped around treasures.",
+  "floranDescription" : "Thiss chessst has vinesss inssside.",
+  "glitchDescription" : "Surprised. There appear to be short vines growing on the inside.",
+  "humanDescription" : "There's something other than treasures in this chest.",
+  "hylotlDescription" : "Wait, I think I see vines under the chest's top.",
+  "novakidDescription" : "A chest with lots o' vines on the inside.",
+
+  "inventoryIcon" : "atprk_fenronchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fenronchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
