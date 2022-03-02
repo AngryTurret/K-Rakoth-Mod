@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/atprk_4ddistortion",
+    "value": {
+        "resistanceStat": "atprk_4ddistortionResistance",
+        "damageNumberParticles": {
+          "hit": "atprk_4ddistortiondamagenumber",
+          "stronghit": "atprk_4ddistortiondamagenumberstrong",
+          "weakhit": "atprk_4ddistortiondamagenumberweak",
+          "shieldhit": "atprk_4ddistortiondamagenumber",
+          "kill": "atprk_4ddistortiondamagenumber"
+        }
+    }
+  }
+]
