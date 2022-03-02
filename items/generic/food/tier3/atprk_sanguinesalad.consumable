@@ -1,0 +1,28 @@
+{
+  "itemName" : "atprk_sanguinesalad",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_sanguinesalad.png",
+  "description" : "Healthy and nutritious, albeit slightly bitter.",
+  "shortdescription" : "Sanguine Salad",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 45
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

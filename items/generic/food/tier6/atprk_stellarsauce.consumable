@@ -1,0 +1,37 @@
+{
+  "itemName" : "atprk_stellarsauce",
+  "rarity" : "Rare",
+  "price" : 465,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_stellarsauce.png",
+  "description" : "A truly cosmic taste.",
+  "shortdescription" : "Stellar Sauce",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 158
+    },
+    {
+        "effect" : "nova",
+        "duration" : 60
+    },
+    {
+        "effect" : "burning",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

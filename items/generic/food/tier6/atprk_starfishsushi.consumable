@@ -1,0 +1,32 @@
+{
+  "itemName" : "atprk_starfishsushi",
+  "rarity" : "Rare",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_starfishsushi.png",
+  "description" : "Exotic starfish rolls to spice your dinner up.",
+  "shortdescription" : "Starfish Sushi",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "nova",
+        "duration" : 120
+    },
+    {
+        "effect" : "burning",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

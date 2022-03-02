@@ -1,0 +1,33 @@
+{
+  "itemName" : "atprk_venusbite",
+  "rarity" : "Uncommon",
+  "price" : 220,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_venusbite.png",
+  "description" : "A blend of predatory plant and cactus juices.",
+  "shortdescription" : "Bite of Venus",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "thorns",
+        "duration" : 120
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 4
+    }
+  ] ],
+  "foodValue" : 32,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

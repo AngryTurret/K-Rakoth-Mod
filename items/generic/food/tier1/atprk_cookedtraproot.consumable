@@ -1,0 +1,19 @@
+{
+  "itemName" : "atprk_cookedtraproot",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_cookedtraproot.png",
+  "description" : "It may taste stale but now it's safe to consume.",
+  "shortdescription" : "Cooked Traproot",
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "atprk_sanguinesalad", "atprk_stuffedflytrap" ]
+}

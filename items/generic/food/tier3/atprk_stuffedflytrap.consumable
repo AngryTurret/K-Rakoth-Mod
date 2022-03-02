@@ -1,0 +1,28 @@
+{
+  "itemName" : "atprk_stuffedflytrap",
+  "rarity" : "Uncommon",
+  "price" : 290,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_stuffedflytrap.png",
+  "description" : "Don't worry, it doesn't have any flies as the name may suggest.",
+  "shortdescription" : "Stuffed Flytrap",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 45
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 390
+    }
+  ] ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

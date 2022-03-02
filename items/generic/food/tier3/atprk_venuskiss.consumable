@@ -1,0 +1,30 @@
+{
+  "itemName" : "atprk_venuskiss",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_venuskiss.png",
+  "description" : "A refreshing drink made of predatory plants.",
+  "shortdescription" : "Kiss of Venus",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 4
+    }
+  ] ],
+  "foodValue" : 16,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "atprk_venusbite" ]
+}
