@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_krakothsmalldrone",
+  "category" : "atprk_krakothsmalldrone_parts",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "atprk_krakothsmalldronebwing.png",
+    "frontWings" : "atprk_krakothsmalldronefwing.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_krakothpatroldrone",
+  "category" : "atprk_krakothpatroldrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothpatroldrone.png"
+  }
+}

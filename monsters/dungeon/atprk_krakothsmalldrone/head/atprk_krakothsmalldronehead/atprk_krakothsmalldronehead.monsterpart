@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_krakothsmalldrone",
+  "category" : "atprk_krakothsmalldrone_parts",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "atprk_krakothsmalldronehead.png"
+  }
+}

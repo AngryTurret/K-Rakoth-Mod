@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_krakothmine",
+  "category" : "atprk_krakothmine",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothmine.png",
+    "bodyfullbright" : "atprk_krakothminefullbright.png"
+  }
+}
