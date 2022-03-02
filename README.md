@@ -1,5 +1,5 @@
 #  Starbound: K'Rakoths, the Lords of the Cosmos mod
-
+![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/1617345978457515522/13D6F1B5F968DCC35D5CB519E05610013FD5C766/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 ## This mod does not add in new playable races and never will, it just adds the remnants (dungeons, props, etc.) and lore of new extinct ones.
 
 So, there are many playable race mods, most of which are more or less humanoid. But what about some more alien races that are not playable but still provide additional lore and places to explore?
