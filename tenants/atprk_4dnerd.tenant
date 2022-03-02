@@ -1,0 +1,25 @@
+{
+  "name": "atprk_4dnerd",
+  "priority": 10,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "atprk_4d": 16
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["human", "apex", "hylotl"],
+      "type": "atprk_4dnerd",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

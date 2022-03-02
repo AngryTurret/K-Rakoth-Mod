@@ -1,0 +1,26 @@
+{
+  "name": "atprk_ancientguardian",
+  "priority": 15,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "atprk_ancientguard": 2
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "novakid",
+      "level": 6,
+      "type": "atprk_ancientguardian",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}
