@@ -1,0 +1,56 @@
+[
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_glitchsnowfort1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_glitchsnowfort1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_glitchsnowfort1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_glitchsnowfort2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_glitchsnowfort2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_glitchsnowfort2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_glitchsnowruins"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_glitchsnowruins",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_glitchsnowruins.json" ]
+    }	
+}
+]
