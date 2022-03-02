@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+      "path": "/atprk_4ddistortion",
+      "value": {
+        "unique": false,
+        "text": "WARNING! SPATIAL DISTORTIONS DETECTED!\nSince you are surrounded by multidimensional geometry, a prolonged stay within the rift will cause severe damage to your body. Hurry up!",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+      }
+  }
+]
