@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_4dblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "atprk_4dblock.png",
+  "description" : "A block from another dimension.",
+  "shortdescription" : "Extradimensional Block",
+  "glitchdescription" : "Interested. A block from another dimension.",
+  "florandescription" : "Unnatural blocksss.",
+  "novakiddescription" : "A block that doesn't belong in our world.",
+
+  "materialId" : 62111
+}

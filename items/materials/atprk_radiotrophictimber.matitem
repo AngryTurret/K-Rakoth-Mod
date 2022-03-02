@@ -1,0 +1,18 @@
+{
+  "itemName" : "atprk_radiotrophictimber",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_radiotrophictimber.png",
+  "description" : "Refined radiotrophic wood that can be used for crafting.",
+  "shortdescription" : "Radiotrophic Timber",
+  "apexdescription" : "Green radiotrophic material.",
+  "aviandescription" : "Radiotrophic planks.",
+  "glitchdescription" : "Neutral. Green wood planks.",
+  "florandescription" : "Sssstrong wood plankss.",
+  "humandescription" : "Radiotrophic wood planks.",
+  "hylotldescription" : "Refined radiotrophic wood that can be used for crafting.",
+  "novakiddescription" : "Green wood planks.",
+
+  "materialId" : 62104
+}

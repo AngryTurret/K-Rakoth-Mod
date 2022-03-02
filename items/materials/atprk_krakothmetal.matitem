@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_krakothmetal",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_krakothmetal.png",
+  "description" : "A solid block of strange alloys.",
+  "shortdescription" : "Eldritch Metal Block",
+  "glitchdescription" : "Neutral. Blocks made from some alien metals.",
+  "florandescription" : "Greenish metal blockss.",
+  "novakiddescription" : "I know no metals like this.",
+
+  "materialId" : 62109
+}

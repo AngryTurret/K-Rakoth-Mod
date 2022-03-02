@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_slopedkrakothpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_slopedkrakothpanel.png",
+  "shortdescription" : "Eldritch Panel",
+  "description" : "Ancient plating made of unknown metal alloys.",
+  "glitchdescription" : "Puzzled. I do not recognize this material.",
+  "florandescription" : "Old ssspace metal.",
+  "novakiddescription" : "Some thick metal platin' that consists of unknown metals.",
+
+  "materialId" : 62106
+}

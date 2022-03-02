@@ -1,0 +1,18 @@
+{
+  "itemName" : "atprk_radiotrophicwood",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_radiotrophicwood.png",
+  "shortdescription" : "Radiotrophic Wood",
+  "description" : "A piece of alien radiotrophic wood.",
+  "glitchdescription" : "Neutral. A piece of alien radiotrophic wood.",
+  "florandescription" : "Sssstrong green wood.",
+  "novakiddescription" : "A piece o' radioactive wood.",
+
+  "materialId" : 62103,
+  "learnBlueprintsOnPickup" : [
+    "atprk_radiotrophictimber",
+    "atprk_radiotrophicpillar"
+  ]
+}

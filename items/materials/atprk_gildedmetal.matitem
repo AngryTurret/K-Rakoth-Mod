@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_gildedmetal",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_gildedmetal.png",
+  "description" : "Blocks of gold-covered alloys.",
+  "shortdescription" : "Gilded Metal Block",
+  "glitchdescription" : "Neutral. These blocks contain gold and exotic metals.",
+  "florandescription" : "Shiny golden blocksss.",
+  "novakiddescription" : "Blocks o' gold mixed with... somethin'. I don't know.",
+
+  "materialId" : 62110
+}

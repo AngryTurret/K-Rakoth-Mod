@@ -1,0 +1,18 @@
+{
+  "itemName" : "atprk_radiotrophicpillar",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_radiotrophicpillar.png",
+  "description" : "A pillar made from radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Pillar",
+  "apexdescription" : "A pillar made from radiotrophic wood.",
+  "aviandescription" : "A pillar made from radiotrophic wood.",
+  "glitchdescription" : "Amazed. A durable support beam made from radiotrophic wood.",
+  "florandescription" : "Green wood beam.",
+  "humandescription" : "A pillar made from radiotrophic wood.",
+  "hylotldescription" : "A pillar made from radiotrophic wood.",
+  "novakiddescription" : "A fine yet slightly radioactive wood.",
+
+  "materialId" : 62105
+}

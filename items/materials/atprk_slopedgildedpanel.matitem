@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_slopedgildedpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_slopedgildedpanel.png",
+  "shortdescription" : "Gilded Eldritch Panel",
+  "description" : "Ancient plating made of gold mixed with other metals.",
+  "glitchdescription" : "Observant. I can see my own reflection.",
+  "florandescription" : "Ancient golden blocksss.",
+  "novakiddescription" : "Look at that, these panels contain pure gold!",
+
+  "materialId" : 62108
+}

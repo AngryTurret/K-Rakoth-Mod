@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_krakothplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_krakothplatform.png",
+  "description" : "A sturdy ancient platform.",
+  "shortdescription" : "Eldritch Platform",
+  "glitchdescription" : "Neutral. An ancient metal platform.",
+  "florandescription" : "Old platform.",
+  "novakiddescription" : "Some ol' platform.",
+
+
+  "materialId" : 62107
+}

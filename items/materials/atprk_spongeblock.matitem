@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_spongeblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_spongeblock.png",
+  "description" : "A soft sponge block. No, it doesn't absorb water.",
+  "shortdescription" : "Sea Sponge Block",
+  "glitchdescription" : "Curious. This block is in fact a sponge colony.",
+  "florandescription" : "Sssea ssponge.",
+  "novakiddescription" : "Nice, but can I wash dishes with that?",
+
+  "materialId" : 62112
+}
