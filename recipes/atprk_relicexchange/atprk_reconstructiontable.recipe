@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_hyperpixel", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "atprk_reconstructiontable",
+    "count" : 1
+  },
+  "groups" : [ "atprk_relicexchange" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_fenronbasrelieffull", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_relicpackfenron",
+    "count" : 1
+  },
+  "groups" : [ "atprk_relicexchange" ]
+}

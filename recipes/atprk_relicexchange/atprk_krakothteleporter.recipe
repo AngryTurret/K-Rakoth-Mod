@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_hyperpixel", "count" : 15 },
+    { "item" : "atprk_eldertech", "count" : 6 },
+    { "item" : "teleportercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_krakothteleporter",
+    "count" : 1
+  },
+  "groups" : [ "atprk_relicexchange" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_hyperpixel", "count" : 5 },
+    { "item" : "atprk_eldertech", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "atprk_relicexchangeonline",
+    "count" : 1
+  },
+  "groups" : [ "atprk_relicexchange" ]
+}
