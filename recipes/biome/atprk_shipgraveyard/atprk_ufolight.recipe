@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 5 },
+    { "item" : "toxicwaste", "count" : 5 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_ufolight", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all", "mod" ]
+}

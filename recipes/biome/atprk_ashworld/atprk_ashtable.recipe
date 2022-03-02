@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "fabric", "count" : 3 },
+    { "item" : "ash", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "atprk_ashtable",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

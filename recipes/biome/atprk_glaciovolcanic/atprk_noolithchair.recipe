@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 20 }
+  ],
+  "output" : { "item" : "atprk_noolithchair", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

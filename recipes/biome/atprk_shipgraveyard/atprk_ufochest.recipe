@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 20 },
+    { "item" : "toxicwaste", "count" : 2 }
+  ],
+  "output" : { "item" : "atprk_ufochest", "count" : 1 },
+  "groups" : [ "craftingfurniture", "storage", "all", "mod" ]
+}

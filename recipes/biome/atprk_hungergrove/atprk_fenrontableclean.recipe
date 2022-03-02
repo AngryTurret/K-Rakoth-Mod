@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 30 }
+  ],
+  "output" : { "item" : "atprk_fenrontableclean", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

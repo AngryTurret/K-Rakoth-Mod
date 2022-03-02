@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 10 },
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "orangedye", "count" : 1 },
+    { "item" : "fabric", "count" : 4 }
+  ],
+  "output" : { "item" : "atprk_anneliskchairclean", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

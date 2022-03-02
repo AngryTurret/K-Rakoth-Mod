@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "ash", "count" : 1 },
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_ashlight", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all", "mod" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 25 },
+    { "item" : "toxicwaste", "count" : 10 },
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "greendye", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_ufobed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all", "mod" ]
+}

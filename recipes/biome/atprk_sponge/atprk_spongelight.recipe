@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "atprk_spongeblock", "count" : 15 },
+    { "item" : "glowfibre", "count" : 5 }
+  ],
+  "output" : { "item" : "atprk_spongelight", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all", "mod" ]
+}

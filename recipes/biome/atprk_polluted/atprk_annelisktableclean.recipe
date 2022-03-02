@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 20 },
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "orangedye", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_annelisktableclean", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

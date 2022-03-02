@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_spongeblock", "count" : 40},
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "yellowdye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_spongebed",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "beds", "all", "mod" ]
+}

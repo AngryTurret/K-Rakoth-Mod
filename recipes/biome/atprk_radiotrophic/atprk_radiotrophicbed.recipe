@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_radiotrophictimber", "count" : 20},
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "orangedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_radiotrophicbed",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "beds", "all", "mod" ]
+}

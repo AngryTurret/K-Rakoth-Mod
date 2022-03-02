@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_spongeblock", "count" : 25}
+  ],
+  "output" : {
+    "item" : "atprk_spongechest",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "storage", "all", "mod" ]
+}

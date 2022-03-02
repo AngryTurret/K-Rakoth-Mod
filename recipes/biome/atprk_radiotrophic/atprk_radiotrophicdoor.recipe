@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_radiotrophictimber", "count" : 25 },
+    { "item" : "ironbar", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_radiotrophicdoor",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "doors", "all", "mod" ]
+}

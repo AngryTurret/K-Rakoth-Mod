@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "ash", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "atprk_ashdoor",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "doors", "all", "mod" ]
+}

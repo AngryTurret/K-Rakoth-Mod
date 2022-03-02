@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 3 },
+    { "item" : "orangedye", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_anneliskposterclean", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}
