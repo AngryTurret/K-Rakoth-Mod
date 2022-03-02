@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_sapphase",
+  "category" : "atprk_sapphase",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_sapphase.png"
+  }
+}
