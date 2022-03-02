@@ -1,0 +1,137 @@
+{
+  "metadata" : {
+    "name" : "atprk_ancientnecropolismicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_ancientsquare1", "atprk_ancientsquare2", "atprk_ancientsquare3", "atprk_ancientsquare4", "atprk_ancientsquare5", "atprk_ancienttower1", "atprk_ancienttower2", "atprk_ancienttower3", "atprk_ancientstairs1", "atprk_ancientstairs2", "atprk_ancientaqueduct", "atprk_ancientlibrary", "atprk_ancientpool",  "atprk_oasisoflife", "atprk_cultivatorsshrine", "atprk_ancientpit1", "atprk_ancientpit2" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_ancientsquare1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientsquare1.json" ]
+    },
+    {
+      "name" : "atprk_ancientsquare2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientsquare2.json" ]
+    },
+    {
+      "name" : "atprk_ancientsquare3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientsquare3.json" ]
+    },
+    {
+      "name" : "atprk_ancientsquare4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientsquare4.json" ]
+    },
+    {
+      "name" : "atprk_ancientsquare5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientsquare5.json" ]
+    },
+    {
+      "name" : "atprk_ancienttower1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancienttower1.json" ]
+    },
+    {
+      "name" : "atprk_ancienttower2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancienttower2.json" ]
+    },
+    {
+      "name" : "atprk_ancienttower3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancienttower3.json" ]
+    },
+    {
+      "name" : "atprk_ancientstairs1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientstairs1.json" ]
+    },
+    {
+      "name" : "atprk_ancientstairs2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientstairs2.json" ]
+    },
+    {
+      "name" : "atprk_ancientaqueduct",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientaqueduct.json" ]
+    },
+    {
+      "name" : "atprk_ancientlibrary",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientlibrary.json" ]
+    },
+    {
+      "name" : "atprk_ancientpool",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientpool.json" ]
+    },
+    {
+      "name" : "atprk_oasisoflife",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oasisoflife.json" ]
+    },
+    {
+      "name" : "atprk_cultivatorsshrine",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_cultivatorsshrine.json" ]
+    },
+    {
+      "name" : "atprk_ancientpit1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientpit1.json" ]
+    },
+    {
+      "name" : "atprk_ancientpit2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ancientpit2.json" ]
+    }
+  ]
+}
