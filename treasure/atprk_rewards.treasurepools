@@ -1,0 +1,222 @@
+{
+
+  // ================================
+  //       Relic Exchange Packs
+  // ================================
+
+  "atprk_relicpackfenron" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_fenronwhip", 1]},
+        {"item" : [ "atprk_rewardfenronplush", 1]},
+        {"item" : [ "money", 4000]}
+      ]
+    }]
+  ],
+
+  "atprk_relicpacknoolith" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_crystalshield", 1]},
+        {"item" : [ "atprk_rewardnoolithlamp", 1]},
+        {"item" : [ "money", 4000]}
+      ]
+    }]
+  ],
+
+  "atprk_relicpackannelisk" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_anneliskpistol", 1]},
+        {"item" : [ "atprk_rewardanneliskposter", 1]},
+        {"item" : [ "money", 4000]}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       Unpacked Goods
+  // ================================
+
+  "atprk_unpackedrelicgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedrelicgoodspool"},
+        {"pool" : "atprk_unpackedrelicgoodspool"},
+        {"item" : [ "treasurehoard", 5]}
+      ]
+    }]
+  ],
+  "atprk_unpackedrelicgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "apexbustmale"},
+        {"weight" : 0.10, "item" : "apexstatue"},
+        {"weight" : 0.10, "item" : "apexstatue1"},
+        {"weight" : 0.10, "item" : "classicchina"},
+        {"weight" : 0.10, "item" : "altaravian"},
+        {"weight" : 0.10, "item" : "goldenjar1"},
+        {"weight" : 0.10, "item" : "goldenducky"},
+        {"weight" : 0.10, "item" : "birdgong2"},
+        {"weight" : 0.10, "item" : "huntingstatue"},
+        {"weight" : 0.10, "item" : "huntingtrophy1"},
+        {"weight" : 0.10, "item" : "huntingtrophy2"},
+        {"weight" : 0.10, "item" : "huntingtrophy3"},
+        {"weight" : 0.10, "item" : "royalthrone"},
+        {"weight" : 0.10, "item" : "medievalmap"},
+        {"weight" : 0.10, "item" : "medievalarmor"},
+        {"weight" : 0.10, "item" : "medievalglobe"},
+        {"weight" : 0.10, "item" : "hylotlpainting1"},
+        {"weight" : 0.10, "item" : "hylotlpainting2"},
+        {"weight" : 0.10, "item" : "hylotlpainting3"},
+        {"weight" : 0.10, "item" : "hylotlkatanarack"},
+        {"weight" : 0.10, "item" : "frontierclock"},
+        {"weight" : 0.10, "item" : "frontierpainting1"},
+        {"weight" : 0.10, "item" : "frontiergramophone"},
+        {"weight" : 0.10, "item" : "diamonddisplay"},
+        {"weight" : 0.10, "item" : "grail"},
+        {"weight" : 0.10, "item" : "goldvase1"},
+        {"weight" : 0.10, "item" : "goldvase2"},
+        {"weight" : 0.10, "item" : "goldvase3"},
+        {"weight" : 0.10, "item" : "goldvase4"},
+        {"weight" : 0.10, "item" : "goldvase5"},
+        {"weight" : 0.01, "item" : "atprk-eldritchbell"},
+        {"weight" : 0.01, "item" : "atprk-eldritchpc"},
+        {"weight" : 0.01, "item" : "atprk-eldritchcodexframe"},
+        {"weight" : 0.01, "item" : "atprk-gildedidol"},
+        {"weight" : 0.01, "item" : "atprk-gildedglass"},
+        {"weight" : 0.01, "item" : "atprk_hyperpixel"},
+        {"weight" : 0.01, "item" : "atprk_ancientshards"},
+        {"weight" : 0.01, "item" : "atprk_ancientvase"},
+        {"weight" : 0.01, "item" : "translator1"},
+        {"weight" : 0.01, "item" : "translator2"}
+      ]
+    }]
+  ],
+
+  "atprk_unpackedloregoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedloregoodspool"},
+        {"pool" : "atprk_unpackedloregoodspool"},
+        {"item" : [ "bookpiles", 5]}
+      ]
+    }]
+  ],
+  "atprk_unpackedloregoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "apexhistory1-codex"},
+        {"weight" : 0.10, "item" : "apexhistory2-codex"},
+        {"weight" : 0.10, "item" : "apexhistory7-codex"},
+        {"weight" : 0.10, "item" : "avianhistory3-codex"},
+        {"weight" : 0.10, "item" : "avianhistory4-codex"},
+        {"weight" : 0.10, "item" : "avianhistory8-codex"},
+        {"weight" : 0.10, "item" : "avianhistory9-codex"},
+        {"weight" : 0.10, "item" : "avianmission2-codex"},
+        {"weight" : 0.10, "item" : "floranhistory5-codex"},
+        {"weight" : 0.10, "item" : "floranhistory6-codex"},
+        {"weight" : 0.10, "item" : "floranhistory9-codex"},
+        {"weight" : 0.10, "item" : "floranmission2-codex"},
+        {"weight" : 0.10, "item" : "glitchhistory1-codex"},
+        {"weight" : 0.10, "item" : "glitchhistory3-codex"},
+        {"weight" : 0.10, "item" : "glitchhistory5-codex"},
+        {"weight" : 0.10, "item" : "glitchhistory9-codex"},
+        {"weight" : 0.10, "item" : "humanhistory1-codex"},
+        {"weight" : 0.10, "item" : "humanhistory3-codex"},
+        {"weight" : 0.10, "item" : "humanhistory6-codex"},
+        {"weight" : 0.10, "item" : "humanhistory7-codex"},
+        {"weight" : 0.10, "item" : "humanhistory8-codex"},
+        {"weight" : 0.10, "item" : "hylotlhistory1-codex"},
+        {"weight" : 0.10, "item" : "hylotlhistory3-codex"},
+        {"weight" : 0.10, "item" : "hylotlhistory4-codex"},
+        {"weight" : 0.10, "item" : "hylotlhistory5-codex"},
+        {"weight" : 0.10, "item" : "hylotlhistory6-codex"},
+        {"weight" : 0.01, "item" : "atprk_glitchnoolithcodex-codex"},
+        {"weight" : 0.01, "item" : "atprk_glitchservantcodex-codex"},
+        {"weight" : 0.01, "item" : "atprk_krakothtextbeta"},
+        {"weight" : 0.01, "item" : "atprk_krakothtextdelta"},
+        {"weight" : 0.01, "item" : "atprk_krakothtextrho"},
+        {"weight" : 0.01, "item" : "atprk_krakothtextchi"}
+      ]
+    }]
+  ],
+
+  "atprk_unpackedfossilgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedfossilgoodspool"},
+        {"pool" : "atprk_unpackedfossilgoodspool"},
+        {"item" : [ "bone", 7]}
+      ]
+    }]
+  ],
+  "atprk_unpackedfossilgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "penguinfossil"},
+        {"weight" : 0.10, "item" : "sabertoothfossil"},
+        {"weight" : 0.10, "item" : "trilobitefossil"},
+        {"weight" : 0.10, "item" : "fishfossil"},
+        {"weight" : 0.10, "item" : "mysteriousalienfossil"},
+        {"weight" : 0.10, "item" : "alpacafossil1"},
+        {"weight" : 0.10, "item" : "alpacafossil2"},
+        {"weight" : 0.10, "item" : "alpacafossil3"},
+        {"weight" : 0.10, "item" : "avioscalefossil1"},
+        {"weight" : 0.10, "item" : "avioscalefossil2"},
+        {"weight" : 0.10, "item" : "avioscalefossil3"},
+        {"weight" : 0.10, "item" : "froggfossil1"},
+        {"weight" : 0.10, "item" : "froggfossil2"},
+        {"weight" : 0.10, "item" : "froggfossil3"},
+        {"weight" : 0.10, "item" : "mysteriousfossil1"},
+        {"weight" : 0.10, "item" : "mysteriousfossil2"},
+        {"weight" : 0.10, "item" : "mysteriousfossil3"},
+        {"weight" : 0.10, "item" : "apexfossil1"},
+        {"weight" : 0.10, "item" : "apexfossil2"},
+        {"weight" : 0.10, "item" : "apexfossil3"},
+        {"weight" : 0.10, "item" : "avianfossil1"},
+        {"weight" : 0.10, "item" : "avianfossil2"},
+        {"weight" : 0.10, "item" : "avianfossil3"},
+        {"weight" : 0.10, "item" : "floaranfossil1"},
+        {"weight" : 0.10, "item" : "floaranfossil2"},
+        {"weight" : 0.10, "item" : "floaranfossil3"},
+        {"weight" : 0.10, "item" : "glitchfossil1"},
+        {"weight" : 0.10, "item" : "glitchfossil2"},
+        {"weight" : 0.10, "item" : "glitchfossil3"},
+        {"weight" : 0.10, "item" : "hylotlfossil1"},
+        {"weight" : 0.10, "item" : "hylotlfossil2"},
+        {"weight" : 0.10, "item" : "hylotlfossil3"},
+        {"weight" : 0.10, "item" : "humanfossil1"},
+        {"weight" : 0.10, "item" : "humanfossil2"},
+        {"weight" : 0.10, "item" : "humanfossil3"},
+        {"weight" : 0.10, "item" : "atprk_anneliskfossil1"},
+        {"weight" : 0.10, "item" : "atprk_anneliskfossil2"},
+        {"weight" : 0.10, "item" : "atprk_anneliskfossil3"},
+        {"weight" : 0.10, "item" : "atprk_fenronfossil1"},
+        {"weight" : 0.10, "item" : "atprk_fenronfossil2"},
+        {"weight" : 0.10, "item" : "atprk_fenronfossil3"},
+        {"weight" : 0.10, "item" : "atprk_noolithfossil1"},
+        {"weight" : 0.10, "item" : "atprk_noolithfossil2"},
+        {"weight" : 0.10, "item" : "atprk_noolithfossil3"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       Other
+  // ================================
+
+  "atprk_olddeliverypack" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.70, "pool" : "money"},
+        {"weight" : 0.10, "item" : "staticcell"},
+        {"weight" : 0.30, "item" : "stickofram"},
+        {"weight" : 0.01, "item" : "atprk_encryptionkey1"},
+        {"weight" : 0.01, "item" : "atprk_encryptionkey2"},
+        {"weight" : 0.01, "item" : "atprk_encryptionkey3"},
+        {"weight" : 0.01, "item" : "atprk_encryptionkey1"}
+      ]
+    }]
+  ]
+}

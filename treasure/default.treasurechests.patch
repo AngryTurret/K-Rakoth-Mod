@@ -1,0 +1,145 @@
+[
+  {"op" : "add",
+	"path" : "/atprk_ancientnecropolis", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_smallancientchest" ],
+		  "treasurePool" : "atprk_ancientnecropolisChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_deepnecropolis", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_smallancientchest" ],
+		  "treasurePool" : "atprk_deepnecropolisChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_ashworld", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_ashchest" ],
+		  "treasurePool" : "atprk_ashworldChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_radiotrophic", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_radiotrophicchest" ],
+		  "treasurePool" : "atprk_radiotrophicChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_hungergrove", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_fenronchest" ],
+		  "treasurePool" : "atprk_hungergroveChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_glaciovolcanic", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_noolithchest" ],
+		  "treasurePool" : "atprk_glaciovolcanicChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_noolithbirthplace", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_noolithchest" ],
+		  "treasurePool" : "atprk_noolithbirthplaceChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_polluted", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_anneliskchest" ],
+		  "treasurePool" : "atprk_pollutedChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_shipgraveyard", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "rustchest" ],
+		  "treasurePool" : "atprk_shipgraveyardChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_boilingocean", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk-krakothcontainer2" ],
+		  "treasurePool" : "atprk_boilingoceanChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_boilingoceanfloor", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk-krakothcontainer2" ],
+		  "treasurePool" : "atprk_boilingoceanfloorChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_sponge", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_spongechest" ],
+		  "treasurePool" : "atprk_spongeChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_navalminefield", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk-krakothcontainer2" ],
+		  "treasurePool" : "atprk_navalminefieldChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  }
+]

@@ -1,0 +1,425 @@
+{
+
+  // ================================
+  //       Glitch Devout Tower
+  // ================================
+
+    "atprk_glitchdevoutTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "hourglass", 1]},
+        {"weight" : 0.04, "item" : [ "medievalglobe", 1]},
+        {"weight" : 0.04, "item" : [ "atprk_glitchstandard", 1]},
+        {"weight" : 0.04, "item" : [ "throwingaxe", 3]},
+        {"weight" : 0.02, "item" : [ "bomb", 3]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_glitchdevoutChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.70, "pool" : "valuableTreasure"},
+        {"weight" : 0.30, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "item" : [ "atprk_glitchpainting1", 1]},
+        {"weight" : 0.02, "item" : [ "plaguemasterhead", 1]},
+        {"weight" : 0.02, "item" : [ "plumeknighthead", 1]},
+        {"weight" : 0.02, "item" : [ "soulguise", 1]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_glitchdevoutLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "item" : "atprk_glitchservantcodex-codex"},
+        {"weight" : 0.33, "item" : "atprk_glitchtraitorcodex-codex"},
+        {"weight" : 0.33, "item" : "atprk_glitchdevouthint"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_glitchdevoutKrakoth" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.33, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.33, "item" : [ "atprk_hyperpixel", 5]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.30, 2],
+        [0.20, 3]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "atprk_glitchdevoutKrakothLore" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextbeta", 1]},
+        {"pool" : "valuableTreasure"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       K'Rakoth Underwater Ruins
+  // ================================
+
+    "atprk_krakothruinsTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "waterballoon", 5]},
+        {"weight" : 0.04, "item" : [ "atprk-eldritchbell", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-krakothshell2", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-eldritchpc", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 3]}
+      ],
+      "poolRounds" : [
+        [0.30, 0],
+        [0.40, 1],
+        [0.20, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothruinsRareTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece1", 1]},
+        {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 5]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothruinsChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.40, "item" : [ "atprk_hyperpixel", 5]},
+        {"weight" : 0.02, "item" : [ "sharkhead", 1]},
+        {"weight" : 0.02, "item" : [ "deepdiverhead", 1]},
+        {"weight" : 0.02, "item" : [ "snorkelhead", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothruinsReligionLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "item" : "atprk_krakothtexttau"},
+        {"weight" : 0.50, "item" : "atprk_krakothtextrho"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothruins4DLore" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextphi", 1]},
+        {"item" : [ "atprk_4dcube", 2]}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       Apex Area 48
+  // ================================
+
+    "atprk_apexarea48Treasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.05, "item" : [ "throwingblock", 5]},
+        {"weight" : 0.05, "item" : "plasmadisc"},
+        {"weight" : 0.05, "item" : "banana"},
+        {"weight" : 0.05, "item" : [ "atprk-eldritchpc", 1]},
+        {"weight" : 0.05, "pool" : "stim"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_apexarea48ChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "pool" : "valuableTreasure"},
+        {"weight" : 0.50, "pool" : "goodWeapon"},
+        {"weight" : 0.05, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "beachcreeperhead", 1]},
+        {"weight" : 0.20, "item" : [ "beachcreeperchest", 1]},
+        {"weight" : 0.20, "item" : [ "beachcreeperlegs", 1]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_apexarea48Lore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "atprk_apexarea48entry1-codex"},
+        {"weight" : 0.5, "item" : "atprk_apexarea48entry2-codex"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_apexarea48Krakoth" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.25, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.25, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.25, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.25, "item" : [ "atprk_4dcube", 2]},
+        {"weight" : 0.05, "item" : [ "atprk_chthonicscraps", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.30, 2],
+        [0.20, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  // ================================
+  //       Church of Ri'shaan
+  // ================================
+
+    "atprk_krakothchurchTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "yellowstim", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-gildedglass", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-gildedcorallight", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-gildedidol", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 2]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 4]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothchurchRareTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece2", 1]},
+        {"weight" : 0.05, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 6]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothchurchChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "pool" : "goodWeapon"},
+        {"weight" : 0.40, "item" : [ "atprk_hyperpixel", 5]},
+        {"weight" : 0.02, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.02, "item" : [ "alienskullhead", 1]},
+        {"weight" : 0.02, "item" : [ "glitchskullhead", 1]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothchurchLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "item" : "atprk_krakothtextupsilon"},
+        {"weight" : 0.50, "item" : "atprk_krakothtextsigma"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  // ================================
+  //       K'Rakoth Laboratory
+  // ================================
+
+    "atprk_krakothlabTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "atprk-krakothmonitor1", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-eldritchwalllight", 1]},
+        {"weight" : 0.10, "item" : [ "atprk_eldertech", 1]},
+        {"weight" : 0.04, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 2]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+    "atprk_krakothlabWaterTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "waterballoon", 5]},
+        {"weight" : 0.04, "item" : [ "atprk_ancientshards", 1]},
+        {"weight" : 0.06, "item" : [ "atprk_eldertech", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 3]}
+      ],
+      "poolRounds" : [
+        [0.10, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.20, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothlabRareTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece3", 1]},
+        {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 3]},
+        {"weight" : 0.02, "item" : [ "atprk_thinkingdrone", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 4]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothlabLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "item" : "atprk_krakothtexttheta"},
+        {"weight" : 0.50, "item" : "atprk_krakothtextepsilon"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  // ================================
+  //       Other
+  // ================================
+
+  "atprk_krakothRadiotrophicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "atprk_radiotrophicTreasure"},
+        {"weight" : 0.20, "item" : "atprk_krakothtexteta"},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothMidnightTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "shadowChestTreasure"},
+        {"weight" : 0.20, "item" : "atprk_krakothtextxi"},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_4dcube", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+
+}

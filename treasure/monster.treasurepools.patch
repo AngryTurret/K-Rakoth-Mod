@@ -1,0 +1,136 @@
+[
+  {"op" : "add",
+   "path" : "/atprk_shruberserkTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.45, "item" : "plantfibre"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief4"},
+	    {"weight" : 0.006, "item" : "atprk_shruberserkaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_hungertrictusTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.30, "item" : "plantfibre"},
+	    {"weight" : 0.20, "item" : "atprk_traproot"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief4"},
+	    {"weight" : 0.006, "item" : "atprk_hungertrictusaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_roxmolTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.75, "pool" : "money"},
+	    {"weight" : 0.30, "item" : "crystal"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard2"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard3"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard4"},
+	    {"weight" : 0.006, "item" : "atprk_roxmolaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_sapphaseTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.40, "item" : "crystal"},
+	    {"weight" : 0.10, "item" : "phasematter"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard2"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard3"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard4"},
+	    {"weight" : 0.006, "item" : "atprk_sapphaseaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_androneTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.70, "pool" : "money"},
+	    {"weight" : 0.30, "item" : "stickofram"},
+	    {"weight" : 0.01, "item" : "atprk_encryptionkey1"},
+	    {"weight" : 0.01, "item" : "atprk_encryptionkey2"},
+	    {"weight" : 0.01, "item" : "atprk_encryptionkey3"},
+	    {"weight" : 0.01, "item" : "atprk_encryptionkey4"},
+	    {"weight" : 0.006, "item" : "atprk_androneaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_oculopterTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.50, "item" : "atprk_olddeliverypack"},
+	    {"weight" : 0.006, "item" : "atprk_oculopteraf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_lunarcrustoiseTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.30, "item" : "solidfuel"},
+	    {"weight" : 0.20, "item" : "hardenedcarapace"},
+	    {"weight" : 0.006, "item" : "atprk_lunarcrustoiseaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_shapelessdwellerTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.40, "pool" : "money"},
+	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.30, "item" : "hardenedcarapace"},
+	    {"weight" : 0.10, "item" : "crystal"},
+	    {"weight" : 0.05, "item" : "solidfuel"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_krakothrobotTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.05, "item" : "atprk_chthonicscraps"},
+	    {"weight" : 0.01, "item" : "atprk_eldertech"}
+      ]
+    }]
+   ]		
+  }
+]

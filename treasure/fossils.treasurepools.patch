@@ -1,0 +1,52 @@
+[
+
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.40, "item" : "atprk_anneliskfossil1"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_anneliskfossil2"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_anneliskfossil3"}
+  },
+
+
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.40, "item" : "atprk_fenronfossil1"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_fenronfossil2"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_fenronfossil3"}
+  },
+
+
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.40, "item" : "atprk_noolithfossil1"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_noolithfossil2"}
+  },
+  {"op" : "add",
+	"path" : "/humanoidfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.30, "item" : "atprk_noolithfossil3"}
+  }
+]
