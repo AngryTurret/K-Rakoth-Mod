@@ -1,0 +1,25 @@
+{
+  "materialId" : 62108,
+  "materialName" : "atprk_slopedgildedpanel",
+  "particleColor" : [176, 182, 64, 255],
+  "itemDrop" : "atprk_slopedgildedpanel",
+
+  "description" : "Ancient plating made of gold mixed with other metals.",
+  "glitchDescription" : "Observant. I can see my own reflection.",
+  "floranDescription" : "Ancient golden blocksss.",
+  "novakidDescription" : "Look at that, these panels contain pure gold!",
+  "shortdescription" : "Gilded Eldritch Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 30,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_slopedgildedpanel.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

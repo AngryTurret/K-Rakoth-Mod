@@ -1,0 +1,24 @@
+{
+  "materialId" : 62103,
+  "materialName" : "atprk_radiotrophiclog",
+  "particleColor" : [91, 100, 68, 255],
+  "itemDrop" : "atprk_radiotrophicwood",
+  "description" : "A piece of alien radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Wood",
+  "glitchDescription" : "Neutral. A piece of alien radiotrophic wood.",
+  "floranDescription" : "Sssstrong green wood.",
+  "novakidDescription" : "A piece o' radioactive wood.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_radiotrophiclog.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3350
+  }
+}

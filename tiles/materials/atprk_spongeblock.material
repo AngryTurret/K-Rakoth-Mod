@@ -1,0 +1,25 @@
+{
+  "materialId" : 62112,
+  "materialName" : "atprk_spongeblock",
+  "particleColor" : [152, 137, 57, 255],
+  "itemDrop" : "atprk_spongeblock",
+  "description" : "A soft sponge block. No, it doesn't absorb water.",
+  "shortdescription" : "Sea Sponge Block",
+  "glitchDescription" : "Curious. This block is in fact a sponge colony.",
+  "floranDescription" : "Sssea ssponge.",
+  "novakidDescription" : "Nice, but can I wash dishes with that?",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 3,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_spongeblock.png",
+    "variants" : 14,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3400
+  }
+}

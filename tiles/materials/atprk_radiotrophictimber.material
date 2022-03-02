@@ -1,0 +1,25 @@
+{
+  "materialId" : 62104,
+  "materialName" : "atprk_radiotrophictimber",
+  "particleColor" : [172, 206, 153, 255],
+  "itemDrop" : "atprk_radiotrophictimber",
+  "description" : "Refined radiotrophic wood that can be used for crafting.",
+  "shortdescription" : "Radiotrophic Timber",
+  "glitchDescription" : "Neutral. Green wood planks.",
+  "floranDescription" : "Sssstrong wood plankss.",
+  "novakidDescription" : "Green wood planks.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 6,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_radiotrophictimber.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2890
+  }
+}

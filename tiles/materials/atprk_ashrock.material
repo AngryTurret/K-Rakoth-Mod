@@ -1,0 +1,26 @@
+{
+  "materialId" : 62113,
+  "materialName" : "atprk_ashrock",
+  "frames" : "atprk_ashrock.png",
+  "particleColor" : [176, 174, 168, 255],
+  "variants" : 5,
+  "itemDrop" : "cobblestonematerial",
+  "description" : "Ash-covered rocks.",
+  "shortdescription" : "Ashy Stone",
+  "glitchDescription" : "Neutral. Rough ashy stone.",
+  "floranDescription" : "Dusssty ssstoness.",
+  "novakidDescription" : "Dusty rocks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_ashrock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1600
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 62110,
+  "materialName" : "atprk_gildedmetal",
+  "particleColor" : [205, 210, 110, 255],
+  "itemDrop" : "atprk_gildedmetal",
+  "description" : "Blocks of gold-covered alloys.",
+  "shortdescription" : "Gilded Metal Block",
+  "glitchDescription" : "Neutral. These blocks contain gold and exotic metals.",
+  "floranDescription" : "Shiny golden blocksss.",
+  "novakidDescription" : "Blocks o' gold mixed with... somethin'. I don't know.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_gildedmetal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

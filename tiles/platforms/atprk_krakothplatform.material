@@ -1,0 +1,23 @@
+{
+  "materialId" : 62107,
+  "materialName" : "atprk_krakothplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "atprk_krakothplatform",
+  "shortdescription" : "Eldritch Platform",
+  "description" : "A sturdy ancient platform.",
+  "glitchDescription" : "Neutral. An ancient metal platform.",
+  "floranDescription" : "Old platform.",
+  "novakidDescription" : "Some ol' platform.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_krakothplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

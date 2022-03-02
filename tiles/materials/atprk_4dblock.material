@@ -1,0 +1,25 @@
+{
+  "materialId" : 62111,
+  "materialName" : "atprk_4dblock",
+  "particleColor" : [227, 26, 220, 255],
+  "itemDrop" : "atprk_4dparticle",
+  "description" : "A block from another dimension.",
+  "shortdescription" : "Extradimensional Block",
+  "glitchDescription" : "Interested. A block from another dimension.",
+  "floranDescription" : "Unnatural blocksss.",
+  "novakidDescription" : "A block that doesn't belong in our world.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_4dblock.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 470,
+    "radiantLight" : [191, 21, 184]
+  }
+}

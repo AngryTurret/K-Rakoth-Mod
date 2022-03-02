@@ -1,0 +1,25 @@
+{
+  "materialId" : 62105,
+  "materialName" : "atprk_radiotrophicpillar",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "atprk_radiotrophicpillar",
+  "description" : "A pillar made from radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Pillar",
+  "glitchDescription" : "Amazed. A durable support beam made from radiotrophic wood.",
+  "floranDescription" : "Green wood beam.",
+  "novakidDescription" : "A fine yet slightly radioactive wood.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 6,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_radiotrophicpillar.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2820
+  }
+}

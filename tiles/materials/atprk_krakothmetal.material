@@ -1,0 +1,24 @@
+{
+  "materialId" : 62109,
+  "materialName" : "atprk_krakothmetal",
+  "particleColor" : [124, 148, 132, 255],
+  "itemDrop" : "atprk_krakothmetal",
+  "description" : "A solid block of strange alloys.",
+  "shortdescription" : "Eldritch Metal Block",
+  "glitchDescription" : "Neutral. Blocks made from some alien metals.",
+  "floranDescription" : "Greenish metal blockss.",
+  "novakidDescription" : "I know no metals like this.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_krakothmetal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 62106,
+  "materialName" : "atprk_slopedkrakothpanel",
+  "particleColor" : [94, 115, 102, 255],
+  "itemDrop" : "atprk_slopedkrakothpanel",
+
+  "description" : "Ancient plating made of unknown metal alloys.",
+  "glitchDescription" : "Puzzled. I do not recognize this material.",
+  "floranDescription" : "Old ssspace metal.",
+  "novakidDescription" : "Some thick metal platin' that consists of unknown metals.",
+  "shortdescription" : "Eldritch Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 30,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_slopedkrakothpanel.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}
