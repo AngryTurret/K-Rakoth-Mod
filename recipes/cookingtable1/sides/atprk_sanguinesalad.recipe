@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_cookedtraproot", "count" : 1 },
+    { "item" : "carrot", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_sanguinesalad", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ],
+  "collectables" : { "cooking" : "atprk_sanguinesalad" }
+}

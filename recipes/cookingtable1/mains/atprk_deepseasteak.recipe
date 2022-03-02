@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_exoticstarfish", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_deepseasteak", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ],
+  "collectables" : { "cooking" : "atprk_deepseasteak" }
+}

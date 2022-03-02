@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_traproot", "count" : 1 },
+    { "item" : "cacti", "count" : 1 },
+    { "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_venusbite", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ],
+  "collectables" : { "cooking" : "atprk_venusbite" }
+}

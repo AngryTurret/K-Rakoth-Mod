@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kelp", "count" : 5 },
+    { "item" : "rice", "count" : 1 },
+    { "item" : "atprk_exoticstarfish", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_starfishsushi", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ],
+  "collectables" : { "cooking" : "atprk_starfishsushi" }
+}
