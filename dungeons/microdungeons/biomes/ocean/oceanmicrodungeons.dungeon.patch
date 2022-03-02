@@ -1,0 +1,236 @@
+[
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothmines1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothmines1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothmines1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothmines2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothmines2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothmines2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothmines3"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothmines3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothmines3.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_oceanfloor1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_oceanfloor1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oceanfloor1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_oceanfloor2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_oceanfloor2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oceanfloor2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_oceanfloor3"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_oceanfloor3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oceanfloor3.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_oceanfloor4"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_oceanfloor4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oceanfloor4.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_metaljunk"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_metaljunk",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_metaljunk.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_miniknogruins"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_miniknogruins",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_miniknogruins.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothmonument1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothmonument1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothmonument1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothmonument2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothmonument2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothmonument2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_krakothminitemple"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_krakothminitemple",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothminitemple.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_sunkensubmarine"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_sunkensubmarine",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_sunkensubmarine.json" ]
+    }	
+}
+]
