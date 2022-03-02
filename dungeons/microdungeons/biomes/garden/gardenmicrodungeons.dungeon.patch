@@ -1,0 +1,38 @@
+[
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_protectoratespaceport"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_protectoratespaceport",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_protectoratespaceport.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_gardenancientplatform"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_gardenancientplatform",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_gardenancientplatform.json" ]
+    }	
+}
+]
