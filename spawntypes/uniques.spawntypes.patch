@@ -1,0 +1,156 @@
+[
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_shruberserk",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.05,
+      "monsterType" : "atprk_shruberserk",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_hungertrictus",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.08,
+      "monsterType" : "atprk_hungertrictus",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_roxmol",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.1,
+      "monsterType" : "atprk_roxmol",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_sapphase",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_sapphase",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_oculopter",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "exposed",
+        "time" : "day"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_oculopter",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_androne",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.08,
+      "monsterType" : "atprk_androne",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_lunarcrustoise",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.08,
+      "groupSize" : [1, 2],
+      "monsterType" : "atprk_lunarcrustoise",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_shapelessdweller",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.05,
+      "monsterType" : "atprk_shapelessdweller",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_krakothmine",
+	  "spawnParameters" : {
+		"area" : "liquid",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_krakothmine",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  }
+]
