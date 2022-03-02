@@ -1,0 +1,727 @@
+[
+  //Ancient Necropolis
+  { "op" : "add",
+	"path" : "/atprk_ancientnecropolis",
+	"value" : {
+	  "atprk_ancientaqueduct" : {
+		"name" : "ruined aqueduct",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ancientlibrary" : {
+		"name" : "old library",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_cultivatorsshrine" : {
+		"name" : "Cultivator's shrine",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_ancientstairs1" : {
+		"name" : "ancient pyramid",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_ancientstairs2" : {
+		"name" : "ancient pyramid",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_ancientpit1" : {
+		"name" : "ancient pit",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ancientpit2" : {
+		"name" : "ancient pit",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ancientsquare1" : {
+		"name" : "mysterious arch",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ancientpool" : {
+		"name" : "ancient pool",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  }
+	}
+  },
+
+  //Ash World
+  { "op" : "add",
+	"path" : "/atprk_ashworld",
+	"value" : {
+	  "atprk_ashyglitchfort1" : {
+		"name" : "spooky Glitch fort",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_ashyglitchfort2" : {
+		"name" : "small Glitch tower",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_ashyglitchfort3" : {
+		"name" : "fortified Glitch checkpoint",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_ashyglitchfort4" : {
+		"name" : "old Glitch fort",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_ashyglitchfort5" : {
+		"name" : "old Glitch bridge",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_ashyruins1" : {
+		"name" : "ruined fort",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_ashyruins2" : {
+		"name" : "collapsed fort",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ashyruins3" : {
+		"name" : "molten fort",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_devoutmonument1" : {
+		"name" : "Automaton monument",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_devoutmonument2" : {
+		"name" : "Feral monument",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_devoutmonument3" : {
+		"name" : "Crystal monument",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_devoutmonument4" : {
+		"name" : "Worm monument",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_lavawell" : {
+		"name" : "strange well",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  }
+	}
+  },
+
+  //Radiotrophic Forest
+  { "op" : "add",
+	"path" : "/atprk_radiotrophic",
+	"value" : {
+	  "atprk_toxiccrabnest" : {
+		"name" : "toxic crab nest",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_toxiccrater" : {
+		"name" : "small meteorite crater",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_radiotrophicgarden" : {
+		"name" : "radiotrophic garden",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_poisongrave" : {
+		"name" : "overgrown graveyard",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_slimewell" : {
+		"name" : "slime well",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_oldshelter" : {
+		"name" : "old shelter",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_radiotrophichill1" : {
+		"name" : "radioactive hill",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_radiotrophichill2" : {
+		"name" : "radioactive hill",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_radiotrophichill3" : {
+		"name" : "radioactive hill",
+		"tags" : [ "generic", "friendly" ]
+	  }
+	}
+  },
+
+  //Hunger Grove
+  { "op" : "add",
+	"path" : "/atprk_hungergrove",
+	"value" : {
+	  "atprk_maneaterwaste" : {
+		"name" : "pile of waste",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_venombell1" : {
+		"name" : "mature Venombell plant",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_venombell2" : {
+		"name" : "juvenile Venombell plants",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_apexeater" : {
+		"name" : "colossal Apexeater plant",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_thorntrunk1" : {
+		"name" : "Thorntrunk trees",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_thorntrunk2" : {
+		"name" : "Thorntrunk trees",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_jawbloom" : {
+		"name" : "Jawbloom plant",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_fenronruins1" : {
+		"name" : "overgrown ruins",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_fenronruins2" : {
+		"name" : "overgrown ruins",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_fenronruins3" : {
+		"name" : "overgrown ruins",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_fenronruins4" : {
+		"name" : "overgrown ruins",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_fenronritualtotem" : {
+		"name" : "overgrown totem",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  }
+	}
+  },
+
+  //Glaciovolcanic
+  { "op" : "add",
+	"path" : "/atprk_glaciovolcanic",
+	"value" : {
+	  "atprk_glaciovolcanicoutpost" : {
+		"name" : "glaciovolcanic research outpost",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_smallvolcano1" : {
+		"name" : "small volcano",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_smallvolcano2" : {
+		"name" : "volcanic platform",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_smallvolcano3" : {
+		"name" : "small volcano",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_smallvolcano4" : {
+		"name" : "volcanic geode",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_geodelike1" : {
+		"name" : "infernal geode",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_geodelike2" : {
+		"name" : "frozen geode",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_geodelike3" : {
+		"name" : "buried geode",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_hotcrystalcave" : {
+		"name" : "top of the crystal cave",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_noolithlibrary" : {
+		"name" : "crystal library",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_noolithmonument" : {
+		"name" : "crystal monument",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_noolithruins1" : {
+		"name" : "strange monoliths",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_noolithruins2" : {
+		"name" : "strange monoliths",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  }
+	}
+  },
+
+  //Polluted
+  { "op" : "add",
+	"path" : "/atprk_polluted",
+	"value" : {
+	  "atprk_pollutedtank" : {
+		"name" : "large oil tank",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_oldlampposts" : {
+		"name" : "two broken lampposts",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_pollutedbuilding1" : {
+		"name" : "abandoned tower",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_pollutedbuilding2" : {
+		"name" : "small shelter",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_pollutedbuilding3" : {
+		"name" : "small shelter",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_pollutedbuilding4" : {
+		"name" : "top of the damaged tower",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_anneliskruins1" : {
+		"name" : "abandoned colony building",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_anneliskruins2" : {
+		"name" : "top floor of the abandoned tower",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_anneliskruins3" : {
+		"name" : "abandoned colony shelter",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_anneliskwall" : {
+		"name" : "rusty wall",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_anneliskwarehouse" : {
+		"name" : "abandoned warehouse",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  }
+	}
+  },
+
+  //Ship Graveyard
+  { "op" : "add",
+	"path" : "/atprk_shipgraveyard",
+	"value" : {
+	  "atprk_rustyrocket" : {
+		"name" : "rusty rocket",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_rustycratestack" : {
+		"name" : "rusty cargo crates",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_rustycockpit1" : {
+		"name" : "destroyed spacecraft",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_rustycockpit2" : {
+		"name" : "destroyed spacecraft",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_smallstarship" : {
+		"name" : "small spacecraft",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_smallcrater" : {
+		"name" : "meteorite crater",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_shipdebris1" : {
+		"name" : "abandoned ship hull",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_shipdebris2" : {
+		"name" : "rusty debris",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_shipdebris3" : {
+		"name" : "metallic debris",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_shipdebris4" : {
+		"name" : "space debris",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_shipdebris5" : {
+		"name" : "shipwreck crater",
+		"tags" : [ "generic", "friendly" ]
+	  }
+	}
+  },
+
+  //Boiling Ocean
+  { "op" : "add",
+	"path" : "/atprk_boilingocean",
+	"value" : {
+	  "atprk_boilingislandruins1" : {
+		"name" : "elder warehouse",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_boilingislandruins2" : {
+		"name" : "elder warehouse",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_boilingislandruins3" : {
+		"name" : "elder ruins",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_boilingislandruins4" : {
+		"name" : "elder bridge",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_boilingislandruins5" : {
+		"name" : "ruined elder building",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_boilingislandruins6" : {
+		"name" : "elder checkpoint",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_boilingislandruins7" : {
+		"name" : "ruined elder checkpoint",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_boilingmonument1" : {
+		"name" : "elder monument",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_boilingmonument2" : {
+		"name" : "elder marker",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_boilingpond" : {
+		"name" : "small pond",
+		"tags" : [ "generic", "friendly"]
+	  }
+	}
+  },
+
+  //Boiling Ocean Floor
+  { "op" : "add",
+	"path" : "/atprk_boilingoceanfloor",
+	"value" : {
+	  "atprk_boilingbuilding1" : {
+		"name" : "elder underwater facility",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingbuilding2" : {
+		"name" : "elder underwater facility",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_boilingbuilding3" : {
+		"name" : "elder underwater basement",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_boilingbuilding4" : {
+		"name" : "elder underwater bridge",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_boilingbuilding5" : {
+		"name" : "elder underwater building",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_boilingbuilding6" : {
+		"name" : "elder underwater building",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingflat1" : {
+		"name" : "sunken square",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingflat2" : {
+		"name" : "sunken square",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingmarker1" : {
+		"name" : "tall elder marker",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingmarker2" : {
+		"name" : "elder marker",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_boilingmarker3" : {
+		"name" : "ruined elder marker",
+		"tags" : [ "ocean"]
+	  }
+	}
+  },
+
+  //Sponge
+  { "op" : "add",
+	"path" : "/atprk_sponge",
+	"value" : {
+	  "atprk_spongefort1" : {
+		"name" : "sponge fortress",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_spongefort2" : {
+		"name" : "sponge fort",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongefort3" : {
+		"name" : "sponge castle",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongefort4" : {
+		"name" : "sponge tunnel",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongefort5" : {
+		"name" : "sponge ruins",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongemonument1" : {
+		"name" : "elder marker",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongemonument2" : {
+		"name" : "elder marker",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongestatue" : {
+		"name" : "sponge-infested statue",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongeteeth1" : {
+		"name" : "suspicious sinkhole",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongeteeth2" : {
+		"name" : "suspicious sinkhole",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_spongeteeth3" : {
+		"name" : "suspicious sinkhole",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
+  //Underwater Minefield
+  { "op" : "add",
+	"path" : "/atprk_navalminefield",
+	"value" : {
+	  "atprk_navaljunk1" : {
+		"name" : "large sunken junk pile",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_navaljunk2" : {
+		"name" : "sunken junk pile",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins1" : {
+		"name" : "destroyed doorway",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins2" : {
+		"name" : "destroyed building",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins3" : {
+		"name" : "flooded room",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins4" : {
+		"name" : "destroyed warehouse",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins5" : {
+		"name" : "shattered windows",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins6" : {
+		"name" : "ruined dwellings",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_navalruins7" : {
+		"name" : "collapsed wall",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
+  //Ocean Microdungeons
+  { "op" : "add",
+	"path" : "/atprk_oceanplus",
+	"value" : {
+	  "atprk_miniknogruins" : {
+		"name" : "Miniknog ruins",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_metaljunk" : {
+		"name" : "sunken turbines",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_sunkensubmarine" : {
+		"name" : "discarded submarine",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_krakothmonument1" : {
+		"name" : "mysterious marker",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_krakothmonument2" : {
+		"name" : "mysterious marker",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_krakothminitemple" : {
+		"name" : "enigmatic temple",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
+  //Glitch Devout Tower
+  { "op" : "add",
+	"path" : "/atprk_glitchdevouttower",
+	"value" : {
+	  "atprk_glitchdevouttowerroof" : {
+		"name" : "top of the Devout Tower",
+		"tags" : [ "glitch", "friendly"]
+	  },
+	  "atprk_glitchdevouttowerhall" : {
+		"name" : "hall of the Devout Tower",
+		"tags" : [ "glitch", "friendly" ]
+	  }
+	}
+  },
+
+  //Underwater Ruins
+  { "op" : "add",
+	"path" : "/atprk_krakothruins",
+	"value" : {
+	  "atprk_krakothruinstop" : {
+		"name" : "mysterious underwater ruins",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_krakothruinsdepths" : {
+		"name" : "depths of the mysterious ruins",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_krakothruinschurch" : {
+		"name" : "sunken church",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
+  //Church of Ri'shaan
+  { "op" : "add",
+	"path" : "/atprk_krakothchurch",
+	"value" : {
+	  "atprk_krakothchurchentrance1" : {
+		"name" : "eldritch church",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothchurchentrance2" : {
+		"name" : "small Glitch cultist camp",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_krakothchurchentrance3" : {
+		"name" : "ruined church",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothchurchentrance4" : {
+		"name" : "small Ocassus cultist camp",
+		"tags" : [ "generic", "friendly"]
+	  }
+	}
+  },
+
+  //Area 48
+  { "op" : "add",
+	"path" : "/atprk_apexarea48",
+	"value" : {
+	  "atprk_apexarea48chamber" : {
+		"name" : "Area 48 test chamber",
+		"tags" : [ "apex", "friendly"]
+	  },
+	  "atprk_apexarea48hangar1" : {
+		"name" : "Area 48 hangar",
+		"tags" : [ "apex", "friendly" ]
+	  },
+	  "atprk_apexarea48hangar2" : {
+		"name" : "Area 48 escape pod",
+		"tags" : [ "apex", "friendly" ]
+	  },
+	  "atprk_apexarea48takeoff" : {
+		"name" : "Area 48 landing site",
+		"tags" : [ "apex", "friendly" ]
+	  },
+	  "atprk_apexarea48roof" : {
+		"name" : "Area 48 main building roof",
+		"tags" : [ "apex", "friendly" ]
+	  }
+	}
+  },
+
+  //Terraforming Laboratory
+  { "op" : "add",
+	"path" : "/atprk_krakothlab",
+	"value" : {
+	  "atprk_krakothlabroom1" : {
+		"name" : "enigmatic stasis chamber",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothlabroom2" : {
+		"name" : "enigmatic pool entrance",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothlabroom3" : {
+		"name" : "enigmatic terrarium",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothlabentrance1" : {
+		"name" : "enigmatic laboratory hall",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_krakothlabentrance2" : {
+		"name" : "enigmatic laboratory hall",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_krakothlabstairs" : {
+		"name" : "enigmatic stairway",
+		"tags" : [ "generic", "friendly"]
+	  }
+	}
+  },
+
+  //Unsorted Microdungeons
+  { "op" : "add",
+	"path" : "/atprk_misc",
+	"value" : {
+	  "atprk_protectoratespaceport" : {
+		"name" : "Protectorate spaceport",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_gardenancientplatform" : {
+		"name" : "mysterious stone pillar",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_desertshipwreck" : {
+		"name" : "abandoned shipwreck",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_smallrishaanbeacon1" : {
+		"name" : "Ri'shaan's Beacon",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_smallrishaanbeacon2" : {
+		"name" : "desecrated Ri'shaan's Beacon",
+		"tags" : [ "generic", "friendly" ]
+	  }
+	}
+  }
+]
