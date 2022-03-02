@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_androneaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "atprk_androneaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"It can shoot small energy bullets for 24 hours straight.\"",
+  "shortdescription" : "Androne Figurine",
+
+
+
+  "inventoryIcon" : "atprk_androneaf.png",
+  "orientations" : [
+    {
+      "image" : "atprk_androneaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_androneaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

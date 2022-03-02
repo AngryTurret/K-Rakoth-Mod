@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_shruberserkaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "atprk_shruberserkaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Shruberserk allows smaller creatures to hide in its foliage, only to eat them later.\"",
+  "shortdescription" : "Shruberserk Figurine",
+
+
+
+  "inventoryIcon" : "atprk_shruberserkaf.png",
+  "orientations" : [
+    {
+      "image" : "atprk_shruberserkaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_shruberserkaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

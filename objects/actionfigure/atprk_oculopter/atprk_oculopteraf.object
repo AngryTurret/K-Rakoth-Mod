@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_oculopteraf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "atprk_oculopteraf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A rogue delivery drone. The package it carries is probably damaged.\"",
+  "shortdescription" : "Oculopter Figurine",
+
+
+
+  "inventoryIcon" : "atprk_oculopteraf.png",
+  "orientations" : [
+    {
+      "image" : "atprk_oculopteraf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_oculopteraf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
