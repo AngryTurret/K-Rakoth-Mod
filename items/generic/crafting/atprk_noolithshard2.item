@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_noolithshard2",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_noolithshard2.png",
+  "description" : "A large shard of an exotic crystal.",
+  "shortdescription" : "Whispering Shard",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_noolithtalkingfull"
+  ]
+}

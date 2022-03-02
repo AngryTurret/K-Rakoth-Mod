@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_ancientshards",
+  "price" : 200,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_ancientshards.png",
+  "description" : "Remains of ancient artifacts.",
+  "shortdescription" : "Ancient Shards",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_ancientstatueprop"
+  ]
+}

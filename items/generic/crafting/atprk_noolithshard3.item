@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_noolithshard3",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_noolithshard3.png",
+  "description" : "A large shard of an exotic crystal.",
+  "shortdescription" : "Brooding Shard",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_noolithtalkingfull"
+  ]
+}

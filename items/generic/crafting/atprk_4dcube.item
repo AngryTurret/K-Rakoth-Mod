@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_4dcube",
+  "price" : 750,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_4dcube.png",
+  "description" : "A small device that creates limited four-dimensional spaces.",
+  "shortdescription" : "Tesseract Generator",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtextbeta",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextbeta.png",
+  "description" : "A list of races written in an alien language. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Beta",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexbeta-codex"
+  ]
+}

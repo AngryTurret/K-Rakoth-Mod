@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_encryptionkey4",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_encryptionkey4.png",
+  "description" : "One of the keys to decode the lost alien broadcast.",
+  "shortdescription" : "Encryption Key D",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_anneliskbroadcast-codex"
+  ]
+}

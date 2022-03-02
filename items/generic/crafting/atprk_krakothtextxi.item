@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtextxi",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextxi.png",
+  "description" : "A mysterious holographic tablet. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Xi",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexxi-codex"
+  ]
+}

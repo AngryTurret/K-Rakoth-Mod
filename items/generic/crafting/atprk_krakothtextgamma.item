@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtextgamma",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextgamma.png",
+  "description" : "A K'Rakothan description of some unknown race. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Gamma",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexgamma-codex"
+  ]
+}

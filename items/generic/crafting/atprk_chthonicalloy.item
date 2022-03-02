@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_chthonicalloy",
+  "price" : 200,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_chthonicalloy.png",
+  "description" : "An exotic, durable alloy forged by K'Rakoths.",
+  "shortdescription" : "Chthonic Alloy",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_elderarmorhead",
+    "atprk_elderarmorchest",
+    "atprk_elderarmorlegs"
+  ]
+}

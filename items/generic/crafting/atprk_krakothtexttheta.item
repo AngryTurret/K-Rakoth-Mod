@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtexttheta",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtexttheta.png",
+  "description" : "It appears to be some sort of scientific documentation. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Theta",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodextheta-codex"
+  ]
+}

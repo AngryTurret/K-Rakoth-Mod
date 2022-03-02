@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_chthonicscraps",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_chthonicscraps.png",
+  "description" : "Remains of advanced machines that can be forged into Chthonic Alloys.",
+  "shortdescription" : "Chthonic Scraps",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_chthonicalloy"
+  ]
+}

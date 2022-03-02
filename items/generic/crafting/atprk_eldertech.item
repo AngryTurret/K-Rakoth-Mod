@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_eldertech",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_eldertech.png",
+  "description" : "Samples of abandoned advanced technology.",
+  "shortdescription" : "Elder Tech",
+  "itemTags" : [ "reagent" ]
+}

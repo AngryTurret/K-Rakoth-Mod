@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_terraformercore",
+  "price" : 750,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_terraformercore.png",
+  "description" : "An inactive terraformer core. Hopefully not broken.",
+  "shortdescription" : "Terraformer Core",
+  "itemTags" : [ "reagent" ]
+}

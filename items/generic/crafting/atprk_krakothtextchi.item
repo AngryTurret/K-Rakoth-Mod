@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtextchi",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextchi.png",
+  "description" : "An ancient document about K'Rakothan robots. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Chi",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexchi-codex"
+  ]
+}
