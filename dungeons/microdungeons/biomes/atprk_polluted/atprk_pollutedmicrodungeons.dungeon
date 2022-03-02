@@ -1,0 +1,144 @@
+{
+  "metadata" : {
+    "name" : "atprk_pollutedmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_deepjunkpit", "atprk_oldlamppost1", "atprk_oldlamppost2", "atprk_pollutedbuilding1", "atprk_pollutedbuilding2", "atprk_pollutedbuilding3", "atprk_pollutedbuilding4", "atprk_pollutedbuilding5", "atprk_pollutedditch1", "atprk_pollutedditch2", "atprk_pollutedditch3", "atprk_pollutedtank", "atprk_anneliskruins1", "atprk_anneliskruins2", "atprk_anneliskruins3", "atprk_anneliskruins4", "atprk_anneliskwall", "atprk_anneliskwarehouse" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_deepjunkpit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_deepjunkpit.json" ]
+    },
+    {
+      "name" : "atprk_oldlamppost1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oldlamppost1.json" ]
+    },
+    {
+      "name" : "atprk_oldlamppost2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oldlamppost2.json" ]
+    },
+    {
+      "name" : "atprk_pollutedbuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedbuilding1.json" ]
+    },
+    {
+      "name" : "atprk_pollutedbuilding2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedbuilding2.json" ]
+    },
+    {
+      "name" : "atprk_pollutedbuilding3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedbuilding3.json" ]
+    },
+    {
+      "name" : "atprk_pollutedbuilding4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedbuilding4.json" ]
+    },
+    {
+      "name" : "atprk_pollutedbuilding5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedbuilding5.json" ]
+    },
+    {
+      "name" : "atprk_pollutedditch1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedditch1.json" ]
+    },
+    {
+      "name" : "atprk_pollutedditch2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedditch2.json" ]
+    },
+    {
+      "name" : "atprk_pollutedditch3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedditch3.json" ]
+    },
+    {
+      "name" : "atprk_pollutedtank",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_pollutedtank.json" ]
+    },
+    {
+      "name" : "atprk_anneliskruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskruins1.json" ]
+    },
+    {
+      "name" : "atprk_anneliskruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskruins2.json" ]
+    },
+    {
+      "name" : "atprk_anneliskruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskruins3.json" ]
+    },
+    {
+      "name" : "atprk_anneliskruins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskruins4.json" ]
+    },
+    {
+      "name" : "atprk_anneliskwall",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskwall.json" ]
+    },
+    {
+      "name" : "atprk_anneliskwarehouse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_anneliskwarehouse.json" ]
+    }
+  ]
+}
