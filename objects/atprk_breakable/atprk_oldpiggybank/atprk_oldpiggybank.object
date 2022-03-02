@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_oldpiggybank",
+  "colonyTags" : ["pretty","valuable"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+
+  "description" : "A gilded piggy bank shaped like a sea pig.",
+  "shortdescription" : "Sea Piggy Bank",
+  "race" : "generic",
+
+  "apexDescription" : "An odd gilded piggy bank shaped like a sea pig.",
+  "avianDescription" : "A strange piggy bank that looks like a sea pig.",
+  "floranDescription" : "Ssssea pig made of gold. It hasss shiny innards.",
+  "glitchDescription" : "Informed. This piggy bank is shaped like a sea pig.",
+  "humanDescription" : "A sea piggy bank made of gilded materials.",
+  "hylotlDescription" : "A piggy bank shaped like a sea pig. That's very creative.",
+  "novakidDescription" : "A weird gilded piggy bank.",
+
+  "inventoryIcon" : "atprk_oldpiggybankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_oldpiggybank.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_hyperpixel", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
