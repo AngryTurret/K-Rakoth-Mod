@@ -1,0 +1,144 @@
+{
+  "metadata" : {
+    "name" : "atprk_glaciovolcanicmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_geodelike1", "atprk_geodelike2", "atprk_geodelike3", "atprk_glaciovolcanicoutpost", "atprk_hotcrystalcave", "atprk_noolithlibrary", "atprk_noolithmonument", "atprk_noolithruins1", "atprk_noolithruins2", "atprk_noolithruins3", "atprk_noolithruins4", "atprk_smalllavapond", "atprk_smallvolcano1", "atprk_smallvolcano2", "atprk_smallvolcano3", "atprk_smallvolcano4", "atprk_smallvolcano5", "atprk_smallvolcano6" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_geodelike1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_geodelike1.json" ]
+    },
+    {
+      "name" : "atprk_geodelike2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_geodelike2.json" ]
+    },
+    {
+      "name" : "atprk_geodelike3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_geodelike3.json" ]
+    },
+    {
+      "name" : "atprk_glaciovolcanicoutpost",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_glaciovolcanicoutpost.json" ]
+    },
+    {
+      "name" : "atprk_hotcrystalcave",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_hotcrystalcave.json" ]
+    },
+    {
+      "name" : "atprk_noolithlibrary",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithlibrary.json" ]
+    },
+    {
+      "name" : "atprk_noolithmonument",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithmonument.json" ]
+    },
+    {
+      "name" : "atprk_noolithruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithruins1.json" ]
+    },
+    {
+      "name" : "atprk_noolithruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithruins2.json" ]
+    },
+    {
+      "name" : "atprk_noolithruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithruins3.json" ]
+    },
+    {
+      "name" : "atprk_noolithruins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithruins4.json" ]
+    },
+    {
+      "name" : "atprk_smalllavapond",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smalllavapond.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano1.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano2.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano3.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano4.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano5.json" ]
+    },
+    {
+      "name" : "atprk_smallvolcano6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_smallvolcano6.json" ]
+    }
+  ]
+}
