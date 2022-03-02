@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishinghottongue",
+  "category" : "atprk_fishinghottongue",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishinghottongue.png"
+  }
+}

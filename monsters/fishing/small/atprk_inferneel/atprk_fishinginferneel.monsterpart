@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishinginferneel",
+  "category" : "atprk_fishinginferneel",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishinginferneel.png"
+  }
+}

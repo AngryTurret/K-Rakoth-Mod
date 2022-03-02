@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingspectrout",
+  "category" : "atprk_fishingspectrout",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingspectrout.png"
+  }
+}

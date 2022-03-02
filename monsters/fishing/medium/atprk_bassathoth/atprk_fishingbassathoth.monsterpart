@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingbassathoth",
+  "category" : "atprk_fishingbassathoth",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingbassathoth.png"
+  }
+}

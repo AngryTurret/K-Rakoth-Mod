@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingaethersquid",
+  "category" : "atprk_fishingaethersquid",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingaethersquid.png"
+  }
+}

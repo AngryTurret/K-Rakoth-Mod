@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingshallowone",
+  "category" : "atprk_fishingshallowone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingshallowone.png"
+  }
+}

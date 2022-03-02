@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingtidewarper",
+  "category" : "atprk_fishingtidewarper",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingtidewarper.png"
+  }
+}

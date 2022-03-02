@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fishingcththonicshrimp",
+  "category" : "atprk_fishingcththonicshrimp",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_fishingcththonicshrimp.png"
+  }
+}
