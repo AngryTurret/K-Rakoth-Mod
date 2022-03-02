@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothstatue2",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A tall statue resembling a giant tentacle.",
+  "shortdescription" : "Eldritch Tentacle Statue",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "This statue looks surprisingly organic despite being made of metal.",
+  "avianDescription" : "I hope it won't try to grab me.",
+  "floranDescription" : "Floran getsss hungry looking at thisss statue.",
+  "glitchDescription" : "Relieved. For a second I thought this tentacle was real.",
+  "humanDescription" : "It's not meant to be the Ruin's tentacle, right? Right?...",
+  "hylotlDescription" : "I appreciate how realistic this tentacle looks.",
+  "novakidDescription" : "An arm of a big sea creature.",
+
+  "inventoryIcon" : "atprk-krakothstatue2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothstatue2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

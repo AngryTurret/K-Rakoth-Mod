@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothstatue1",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A statue of a K'Rakoth savant. Or maybe their ruler, who knows.",
+  "shortdescription" : "Eldritch Statue",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "It was either an ancient ruler or a renowned scholar. Perhaps we'll never know for sure.",
+  "avianDescription" : "Who is this mysterious creature? Maybe it was a deity of ancient people similar to Kluex?",
+  "floranDescription" : "Doesssn't look like a warrior, that's for sssure.",
+  "glitchDescription" : "Curious. Will I learn more about this individual from ancient records?",
+  "humanDescription" : "What is this statue made of? Who is this alien? Why does it make me feel uncomfortable?",
+  "hylotlDescription" : "A mighty statue of once well-known scholar, I suppose.",
+  "novakidDescription" : "A big ol' statue. Looks a bit familiar for some reason.",
+
+  "inventoryIcon" : "atprk-krakothstatue1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothstatue1.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

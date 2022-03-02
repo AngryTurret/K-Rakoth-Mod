@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-krakothturret",
+  "colonyTags" : ["atprk_krakoth","combat"],
+  "rarity" : "Common",
+  "description" : "An ancient turret that ran out of power.",
+  "shortdescription" : "Disabled Eldritch Turret",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 110,
+
+  "apexDescription" : "Since this turret hasn't shot me down yet, it's probably deactivated.",
+  "avianDescription" : "Thank Kluex, this turret ran out of power.",
+  "floranDescription" : "Ssstupid gun doesssn't shoot! Uselesss!",
+  "glitchDescription" : "Pensive. This turret has no more power to guard this spot.",
+  "humanDescription" : "Oh great, it doesn't see me as a target! Wait, it's probably turned off.",
+  "hylotlDescription" : "This turret doesn't have any more power. Otherwise I'd be shot by now.",
+  "novakidDescription" : "A gun without any ammo or energy is a sad thing t' see.",
+
+  "inventoryIcon" : "atprk-krakothturreticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothturret.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}
