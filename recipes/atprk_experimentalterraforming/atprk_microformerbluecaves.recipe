@@ -1,0 +1,15 @@
+{
+  "currencyInputs" : {
+    "essence" : 1500
+  },
+  "input" : [
+    { "item" : "glowfibre", "count" : 25 },
+    { "item" : "alienrock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformerbluecaves",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}

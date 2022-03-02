@@ -1,0 +1,16 @@
+{
+  "currencyInputs" : {
+    "essence" : 1500
+  },
+  "input" : [
+    { "item" : "biosample", "count" : 20 },
+    { "item" : "atprk_traproot", "count" : 5 },
+    { "item" : "plantmatter", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformerhungergrove",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}

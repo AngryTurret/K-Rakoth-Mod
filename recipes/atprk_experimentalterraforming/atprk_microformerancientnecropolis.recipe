@@ -1,0 +1,15 @@
+{
+  "currencyInputs" : {
+    "essence" : 1500
+  },
+  "input" : [
+    { "item" : "atprk_ancientshards", "count" : 25 },
+    { "item" : "ancientblock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformerancientnecropolis",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}

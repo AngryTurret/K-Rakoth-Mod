@@ -1,0 +1,15 @@
+{
+  "currencyInputs" : {
+    "essence" : 1500
+  },
+  "input" : [
+    { "item" : "fleshstrand", "count" : 25 },
+    { "item" : "sewage", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformergrosscatacombs",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}

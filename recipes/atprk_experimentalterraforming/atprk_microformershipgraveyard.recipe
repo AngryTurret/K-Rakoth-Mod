@@ -1,0 +1,16 @@
+{
+  "currencyInputs" : {
+    "essence" : 1500
+  },
+  "input" : [
+    { "item" : "scorchedcore", "count" : 12 },
+    { "item" : "metallic", "count" : 12 },
+    { "item" : "slopedscrappanel", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformershipgraveyard",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}
