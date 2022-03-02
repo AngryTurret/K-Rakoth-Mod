@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_noolithbed",
+  "colonyTags" : ["atprk_noolith"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bed made of solid crystal. Rich but not very convenient.",
+  "shortdescription" : "Monolith Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 140,
+
+  "apexDescription" : "I doubt it is functional at all.",
+  "avianDescription" : "A crystal bed so smooth I'm afraid I may slip off of it in sleep.",
+  "floranDescription" : "Ssslippery ssstone bed.",
+  "glitchDescription" : "Angry. Who took the blanket? This bed is already quite uncomfortable!",
+  "humanDescription" : "Ouch. It must be hard to sleep in it.",
+  "hylotlDescription" : "As wealthy as this bed is, it is not the healthiest to sleep in.",
+  "novakidDescription" : "Sleepin' on a huge diamond, huh... if that's even a diamond.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_noolithbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

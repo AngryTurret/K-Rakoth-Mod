@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_noolithseal",
+  "colonyTags" : ["atprk_noolith","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+
+  "shortdescription" : "Monolith Seal",
+  "description" : "A wall-mounted crystal seal.",
+  "race" : "generic",
+
+  "apexDescription" : "A wall-mounted crystal. I wonder if it is natural.",
+  "avianDescription" : "If only if it was an Avolite crystal...",
+  "floranDescription" : "Ssshiny rock on the wall.",
+  "glitchDescription" : "Humble. A beautiful decorative crystal.",
+  "humanDescription" : "A large beautiful crystal.",
+  "hylotlDescription" : "There is no better jeweler than nature.",
+  "novakidDescription" : "It better be natural.",
+
+
+  "inventoryIcon" : "atprk_noolithsealicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithseal.png:<color>",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

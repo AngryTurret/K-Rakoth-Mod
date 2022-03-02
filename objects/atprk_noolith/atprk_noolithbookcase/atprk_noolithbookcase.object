@@ -1,0 +1,44 @@
+{
+  "objectName" : "atprk_noolithbookcase",
+  "colonyTags" : ["atprk_noolith","knowledge","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A bookcase carved from a large crystal.",
+  "shortdescription" : "Monolith Bookcase",
+  "race" : "Generic",
+  "category" : "storage",
+  "price" : 110,
+  "health" : 1.5,
+
+  "apexDescription" : "This is one of the least efficient shapes of a bookcase I can think of.",
+  "avianDescription" : "I cannot imagine a diagonal bookcase being convenient in any way.",
+  "floranDescription" : "Cryssstal made into a shelf.",
+  "glitchDescription" : "Irked. If I tried to put some books in this, they would fall out immediately.",
+  "humanDescription" : "I bet it was a giant crystal before.",
+  "hylotlDescription" : "I appreciate this bookcase's simplicity, but it is not very practical.",
+  "novakidDescription" : "That bookcase over there is plain stupid.",
+
+  "inventoryIcon" : "atprk_noolithbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithbookcase.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/ancientenergy_chord.ogg" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

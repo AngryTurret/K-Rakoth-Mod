@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_noolithtalkingfull",
+  "colonyTags" : ["atprk_noolith","pretty","valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 1600,
+  "description" : "An incomplete Noolith body. It appears to be somewhat conscious.",
+  "shortdescription" : "Imperfect Vessel",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Is this crystal being self-aware? Can I help it?",
+  "avianDescription" : "Poor thing... I think it's trying to say something.",
+  "floranDescription" : "Isss rock perssson in pain?",
+  "glitchDescription" : "Compassionate. A poor Noolith who cannot move or think clearly.",
+  "humanDescription" : "I, uh... H-hello?",
+  "hylotlDescription" : "Poor crystalline creature. Is it even ethical to keep it in this state?",
+  "novakidDescription" : "Wait, it that crystal tryin' to talk with me?",
+
+  "scripts" : [ "/objects/atprk_noolith/atprk_noolithtalkingfull/atprk_noolithtalkingfull.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 20,
+  "chatOptions" : [
+    "Memories... It hurts... to remember...",
+    "We... We were free... They came... Took away... everything...",
+    "They lied... Forced us... work for them...",
+    "They... not our lords... never were... But we... had to...",
+    "Cannot move... incomplete... Need more time..."
+  ],
+
+  "inventoryIcon" : "atprk_noolithtalkingfullicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithtalkingfull.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_noolithtable",
+  "colonyTags" : ["atprk_noolith","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 85,
+  "description" : "A thick rectangular crystal that can be used as a table.",
+  "shortdescription" : "Monolith Table",
+  "race" : "generic",
+
+  "apexDescription" : "I would rather not eat at the cold crystalline table.",
+  "avianDescription" : "The table's roof is extremely smooth and shiny.",
+  "floranDescription" : "Floran can chop meat on thisss table.",
+  "glitchDescription" : "Greedy. I wonder how much I can sell this crystal for.",
+  "humanDescription" : "A boring shape, but the material is cool, I guess.",
+  "hylotlDescription" : "A simple yet functional table made from cold crystals.",
+  "novakidDescription" : "A cold gem shaped like a table.",
+
+  "inventoryIcon" : "atprk_noolithtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

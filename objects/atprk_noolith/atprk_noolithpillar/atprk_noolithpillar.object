@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_noolithpillar",
+  "colonyTags" : ["atprk_noolith","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A smooth tall pillar carved from a giant crystal.",
+  "shortdescription" : "Monolith Pillar",
+  "race" : "generic",
+
+  "apexDescription" : "A tall crystal monolith.",
+  "avianDescription" : "A tall featureless pillar. Not very expressive.",
+  "floranDescription" : "Big shiny ssstone wall.",
+  "glitchDescription" : "Unamused. It could be an elegant statue, but no...",
+  "humanDescription" : "It really lacks some sort of alien hieroglyphs, even the ones that don't mean anything.",
+  "hylotlDescription" : "A beauty of crystals displayed in minimalistic yet graceful fashion.",
+  "novakidDescription" : "A big pillar made from shiny rocks.",
+
+  "inventoryIcon" : "atprk_noolithpillaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithpillar.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

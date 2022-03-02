@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_noolithchest",
+  "colonyTags" : ["atprk_noolith","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A pretty crystalline box.",
+  "shortdescription" : "Monolith Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "Does the chest itself count as a treasure?",
+  "avianDescription" : "I bet this chest is no less valuable than its contents.",
+  "floranDescription" : "Shiny box. Mussst be valuable.",
+  "glitchDescription" : "Inspired. Perhaps I could sell the chest itself for more pixels.",
+  "humanDescription" : "A small crystal box, waiting to be opened.",
+  "hylotlDescription" : "I doubt this crystal chest is strong enough.",
+  "novakidDescription" : "Look at that, a box made o' pure crystals!",
+
+  "inventoryIcon" : "atprk_noolithchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/ancientenergy_chord.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
