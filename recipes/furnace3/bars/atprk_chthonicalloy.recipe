@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 1},
+    { "item" : "atprk_chthonicscraps", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_chthonicalloy",
+    "count" : 1
+  },
+  "duration" : 0.20,
+  "groups" : [ "craftingfurnace3", "bars", "all", "mod" ]
+}
