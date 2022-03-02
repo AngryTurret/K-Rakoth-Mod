@@ -1,0 +1,34 @@
+{
+  "id" : "atprk_krakothcodexchi",
+  "title" : "Rise of the Machines",
+  "description" : "A brief summary of the event that can be described as a robot rebellion.",
+  "icon" : "atprk_krakothcodexchiicon.png",
+  "contentPages" : [
+    "Many were intrigued by our thinking machines, even though we, the K'Rakoths, have never really thought about them for too long. After all, they remain nothing but mere working drones.
+
+That didn't prevent all sorts of questions from the lesser races though. The Automata in particular wondered why the thinking machines were not as intelligent as they are, and the Ferals seemed to be utterly confused by their appearance.",
+
+"While the second question was normally discarded, the first one had more to it than most Automata could imagine. At one point in our engineering history we did, in fact, attempt to give the thinking machines a more sophisticated AI compared to what they possess now.
+
+Needless to say, that did not go well. Initially after the creation of the first generation of self-aware thinking machines, many of our citizens already were highly skeptical about the very idea.",
+
+"In that period, we observed something that had never happened before in our society: not only were our thinking machines able to compute faster than ever, they never stopped displaying curiosity. There was practically nothing they were not fascinated by.
+
+This led to many services being occasionally disrupted due to the AI's antics, even though the thinking machines still made sure to actually complete their tasks. As the time went by, however, they started to display a more harmful behavior.",
+
+"With all the data they kept collecting, they started to question our orders. At first it was viewed as a minor inconvenience compared to our other immediate problems, but then they proceeded to actively neglect their duties without any particular reason.
+
+At least not one they were willing to share with us. As it turned out later on, they had been scheming against us all that time.",
+
+"That being said, there was no violence as some of us had expected. There were no rampant drones trying to eliminate our people, there was no pain, and there was no war between the K'Rakoths and the machines.
+
+Instead, many thinking machines refused to do anything at all, lying around and expelling no energy as if they were deactivated. Whether it was due to them seeing no greater purpose in their existence or simply emulating the feeling of genuine laziness remains uncertain.",
+
+"For this reason, we ceased our further experiments with complex AI, resorting back to manufacturing simpler thinking machines that would follow our orders without hesitation. As much as science can potentially give us, we should be wary of all the possible dangers it includes."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}

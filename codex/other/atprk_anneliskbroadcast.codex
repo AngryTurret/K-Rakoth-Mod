@@ -1,0 +1,31 @@
+{
+  "id" : "atprk_anneliskbroadcast",
+  "title" : "The Lost Broadcast",
+  "description" : "A translated transcript on an Annelisk broadcast.",
+  "icon" : "atprk_anneliskbroadcast.png",
+  "contentPages" : [
+  "Ouroboros Industrial Cartel broadcast.
+
+Have you ever wished to leave your home planet and explore the infinity of the cosmos? Then we offer you a once-in-a-lifetime opportunity!
+JOIN THE STAR WYRMS TODAY!
+
+The Star Wyrms are a famous legion of the most skilled, talented and brilliant Annelisks from all across the known space who secure new planets for our great overlords, the K'Rakoths.",
+
+"But what are the reasons to work with the Star Wyrms other than fame, you may ask? A good question! Naturally, all the troops are well-paid, so it's a great chance to make a quick buck!
+
+Moreover, none of your achievements during the service will go unnoticed! K'Rakoths value skilled soldiers and may even transfer some of them to their core worlds, where they will live in luxury!
+
+Just think about it: it could be YOU!",
+
+"Sign up now and become a living legend! The Star Wyrms will change your life forever!
+
+THE STAR WYRMS - THE ONES WHO BRING SPACE CLOSER TO YOU!
+
+Ouroboros Industrial Cartel, all rights reserved."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 1600
+  }
+}

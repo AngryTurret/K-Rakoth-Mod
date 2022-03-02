@@ -1,0 +1,22 @@
+{
+  "id" : "atprk_apexarea48entry2",
+  "species" : "apex",
+  "title" : "Project Praetor",
+   "description" : "A top-secret Miniknog plan to use ancient technology.",
+  "icon" : "atprk_apexarea48codex2.png",
+  "contentPages" : [
+    "^yellow;PROJECT PRAETOR^white;
+
+Goal: Find a viable way to reverse-engineer discovered technology samples for military application.
+
+Status: Ongoing.
+
+Head Researchers: Eduar Gav, Izalika Kradarova, Raisana Pavlenina.
+
+Experiment Log: ^red;WARNING. UNAUTHORIZED ACCESS. DOCUMENTATION BLOCKED.^white;"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

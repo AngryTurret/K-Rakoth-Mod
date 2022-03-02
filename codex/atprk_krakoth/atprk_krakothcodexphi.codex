@@ -1,0 +1,32 @@
+{
+  "id" : "atprk_krakothcodexphi",
+  "title" : "Thinking Outside the Box",
+  "description" : "A K'Rakothan scholar's speculations about the fourth dimension.",
+  "icon" : "atprk_krakothcodexphiicon.png",
+  "contentPages" : [
+    "As our interstellar civilization grew, more and more resources were needed to maintain it. And to store more resources at time, even more storage space was required.
+
+After decades of scientific research, our scholars came up with an elegant solution to said problem. They asked themselves: Why should we limit ourselves to only three spatial dimensions?
+
+Following that, tesseract generators were invented.",
+
+"Tesseract generators are devices capable of creating easily accessible four-dimensional areas. The first prototypes were bulky and consumed much energy, but eventually we were able to overcome these issues.
+
+Nowadays we use more compact versions of said generators to assemble extradimensional crates. They prove to be more efficient than any other physical storage.",
+
+"A single extradimensional crate is capable of containing as many items as an ordinary cargo crate used by the Crystals or the Worms. This allows us to spend much less resources on warehouse construction.
+
+With certain modifications, extradimensional crates can be made even more compact and installed in civilian apartments.",
+
+"With that in mind, a certain question can be asked. How else can we use the fourth dimension to benefit K'Rakoth people?
+
+In theory, we can make four-dimensional spaces bigger in size and transform them into habitats. This way, we will no longer worry about overpopulation and land usability, since we will be able to generate as much additional space as we desire.",
+
+"But so far, this is just a theory. We still don't know how safe the fourth dimension is and how long we can stay in it without losing our three-dimensional geometry. We need to study it more before the final answer can be given."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}
