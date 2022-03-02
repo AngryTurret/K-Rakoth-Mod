@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-eldritchbell",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "description" : "A minor K'Rakoth artifact. Unfortunately, it's broken.",
+  "shortdescription" : "Eldritch Bell",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 50,
+
+  "apexDescription" : "A broken metal bell.",
+  "avianDescription" : "Why would you need a bell underwater?",
+  "floranDescription" : "Ussseless bell. Better leave it.",
+  "glitchDescription" : "Nostalgic. Glitch villages make similar bells.",
+  "humanDescription" : "This bell is broken. What a shame.",
+  "hylotlDescription" : "It must be one of the K'Rakothan artifacts. Too bad it's broken.",
+  "novakidDescription" : "Too bad it doesn't ring anymore.",
+
+  "inventoryIcon" : "atprk-eldritchbellicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-eldritchbell.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

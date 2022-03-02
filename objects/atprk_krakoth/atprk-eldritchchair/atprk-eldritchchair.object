@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-eldritchchair",
+  "colonyTags" : ["atprk_krakoth"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 115,
+  "description" : "A creepy ancient chair.",
+  "shortdescription" : "Eldritch Chair",
+  "race" : "generic",
+  "printable" : false,
+
+
+  "apexDescription" : "Everything about this chair is wrong. Why would anyone make it in such shape?",
+  "avianDescription" : "Some ancient artisans had strange sense of humor, it seems.",
+  "floranDescription" : "Ssstop hiding! Fight me!",
+  "glitchDescription" : "Uncomfortable. The chair's base looks almost like a real creature.",
+  "humanDescription" : "You'd think monsters under the bed were enough.",
+  "hylotlDescription" : "I mean, Hylotl make furniture in their image too, but this...",
+  "novakidDescription" : "No thanks, I'd rather not take that thing back home.",
+
+
+  "inventoryIcon" : "atprk-eldritchchairicon.png",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchchair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [2, 24]
+    },
+    {
+      "image" : "atprk-eldritchchair.png:<color>",
+      "imagePosition" : [-18, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [2, 24]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk-eldritchmachinery1",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 210,
+  "printable" : false,
+
+  "description" : "An ancient mechanism of unknown purpose.",
+  "shortdescription" : "Elder Machinery",
+  "race" : "generic",
+
+  "apexDescription" : "It looks like some sort of a mechanism but I cannot identify its purpose.",
+  "avianDescription" : "An ancient machine. I doubt it actually works.",
+  "floranDescription" : "Old mechanism. Floran can break it apart for ssscraps, maybe.",
+  "glitchDescription" : "Surprised. An incredibly old mechanism that appears to be fully functional.",
+  "humanDescription" : "So what does this huge thing do, anyway?",
+  "hylotlDescription" : "A powerful mechanism built by the elder race. I'm not sure what it's actually used for, though...",
+  "novakidDescription" : "An old machine or somethin'. Probably useless by now.",
+
+  "inventoryIcon" : "atprk-eldritchmachinery1icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchmachinery1.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchmachinery1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchmachinery1.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchmachinery1lit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

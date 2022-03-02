@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk-coraltree1",
+  "colonyTags" : ["atprk_krakoth","pretty","nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 240,
+
+  "description" : "A large decorative coral that looks like a tree.",
+  "shortdescription" : "Coral Tree",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [240, 120, 0],
+
+  "apexDescription" : "How long has this coral been growing?",
+  "avianDescription" : "I didn't know ember corals could grow this tall!",
+  "floranDescription" : "Not plant at all, but looksss like tree. Interesssting.",
+  "glitchDescription" : "Amused. What fertilizer did the precursors come up with to grow this?",
+  "humanDescription" : "Now that's a huge coral over there!",
+  "hylotlDescription" : "The beauty of marine life always makes me comfy.",
+  "novakidDescription" : "Whoah, an underwater tree!",
+
+  "inventoryIcon" : "atprk-coraltree1icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-coraltree1.png:<color>", "fullbright" : true }, { "image" : "atprk-coraltree1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-coraltree1.png:<color>", "fullbright" : true }, { "image" : "atprk-coraltree1lit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

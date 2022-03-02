@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-eldritchcodexframe",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "description" : "A minor K'Rakoth artifact. It's reading time!",
+  "shortdescription" : "Eldritch E-Book",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 30,
+
+  "apexDescription" : "It seems to be an electronic book but I cannot turn it on.",
+  "avianDescription" : "This frame is actually an ancient e-book. It's a shame I cannot turn it on.",
+  "floranDescription" : "Hard frame that doesss not do anything anymore.",
+  "glitchDescription" : "Puzzled. I have no idea how to turn this on now.",
+  "humanDescription" : "How do I turn this e-book on? Is there a button or...?",
+  "hylotlDescription" : "Looks like one of K'Rakothan e-books, but I don't know if it works.",
+  "novakidDescription" : "How the heck do I read this?",
+
+  "inventoryIcon" : "atprk-eldritchcodexframeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-eldritchcodexframe.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

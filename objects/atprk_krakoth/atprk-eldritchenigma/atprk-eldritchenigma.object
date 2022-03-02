@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-eldritchenigma",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "An octogonal seal with an alien face carved in it.",
+  "shortdescription" : "Eldritch Seal",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "You can distinguish some one-eyed creature in the middle.",
+  "avianDescription" : "I remember seeing similar artifacts in Avian temples.",
+  "floranDescription" : "Sssmall ssquare in the middle has tiny face. It watchesss Floran.",
+  "glitchDescription" : "Observant. This seal is covered in alien hieroglyphs. Translation unknown.",
+  "humanDescription" : "This seal has a square, a small face and hieroglyphs on it.",
+  "hylotlDescription" : "Does this seal have any significance?",
+  "novakidDescription" : "An octogonal artifact with somethin' written on it. Can't read it, though.",
+  
+  "inventoryIcon" : "atprk-eldritchenigmaicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchenigma.png",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

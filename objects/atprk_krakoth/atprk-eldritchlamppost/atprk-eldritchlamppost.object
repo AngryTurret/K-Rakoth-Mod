@@ -1,0 +1,78 @@
+{
+  "objectName" : "atprk-eldritchlamppost",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 100,
+
+  "description" : "A waterproof lamp post. Ancient yet futuristic.",
+  "shortdescription" : "Eldritch Lamp Post",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A futuristic lamp post.",
+  "avianDescription" : "A pillar of light captured in a lamp post.",
+  "floranDescription" : "Bright beam of light inssside this thing iss wonderful.",
+  "glitchDescription" : "Impressed. This lamp post can endure extreme water pressure for aeons.",
+  "humanDescription" : "It could be a nice prop for sci-fi movies!",
+  "hylotlDescription" : "I must admit, it wouldn't be out of place in one of our underwater cities.",
+  "novakidDescription" : "Is there one of our folks inside this thing or what?",
+
+  "statusEffects" : [ ],
+    
+  "lightColor" : [255, 83, 198],
+
+  "flickerPeriod" : 0.6,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk-eldritchlampposticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchlamppost.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "animationPosition" : [-4, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 6],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk-eldritchlamppost.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "animationPosition" : [-4, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 6],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.ogg",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/mechbeacon_pulse2.ogg", "/sfx/objects/mechbeacon_pulse2.ogg" ],
+      "off" : [ "/sfx/objects/mechbeacon_pulse1.ogg", "/sfx/objects/mechbeacon_pulse1.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk-eldritchlamppost.png",
+    "fg" : "atprk-eldritchlamppostlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+  
+  "inputNodes" : [ [0, 6] ]
+}

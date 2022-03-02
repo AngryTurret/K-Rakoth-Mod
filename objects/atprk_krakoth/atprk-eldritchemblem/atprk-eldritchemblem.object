@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk-eldritchemblem",
+  "colonyTags" : ["atprk_krakoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 180,
+  "printable" : false,
+
+  "apexDescription" : "Whatever this emblem is supposed to represent, it has an ominous look.",
+  "avianDescription" : "As if something from beyond is watching me...",
+  "floranDescription" : "Big metal sssquid. Doesss it want to fight?",
+  "glitchDescription" : "Impressed. While imposing, this emblem is also well-crafted.",
+  "humanDescription" : "Does this thing on the wall demand blood and virgins every midnight?",
+  "hylotlDescription" : "I like how this emblem captures the imposing look of many aquatic predators.",
+  "novakidDescription" : "Guess this squid could swallow a person whole.",
+
+
+  "description" : "An extremely old emblem in a shape of a tentacled head.",
+  "shortdescription" : "Eldritch Emblem",
+  "race" : "generic",
+
+  "inventoryIcon" : "atprk-eldritchemblemicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchemblem.png:<color>",
+      "imagePosition" : [-48, -32],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-eldritchfloodlight",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "description" : "A tiny faint wall light.",
+  "shortdescription" : "Elder Floodlight",
+  "race" : "generic",
+
+  "apexDescription" : "A small floodlight.",
+  "avianDescription" : "A wall-mounted light.",
+  "floranDescription" : "Underwater light.",
+  "glitchDescription" : "Impressed. A very efficient floodlight.",
+  "humanDescription" : "A small floodlight.",
+  "hylotlDescription" : "A wall-mounted floodlight of elder design.",
+  "novakidDescription" : "A faint light.",
+
+  "category" : "light",
+  "price" : 45,
+  "printable" : false,
+  "lightColor" : [182, 123, 163],
+
+  "inventoryIcon" : "atprk-eldritchfloodlighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchfloodlight.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk-eldritchfloodlight.png",
+    "fg" : "atprk-eldritchfloodlightlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}
