@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_asharmchair",
+  "colonyTags" : ["atprk_ash"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 115,
+  "description" : "This armchair may be covered in ash but it's still cosy.",
+  "shortdescription" : "Ashy Armchair",
+  "race" : "generic",
+
+  "apexDescription" : "An elegant armchair that could use some dusting.",
+  "avianDescription" : "I'd rest in this armchair for hours if there wasn't so much ash on it.",
+  "floranDescription" : "Chair sssmells like burnt wood. Not good.",
+  "glitchDescription" : "Impressed. A dusty but otherwise comfortable armchair.",
+  "humanDescription" : "Nice armchair. Too bad it's all ashy.",
+  "hylotlDescription" : "Well, at very least it does look soft enough.",
+  "novakidDescription":  "Just wipe the ash off, and it'll be fine for a sheriff's office.",
+
+  "inventoryIcon" : "atprk_asharmchairicon.png",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/atprk_ashworld/atprk_asharmchair/atprk_asharmchaircover.png",
+  
+  "orientations" : [
+    {
+      "image" : "atprk_asharmchair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [1, 22]
+    },
+    {
+      "image" : "atprk_asharmchair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [1, 22]
+    }
+  ]
+}

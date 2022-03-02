@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ashtable",
+  "colonyTags" : ["atprk_ash","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A dining table adorned by an ashy tablecloth.",
+  "shortdescription" : "Ashy Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "A dining table covered in ash. Ugh.",
+  "avianDescription" : "I'm not sure if I see a tablecloth or a thick layer of ash and dust.",
+  "floranDescription" : "Floran doesssn't like dusssty meat! Bad table!",
+  "glitchDescription" : "Disgusted. Is it hygienic to eat at a dusty table?",
+  "humanDescription" : "A fancy table. A tad bit dusty though.",
+  "hylotlDescription" : "If it were not for a thick layer of ash, it would be a beautiful dining table.",
+  "novakidDescription" : "I'm tryin' t' wipe dust off the table but it keeps comin' back! Why?",
+
+  "inventoryIcon" : "atprk_ashtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ashtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

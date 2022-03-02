@@ -1,0 +1,42 @@
+{
+  "objectName" : "atprk_ashchest",
+  "colonyTags" : ["atprk_ash","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "An ashy chest. I'm not sure where the ash comes from.",
+  "shortdescription" : "Ashy Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "I can only guess how long it has been standing here.",
+  "avianDescription" : "A seemingly abandoned chest. What could be on the inside?",
+  "floranDescription" : "Sssmall dirty chesst.",
+  "glitchDescription" : "Bored. A dull gray chest. I doubt there is anything exciting in it.",
+  "humanDescription" : "A boring chest covered in ashes.",
+  "hylotlDescription" : "Even a garbage can is more inspiring than this dull chest.",
+  "novakidDescription" : "What a dull-lookin' chest.",
+
+  "inventoryIcon" : "atprk_ashchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ashchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

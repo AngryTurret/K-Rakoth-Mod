@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk_ashlight",
+  "colonyTags" : ["atprk_ash","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 45,
+
+  "description" : "An old-fashioned dusty desk lamp.",
+  "shortdescription" : "Ashy Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A pale lamp.",
+  "avianDescription" : "It doesn't do a good job at illuminating the room.",
+  "floranDescription" : "Weak glow... Floran sssees nothing.",
+  "glitchDescription" : "Melancholic. The light is so faint it makes me sad.",
+  "humanDescription" : "A sad-looking desk lamp.",
+  "hylotlDescription" : "An old-fashioned desk lamp. Perhaps I should change the lightbulb.",
+  "novakidDescription" : "The glow's so weak it's not even funny.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [161, 147, 141],
+
+  "inventoryIcon" : "atprk_ashlighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ashlight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "atprk_ashlight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_ashlight.png",
+    "fg" : "atprk_ashlightlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_ashchair",
+  "colonyTags" : ["atprk_ash"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A tall chair covered in ash.",
+  "shortdescription" : "Ashy Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 65,
+
+  "apexDescription" : "An old ash-covered chair.",
+  "avianDescription" : "What a gloomy, ashy chair.",
+  "floranDescription" : "Tall chair to sssit on once Floran wipesss dusst off it.",
+  "glitchDescription" : "Displeased. This chair is clearly covered in ashes.",
+  "humanDescription" : "How long has it been standing here? It's all covered in dust.",
+  "hylotlDescription" : "A well-crafted, albeit stained chair.",
+  "novakidDescription":  "I'd call it fancy if it weren't for all this ash all over it.",
+
+  "inventoryIcon" : "atprk_ashchairicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ashchair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ashchair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}
