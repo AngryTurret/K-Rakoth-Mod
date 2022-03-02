@@ -1,0 +1,28 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/smoothgreygap",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/atprk_krakothundergroundwall",
+      "noRandomOffset" : true,
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/atprk_krakothundergroundwalllit",
+      "noRandomOffset" : true,
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true,
+      "unlit" : true
+    }
+  ]
+}
