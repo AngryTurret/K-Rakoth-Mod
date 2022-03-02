@@ -1,0 +1,138 @@
+{
+  "metadata" : {
+    "name" : "atprk_radiotrophicmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+
+    "anchor" : [ "atprk_toxiccrabnest", "atprk_toxiccrater", "atprk_radiotropicgarden", "atprk_thorns1", "atprk_thorns2", "atprk_thorns3", "atprk_thorns4", "atprk_radiotropichill1", "atprk_radiotropichill2", "atprk_radiotropichill3", "atprk_poisongrave", "atprk_radiotropiccrashsite1", "atprk_radiotropiccrashsite2", "atprk_radiotropiccrashsite3", "atprk_oldshelter1", "atprk_oldshelter2", "atprk_slimewell" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_toxiccrabnest",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxiccrabnest.json" ]
+    },
+    {
+      "name" : "atprk_toxiccrater",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxiccrater.json" ]
+    },
+    {
+      "name" : "atprk_radiotropicgarden",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropicgarden.json" ]
+    },
+    {
+      "name" : "atprk_thorns1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_thorns1.json" ]
+    },
+    {
+      "name" : "atprk_thorns2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_thorns2.json" ]
+    },
+    {
+      "name" : "atprk_thorns3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_thorns3.json" ]
+    },
+    {
+      "name" : "atprk_thorns4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_thorns4.json" ]
+    },
+    {
+      "name" : "atprk_radiotropichill1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropichill1.json" ]
+    },
+    {
+      "name" : "atprk_radiotropichill2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropichill2.json" ]
+    },
+    {
+      "name" : "atprk_radiotropichill3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropichill3.json" ]
+    },
+    {
+      "name" : "atprk_poisongrave",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_poisongrave.json" ]
+    },
+    {
+      "name" : "atprk_radiotropiccrashsite1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropiccrashsite1.json" ]
+    },
+    {
+      "name" : "atprk_radiotropiccrashsite2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropiccrashsite2.json" ]
+    },
+    {
+      "name" : "atprk_radiotropiccrashsite3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_radiotropiccrashsite3.json" ]
+    },
+    {
+      "name" : "atprk_oldshelter1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oldshelter1.json" ]
+    },
+    {
+      "name" : "atprk_oldshelter2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_oldshelter2.json" ]
+    },
+    {
+      "name" : "atprk_slimewell",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_slimewell.json" ]
+    }
+  ]
+}
