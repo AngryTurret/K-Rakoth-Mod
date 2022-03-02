@@ -1,0 +1,51 @@
+{
+  "name" : "atprk_spongebush",
+  "description" : "A sea sponge.",
+  "shortdescription" : "Sea Sponge",
+  "floranDescription" : "Sssoft sssponge.",
+  "glitchDescription" : "Neutral. A sea sponge.",
+  "shapes" : [
+    {
+      "base" : "atprk_spongebush1.png"
+    },
+    {
+      "base" : "atprk_spongebush2.png"
+    },
+    {
+      "base" : "atprk_spongebush3.png"
+    },
+    {
+      "base" : "atprk_spongebush4.png"
+    },
+    {
+      "base" : "atprk_spongebush5.png"
+    },
+    {
+      "base" : "atprk_spongebush6.png"
+    },
+    {
+      "base" : "atprk_spongebush7.png"
+    },
+    {
+      "base" : "atprk_spongebush8.png"
+    },
+    {
+      "base" : "atprk_spongebush9.png"
+    },
+    {
+      "base" : "atprk_spongebush10.png"
+    },
+    {
+      "base" : "atprk_spongebush11.png"
+    },
+    {
+      "base" : "atprk_spongebush12.png"
+    },
+    {
+      "base" : "atprk_spongebush13.png"
+    },
+    {
+      "base" : "atprk_spongebush14.png"
+    }
+  ]
+}

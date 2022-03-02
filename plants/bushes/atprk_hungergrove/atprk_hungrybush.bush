@@ -1,0 +1,48 @@
+{
+  "name" : "atprk_hungrybush",
+  "description" : "A very hungry predatory plant.",
+  "shortdescription" : "Hungry Bush",
+  "floranDescription" : "Thisss plant eatsss like Floran.",
+  "glitchDescription" : "Cautious. A predatory plant.",
+  "shapes" : [
+    {
+      "base" : "atprk_hungrybush1.png"
+    },
+    {
+      "base" : "atprk_hungrybush2.png"
+    },
+    {
+      "base" : "atprk_hungrybush3.png"
+    }
+	,
+    {
+      "base" : "atprk_hungrybush4.png"
+    }
+	,
+    {
+      "base" : "atprk_hungrybush5.png"
+    }
+	,
+    {
+      "base" : "atprk_hungrybush6.png"
+    },
+    {
+      "base" : "atprk_hungrybush7.png"
+    },
+    {
+      "base" : "atprk_hungrybush8.png"
+    },
+    {
+      "base" : "atprk_hungrybush9.png"
+    },
+    {
+      "base" : "atprk_hungrybush10.png"
+    },
+    {
+      "base" : "atprk_hungrybush11.png"
+    },
+    {
+      "base" : "atprk_hungrybush12.png"
+    }
+  ]
+}

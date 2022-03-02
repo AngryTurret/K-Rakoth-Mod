@@ -1,0 +1,24 @@
+{
+  "name" : "atprk_boilingweed",
+  "description" : "Fresh alien kelp.",
+  "shortdescription" : "Phantom Eye Kelp",
+  "floranDescription" : "Ssslimy sssea plant.",
+  "glitchDescription" : "Neutral. Exotic kelp.",
+  "shapes" : [
+    {
+      "base" : "atprk_boilingweed1.png"
+    },
+    {
+      "base" : "atprk_boilingweed2.png"
+    },
+    {
+      "base" : "atprk_boilingweed3.png"
+    },
+    {
+      "base" : "atprk_boilingweed4.png"
+    },
+    {
+      "base" : "atprk_boilingweed5.png"
+    }
+  ]
+}
