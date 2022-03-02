@@ -1,0 +1,145 @@
+{
+  "metadata" : {
+    "name" : "atprk_navalminefieldmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+
+    "anchor" : [ "atprk_navalchained1", "atprk_navalchained2", "atprk_navalchained3", "atprk_navalchained4", "atprk_navaljunk1", "atprk_navaljunk2", "atprk_navaljunk3", "atprk_navaljunk4", "atprk_navaljunk5", "atprk_navaljunk6", "atprk_navalruins1", "atprk_navalruins2", "atprk_navalruins3", "atprk_navalruins4", "atprk_navalruins5", "atprk_navalruins6", "atprk_navalruins7", "atprk_navalruins8" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_navalchained1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalchained1.json" ]
+    },
+    {
+      "name" : "atprk_navalchained2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalchained2.json" ]
+    },
+    {
+      "name" : "atprk_navalchained3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalchained3.json" ]
+    },
+    {
+      "name" : "atprk_navalchained4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalchained4.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk1.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk2.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk3.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk4.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk5.json" ]
+    },
+    {
+      "name" : "atprk_navaljunk6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navaljunk6.json" ]
+    },
+    {
+      "name" : "atprk_navalruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins1.json" ]
+    },
+    {
+      "name" : "atprk_navalruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins2.json" ]
+    },
+    {
+      "name" : "atprk_navalruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins3.json" ]
+    },
+    {
+      "name" : "atprk_navalruins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins4.json" ]
+    },
+    {
+      "name" : "atprk_navalruins5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins5.json" ]
+    },
+    {
+      "name" : "atprk_navalruins6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins6.json" ]
+    },
+    {
+      "name" : "atprk_navalruins7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins7.json" ]
+    },
+    {
+      "name" : "atprk_navalruins8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_navalruins8.json" ]
+    }
+  ]
+}
