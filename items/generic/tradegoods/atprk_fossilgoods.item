@@ -1,0 +1,9 @@
+{
+  "itemName" : "atprk_fossilgoods",
+  "rarity" : "common",
+  "category" : "tradeGoods",
+  "inventoryIcon" : "atprk_fossilgoods.png",
+  "description" : "A sealed crate of fossilized bones, valuable for interstellar trade.",
+  "shortdescription" : "Alien Fossils",
+  "price" : 150
+}

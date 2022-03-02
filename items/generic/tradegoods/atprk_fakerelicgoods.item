@@ -1,0 +1,9 @@
+{
+  "itemName" : "atprk_fakerelicgoods",
+  "rarity" : "common",
+  "category" : "tradeGoods",
+  "inventoryIcon" : "atprk_fakerelicgoods.png",
+  "description" : "A sealed crate of fake relics, still valuable for interstellar trade.",
+  "shortdescription" : "Counterfeit Goods",
+  "price" : 100
+}
