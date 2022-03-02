@@ -1,0 +1,71 @@
+{
+  "metadata" : {
+    "name" : "atprk_relicseekership",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_relicseekerback1", "atprk_relicseekerback2" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // RELIC SEEKER SHIP
+
+    {
+      "name" : "atprk_relicseekerback1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerback1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerback1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_relicseekerback2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerback2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerback2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_relicseekerfront1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerfront1", "atprk_relicseekerfront2", "atprk_relicseekerfront3" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerfront1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_relicseekerfront2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerfront1", "atprk_relicseekerfront2", "atprk_relicseekerfront3" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerfront2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_relicseekerfront3",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerfront1", "atprk_relicseekerfront2", "atprk_relicseekerfront3" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerfront3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
