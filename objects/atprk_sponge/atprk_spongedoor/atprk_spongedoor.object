@@ -1,0 +1,72 @@
+{
+  "objectName" : "atprk_spongedoor",
+  "colonyTags" : ["atprk_sponge","door"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 75,
+  "description" : "A sponge door full of holes. Let's hope it doesn't let much heat through.",
+  "shortdescription" : "Sponge Door",
+  "race" : "generic",
+
+  "apexDescription" : "A door of questionable durability.",
+  "avianDescription" : "There is something funny about this door but I cannot quite put my finger on it.",
+  "floranDescription" : "Floran kicksss yellow door open. Floran alssso bitess it. Sssometimes.",
+  "glitchDescription" : "Comical. An unexplainably hilarious door.",
+  "humanDescription" : "Why do I feel like this door will laugh if I open it?",
+  "hylotlDescription" : "This wide flat sponge will protect your household from elements and unwanted nematodes.",
+  "novakidDescription" : "Who'd make their front door look like a huge piece o' cheese?",
+
+  "inventoryIcon" : "atprk_spongedooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "atprk_spongedoor.png:right",
+  
+  "orientations" : [
+    {
+      "image" : "atprk_spongedoor.png:default",
+      "imagePosition" : [-18, 0],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-18, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "atprk_spongedoor.png:default",
+      "imagePosition" : [-14, 0],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-14, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_spongedoor.png"
+  },
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

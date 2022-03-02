@@ -1,0 +1,61 @@
+{
+  "objectName" : "atprk_spongelight",
+  "colonyTags" : ["atprk_sponge","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 50,
+
+  "description" : "A pretty sponge inhabited by glowing bacteria.",
+  "shortdescription" : "Sponge Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A glowing sea sponge specimen.",
+  "avianDescription" : "This would look amazing in my aquarium.",
+  "floranDescription" : "Glowing sssponge.",
+  "glitchDescription" : "Watchful. A vibrant glowing sea sponge.",
+  "humanDescription" : "A fully organic lamp. Neat.",
+  "hylotlDescription" : "A soothing natural bioluminescence.",
+  "novakidDescription" : "I don't think these are meant t' glow but whatever.",
+
+  "lightColor" : [255, 230, 105],
+
+  "inventoryIcon" : "atprk_spongelighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_spongelight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "atprk_spongelight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_spongelight.png",
+    "fg" : "atprk_spongelightlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

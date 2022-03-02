@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_spongechair",
+  "colonyTags" : ["atprk_sponge"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A chair made from dry sea sponges.",
+  "shortdescription" : "Sponge Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "A bit too organic-looking for my taste, to be frank.",
+  "avianDescription" : "Sadly, this sponge is not so soft anymore.",
+  "floranDescription" : "Sssmells like sssalt.",
+  "glitchDescription" : "Statement. There are hundreds of tiny holes in this sponge chair.",
+  "humanDescription" : "I expected this chair to be squishier.",
+  "hylotlDescription" : "It is not very respectful to sponges, to say the least.",
+  "novakidDescription" : "Ain't as soft as I expected.",
+
+  "inventoryIcon" : "atprk_spongechairicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_spongechair.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_spongechair.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 17]
+
+}
