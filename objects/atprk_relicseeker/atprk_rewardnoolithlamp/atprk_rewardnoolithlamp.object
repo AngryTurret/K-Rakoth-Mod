@@ -1,0 +1,65 @@
+{
+  "objectName" : "atprk_rewardnoolithlamp",
+  "colonyTags" : ["atprk_noolith","light","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A light yellow lamp shaped like a Noolith head.",
+  "shortdescription" : "Noolith Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A crystalline lamp shaped like a Noolith head.",
+  "avianDescription" : "It looks a bit too much like a real Noolith head. Yikes.",
+  "floranDescription" : "Cryssstal persson's head that glowss.",
+  "glitchDescription" : "Melancholic. A lantern that reminds me of long-gone Glitch allies.",
+  "humanDescription" : "A cold lamp shaped like a one-eyed head. Sort of unsettling, to be honest.",
+  "hylotlDescription" : "A cold lamp that resembles a member of the Noolith species.",
+  "novakidDescription" : "They didn't decapitate a real Noolith t' make this, right?",
+
+  "category" : "light",
+  "price" : 200,
+  "lightColor" : [229, 223, 195],
+
+  "inventoryIcon" : "atprk_rewardnoolithlampicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_rewardnoolithlamp.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+      "animationPosition" : [-6, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_rewardnoolithlamp.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      "animationPosition" : [-6, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_rewardnoolithlamp.png",
+    "fg" : "atprk_rewardnoolithlamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

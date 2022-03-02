@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk_relicseekershiplight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [7, 184, 22],
+  "price" : 60,
+  "description" : "A dim green light.",
+  "shortdescription" : "Green Light",
+  "race" : "generic",
+
+  "apexDescription" : "Unnatural yet soothing green light.",
+  "avianDescription" : "This green light is very soothing.",
+  "floranDescription" : "Green pleasssant light remindss Floran of wild foresssts.",
+  "glitchDescription" : "Peaceful. What could be better than a pleasant green light?",
+  "humanDescription" : "This green light reminds me of Earth. I wish I could visit it again.",
+  "hylotlDescription" : "While not as serene as blue, green light is still a good choice.",
+  "novakidDescription" : "This light's as green as a fresh cabbage.",
+
+  "inventoryIcon" : "atprk_relicseekershiplighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicseekershiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_relicseekershiplight.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "atprk_relicseekershiplight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

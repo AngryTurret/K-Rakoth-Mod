@@ -1,0 +1,66 @@
+{
+  "objectName" : "atprk_relicexchange",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A relic collector who is interested in rare artifacts.",
+  "shortdescription" : "Relic Exchange",
+  "race" : "generic",
+
+  "apexDescription" : "While this alien makes me feel strangely uncomfortable, I'd like to look at their goods.",
+  "avianDescription" : "This strange alien seems interested in ancient relics. Perhaps they will reward me if I bring some.",
+  "floranDescription" : "Bunny man wantsss rare thingsss. Floran can bring sssome but not for free.",
+  "glitchDescription" : "Intrigued. This individual will reward me if I bring them some ancient artifacts.",
+  "humanDescription" : "A relic collector who looks like a bunny in a hood. Huh.",
+  "hylotlDescription" : "I don't recognize the race of this person, but I'm sure they are interested in ancient relics.",
+  "novakidDescription" : "A colorful fella who seeks rare stuff. Maybe we can make a deal.",
+
+  "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 20,
+  "chatOptions" : [
+    "If you happen to find any ancient relics, bring them to me. I will give you something in return.",
+    "The elder races left many valuable items behind... It is our duty to collect them all!",
+    "In case you found ancient lore written in an alien language, I have the right tool to translate it. Not for free, of course.",
+    "Can you help us collect rare artifacts? We are looking for Hyperpixels, Ancient Shards and Elder Tech.",
+    "Have you got any Hyperpixels? They are like standard Pixels but more advanced."
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Relic Exchange",
+        "subtitle" : "Turn in rare items to get rewards",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_relicexchangeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_relicexchange" ]
+  },
+
+  "inventoryIcon" : "atprk_relicexchangeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicexchange.png:<color>.<frame>",
+      "imagePosition" : [-24, -0],
+
+      "frames" : 23,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectName" : "atprk_relicexchangesmall",
+  "colonyTags" : ["atprk_relicseeker","commerce", "electronic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "lightColor" : [113, 173, 112],
+  "price" : 85,
+  "description" : "A modern laptop to call the Relic Seeker.",
+  "shortdescription" : "Relic Seeker's Laptop",
+  "race" : "generic",
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.975,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "With this laptop, I can contact the Relic Collector whenever I need.",
+  "avianDescription" : "I wonder why the Relic Collector didn't give me a laptop in the first place.",
+  "floranDescription" : "Small computer to call odd bunny man.",
+  "glitchDescription" : "Pleased. A modernized Relic Seeker computer, more efficient than before.",
+  "humanDescription" : "It still doesn't make much sense but I'll roll with it.",
+  "hylotlDescription" : "A laptop similar to ones used by members of the Relic Seeker organization.",
+  "novakidDescription" : "Whew, now this computer won't rob me of the workin' area.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Relic Seeker's Laptop",
+        "subtitle" : "Turn in rare items to get rewards",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_relicexchangeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_relicexchange" ]
+  },
+
+  "inventoryIcon" : "atprk_relicexchangesmallicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchangesmall.png", "fullbright" : true }, { "image" : "atprk_relicexchangesmalllit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [-1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchangesmall.png", "fullbright" : true }, { "image" : "atprk_relicexchangesmalllit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

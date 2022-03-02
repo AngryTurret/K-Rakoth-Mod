@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_goodscrate1",
+  "colonyTags" : ["atprk_relicseeker","storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 25,
+  "description" : "A crate full of consumer goods.",
+  "shortdescription" : "Consumer Goods Crate",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A metal crate full of consumer goods.",
+  "avianDescription" : "A crate to keep all your wares in.",
+  "floranDescription" : "Boring metal box.",
+  "glitchDescription" : "Statement. A crate designed for consumer goods.",
+  "humanDescription" : "A metal crate to pack various goods in.",
+  "hylotlDescription" : "A plain cargo crate. It may be useful for interstellar trade.",
+  "novakidDescription" : "Just a merchant's box o' stuff.",
+
+
+  "inventoryIcon" : "atprk_goodscrate1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_goodscrate1.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk_goodscrate1.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

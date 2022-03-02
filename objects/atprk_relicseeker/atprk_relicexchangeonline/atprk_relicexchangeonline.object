@@ -1,0 +1,71 @@
+{
+  "objectName" : "atprk_relicexchangeonline",
+  "colonyTags" : ["atprk_relicseeker","commerce", "electronic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "lightColor" : [113, 173, 112],
+  "price" : 85,
+  "description" : "Contact the Relic Collector any time!",
+  "shortdescription" : "Relic Exchange Online",
+  "race" : "generic",
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.975,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "With this computer, I can contact the Relic Collector whenever I need.",
+  "avianDescription" : "An old computer that allows me to contact the Relic Collector.",
+  "floranDescription" : "Computer to call odd bunny man.",
+  "glitchDescription" : "Neutral. An old-fashioned computer to chat with the Relic Collector.",
+  "humanDescription" : "Why do I need a whole computer just to communicate with one person?... Whatever.",
+  "hylotlDescription" : "An outdated computer. Apparently, the Relic Seekers are either greedy or not very rich.",
+  "novakidDescription" : "A big ol' computer that allows me t' talk with the Relic Collector.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Relic Exchange Online",
+        "subtitle" : "Turn in rare items to get rewards",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_relicexchangeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_relicexchange" ]
+  },
+
+  "inventoryIcon" : "atprk_relicexchangeonlineicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchangeonline.png", "fullbright" : true }, { "image" : "atprk_relicexchangeonlinelit.png" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [-1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchangeonline.png", "fullbright" : true }, { "image" : "atprk_relicexchangeonlinelit.png" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "lightPosition" : [2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_rewardanneliskposter",
+  "colonyTags" : ["atprk_annelisk","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 200,
+
+  "shortdescription" : "Annelisk Poster",
+  "description" : "A framed poster of a rich Annelisk specimen.",
+  "race" : "generic",
+
+  "apexDescription" : "An unusually rich worm, perhaps as rich as the Apex elites.",
+  "avianDescription" : "There is something funny about a rich worm wearing a top hat.",
+  "floranDescription" : "Sssmug worm annoysss Floran.",
+  "glitchDescription" : "Repulsed. I already don't like this person.",
+  "humanDescription" : "This poster tells me it's an Annelisk, but those eyes tell me they want my money.",
+  "hylotlDescription" : "A poster of an Annelisk oligarch. It is probably meant to be either inspirational or annoying. Maybe even both at once.",
+  "novakidDescription" : "This smug worm seems t' be a very rich fella. I wonder how much pixels he earns.",
+
+  "inventoryIcon" : "atprk_rewardanneliskpostericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_rewardanneliskposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
