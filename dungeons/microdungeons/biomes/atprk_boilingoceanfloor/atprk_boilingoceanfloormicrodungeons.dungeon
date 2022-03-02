@@ -1,0 +1,144 @@
+{
+  "metadata" : {
+    "name" : "atprk_boilingoceanfloormicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_boilingbuilding1", "atprk_boilingbuilding2", "atprk_boilingbuilding3", "atprk_boilingbuilding4", "atprk_boilingbuilding5", "atprk_boilingbuilding6", "atprk_boilingflat1", "atprk_boilingflat2", "atprk_boilingmarker1", "atprk_boilingmarker2", "atprk_boilingmarker3", "atprk_boilingmarker4", "atprk_boilingmarker5",  "atprk_boilingmarker6", "atprk_boilingmines1", "atprk_boilingmines2", "atprk_boilingmines3", "atprk_boilingmines4" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_boilingbuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding1.json" ]
+    },
+    {
+      "name" : "atprk_boilingbuilding2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding2.json" ]
+    },
+    {
+      "name" : "atprk_boilingbuilding3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding3.json" ]
+    },
+    {
+      "name" : "atprk_boilingbuilding4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding4.json" ]
+    },
+    {
+      "name" : "atprk_boilingbuilding5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding5.json" ]
+    },
+    {
+      "name" : "atprk_boilingbuilding6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingbuilding6.json" ]
+    },
+    {
+      "name" : "atprk_boilingflat1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingflat1.json" ]
+    },
+    {
+      "name" : "atprk_boilingflat2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingflat2.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker1.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker2.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker3.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker4.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker5.json" ]
+    },
+    {
+      "name" : "atprk_boilingmarker6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmarker6.json" ]
+    },
+    {
+      "name" : "atprk_boilingmines1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmines1.json" ]
+    },
+    {
+      "name" : "atprk_boilingmines2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmines2.json" ]
+    },
+    {
+      "name" : "atprk_boilingmines3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmines3.json" ]
+    },
+    {
+      "name" : "atprk_boilingmines4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmines4.json" ]
+    }
+  ]
+}
