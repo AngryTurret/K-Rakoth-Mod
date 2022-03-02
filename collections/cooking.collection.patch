@@ -1,0 +1,56 @@
+[
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_sanguinesalad",
+    "value" : {
+	  "item" : "atprk_sanguinesalad"
+	}
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_stuffedflytrap",
+    "value" : {
+      "item" : "atprk_stuffedflytrap"
+    }
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_venuskiss",
+    "value" :     
+    {
+      "item" : "atprk_venuskiss"
+    }
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_venusbite",
+    "value" :     
+    {
+      "item" : "atprk_venusbite"
+    }
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_deepseasteak",
+    "value" :     
+    {
+      "item" : "atprk_deepseasteak"
+    }
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_starfishsushi",
+    "value" :     
+    {
+      "item" : "atprk_starfishsushi"
+    }
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_stellarsauce",
+    "value" :     
+    {
+      "item" : "atprk_stellarsauce"
+    }
+  }
+]

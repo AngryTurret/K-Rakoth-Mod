@@ -1,0 +1,65 @@
+[
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_shruberserk",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_shruberserk",
+	    "icon" : "/monsters/walkers/atprk_shruberserk/atprk_shruberserk.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_hungertrictus",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_hungertrictus",
+	    "icon" : "/monsters/walkers/atprk_hungertrictus/atprk_hungertrictus.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_roxmol",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_roxmol",
+	    "icon" : "/monsters/walkers/atprk_roxmol/atprk_roxmol.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_sapphase",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_sapphase",
+	    "icon" : "/monsters/ghosts/atprk_sapphase/atprk_sapphase.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_androne",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_androne",
+	    "icon" : "/monsters/crawlers/atprk_androne/atprk_androne-full.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_oculopter",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_oculopter",
+	    "icon" : "/monsters/flyers/atprk_oculopter/atprk_oculopter.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_lunarcrustoise",
+	  "value": 	  
+	  {
+	    "monsterType" : "atprk_lunarcrustoise",
+	    "icon" : "/monsters/crawlers/atprk_lunarcrustoise/atprk_lunarcrustoise.png:idle.1"
+	  }
+	}
+]

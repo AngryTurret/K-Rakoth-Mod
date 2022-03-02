@@ -1,0 +1,58 @@
+[
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_shruberserkaf",
+	  "value": 		
+	  {
+		"item" : "atprk_shruberserkaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_hungertrictusaf",
+	  "value": 		
+	  {
+		"item" : "atprk_hungertrictusaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_roxmolaf",
+	  "value": 		
+	  {
+		"item" : "atprk_roxmolaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_sapphaseaf",
+	  "value": 		
+	  {
+		"item" : "atprk_sapphaseaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_oculopteraf",
+	  "value": 		
+	  {
+		"item" : "atprk_oculopteraf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_androneaf",
+	  "value": 		
+	  {
+		"item" : "atprk_androneaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_lunarcrustoiseaf",
+	  "value": 		
+	  {
+		"item" : "atprk_lunarcrustoiseaf"
+	  }
+	}
+]
