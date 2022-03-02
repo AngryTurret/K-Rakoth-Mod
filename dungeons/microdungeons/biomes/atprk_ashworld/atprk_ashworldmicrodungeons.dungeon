@@ -1,0 +1,172 @@
+{
+  "metadata" : {
+    "name" : "atprk_ashworldmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_ashyglitchfort1", "atprk_ashyglitchfort2", "atprk_ashyglitchfort3", "atprk_ashyglitchfort4", "atprk_ashyglitchfort5", "atprk_ashyruins1", "atprk_ashyruins2", "atprk_ashyruins3", "atprk_devoutmonument1", "atprk_devoutmonument2", "atprk_devoutmonument3", "atprk_devoutmonument4", "atprk_lavacracks1",  "atprk_lavacracks2", "atprk_lavacracks3", "atprk_lavacracks4", "atprk_ashyvolcano1", "atprk_ashyvolcano2", "atprk_ashyvolcano3", "atprk_ashhouse1", "atprk_ashhouse2", "atprk_lavawell" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_ashyglitchfort1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyglitchfort1.json" ]
+    },
+    {
+      "name" : "atprk_ashyglitchfort2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyglitchfort2.json" ]
+    },
+    {
+      "name" : "atprk_ashyglitchfort3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyglitchfort3.json" ]
+    },
+    {
+      "name" : "atprk_ashyglitchfort4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyglitchfort4.json" ]
+    },
+    {
+      "name" : "atprk_ashyglitchfort5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyglitchfort5.json" ]
+    },
+    {
+      "name" : "atprk_ashyruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyruins1.json" ]
+    },
+    {
+      "name" : "atprk_ashyruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyruins2.json" ]
+    },
+    {
+      "name" : "atprk_ashyruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyruins3.json" ]
+    },
+    {
+      "name" : "atprk_devoutmonument1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_devoutmonument1.json" ]
+    },
+    {
+      "name" : "atprk_devoutmonument2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_devoutmonument2.json" ]
+    },
+    {
+      "name" : "atprk_devoutmonument3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_devoutmonument3.json" ]
+    },
+    {
+      "name" : "atprk_devoutmonument4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_devoutmonument4.json" ]
+    },
+    {
+      "name" : "atprk_lavacracks1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_lavacracks1.json" ]
+    },
+    {
+      "name" : "atprk_lavacracks2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_lavacracks2.json" ]
+    },
+    {
+      "name" : "atprk_lavacracks3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_lavacracks3.json" ]
+    },
+    {
+      "name" : "atprk_lavacracks4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_lavacracks4.json" ]
+    },
+    {
+      "name" : "atprk_ashyvolcano1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyvolcano1.json" ]
+    },
+    {
+      "name" : "atprk_ashyvolcano2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyvolcano2.json" ]
+    },
+    {
+      "name" : "atprk_ashyvolcano3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashyvolcano3.json" ]
+    },
+    {
+      "name" : "atprk_ashhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashhouse1.json" ]
+    },
+    {
+      "name" : "atprk_ashhouse2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ashhouse2.json" ]
+    },
+    {
+      "name" : "atprk_lavawell",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_lavawell.json" ]
+    }
+  ]
+}
