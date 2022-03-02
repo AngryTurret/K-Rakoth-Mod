@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_fenronfossil2",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A fossilised Fenron torso.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Fenron Torso",
+  "race" : "generic",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_fenronfossil2icon.png",
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilfenron/atprk_fenrontorsodisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_fenronSkeleton",
+  "setIndex" : 2,
+  "setCount" : 3
+}

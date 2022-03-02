@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_anneliskfossil2",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A dehydrated Annelisk torso.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Annelisk Torso",
+  "race" : "generic",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_anneliskfossil2icon.png",
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilannelisk/atprk_annelisktorsodisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_anneliskSkeleton",
+  "setIndex" : 2,
+  "setCount" : 3
+}

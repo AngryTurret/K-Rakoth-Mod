@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_noolithfossil2",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A crystal-like Noolith torso.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Noolith Torso",
+  "race" : "generic",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_noolithfossil2icon.png",
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilnoolith/atprk_noolithtorsodisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_noolithSkeleton",
+  "setIndex" : 2,
+  "setCount" : 3
+}

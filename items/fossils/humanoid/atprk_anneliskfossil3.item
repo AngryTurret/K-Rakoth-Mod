@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_anneliskfossil3",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A dehydrated Annelisk tail.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Annelisk Tail",
+  "race" : "generic",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_anneliskfossil3icon.png",
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilannelisk/atprk_annelisklegsdisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_anneliskSkeleton",
+  "setIndex" : 3,
+  "setCount" : 3
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "atprk_noolithfossil1",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A crystal-like Noolith head.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Noolith Head",
+  "race" : "generic",
+  "price" : 50,
+
+  "inventoryIcon" : "atprk_noolithfossil1icon.png",
+
+  "completeSetDescriptions" : {
+    "price" : 1500,
+    "shortdescription" : "Noolith Fossil",
+    "description" : "The crystalline body of a Noolith, a member of a supposedly extinct race."
+  },
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilnoolith/atprk_noolithskulldisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_noolithSkeleton",
+  "setIndex" : 1,
+  "setCount" : 3,
+  "setCollectables" : { "fossils" : "atprk_noolithSkeleton" },
+
+  "completeFossilIcon" : "/objects/fossils/humanoidfossils/humanoidskeletonicon.png"
+}

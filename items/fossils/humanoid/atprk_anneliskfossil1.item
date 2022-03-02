@@ -1,0 +1,30 @@
+{
+  "itemName" : "atprk_anneliskfossil1",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "description" : "A dehydrated Annelisk head.",
+  "category" : "mediumFossil",
+
+  "shortdescription" : "Annelisk Head",
+  "race" : "generic",
+  "price" : 50,
+
+  "inventoryIcon" : "atprk_anneliskfossil1icon.png",
+
+  "completeSetDescriptions" : {
+    "price" : 1500,
+    "shortdescription" : "Annelisk Fossil",
+    "description" : "The dehydrated remains of an Annelisk, a member of a supposedly extinct race."
+  },
+
+  "displayImage" : "/objects/fossils/humanoidfossils/atprk_fossilannelisk/atprk_anneliskskulldisplay.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "atprk_anneliskSkeleton",
+  "setIndex" : 1,
+  "setCount" : 3,
+  "setCollectables" : { "fossils" : "atprk_anneliskSkeleton" },
+
+  "completeFossilIcon" : "/objects/fossils/humanoidfossils/humanoidskeletonicon.png"
+}
