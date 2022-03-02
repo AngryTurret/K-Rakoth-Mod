@@ -1,0 +1,123 @@
+{
+  "metadata" : {
+    "name" : "atprk_boilingoceanmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_boilingislandbarrels1", "atprk_boilingislandbarrels2", "atprk_boilingislandbarrels3", "atprk_boilingislandruins1", "atprk_boilingislandruins2", "atprk_boilingislandruins3", "atprk_boilingislandruins4", "atprk_boilingislandruins5", "atprk_boilingislandruins6", "atprk_boilingislandruins7", "atprk_boilingmonument1", "atprk_boilingmonument2", "atprk_boilingpond1",  "atprk_boilingpond2", "atprk_boilingpond3" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_boilingislandbarrels1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandbarrels1.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandbarrels2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandbarrels2.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandbarrels3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandbarrels3.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins1.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins2.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins3.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins4.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins5.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins6.json" ]
+    },
+    {
+      "name" : "atprk_boilingislandruins7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingislandruins7.json" ]
+    },
+    {
+      "name" : "atprk_boilingmonument1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmonument1.json" ]
+    },
+    {
+      "name" : "atprk_boilingmonument2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingmonument2.json" ]
+    },
+    {
+      "name" : "atprk_boilingpond1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingpond1.json" ]
+    },
+    {
+      "name" : "atprk_boilingpond2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingpond2.json" ]
+    },
+    {
+      "name" : "atprk_boilingpond3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_boilingpond3.json" ]
+    }
+  ]
+}
