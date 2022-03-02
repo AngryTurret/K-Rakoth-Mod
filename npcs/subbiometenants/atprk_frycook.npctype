@@ -1,0 +1,47 @@
+{
+  "type" : "atprk_frycook",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "hylotl" : {
+          "default" : [
+            "Being a fry cook doesn't pay off much but at least I make people happy.",
+            "What? Do you think there is something fishy about a Hylotl being a fry cook?",
+            "The inner machinations of my mind are an enigma... Just kidding, they are not that convoluted.",
+            "For your information, I don't simply flip burgers. I also toss them.",
+            "Am I allowed to bring a Snaggler here? Mine is a good boy, I swear.",
+            "With all these sponges, my new home will always be neat and tidy!",
+            "I'm ready, I'm ready!... Wait, I don't really know what I'm ready for.",
+            "Does the Protectorate employ fry cooks? I want to become something bigger one day.",
+            "Sea sponges are beautiful but not very nutritious, so don't bother eating them. I am a cook, I know better.",
+            "My old neighbors thought my decor was silly. You people seem to be more accepting."
+          ]
+        }
+      }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant"]
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "chefhead" }
+            ],
+            "chest" : [
+              { "name" : "shirtchest" }
+            ],
+            "legs" : [
+              { "name" : "coollegs", "parameters" : { "colorIndex" : 11 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

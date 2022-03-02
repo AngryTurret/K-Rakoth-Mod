@@ -1,0 +1,89 @@
+{
+  "type" : "atprk_ancientguardian",
+  "baseType" : "friendlyguardtenant",
+
+  "scriptConfig" : {
+    "reactions" : {
+      "spontaneous" : [
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "patrol", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "severe" : "/dialog/atprk_ancientguardian.config:severe",
+          "final" : "/dialog/atprk_ancientguardian.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/atprk_ancientguardian.config:beacon",
+          "rent" : "/dialog/atprk_ancientguardian.config:rent"
+        }
+      },
+
+      "converse" : "/dialog/atprk_ancientguardian.config:converse",
+
+      "attack" : "/dialog/atprk_ancientguardian.config:attack",
+      "reattack" : "/dialog/atprk_ancientguardian.config:reattack",
+      "killedTarget" : "/dialog/atprk_ancientguardian.config:killedTarget",
+      "lostTarget" : "/dialog/atprk_ancientguardian.config:lostTarget",
+      "outOfSight" : "/dialog/atprk_ancientguardian.config:outOfSight",
+      "cheerOn" : "/dialog/atprk_ancientguardian.config:cheerOn",
+      "cantReach" : "/dialog/atprk_ancientguardian.config:cantReach"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+            ],
+            "chest" : [
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+            ],
+            "legs" : [
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcaxe",
+              "npcspear",
+              "npchammer"
+            ]
+          }
+        ] ]
+    ]
+  },
+ "statusControllerSettings" : {    
+    "stats" : {
+	  "maxHealth" : {
+        "baseValue" : 1000.0
+      },
+	"iceStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"poisonStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"fireStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"electricStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"specialStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 15.5
+      },
+      "protection" : {
+        "baseValue" : 1.5
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type" : "atprk_apextestsubject",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Guards, there is a spy!",
+            "The Miniknog will stop you!",
+            "Wait, you are not a scientist!",
+            "You are not supposed to be here!",
+            "Intruder!"
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "Guards, there is a spy!",
+            "The Miniknog will stop you!",
+            "Wait, you are not a scientist!",
+            "You are not supposed to be here!",
+            "Intruder!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : [11] } }
+            ],
+            "legs" : [
+              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : [11] } }
+            ],
+            "primary" : [
+              "npcdagger"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

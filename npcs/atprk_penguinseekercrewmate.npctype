@@ -1,0 +1,35 @@
+{
+  "type" : "atprk_penguinseekercrewmate",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/atprk_relicseekercrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "legs" : [
+              { "name" : "penguinscanner", "parameters" : { "colorIndex" : [0,2,3] } },
+              { "name" : "atprk_penguinseekerbandana", "parameters" : { "colorIndex" : [7] } }
+            ]
+          },
+          {
+            "legs" : [
+              ""
+            ]
+          }
+        ] ]
+    ]
+  }
+}

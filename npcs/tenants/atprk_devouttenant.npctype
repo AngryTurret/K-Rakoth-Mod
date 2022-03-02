@@ -1,0 +1,68 @@
+{
+  "type" : "atprk_devouttenant",
+  "baseType" : "friendlyguardtenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["tenant", "common"]
+    },
+    "reactions" : {
+      "spontaneous" : [
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "patrol", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "severe" : "/dialog/atprk_devouttenant.config:severe",
+          "final" : "/dialog/atprk_devouttenant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/atprk_devouttenant.config:beacon",
+          "rent" : "/dialog/atprk_devouttenant.config:rent"
+        }
+      },
+
+      "converse" : "/dialog/atprk_devouttenant.config:converse",
+
+      "attack" : "/dialog/atprk_devouttenant.config:attack",
+      "reattack" : "/dialog/atprk_devouttenant.config:reattack",
+      "killedTarget" : "/dialog/atprk_devouttenant.config:killedTarget",
+      "lostTarget" : "/dialog/atprk_devouttenant.config:lostTarget",
+      "outOfSight" : "/dialog/atprk_devouttenant.config:outOfSight",
+      "cheerOn" : "/dialog/atprk_devouttenant.config:cheerOn",
+      "cantReach" : "/dialog/atprk_devouttenant.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "glitchtier5mhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "alt" : [
+              "commonlargeshield"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

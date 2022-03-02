@@ -1,0 +1,67 @@
+{
+  "type" : "atprk_4dnerd",
+  "baseType" : "generictenant",
+  
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant"],
+      "graduation" : {
+        "nextNpcType" : [
+          [0.20, "crewmemberchemistblue"],
+          [0.20, "crewmemberchemistgreen"],
+          [0.20, "crewmemberchemistyellow"],
+          [0.20, "crewmemberchemistorange"],
+          [0.05, "crewmembertailor"]
+        ]
+      }
+    },
+
+    "dialog" : {
+      "converse" : {
+        "apex" : {
+          "default" : [
+            "Have you ever felt like our world is not as volumetric as we think?",
+            "The Miniknog does not tell its civilians much about higher dimensions, so I had to become a scientist.",
+            "So, what do you think about tesseracts?",
+            "The fourth dimension is more complex than most people can imagine."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Non-Euclidian geometry is difficult but very exciting, especially when you can make so many cool things with it.",
+            "Last night I dreamed about falling through the walls. Is this what could've happened if I were multidimensional?",
+            "Tesseracts are not just cubes inside bigger cubes. Trust me, I checked.",
+            "Thinking about the higher dimensions is mind-blowing. Don't you agree?"
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+            "To be fair, you have to have a very high IQ to understand the fourth dimension.",
+            "Some people think outside the box. I think outside the tesseract.",
+            "Once you experiense the fourth dimension, the third one will never be the same again.",
+            "Have you ever tried to imagine life in higher dimensions? Don't bother, you will not understand."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "thinkingcaphead", "parameters" : { "colorIndex" : 10 } }
+            ],
+            "chest" : [
+              { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

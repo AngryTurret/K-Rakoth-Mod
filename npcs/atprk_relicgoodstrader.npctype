@@ -1,0 +1,56 @@
+{
+  "type" : "atprk_relicgoodstrader",
+  "baseType" : "outpostcivilian",
+
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/goodstrader.lua"
+  ],
+
+  "scriptConfig" : {
+    "behavior" : "wanderSimple",
+
+    "behaviorConfig" : {
+      "wanderTime" : [0.25, 0.4],
+      "wanderWaitTime" : [10, 20]
+    },
+
+    "baseBuyFactor" : 0.5,
+    "baseSellFactor" : 2.0,
+
+    "buyExponent" : 0.93,
+    "sellExponent" : 0.95,
+
+    "factorRecoveryTime" : 86400,
+
+    "guiConfig" : {
+      "baseConfig" : "/interface/scripted/goodstrader/goodstradergui.config",
+      "buyItem" : "atprk_relicgoods",
+      "gui" : {
+        "windowtitle" : {
+          "title" : " Minor Artifacts Trader"
+        }
+      }
+    },
+
+    "sellRotationTime" : 86400,
+    "sellOptions" : [
+      "medicalgoods",
+      "foodgoods",
+      "atprk_fossilgoods",
+      "atprk_loregoods",
+      "atprk_fakerelicgoods"
+    ]
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
+          }
+        ] ]
+    ]
+  }
+}

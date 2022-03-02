@@ -1,0 +1,50 @@
+{
+  "type" : "atprk_ancientseeker",
+  "baseType" : "tutorial",
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+    
+    "dialog" : {
+      "converse" : {
+        "novakid" : {
+          "default" : [
+            "Even after months of research we can't answer some questions about the Ancients. The universe is truly a riddle.",
+            "The Cultivator chose six races to guard his artifacts, but what about the other species? What is different about them?",
+            "Don't forget, my friend: envy corrupts your soul. The K'Rakoth people had to learn it the hard way.",
+            "I wish my people were able to remember more than they usually do. We could've achieved so much.",
+            "Space is full of wonders and mysteries. Each and every planet has a story to tell.",
+            "Contrary to the popular belief, gates are not the only structures the Ancients left behind. You have to search more...",
+            "The Ancients never fail to surprise me. How did they achieve so many feats?",
+            "Space makes you feel small and insignificant. That's why it is important to stay strong on your journey.",
+            "Keep visiting new planets. You never know what waits you out there...",
+            "I wonder if the Ruin is a naturally evolved creature or a higher being. It could be both.",
+            "The Shadow people of midnight planets are yet another mystery for us. What exactly are they?",
+            "Some questions will never be answered. It is true for our galaxy as well.",
+            "The Ancients could manupulate not only matter, but also entire planets. That's how powerful they were.",
+            "Ancient gateways in space... No one has breached them before. Perhaps they only let certain people in.",
+            "Not a single race ascended as high as the Ancients did in their prime."
+          ]
+        }
+      }
+    }
+  },
+
+    "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "chest" : [
+              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

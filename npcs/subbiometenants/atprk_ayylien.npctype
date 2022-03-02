@@ -1,0 +1,64 @@
+{
+  "type" : "atprk_ayylien",
+  "baseType" : "friendlyguardtenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "shady"]
+    },
+    "reactions" : {
+      "spontaneous" : [
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "patrol", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "severe" : "/dialog/atprk_ayylien.config:severe",
+          "final" : "/dialog/atprk_ayylien.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/atprk_ayylien.config:beacon",
+          "rent" : "/dialog/atprk_ayylien.config:rent"
+        }
+      },
+
+      "converse" : "/dialog/atprk_ayylien.config:converse",
+
+      "attack" : "/dialog/atprk_ayylien.config:attack",
+      "reattack" : "/dialog/atprk_ayylien.config:reattack",
+      "killedTarget" : "/dialog/atprk_ayylien.config:killedTarget",
+      "lostTarget" : "/dialog/atprk_ayylien.config:lostTarget",
+      "outOfSight" : "/dialog/atprk_ayylien.config:outOfSight",
+      "cheerOn" : "/dialog/atprk_ayylien.config:cheerOn",
+      "cantReach" : "/dialog/atprk_ayylien.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "beachcreeperhead", "parameters" : { "colorIndex" : [1, 2, 3] } }
+            ],
+            "chest" : [
+              { "name" : "hazmatchest", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "legs" : [
+              { "name" : "hazmatlegs", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "primary" : [
+              "raygun"
+            ],
+            "sheathedprimary" : [
+              "npcshortsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

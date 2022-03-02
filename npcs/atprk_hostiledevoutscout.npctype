@@ -1,0 +1,60 @@
+{
+  "type" : "atprk_hostiledevoutscout",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Hostile. No mercy for intruders!",
+            "Eager. For the Lords of the Cosmos!",
+            "Alert. The enemy is approaching!",
+            "Aggressive. It's our land!",
+            "Fearless. Our masters protect us!",
+            "Alert. I see an intruder!",
+            "Intimidating. Stop right there!",
+            "Eager. You should've stayed away!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier2head", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npctungstenbow" }
+            ],
+            "alt" : [
+              "commonsmallshield"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

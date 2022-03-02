@@ -1,0 +1,54 @@
+{
+  "type" : "atprk_hostileeldritchcultist",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Courageous. Glory to Ri'Shaan!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Courageous. Glory to Ri'Shaan!",
+            "Eager. For the Lords of the Cosmos!",
+            "Menacing. You will be fed to the Growing one!",
+            "Indignant. This is a sacred place, outsider!",
+            "Fearless. Our masters protect us!",
+            "Imposing. Ri'shaan must grow!",
+            "Agressive. Get that heretic!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "primary" : [
+              "npcshortsword",
+              "npcdagger"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npcpistol" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type" : "atprk_hostileeldritchsentinel",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Courageos. Glory to Ri'Shaan!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Enraged. Heretics!",
+            "Fearless. For Ri'shaan!",
+            "Agressive. Come here, you heretic!",
+            "Alert. Stop right there!",
+            "Agressive. You will not escape my wrath!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier6mchest", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier6mpants", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npchammer",
+              "npcspear"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npcshotgun" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

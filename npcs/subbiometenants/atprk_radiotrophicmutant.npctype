@@ -1,0 +1,50 @@
+{
+  "type" : "atprk_radiotrophicmutant",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "apex" : {
+          "default" : [
+            "One day the Miniknog sent me to clean toxic waste. Too bad I wasn't prepared to dive straight into it.",
+            "Don't worry, these cysts on my body won't explode!... Maybe.",
+            "Sometimes my skin glows at night. I hope it won't disturb my neighbors too much.",
+            "No, this gas mask is not my real face, it's just stuck.",
+            "Teenage mutant ninja Apex, teenage mutant ninja Apex!",
+            "Not all mutants are evil. Some are just misunderstood, just like me.",
+            "Have you ever felt dizzy as if you were about to grow a second head?",
+            "My skin may be toxic, but I'm far from being a toxic person myself.",
+            "How many barrels full of toxic waste am I allowed to keep in my house? Just asking.",
+            "This radiotrophic wood is amazing! I really appreciate the furniture you made."
+          ]
+        }
+      }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "shady"]
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "mutanthead" }
+            ],
+            "chest" : [
+              { "name" : "mutantchest" }
+            ],
+            "back" : [
+              { "name" : "mutantback" }, { "name" : "hazmatback" }, { "name" : "toxicwasteback" }
+            ],
+            "legs" : [
+              { "name" : "mutantpants" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

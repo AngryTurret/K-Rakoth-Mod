@@ -1,0 +1,85 @@
+{
+  "type" : "atprk_eldritchcultist",
+  "baseType" : "generictenant",
+  
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "shady"],
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmembermedic"],
+          [1, "crewmembertailor"]
+        ]
+      }
+    },
+
+    "dialog" : {
+      "converse" : {
+        "apex" : {
+          "default" : [
+            "Joining a cult may sound crazy, but it's still better than listening to Big Ape.",
+            "Ri'shaan must grow, otherwise the Universe is doomed. Glory to Ri'shaan.",
+            "Ri'shaan the Growing One protects us. Ri'shaan the Growing One loves us.",
+            "Ancient religions become quite interesting once you get used to their unsettling parts."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Am I allowed to keep a goat here? Nothing related to spooky rituals, I swear.",
+            "Ri'shaan the Growing One protects us. Ri'shaan the Growing One loves us.",
+            "I've joined an eldritch cult recently. I hope you are okay with it."
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Floran worshipsss the old godsss. They demand lotsss of sssstabbing.",
+            "Ri'shaan growsss, Ri'shaan eatsss, Ri'shaan givesss freedom.",
+            "Floran wantsss to fight for Ri'shaan, but Floran mussst train firsst.",
+            "Floran needs to ssstab more. The old godsss want it."
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "I don't worship Kluex anymore. There are better gods to pray to.",
+            "Nobody said that an Avian can't worship any gods beside Kluex.",
+            "Ri'shaan the Growing One protects us. Ri'shaan the Growing One loves us.",
+            "Glory to Ri'shaan the Growing One!... Sorry, am I too loud?"
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+            "The elder gods are watching us this very minute, whether you feel it or not.",
+            "I'm very fond of ancient religions, even though they are a bit creepy.",
+            "Do you happen to know where I can buy more candles? It's for rituals."
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Imposing. Ri'shaan the Growing one is our lord and savior. Glory to Ri'shaan.",
+            "Indignant. Back in my village people tried to burn me for heresy. Am I safe here?",
+            "Enthusiastic. The ancient mythos are fascinating. I wish I could learn more about them."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 6 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
