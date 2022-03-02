@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_oculopter",
+  "category" : "atprk_oculopter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_oculopter.png",
+    "bodynobright" : "atprk_oculopternobright.png"
+  }
+}
