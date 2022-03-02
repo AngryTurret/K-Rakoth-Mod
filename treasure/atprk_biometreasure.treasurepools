@@ -1,0 +1,520 @@
+{
+  // ================================
+  //              Ancient Necropolis
+  // ================================
+
+  "atprk_ancientnecropolisChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_ancientnecropolisTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_ancientnecropolisTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_ancientnecropolisTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "atprk_ancientshards"},
+        {"weight" : 0.3, "item" : "atprk_ancientdesklamp-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_smallancientchest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancienttable-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientvase-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientdoor-recipe"},
+        {"weight" : 0.05, "item" : "atprk_krakothtextdelta"},
+        {"weight" : 0.05, "item" : "atprk_krakothtextgamma"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Deep Necropolis
+  // ================================
+
+  "atprk_deepnecropolisChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_deepnecropolisTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_deepnecropolisTreasure"}
+      ],
+      "poolRounds" : [
+        [0.50, 2],
+        [0.40, 3],
+        [0.10, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_deepnecropolisTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "item" : [ "ancientblock", 10]},
+        {"weight" : 0.40, "item" : "atprk_ancientshards"},
+        {"weight" : 0.3, "item" : "atprk_ancientdesklamp-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancienttable-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientvase-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ancientdoor-recipe"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Ash World
+  // ================================
+
+  "atprk_ashworldChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_ashworldTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_ashworldTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_ashworldTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : "atprk_asharmchair-recipe"},
+        {"weight" : 0.2, "item" : "atprk_ashchair-recipe"},
+        {"weight" : 0.2, "item" : "atprk_ashchest-recipe"},
+        {"weight" : 0.2, "item" : "atprk_ashdoor-recipe"},
+        {"weight" : 0.2, "item" : "atprk_ashlight-recipe"},
+        {"weight" : 0.2, "item" : "atprk_ashtable-recipe"},
+        {"weight" : 0.25, "item" : "corefragmentore"},
+        {"weight" : 0.05, "item" : "copperarmorhead"},
+        {"weight" : 0.05, "item" : "copperarmorchest"},
+        {"weight" : 0.05, "item" : "copperarmorpants"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Radiotrophic Forest
+  // ================================
+
+  "atprk_radiotrophicChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_radiotrophicTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_radiotrophicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_radiotrophicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : "atprk_radiotrophicchair-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicchest-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicdoor-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophiclamp-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophictable-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicplantpot-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicbed-recipe"},
+        {"weight" : 0.05, "item" : "mutanthead"},
+        {"weight" : 0.05, "item" : "mutantchest"},
+        {"weight" : 0.05, "item" : "mutantpants"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Hunger Grove
+  // ================================
+
+  "atprk_hungergroveChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_hungergroveTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_hungergroveTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_hungergroveTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "bone"},
+        {"weight" : 0.3, "item" : "atprk_fenronchairclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_fenronchestclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_fenronpedestalclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_fenrontableclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_fenronbed-recipe"},
+        {"weight" : 0.2, "item" : "atprk_fenronbasrelief1"},
+        {"weight" : 0.2, "item" : "atprk_fenronbasrelief2"},
+        {"weight" : 0.2, "item" : "atprk_fenronbasrelief3"},
+        {"weight" : 0.2, "item" : "atprk_fenronbasrelief4"},
+        {"weight" : 0.05, "item" : "headbandhead"},
+        {"weight" : 0.05, "item" : "toughchest"},
+        {"weight" : 0.05, "item" : "toughlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Glaciovolcanic
+  // ================================
+
+  "atprk_glaciovolcanicChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_glaciovolcanicTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_glaciovolcanicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_glaciovolcanicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "crystal"},
+        {"weight" : 0.3, "item" : "atprk_noolithbookcase-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithbed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithchest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithtable-recipe"},
+        {"weight" : 0.2, "item" : "atprk_noolithshard1"},
+        {"weight" : 0.2, "item" : "atprk_noolithshard2"},
+        {"weight" : 0.2, "item" : "atprk_noolithshard3"},
+        {"weight" : 0.2, "item" : "atprk_noolithshard4"},
+        {"weight" : 0.05, "item" : "atprk_glitchnoolithcodex-codex"},
+        {"weight" : 0.01, "item" : [ "solidfuel", 3]},
+        {"weight" : 0.05, "item" : "prismhead"},
+        {"weight" : 0.05, "item" : "prismchest"},
+        {"weight" : 0.05, "item" : "prismlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Noolith Birthplace
+  // ================================
+
+  "atprk_noolithbirthplaceChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_noolithbirthplaceTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.8, "pool" : "basicTreasure"},
+        {"weight" : 0.2, "pool" : "atprk_noolithbirthplaceTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_noolithbirthplaceTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "crystal"},
+        {"weight" : 0.4, "item" : [ "crystalblock", 10]},
+        {"weight" : 0.1, "item" : [ "solidfuel", 2]},
+        {"weight" : 0.01, "item" : "atprk_noolithshard1"},
+        {"weight" : 0.01, "item" : "atprk_noolithshard2"},
+        {"weight" : 0.01, "item" : "atprk_noolithshard3"},
+        {"weight" : 0.01, "item" : "atprk_noolithshard4"},
+        {"weight" : 0.05, "item" : "prismhead"},
+        {"weight" : 0.05, "item" : "prismchest"},
+        {"weight" : 0.05, "item" : "prismlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Polluted
+  // ================================
+
+  "atprk_pollutedChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_pollutedTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_pollutedTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_pollutedTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "rustyblock", 25]},
+        {"weight" : 0.3, "item" : "atprk_anneliskchairclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_anneliskchestclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_anneliskposterclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_annelisktableclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_annelisksleepingpod-recipe"},
+        {"weight" : 0.25, "item" : "atprk_encryptionkey1"},
+        {"weight" : 0.25, "item" : "atprk_encryptionkey2"},
+        {"weight" : 0.25, "item" : "atprk_encryptionkey3"},
+        {"weight" : 0.25, "item" : "atprk_encryptionkey4"},
+        {"weight" : 0.05, "item" : "moneybagshead"},
+        {"weight" : 0.05, "item" : "moneybagschest"},
+        {"weight" : 0.05, "item" : "moneybagspants"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Ship Graveyard
+  // ================================
+
+  "atprk_shipgraveyardChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_shipgraveyardTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_shipgraveyardTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_shipgraveyardTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "toxicwaste", 2]},
+        {"weight" : 0.3, "item" : "atprk_ufobed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ufochair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ufochest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ufodoor-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ufolight-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ufotable-recipe"},
+        {"weight" : 0.05, "item" : "spacesuithead"},
+        {"weight" : 0.05, "item" : "spacesuitchest"},
+        {"weight" : 0.05, "item" : "spacesuitback"},
+        {"weight" : 0.05, "item" : "spacesuitlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Boiling Ocean Islands
+  // ================================
+
+  "atprk_boilingoceanChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_boilingoceanTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_boilingoceanTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_boilingoceanTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "atprk_slopedkrakothpanel", 5]},
+        {"weight" : 0.3, "item" : "atprk-krakothcontainer1-recipe"},
+        {"weight" : 0.3, "item" : "atprk-krakothcontainer2-recipe"},
+        {"weight" : 0.3, "item" : "atprk-krakothsmalldoor-recipe"},
+        {"weight" : 0.3, "item" : "atprk-krakothlocker-recipe"},
+        {"weight" : 0.3, "item" : "atprk-krakothstasiscanister-recipe"},
+        {"weight" : 0.3, "item" : "atprk-krakothswitch1-recipe"},
+        {"weight" : 0.15, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.1, "item" : "atprk_eldertech"},
+        {"weight" : 0.05, "item" : "atprk_chthonicscraps"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Boiling Ocean Floor
+  // ================================
+
+  "atprk_boilingoceanfloorChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_boilingoceanfloorTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_boilingoceanfloorTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_boilingoceanfloorTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "atprk_chthonicscraps"},
+        {"weight" : 0.1, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.2, "item" : "atprk-eldritchlamppost-recipe"},
+        {"weight" : 0.2, "item" : "atprk-eldritchwalllight-recipe"},
+        {"weight" : 0.3, "item" : "atprk-eldritchchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk-eldritchtable-recipe"},
+        {"weight" : 0.3, "item" : "atprk-eldritchstool-recipe"},
+        {"weight" : 0.15, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.05, "item" : "atprk_krakothtextchi"},
+        {"weight" : 0.1, "item" : "atprk_eldertech"},
+        {"weight" : 0.1, "item" : "atprk_aeonbattery"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Sponge
+  // ================================
+
+  "atprk_spongeChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_spongeTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_spongeTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_spongeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "atprk_spongeblock"},
+        {"weight" : 0.2, "item" : "atprk_spongebed-recipe"},
+        {"weight" : 0.2, "item" : "atprk_spongechair-recipe"},
+        {"weight" : 0.2, "item" : "atprk_spongechest-recipe"},
+        {"weight" : 0.2, "item" : "atprk_spongedoor-recipe"},
+        {"weight" : 0.2, "item" : "atprk_spongelight-recipe"},
+        {"weight" : 0.2, "item" : "atprk_spongetable-recipe"},
+        {"weight" : 0.03, "item" : "atprk_kitchensponge"},
+        {"weight" : 0.05, "item" : "pineapple"},
+        {"weight" : 0.05, "item" : "sharkhead"},
+        {"weight" : 0.05, "item" : "divingmaskhead"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Underwater Minefield
+  // ================================
+
+  "atprk_navalminefieldChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_navalminefieldTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_navalminefieldTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_navalminefieldTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.45, "item" : "atprk_chthonicscraps"},
+        {"weight" : 0.15, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.05, "item" : [ "atprk_chthonicscraps", 3]},
+        {"weight" : 0.25, "item" : [ "bomb", 3]},
+        {"weight" : 0.2, "item" : "atprk_krakothmetal-recipe"},
+        {"weight" : 0.2, "item" : "atprk_slopedkrakothpanel-recipe"},
+        {"weight" : 0.2, "item" : "atprk_krakothplatform-recipe"},
+        {"weight" : 0.1, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.1, "item" : "atprk_eldertech"},
+        {"weight" : 0.08, "item" : "atprk_4dcube"},
+        {"weight" : 0.02, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.01, "item" : "atprk_chthonicalloy"}
+      ]
+    }]
+  ]
+}
