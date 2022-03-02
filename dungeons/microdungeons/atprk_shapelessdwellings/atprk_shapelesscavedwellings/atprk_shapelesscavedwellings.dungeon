@@ -1,0 +1,61 @@
+{
+  "metadata" : {
+    "name" : "atprk_shapelesscavedwellings",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+
+    "anchor" : [ "atprk_shapelesscavedwellings1", "atprk_shapelesscavedwellings2", "atprk_shapelesscavedwellings3", "atprk_shapelesscavedwellings4", "atprk_shapelesscavedwellings5", "atprk_shapelesscavedwellings6" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_shapelesscavedwellings1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings1.json" ]
+    },
+    {
+      "name" : "atprk_shapelesscavedwellings2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings2.json" ]
+    },
+    {
+      "name" : "atprk_shapelesscavedwellings3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings3.json" ]
+    },
+    {
+      "name" : "atprk_shapelesscavedwellings4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings4.json" ]
+    },
+    {
+      "name" : "atprk_shapelesscavedwellings5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings5.json" ]
+    },
+    {
+      "name" : "atprk_shapelesscavedwellings6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_shapelesscavedwellings6.json" ]
+    }
+  ]
+}
