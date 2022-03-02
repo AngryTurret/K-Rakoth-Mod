@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_noolithbirthplacemicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_noolithbirthplace_ruins1", "atprk_noolithbirthplace_ruins2", "atprk_noolithbirthplace_ruins3", "atprk_noolithbirthplace_ruins4", "atprk_noolithbirthplace_ruins5", "atprk_noolithbirthplace_ruins6", "atprk_noolithbirthplace_ruins7", "atprk_noolithbirthplace_ruins8", "atprk_noolithbirthplace_ruins9", "atprk_noolithbirthplace_ruins10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_noolithbirthplace_ruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins1.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins2.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins3.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins4.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins5.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins6.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins7.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins8.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins9.json" ]
+    },
+    {
+      "name" : "atprk_noolithbirthplace_ruins10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_noolithbirthplace_ruins10.json" ]
+    }
+  ]
+}

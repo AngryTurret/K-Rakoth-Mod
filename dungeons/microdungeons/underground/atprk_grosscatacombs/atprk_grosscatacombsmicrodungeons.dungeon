@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_grosscatacombsmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_grossroom1", "atprk_grossroom2", "atprk_grossroom3", "atprk_grossroom4", "atprk_grossroom5", "atprk_grossroom6", "atprk_grossroom7", "atprk_grossroom8", "atprk_grossroom9", "atprk_grossroom10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_grossroom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom1.json" ]
+    },
+    {
+      "name" : "atprk_grossroom2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom2.json" ]
+    },
+    {
+      "name" : "atprk_grossroom3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom3.json" ]
+    },
+    {
+      "name" : "atprk_grossroom4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom4.json" ]
+    },
+    {
+      "name" : "atprk_grossroom5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom5.json" ]
+    },
+    {
+      "name" : "atprk_grossroom6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom6.json" ]
+    },
+    {
+      "name" : "atprk_grossroom7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom7.json" ]
+    },
+    {
+      "name" : "atprk_grossroom8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom8.json" ]
+    },
+    {
+      "name" : "atprk_grossroom9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom9.json" ]
+    },
+    {
+      "name" : "atprk_grossroom10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_grossroom10.json" ]
+    }
+  ]
+}
