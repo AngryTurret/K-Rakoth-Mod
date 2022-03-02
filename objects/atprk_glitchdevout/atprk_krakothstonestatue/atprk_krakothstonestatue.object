@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_krakothstonestatue",
+  "colonyTags" : ["atprk_glitchdevout","pretty"],
+  "rarity" : "Common",
+  "description" : "A stone statue of an ancient being.",
+  "shortdescription" : "K'Rakoth Lord Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "This statue is labelled as K'Rakoth. Is this the creature's name or a species?",
+  "avianDescription" : "This creature is called... K'Rakoth?...",
+  "floranDescription" : "Big creepy mollusk. Ssstatue sssays K'Rakoth.",
+  "glitchDescription" : "Analytical. This statue depicts a creature called K'Rakoth.",
+  "humanDescription" : "So this thing's name is K'Rakoth, huh? If the description is correct...",
+  "hylotlDescription" : "A stone statue of an alien creature known as K'Rakoth, I suppose.",
+  "novakidDescription" : "A squid thing named K'Rakoth. What a weird name.",
+
+  "inventoryIcon" : "atprk_krakothstonestatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_krakothstonestatue.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

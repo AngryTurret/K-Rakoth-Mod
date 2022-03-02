@@ -1,0 +1,36 @@
+{
+  "objectName" : "atprk_glitchbanner1",
+  "colonyTags" : ["glitch","atprk_glitchdevout"],
+  "rarity" : "Common",
+  "description" : "A banner of some ancient Glitch kingdom.",
+  "shortdescription" : "Eldritch Glitch Banner",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 80,
+
+  "apexDescription" : "An uncanny looking banner.",
+  "avianDescription" : "Is this a cyclops squid? A mythological creature, perhaps?",
+  "floranDescription" : "Floran wantsss to eat pink squid.",
+  "glitchDescription" : "Worried. I have several theories about this banner and hope they're all wrong.",
+  "humanDescription" : "Whoever this banner belongs to, I hope they're not related to the Ocassus.",
+  "hylotlDescription" : "The creature on this banner reminds me of marine life.",
+  "novakidDescription" : "There's some strange squid on this banner. Did those robots like calamari or somethin'?",
+
+  "inventoryIcon" : "atprk_glitchbanner1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_glitchbanner1.png:<color>",
+      "imagePosition" : [-8, -32],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-1, 0], [0, 0], [1, 0] ]
+    },
+    {
+      "dualImage" : "atprk_glitchbanner1.png:<color>",
+      "imagePosition" : [-8, -32],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, 1], [0, 1], [1, 1] ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_servantstatue-worm",
+  "colonyTags" : ["atprk_glitchdevout","pretty"],
+  "rarity" : "Common",
+  "description" : "A statue of an unknown worm-like creature.",
+  "shortdescription" : "Worm Servant Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A statue that looks like a giant worm or a snake with arms.",
+  "avianDescription" : "Is it okay if this statue makes me hungry?",
+  "floranDescription" : "Sssstone sssnake. Or worm.",
+  "glitchDescription" : "Analytical. This statue depicts some annelid lifeform.",
+  "humanDescription" : "A giant worm with thin arms. Now I've seen everything.",
+  "hylotlDescription" : "I don't recognize this species. Is this a giant eel with arms?",
+  "novakidDescription" : "A long-lookin' buddy made of stone.",
+
+  "inventoryIcon" : "atprk_servantstatue-wormicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_servantstatue-worm.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_servantstatue-crystal",
+  "colonyTags" : ["atprk_glitchdevout","pretty"],
+  "rarity" : "Common",
+  "description" : "A statue of some crystal-like being.",
+  "shortdescription" : "Crystal Servant Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "Is this an anthropomorphic Peblit?",
+  "avianDescription" : "Who is this crystal being? Is there a race like this?",
+  "floranDescription" : "One-eyed stone man. Lookss ssspiky.",
+  "glitchDescription" : "Analytical. This statue probably depicts a silicon-based lifeform.",
+  "humanDescription" : "Is this a crystal person? Or, I don't know, a golem?",
+  "hylotlDescription" : "A statue of some sharp-looking crystal creature.",
+  "novakidDescription" : "I don't remember seein' any folks like this.",
+
+  "inventoryIcon" : "atprk_servantstatue-crystalicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_servantstatue-crystal.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

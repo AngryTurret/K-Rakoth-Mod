@@ -1,0 +1,36 @@
+{
+  "objectName" : "atprk_glitchbanner2",
+  "colonyTags" : ["glitch","atprk_glitchdevout"],
+  "rarity" : "Common",
+  "description" : "A banner of some ancient Glitch kingdom.",
+  "shortdescription" : "Eldritch Glitch Banner",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "An expertly woven banner.",
+  "avianDescription" : "A decorative banner, perhaps?",
+  "floranDescription" : "Dark pink banner. Not very ssscary.",
+  "glitchDescription" : "Thoughtful. The pattern on this banner is unknown to me.",
+  "humanDescription" : "A spooky banner.",
+  "hylotlDescription" : "This banner has been crafted with great pride. It must have meaning.",
+  "novakidDescription" : "The banner's all right.",
+
+  "inventoryIcon" : "atprk_glitchbanner2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_glitchbanner2.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+    },
+    {
+      "dualImage" : "atprk_glitchbanner2.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 1] ]
+    }
+  ]
+}

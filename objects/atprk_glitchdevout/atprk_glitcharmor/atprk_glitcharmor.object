@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_glitcharmor",
+  "colonyTags" : ["glitch","atprk_glitchdevout","combat"],
+  "rarity" : "Uncommon",
+  "description" : "Ancient Glitch armor made of unknown materials.",
+  "shortdescription" : "Eldritch Glitch Armour",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 125,
+
+  "apexDescription" : "Some sort of hi-tech armor made of metals I don't recognize.",
+  "avianDescription" : "This armor looks advanced by Glitch standards.",
+  "floranDescription" : "Metal men don't have thiss kind of armor...",
+  "glitchDescription" : "Unsettled. I don't remember any Glitch kingdom having armor like this.",
+  "humanDescription" : "This looks somewhat similar to Human armor. How interesting...",
+  "hylotlDescription" : "What is this armor made of? I don't recognize the material.",
+  "novakidDescription" : "This armor's bit too advanced for the Glitch. That's weird.",
+
+  "inventoryIcon" : "atprk_glitcharmoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_glitcharmor.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

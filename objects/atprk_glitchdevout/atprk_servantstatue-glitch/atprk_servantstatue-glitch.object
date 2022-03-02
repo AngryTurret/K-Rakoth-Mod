@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_servantstatue-glitch",
+  "colonyTags" : ["atprk_glitchdevout","pretty"],
+  "rarity" : "Common",
+  "description" : "A Glitch statue with a strange name.",
+  "shortdescription" : "Automaton Servant Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "This statue is labelled as Automaton. Is this the other name for a Glitch?",
+  "avianDescription" : "A statue of a Glitch. It's signed as Automaton for some reason.",
+  "floranDescription" : "Machine man made of ssstone. Stone isss old.",
+  "glitchDescription" : "Curious. Even though this statue clearly depicts a Glitch, it is signed as Automaton.",
+  "humanDescription" : "They used colored stone for eyes. How creative.",
+  "hylotlDescription" : "A stone Glitch statue, worn by time... Oh, and it's called Automaton for some reason.",
+  "novakidDescription" : "A stone Glitch with orange eyes.",
+
+  "inventoryIcon" : "atprk_servantstatue-glitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_servantstatue-glitch.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

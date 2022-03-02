@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_glitchstandard",
+  "colonyTags" : ["glitch","atprk_glitchdevout","combat"],
+  "rarity" : "Common",
+  "description" : "A dark flag bearing an emblem.",
+  "shortdescription" : "Eldritch Battle Standard",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "A battle flag used by some Glitch kingdom.",
+  "avianDescription" : "A pink flag with an one-eyed creature on it.",
+  "floranDescription" : "Metal man's battle flag.",
+  "glitchDescription" : "Informed. A Glitch battle standard. They are usually checkered, though.",
+  "humanDescription" : "A battlefield flag. What kingdom does it belong to?",
+  "hylotlDescription" : "A flag that looks like it can be carried and planted as a marker.",
+  "novakidDescription" : "This flag probably means somethin' to someone.",
+
+  "inventoryIcon" : "atprk_glitchstandardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_glitchstandard.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
