@@ -1,0 +1,25 @@
+{
+  "name" : "atprk_4ddistortion",
+  "blockingStat" : "atprk_4ddistortionImmunity",
+
+  "effectConfig" : {
+    "directives" : "fade=E31ADC=0.2",
+    "movementModifiers" : {
+      "speedModifier" : 0.8,
+      "airJumpModifier" : 0.8
+    },
+    "tickRate" : 20,
+    "energyCost" : 5,
+    "healthDamage" : 2
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "atprk_4ddistortion.lua"
+  ],
+
+  "animationConfig" : "atprk_4ddistortion.animation",
+
+  "label" : "Spatial Distortion",
+  "icon" : "/interface/statuses/atprk_4ddistortion.png"
+}

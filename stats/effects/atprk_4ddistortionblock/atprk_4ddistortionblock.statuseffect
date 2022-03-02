@@ -1,0 +1,12 @@
+{
+  "name" : "atprk_4ddistortionblock",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "atprk_4ddistortionblock.lua"
+  ],
+
+  "label" : "Distortion Block",
+  "icon" : "/interface/statuses/atprk_4ddistortionblock.png"
+}
