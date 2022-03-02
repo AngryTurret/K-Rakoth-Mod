@@ -1,0 +1,86 @@
+[
+  {
+    "op" : "add",
+    "path" : "/pools/atprk_boilingocean",
+    "value" : {
+      "common": [
+        {
+          "monster" : "atprk_fishingcththonicshrimp",
+          "day" : true,
+          "night" : true,
+          "shallow" : true,
+          "deep" : true
+        },
+        {
+          "monster" : "atprk_fishingshallowone",
+          "day" : true,
+          "night" : true,
+          "shallow" : true,
+          "deep" : false
+        },
+        {
+          "monster" : "atprk_fishingbassathoth",
+          "day" : true,
+          "night" : true,
+          "shallow" : false,
+          "deep" : true
+        }
+      ],
+      "uncommon": [
+        {
+          "monster" : "atprk_fishingspectrout",
+          "day" : true,
+          "night" : false,
+          "shallow" : true,
+          "deep" : false
+        },
+        {
+          "monster" : "atprk_fishingtidewarper",
+          "day" : true,
+          "night" : false,
+          "shallow" : true,
+          "deep" : true
+        },
+        {
+          "monster" : "atprk_fishinginferneel",
+          "day" : false,
+          "night" : true,
+          "shallow" : false,
+          "deep" : true
+        }
+      ],
+      "rare": [
+        {
+          "monster" : "atprk_fishingaethersquid",
+          "day" : true,
+          "night" : false,
+          "shallow" : true,
+          "deep" : false
+        },
+        {
+          "monster" : "atprk_fishinghottongue",
+          "day" : true,
+          "night" : false,
+          "shallow" : false,
+          "deep" : true
+        },
+        {
+          "monster" : "atprk_fishingumbray",
+          "day" : false,
+          "night" : true,
+          "shallow" : false,
+          "deep" : true
+        }
+      ],
+      "legendary": [
+        {
+          "monster" : "atprk_fishingtrokath",
+          "day" : true,
+          "night" : true,
+          "shallow" : false,
+          "deep" : true
+        }
+      ]
+    }
+  }
+]
