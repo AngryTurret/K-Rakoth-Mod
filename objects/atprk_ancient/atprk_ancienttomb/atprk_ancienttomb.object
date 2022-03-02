@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_ancienttomb",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Rare",
+  "description" : "A stone tomb left untouched for ages.",
+  "shortdescription" : "Ancient Tomb",
+  "race" : "ancient",
+  "printable" : false,
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 200,
+  "health" : 2.0,
+
+  "apexDescription" : "It's surprising how this tomb lasted so long.",
+  "avianDescription" : "A tomb similar to the ones my people have in the temples.",
+  "floranDescription" : "Needlesss sstone box for the dead.",
+  "glitchDescription" : "Neutral. Glitch don't find burying corpses very efficient.",
+  "humanDescription" : "An extremely old tomb. Who is buried there?",
+  "hylotlDescription" : "An unremarkable yet ancient tomb.",
+  "novakidDescription" : "I think at this point there's only dust inside.",
+
+  "inventoryIcon" : "atprk_ancienttombicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancienttomb.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ [-2, 1], [-1, 1], [-0, 1], [1, 1] ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,65 @@
+{
+  "objectName" : "atprk_ancientdesklamp",
+  "colonyTags" : ["ancient","atprk_ancient","light"],
+  "rarity" : "Rare",
+  "description" : "A relatively simple lantern made of ancient materials.",
+  "shortdescription" : "Ancient Lantern",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "This is one of the simplest ancient technologies we can reverse-engineer.",
+  "avianDescription" : "This lantern's light makes me feel a gentle coldness.",
+  "floranDescription" : "Cold looking lamp. It hasss no fire.",
+  "glitchDescription" : "Relaxed. Blue lights are very calming.",
+  "humanDescription" : "This lantern looks as if it was older than Earth.",
+  "hylotlDescription" : "This lantern's blue light reminds me of the ocean. I feel a deep calm.",
+  "novakidDescription" : "I made a bunch o' ancient doodads into a lantern. Great.",
+
+  "category" : "light",
+  "price" : 85,
+  "lightColor" : [36, 159, 184],
+
+  "inventoryIcon" : "atprk_ancientdesklampicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientdesklamp.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+      "animationPosition" : [-6, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientdesklamp.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      "animationPosition" : [-6, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_ancientdesklamp.png",
+    "fg" : "atprk_ancientdesklamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/ancientlightplatform_on.ogg" ],
+      "off" : [ "/sfx/objects/ancientlightplatform_off.ogg" ]
+    }
+  },
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

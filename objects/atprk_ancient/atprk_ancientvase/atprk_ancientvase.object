@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_ancientvase",
+  "colonyTags" : ["ancient","atprk_ancient","pretty"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A relic from the other era of the galactic history.",
+  "shortdescription" : "Ancient Vase",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "Apex nobles keep similar artifacts in their mansions, no doubt.",
+  "avianDescription" : "A beautiful relic of the past that should be preserved further.",
+  "floranDescription" : "Big empty vase. Floran iss not amussed.",
+  "glitchDescription" : "Pleased. This vase would be a fine addition to my relic collection.",
+  "humanDescription" : "How did this vase stay intact for so long?",
+  "hylotlDescription" : "A beautiful vase made of mysterious ancient materials.",
+  "novakidDescription" : "A person-tall vase. I don't wanna break it, so I'll be careful.", 
+
+  "inventoryIcon" : "atprk_ancientvaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientvase.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

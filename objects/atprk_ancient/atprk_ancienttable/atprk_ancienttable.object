@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ancienttable",
+  "colonyTags" : ["ancient","atprk_ancient","commerce"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 110,
+
+  "description" : "An approximate recreation of tables used by the Ancients.",
+  "shortdescription" : "Ancient Table",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "This table was built according to ancient instructions.",
+  "avianDescription" : "A table that is made of materials older than some alien races.",
+  "floranDescription" : "Old table isss not really old.",
+  "glitchDescription" : "Unamused. I feel like this table could look more ancient than that.",
+  "humanDescription" : "I wonder if the Ancients used to serve tables like those.",
+  "hylotlDescription" : "Even though this table is close to the original, you can still see subtle differences.",
+  "novakidDescription" : "This bad boy can fit so much spoiled food on it!",
+
+  "inventoryIcon" : "atprk_ancienttableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancienttable.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

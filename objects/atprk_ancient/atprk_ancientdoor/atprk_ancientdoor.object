@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_ancientdoor",
+  "colonyTags" : ["ancient","atprk_ancient","door"],
+  "rarity" : "Rare",
+  "category" : "door",
+  "price" : 95,
+  "description" : "A door made of ancient materials.",
+  "shortdescription" : "Ancient Door",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "A door that looks older than our entire civilization.",
+  "avianDescription" : "Finally, an ancient door that doesn't open into bizarre pocket dimensions!",
+  "floranDescription" : "Floran not like old door. Old door iss too heavy.",
+  "glitchDescription" : "Neutral. A door manufactured from an extremely old material.",
+  "humanDescription" : "Knock-knock! Can the Ancients come out to play?",
+  "hylotlDescription" : "A curious design, indeed.",
+  "novakidDescription" : "A door that looks older than it really is.",
+
+  "inventoryIcon" : "atprk_ancientdooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "atprk_ancientdoor.png:right",
+  
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientdoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_ancientdoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

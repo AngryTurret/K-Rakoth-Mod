@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_ancientguardbeacon",
+  "colonyTags" : ["atprk_ancientguard","light"],
+  "rarity" : "Legendary",
+  "description" : "Place it near a Colony Deed to summon a powerful guardian for your colony.",
+  "shortdescription" : "Ancient Beacon",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 4000,
+  "printable" : false,
+
+  "lightColor" : [158, 60, 220],
+
+  "apexDescription" : "With this beacon, I can summon an ancient guardian.",
+  "avianDescription" : "This beacon summons an ancient being that will serve its new master.",
+  "floranDescription" : "Floran can call a ssstrong warrior with thisss beacon.",
+  "glitchDescription" : "Determined. This beacon will allow me to bend an ancient sentinel to my will.",
+  "humanDescription" : "This ancient beacon will summon a powerful ally if I align it correctly.",
+  "hylotlDescription" : "I can use the power of the Ancients to summon a mighty guardian.",
+  "novakidDescription" : "That glowy beacon'll call a strong warrior from the past if I place it just right.",
+
+
+  "inventoryIcon" : "atprk_ancientguardbeaconicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ancientguardbeacon.png:<color>", "fullbright" : true }, { "image" : "atprk_ancientguardbeaconlit.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+    
+      "imageLayers" : [ { "image" : "atprk_ancientguardbeacon.png:<color>", "fullbright" : true }, { "image" : "atprk_ancientguardbeaconlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

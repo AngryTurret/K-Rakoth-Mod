@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_ancientcultivatorprop",
+  "colonyTags" : ["ancient","atprk_ancient","pretty", "valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 1050,
+  "description" : "A statue of the Cultivator.",
+  "shortdescription" : "Cultivator Statue",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A statue of what appears to be the Cultivator or his avatar.",
+  "avianDescription" : "Is this what the Ancients looked like?",
+  "floranDescription" : "Ssstrange glowing face.",
+  "glitchDescription" : "Impressed. It's remarkable how long this statue can endure harsh climate.",
+  "humanDescription" : "The Cultivator reminds me of a person in a spacesuit.",
+  "hylotlDescription" : "A statue of the Cultivator in his full glory.",
+  "novakidDescription" : "This statue here makes me feel... oddly nostalgic...",
+
+  "inventoryIcon" : "atprk_ancientcultivatorpropicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ancientcultivatorprop.png:<color>", "fullbright" : true }, { "image" : "atprk_ancientcultivatorproplit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_ancientcultivatorprop.png:<color>", "fullbright" : true }, { "image" : "atprk_ancientcultivatorproplit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

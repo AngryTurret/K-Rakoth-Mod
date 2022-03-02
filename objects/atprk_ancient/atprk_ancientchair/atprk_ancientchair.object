@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk_ancientchair",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Rare",
+  "description" : "An approximate recreation of chairs used by the Ancients.",
+  "shortdescription" : "Ancient Chair",
+  "race" : "ancient",
+  "category" : "furniture",
+  "price" : 60,
+  "printable" : false,
+
+  "apexDescription" : "I'm sure the Miniknog wouldn't allow me to keep this chair.",
+  "avianDescription" : "It doesn't look very comfortable compared to modern chairs.",
+  "floranDescription" : "Floran made thiss chair out of old blocksss.",
+  "glitchDescription" : "Hopeful. Another ancient relic sucessfully recreated.",
+  "humanDescription" : "It's more pleasant to look at this chair rather than sit on it.",
+  "hylotlDescription" : "An ancient-looking chair, except it's not ancient at all. Ironic.",
+  "novakidDescription" : "The chair's too hard to sit on. I'd rather stand.",
+
+  "inventoryIcon" : "atprk_ancientchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24]
+
+}
