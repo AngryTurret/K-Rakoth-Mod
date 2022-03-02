@@ -1,0 +1,145 @@
+{
+  "metadata" : {
+    "name" : "atprk_spongemicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+
+    "anchor" : [ "atprk_spongecubes1", "atprk_spongecubes2", "atprk_spongecubes3", "atprk_spongecubes4", "atprk_spongefort1", "atprk_spongefort2", "atprk_spongefort3", "atprk_spongefort4", "atprk_spongefort5", "atprk_spongeholes1", "atprk_spongeholes2", "atprk_spongeholes3", "atprk_spongemonument1", "atprk_spongemonument2", "atprk_spongestatue", "atprk_spongeteeth1", "atprk_spongeteeth2", "atprk_spongeteeth3" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_spongecubes1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongecubes1.json" ]
+    },
+    {
+      "name" : "atprk_spongecubes2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongecubes2.json" ]
+    },
+    {
+      "name" : "atprk_spongecubes3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongecubes3.json" ]
+    },
+    {
+      "name" : "atprk_spongecubes4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongecubes4.json" ]
+    },
+    {
+      "name" : "atprk_spongefort1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongefort1.json" ]
+    },
+    {
+      "name" : "atprk_spongefort2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongefort2.json" ]
+    },
+    {
+      "name" : "atprk_spongefort3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongefort3.json" ]
+    },
+    {
+      "name" : "atprk_spongefort4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongefort4.json" ]
+    },
+    {
+      "name" : "atprk_spongefort5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongefort5.json" ]
+    },
+    {
+      "name" : "atprk_spongeholes1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeholes1.json" ]
+    },
+    {
+      "name" : "atprk_spongeholes2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeholes2.json" ]
+    },
+    {
+      "name" : "atprk_spongeholes3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeholes3.json" ]
+    },
+    {
+      "name" : "atprk_spongemonument1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongemonument1.json" ]
+    },
+    {
+      "name" : "atprk_spongemonument2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongemonument2.json" ]
+    },
+    {
+      "name" : "atprk_spongestatue",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongestatue.json" ]
+    },
+    {
+      "name" : "atprk_spongeteeth1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeteeth1.json" ]
+    },
+    {
+      "name" : "atprk_spongeteeth2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeteeth2.json" ]
+    },
+    {
+      "name" : "atprk_spongeteeth3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_spongeteeth3.json" ]
+    }
+  ]
+}
