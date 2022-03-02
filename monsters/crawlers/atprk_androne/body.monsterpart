@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_androne-body",
+  "category" : "atprk_androne",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_androne-body.png"
+  }
+}

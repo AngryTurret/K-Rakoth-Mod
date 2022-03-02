@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_androne-head",
+  "category" : "atprk_androne",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "atprk_androne-head.png"
+  }
+}

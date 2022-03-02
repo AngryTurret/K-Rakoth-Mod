@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_lunarcrustoise",
+  "category" : "atprk_lunarcrustoise",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_lunarcrustoise.png"
+  }
+}
