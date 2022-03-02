@@ -1,0 +1,22 @@
+[
+	{
+		"op":"add",
+		"path":"/atprk_boilingocean",
+		"value" : [
+			[0.15, "clear"],
+			[0.45, "rain"],
+			[0.25, "drizzle"],
+			[0.1, "storm"],
+			[0.05, "meteorshower"]
+		]
+	},
+	{
+		"op":"add",
+		"path":"/atprk_ashworld",
+		"value" : [
+			[0.75, "clear"],
+			[0.22, "lightash"],
+			[0.03, "glowingrain"]
+		]
+	}
+]

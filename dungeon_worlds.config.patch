@@ -1,0 +1,25 @@
+[
+
+  {
+    "op" : "add",
+    "path" : "/atprk_relicseekership",
+    "value" : {
+      "primaryDungeon" : "atprk_relicseekership",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/i-was-the-sun.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  }
+
+
+]
+

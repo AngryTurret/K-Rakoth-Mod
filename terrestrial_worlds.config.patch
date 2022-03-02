@@ -1,0 +1,460 @@
+[
+  {
+    "op" : "add",
+    "path" : "/planetTypes/atprk_boilingocean",
+    "value" : {
+      "blendSize" : 30,
+      "threatRange" : [6, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["atprk_boilingocean"],
+          "baseHeight" : 1150,
+          "layerLevel" : 1050
+        },
+        "subsurface" : {
+          "primaryRegion" : ["atprk_boilingoceanfloor"],
+          "dungeonCountRange" : [2, 3],
+          "dungeons" : [
+            [2.0,"atprk_krakothoceanruins"],
+            [1.0,"atprk_seatrench"],
+            [1.0,"hylotloceancity"],
+            [1.0,"hylotlruinedcity"]
+          ]
+        },
+        "underground1" : {
+          "primaryRegion" : ["atprk_humidunderground"]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/atprk_ashworld",
+    "value" : {
+      "threatRange" : [3, 3],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["atprk_ashworld"],
+          "secondaryRegions" : [ "barren", "volcanic", "savannah" ],
+          "dungeons" : [
+            [4.0,"atprk_glitchdevouttower"], [0.5,"atprk_apexarea48"],
+            [1.0,"evilfortress"], [1.0,"dungeoncrawler"], [1.0,"glitchcastle"], [1.0,"glitchvillage"],
+            [1.0,"glitchsewer"], [1.0,"novakidvillage"], [1.0,"humanprison"], [1.0, "humancamp"],
+            [1.0,"aviantemple"], [1.0, "aviantomb"], [1.0, "avianvillage"], [1.0, "aviannativevillage"],  [1.0, "avianairship"],
+            [1.0,"floranhuntinggrounds"], [1.0, "florancanyon"], [1.0, "floranvillagetower"], [1.0, "floranhutvillage"],
+            [1.0,"apextestfacility"], [1.0, "apexbase"], [1.0, "apexcamp"], [1.0, "apexcity"],
+            [1.0,"hylotlruinedcastle"], [1.0, "hylotlcity"]
+          ]
+        }
+      }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/planetTypes/volcanic/layers/surface/secondaryRegions/-",
+    "value" : "atprk_ashworld"
+  },
+
+{
+    "op" : "add",
+    "path" : "/regionTypes/midnight/subRegion/-",
+    "value" : "atprk_ancientnecropolis"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/jungle/subRegion/-",
+    "value" : "atprk_hungergrove"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/alien/subRegion/-",
+    "value" : "atprk_radiotrophic"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/tundra/subRegion/-",
+    "value" : "atprk_glaciovolcanic"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/scorchedcity/subRegion/-",
+    "value" : "atprk_polluted"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/scorchedcity/subRegion/-",
+    "value" : "atprk_shipgraveyard"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/deepunderground/subRegion/-",
+    "value" : "atprk_deepnecropolis"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/deepunderground/subRegion/-",
+    "value" : "atprk_noolithbirthplace"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/midunderground/subRegion/-",
+    "value" : "atprk_bluecaves"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/shallowunderground/subRegion/-",
+    "value" : "atprk_grosscatacombs"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_boilingocean",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_boilingocean" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_boilingoceanfloor",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 1000,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "emptier" ],
+      "bgCaveSelector" : [ "emptiest" ],
+      "biome" : [
+        [0, [ "atprk_boilingoceanfloor" ]]
+      ],
+      "subRegion" : ["atprk_sponge", "atprk_navalminefield"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_sponge",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 1000,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "emptier" ],
+      "bgCaveSelector" : [ "emptiest" ],
+      "biome" : [
+        [0, [ "atprk_sponge" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_navalminefield",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 1000,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "emptier" ],
+      "bgCaveSelector" : [ "emptiest" ],
+      "biome" : [
+        [0, [ "atprk_navalminefield" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_ashworld",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_ashworld" ]]
+      ],
+      "subRegion" : ["bones", "tar"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_ancientnecropolis",
+    "value" : {
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidChanceRange" : [8, 8],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedFlatsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_ancientnecropolis" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_hungergrove",
+    "value" : {
+      "caveLiquid" : [ "swampwater" ],
+      "caveLiquidChanceRange" : [1, 2],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_hungergrove" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_radiotrophic",
+    "value" : {
+      "caveLiquid" : [ "poison", "slimeliquid" ],
+      "caveLiquidChanceRange" : [1, 2],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_radiotrophic" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_glaciovolcanic",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 15],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_glaciovolcanic" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_polluted",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [1, 2],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_polluted" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_shipgraveyard",
+    "value" : {
+      "caveLiquid" : [ "poison", "tarliquid" ],
+      "blockSelector" : [ "remixedFlatsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_shipgraveyard" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_deepnecropolis",
+    "value" : {
+      "caveLiquid" : [ "healingliquid" ],
+      "biome" : [
+        [0, [ "atprk_deepnecropolis" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_noolithbirthplace",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "biome" : [
+        [0, [ "atprk_noolithbirthplace" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_bluecaves",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "biome" : [
+        [0, [ "atprk_bluecaves" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_grosscatacombs",
+    "value" : {
+      "caveLiquid" : [ "swampwater" ],
+      "biome" : [
+        [0, [ "atprk_grosscatacombs" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_humidunderground",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
+      "biome" : [
+        [0, [ "atprk_humidunderground1", "atprk_humidunderground2", "atprk_humidunderground3" ]]
+      ]
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/desert/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snow/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+    "value" : [ 2.0, "atprk_glitchdevouttower" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ocean/layers/subsurface/dungeons/-",
+    "value" : [ 1.0, "atprk_krakothoceanruins" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snow/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/alien/layers/surface/dungeons/-",
+    "value" : [ 2.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+    "value" : [ 4.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_apexarea48" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/alien/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+    "value" : [ 4.0, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+    "value" : [ 2.0, "atprk_krakothchurch" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/alien/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+    "value" : [ 4.0, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+    "value" : [ 2.0, "atprk_krakothlab" ]
+  }
+]
