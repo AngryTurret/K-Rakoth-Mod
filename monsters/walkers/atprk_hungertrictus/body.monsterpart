@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_hungertrictus",
+  "category" : "atprk_hungertrictus",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_hungertrictus.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "atprk_shapelessdweller",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_shapelessdweller.png"
+  }
+}
