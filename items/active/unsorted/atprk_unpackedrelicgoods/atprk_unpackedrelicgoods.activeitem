@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedrelicgoods",
+  "price" : 150,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some rare and unusual items.",
+  "shortdescription" : "Unpacked Minor Artifacts",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedrelicgoods.png",
+  "animation" : "atprk_unpackedrelicgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedrelicgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedrelicgoods",
+    "level" : 2
+  }
+}

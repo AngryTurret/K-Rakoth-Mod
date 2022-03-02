@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedloregoods",
+  "price" : 150,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some historic books and knowledge.",
+  "shortdescription" : "Unpacked Historic Records",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedloregoods.png",
+  "animation" : "atprk_unpackedloregoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedloregoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedloregoods",
+    "level" : 2
+  }
+}

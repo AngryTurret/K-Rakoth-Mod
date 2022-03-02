@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_olddeliverypack",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "An enigmatic package. I wonder what's inside.",
+  "shortdescription" : "Old Delivery Package",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_olddeliverypack.png",
+  "animation" : "atprk_olddeliverypack.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_olddeliverypack.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_olddeliverypack",
+    "level" : 1
+  }
+}

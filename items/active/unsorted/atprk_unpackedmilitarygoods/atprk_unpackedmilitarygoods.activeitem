@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedmilitarygoods",
+  "price" : 100,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some weapon components.",
+  "shortdescription" : "Unpacked Weapon Parts",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedmilitarygoods.png",
+  "animation" : "atprk_unpackedmilitarygoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedmilitarygoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedmilitarygoods",
+    "level" : 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_relicpackfenron",
+  "price" : 10000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "A packed reward for finding Fenron relics.",
+  "shortdescription" : "Feral Pack",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_relicpackfenron.png",
+  "animation" : "atprk_relicpackfenron.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_relicpackfenron.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_relicpackfenron",
+    "level" : 1
+  }
+}

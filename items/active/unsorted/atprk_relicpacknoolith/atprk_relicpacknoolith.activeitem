@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_relicpacknoolith",
+  "price" : 10000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "A packed reward for finding Noolith relics.",
+  "shortdescription" : "Crystal Pack",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_relicpacknoolith.png",
+  "animation" : "atprk_relicpacknoolith.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_relicpacknoolith.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_relicpacknoolith",
+    "level" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedfakerelicgoods",
+  "price" : 100,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some fake relics.",
+  "shortdescription" : "Unpacked Counterfeit Goods",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedfakerelicgoods.png",
+  "animation" : "atprk_unpackedfakerelicgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedfakerelicgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedfakerelicgoods",
+    "level" : 2
+  }
+}

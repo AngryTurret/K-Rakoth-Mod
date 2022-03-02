@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_relicpackannelisk",
+  "price" : 10000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "A packed reward for finding Annelisk relics.",
+  "shortdescription" : "Worm Pack",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_relicpackannelisk.png",
+  "animation" : "atprk_relicpackannelisk.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_relicpackannelisk.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_relicpackannelisk",
+    "level" : 1
+  }
+}

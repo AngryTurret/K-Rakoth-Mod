@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedfossilgoods",
+  "price" : 150,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some fossilized bones.",
+  "shortdescription" : "Unpacked Alien Fossils",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedfossilgoods.png",
+  "animation" : "atprk_unpackedfossilgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedfossilgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedfossilgoods",
+    "level" : 2
+  }
+}

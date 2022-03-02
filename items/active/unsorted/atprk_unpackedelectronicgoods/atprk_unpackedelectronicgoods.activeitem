@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedelectronicgoods",
+  "price" : 100,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some electronic components.",
+  "shortdescription" : "Unpacked Electronic Parts",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedelectronicgoods.png",
+  "animation" : "atprk_unpackedelectronicgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedelectronicgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedelectronicgoods",
+    "level" : 2
+  }
+}

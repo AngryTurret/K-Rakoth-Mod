@@ -1,0 +1,46 @@
+{
+  "itemName" : "atprk_fenronwhip",
+  "price" : 1000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An antique weapon of Fenron origin.",
+  "shortdescription" : "Feral Morningstar",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "atprk_fenronwhip.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "atprk_fenronwhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : { "particles" : [ ]}},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [3, 18],
+    "segmentImage" : "/items/active/weapons/whip/atprk_fenronwhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/whip/atprk_fenronwhipend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "whip.lua" ],
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "chainDps" : 1.5,
+    "crackDps" : 7.0
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

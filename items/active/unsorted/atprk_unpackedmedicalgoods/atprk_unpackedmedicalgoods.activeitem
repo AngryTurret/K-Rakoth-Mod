@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpackedmedicalgoods",
+  "price" : 100,
+  "level" : 2,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some medical supplies.",
+  "shortdescription" : "Unpacked Medical Supplies",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpackedmedicalgoods.png",
+  "animation" : "atprk_unpackedmedicalgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpackedmedicalgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedmedicalgoods",
+    "level" : 2
+  }
+}
