@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "name" : "atprk_glitchdevouttower",
+    "species" : "glitch",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_glitchdevouttower0", "atprk_glitchdevouttower1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 15,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_glitchdevouttower0",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_glitchdevouttower0" ] ],
+        [ "doNotCombineWith", [ "atprk_glitchdevouttower1" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_glitchdevouttower0.json" ]
+    },
+    {
+      "name" : "atprk_glitchdevouttower1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_glitchdevouttower1" ] ],
+        [ "doNotCombineWith", [ "atprk_glitchdevouttower0" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_glitchdevouttower1.json" ]
+    }
+  ]
+}

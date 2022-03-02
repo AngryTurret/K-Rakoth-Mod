@@ -1,0 +1,142 @@
+{
+  "metadata" : {
+    "name" : "atprk_krakothchurch",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase2", "atprk_krakothchurchbase3", "atprk_krakothchurchbase4", "atprk_krakothchurchbase5", "atprk_krakothchurchbase6"],
+    "maxRadius" : 1000000,
+    "maxParts" : 65,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_krakothchurchbase1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase2", "atprk_krakothchurchbase3", "atprk_krakothchurchbase4", "atprk_krakothchurchbase5", "atprk_krakothchurchbase6" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase1.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurchbase2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase3", "atprk_krakothchurchbase4", "atprk_krakothchurchbase5", "atprk_krakothchurchbase6" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase2.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurchbase3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase2", "atprk_krakothchurchbase4", "atprk_krakothchurchbase5", "atprk_krakothchurchbase6" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase3.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurchbase4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase2", "atprk_krakothchurchbase3", "atprk_krakothchurchbase5", "atprk_krakothchurchbase6" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase4.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurchbase5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase2", "atprk_krakothchurchbase3", "atprk_krakothchurchbase4", "atprk_krakothchurchbase6" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase5.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurchbase6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchbase1", "atprk_krakothchurchbase2", "atprk_krakothchurchbase3", "atprk_krakothchurchbase4", "atprk_krakothchurchbase5" ] ]
+
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchbase6.json" ]
+    },
+    {
+      "name" : "atprk_krakothchurch1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch1a", "atprk_krakothchurch1b", "atprk_krakothchurch3a", "atprk_krakothchurch3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch1a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch1b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch1a", "atprk_krakothchurch1b", "atprk_krakothchurch3a", "atprk_krakothchurch3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch1b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch2a",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch2a" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch2a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch2b",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch2b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch2b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch2c",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch2c" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch2c.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch3a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch3a", "atprk_krakothchurch3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch3a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurch3b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurch3a", "atprk_krakothchurch3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurch3b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothchurchpit1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothchurchpit1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothchurchpit1.json" ],
+      "chance" : 1
+    }
+  ]
+}

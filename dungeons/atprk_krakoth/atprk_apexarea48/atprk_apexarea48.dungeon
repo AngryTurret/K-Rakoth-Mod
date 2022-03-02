@@ -1,0 +1,86 @@
+{
+  "metadata" : {
+    "name" : "atprk_apexarea48",
+    "species" : "apex",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_apexarea48level1a", "atprk_apexarea48level1b" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 5,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_apexarea48level1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level1a.json" ]
+    },
+    {
+      "name" : "atprk_apexarea48level1b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level1b.json" ]
+    },
+    {
+      "name" : "atprk_apexarea48level2a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level2a", "atprk_apexarea48level2b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level2a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_apexarea48level2b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level2a", "atprk_apexarea48level2b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level2b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_apexarea48level3a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level3a", "atprk_apexarea48level3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level3a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_apexarea48level3b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level3a", "atprk_apexarea48level3b" ] ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level3b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_apexarea48level4a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level4a", "atprk_apexarea48level4b" ] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level4a.json" ],
+      "chance" : 0
+    },
+    {
+      "name" : "atprk_apexarea48level4b",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_apexarea48level4a", "atprk_apexarea48level4b" ] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_apexarea48level4b.json" ],
+      "chance" : 0
+    }
+  ]
+}
