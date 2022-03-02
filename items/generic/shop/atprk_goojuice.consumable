@@ -1,0 +1,25 @@
+{
+  "itemName" : "atprk_goojuice",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_goojuice.png",
+  "description" : "A very, very, very viscous beverage.",
+  "shortdescription" : "Goo Juice",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    },
+    {
+        "effect" : "slimeslow",
+        "duration" : 15
+    },
+    {
+        "effect" : "nofalldamage",
+        "duration" : 35
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

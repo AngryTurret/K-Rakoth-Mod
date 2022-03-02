@@ -1,0 +1,25 @@
+{
+  "itemName" : "atprk_liquidcometdrink",
+  "rarity" : "Common",
+  "price" : 55,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_liquidcometdrink.png",
+  "description" : "A dubious energy drink.",
+  "shortdescription" : "Liquid Comet (tm)",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "burning",
+        "duration" : 15
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 30
+    },
+    {
+        "effect" : "lowgrav",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

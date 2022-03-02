@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_intoxicola",
+  "rarity" : "Common",
+  "price" : 45,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_intoxicola.png",
+  "description" : "Now 15% more acidic!",
+  "shortdescription" : "Intoxicola",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 15
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 45
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

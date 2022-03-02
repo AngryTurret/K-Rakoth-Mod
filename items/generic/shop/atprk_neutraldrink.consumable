@@ -1,0 +1,11 @@
+{
+  "itemName" : "atprk_neutraldrink",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "drink",
+  "inventoryIcon" : "atprk_neutraldrink.png",
+  "description" : "Even plain water has more flavor that this liquid.",
+  "shortdescription" : "Neutral Drink",
+  "maxStack" : 1,
+  "emitters" : [ "drinking" ]
+}
