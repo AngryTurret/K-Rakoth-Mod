@@ -1,0 +1,29 @@
+{
+  "id" : "atprk_apexarea48entry1",
+  "species" : "apex",
+  "title" : "Addendum File K48-E",
+  "description" : "A document with a brief description of an elder race.",
+  "icon" : "atprk_apexarea48codex1.png",
+  "contentPages" : [
+  "^yellow;ADDENDUM FILE K48-E^white;
+
+The creators of recovered technology samples appear to be molluscoid lifeforms with pale green skin and elongated tentacles, two of which function as arms.
+
+Evidently, they are aquatic creatures that cannot survive outside water without special equipment (see Addendum File K48-G).",
+
+"The exact origin of this species remains unknown; Miniknog scientists speculate that these molluscoids may be completely extinct by now, since neither a living specimen nor proper organic samples have been discovered yet.
+
+The only images of a living molluscoid were retrieved from a computer found aboard a derelict escape pod (designated as Object K-1). Further analysis required.",
+
+"Several findings suggest that this species achieved a high level of scientific development and created technology that surpasses any known equivalents. 
+
+The recovered technology samples created by the molluscoid species include anti-gravity devices, multidimensional space generators, advanced weaponry and stasis chambers.",
+
+"Orbital scans above five oceanic planets revealed at least seven underwater structures supposedly built by the same molluscoid species. They consist of the same exotic metal alloys found in technology samples. Further investigation required."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

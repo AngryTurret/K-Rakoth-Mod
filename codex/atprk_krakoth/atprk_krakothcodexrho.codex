@@ -1,0 +1,32 @@
+{
+  "id" : "atprk_krakothcodexrho",
+  "title" : "Dangerous Delusions",
+  "description" : "An anonymous K'Rakoth's opinion on an ancient religion.",
+  "icon" : "atprk_krakothcodexrhoicon.png",
+  "contentPages" : [
+    "You'd think the spacefaring species who is fully capable of creating faster-than-light drives, artificial intelligence and complex structures would abolish superstitions.
+
+Us K'Rakoths spent centuries fighting against fallacies and harmful teachings, all in order to become beings of logic and wisdom rather than beings of delusion and needless violence.
+
+Yet here we are.",
+
+"While spirituality in general is in no way a harmful practise, I have to question the belief system built around Species 002. Or should I say around ^orange;Ri'shaan^white;?
+
+Many of us fail to see how it is essentially a socially accepted cult. Those lunatics are taking away our servants for their rituals, only to never return them where they belong.
+
+Meanwhile, we see how Species 002 keeps growing. Is this just a coincidence?",
+
+"The followers of Ri'shaan clearly sacrifice our servant races (and sometimes our own!) to Species 002, and I'm sick of pretending they do not.
+
+It should be obvious that all they do is waste away our resources for sake of empty promises of happiness, all while ignoring our real problems. Will we ever remind them that the Ancients are still out there?",
+
+"The last thing our civilization needs is some apocalyptic cult that harms the innocent and distracts our people from reality.
+
+How many of us will be allowed to get devoured for nothing before we take action against this madness?"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}
