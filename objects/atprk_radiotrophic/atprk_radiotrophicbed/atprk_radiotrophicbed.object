@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk_radiotrophicbed",
+  "colonyTags" : ["atprk_radiotrophic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 210,
+  "description" : "A wooden bed made of durable radiotrophic materials.",
+  "shortdescription" : "Radiotrophic Bed",
+  "race" : "generic",
+
+  "apexDescription" : "Whether it's healthy to sleep on irradiated wood is up for debate.",
+  "avianDescription" : "This bed looks fine but not comfortable enough.",
+  "floranDescription" : "Green bed ssssmells sstrange.",
+  "glitchDescription" : "Attentive. This bed is slightly asymmetrical.",
+  "humanDescription" : "Even monsters will think twise before hiding under the radiotrophic bed!",
+  "hylotlDescription" : "I doubt this bed provides enough comfort.",
+  "novakidDescription":  "This bed's so hard it'll torture your back.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/atprk_radiotrophic/atprk_radiotrophicbed/atprk_radiotrophicbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed5"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_radiotrophicbedicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_radiotrophicbed.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-5, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_radiotrophicbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      
+      "direction" : "right",
+
+      "sitPosition" : [-15, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

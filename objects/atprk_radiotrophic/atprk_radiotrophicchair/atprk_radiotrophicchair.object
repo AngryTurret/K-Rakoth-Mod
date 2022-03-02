@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk_radiotrophicchair",
+  "colonyTags" : ["atprk_radiotrophic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A durable chair made of radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "A sturdy but somewhat suspicious chair.",
+  "avianDescription" : "I hope radiotrophic wood is safe for my feathers.",
+  "floranDescription" : "Floran likess how chair isss very green.",
+  "glitchDescription" : "Doubtful. I'm not sure if sitting on this is a good idea.",
+  "humanDescription" : "If I get a splinter from this chair, will I get superpowers as well?",
+  "hylotlDescription" : "A bizarre yet comfortable chair. I have doubts about its material, though.",
+  "novakidDescription" : "This chair's a little bit weird but durable.",
+
+  "inventoryIcon" : "atprk_radiotrophicchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophicchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24]
+
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_radiotrophicplantpot",
+  "colonyTags" : ["atprk_radiotrophic","nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A radiotrophic tree in a pot.",
+  "shortdescription" : "Radiotrophic Tree Pot",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "This small trees feeds on radiation to survive.",
+  "avianDescription" : "Do those trees even grow taller than a traffic light?",
+  "floranDescription" : "Tiny tree in a pot. It wantsss freedom.",
+  "glitchDescription" : "Confused. How am I supposed to feed this tree with radiation?",
+  "humanDescription" : "Why does this tree need radiation to grow? It makes no sense.",
+  "hylotlDescription" : "This small trees feeds on radiation to survive.",
+  "novakidDescription" : "This lil' tree is stronger than it looks.", 
+
+  "inventoryIcon" : "atprk_radiotrophicplantpoticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophicplantpot.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_radiotrophicchest",
+  "colonyTags" : ["atprk_radiotrophic","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A chest made of radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Chest",
+  "race" : "generic",
+  "health" : 2.5,
+
+  "apexDescription" : "I hope this chest is safe to open.",
+  "avianDescription" : "Are the treasures inside this chest irradiated?",
+  "floranDescription" : "Chessst doesssn't look good, but Floran is curiousss.",
+  "glitchDescription" : "Eager. What could be inside this green chest?",
+  "humanDescription" : "It's safe to open this chest, isn't it?",
+  "hylotlDescription" : "A lone green chest waiting to be opened.",
+  "novakidDescription" : "It's always a thrill to find an unopened chest.",
+
+  "inventoryIcon" : "atprk_radiotrophicchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophicchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

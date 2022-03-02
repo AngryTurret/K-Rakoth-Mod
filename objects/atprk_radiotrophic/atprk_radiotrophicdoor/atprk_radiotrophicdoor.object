@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_radiotrophicdoor",
+  "colonyTags" : ["atprk_radiotrophic","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 95,
+  "description" : "A durable sliding door made of radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Sliding Door",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "These doors were built to hide secrets.",
+  "avianDescription" : "So, how do I lock this door, anyway?",
+  "floranDescription" : "Floran doesss not like door's hissing.",
+  "glitchDescription" : "Happy. This door slides into the wall and gives you more space.",
+  "humanDescription" : "Hey, how do I lock this door if there's nothing to keep it closed?",
+  "hylotlDescription" : "A door that disappears in the wall.",
+  "novakidDescription" : "A slidin' door. We didn't have those in the village.",
+
+  "inventoryIcon" : "atprk_radiotrophicdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophicdoor.png:<key>",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_radiotrophicdoor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

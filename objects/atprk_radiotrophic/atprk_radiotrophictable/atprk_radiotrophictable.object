@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_radiotrophictable",
+  "colonyTags" : ["atprk_radiotrophic","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A durable table made of radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "The green wood the table is made of doesn't look healthy.",
+  "avianDescription" : "I don't know if I would eat breakfast at this table. Something is off about it.",
+  "floranDescription" : "Wooden table iss as green as Floran.",
+  "glitchDescription" : "Concerned. Is it wise to keep a table made of radioactive wood?",
+  "humanDescription" : "I like how this wood looks but I don't trust it much.",
+  "hylotlDescription" : "This table's design is not bad, but I'd rather stay away from it.",
+  "novakidDescription" : "I just hope this table's not radioactive or anythin'.",
+
+  "inventoryIcon" : "atprk_radiotrophictableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophictable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

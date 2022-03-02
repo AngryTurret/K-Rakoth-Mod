@@ -1,0 +1,61 @@
+{
+  "objectName" : "atprk_radiotrophiclamp",
+  "colonyTags" : ["light","atprk_radiotrophic"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [83, 153, 46],
+  "price" : 75,
+  "description" : "A ceiling mounted lantern made of radiotrophic wood.",
+  "shortdescription" : "Radiotrophic Light",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "I have no idea how or why it glows this way.",
+  "avianDescription" : "Is this how it's supposed to glow? Anybody?",
+  "floranDescription" : "Bright green light. Nothing like fire.",
+  "glitchDescription" : "Worried. Are those radioactive materials glowing?",
+  "humanDescription" : "I, uh, didn't expect such vibrant green glow.",
+  "hylotlDescription" : "The way this wooden lamp glows is unsettling.",
+  "novakidDescription" : "This green glow ain't natural!",
+
+  "inventoryIcon" : "atprk_radiotrophiclampicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_radiotrophiclamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_radiotrophiclamplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_radiotrophiclamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_radiotrophiclamplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_radiotrophiclamp.png",
+    "fg" : "atprk_radiotrophiclamplit.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}
