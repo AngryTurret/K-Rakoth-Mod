@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ancientblock", "count" : 15},
+    { "item" : "atprk_ancientshards", "count" : 8}
+  ],
+  "output" : {
+    "item" : "atprk_ancientcultivatorprop",
+    "count" : 1
+  },
+  "groups" : [ "atprk_reconstructiontable" ]
+}

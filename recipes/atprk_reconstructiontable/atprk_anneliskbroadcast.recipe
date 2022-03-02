@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "atprk_encryptionkey1", "count" : 1},
+    { "item" : "atprk_encryptionkey2", "count" : 1},
+    { "item" : "atprk_encryptionkey3", "count" : 1},
+    { "item" : "atprk_encryptionkey4", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_anneliskbroadcast-codex",
+    "count" : 1
+  },
+  "groups" : [ "atprk_reconstructiontable" ]
+}

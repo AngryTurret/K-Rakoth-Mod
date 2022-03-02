@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "atprk_noolithshard1", "count" : 1},
+    { "item" : "atprk_noolithshard2", "count" : 1},
+    { "item" : "atprk_noolithshard3", "count" : 1},
+    { "item" : "atprk_noolithshard4", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_noolithtalkingfull",
+    "count" : 1
+  },
+  "groups" : [ "atprk_reconstructiontable" ]
+}
