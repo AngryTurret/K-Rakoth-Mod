@@ -2,7 +2,7 @@
   "objectName" : "atprk_ancientchair",
   "colonyTags" : ["ancient","atprk_ancient"],
   "rarity" : "Rare",
-  "description" : "An approximate recreation of chairs used by the Ancients.",
+  "description" : "An approximate recreation of the chairs used by the Ancients.",
   "shortdescription" : "Ancient Chair",
   "race" : "ancient",
   "category" : "furniture",
