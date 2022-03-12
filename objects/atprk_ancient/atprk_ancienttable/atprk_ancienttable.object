@@ -5,7 +5,7 @@
   "category" : "decorative",
   "price" : 110,
 
-  "description" : "An approximate recreation of tables used by the Ancients.",
+  "description" : "An approximate recreation of the tables used by the Ancients.",
   "shortdescription" : "Ancient Table",
   "race" : "ancient",
   "printable" : false,
