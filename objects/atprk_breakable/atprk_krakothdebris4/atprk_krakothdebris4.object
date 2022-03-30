@@ -1,0 +1,42 @@
+{
+  "objectName" : "atprk_krakothdebris4",
+  "colonyTags" : ["atprk_krakoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+
+  "description" : "Remains of unimaginably old machinery.",
+  "shortdescription" : "Elder Debris",
+  "race" : "generic",
+
+  "apexDescription" : "There is probably no way to fix these destroyed machines.",
+  "avianDescription" : "An ancient mechanism ruined beyond recognition.",
+  "floranDescription" : "Ssstrange metal ssscrapss.",
+  "glitchDescription" : "Unimpressed. These are mostly destroyed mechanisms.",
+  "humanDescription" : "Some ancient junk.",
+  "hylotlDescription" : "I wonder what these scraps were part of.",
+  "novakidDescription" : "Bunch o' junk but even older.",
+
+  "inventoryIcon" : "atprk_krakothdebris4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_krakothdebris4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "junktech", 3, { } ], [ "rustyblock", 2, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
+
