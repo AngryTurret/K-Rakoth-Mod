@@ -37,7 +37,7 @@
           "primaryRegion" : ["atprk_ashworld"],
           "secondaryRegions" : [ "barren", "volcanic", "savannah" ],
           "dungeons" : [
-            [4.0,"atprk_glitchdevouttower"], [0.5,"atprk_apexarea48"],
+            [4.0,"atprk_glitchdevouttower"], [1.0,"atprk_apexarea48"], [0.5,"atprk_krakothchurch"], [0.5,"atprk_krakothlab"],
             [1.0,"evilfortress"], [1.0,"dungeoncrawler"], [1.0,"glitchcastle"], [1.0,"glitchvillage"],
             [1.0,"glitchsewer"], [1.0,"novakidvillage"], [1.0,"humanprison"], [1.0, "humancamp"],
             [1.0,"aviantemple"], [1.0, "aviantomb"], [1.0, "avianvillage"], [1.0, "aviannativevillage"],  [1.0, "avianairship"],
@@ -313,13 +313,24 @@
   },
   {
     "op" : "add",
+    "path" : "/regionTypes/atprk_chthoniccomplex",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "biome" : [
+        [0, [ "atprk_chthoniccomplex" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
     "path" : "/regionTypes/atprk_humidunderground",
     "value" : {
       "caveLiquid" : [ "water" ],
       "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "biome" : [
         [0, [ "atprk_humidunderground1", "atprk_humidunderground2", "atprk_humidunderground3" ]]
-      ]
+      ],
+      "subRegion" : ["atprk_chthoniccomplex"]
     }
   },
 
@@ -327,6 +338,11 @@
     "op" : "add",
     "path" : "/planetTypes/desert/layers/surface/dungeons/-",
     "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forest/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_glitchdevouttower" ]
   },
   {
     "op" : "add",
@@ -340,12 +356,27 @@
   },
   {
     "op" : "add",
+    "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/alien/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
     "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
     "value" : [ 1.0, "atprk_glitchdevouttower" ]
   },
   {
     "op" : "add",
     "path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_glitchdevouttower" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
     "value" : [ 1.0, "atprk_glitchdevouttower" ]
   },
   {
@@ -360,6 +391,16 @@
     "value" : [ 1.0, "atprk_krakothoceanruins" ]
   },
 
+  {
+    "op" : "add",
+    "path" : "/planetTypes/desert/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forest/layers/surface/dungeons/-",
+    "value" : [ 0.5, "atprk_apexarea48" ]
+  },
   {
     "op" : "add",
     "path" : "/planetTypes/snow/layers/surface/dungeons/-",
@@ -392,10 +433,25 @@
   },
   {
     "op" : "add",
+    "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+    "value" : [ 1.0, "atprk_apexarea48" ]
+  },
+  {
+    "op" : "add",
     "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
     "value" : [ 1.0, "atprk_apexarea48" ]
   },
 
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snow/layers/surface/dungeons/-",
+    "value" : [ 0.2, "atprk_krakothchurch" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+    "value" : [ 0.2, "atprk_krakothchurch" ]
+  },
   {
     "op" : "add",
     "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
@@ -427,6 +483,16 @@
     "value" : [ 2.0, "atprk_krakothchurch" ]
   },
 
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snow/layers/surface/dungeons/-",
+    "value" : [ 0.2, "atprk_krakothlab" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+    "value" : [ 0.2, "atprk_krakothlab" ]
+  },
   {
     "op" : "add",
     "path" : "/planetTypes/jungle/layers/surface/dungeons/-",
