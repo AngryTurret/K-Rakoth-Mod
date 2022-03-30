@@ -1,0 +1,74 @@
+{
+  "metadata" : {
+    "name" : "atprk_humidundergroundcaves",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_floodedcave1", "atprk_floodedcave2", "atprk_floodedcave3", "atprk_floodedcave4", "atprk_floodedcave5", "atprk_floodedcave6", "atprk_floodedcave7", "atprk_floodedcave8" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_floodedcave1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave1.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave2.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave3.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave4.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave5.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave6.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave7.json" ]
+    },
+    {
+      "name" : "atprk_floodedcave8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_floodedcave8.json" ]
+    }
+  ]
+}

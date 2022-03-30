@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_chthoniccomplexmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_chthonictunnel1", "atprk_chthonictunnel2", "atprk_chthonictunnel3", "atprk_chthonictunnel4", "atprk_chthonictunnel5", "atprk_chthonictunnel6", "atprk_chthonictunnel7", "atprk_chthonictunnel8", "atprk_chthonictunnel9", "atprk_chthonictunnel10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_chthonictunnel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel1.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel2.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel3.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel4.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel5.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel6.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel7.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel8.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel9.json" ]
+    },
+    {
+      "name" : "atprk_chthonictunnel10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_chthonictunnel10.json" ]
+    }
+  ]
+}
