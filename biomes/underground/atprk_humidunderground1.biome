@@ -168,6 +168,24 @@
         "mode" : "floor",
         "priority" : 1,
         "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_humidundergroundcaves" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_chthoniccomplexmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
         "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
 
         "type" : "microdungeon",
