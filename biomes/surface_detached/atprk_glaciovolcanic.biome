@@ -5,10 +5,11 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
+        "select" : 3,
         "pool" : [ 
           [ 1.0, "atprk_roxmol" ],
-          [ 1.0, "atprk_sapphase" ]
+          [ 1.0, "atprk_sapphase" ],
+          [ 1.0, "atprk_shapelessdwellernight" ]
         ]
       },
       {
