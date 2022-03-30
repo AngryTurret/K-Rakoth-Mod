@@ -141,5 +141,16 @@
 		  "minimumLevel" : 0
 		}
 	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_chthoniccomplex", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk-krakothprobebroken" ],
+		  "treasurePool" : "atprk_chthoniccomplexChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
   }
 ]

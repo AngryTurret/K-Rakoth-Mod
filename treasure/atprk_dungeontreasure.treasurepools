@@ -388,6 +388,23 @@
   //       Other
   // ================================
 
+  "atprk_krakothOceanTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "oceanFloorTreasure"},
+        {"weight" : 0.10, "item" : [ "medkit", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
   "atprk_krakothRadiotrophicTreasure" : [
     [1, {
       "pool" : [
