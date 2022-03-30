@@ -39,28 +39,62 @@
       "value" : [255, 192, 83]
     }
   ],
-  [
+
+  [  // TEST INFO
     {
+      "inverse": true,
+      "op": "test",
+      "path": "/mods_present"
+    },
+    {
+      "op": "add",
+      "path": "/mods_present",
+      "value": {}
+    }
+  ],
+  [  //THIS MOD PRESENT
+    {
+      "op": "add",
+      "path": "/mods_present/precursorracekrakoth",
+      "value": true
+    }
+  ],
+  [  //CLEAR TEST FOR MPI
+    {
+      "inverse": false,
       "op": "test",
       "path": "/displayDungeons"
     },
-      { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower", "value": 
-	  { "description" : "Possibly a Glitch religious structure. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_glitchdevouttower.png" }
-      },
-      { "op": "add", "path": "/displayDungeons/atprk_krakothoceanruins", "value": 
-	  { "description" : "A vast underwater complex built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
-      },
-      { "op": "add", "path": "/displayDungeons/atprk_apexarea48", "value": 
-	  { "description" : "A Miniknog military base. Detailed scan is not possible.", "icon" : "/interface/cockpit/dungeons/atprk_apexarea48.png" }
-      },
-      { "op": "add", "path": "/displayDungeons/atprk_krakothchurch", "value": 
-	  { "description" : "A religious structure built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
-      },
-      { "op": "add", "path": "/displayDungeons/atprk_krakothlab", "value": 
-	  { "description" : "A research facility built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
-      },
-      { "op": "add", "path": "/displayDungeons/atprk_seatrench", "value": 
-	  { "description" : "A deep oceanic trench populated by exotic lifeforms.", "icon" : "/interface/cockpit/dungeons/atprk_seatrench.png" }
-      }
+    {
+      "op": "add",
+      "path": "/mods_present/MorePlanetInfo",
+      "value": true
+    }
+  ],
+ [ //ONLY WITH MPI
+    {
+      "op": "test",
+      "path": "/mods_present/MorePlanetInfo",
+      "inverse": false
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower", "value": 
+    {"description" : "Possibly a Glitch religious structure. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_glitchdevouttower.png" }
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_krakothoceanruins", "value": 
+    {"description" : "A vast underwater complex built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_apexarea48", "value": 
+    {"description" : "A Miniknog military base. Detailed scan is not possible.", "icon" : "/interface/cockpit/dungeons/atprk_apexarea48.png" }
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_krakothchurch", "value": 
+    {"description" : "A religious structure built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_krakothlab", "value": 
+    {"description" : "A research facility built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
+    },
+    { "op": "add", "path": "/displayDungeons/atprk_seatrench", "value": 
+    {"description" : "A deep oceanic trench populated by exotic lifeforms.", "icon" : "/interface/cockpit/dungeons/atprk_seatrench.png" }
+    }
+  
   ]
 ]
