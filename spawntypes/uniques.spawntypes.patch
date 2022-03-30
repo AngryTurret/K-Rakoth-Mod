@@ -140,6 +140,57 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_shapelessdwellernight",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "night"
+      },
+      "spawnChance" : 0.03,
+      "monsterType" : "atprk_shapelessdweller",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_krakothpatroldrone",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_krakothpatroldrone",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_krakothsmalldrone",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_krakothsmalldrone",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_krakothmine",
 	  "spawnParameters" : {
 		"area" : "liquid",
