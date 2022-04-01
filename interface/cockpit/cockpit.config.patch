@@ -37,6 +37,25 @@
       "op" : "add",
       "path" : "/planetTypeColors/atprk_ashworld",
       "value" : [255, 192, 83]
+    },
+    {
+      "op" : "add",
+      "path" : "/visitableTypeDescription/atprk_ruinedworld",
+      "value" : [
+        "After a successful process of hostile terraforming, this planet has become another host for ^#641929;the Ruin^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
+        "What once was a potentially habitable planet now is nothing but ^#641929;a ferocious mass of tentacles^white;. By bringing this superorganism into existence, ^red;you have officially betrayed the Terrene Protectorate^white;.",
+        "We have managed to terraform this whole planet into a colossal, hateful living being made of ^#641929;tentacles^white;. Captain, ^red;are we the baddies now^white;?"
+      ]
+    },
+    {
+      "op" : "add",
+      "path" : "/planetTypeNames/atprk_ruinedworld",
+      "value" : "Ruined"
+    },
+    {
+      "op" : "add",
+      "path" : "/planetTypeColors/atprk_ruinedworld",
+      "value" : [100, 25, 41]
     }
   ],
 
