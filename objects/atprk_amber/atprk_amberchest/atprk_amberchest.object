@@ -1,0 +1,42 @@
+{
+  "objectName" : "atprk_amberchest",
+  "colonyTags" : ["atprk_amber","storage","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A round, hollow amber blob you can put things in.",
+  "shortdescription" : "Amber Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A blob of amber divided in two halves for some reason.",
+  "avianDescription" : "A golden amber blob, hollowed and filled with various goods.",
+  "floranDescription" : "Ssslightly sssticky amber box.",
+  "glitchDescription" : "Puzzled. It appears that someone tried to extract something from this blob of amber.",
+  "humanDescription" : "Aw, I expected to find an insect inside, not some random junk.",
+  "hylotlDescription" : "What a strange amber formation. As if its core had suddenly disappeared into nothingness.",
+  "novakidDescription" : "Guess someone extracted an ancient bug from this blob o' amber and then filled it with other stuff.",
+
+  "inventoryIcon" : "atprk_amberchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_amberchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

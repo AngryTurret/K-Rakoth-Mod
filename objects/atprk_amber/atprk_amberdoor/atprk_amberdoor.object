@@ -1,0 +1,60 @@
+{
+  "objectName" : "atprk_amberdoor",
+  "colonyTags" : ["atprk_amber","door","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 60,
+  "description" : "A semi-transparent amber door.",
+  "shortdescription" : "Amber Door",
+  "race" : "generic",
+
+  "apexDescription" : "A refined amber stone. There are many fossilized insects in it.",
+  "avianDescription" : "This would look amazing a temple, even though it's just a door.",
+  "floranDescription" : "Sssstupid bugss, get out of my door!",
+  "glitchDescription" : "Observant. There are at least 9 different insect species preserved in this amber door.",
+  "humanDescription" : "A huge chunk of amber you can block a passage with.",
+  "hylotlDescription" : "This is just a smooth amber block that happens to fit a door frame perfectly.",
+  "novakidDescription" : "This door's sure to keep the bugs out at night.",
+
+  "inventoryIcon" : "atprk_amberdooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "atprk_amberdoor.png:right",
+  
+  "orientations" : [
+    {
+      "dualImage" : "atprk_amberdoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_amberdoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

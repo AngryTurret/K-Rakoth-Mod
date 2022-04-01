@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk_amberchair",
+  "colonyTags" : ["atprk_amber","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Make sure not to sit on it for too long, or else your back may glue to it.",
+  "shortdescription" : "Amber Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "No thanks, I would like to keep my fur intact.",
+  "avianDescription" : "Oh my poor feathers... There is no way they will not get stuck to this horrible chair.",
+  "floranDescription" : "Too risssky, Floran may get sstuck in sssticky chair.",
+  "glitchDescription" : "Alert. It appears that amber here is not entirely fossilized.",
+  "humanDescription" : "Ew, a sticky chair. Why does it have to be this way?",
+  "hylotlDescription" : "As much as I like the texture of this chair, I do not trust it.",
+  "novakidDescription" : "Heck, that amber ain't fully fossilized. I may get glued t' this chair.",
+
+  "inventoryIcon" : "atprk_amberchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_amberchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}

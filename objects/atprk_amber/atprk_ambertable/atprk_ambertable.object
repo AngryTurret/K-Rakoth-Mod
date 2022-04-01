@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ambertable",
+  "colonyTags" : ["atprk_amber","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A huge chunk of refined amber with a flat top.",
+  "shortdescription" : "Amber Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "I think Miniknog researchers would be interested in this sample. It has many prehistoric bugs.",
+  "avianDescription" : "Ugh, seeing all these bugs right under your hands is actually pretty gross.",
+  "floranDescription" : "Eh, Floran can cut meatss on hard tree juice blob too.",
+  "glitchDescription" : "Irked. I cannot tell if there are insects on the table or inside of it.",
+  "humanDescription" : "I can't enjoy my breakfast when there're many bugs staring at me from a piece of amber.",
+  "hylotlDescription" : "It is a pity this amber sample is not in a museum.",
+  "novakidDescription" : "I swear there're bugs on the outside too!",
+
+  "inventoryIcon" : "atprk_ambertableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ambertable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

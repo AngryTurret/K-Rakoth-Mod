@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_amberbed",
+  "colonyTags" : ["atprk_amber","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "EmBED yourself into amber! Ha ha... ha... I'm sorry.",
+  "shortdescription" : "Amber Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 140,
+
+  "apexDescription" : "I am positively sure this does not look safe to stay in.",
+  "avianDescription" : "Do I really have to get in? I mean, there are better beds.",
+  "floranDescription" : "He he, Floran can be fossil too!",
+  "glitchDescription" : "Distrustful. What a questionable resting spot.",
+  "humanDescription" : "Will I stay young forever if I sleep in it daily?",
+  "hylotlDescription" : "I appreciate the humor here but I would rather sleep in a normal bed.",
+  "novakidDescription" : "No worries, amber can't do much to a star like me.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-5, 10],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/atprk_amber/atprk_amberbed/atprk_amberbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_amberbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_amberbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "atprk_amberlight",
+  "colonyTags" : ["atprk_amber","light","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 85,
+
+  "description" : "A lamp of pure amber.",
+  "shortdescription" : "Amber Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A very warm amber lamp.",
+  "avianDescription" : "A great lamp to create a warm, welcoming atmosphere.",
+  "floranDescription" : "Tree juice glowsss... ssseemingly...",
+  "glitchDescription" : "Cheerful. What a pleasant warm light.",
+  "humanDescription" : "Unless there are fireflies on the inside, I have no idea how it glows.",
+  "hylotlDescription" : "This piece of amber shines with a warm, soothing glow. Somehow.",
+  "novakidDescription" : "A fancy amber lamp. Reminds me of a campfire.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [252, 190, 55],
+
+  "inventoryIcon" : "atprk_amberlighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_amberlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "atprk_amberlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_amberlight.png",
+    "fg" : "atprk_amberlightlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}
