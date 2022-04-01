@@ -1,0 +1,25 @@
+{
+  "materialId" : 62114,
+  "materialName" : "atprk_amberblock",
+  "particleColor" : [203, 112, 11, 255],
+  "itemDrop" : "atprk_amberblock",
+  "description" : "Fossilized tree resin. You can even spot ancient bugs in it!",
+  "shortdescription" : "Amber",
+  "glitchDescription" : "Amazed. Beautiful golden amber with ancient insects inside.",
+  "floranDescription" : "Sssolid tree juice.",
+  "novakidDescription" : "Just look at all this amber!",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_amberblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1719,
+    "radiantLight" : [70, 40, 20]
+  }
+}
