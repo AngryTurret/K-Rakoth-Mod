@@ -1,6 +1,6 @@
 {
   "itemName" : "atprk_relicgoods",
-  "rarity" : "common",
+  "rarity" : "uncommon",
   "category" : "tradeGoods",
   "inventoryIcon" : "atprk_relicgoods.png",
   "description" : "A sealed crate of rare and unusual items, valuable for interstellar trade.",

@@ -1,9 +1,9 @@
 {
   "itemName" : "atprk_loregoods",
-  "rarity" : "common",
+  "rarity" : "uncommon",
   "category" : "tradeGoods",
   "inventoryIcon" : "atprk_loregoods.png",
-  "description" : "A sealed crate of historic books and knowledge, valuable for interstellar trade.",
-  "shortdescription" : "Historic Records",
+  "description" : "A sealed crate of historical books and knowledge, valuable for interstellar trade.",
+  "shortdescription" : "Historical Records",
   "price" : 150
 }
