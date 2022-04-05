@@ -2,10 +2,10 @@
   "itemName" : "atprk_unpackedloregoods",
   "price" : 150,
   "level" : 2,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "mysteriousReward",
-  "description" : "Open this crate to get some historic books and knowledge.",
-  "shortdescription" : "Unpacked Historic Records",
+  "description" : "Open this crate to get some historical books and knowledge.",
+  "shortdescription" : "Unpacked Historical Records",
   "twoHanded" : true,
 
   "inventoryIcon" : "atprk_unpackedloregoods.png",

@@ -2,7 +2,7 @@
   "itemName" : "atprk_unpackedrelicgoods",
   "price" : 150,
   "level" : 2,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "mysteriousReward",
   "description" : "Open this crate to get some rare and unusual items.",
   "shortdescription" : "Unpacked Minor Artifacts",

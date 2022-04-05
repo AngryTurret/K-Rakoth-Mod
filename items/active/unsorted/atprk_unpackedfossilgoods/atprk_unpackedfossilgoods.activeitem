@@ -2,7 +2,7 @@
   "itemName" : "atprk_unpackedfossilgoods",
   "price" : 150,
   "level" : 2,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "mysteriousReward",
   "description" : "Open this crate to get some fossilized bones.",
   "shortdescription" : "Unpacked Alien Fossils",
