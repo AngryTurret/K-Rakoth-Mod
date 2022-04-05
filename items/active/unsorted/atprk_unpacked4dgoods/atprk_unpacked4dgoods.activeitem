@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unpacked4dgoods",
+  "price" : 500,
+  "level" : 2,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Open this crate to get some extradimensional objects.",
+  "shortdescription" : "Unpacked 4D Anomalies",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unpacked4dgoods.png",
+  "animation" : "atprk_unpacked4dgoods.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_unpacked4dgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpacked4dgoods",
+    "level" : 2
+  }
+}
