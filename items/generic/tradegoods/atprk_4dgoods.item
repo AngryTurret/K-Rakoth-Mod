@@ -1,0 +1,9 @@
+{
+  "itemName" : "atprk_4dgoods",
+  "rarity" : "legendary",
+  "category" : "tradeGoods",
+  "inventoryIcon" : "atprk_4dgoods.png",
+  "description" : "A sealed crate of extradimensional objects, valuable for interstellar trade.",
+  "shortdescription" : "4D Anomalies",
+  "price" : 600
+}
