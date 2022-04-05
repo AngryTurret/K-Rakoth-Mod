@@ -38,6 +38,230 @@
   //       Unpacked Goods
   // ================================
 
+  "atprk_unpackedelectronicgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedelectronicgoodspool"},
+        {"pool" : "atprk_unpackedelectronicgoodspool"},
+        {"item" : [ "metallicmaterial", 10]}
+      ]
+    }]
+  ],
+  "atprk_unpackedelectronicgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "autochip"},
+        {"weight" : 0.05, "item" : [ "autochip", 2]},
+        {"weight" : 0.02, "item" : [ "autochip", 3]},
+        {"weight" : 0.10, "item" : "battery"},
+        {"weight" : 0.05, "item" : [ "battery", 2]},
+        {"weight" : 0.02, "item" : [ "battery", 3]},
+        {"weight" : 0.10, "item" : "wire"},
+        {"weight" : 0.08, "item" : [ "wire", 3]},
+        {"weight" : 0.04, "item" : [ "wire", 5]},
+        {"weight" : 0.02, "item" : [ "wire", 7]},
+        {"weight" : 0.10, "item" : "stickofram"},
+        {"weight" : 0.05, "item" : [ "stickofram", 2]},
+        {"weight" : 0.02, "item" : [ "stickofram", 4]},
+        {"weight" : 0.08, "item" : "siliconboard"},
+        {"weight" : 0.04, "item" : [ "siliconboard", 2]},
+        {"weight" : 0.08, "item" : "manipulatormodule"},
+        {"weight" : 0.04, "item" : [ "manipulatormodule", 2]},
+        {"weight" : 0.08, "item" : "techcard"},
+        {"weight" : 0.04, "item" : [ "techcard", 2]},
+        {"weight" : 0.02, "item" : "teleportercore"},
+        {"weight" : 0.10, "item" : "salvagearm"},
+        {"weight" : 0.10, "item" : "salvagebody"},
+        {"weight" : 0.10, "item" : "salvagebooster"},
+        {"weight" : 0.10, "item" : "salvagelegs"},
+        {"weight" : 0.08, "item" : "salvagetier4"},
+        {"weight" : 0.04, "item" : "salvagetier5"},
+        {"weight" : 0.02, "item" : "salvagetier6"},
+        {"weight" : 0.02, "item" : "robothenegg"},
+        {"weight" : 0.01, "item" : "atprk_eldertech"},
+        {"weight" : 0.01, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.01, "item" : "atprk_4dcube"}
+      ]
+    }]
+  ],
+
+  "atprk_unpackedfoodgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedfoodgoodspool"},
+        {"pool" : "atprk_unpackedfoodgoodspool"},
+        {"item" : [ "candyblock", 10]}
+      ]
+    }]
+  ],
+  "atprk_unpackedfoodgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : "cannedfood"},
+        {"weight" : 0.04, "item" : [ "cannedfood", 2]},
+        {"weight" : 0.10, "item" : "cheese"},
+        {"weight" : 0.05, "item" : [ "cheese", 2]},
+        {"weight" : 0.02, "item" : [ "cheese", 4]},
+        {"weight" : 0.10, "item" : "milk"},
+        {"weight" : 0.05, "item" : [ "milk", 2]},
+        {"weight" : 0.02, "item" : [ "milk", 4]},
+        {"weight" : 0.10, "item" : "chocolate"},
+        {"weight" : 0.10, "item" : "bread"},
+        {"weight" : 0.05, "item" : [ "bread", 2]},
+        {"weight" : 0.10, "item" : [ "banana", 3]},
+        {"weight" : 0.10, "item" : [ "corn", 3]},
+        {"weight" : 0.10, "item" : [ "carrot", 3]},
+        {"weight" : 0.10, "item" : [ "tomato", 3]},
+        {"weight" : 0.10, "item" : [ "potato", 3]},
+        {"weight" : 0.10, "item" : [ "rice", 3]},
+        {"weight" : 0.10, "item" : [ "wheat", 3]},
+        {"weight" : 0.10, "item" : [ "kiwi", 3]},
+        {"weight" : 0.10, "item" : [ "pineapple", 3]},
+        {"weight" : 0.06, "item" : [ "wartweed", 2]},
+        {"weight" : 0.06, "item" : [ "alienfruit", 2]},
+        {"weight" : 0.06, "item" : [ "beakseed", 2]},
+        {"weight" : 0.06, "item" : [ "boneboo", 2]},
+        {"weight" : 0.06, "item" : [ "feathercrown", 2]},
+        {"weight" : 0.06, "item" : [ "avesmingo", 2]},
+        {"weight" : 0.06, "item" : [ "thornfruit", 2]},
+        {"weight" : 0.06, "item" : [ "eggshoot", 2]},
+        {"weight" : 0.06, "item" : [ "automato", 2]},
+        {"weight" : 0.06, "item" : [ "boltbulb", 2]},
+        {"weight" : 0.06, "item" : [ "diodia", 2]},
+        {"weight" : 0.06, "item" : [ "coralcreep", 2]},
+        {"weight" : 0.06, "item" : [ "reefpod", 2]},
+        {"weight" : 0.10, "item" : "sugar"},
+        {"weight" : 0.05, "item" : [ "sugar", 2]},
+        {"weight" : 0.02, "item" : [ "sugar", 3]},
+        {"weight" : 0.08, "item" : [ "egg", 4]},
+        {"weight" : 0.04, "item" : [ "egg", 6]},
+        {"weight" : 0.02, "item" : [ "egg", 8]},
+        {"weight" : 0.08, "item" : [ "shroom", 5]},
+        {"weight" : 0.04, "item" : [ "shroom", 7]},
+        {"weight" : 0.02, "item" : [ "shroom", 9]},
+        {"weight" : 0.08, "item" : "oculemonade"},
+        {"weight" : 0.08, "item" : "reefcola"},
+        {"weight" : 0.08, "item" : "soda"},
+        {"weight" : 0.02, "item" : "henegg"},
+        {"weight" : 0.02, "item" : "mooshiegg"},
+        {"weight" : 0.01, "item" : "atprk_intoxicola"},
+        {"weight" : 0.01, "item" : "atprk_neutraldrink"},
+        {"weight" : 0.01, "item" : "atprk_liquidcometdrink"},
+        {"weight" : 0.01, "item" : "atprk_goojuice"}
+      ]
+    }]
+  ],
+
+  "atprk_unpackedmedicalgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpackedmedicalgoodspool"},
+        {"pool" : "atprk_unpackedmedicalgoodspool"},
+        {"item" : [ "liquidhealing", 10]}
+      ]
+    }]
+  ],
+  "atprk_unpackedmedicalgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "salve"},
+        {"weight" : 0.05, "item" : [ "salve", 3]},
+        {"weight" : 0.02, "item" : [ "salve", 5]},
+        {"weight" : 0.01, "item" : [ "salve", 8]},
+        {"weight" : 0.10, "item" : "bandage"},
+        {"weight" : 0.05, "item" : [ "bandage", 3]},
+        {"weight" : 0.02, "item" : [ "bandage", 5]},
+        {"weight" : 0.01, "item" : [ "bandage", 8]},
+        {"weight" : 0.06, "item" : "medkit"},
+        {"weight" : 0.02, "item" : [ "medkit", 3]},
+        {"weight" : 0.01, "item" : [ "medkit", 5]},
+        {"weight" : 0.04, "item" : "nanowrap"},
+        {"weight" : 0.02, "item" : [ "nanowrap", 3]},
+        {"weight" : 0.01, "item" : [ "nanowrap", 5]},
+        {"weight" : 0.10, "item" : [ "bottle", 2]},
+        {"weight" : 0.10, "item" : [ "syringe", 3]},
+        {"weight" : 0.08, "item" : [ "syringe", 5]},
+        {"weight" : 0.04, "item" : [ "syringe", 8]},
+        {"weight" : 0.10, "item" : [ "plantfibre", 25]},
+        {"weight" : 0.10, "item" : "antidote"},
+        {"weight" : 0.10, "item" : "burnspray"},
+        {"weight" : 0.10, "item" : "bottledhealingwater"},
+        {"weight" : 0.08, "item" : "bluestim"},
+        {"weight" : 0.04, "item" : [ "bluestim", 2]},
+        {"weight" : 0.08, "item" : "greenstim"},
+        {"weight" : 0.04, "item" : [ "greenstim", 2]},
+        {"weight" : 0.08, "item" : "orangestim"},
+        {"weight" : 0.04, "item" : [ "orangestim", 2]},
+        {"weight" : 0.06, "item" : "yellowstim"},
+        {"weight" : 0.02, "item" : [ "yellowstim", 2]},
+        {"weight" : 0.06, "item" : "redstim"},
+        {"weight" : 0.02, "item" : [ "redstim", 2]},
+        {"weight" : 0.01, "item" : "pethealingstation"}
+      ]
+    }]
+  ],
+
+  "atprk_unpackedmilitarygoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "goodWeapon"},
+        {"pool" : "atprk_unpackedmilitarygoodspool"},
+        {"item" : [ "techhull1", 10]}
+      ]
+    }]
+  ],
+  "atprk_unpackedmilitarygoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "goodWeapon"},
+        {"weight" : 0.10, "pool" : "augments"},
+        {"weight" : 0.08, "pool" : "petcollars"},
+        {"weight" : 0.04, "pool" : "uniqueWeapon"},
+        {"weight" : 0.10, "item" : [ "bomb", 10]},
+        {"weight" : 0.10, "item" : [ "molotov", 10]},
+        {"weight" : 0.10, "item" : [ "throwingknife", 20]},
+        {"weight" : 0.10, "item" : [ "throwingkunai", 20]},
+        {"weight" : 0.10, "item" : [ "throwingstar", 30]},
+        {"weight" : 0.10, "item" : [ "javelin", 20]},
+        {"weight" : 0.10, "item" : [ "energyjavelin", 20]},
+        {"weight" : 0.06, "item" : "mercenaryhead"},
+        {"weight" : 0.06, "item" : "mercenarychest"},
+        {"weight" : 0.06, "item" : "mercenarylegs"},
+        {"weight" : 0.04, "item" : "medichead"},
+        {"weight" : 0.04, "item" : "medicchest"},
+        {"weight" : 0.04, "item" : "mediclegs"},
+        {"weight" : 0.04, "item" : "silverarmorhead"},
+        {"weight" : 0.04, "item" : "silverarmorchest"},
+        {"weight" : 0.04, "item" : "silverarmorlegs"},
+        {"weight" : 0.04, "item" : "trackerhead"},
+        {"weight" : 0.04, "item" : "trackerchest"},
+        {"weight" : 0.04, "item" : "trackerlegs"},
+        {"weight" : 0.02, "item" : "goldarmorhead"},
+        {"weight" : 0.02, "item" : "goldarmorchest"},
+        {"weight" : 0.02, "item" : "goldarmorlegs"},
+        {"weight" : 0.02, "item" : "voyagerhead"},
+        {"weight" : 0.02, "item" : "voyagerchest"},
+        {"weight" : 0.02, "item" : "voyagerlegs"},
+        {"weight" : 0.02, "item" : "pathfinderhead"},
+        {"weight" : 0.02, "item" : "pathfinderchest"},
+        {"weight" : 0.02, "item" : "pathfinderlegs"},
+        {"weight" : 0.01, "item" : "camohead"},
+        {"weight" : 0.01, "item" : "camochest"},
+        {"weight" : 0.01, "item" : "camolegs"},
+        {"weight" : 0.08, "item" : "mecharmheatrifle"},
+        {"weight" : 0.08, "item" : "mecharmtommygun"},
+        {"weight" : 0.08, "item" : "mecharmsplitshot"},
+        {"weight" : 0.04, "item" : "mecharmcannon"},
+        {"weight" : 0.04, "item" : "mecharmchainsaw"},
+        {"weight" : 0.04, "item" : "mecharmclustermine"},
+        {"weight" : 0.04, "item" : "mecharmgatling"},
+        {"weight" : 0.04, "item" : "mecharmmissilerack"},
+        {"weight" : 0.04, "item" : "mecharmplasmadrone"},
+        {"weight" : 0.04, "item" : "mecharmwobbleshot"}
+      ]
+    }]
+  ],
+
   "atprk_unpackedrelicgoods" : [
     [1, {
       "fill" : [
@@ -132,8 +356,8 @@
         {"weight" : 0.10, "item" : "hylotlhistory4-codex"},
         {"weight" : 0.10, "item" : "hylotlhistory5-codex"},
         {"weight" : 0.10, "item" : "hylotlhistory6-codex"},
-        {"weight" : 0.01, "item" : "atprk_glitchnoolithcodex-codex"},
-        {"weight" : 0.01, "item" : "atprk_glitchservantcodex-codex"},
+        {"weight" : 0.05, "item" : "atprk_glitchnoolithcodex-codex"},
+        {"weight" : 0.05, "item" : "atprk_glitchservantcodex-codex"},
         {"weight" : 0.01, "item" : "atprk_krakothtextbeta"},
         {"weight" : 0.01, "item" : "atprk_krakothtextdelta"},
         {"weight" : 0.01, "item" : "atprk_krakothtextrho"},
@@ -177,9 +401,9 @@
         {"weight" : 0.10, "item" : "avianfossil1"},
         {"weight" : 0.10, "item" : "avianfossil2"},
         {"weight" : 0.10, "item" : "avianfossil3"},
-        {"weight" : 0.10, "item" : "floaranfossil1"},
-        {"weight" : 0.10, "item" : "floaranfossil2"},
-        {"weight" : 0.10, "item" : "floaranfossil3"},
+        {"weight" : 0.10, "item" : "floranfossil1"},
+        {"weight" : 0.10, "item" : "floranfossil2"},
+        {"weight" : 0.10, "item" : "floranfossil3"},
         {"weight" : 0.10, "item" : "glitchfossil1"},
         {"weight" : 0.10, "item" : "glitchfossil2"},
         {"weight" : 0.10, "item" : "glitchfossil3"},
@@ -198,6 +422,35 @@
         {"weight" : 0.10, "item" : "atprk_noolithfossil1"},
         {"weight" : 0.10, "item" : "atprk_noolithfossil2"},
         {"weight" : 0.10, "item" : "atprk_noolithfossil3"}
+      ]
+    }]
+  ],
+
+  "atprk_unpacked4dgoods" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unpacked4dgoodspool"},
+        {"pool" : "atprk_unpacked4dgoodspool"},
+        {"item" : [ "atprk_4dblock", 15]}
+      ]
+    }]
+  ],
+  "atprk_unpacked4dgoodspool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : [ "atprk_4dparticle", 10]},
+        {"weight" : 0.10, "item" : [ "atprk_4dparticle", 15]},
+        {"weight" : 0.10, "item" : [ "atprk_4dparticle", 20]},
+        {"weight" : 0.10, "item" : [ "atprk_4dparticle", 25]},
+        {"weight" : 0.08, "item" : [ "atprk_4dparticle", 30]},
+        {"weight" : 0.06, "item" : [ "atprk_4dparticle", 35]},
+        {"weight" : 0.04, "item" : [ "atprk_4dparticle", 40]},
+        {"weight" : 0.02, "item" : [ "atprk_4dparticle", 45]},
+        {"weight" : 0.01, "item" : [ "atprk_4dparticle", 50]},
+        {"weight" : 0.10, "item" : [ "atprk_hyperpixel", 2]},
+        {"weight" : 0.05, "item" : [ "atprk_hyperpixel", 4]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 6]},
+        {"weight" : 0.10, "item" : "atprk_4dcube"}
       ]
     }]
   ],

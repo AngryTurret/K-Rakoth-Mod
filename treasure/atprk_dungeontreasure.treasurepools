@@ -399,7 +399,8 @@
       ],
       "poolRounds" : [
         [0.50, 1],
-        [0.50, 2]
+        [0.40, 2],
+        [0.10, 3]
       ],
       "allowDuplication" : false
     }]
@@ -416,7 +417,8 @@
       ],
       "poolRounds" : [
         [0.50, 1],
-        [0.50, 2]
+        [0.40, 2],
+        [0.10, 3]
       ],
       "allowDuplication" : false
     }]
@@ -425,7 +427,7 @@
   "atprk_krakothMidnightTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.10, "pool" : "shadowChestTreasure"},
+        {"weight" : 0.10, "pool" : "shadowTreasure"},
         {"weight" : 0.20, "item" : "atprk_krakothtextxi"},
         {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
         {"weight" : 0.20, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
@@ -433,7 +435,8 @@
       ],
       "poolRounds" : [
         [0.50, 1],
-        [0.50, 2]
+        [0.40, 2],
+        [0.10, 3]
       ],
       "allowDuplication" : false
     }]
