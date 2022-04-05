@@ -40,13 +40,13 @@
       [0, [
           {
             "head" : [
-              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
             ],
             "chest" : [
-              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
             ],
             "legs" : [
-              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : [4, 5, 6, 7] } }
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
             ],
             "primary" : [
               "npcbroadsword",
