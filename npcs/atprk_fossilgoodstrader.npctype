@@ -1,5 +1,5 @@
 {
-  "type" : "atprk_relicgoodstrader",
+  "type" : "atprk_fossilgoodstrader",
   "baseType" : "outpostcivilian",
 
   "scripts" : [
@@ -25,10 +25,10 @@
 
     "guiConfig" : {
       "baseConfig" : "/interface/scripted/goodstrader/goodstradergui.config",
-      "buyItem" : "atprk_relicgoods",
+      "buyItem" : "atprk_fossilgoods",
       "gui" : {
         "windowtitle" : {
-          "title" : " Minor Artifacts Trader"
+          "title" : " Alien Fossils Trader"
         }
       }
     },
@@ -37,8 +37,8 @@
     "sellOptions" : [
       "medicalgoods",
       "foodgoods",
-      "atprk_fossilgoods",
-      "atprk_loregoods"
+      "atprk_loregoods",
+      "atprk_relicgoods"
     ]
   },
 
@@ -46,8 +46,8 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "bandithat1", "parameters" : { "colorIndex" : 7 } } ],
-            "back" : [ { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } } ],
+            "head" : [ { "name" : "mininghathead", "parameters" : { "colorIndex" : 7 } } ],
+            "back" : [ { "name" : "foundryforemanback", "parameters" : { "colorIndex" : 1 } } ],
             "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
             "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
           }

@@ -1,5 +1,5 @@
 {
-  "type" : "atprk_relicgoodstrader",
+  "type" : "atprk_loregoodstrader",
   "baseType" : "outpostcivilian",
 
   "scripts" : [
@@ -25,10 +25,10 @@
 
     "guiConfig" : {
       "baseConfig" : "/interface/scripted/goodstrader/goodstradergui.config",
-      "buyItem" : "atprk_relicgoods",
+      "buyItem" : "atprk_loregoods",
       "gui" : {
         "windowtitle" : {
-          "title" : " Minor Artifacts Trader"
+          "title" : " Historical Records Trader"
         }
       }
     },
@@ -38,7 +38,7 @@
       "medicalgoods",
       "foodgoods",
       "atprk_fossilgoods",
-      "atprk_loregoods"
+      "atprk_relicgoods"
     ]
   },
 
@@ -46,8 +46,7 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "bandithat1", "parameters" : { "colorIndex" : 7 } } ],
-            "back" : [ { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } } ],
+            "head" : [ { "name" : "scientisthead", "parameters" : { "colorIndex" : 0 } } ],
             "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
             "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
           }
