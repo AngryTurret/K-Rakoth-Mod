@@ -1,0 +1,29 @@
+{
+  "name" : "atprk_amberbush",
+  "description" : "Plants covered in amber.",
+  "shortdescription" : "Amber Plant",
+  "floranDescription" : "Tree juice all over the plant.",
+  "glitchDescription" : "Neutral. A plant covered in hardened amber.",
+  "shapes" : [
+    {
+      "base" : "atprk_amberbush1.png"
+    },
+
+    {
+      "base" : "atprk_amberbush2.png"
+    },
+
+    {
+      "base" : "atprk_amberbush3.png"
+    },
+
+    {
+      "base" : "atprk_amberbush4.png"
+    },
+
+    {
+      "base" : "atprk_amberbush5.png"
+    }
+
+  ]
+}
