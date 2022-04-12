@@ -158,22 +158,6 @@
 
         "type" : "grass",
         "grasses" : [ "pebbles" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildpineappleseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
       }
     ]
   }
