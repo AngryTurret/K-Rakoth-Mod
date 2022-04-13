@@ -51,8 +51,12 @@
             "primary" : [
               "npcbroadsword",
               "npcaxe",
+              "npcshortsword",
               "npcspear",
               "npchammer"
+            ],
+            "alt" : [
+              "atprk_hardlightshield"
             ]
           }
         ] ]
