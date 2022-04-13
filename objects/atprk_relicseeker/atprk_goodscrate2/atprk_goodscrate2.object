@@ -1,12 +1,12 @@
 {
-  "objectName" : "atprk_goodscrate1",
+  "objectName" : "atprk_goodscrate2",
   "colonyTags" : ["atprk_relicseeker","storage","commerce"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 25,
+  "price" : 50,
   "description" : "A crate full of consumer goods.",
   "shortdescription" : "Trade Goods Crate",
   "race" : "generic",
@@ -21,14 +21,14 @@
   "novakidDescription" : "Just a merchant's box o' stuff.",
 
 
-  "inventoryIcon" : "atprk_goodscrate1icon.png",
+  "inventoryIcon" : "atprk_goodscrate2icon.png",
   "orientations" : [
     {
-      "image" : "atprk_goodscrate1.png:default",
+      "image" : "atprk_goodscrate2.png:default",
       "direction" : "left",
       "flipImages" : true,
 
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -37,10 +37,10 @@
       "collision" : "platform"
     },
     {
-      "image" : "atprk_goodscrate1.png:default",
+      "image" : "atprk_goodscrate2.png:default",
       "direction" : "right",
 
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -52,7 +52,7 @@
 
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
-  "slotCount" : 16,
+  "slotCount" : 32,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
