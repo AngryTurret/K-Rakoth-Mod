@@ -1,31 +1,32 @@
 {
-  "itemName" : "atprk_crystalshield",
+  "itemName" : "atprk_hardlightshield",
   "fixedLevel" : false,
-  "price" : 3500,
+  "price" : 1750,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "shield",
-  "description" : "A quick reminder that not all crystals are fragile.",
-  "shortdescription" : "Crystal Shield",
+  "description" : "A handheld hard light barrier created by the Ancients.",
+  "shortdescription" : "Ancient Light Shield",
   "tooltipKind" : "Shield",
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
-  "inventoryIcon" : "images/atprk_crystalshield.png:nearidle",
+  "inventoryIcon" : "images/atprk_hardlightshield.png:nearidle",
 
-  "animation" : "shield.animation",
+  "animation" : "atprk_shieldfullbright.animation",
   "animationParts" : {
-    "shield" : "images/atprk_crystalshield.png"
+    "shield" : "images/atprk_hardlightshield.png",
+    "shieldFullbright" : "images/atprk_hardlightshieldfullbright.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ]
     }}}},
     "sounds" : {
-      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "raiseShield" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
-      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
-      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+      "block" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "break" : [ "/sfx/melee/tesla_shock_kill.ogg" ]
     }
   },
 
@@ -33,14 +34,14 @@
 
   "minActiveTime" : 0.2,
 
-  "forceWalk" : true,
-  "baseShieldHealth" : 70,
-  "cooldownTime" : 0.5,
+  "forceWalk" : false,
+  "baseShieldHealth" : 45,
+  "cooldownTime" : 0.2,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
 
-  "knockback" : 10,
+  "knockback" : 15,
 
   "stances" : {
     "idle" : {
