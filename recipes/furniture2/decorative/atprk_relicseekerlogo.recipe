@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "greendye", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_relicseekerlogo", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all", "mod" ]
+}
