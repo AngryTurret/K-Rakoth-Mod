@@ -1,12 +1,13 @@
 {
   "objectName" : "atprk_relicseekerlogo",
   "colonyTags" : ["atprk_relicseeker","pretty"],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "A logo of the Relic Seeker organization.",
   "shortdescription" : "Relic Seeker Logo",
   "race" : "generic",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 150,
+  "printable" : false,
 
   "apexDescription" : "A logo of the Relic Seekers. Don't they know green stars do not exist?",
   "avianDescription" : "A shiny green star, a symbol worn by the Relic Seekers.",
@@ -15,6 +16,10 @@
   "humanDescription" : "Look, a green star! It means that the Relic Seekers are nearby.",
   "hylotlDescription" : "A green star that symbolizes everything unusual and anomalous the Relic Seekers discover.",
   "novakidDescription" : "Some say green stars ain't real yet there're Novakids who glow green. Curious.",
+
+  "learnBlueprintsOnPickup" : [
+    "atprk_relicseekerlogo"
+  ],
 
   "inventoryIcon" : "atprk_relicseekerlogoicon.png",
   "orientations" : [
