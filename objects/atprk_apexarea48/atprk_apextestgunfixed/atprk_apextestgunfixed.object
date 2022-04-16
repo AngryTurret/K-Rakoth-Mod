@@ -1,9 +1,9 @@
 {
-  "objectName" : "atprk_apextestgun",
+  "objectName" : "atprk_apextestgunfixed",
   "colonyTags" : ["atprk_krakoth","apex","apexresearchlab","combat"],
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "category" : "decorative",
-  "price" : 400,
+  "price" : 450,
   "description" : "A K'Rakothan weapon repurposed by the Miniknog.",
   "shortdescription" : "Reverse-Engineered Cannon",
   "race" : "apex",
@@ -16,15 +16,26 @@
   "hylotlDescription" : "A reverse-engineered weapon that looks like a railgun.",
   "novakidDescription" : "That's a very big iron right there! May I touch it?",
 
-  "health" : 6,
-  "breakDropOptions" : [
-    [ [ "atprk_reliccircuitry", 1, { } ] ]
-  ],
-
-  "inventoryIcon" : "atprk_apextestgunicon.png",
+  "inventoryIcon" : "atprk_apextestgunfixedicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_apextestgun.png:<color>",
+
+      "imageLayers" : [ { "image" : "atprk_apextestgunfixed.png:<color>", "fullbright" : true }, { "image" : "atprk_apextestgunfixedlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_apextestgunfixed.png:<color>", "fullbright" : true }, { "image" : "atprk_apextestgunfixedlit.png:<color>" } ],
+      "direction" : "right",
+
       "imagePosition" : [-24, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
