@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_reliccircuitry",
+  "price" : 75,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_reliccircuitry.png",
+  "description" : "Electronic circuitry reverse-engineered from forgotten tech.",
+  "shortdescription" : "Exotic Circuitry",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_apextestgunfixed"
+  ]
+}
