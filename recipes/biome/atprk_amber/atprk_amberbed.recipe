@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_amberblock", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "atprk_amberbed",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "beds", "all", "mod" ]
+}

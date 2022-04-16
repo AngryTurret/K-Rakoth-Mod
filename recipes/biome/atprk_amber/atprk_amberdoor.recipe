@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_amberblock", "count" : 20 }
+  ],
+  "output" : { "item" : "atprk_amberdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture", "doors", "all", "mod" ]
+}
