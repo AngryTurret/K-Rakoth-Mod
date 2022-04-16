@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_reliccircuitry", "count" : 2},
+    { "item" : "durasteelbar", "count" : 10},
+    { "item" : "wire", "count" : 8}
+  ],
+  "output" : {
+    "item" : "atprk_apextestgunfixed",
+    "count" : 1
+  },
+  "groups" : [ "atprk_reconstructiontable" ]
+}

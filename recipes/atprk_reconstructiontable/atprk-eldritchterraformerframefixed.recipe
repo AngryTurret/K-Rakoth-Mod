@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_terraformerframe", "count" : 1},
+    { "item" : "atprk_ancientshards", "count" : 5},
+    { "item" : "atprk_eldertech", "count" : 3}
+  ],
+  "output" : {
+    "item" : "atprk-eldritchterraformerframefixed",
+    "count" : 1
+  },
+  "groups" : [ "atprk_reconstructiontable" ]
+}
