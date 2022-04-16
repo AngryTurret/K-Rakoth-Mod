@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk_krakothminefake",
+  "colonyTags" : ["atprk_krakoth","combat"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A naval mine built by K'Rakoths. Thank goodness it doesn't work anymore.",
+  "shortdescription" : "Disabled Naval Mine",
+  "race" : "generic",
+  "scannable" : false,
+
+  "apexDescription" : "This naval mine does not work, it seems... which is still concerning.",
+  "avianDescription" : "Oh thank Kluex, I thought I'm about to explode.",
+  "floranDescription" : "No ka-boom? Phew.",
+  "glitchDescription" : "Relieved. It's just a defective mine.",
+  "humanDescription" : "I should be very careful here... Oh wait, it doesn't work.",
+  "hylotlDescription" : "Apparently this mine doesn't work anymore. I can approach it safely.",
+  "novakidDescription" : "Hey, I'm not gonna blow up! That's a good news for sure!",
+
+  "inventoryIcon" : "atprk_krakothminefakeicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothminefake.png:<color>",
+      "imagePosition" : [-32, -32],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_krakothminefake.png:<color>",
+      "imagePosition" : [-32, -32],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "health" : 125,
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_chthonicscraps", 1, { } ], [ "junktech", 1, { } ] ]
+  ]
+
+}
