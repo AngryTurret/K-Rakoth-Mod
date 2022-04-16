@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_terraformerframe",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 450,
+  "description" : "A deactivated frame of an ancient terraformer.",
+  "shortdescription" : "Terraformer Frame",
+  "race" : "generic",
+  "printable" : false,
+
+  "learnBlueprintsOnPickup" : [
+    "atprk-eldritchterraformerframefixed"
+  ],
+
+  "apexDescription" : "Transforms a planet's climate into... nothing. It does not work.",
+  "avianDescription" : "A bulky frame of an ancient terraforming machine.",
+  "floranDescription" : "Thisss will never do! Floran needsss to find other partss.",
+  "glitchDescription" : "Disappointed. Unless I find a way to rebuild this terraformer, it will remain useless.",
+  "humanDescription" : "An empty terraformer. It's unlikely it will activate at all like that.",
+  "hylotlDescription" : "A frame of an ancient terraforming machine, waiting to be reconstructed.",
+  "novakidDescription" : "It's not much use without a terraformer core.",
+
+  "inventoryIcon" : "atprk_terraformerframeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_terraformerframe.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
