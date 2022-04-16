@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothrulerstatue",
+  "colonyTags" : ["atprk_krakoth","pretty","valuable"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "An imposing statue of a K'Rakoth leader.",
+  "shortdescription" : "Eldritch Ruler Statue",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "It could be a statue of an authority figure perhaps.",
+  "avianDescription" : "It must've been a very fearsome person in the ancient society.",
+  "floranDescription" : "Ssspooky sssquid with a crown.",
+  "glitchDescription" : "Uneasy. I cannot help feeling dread while looking at this statue.",
+  "humanDescription" : "A creepy statue, as if it was straight from cosmic horror stories.",
+  "hylotlDescription" : "Such a formidable statue could only belong to a tyrant.",
+  "novakidDescription" : "I feel like I've seen this one before.",
+
+  "inventoryIcon" : "atprk-krakothrulerstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothrulerstatue.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
-  "objectName" : "atprk-eldritchterraformerframe",
+  "objectName" : "atprk-eldritchterraformerframefixed",
   "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
-  "rarity" : "Legendary",
+  "rarity" : "Rare",
   "description" : "K'Rakoths tried to reverse-engineer this terraformer, it seems.",
   "shortdescription" : "Deactivated Terraformer",
   "race" : "generic",
   "category" : "decorative",
-  "price" : 450,
+  "price" : 500,
   "printable" : false,
 
   "apexDescription" : "A deactivated terraformer. It lacks its core.",
@@ -17,34 +17,29 @@
   "hylotlDescription" : "A terraformer without its core. It is possible that K'Rakoths tried to reverse-engineer it.",
   "novakidDescription" : "A terraformer stolen by K'Rakoths.",
 
-  "health" : 10,
-  "breakDropOptions" : [
-    [ [ "atprk_terraformerframe", 1, { } ] ]
-  ],
-
-  "inventoryIcon" : "atprk-eldritchterraformerframeicon.png",
+  "inventoryIcon" : "atprk-eldritchterraformerframefixedicon.png",
   "orientations" : [
     {
 
-      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframe.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframelit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframefixed.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframefixedlit.png:<color>.<frame>" } ],
       "flipImages" : true,
       "direction" : "left",
 
       "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 0.4,
+      "frames" : 12,
+      "animationCycle" : 0.8,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
 
-      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframe.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframelit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "atprk-eldritchterraformerframefixed.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-eldritchterraformerframefixedlit.png:<color>.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 0.4,
+      "frames" : 12,
+      "animationCycle" : 0.8,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
