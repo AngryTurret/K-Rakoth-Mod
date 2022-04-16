@@ -43,12 +43,26 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
 
         "type" : "object",
         "objectSets" : [
           {
             "pool" : [ [0.25, "smashbones1" ], [0.25, "smashbones2" ], [0.25, "smashbones3" ], [0.25, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
             "parameters" : { }
           }
         ]
