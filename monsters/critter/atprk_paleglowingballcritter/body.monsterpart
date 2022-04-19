@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_paleglowingballcritter",
+  "category" : "atprk_paleglowingballcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}
