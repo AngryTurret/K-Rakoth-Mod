@@ -1,0 +1,36 @@
+[
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_paleglowingballcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "day"
+      },
+      "spawnChance" : 0.15,
+      "monsterType" : "atprk_paleglowingballcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_amberballcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_amberballcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  }
+]
