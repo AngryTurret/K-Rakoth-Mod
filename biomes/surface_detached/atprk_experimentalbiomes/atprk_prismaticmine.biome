@@ -1,6 +1,6 @@
 {
-  "name" : "atprk_fireflyhive",
-  "friendlyName" : "Firefly Hive",
+  "name" : "atprk_prismaticmine",
+  "friendlyName" : "Prismatic Mine",
 
 
   "spawnProfile" : {
@@ -8,18 +8,19 @@
       {
         "select" : 2,
         "pool" : [ 
-          [ 1.0, "orbide" ],
-          [ 1.0, "anglure" ]
+          [ 1.0, "narfin" ],
+          [ 1.0, "lumoth" ],
+          [ 1.0, "pipkin" ]
         ]
       },
       {
         "select" : 3,
         "pool" : [
-          [ 1, "fireflyspawner" ],
-          [ 1, "atprk_paleglowingballcritter" ],
-          [ 1, "swarmcritter" ],
-          [ 1, "swarmflyingcritter" ],
-          [ 1, "maggotcritter" ]
+          [ 1, "prismelementalcritter" ],
+          [ 1, "prismscabcritter" ],
+          [ 1, "steambirdcritter" ],
+          [ 1, "steamspidercritter" ],
+          [ 1, "steamfishcritter" ]
         ]
       }
     ],
@@ -28,16 +29,13 @@
     }
   },
 
-  "mainBlock" : "hive",
-  "subBlocks" : [ "rock04", "slush", "frozendirt" ],
+  "mainBlock" : "frozenwater",
+  "subBlocks" : [ "snow", "slush", "copperblock" ],
   "ores" : "surface",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "hivegrass" ],
+    "grassMod" : [ "snow" ],
     "grassModDensity" : 0.9,
-
-    "ceilingGrassMod" : [ "hiveceilinggrass" ],
-    "ceilingGrassModDensity" : 0.9,
 
     "items" : [
       {
@@ -58,27 +56,13 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 2,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "tree",
-        "treeFoliageHueShiftMax" : 120,
+        "treeFoliageHueShiftMax" : 0,
         "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "snowslimey", "snowfleshy", "hive" ],
-        "treeFoliageList" : [ "snowscraggy", "snowredleaves", "hive" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.1,
-        "variants" : 5,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "hivebush1" ], [0.35, "hivebush2" ], [0.35, "hivebush3" ], [0.35, "hivebush4" ], [0.35, "hivebush5" ], [0.35, "hivelight1" ] ],
-            "parameters" : { }
-          }
-        ]
+        "treeStemList" : [ "purewhite", "steamspring" ],
+        "treeFoliageList" : [ "purewhitey", "steamspring" ]
       },
       {
         "mode" : "floor",
@@ -89,23 +73,36 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
+            "pool" : [ [1, "frozenmistprimer" ] ],
             "parameters" : { }
           }
         ]
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "distribution" : "/biomes/distributions.config:denseMedium",
 
-        "type" : "bush",
-        "bushes" : [
+        "type" : "object",
+        "objectSets" : [
           {
-            "name" : "bioroots",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
+            "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ], [0.05, "prismrock4" ], [0.05, "prismrock5" ], [0.05, "prismrock6" ], [0.05, "prismrock7" ], [0.05, "prismrock8" ]  ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "floorpipe1" ], [0.35, "floorpipe2" ], [0.35, "floorpipe3" ] ],
+            "parameters" : { }
           }
         ]
       },
@@ -122,11 +119,11 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "hivegrass" ],
-    "grassModDensity" : 0.9,
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.7,
 
-    "ceilingGrassMod" : [ "hiveceilinggrass" ],
-    "ceilingGrassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "ceilingsnow" ],
+    "ceilingGrassModDensity" : 0.7,
 
     "items" : [
       {
@@ -147,36 +144,26 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "hive" ],
-        "treeFoliageList" : [ "hive" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 3,
         "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 20,
-        "treeStemList" : [ "hivevine", "purplevine" ],
-        "treeFoliageList" : [ "" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 0.5,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "glowroot1" ], [0.35, "glowroot2" ], [0.35, "glowroot3" ], [0.35, "glowroot4" ], [0.35, "glowroot5" ] ],
+            "pool" : [ [0.35, "floorpipe1" ], [0.35, "floorpipe2" ], [0.35, "floorpipe3" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ], [0.05, "prismrock4" ], [0.05, "prismrock5" ], [0.05, "prismrock6" ], [0.05, "prismrock7" ], [0.05, "prismrock8" ]  ],
             "parameters" : { }
           }
         ]

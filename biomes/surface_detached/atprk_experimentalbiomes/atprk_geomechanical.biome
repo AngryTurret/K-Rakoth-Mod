@@ -1,6 +1,6 @@
 {
-  "name" : "atprk_fireflyhive",
-  "friendlyName" : "Firefly Hive",
+  "name" : "atprk_geomechanical",
+  "friendlyName" : "Geomechanical",
 
 
   "spawnProfile" : {
@@ -8,36 +8,36 @@
       {
         "select" : 2,
         "pool" : [ 
-          [ 1.0, "orbide" ],
-          [ 1.0, "anglure" ]
+          [ 1.0, "bobot" ],
+          [ 1.0, "scandroid" ],
+          [ 1.0, "squeem" ],
+          [ 1.0, "oculob" ]
         ]
       },
       {
         "select" : 3,
         "pool" : [
-          [ 1, "fireflyspawner" ],
-          [ 1, "atprk_paleglowingballcritter" ],
-          [ 1, "swarmcritter" ],
-          [ 1, "swarmflyingcritter" ],
-          [ 1, "maggotcritter" ]
+          [ 1, "loopacritter" ],
+          [ 1, "volcanicflowercritter" ],
+          [ 1, "orenibblercritter" ],
+          [ 1, "smallgeodecritter" ],
+          [ 1, "largegeodecritter" ],
+          [ 1, "floatinggeodecritter" ]
         ]
       }
     ],
     "monsterParameters" : {
-      "colors" : "snow"
+      "colors" : "volcanic"
     }
   },
 
-  "mainBlock" : "hive",
-  "subBlocks" : [ "rock04", "slush", "frozendirt" ],
+  "mainBlock" : "geodestone",
+  "subBlocks" : [ "ash", "geodeblock", "obsidian", "plate" ],
   "ores" : "surface",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "hivegrass" ],
-    "grassModDensity" : 0.9,
-
-    "ceilingGrassMod" : [ "hiveceilinggrass" ],
-    "ceilingGrassModDensity" : 0.9,
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.8,
 
     "items" : [
       {
@@ -58,24 +58,24 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 2,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:denseLarge",
 
         "type" : "tree",
-        "treeFoliageHueShiftMax" : 120,
+        "treeFoliageHueShiftMax" : 0,
         "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "snowslimey", "snowfleshy", "hive" ],
-        "treeFoliageList" : [ "snowscraggy", "snowredleaves", "hive" ]
+        "treeStemList" : [ "rust", "geode" ],
+        "treeFoliageList" : [ "", "geodefoliage" ]
       },
       {
         "mode" : "floor",
-        "priority" : 0.1,
-        "variants" : 5,
+        "priority" : 3.0,
+        "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "hivebush1" ], [0.35, "hivebush2" ], [0.35, "hivebush3" ], [0.35, "hivebush4" ], [0.35, "hivebush5" ], [0.35, "hivelight1" ] ],
+            "pool" : [ [0.1, "geodelowanatural" ], [0.1, "geodebnatural" ], [0.1, "geodecnatural" ], [0.1, "geodednatural" ], [0.1, "geodehighanatural" ] ],
             "parameters" : { }
           }
         ]
@@ -89,23 +89,24 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
             "parameters" : { }
           }
         ]
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
 
-        "type" : "bush",
-        "bushes" : [
+        "type" : "object",
+        "objectSets" : [
           {
-            "name" : "bioroots",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
+            "pool" : [ [1, "wildneonmelonseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
           }
         ]
       },
@@ -122,11 +123,8 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "hivegrass" ],
+    "grassMod" : [ "blackash" ],
     "grassModDensity" : 0.9,
-
-    "ceilingGrassMod" : [ "hiveceilinggrass" ],
-    "ceilingGrassModDensity" : 0.9,
 
     "items" : [
       {
@@ -145,41 +143,43 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1.0,
+        "priority" : 3.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "hive" ],
-        "treeFoliageList" : [ "hive" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 3,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 20,
-        "treeStemList" : [ "hivevine", "purplevine" ],
-        "treeFoliageList" : [ "" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 0.5,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "glowroot1" ], [0.35, "glowroot2" ], [0.35, "glowroot3" ], [0.35, "glowroot4" ], [0.35, "glowroot5" ] ],
+            "pool" : [ [0.05, "geodelowanatural" ], [0.05, "geodebnatural" ], [0.05, "geodecnatural" ], [0.05, "geodednatural" ], [0.05, "geodehighanatural" ] ],
             "parameters" : { }
           }
         ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "geodevine" ],
+        "treeFoliageList" : [ "" ]
       }
     ]
   }
