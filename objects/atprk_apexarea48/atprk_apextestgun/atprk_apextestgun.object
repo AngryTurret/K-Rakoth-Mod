@@ -16,6 +16,10 @@
   "hylotlDescription" : "A reverse-engineered weapon that looks like a railgun.",
   "novakidDescription" : "That's a very big iron right there! May I touch it?",
 
+  "atprk_anneliskDescription" : "If this cannon was intact, guess I'd be dead on spot.",
+  "atprk_fenronDescription" : "This cannon could use some target practice.",
+  "atprk_noolithDescription" : "Where have I seen this before?...",
+
   "health" : 6,
   "breakDropOptions" : [
     [ [ "atprk_reliccircuitry", 1, { } ] ]

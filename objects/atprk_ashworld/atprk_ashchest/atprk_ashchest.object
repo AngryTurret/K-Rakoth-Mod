@@ -21,6 +21,10 @@
   "hylotlDescription" : "Even a garbage can is more inspiring than this dull chest.",
   "novakidDescription" : "What a dull-lookin' chest.",
 
+  "atprk_anneliskDescription" : "I hope I'll find something other than ash inside.",
+  "atprk_fenronDescription" : "A dull wooden chest covered in ashes.",
+  "atprk_noolithDescription" : "What could be hidden inside this old chest?",
+
   "inventoryIcon" : "atprk_ashchesticon.png",
   "orientations" : [
     {

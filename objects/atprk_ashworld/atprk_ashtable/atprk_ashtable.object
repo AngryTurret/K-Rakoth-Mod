@@ -17,6 +17,10 @@
   "hylotlDescription" : "If it were not for a thick layer of ash, it would be a beautiful dining table.",
   "novakidDescription" : "I'm tryin' t' wipe dust off the table but it keeps comin' back! Why?",
 
+  "atprk_anneliskDescription" : "Is this a prank or something? I swear this tablecloth generates ash on its own.",
+  "atprk_fenronDescription" : "A table too dusty to have a dinner at.",
+  "atprk_noolithDescription" : "How strange. No matter how hard I try to dispose of ashes, they keep coming back.",
+
   "inventoryIcon" : "atprk_ashtableicon.png",
   "orientations" : [
     {

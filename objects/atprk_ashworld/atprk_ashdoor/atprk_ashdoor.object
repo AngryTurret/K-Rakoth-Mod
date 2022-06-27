@@ -18,6 +18,10 @@
   "hylotlDescription" : "It is a pity someone left this door in an awful condition like that.",
   "novakidDescription" : "What a borin' door. No one even cares about wipin' dust off it.",
 
+  "atprk_anneliskDescription" : "What kind of ash is this? Permanent? Why can't I just clean it off?",
+  "atprk_fenronDescription" : "I could smash this gray door with no effort.",
+  "atprk_noolithDescription" : "A gothic door covered in a layer of dust.",
+
   "inventoryIcon" : "atprk_ashdooricon.png",
 
   "tooltipKind" : "door",

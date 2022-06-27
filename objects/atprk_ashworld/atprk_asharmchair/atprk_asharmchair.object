@@ -17,6 +17,10 @@
   "hylotlDescription" : "Well, at very least it does look soft enough.",
   "novakidDescription":  "Just wipe the ash off, and it'll be fine for a sheriff's office.",
 
+  "atprk_anneliskDescription" : "What a lame armchair. I want a refund.",
+  "atprk_fenronDescription" : "Wait, do I hear insects crawling inside the pillows?",
+  "atprk_noolithDescription" : "Despite all the ash, this ancient armshair is well-preserved.",
+
   "inventoryIcon" : "atprk_asharmchairicon.png",
   
   "objectType" : "loungeable",

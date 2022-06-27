@@ -1,0 +1,36 @@
+{
+  "objectName" : "atprk_ashdoorpropdouble",
+  "colonyTags" : ["atprk_ash","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  
+  "description" : "Two gray wooden doors with ashy traces on the surface.",
+  "shortdescription" : "Ashy Double Door Prop",
+  "race" : "generic",
+
+  "apexDescription" : "Two old wooden doors.",
+  "avianDescription" : "Don't knock too hard, or your feathers will get covered in dust.",
+  "floranDescription" : "Knock-knock! Floran isss here!",
+  "glitchDescription" : "Neutral. Gothic doors made of dusty wood.",
+  "humanDescription" : "Gloomy doors indeed.",
+  "hylotlDescription" : "It is a pity someone left these doors in an awful condition like that.",
+  "novakidDescription" : "What a borin' pair o' doors. No one even cares about wipin' dust off them.",
+
+  "atprk_anneliskDescription" : "What kind of ash is this? Permanent? Why can't I just clean it off?",
+  "atprk_fenronDescription" : "I could smash these gray doors with no effort.",
+  "atprk_noolithDescription" : "Gothic doors covered in a layer of dust.",
+
+  "inventoryIcon" : "atprk_ashdoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ashdoorpropdouble.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
