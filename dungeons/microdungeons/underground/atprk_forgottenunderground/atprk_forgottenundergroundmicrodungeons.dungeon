@@ -1,0 +1,102 @@
+{
+  "metadata" : {
+    "name" : "atprk_forgottenundergroundmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_forgottenunderground1", "atprk_forgottenunderground2", "atprk_forgottenunderground3", "atprk_forgottenunderground4", "atprk_forgottenunderground5", "atprk_forgottenunderground6", "atprk_forgottenunderground7", "atprk_forgottenunderground8", "atprk_forgottenunderground9", "atprk_forgottenunderground10", "atprk_forgottenunderground11", "atprk_forgottenunderground12" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_forgottenunderground1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground1.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground2.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground3.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground4.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground5.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground6.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground7.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground8.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground9.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground10.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground11",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground11.json" ]
+    },
+    {
+      "name" : "atprk_forgottenunderground12",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenunderground12.json" ]
+    }
+  ]
+}
