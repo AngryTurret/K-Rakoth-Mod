@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_relicseekershippingcontainer",
+  "colonyTags" : ["atprk_relicseeker","storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A large shipping container with the Relic Seeker emblem on it.",
+  "shortdescription" : "Relic Shipping Container",
+  "race" : "generic",
+  "price" : 625,
+
+  "health" : 5,
+
+  "apexDescription" : "It is a huge crate owned by the Relic Seekers.",
+  "avianDescription" : "I would guess it's meant for shipping valuable ancient relics.",
+  "floranDescription" : "There's probably no food inssside, only relicsss.",
+  "glitchDescription" : "Analytical. Judging by the emblem on its side, this container is owned by the Relic Seekers.",
+  "humanDescription" : "It's a really big shipping container owned by the Relic Seekers.",
+  "hylotlDescription" : "A metal container for shipping large artifacts. It seems to belong to the Relic Seekers.",
+  "novakidDescription" : "A large container for haulin' antique stuff.",
+
+  "inventoryIcon" : "atprk_relicseekershippingcontainericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_relicseekershippingcontainerleft.png:<color>",
+      "direction" : "left",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    },
+    {
+      "image" : "atprk_relicseekershippingcontainer.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/shippingcontainer_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/shippingcontainer_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
