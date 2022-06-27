@@ -1,0 +1,9 @@
+{
+  "itemName" : "atprk_amberinsect3",
+  "price" : 4500,
+  "rarity" : "Uncommon",
+  "category" : "currency",
+  "inventoryIcon" : "atprk_amberinsect3.png",
+  "description" : "A well-preserved prehistoric insect. You can sell it at a good price.",
+  "shortdescription" : "Fossilized Insect"
+}

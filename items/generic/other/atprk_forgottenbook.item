@@ -1,0 +1,8 @@
+{
+  "itemName" : "atprk_forgottenbook",
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "atprk_forgottenbook.png",
+  "description" : "This book will probably crumble into dust if you try to open it.",
+  "shortdescription" : "Tarnished Tome"
+}
