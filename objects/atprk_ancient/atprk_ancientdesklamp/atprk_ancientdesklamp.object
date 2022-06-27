@@ -15,6 +15,10 @@
   "hylotlDescription" : "This lantern's blue light reminds me of the ocean. I feel a deep calm.",
   "novakidDescription" : "I made a bunch o' ancient doodads into a lantern. Great.",
 
+  "atprk_anneliskDescription" : "I just hope this ancient light won't cause something nasty like skin cancer.",
+  "atprk_fenronDescription" : "While cold, this blue light is not at all alarming. It feels so peaceful...",
+  "atprk_noolithDescription" : "It may be crude but I tried my best to recreate this lantern the way it was meant to be.",
+
   "category" : "light",
   "price" : 85,
   "lightColor" : [36, 159, 184],

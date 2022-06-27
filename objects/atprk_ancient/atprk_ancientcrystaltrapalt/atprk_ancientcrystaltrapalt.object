@@ -1,0 +1,255 @@
+{
+  "objectName" : "atprk_ancientcrystaltrapalt",
+  "colonyTags" : ["ancient","atprk_ancient","evil"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A crystal trap designed to deter invaders. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Crystal Trap",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "This crystal forms a deadly light beam.",
+  "avianDescription" : "This light beam will definitely scare off any intruders.",
+  "floranDescription" : "Crystal beam hurtsss Floran's enemiesss.",
+  "glitchDescription" : "Exasperated. A crystal that projects deadly beams of light! Now I have seen everything.",
+  "humanDescription" : "That beam looks like it would hurt.",
+  "hylotlDescription" : "I can turn the immense power of this light beam against my foes.",
+  "novakidDescription" : "A mighty strong crystal indeed! Too bad it's stationary.",
+
+  "atprk_anneliskDescription" : "What a great addition to my arsenal of deadly weaponry!",
+  "atprk_fenronDescription" : "A powerful crystalline weapon. If only I could yield it in my hands like a true warrior.",
+  "atprk_noolithDescription" : "The crystal within this trap is not suitable for a new vessel. How unfortunate.",
+
+  "inventoryIcon" : "atprk_ancientcrystaltrapalticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientcrystaltrapaltground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltground.png",
+        "fg" : "atprk_ancientcrystaltrapaltground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [0, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapaltground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltground.png",
+        "fg" : "atprk_ancientcrystaltrapaltground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [1, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapalt.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapalt.png",
+        "fg" : "atprk_ancientcrystaltrapalt.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [-1, 0],
+
+      "beamDirection" : [-1, 0],
+      "beamStartOffset" : [-0.5, 1],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-54, -4, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapalt.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapalt.png",
+        "fg" : "atprk_ancientcrystaltrapalt.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [1, 0],
+
+      "beamDirection" : [1, 0],
+      "beamStartOffset" : [1.5, 1],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-54, -4, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapaltceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltceiling.png",
+        "fg" : "atprk_ancientcrystaltrapaltceiling.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, -1],
+
+      "beamDirection" : [0, -1],
+      "beamStartOffset" : [0, -0.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -54, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapaltceiling.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltceiling.png",
+        "fg" : "atprk_ancientcrystaltrapaltceiling.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, -1],
+
+      "beamDirection" : [0, -1],
+      "beamStartOffset" : [1, -0.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -54, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapaltground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltground.png",
+        "fg" : "atprk_ancientcrystaltrapaltground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [0, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "atprk_ancientcrystaltrapaltground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientcrystaltrapaltground.png",
+        "fg" : "atprk_ancientcrystaltrapaltground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [1, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ "/sfx/objects/crystaltrap_on1.ogg" ],
+      "off" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+    }
+  },
+  "animationScripts" : [ "/objects/wired/projectiletrap/beamtraprendering.lua" ],
+  
+  "health" : 5,
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/beamtrap.lua" ],
+  "scriptDelta" : 5,
+
+  "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [115, 211, 255],
+
+  "lightColor" : [115, 211, 255],
+  "beamImages" : {
+    "first" : "/objects/atprk_ancient/atprk_ancientcrystaltrapalt/beamstart.png",
+    "body" : "/objects/atprk_ancient/atprk_ancientcrystaltrapalt/beambody.png",
+    "last" : "/objects/atprk_ancient/atprk_ancientcrystaltrapalt/beamend.png"
+  },
+
+  "beamDamage" : {
+    "teamType" : "friendly",
+    "damage" : 40,
+    "damageSourceKind" : "plasma",
+    "knockback" : 0,
+    "damageRepeatTimeout" : 0.5
+  }
+}

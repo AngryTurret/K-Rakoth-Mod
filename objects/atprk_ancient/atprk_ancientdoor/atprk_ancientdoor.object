@@ -17,6 +17,10 @@
   "hylotlDescription" : "A curious design, indeed.",
   "novakidDescription" : "A door that looks older than it really is.",
 
+  "atprk_anneliskDescription" : "If anybody asks, this door is millenia old and totally not made on a workbench.",
+  "atprk_fenronDescription" : "With this heavy ancient door, no one will barge in so easily.",
+  "atprk_noolithDescription" : "Don't mind hieroglyphs please. I had to improvise here.",
+
   "inventoryIcon" : "atprk_ancientdooricon.png",
 
   "tooltipKind" : "door",

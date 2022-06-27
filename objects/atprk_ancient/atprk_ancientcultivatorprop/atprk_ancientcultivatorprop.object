@@ -17,6 +17,10 @@
   "hylotlDescription" : "A statue of the Cultivator in his full glory.",
   "novakidDescription" : "This statue here makes me feel... oddly nostalgic...",
 
+  "atprk_anneliskDescription" : "An ancient astronaut, I guess?",
+  "atprk_fenronDescription" : "A statue of a forceful godlike being.",
+  "atprk_noolithDescription" : "Rest in peace, our Cultivator. Your sacrifice will always be remembered.",
+
   "inventoryIcon" : "atprk_ancientcultivatorpropicon.png",
   "orientations" : [
     {
