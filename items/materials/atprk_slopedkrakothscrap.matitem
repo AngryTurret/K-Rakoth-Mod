@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_slopedkrakothscrap",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_slopedkrakothscrap.png",
+  "shortdescription" : "Eldritch Scrap Panel",
+  "description" : "Ancient scrap materials compressed into a solid metal cluster.",
+  "glitchdescription" : "Neutral. Some sort of an ancient scrap material.",
+  "florandescription" : "Packed junk metalsss.",
+  "novakiddescription" : "Compressed scraps o' some old machinery.",
+
+  "materialId" : 62116
+}

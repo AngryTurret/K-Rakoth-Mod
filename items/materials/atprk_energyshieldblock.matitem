@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_energyshieldblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_energyshieldblock.png",
+  "description" : "A shard of a force field. I wonder what powers it.",
+  "shortdescription" : "Aeon Force Field",
+  "glitchdescription" : "Impressed. Quite a powerful force field.",
+  "florandescription" : "Huge piece of ssstrong force field.",
+
+  "materialId" : 62115
+}
