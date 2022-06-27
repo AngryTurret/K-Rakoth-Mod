@@ -1,0 +1,61 @@
+{
+  "type" : "atprk_devoutdiverthreat",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Courageous. For the Lords of the Cosmos!",
+            "Agressive. We found these ruins first! Begone!",
+            "Intimidating. You will only find your demise beneath the waves!",
+            "Menacing. How dare you standing in our way?",
+            "Fearless. Our masters protect us!",
+            "Confident. Our rulers were masters of the sea! We shall never fail them!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "deepdiverhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "oxygentank", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npcpistol" }
+            ],
+            "alt" : [
+              "atprk_devoutshield"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

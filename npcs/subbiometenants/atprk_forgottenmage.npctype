@@ -1,0 +1,111 @@
+{
+  "type" : "atprk_forgottenmage",
+  "baseType" : "merchanttenant",
+  
+  "damageTeam" : 1,
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant"]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "glitch" : ["atprk_forgottenmagemerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 5,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Mage",
+          "subtitle" : "  Sells enchanted items"
+
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Friendly. If you don't believe in magic, you should check out my wares!",
+              "Inspired. Do you want to see a magic trick?",
+              "Mysterious. I can tell your future... for a price, of course.",
+              "Cordial. Ah, a fellow traveller! Feel free to look at my enchanted artifacts.",
+              "Eager. Can I interest you in something... arcane?"
+            ]
+          }  
+        },
+        "welcome" : {
+          "default" : {
+            "default" : [
+              "Eager. Here they are, my magical artifacts! Impressed yet?",
+              "Pleased. Take your time. I know it's hard to believe such items exist.",
+              "Excited. Finally, somebody actually wants to buy my stuff!",
+              "Confident. And before you ask, no, I cannot make you immortal.",
+              "Curious. So what do you think? Do you want to buy something?"
+            ]
+          }  
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Cordial. Thank you, come again!",
+              "Playful. Don't forget to come back, or I'll turn you into a frog!",
+              "Eager. Oh, and tell everyone unicorns are real!",
+              "Concerned. You will come back for more, right? Right?...",
+              "Friendly. Thank you, my friend!"
+            ]
+          }
+        },
+        "follow" : "/dialog/merchant.config:follow",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wizardhead", "parameters" : { "colorIndex" : [0, 2, 4, 5, 7, 8, 9, 10] } }
+            ],
+            "back" : [
+              { "name" : "wizardback", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "lanternstickback", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "wizardchest", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "legs" : [
+              { "name" : "wizardlegs", "parameters" : { "colorIndex" : 2 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

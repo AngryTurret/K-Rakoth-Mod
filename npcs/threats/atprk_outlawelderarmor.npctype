@@ -1,0 +1,69 @@
+{
+  "type" : "atprk_outlawelderarmor",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Eager. Fear me and my shiny armor!",
+            "Jovial. Go ahead, challenge me!",
+            "Jeering. Don't you lecture me with your 30 pixel helmet!",
+            "Confident. Nothing beats my amazing armor!",
+            "Sarcastic. Ooh yeah, your cheap equipment is very scary!",
+            "Prideful. I am the toughest Glitch on this planet!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "atprk_elderarmorhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "atprk_elderarmorchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "atprk_elderarmorlegs", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [ "npcpetcapturepod", "npcspear" ],
+            "sheathedprimary" : [ "npcrocketlauncher", "npcassaultrifle" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

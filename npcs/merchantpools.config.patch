@@ -1,0 +1,47 @@
+[{
+	"op": "add",
+	"path": "/atprk_forgottenmagemerchant",
+	"value": [
+		[0, [{
+				"item": {
+					"name": "prisiliteore"
+				}
+			},
+			{
+				"item": {
+					"name": "spookycauldron"
+				}
+			},
+			{
+				"item": {
+					"name": "unicornplush"
+				}
+			},
+			{
+				"item": {
+					"name": "atprk_forgottenorb"
+				},
+				"rarity": 0.5
+			},
+			{
+				"item": {
+					"name": "lanternstickback"
+				},
+				"rarity": 0.2
+			},
+			{
+				"item": {
+					"name": "throwinggnome"
+				},
+				"rarity": 0.2,
+				"price": 25
+			},
+			{
+				"item": {
+					"name": "wizardhead"
+				},
+				"rarity": 0.2
+			}
+		]]
+	]
+}]

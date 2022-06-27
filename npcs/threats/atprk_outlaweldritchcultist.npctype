@@ -1,0 +1,71 @@
+{
+  "type" : "atprk_outlaweldritchcultist",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Imposing. You will be fed to the Growing One!",
+            "Agressive. You will not escape Ri'shaan's judgement!",
+            "Fearless. The Growing One protects!",
+            "Enraged. Repent, you heretic!",
+            "Manic. Ri'shaan must grow!",
+            "Enraged. Cease your heresy!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : 6 } },
+              { "name" : "headbandhead", "parameters" : { "colorIndex" : 6 } },
+              { "name" : "glitchskullhead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier6mchest", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier6mpants", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "primary" : [ "npcpetcapturepod", "npchammer" ],
+            "sheathedprimary" : [ "npcrocketlauncher", "npcshotgun" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

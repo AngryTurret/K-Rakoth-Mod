@@ -1,0 +1,55 @@
+{
+  "type" : "atprk_eldritchcultistthreat",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Courageous. Glory to Ri'Shaan!",
+            "Imposing. The Growing One demands sacrifice!",
+            "Hostile. Stop right there, heretic!",
+            "Courageous. Ri'shaan must grow!",
+            "Confident. Our masters would be proud of us!",
+            "Agressive. Get that heretic!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "primary" : [
+              "npcshortsword",
+              "npcdagger"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npcpistol" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

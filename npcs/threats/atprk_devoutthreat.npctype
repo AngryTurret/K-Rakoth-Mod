@@ -1,0 +1,62 @@
+{
+  "type" : "atprk_devoutthreat",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Intimidating. Do you even know whom you approach?",
+            "Eager. For the Lords of the Cosmos!",
+            "Brave. Begone, you fool!",
+            "Fearless. Our masters protect us!",
+            "Menacing. How dare you standing in our way?",
+            "Hostile. You should've minded your own business!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier2head", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "glitchtier5mhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npctungstenbow" }
+            ],
+            "alt" : [
+              "atprk_devoutshield"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

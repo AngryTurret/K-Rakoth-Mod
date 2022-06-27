@@ -9,12 +9,12 @@
       "attack" : {
         "default" : {
           "default" : [
-            "Courageous. Glory to Ri'Shaan!"
+            "Courageous. Glory to Ri'shaan!"
           ]
         },
         "glitch" : {
           "default" : [
-            "Courageous. Glory to Ri'Shaan!",
+            "Courageous. Glory to Ri'shaan!",
             "Eager. For the Lords of the Cosmos!",
             "Menacing. You will be fed to the Growing one!",
             "Indignant. This is a sacred place, outsider!",

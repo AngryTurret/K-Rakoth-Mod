@@ -1,0 +1,77 @@
+{
+  "type" : "atprk_outlawseeker",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "You ain't gettin' any artifacts from me!",
+            "All ancient relics will be mine!",
+            "I'm the only real Relic Seeker!",
+            "You won't take my precious relics away!",
+            "You can pry ancient artifacts from my cold, dead hands!",
+            "Exchange this!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : [7] } },
+              { "name" : "bandithat1", "parameters" : { "colorIndex" : [7] } },
+              { "name" : "bandithat2", "parameters" : { "colorIndex" : [7] } },
+              { "name" : "mininghathead", "parameters" : { "colorIndex" : [7] } },
+              { "name" : "scientisthead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "back" : [
+              { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "moneybagsback", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "foundryforemanback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "primary" : [ "npcdagger", "npcpetcapturepod" ],
+            "sheathedprimary" : [ "npcassaultrifle", "npcsniperrifle" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

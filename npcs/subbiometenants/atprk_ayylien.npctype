@@ -4,7 +4,7 @@
 
   "scriptConfig" : {
     "questGenerator" : {
-      "pools" : ["common", "tenant", "shady"]
+      "pools" : ["common", "tenant", "guard", "shady"]
     },
     "reactions" : {
       "spontaneous" : [

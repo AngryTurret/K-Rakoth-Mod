@@ -1,0 +1,53 @@
+{
+  "type" : "atprk_ayylienthreat",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Fire!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Surrender your cattle and you will not be harmed!",
+            "Pew pew pew!",
+            "This planet will be ours!",
+            "Look at this primitive fool!",
+            "Do not resist, and we may spare you. Maybe.",
+            "We come in peace!... Just kidding, not really. Fire!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "beachcreeperhead", "parameters" : { "colorIndex" : [1, 2, 3] } }
+            ],
+            "chest" : [
+              { "name" : "hazmatchest", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "legs" : [
+              { "name" : "hazmatlegs", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "primary" : [
+              "raygun"
+            ],
+            "sheathedprimary" : [
+              "npcshortsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

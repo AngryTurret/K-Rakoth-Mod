@@ -1,0 +1,73 @@
+{
+  "type" : "atprk_outlawunicorn",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Friendship is magic... AND MAGIC IS HERESY!",
+            "UNICORN POWER! YEAH!",
+            "Quit laughing! PINK is the MANLIEST COLOR!",
+            "I AM FREAKIN' UNICORN!",
+            "Fight me, mortal! I DARE YOU!",
+            "I will PIERCE you with my MAGICAL HORN!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "unicornhead", "parameters" : { "colorIndex" : [0, 2, 4, 5, 9, 11] } },
+              { "name" : "horsehead", "parameters" : { "colorIndex" : [0, 2, 4, 5, 9, 11] } }
+            ],
+            "back" : [
+              { "name" : "fairyback", "parameters" : { "colorIndex" : [0, 3, 5, 6] } },
+              { "name" : "butterflywingsback", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "chest" : [
+              { "name" : "fairychest", "parameters" : { "colorIndex" : 10 } }
+            ],
+            "legs" : [
+              { "name" : "fairylegs", "parameters" : { "colorIndex" : 10 } }
+            ],
+            "primary" : [ "npcpetcapturepod", "npcmachinepistol" ],
+            "sheathedprimary" : [ "astrosabredeluxe" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}
