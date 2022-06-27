@@ -1,0 +1,30 @@
+{
+  "itemName" : "atprk_ruinousbulb",
+  "rarity" : "Essential",
+  "price" : 350,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "atprk_ruinousbulb.png",
+  "description" : "A vile organic bulb pulsating with hatred. Don't try to eat it.",
+  "shortdescription" : "Ruinous Bulb",
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 60
+    },
+    {
+        "effect" : "slimeslow",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "atprk_biotyranthead", "atprk_biotyrantchest", "atprk_biotyrantlegs" ]
+}
