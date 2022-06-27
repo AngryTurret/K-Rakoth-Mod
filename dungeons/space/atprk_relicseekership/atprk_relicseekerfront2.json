@@ -5208,18 +5208,6 @@
                  "y":320
                 }, 
                 {
-                 "gid":7848,
-                 "height":24,
-                 "id":2324,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":1264,
-                 "y":376
-                }, 
-                {
                  "gid":2147491465,
                  "height":16,
                  "id":2325,
@@ -6238,6 +6226,18 @@
                  "width":8,
                  "x":464,
                  "y":320
+                }, 
+                {
+                 "gid":9283,
+                 "height":8,
+                 "id":2675,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1264,
+                 "y":376
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6415,7 +6415,7 @@
                  "properties":
                     {
                      "npc":"novakid",
-                     "typeName":"atprk_relicseekercrewmate"
+                     "typeName":"atprk_fossilgoodstrader"
                     },
                  "propertytypes":
                     {
@@ -6426,7 +6426,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":1208,
+                 "x":1200,
                  "y":344
                 }],
          "opacity":1,
@@ -6476,7 +6476,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2674,
+ "nextobjectid":2676,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
