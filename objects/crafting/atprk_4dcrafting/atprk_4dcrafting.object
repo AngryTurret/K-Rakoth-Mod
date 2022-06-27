@@ -4,18 +4,9 @@
   "rarity" : "Legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/atprk_crafting.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : "Dimensional Compressor",
-        "subtitle" : "Think outside the third dimension",
-        "icon" : {
-          "file" : "/interface/crafting/atprk_4dcraftingicon.png"
-        }
-      }
-    },
-    "filter" : [ "atprk_4dcrafting" ]
+    "config" : "/interface/windowconfig/atprk_4dcrafting.config"
   },
+
   "printable" : false,
   "description" : "A hi-tech station that creates four-dimensional objects.",
   "shortdescription" : "Dimensional Compressor",
@@ -24,12 +15,6 @@
   "price" : 250,
 
   "learnBlueprintsOnPickup" : [
-    "atprk_4dblock",
-    "atprk-4dcratemedium",
-    "atprk-4dcratesmall",
-    "atprk-4dchair",
-    "atprk-4dtable",
-    "atprk_4dcraftingsmall",
     "atprk_4dcube",
     "atprk_hyperpixel"
   ],

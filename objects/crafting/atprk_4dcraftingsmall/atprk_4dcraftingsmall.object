@@ -4,18 +4,15 @@
   "rarity" : "Legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/atprk_crafting.config",
+    "config" : "/interface/windowconfig/atprk_4dcrafting.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Mini-Compressor",
-        "subtitle" : "Think outside the third dimension",
-        "icon" : {
-          "file" : "/interface/crafting/atprk_4dcraftingicon.png"
-        }
+        "subtitle" : "Think outside the third dimension"
       }
-    },
-    "filter" : [ "atprk_4dcrafting" ]
+    }
   },
+
   "printable" : false,
   "description" : "A more compact version of the Dimensional Compressor. Unlocks more recipes.",
   "shortdescription" : "Mini-Compressor",
@@ -26,8 +23,7 @@
   "learnBlueprintsOnPickup" : [
     "atprk_reconstructiontablesmall",
     "atprk_relicexchangesmall",
-    "atprk_experimentalterraformingsmall",
-    "atprk-4dperfect"
+    "atprk_experimentalterraformingsmall"
   ],
 
   "lightColor" : [99, 13, 84],
