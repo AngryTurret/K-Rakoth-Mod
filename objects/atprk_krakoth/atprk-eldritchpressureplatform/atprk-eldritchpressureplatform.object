@@ -9,6 +9,7 @@
   "shortdescription" : "Eldritch Pressure Platform",
   "race" : "generic",
   "printable" : false,
+  "health" : 2.5,
 
   "apexDescription" : "Some kind of pressure sensitive platform.",
   "avianDescription" : "What happens if I stand on this?",

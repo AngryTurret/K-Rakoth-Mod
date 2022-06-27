@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-flagkrakoth",
+  "colonyTags" : ["atrpk_krakoth"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 140,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The K'Rakoth flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "K'Rakoth Holoflag",
+  "race" : "generic",
+
+  "apexDescription" : "A K'Rakothan flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This K'Rakoth flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "K'Rakoth flag makess good point to teleport back to ussing teleporter!",
+  "glitchDescription" : "Observant. A small locator module attached to this K'Rakothan flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This K'Rakoth flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This K'Rakothan flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this K'Rakoth flag for quick teleportin'.",
+
+  "learnBlueprintsOnPickup" : [
+    "atprk-flagkrakoth"
+  ],
+
+  "lightColor" : [117, 58, 127],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "atprk-flagkrakothicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk-flagkrakothleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-flagkrakothleftlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk-flagkrakoth.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-flagkrakothlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
