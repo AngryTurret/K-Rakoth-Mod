@@ -1,0 +1,144 @@
+{
+  "metadata" : {
+    "name" : "atprk_ambermicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_amberarch", "atprk_amberbushes1", "atprk_amberbushes2", "atprk_amberbushes3", "atprk_amberbushes4", "atprk_ambercritternest", "atprk_amberformation1", "atprk_amberformation2", "atprk_amberformation3", "atprk_amberformation4", "atprk_amberformation5", "atprk_ambergarden1", "atprk_ambergarden2",  "atprk_ambergarden3", "atprk_ambermine", "atprk_amberpit", "atprk_amberplant1", "atprk_amberplant2" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_amberarch",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberarch.json" ]
+    },
+    {
+      "name" : "atprk_amberbushes1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberbushes1.json" ]
+    },
+    {
+      "name" : "atprk_amberbushes2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberbushes2.json" ]
+    },
+    {
+      "name" : "atprk_amberbushes3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberbushes3.json" ]
+    },
+    {
+      "name" : "atprk_amberbushes4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberbushes4.json" ]
+    },
+    {
+      "name" : "atprk_ambercritternest",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ambercritternest.json" ]
+    },
+    {
+      "name" : "atprk_amberformation1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberformation1.json" ]
+    },
+    {
+      "name" : "atprk_amberformation2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberformation2.json" ]
+    },
+    {
+      "name" : "atprk_amberformation3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberformation3.json" ]
+    },
+    {
+      "name" : "atprk_amberformation4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberformation4.json" ]
+    },
+    {
+      "name" : "atprk_amberformation5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberformation5.json" ]
+    },
+    {
+      "name" : "atprk_ambergarden1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ambergarden1.json" ]
+    },
+    {
+      "name" : "atprk_ambergarden2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ambergarden2.json" ]
+    },
+    {
+      "name" : "atprk_ambergarden3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ambergarden3.json" ]
+    },
+    {
+      "name" : "atprk_ambermine",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_ambermine.json" ]
+    },
+    {
+      "name" : "atprk_amberpit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberpit.json" ]
+    },
+    {
+      "name" : "atprk_amberplant1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberplant1.json" ]
+    },
+    {
+      "name" : "atprk_amberplant2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_amberplant2.json" ]
+    }
+  ]
+}
