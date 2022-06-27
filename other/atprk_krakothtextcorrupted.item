@@ -1,8 +1,0 @@
-{
-  "itemName" : "atprk_krakothtextcorrupted",
-  "rarity" : "Common",
-  "category" : "junk",
-  "inventoryIcon" : "atprk_krakothtextcorrupted.png",
-  "description" : "^red;This entry's contents are corrupted beyond comprehension.^white;",
-  "shortdescription" : "Corrupted K'Rakoth Codex"
-}

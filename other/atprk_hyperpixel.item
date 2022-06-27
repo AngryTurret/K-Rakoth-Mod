@@ -1,9 +1,0 @@
-{
-  "itemName" : "atprk_hyperpixel",
-  "price" : 5000,
-  "rarity" : "Legendary",
-  "category" : "currency",
-  "inventoryIcon" : "atprk_hyperpixel.png",
-  "description" : "An advanced form of currency once used by the K'Rakoth people.",
-  "shortdescription" : "Hyperpixel"
-}
