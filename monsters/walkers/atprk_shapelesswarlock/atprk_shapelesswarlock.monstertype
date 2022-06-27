@@ -1,12 +1,12 @@
 {
-  "type" : "atprk_shapelessdweller",
-  "shortdescription" : "Shapeless Dweller",
-  "description" : "A vaguely humanoid figure made of floating crystals. It's not happy to see you.",
+  "type" : "atprk_shapelesswarlock",
+  "shortdescription" : "Shapeless Warlock",
+  "description" : "Infused with pure erchius energy, this strange being can summon erchius spooks.",
 
-  "categories" : [ "atprk_shapelessdweller" ],
+  "categories" : [ "atprk_shapelesswarlock" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_shapelessdweller.animation",
+  "animation" : "atprk_shapelesswarlock.animation",
 
   "dropPools" : [ "atprk_shapelessdwellerTreasure" ],
 
@@ -16,6 +16,7 @@
     ],
 
     "behavior" : "monster",
+    "deathBehavior" : "monster-death",
 
     "behaviorConfig" : {
       "damageOnTouch" : true,
@@ -50,6 +51,17 @@
 
             "winddownState" : "idle",
             "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "concurrentHostileActions" : [
+        {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 2,
+            "spawnCooldown" : 4,
+            "monsterType" : "atprk_erchiusspook"
           }
         }
       ],
@@ -91,7 +103,18 @@
             "wanderTime" : [2, 4]
           }
         }
+      ],
+
+      "deathActions" : [
+        {
+          "name" : "action-spawnmonster",
+          "parameters" : {
+            "monsterType" : "atprk_erchiusspook",
+            "replacement" : true
+          }
+        }
       ]
+
     },
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
@@ -121,7 +144,7 @@
 
     "touchDamage" : {
       "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
-      "damage" : 30,
+      "damage" : 40,
 
       "teamType" : "enemy",
       "damageSourceKind" : "hammer",
@@ -151,7 +174,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 100
+          "baseValue" : 150
         },
         "fireResistance" : {
           "baseValue" : 0.5
@@ -169,10 +192,10 @@
           "baseValue" : 1.0
         },
         "healthRegen" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.1
         },
         "powerMultiplier" : {
-          "baseValue" : 1.0
+          "baseValue" : 1.2
         }
       },
 

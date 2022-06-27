@@ -55,7 +55,7 @@
             "minimumRange" : 5,
             "maximumRange" : 20,
             "keepInRange" : true,
-            "windupTime" : 6,
+            "windupTime" : 3,
 
             "chargeTime" : 2,
             "chargeSpeed" : 40,

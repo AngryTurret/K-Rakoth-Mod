@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_ambryo",
+  "category" : "atprk_ambryo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_ambryo.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_xenoprobe",
+  "category" : "atprk_xenoprobe",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_xenoprobe.png",
+    "bodynobright" : "atprk_xenoprobenobright.png"
+  }
+}

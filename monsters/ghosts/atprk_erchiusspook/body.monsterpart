@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_erchiusspook",
+  "category" : "atprk_erchiusspook",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_erchiusspook.png"
+  }
+}
