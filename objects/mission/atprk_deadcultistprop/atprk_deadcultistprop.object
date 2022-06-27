@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_deadcultistprop",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "scannable" : false,
+  "description" : "A rather unlucky cultist.",
+  "shortdescription" : "Dead Occasus Cultist",
+  "race" : "human",
+
+  "apexDescription" : "I have strong reasons to doubt they are just sleeping...",
+  "avianDescription" : "Oh dear Kluex, at least spare their soul in the afterlife.",
+  "floranDescription" : "Fresh meatsss wrapped in purple!",
+  "glitchDescription" : "Sarcastic. Oh no! Anyway...",
+  "humanDescription" : "I wouldn't want to be this hooded guy.",
+  "hylotlDescription" : "Although they worshipped the Ruin, I don't think they deserved such a horrible fate.",
+  "novakidDescription" : "I kinda feel bad for that cultist.",
+
+
+  "inventoryIcon" : "atprk_deadcultistpropicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_deadcultistprop.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

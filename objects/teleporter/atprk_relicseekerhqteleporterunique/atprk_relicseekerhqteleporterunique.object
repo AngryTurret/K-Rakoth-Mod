@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_relicseekerhqteleporterunique",
+  "colonyTags" : ["atprk_relicseeker","misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "A brass teleporter, connects to bookmarked locations.",
+  "shortdescription" : "Relic Seeker Teleporter",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "A personal teleporter. A functional but fun piece of equipment.",
+  "avianDescription" : "I love the whoosh of my feathers when I teleport!",
+  "floranDescription" : "Perssonal teleporter is fancy!",
+  "glitchDescription" : "Enticed. A personal teleporter, with a custom design.",
+  "humanDescription" : "A personal teleporter! Now this is travelling in style.",
+  "hylotlDescription" : "A personal teleporter, it sports a custom design.",
+  "novakidDescription" : "As teleporters go, this sure is fancy lookin'!",
+
+  "category" : "teleporter",
+  "lightColor" : [40, 80, 100],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/atprk_relicseekerhquniquetele.config",
+
+  "inventoryIcon" : "atprk_relicseekerhqteleporteruniqueicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicseekerhqteleporterunique.png:<color>", "fullbright" : true }, { "image" : "atprk_relicseekerhqteleporteruniquelit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 10,
+
+  "teleporterFootPosition" : [0, 1]
+
+}
