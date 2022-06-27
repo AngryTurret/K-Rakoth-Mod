@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_ruinedworldpin",
+  "colonyTags" : ["atprk_planetpin","evil"],
+  "rarity" : "Essential",
+  "description" : "A large pin of a ruined planet.",
+  "shortdescription" : "Ruined Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 300,
+
+  "apexDescription" : "A nearly fully organic ruined planet that can only be created artificially.",
+  "avianDescription" : "Not a single celestial body in the known Universe is as vile and twisted as a ruined planet.",
+  "floranDescription" : "Ruined planetsss aren't natural... Ruined planetsss are too sscary to exissst.",
+  "glitchDescription" : "Scared. A nightmarish ruined planet of pure flesh and hatred.",
+  "humanDescription" : "A pin of a ruined planet that shouldn't exist, yet it totally does.",
+  "hylotlDescription" : "An abominable, unnatural ruined planet under the nefarious influence of the Ruin itself.",
+  "novakidDescription" : "Never in my whole life have I seen a planet crazier than the ruined one.",
+
+  "inventoryIcon" : "atprk_ruinedworldpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ruinedworldpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

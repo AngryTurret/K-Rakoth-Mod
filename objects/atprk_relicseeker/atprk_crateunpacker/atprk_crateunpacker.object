@@ -1,0 +1,68 @@
+{
+  "objectName" : "atprk_crateunpacker",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A penguin who unpacks various trade goods for dubloons.",
+  "shortdescription" : "Crate Unpacker",
+  "race" : "generic",
+  "printable" : false,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Crate Unpacker",
+        "subtitle" : "Unpack various trade goods",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_crateunpackericon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_crateunpacker" ]
+  },
+
+  "apexDescription" : "I can pay this penguin with dubloons to unpack trade goods.",
+  "avianDescription" : "If I give this penguin a dubloon, he will unpack some trade goods.",
+  "floranDescription" : "Tiny bird openss cratesss for dubloonsss.",
+  "glitchDescription" : "Relieved. Finally, now I don't have to resell spare trade goods.",
+  "humanDescription" : "This little guy can unpack crates bought at space stations.",
+  "hylotlDescription" : "Do I really have to pay a whole dubloon to open a single crate?",
+  "novakidDescription" : "A lil' fella who unpacks crates for dubloons.",
+
+  "inventoryIcon" : "atprk_crateunpackericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_crateunpacker.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_crateunpackerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 22,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_crateunpacker.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_crateunpackerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 22,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

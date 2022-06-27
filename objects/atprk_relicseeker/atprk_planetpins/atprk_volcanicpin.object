@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_volcanicpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a volcanic planet.",
+  "shortdescription" : "Volcanic Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A pin of an extremely hot volcanic planet where solarium ore can be found in abundance.",
+  "avianDescription" : "Burnt by Kluex's rage, these volcanic wastelands are too dangerous to explore unless you know what you're doing.",
+  "floranDescription" : "Too much fire on volcanic planetsss! Very bad!",
+  "glitchDescription" : "Nostalgic. Many generations of the Glitch were built on volcanic planets like the one this pin shows.",
+  "humanDescription" : "What happens if I heat up this volcanic planet pin? Should I even try doing this?",
+  "hylotlDescription" : "A pin of a volcanic planet. Those extremely hot planets are usually occupied by the Glitch.",
+  "novakidDescription" : "Basically a steamin' hot volcanic world full o' lava and obsidian. Tough folks live there.",
+
+  "inventoryIcon" : "atprk_volcanicpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_volcanicpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

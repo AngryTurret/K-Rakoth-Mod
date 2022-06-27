@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk_mechplatformoff",
+  "colonyTags" : ["misc"],
+  "rarity" : "Uncommon",
+  "description" : "A deactivated mech teleportation platform.",
+  "shortdescription" : "Disabled Mech Platform",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+  "printable" : false,
+
+  "apexDescription" : "This mech teleportation platform is currently disabled for safety.",
+  "avianDescription" : "It seems that this platform is turned off so no one summons a mech by accident.",
+  "floranDescription" : "Hey, mech sssuit thingy doessn't work!",
+  "glitchDescription" : "Neutral. A deactivated mech platform. I don't need it now anyway.",
+  "humanDescription" : "Why can't I summon my mech here? Is this mech platform broken or something?",
+  "hylotlDescription" : "For now there is no real need to summon a mech so this platform is deactivated.",
+  "novakidDescription" : "This mech platform ain't workin' yet.",
+
+  "inventoryIcon" : "atprk_mechplatformofficon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_mechplatformoff.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    },
+    {
+      "image" : "atprk_mechplatformoff.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    }
+  ]
+}
