@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ancientdoorpropdouble",
+  "colonyTags" : ["ancient","atprk_ancient","door"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Two doors made of ancient materials.",
+  "shortdescription" : "Ancient Double Door Prop",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "Double doors that look older than our entire civilization.",
+  "avianDescription" : "Finally, ancient doors that don't open into bizarre pocket dimensions!",
+  "floranDescription" : "Floran not like old doors. Old doorss are too heavy.",
+  "glitchDescription" : "Neutral. Doors manufactured from an extremely old material.",
+  "humanDescription" : "Knock-knock! Can the Ancients come out to play?",
+  "hylotlDescription" : "A curious design, indeed.",
+  "novakidDescription" : "Double doors that look older than they really are.",
+
+  "atprk_anneliskDescription" : "If anybody asks, these doors are millenia old and totally not bought in a store.",
+  "atprk_fenronDescription" : "With these heavy ancient doors, no one will barge in so easily.",
+  "atprk_noolithDescription" : "These are nothing but a cheap copy.",
+
+  "inventoryIcon" : "atprk_ancientdoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientdoorpropdouble.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

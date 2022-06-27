@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_ancientlightdoor",
+  "colonyTags" : ["ancient","atprk_ancient","door"],
+  "rarity" : "Legendary",
+  "category" : "door",
+  "price" : 95,
+  "printable" : false,
+  "description" : "A beam of hard light creating a door.",
+  "shortdescription" : "Ancient Light Door",
+  "race" : "ancient",
+
+  "closedLight" : [103, 250, 255],
+
+  "apexDescription" : "Just your average holographic door.",
+  "avianDescription" : "I don't think it will keep anyone out.",
+  "floranDescription" : "Floran suspiciousss of hard light.",
+  "glitchDescription" : "Puzzled. I don't see any force field generator that would explain this barrier.",
+  "humanDescription" : "This door is made of some sort of force field technology.",
+  "hylotlDescription" : "A barrier of pure light that prevents anything from passing through.",
+  "novakidDescription" : "Solid energy, just like us Novakid.",
+
+  "atprk_anneliskDescription" : "If it weren't for this awful glow, it'd be a very efficient way to keep strangers out.",
+  "atprk_fenronDescription" : "How does this barrier work? I mean, something has to power it, right?",
+  "atprk_noolithDescription" : "A solid beam of light.",
+
+  "inventoryIcon" : "atprk_ancientlightdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientlightdoor.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/atprk_ancient/atprk_ancientlightdoor/atprk_ancientlightdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/ancientlightplatform_off.ogg" ],
+      "close" : [ "/sfx/objects/ancientlightplatform_on.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk_ancientlightdoor.png",
+    "fg" : ""
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

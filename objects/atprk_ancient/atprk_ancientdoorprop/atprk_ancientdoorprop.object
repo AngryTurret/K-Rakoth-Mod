@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ancientdoorprop",
+  "colonyTags" : ["ancient","atprk_ancient","door"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A door made of ancient materials.",
+  "shortdescription" : "Ancient Door",
+  "race" : "ancient",
+  "printable" : false,
+
+  "apexDescription" : "A door that looks older than our entire civilization.",
+  "avianDescription" : "Finally, an ancient door that doesn't open into bizarre pocket dimensions!",
+  "floranDescription" : "Floran not like old door. Old door iss too heavy.",
+  "glitchDescription" : "Neutral. A door manufactured from an extremely old material.",
+  "humanDescription" : "Knock-knock! Can the Ancients come out to play?",
+  "hylotlDescription" : "A curious design, indeed.",
+  "novakidDescription" : "A door that looks older than it really is.",
+
+  "atprk_anneliskDescription" : "If anybody asks, this door is millenia old and totally not bought in a store.",
+  "atprk_fenronDescription" : "With this heavy ancient door, no one will barge in so easily.",
+  "atprk_noolithDescription" : "This is nothing but a cheap copy.",
+
+  "inventoryIcon" : "atprk_ancientdoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientdoorprop.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
