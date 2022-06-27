@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "atprk_4dparticle", "count" : 6},
+    { "item" : "wire", "count" : 2},
+    { "item" : "atprk_chthonicscraps", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_4dcube",
+    "count" : 1
+  },
+  "groups" : [ "atprk_4dcrafting", "atprk_4dmain", "mod" ]
+}

@@ -1,6 +1,6 @@
 {
   "currencyInputs" : {
-    "essence" : 1500
+    "essence" : 500
   },
   "input" : [
     { "item" : "liquidoil", "count" : 25 },

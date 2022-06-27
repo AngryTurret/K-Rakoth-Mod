@@ -3,12 +3,12 @@
     "essence" : 500
   },
   "input" : [
-    { "item" : "venomsample", "count" : 5 },
-    { "item" : "fleshstrand", "count" : 20 },
-    { "item" : "eyepiles", "count" : 50 }
+    { "item" : "bone", "count" : 15 },
+    { "item" : "biosample", "count" : 10 },
+    { "item" : "atprk_amberblock", "count" : 50 }
   ],
   "output" : {
-    "item" : "atprk_microformerbiomass",
+    "item" : "atprk_microformeramber",
     "count" : 1
   },
   "duration" : 0,

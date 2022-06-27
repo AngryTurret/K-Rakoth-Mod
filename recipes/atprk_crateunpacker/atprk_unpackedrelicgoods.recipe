@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "dubloon", "count" : 1 },
+    { "item" : "atprk_relicgoods", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_unpackedrelicgoods",
+    "count" : 1
+  },
+  "groups" : [ "atprk_crateunpacker" ]
+}

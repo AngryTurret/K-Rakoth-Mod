@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "dubloon", "count" : 1 },
+    { "item" : "medicalgoods", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_unpackedmedicalgoods",
+    "count" : 1
+  },
+  "groups" : [ "atprk_crateunpacker" ]
+}
