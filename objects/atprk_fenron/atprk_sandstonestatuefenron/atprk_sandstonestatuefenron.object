@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk_sandstonestatuefenron",
+  "colonyTags" : ["sandstone","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A sandstone memorial of a forgotten race.",
+  "shortdescription" : "Fenron Sandstone Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "A sandstone statue of an unknown mammalian.",
+  "avianDescription" : "I don't know what this creature is supposed to be but it's clearly a predator.",
+  "floranDescription" : "Floran wantsss to find and catch sssome cat people to try their meatsss.",
+  "glitchDescription" : "Irked. Yet another furry creature. I cannot identify this one, however.",
+  "humanDescription" : "What a strange way to portray a Fenerox.",
+  "hylotlDescription" : "What are you, a mysterious feline creature?",
+  "novakidDescription" : "Some tall wild cat or somethin'.",
+
+  "atprk_anneliskDescription" : "A strong furry guy. Should've put that thing on a sandstone leash or something.",
+  "atprk_fenronDescription" : "So many people mistake us for those primitive savannah dwellers it's not funny anymore.",
+  "atprk_noolithDescription" : "A Fenron statue made of sandstone. While not exactly authentic, it does capture their strength.",
+
+  "inventoryIcon" : "atprk_sandstonestatuefenronicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_sandstonestatuefenron.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk_traprootpot",
+  "colonyTags" : ["atprk_fenron","nature","pretty"],
+  "rarity" : "Common",
+  "description" : "A potted predatory plant. Better keep your fingers away!",
+  "shortdescription" : "Traproot Pot",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "apexDescription" : "As exotic as it is, why would anyone keep a large predatory plant at home?",
+  "avianDescription" : "These plants normally grow in scarlet jungles and tend to be quite a nuisance.",
+  "floranDescription" : "Sssmall friend in a pot.",
+  "glitchDescription" : "Relieved. Traproots are unlikely to harm you if you are a Glitch.",
+  "humanDescription" : "A bitey plant for sure. Looks like an oversized Venus flytrap to me.",
+  "hylotlDescription" : "What an odd choice of a house plant. It reminds me of Florans in a way.",
+  "novakidDescription" : "Uh, should I water it or feed it meat?",
+
+  "inventoryIcon" : "atprk_traprootpoticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_traprootpot.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk_traprootpot.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}
