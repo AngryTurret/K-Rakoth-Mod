@@ -10,7 +10,7 @@
   "printable" : false,
   "category" : "storage",
   "price" : 220,
-  "health" : 1.5,
+  "health" : 2.5,
 
   "apexDescription" : "A four-dimensional crate? But I thought the fourth dimension was temporal, not spatial!",
   "avianDescription" : "Is this a four-dimensional container? By Kluex, how is this possible?",

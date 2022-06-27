@@ -8,7 +8,7 @@
   "race" : "generic",
   "category" : "furniture",
   "price" : 180,
-  "health" : 1.5,
+  "health" : 2.5,
 
   "apexDescription" : "A frame of a four-dimensional space generator.",
   "avianDescription" : "A deactivated storage frame.",
