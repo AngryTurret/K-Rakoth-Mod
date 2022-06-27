@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 10 },
+    { "item" : "atprk_eldertech", "count" : 5 },
+    { "item" : "wire", "count" : 6 },
+    { "item" : "atprk_aeonbattery", "count" : 3 }
+  ],
+  "output" : { "item" : "atprk_krakothlaserminer", "count" : 1 },
+  "groups" : [ "craftingfarm2", "survival", "mod" ]
+}

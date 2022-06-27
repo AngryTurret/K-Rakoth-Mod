@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 20}
+  ],
+  "output" : {
+    "item" : "atprk_amberinsect1",
+    "count" : 1
+  },
+  "groups" : [ "biorecipes" ]
+}
