@@ -1,7 +1,7 @@
 {
   "type" : "atprk_krakothpatroldrone",
-  "shortdescription" : "K'Rakoth Patrol Drone",
-  "description" : "A patrol drone built by K'Rakoths. For some reason, it's equipped with heavy weapons.",
+  "shortdescription" : "Major Eldrone",
+  "description" : "A large patrol drone designed by K'Rakoths. It's equipped with heavy weapons.",
 
   "categories" : [ "atprk_krakothpatroldrone" ],
   "parts" : [ "body", "bodylit" ],
@@ -29,17 +29,19 @@
       "hostileActions" : [
         {
           "name" : "action-fire",
-          "cooldown" : 2.0,
+          "cooldown" : 1.0,
           "parameters" : {
             "onGround" : false,
             "requireLineOfSight" : true,
             "maximumRange" : 100,
             "minimumRange" : 2,
             "windupState" : "fire",
-            "windupTime" : 0.6,
+            "windupTime" : 0.4,
             "windupStopForce" : 200,
 
             "projectileType" : "armcannonfire",
+            "projectileCount" : 2,
+            "projectileInterval" : 0.15,
             "fireOffset" : [0, -2.0],
             "fireSound" : "fire",
             "fireState" : "",
@@ -150,10 +152,10 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 60
+          "baseValue" : 95
         },
         "protection" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -183,7 +185,7 @@
         "health" : {
           "maxStat" : "maxHealth",
           "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+          "defaultPercentage" : 120
         }
       }
     },

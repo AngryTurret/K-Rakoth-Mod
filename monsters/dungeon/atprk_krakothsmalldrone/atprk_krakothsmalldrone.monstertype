@@ -1,6 +1,6 @@
 {
   "type" : "atprk_krakothsmalldrone",
-  "shortdescription" : "Small K'Rakoth Drone",
+  "shortdescription" : "Minor Eldrone",
   "description" : "A small security drone built by K'Rakoths.",
 
   "categories" : [ "atprk_krakothsmalldrone_parts" ],
@@ -140,10 +140,10 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 48
+          "baseValue" : 60
         },
         "protection" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.5
         },
         "healthRegen" : {
           "baseValue" : 0.0

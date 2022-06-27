@@ -59,6 +59,8 @@
             "windupTime" : 0.8,
 
             "projectileType" : "yellowplasmabullet",
+            "projectileCount" : 3,
+            "projectileInterval" : 0.1,
             "projectileParameters" : {
               "speed" : 45
             },
