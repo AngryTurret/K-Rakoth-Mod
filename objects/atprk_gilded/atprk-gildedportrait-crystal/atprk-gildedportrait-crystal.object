@@ -17,6 +17,10 @@
   "humanDescription" : "Perhaps it was the easiest portrait to make.",
   "hylotlDescription" : "A strange octogonal crystal with a single eye.",
   "novakidDescription" : "You should frown less, my crystal buddy.",
+
+  "atprk_anneliskDescription" : "For a second I thought it was a company logo.",
+  "atprk_fenronDescription" : "What's up with that judgemental look?",
+  "atprk_noolithDescription" : "The things those maddened zealots did to my people... They cannot be forgiven.",
   
   "inventoryIcon" : "atprk-gildedportrait-crystalicon.png",
   "orientations" : [

@@ -17,6 +17,10 @@
   "hylotlDescription" : "A golden statue of a very important K'Rakoth.",
   "novakidDescription" : "This golden fella probably had a big name.",
 
+  "atprk_anneliskDescription" : "This fella must've been a big shot.",
+  "atprk_fenronDescription" : "There is no way this hunched squid got any legitimate respect from their peers.",
+  "atprk_noolithDescription" : "A statue of a K'Rakothan priest. There can be no redemption for them.",
+
   "inventoryIcon" : "atprk-gildedstatueicon.png",
   "orientations" : [
     {

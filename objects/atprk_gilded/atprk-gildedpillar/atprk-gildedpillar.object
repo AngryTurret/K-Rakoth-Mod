@@ -8,6 +8,7 @@
   "race" : "generic",
   "category" : "furniture",
   "price" : 145,
+  "health" : 1.5,
 
   "apexDescription" : "I don't think this pillar is very functional.",
   "avianDescription" : "This pillar stayed intact for so long...",
@@ -16,6 +17,10 @@
   "humanDescription" : "Some heavy-looking pillar.",
   "hylotlDescription" : "A beautiful pillar covered in gold.",
   "novakidDescription" : "Why'd anyone waste so much gold on a pillar?",
+
+  "atprk_anneliskDescription" : "Great job! So much pure gold down the drain!",
+  "atprk_fenronDescription" : "A thick golden pillar. It won't be hard to climb it.",
+  "atprk_noolithDescription" : "It could be a beautiful pillar but they just had to ruin it with grotesque hieroglyphs.",
 
   "inventoryIcon" : "atprk-gildedpillaricon.png",
   "orientations" : [

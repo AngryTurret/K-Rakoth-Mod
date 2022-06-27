@@ -9,6 +9,7 @@
   "shortdescription" : "Gilded Pressure Platform",
   "race" : "generic",
   "printable" : false,
+  "health" : 2.5,
 
   "apexDescription" : "I suspect it is yet another pressure sensitive platform, but golden.",
   "avianDescription" : "A pressure sensitive platform made of gold... I think.",
@@ -17,6 +18,10 @@
   "humanDescription" : "A pressure platform but somewhat fancier.",
   "hylotlDescription" : "What a waste of precious metals, honestly.",
   "novakidDescription" : "It may be golden but I shouldn't stand on it for too long.",
+
+  "atprk_anneliskDescription" : "A golden booby-trapped platform is still a booby-trapped platform.",
+  "atprk_fenronDescription" : "If I move fast enough, I shoudn't fall off this slippery platform.",
+  "atprk_noolithDescription" : "An obviously rigged platform.",
 
   "inventoryIcon" : "atprk-gildedpressureplatformicon.png",
 

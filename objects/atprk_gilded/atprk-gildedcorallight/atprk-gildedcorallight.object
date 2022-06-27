@@ -15,6 +15,10 @@
   "hylotlDescription" : "Ember coral is a reliable light source. Sadly, many underestimate it.",
   "novakidDescription" : "It glows as bright as one of my folks!",
 
+  "atprk_anneliskDescription" : "A natural waterproof lamp. And it even comes with a golden handle!",
+  "atprk_fenronDescription" : "A luminous ember coral glued to a golden handle.",
+  "atprk_noolithDescription" : "I'm not sure how this coral is still alive. Perhaps there's something inside the handle that keeps it from dehydrating.",
+
   "category" : "light",
   "price" : 85,
   "lightColor" : [240, 120, 0],

@@ -15,6 +15,10 @@
   "hylotlDescription" : "A boulder trap? I expected more from the elder race.",
   "novakidDescription" : "This thing's trowin' rocks at you.",
 
+  "atprk_anneliskDescription" : "Really? Just a boulder? No lasers, no antimatter bombs, no killer drones? Well, that's anticlimactic.",
+  "atprk_fenronDescription" : "My people used boulder traps before it was cool.",
+  "atprk_noolithDescription" : "Out of all possible options they had, did they really resort to mere boulder traps?",
+
   "category" : "trap",
   "price" : 200,
 

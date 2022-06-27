@@ -14,9 +14,13 @@
   "avianDescription" : "A worm? A snake? Maybe neither or both.",
   "floranDescription" : "Floran doesss not know whossse face it iss.",
   "glitchDescription" : "Puzzled. Is this a reptiloid creature? It could be an insectoid, though.",
-  "humanDescription" : "What is this, a mask? Doesn't look like a normal face, anyway.",
+  "humanDescription" : "What is this, a mask? Doesn't look like a normal face anyway.",
   "hylotlDescription" : "Featureless faces like this one are not recognizable at all. Who is this?",
   "novakidDescription" : "A... uh... brandless Novakid? No, wait, it has eyes.",
+
+  "atprk_anneliskDescription" : "I wish somebody made me a golden portrait, too.",
+  "atprk_fenronDescription" : "An evil-looking serpent. I can tell by the look in its eyes it prepares to jump.",
+  "atprk_noolithDescription" : "The Annelisks' greed is what led them to help Ri'shaan zealots. They had no idea what they sold their freedom for.",
   
   "inventoryIcon" : "atprk-gildedportrait-wormicon.png",
   "orientations" : [

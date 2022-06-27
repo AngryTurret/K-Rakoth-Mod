@@ -17,6 +17,10 @@
   "hylotlDescription" : "I wonder what liquids it contained.",
   "novakidDescription" : "A mighty fine golden cup.",
 
+  "atprk_anneliskDescription" : "I wonder how much this golden glass costs.",
+  "atprk_fenronDescription" : "A masterfully crafted chalice worthy of the strongest warriors.",
+  "atprk_noolithDescription" : "A gilded chalice for exotic juices.",
+
   "inventoryIcon" : "atprk-gildedglassicon.png",
   "orientations" : [
     {

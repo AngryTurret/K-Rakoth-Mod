@@ -17,6 +17,10 @@
   "humanDescription" : "The elder race appreciated the Glitch, it seems.",
   "hylotlDescription" : "It sure looks amazing, but why not a beautiful Hylotl's face?",
   "novakidDescription" : "A giant Glitch's head. Probably ain't real.",
+
+  "atprk_anneliskDescription" : "I don't know who this Glitch was but it seems they were in high spirits.",
+  "atprk_fenronDescription" : "A Glitch portrait made of gold. I wonder why it's grinning this way.",
+  "atprk_noolithDescription" : "The Glitch were always the most loyal to the False Lords. If only they knew better...",
   
   "inventoryIcon" : "atprk-gildedportrait-glitchicon.png",
   "orientations" : [

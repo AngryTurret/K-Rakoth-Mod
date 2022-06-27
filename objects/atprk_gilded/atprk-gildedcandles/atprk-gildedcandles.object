@@ -17,6 +17,10 @@
   "hylotlDescription" : "It's curious how ancient Hylotl also used glowing corals to illuminate their surroundings.",
   "novakidDescription" : "A candlestick you ain't have to light up everytime.",
 
+  "atprk_anneliskDescription" : "Not only cheap but also a 100% eco-friendly source of light.",
+  "atprk_fenronDescription" : "When you don't have an opportunity to make fire, you have to improvise.",
+  "atprk_noolithDescription" : "How exactly does this coral get its nourishment, anyway? Is it even natural?",
+
   "statusEffects" : [ ],
   
   "lightColor" : [240, 120, 0],

@@ -4,6 +4,7 @@
   "rarity" : "Legendary",
   "category" : "decorative",
   "price" : 240,
+  "health" : 4,
 
   "description" : "A large gilded organ that hasn't been used for ages.",
   "shortdescription" : "Gilded Organ",
@@ -17,6 +18,10 @@
   "humanDescription" : "An ominous organ. A good choice for a mansion or a church.",
   "hylotlDescription" : "A crude musical instrument.",
   "novakidDescription" : "A big ol' organ that wouldn't be out o' place in a church.",
+
+  "atprk_anneliskDescription" : "A giant tentacled organ covered in gold.",
+  "atprk_fenronDescription" : "This huge organ can definitely crush a person if it tips over.",
+  "atprk_noolithDescription" : "A vile instrument that once ago spat out loud, sinister music.",
 
   "inventoryIcon" : "atprk-gildedorganicon.png",
   "orientations" : [

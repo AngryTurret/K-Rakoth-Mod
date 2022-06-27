@@ -17,6 +17,10 @@
   "hylotlDescription" : "A tentacled idol holding a cup.",
   "novakidDescription" : "A strange tentacled idol made o' gold.",
 
+  "atprk_anneliskDescription" : "Yet another golden trinket.",
+  "atprk_fenronDescription" : "A small prey creature holding a plate.",
+  "atprk_noolithDescription" : "An object of depraved worship.",
+
   "inventoryIcon" : "atprk-gildedidolicon.png",
   "orientations" : [
     {

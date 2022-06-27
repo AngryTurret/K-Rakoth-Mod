@@ -17,6 +17,10 @@
   "humanDescription" : "Yeah, totally doesn't look like the Ruin or anything.",
   "hylotlDescription" : "It's rude to stare like that.",
   "novakidDescription" : "Ay, what're you lookin' at? Never seen a livin' star before?",
+
+  "atprk_anneliskDescription" : "What are you looking at? I'm not giving you any spare change!",
+  "atprk_fenronDescription" : "A watchful eye of a gilded predator.",
+  "atprk_noolithDescription" : "I will recognize this wicked gaze anywhere, in any form...",
   
   "inventoryIcon" : "atprk-gildedemblemicon.png",
   "orientations" : [

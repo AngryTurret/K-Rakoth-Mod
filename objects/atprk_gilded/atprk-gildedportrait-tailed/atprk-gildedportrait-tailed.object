@@ -17,6 +17,10 @@
   "humanDescription" : "Look, there are many furry races out there, how am I supposed to know which one this emblem represents?",
   "hylotlDescription" : "A mysterious feline being.",
   "novakidDescription" : "Kinda looks like a wild cat if you ask me.",
+
+  "atprk_anneliskDescription" : "A wild cat made of gold. Now I've seen everything!",
+  "atprk_fenronDescription" : "If it is supposed to be a Fenron, then it's anything but.",
+  "atprk_noolithDescription" : "So many Fenrons were sacrificed for nothing. I hope that at least their souls could find some rest.",
   
   "inventoryIcon" : "atprk-gildedportrait-tailedicon.png",
   "orientations" : [
