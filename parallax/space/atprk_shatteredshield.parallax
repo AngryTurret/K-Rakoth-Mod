@@ -1,0 +1,34 @@
+{
+  "layers" : [
+    {
+      "kind" : "asteroid",
+      "nohueshift" : true,
+      "repeatY" : true,
+      "parallax" : 5
+    },
+    {
+      "kind" : "asteroidback",
+      "baseCount" : 4,
+      "nohueshift" : true,
+      "repeatY" : true,
+      "parallax" : 8
+    },
+    {
+      "kind" : "asteroidback",
+      "baseCount" : 4,
+      "nohueshift" : true,
+      "repeatY" : true,
+      "parallax" : 10,
+      "directives" : "fade=000000=0.3"
+    },
+    {
+      "kind" : "atprk_shatteredshieldbg",
+      "parallax" : 14,
+      "nohueshift" : true,
+      "unlit" : true,
+      "repeatY" : true,
+      "minSpeed" : 12000,
+      "maxSpeed" : 12000
+    }
+  ]
+}
