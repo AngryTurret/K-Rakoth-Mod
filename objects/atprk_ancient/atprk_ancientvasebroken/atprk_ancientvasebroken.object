@@ -15,7 +15,11 @@
   "glitchDescription" : "Pleased. This vase would be a fine addition to my relic collection.",
   "humanDescription" : "Apparently this vase was damaged long ago. There are still some shards inside.",
   "hylotlDescription" : "A beautiful vase made of mysterious ancient materials.",
-  "novakidDescription" : "A person-tall vase. It has been standin' there for way too long.", 
+  "novakidDescription" : "A person-tall vase. It has been standin' there for way too long.",
+
+  "atprk_anneliskDescription" : "How much pixels can I get for this antique vase? Just asking.",
+  "atprk_fenronDescription" : "Just a shattered ancient urn.",
+  "atprk_noolithDescription" : "A well-crafted vase typical of the Ancients. It's a shame it's damaged.",
 
   "inventoryIcon" : "atprk_ancientvasebrokenicon.png",
   "orientations" : [

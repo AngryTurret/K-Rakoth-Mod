@@ -21,6 +21,10 @@
   "hylotlDescription" : "A frame of an ancient terraforming machine, waiting to be reconstructed.",
   "novakidDescription" : "It's not much use without a terraformer core.",
 
+  "atprk_anneliskDescription" : "Ooh boy, I can only imagine how many pixels I can get by selling this frame!",
+  "atprk_fenronDescription" : "A terraformer without its core is like a warrior without a weapon.",
+  "atprk_noolithDescription" : "Never thought I'd see an ancient terraformer this close. It will not work without a core, though.",
+
   "inventoryIcon" : "atprk_terraformerframeicon.png",
   "orientations" : [
     {
