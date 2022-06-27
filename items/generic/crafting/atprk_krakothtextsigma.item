@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "atprk_krakothtextsigma.png",
-  "description" : "An old K'Rakoth note. ^red;Requires translation.^white;",
+  "description" : "An old K'Rakothan note. ^red;Requires translation.^white;",
   "shortdescription" : "K'Rakoth Codex Sigma",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
