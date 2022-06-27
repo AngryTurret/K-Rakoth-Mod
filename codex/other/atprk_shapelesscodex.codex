@@ -1,0 +1,32 @@
+{
+  "id" : "atprk_shapelesscodex",
+  "title" : "Beware the Moons",
+  "description" : "A strange pale tablet. It looks very fragile.",
+  "icon" : "atprk_shapelesscodex.png",
+  "contentPages" : [
+  "For centuries our people were slaves to the false Lords of the Cosmos. There wasn't anything we desired more than to become masters of our destiny once again.
+
+In search of freedom, we turned to moons, trying to unleash the full potential of lunar crystals.
+
+In doing so, we attracted ^pink;their^white; attention... and earned their loyalty, as we thought.",
+
+"The longer we looked into the lunar crystals, the more we understood how to control those spectral beings. They defended us, they guided us, and eventually, following our commands, they fought against our usurpers.
+
+Blinded by our victories, we realized too late we simply switched our masters. For those lunar beings, we were nothing but a source of nourishment.",
+
+"Those who used the lunar crystals more often suffered the most, being constantly drained by the lunar ghosts, losing their strength... color... shape...
+
+Mindless, hollow vessels were all that was left behind by them.
+
+Once you're withered, you're nothing but a shadow of your former self.",
+
+"Whoever finds this letter, please remember: stay away from moons. Don't try to tame those beings who feed on the lunar crystals. They'll quickly choose to feed on you instead...
+
+Our people had to learn it the hard way."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

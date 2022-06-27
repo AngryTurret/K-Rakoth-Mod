@@ -1,0 +1,36 @@
+{
+  "id" : "atprk_krakothcodexomicron",
+  "title" : "God of Lies",
+  "description" : "A K'Rakothan parishioner's personal notes criticizing the Prophecy of Ri'shaan.",
+  "icon" : "atprk_krakothcodexomicronicon.png",
+  "contentPages" : [
+    "My frightening suspicions were confirmed. It took me a years-long stay in our backwater colonies to weaken Ri'shaan's influence on me. With no whispers clogging my mind, eventually I was able to see things for what they truly are.
+
+I finally understood why people who lived further from the capital were the hardest to convert to our... faith.",
+
+"At first I felt conflicted. As far as I remember myself, I've always been told that Ri'shaan would bring a new, better life upon us. Whatever we were asked to do in His name, it was all justified in the end.
+
+And look what it included. Ceaseless lies, inhumane rituals, betrayal of our rational ideals... Yet somehow, as the time went by, less and less people bat an eye on it. It feels as if blind zeal became the norm among our kind.",
+
+"Meanwhile we helped Him spread His bodies across many planets, and those who stayed closer to them, myself included, followed His demands with no objections.
+
+At some point it all made me think. I've been pondering over this for a long time until I came to a horrible realization.
+
+Ri'shaan may not be as benevolent as our priests want us to believe, and He makes everything in His power to keep us oblivious to this fact.",
+
+"He seeks weak spots in our subconsciousness and latches onto them with all His might. And then He keeps whispering, tempting us to commit all those evil deeds just so He can expand and consume. But no matter how much we do for Him, He's never sated. The larger He grows, the louder His whispers get.
+
+Just how many bright minds were forced to think of new ways to cultivate His \"seeds\"? How many of our servants became His nourishment already?",
+
+"And most importantly, why does He do this to us? Maybe He never forgave us for our past attempts to subdue His spawn. Maybe He planned to enslave our kind from the very day we discovered His first vessel.
+
+Regardless, I cannot believe Ri'shaan cares about our well-being anymore.
+
+Now I can only pray Ark'esh will not eliminate us all for our mistakes."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}
