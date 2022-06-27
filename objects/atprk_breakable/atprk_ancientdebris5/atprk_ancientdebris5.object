@@ -17,6 +17,10 @@
   "hylotlDescription" : "Remains of some ancient structure.",
   "novakidDescription" : "A bunch o' ancient rubble.",
 
+  "atprk_anneliskDescription" : "Just some ancient junk. Probably not all that valuable.",
+  "atprk_fenronDescription" : "Remains of some ancient structure.",
+  "atprk_noolithDescription" : "What little remains of the Ancient civilization.",
+
   "inventoryIcon" : "atprk_ancientdebris5icon.png",
   "orientations" : [
     {
