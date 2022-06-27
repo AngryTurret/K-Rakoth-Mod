@@ -17,6 +17,10 @@
   "hylotlDescription" : "As much as I like the texture of this chair, I do not trust it.",
   "novakidDescription" : "Heck, that amber ain't fully fossilized. I may get glued t' this chair.",
 
+  "atprk_anneliskDescription" : "I don't want to sit on this gross thing, get me a normal chair!",
+  "atprk_fenronDescription" : "Ugh. I'd rather not sit on this chair.",
+  "atprk_noolithDescription" : "A chair made of pure amber. How peculiar.",
+
   "inventoryIcon" : "atprk_amberchairicon.png",
   "orientations" : [
     {

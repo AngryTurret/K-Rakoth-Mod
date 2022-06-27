@@ -18,6 +18,10 @@
   "hylotlDescription" : "This piece of amber shines with a warm, soothing glow. Somehow.",
   "novakidDescription" : "A fancy amber lamp. Reminds me of a campfire.",
 
+  "atprk_anneliskDescription" : "Yellow is a nice color, don't get me wrong, but I'd rather keep this lamp off.",
+  "atprk_fenronDescription" : "It feels as if a tiny sun was trapped in this chunk of amber.",
+  "atprk_noolithDescription" : "Quite an unusual lantern made of pure amber.",
+
   "statusEffects" : [ ],
 
   "lightColor" : [252, 190, 55],

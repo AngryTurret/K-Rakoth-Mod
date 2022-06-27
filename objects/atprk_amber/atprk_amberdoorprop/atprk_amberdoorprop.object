@@ -1,11 +1,10 @@
 {
-  "objectName" : "atprk_amberdoor",
+  "objectName" : "atprk_amberdoorprop",
   "colonyTags" : ["atprk_amber","door","nature"],
   "printable" : false,
   "rarity" : "Common",
-
-  "category" : "door",
-  "price" : 60,
+  "category" : "decorative",
+  "price" : 0,
   "description" : "A semi-transparent amber door.",
   "shortdescription" : "Amber Door",
   "race" : "generic",
@@ -22,43 +21,15 @@
   "atprk_fenronDescription" : "I bet this amber stone could be used as a shield as well.",
   "atprk_noolithDescription" : "I already appreciate this chunk of amber. So many ancient anthropods to observe.",
 
-  "inventoryIcon" : "atprk_amberdooricon.png",
-
-  "tooltipKind" : "door",
-  "largeImage" : "atprk_amberdoor.png:right",
-  
+  "inventoryIcon" : "atprk_amberdoorpropicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_amberdoor.png:default",
-      "imagePosition" : [-16, 0],
-      "renderLayer" : "Object+5",
+      "dualImage" : "atprk_amberdoorprop.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
+      "anchors" : [ "background" ]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-  "animationCustom" : {
-    "sounds" : {
-      "open" : {
-        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
-        "rangeMultiplier" : 0.5
-      },
-      "close" : {
-        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
-        "rangeMultiplier" : 0.5
-      }
-    }
-  },
-  "animationParts" : {
-    "door" : "atprk_amberdoor.png"
-  },
-  "animationPosition" : [-16, 0],
-
-  "inputNodes" : [ [0, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  ]
 }

@@ -17,6 +17,10 @@
   "hylotlDescription" : "I appreciate the humor here but I would rather sleep in a normal bed.",
   "novakidDescription" : "No worries, amber can't do much to a star like me.",
 
+  "atprk_anneliskDescription" : "What a morbid way to take a nap.",
+  "atprk_fenronDescription" : "If my fur gets glued to amber again, I'll scream.",
+  "atprk_noolithDescription" : "We Nooliths are not bothered by sticky tree resin, so it's safe for us to sleep in such globs of amber.",
+
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-5, 10],

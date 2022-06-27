@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_amberdoorpropdouble",
+  "colonyTags" : ["atprk_amber","door","nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A semi-transparent amber double door.",
+  "shortdescription" : "Amber Double Door Prop",
+  "race" : "generic",
+
+  "apexDescription" : "Two refined amber stones. There are many fossilized insects inside.",
+  "avianDescription" : "These would look amazing in a temple, even though it's just two doors.",
+  "floranDescription" : "Sssstupid bugss, get out of my doors!",
+  "glitchDescription" : "Observant. There are at least 11 different insect species preserved in these amber doors.",
+  "humanDescription" : "Huge chunk of amber you can block a passage with.",
+  "hylotlDescription" : "These are just two smooth amber blocks that happen to fit a door frame perfectly.",
+  "novakidDescription" : "These doors're sure to keep the bugs out at night.",
+
+  "atprk_anneliskDescription" : "Oh man, you can fit two full-grown Annelisks in these!",
+  "atprk_fenronDescription" : "I bet these amber stones could be used as shields as well.",
+  "atprk_noolithDescription" : "I already appreciate these chunks of amber. So many ancient anthropods to observe.",
+
+  "inventoryIcon" : "atprk_amberdoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_amberdoorpropdouble.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -17,6 +17,10 @@
   "hylotlDescription" : "It is a pity this amber sample is not in a museum.",
   "novakidDescription" : "I swear there're bugs on the outside too!",
 
+  "atprk_anneliskDescription" : "This table only spoils my appetite, with all these bugs and amber.",
+  "atprk_fenronDescription" : "Should a gunfight break out, I can hide behind this rocky amber table.",
+  "atprk_noolithDescription" : "I cannot help staring at all these ancient insects inside the table.",
+
   "inventoryIcon" : "atprk_ambertableicon.png",
   "orientations" : [
     {
