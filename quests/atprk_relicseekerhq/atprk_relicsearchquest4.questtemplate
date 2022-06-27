@@ -1,0 +1,44 @@
+{
+	"id": "atprk_relicsearchquest4",
+	"prerequisites": ["atprk_relicsearchquest3"],
+	"title": "^green;Ancient Science",
+	"text": "^#c89696;Scorched planets^white; never fail to capture my imagination, and there's a good reason for that! Within ^orange;K'Rakothan laboratories^white; on their surface, many ancient relics await to be discovered. Maybe you can even stumble upon a ^green;Deactivated Terraformer^white; or two.",
+	"completionText": "By the looks of it, K'Rakothan scientists were as fond of ancient artifacts as we are, amirite? Anyway, thank you once again!",
+	"moneyRange": [1250, 1250],
+	"rewards": [
+		[
+			["upgrademodule", 1],
+			["atprk_relicseekerlogo", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait4.png"
+				}],
+				"title": "Libra Eclipse"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait1.png"
+				}],
+				"title": "Libra Eclipse"
+			}
+		},
+		"requireTurnIn": true,
+		"setUniverseFlags" : ["atprk_relicseekerhq_relicflag4"],
+
+		"turnInDescription": "Speak to ^orange;Libra^reset; aboard ^orange;ST Syllectis^reset;",
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk-eldritchterraformerframefixed",
+				"count": 1,
+				"consume": true
+			}
+		]
+	}
+}

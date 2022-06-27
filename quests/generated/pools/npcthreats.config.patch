@@ -1,0 +1,46 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "alien invaders",
+		"species" : "human",
+		"typeName" : "atprk_ayylienthreat"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "creepy Glitch cultists",
+		"species" : "glitch",
+		"typeName" : "atprk_eldritchcultistthreat"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "Glitch Devouts",
+		"species" : "glitch",
+		"typeName" : "atprk_devoutthreat"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "ocean" ],
+	  {
+		"name" : "Glitch Devout divers",
+		"species" : "glitch",
+		"typeName" : "atprk_devoutdiverthreat"
+	  }
+	]
+  }
+]

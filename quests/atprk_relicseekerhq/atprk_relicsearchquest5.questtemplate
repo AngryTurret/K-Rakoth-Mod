@@ -1,0 +1,44 @@
+{
+	"id": "atprk_relicsearchquest5",
+	"prerequisites": ["atprk_relicsearchquest4"],
+	"title": "^green;Ruler of the Ocean",
+	"text": "Our next goal lies below the waves of ^#837ad7;boiling oceans^white;. That's right, the very planets where the sunken K'Rakothan cities are! I strongly believe there must be the ^green;Eldritch Ruler Statue^white; somewhere. It's kinda rare but I guess ^orange;an abandoned citadel^white; should've at least one such statue.",
+	"completionText": "A dreadful statue indeed but I'm glad it's fully intact. Another priceless artifact in our collection!",
+	"moneyRange": [1500, 1500],
+	"rewards": [
+		[
+			["manipulatormodule", 1],
+			["atprk_4dcube", 2]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait2.png"
+				}],
+				"title": "Libra Eclipse"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait4.png"
+				}],
+				"title": "Libra Eclipse"
+			}
+		},
+		"requireTurnIn": true,
+		"setUniverseFlags" : ["atprk_relicseekerhq_relicflag5"],
+
+		"turnInDescription": "Speak to ^orange;Libra^reset; aboard ^orange;ST Syllectis^reset;",
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk-krakothrulerstatue",
+				"count": 1,
+				"consume": true
+			}
+		]
+	}
+}

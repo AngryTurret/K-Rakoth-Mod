@@ -8,5 +8,23 @@
       "portraitImage" : "yell.<frame>",
       "textSpeed" : 70
       }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro",
+      "value": {
+        "text": "Oh sorry, didn't hear you approachin'. Welcome aboard! My name's Libra Eclipse, and I'm in charge of the Relic Seekers. Feel free to ask me about our organization.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro_colt",
+      "value": {
+        "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolescences on Earth's destruction. Anyway, I'm Colt. I'll be here in case you need somethin'.",
+    "senderName" : "Colt",
+    "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+      }
   }
 ]

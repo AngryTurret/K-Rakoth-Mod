@@ -1,0 +1,50 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "mad collector",
+		"species" : "novakid",
+		"typeName" : "atprk_outlawseeker",
+		"seed" : "stable"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "lone zealot",
+		"species" : "glitch",
+		"typeName" : "atprk_outlaweldritchcultist",
+		"seed" : "stable"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "heavily armored rogue",
+		"species" : "glitch",
+		"typeName" : "atprk_outlawelderarmor",
+		"seed" : "stable"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "unicorn-obsessed madman",
+		"species" : "human",
+		"typeName" : "atprk_outlawunicorn",
+		"seed" : "stable"
+	  }
+	]
+  }
+]

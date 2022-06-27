@@ -1,0 +1,44 @@
+{
+	"id": "atprk_relicsearchquest2",
+	"prerequisites": ["atprk_relicsearchquest1"],
+	"title": "^green;Forty-Eight",
+	"text": "Now that we've got the first relic, we can move on. Rumors say the Miniknog scientists working in ^orange;Area 48^white; have created a ^green;Reverse-Engineered Cannon^white; based on K'Rakothan tech. My most educated guess is that ^#ff00ff;alien^white; and ^#b4b4b4;tundra planets^white; is where you should look for it. Should anythin' go south, use the ^orange;Reconstruction Table^white;!",
+	"completionText": "Oh Cultivator, what have they done to... Whatever, no worries! We can still gather much useful information from this relic.",
+	"moneyRange": [1000, 1000],
+	"rewards": [
+		[
+			["techcard", 1],
+			["atprk_relicseekerflag", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait2.png"
+				}],
+				"title": "Libra Eclipse"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait4.png"
+				}],
+				"title": "Libra Eclipse"
+			}
+		},
+		"requireTurnIn": true,
+		"setUniverseFlags" : ["atprk_relicseekerhq_relicflag2"],
+
+		"turnInDescription": "Speak to ^orange;Libra^reset; aboard ^orange;ST Syllectis^reset;",
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk_apextestgunfixed",
+				"count": 1,
+				"consume": true
+			}
+		]
+	}
+}

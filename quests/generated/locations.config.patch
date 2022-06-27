@@ -101,6 +101,104 @@
 	}
   },
 
+  //Amber
+  { "op" : "add",
+	"path" : "/atprk_amber",
+	"value" : {
+	  "atprk_ambergarden1" : {
+		"name" : "overgrown amber garden",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ambergarden2" : {
+		"name" : "small amber garden",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_ambergarden3" : {
+		"name" : "amber garden overhang",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_amberarch" : {
+		"name" : "amber arch",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_ambercritternest" : {
+		"name" : "large amber nest",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_ambermine" : {
+		"name" : "abandoned mineshaft",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_amberformation1" : {
+		"name" : "small amber overhang",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_amberformation2" : {
+		"name" : "huge amber stone",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_amberformation3" : {
+		"name" : "large amber stones",
+		"tags" : [ "generic", "friendly" ]
+	  }
+	}
+  },
+
+  //Forgotten Mountains
+  { "op" : "add",
+	"path" : "/atprk_forgottenmountains",
+	"value" : {
+	  "atprk_undergroundfort1" : {
+		"name" : "buried fort",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_undergroundfort2" : {
+		"name" : "hidden bridge",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_undergroundfort3" : {
+		"name" : "buried ruins",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_undergroundfort4" : {
+		"name" : "fortified dead end",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_forgottenrubble1" : {
+		"name" : "large pile of stone rubble",
+		"tags" : [ "generic", "friendly", "largespace" ]
+	  },
+	  "atprk_forgottenrubble2" : {
+		"name" : "collapsed fort",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_forgottenrubble3" : {
+		"name" : "collapsed stone wall",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_forgottenrubble4" : {
+		"name" : "stone ruins",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_forgottenyard" : {
+		"name" : "abandoned yard",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_forgottencemetery" : {
+		"name" : "forgotten cemetery",
+		"tags" : [ "generic", "friendly", "largespace"]
+	  },
+	  "atprk_forgottentower1" : {
+		"name" : "top of a buried tower",
+		"tags" : [ "generic", "friendly"]
+	  },
+	  "atprk_forgottentower2" : {
+		"name" : "top of a buried tower",
+		"tags" : [ "generic", "friendly" ]
+	  }
+	}
+  },
+
   //Radiotrophic Forest
   { "op" : "add",
 	"path" : "/atprk_radiotrophic",

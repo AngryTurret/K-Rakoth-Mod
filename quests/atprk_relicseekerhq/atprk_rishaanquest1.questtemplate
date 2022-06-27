@@ -1,0 +1,136 @@
+{
+	"id": "atprk_rishaanquest1",
+	"prerequisites": ["atprk_relicsearchquest2"],
+	"title": "^green;Forgotten Gods",
+	"text": "Howdy, kind stranger. Y'know, I'd really like to learn more about ^orange;Ri'shaan^white; but the others insist we need to research other aspects of K'Rakothan culture first. Nonsense! It'd be great if I could ^green;gather some scan data^white; from ^orange;elder churches^white; somehow. Those are usually found on ^#969696;dark planets^white;, if I recall correctly...",
+	"completionText": "Oh, you... You actually went outta your way to explore a church of Ri'shaan for me? Thank you, kind stranger! Here, take this modest gift for your trouble.",
+	"moneyRange": [1200, 1200],
+	"rewards": [
+		[
+			["rewardbag", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/clues.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekercolt/atprk_coltportrait1.png"
+				}],
+				"title": "Colt"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekercolt/atprk_coltportrait1.png"
+				}],
+				"title": "Colt"
+			}
+		},
+
+		"descriptions": {
+			"findClues": "^green;Scan objects^reset; to find ^orange;data on the elder god Ri'shaan^reset;",
+			"turnIn": "Return to ^orange;Colt^reset; aboard ^orange;ST Syllectis^reset;"
+		},
+		"turnInEntityUid": "atprk_relicseekercolt",
+
+		"targetValue": 50,
+		"objectValues": {
+			"atprk-gildedpillar": 4,
+			"atprk_relicseekerdisplay3": 1,
+			"atprk-gildedemblemlarge": 10,
+			"atprk-gildedorgan": 10,
+			"atprk-gildedportrait-glitch": 8,
+			"atprk-gildedportrait-crystal": 8,
+			"atprk-gildedportrait-worm": 8,
+			"atprk-gildedportrait-tailed": 8,
+			"atprk-gildedstatue": 4,
+			"atprk-krakothartpiece2": 20
+		},
+		"radioMessages": {
+			"uniqueProgress": {
+				"atprk-gildedpillar": {
+					"messageId": "atprk_rishaanquest1_up1",
+					"type": "quest",
+					"unique": false,
+					"text": "While there is not much useful information I can gather from hieroglyphs on these pillars, Colt could take a look at them, too."
+				},
+				"atprk_relicseekerdisplay3": {
+					"messageId": "atprk_rishaanquest1_up2",
+					"type": "quest",
+					"unique": false,
+					"text": "I am positively sure Colt has already seen this particular statue. We should look for some other artifacts."
+				},
+				"atprk-gildedemblemlarge": {
+					"messageId": "atprk_rishaanquest1_up3",
+					"type": "quest",
+					"unique": false,
+					"text": "It appears to be a recurring symbol in K'Rakothan religion. A giant eye in the middle represents Ri'shaan's omniscience, and tendrils display His grip on countless worlds."
+				},
+				"atprk-gildedorgan": {
+					"messageId": "atprk_rishaanquest1_up4",
+					"type": "quest",
+					"unique": false,
+					"text": "An ancient organ to perform ceremonial music. Remarkably, it was constructed in a way that allowed K'Rakoths to play it both underwater and on surface."
+				},
+				"atprk-gildedportrait-glitch": {
+					"messageId": "atprk_rishaanquest1_up5",
+					"type": "quest",
+					"unique": false,
+					"text": "A portrait of an unidentified Glitch. While I am not entirely sure about the implications here, it seems that Ri'shaan used to drain some power from Glitchkind."
+				},
+				"atprk-gildedportrait-crystal": {
+					"messageId": "atprk_rishaanquest1_up6",
+					"type": "quest",
+					"unique": false,
+					"text": "How curious. It appears that Ri'shaan could absorb some kind of power from members of this crystalline race. Sadly, I am unable to elaborate any further."
+				},
+				"atprk-gildedportrait-worm": {
+					"messageId": "atprk_rishaanquest1_up7",
+					"type": "quest",
+					"unique": false,
+					"text": "Apparently, Ri'shaan relied on this race to gain some of His strength. The portrait we see does not match any known sapient species, which is quite unnerving."
+				},
+				"atprk-gildedportrait-tailed": {
+					"messageId": "atprk_rishaanquest1_up8",
+					"type": "quest",
+					"unique": false,
+					"text": "I cannot find any data on this specimen but it seems to represent an ancient race Ri'shaan used for His nourishment. I can only assume said race is extinct by now."
+				},
+				"atprk-gildedstatue": {
+					"messageId": "atprk_rishaanquest1_up9",
+					"type": "quest",
+					"unique": false,
+					"text": "Throughout K'Rakothan history, a crown was not necessarily worn by rulers. More often than not, it was reserved for priesthood instead."
+				},
+				"atprk-krakothartpiece2": {
+					"messageId": "atprk_rishaanquest1_up10",
+					"type": "quest",
+					"unique": false,
+					"text": "This painting displays Ri'shaan's mortal form, and as you can see, it strongly matches the Ruin. Should we tell Colt?"
+				}
+			},
+			"genericProgress": [],
+			"startWithProgress": {
+				"messageId": "atprk_rishaanquest1_swp",
+				"type": "quest",
+				"unique": false,
+				"text": "You already have some scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile it for Colt at once."
+			},
+			"startAlreadyComplete": {
+				"messageId": "atprk_rishaanquest1_sac",
+				"type": "quest",
+				"unique": false,
+				"text": "You already have enough scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile it for Colt at once."
+			},
+			"complete": {
+				"messageId": "atprk_rishaanquest1_c",
+				"type": "quest",
+				"unique": false,
+				"text": "It seems that now we have a clearer understanding of who Ri'shaan was. ^#71f2f6;We should inform Colt on our discoveries.^white;"
+			}
+		},
+		"dialogClueValue": 4
+	}
+}

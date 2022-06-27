@@ -1,0 +1,44 @@
+{
+	"id": "atprk_relicsearchquest3",
+	"prerequisites": ["atprk_relicsearchquest2"],
+	"title": "^green;Ri'shaan's Gaze",
+	"text": "'ight, now it's time for us to visit some actual K'Rakothan ruins! Deep beneath the surface of some ^#969696;midnight planets^white;, mysterious ^orange;K'Rakothan churches^white; lie hidden from outsiders. There you'll need to find a ^green;Large Gilded Eye Emblem^white;, a symbol of an ancient deity Ri'shaan.",
+	"completionText": "What a masterfully crafted emblem it is! Well, it's a bit creepy to be honest but hey, we're the Relic Seekers, not art critics.",
+	"moneyRange": [1000, 1000],
+	"rewards": [
+		[
+			["manipulatormodule", 1],
+			["atprk_ancientshards", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait1.png"
+				}],
+				"title": "Libra Eclipse"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait1.png"
+				}],
+				"title": "Libra Eclipse"
+			}
+		},
+		"requireTurnIn": true,
+		"setUniverseFlags" : ["atprk_relicseekerhq_relicflag3"],
+
+		"turnInDescription": "Speak to ^orange;Libra^reset; aboard ^orange;ST Syllectis^reset;",
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk-gildedemblemlarge",
+				"count": 1,
+				"consume": true
+			}
+		]
+	}
+}
