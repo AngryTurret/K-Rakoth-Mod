@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_ruinousfiber",
+  "price" : 175,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_ruinousfiber.png",
+  "description" : "A forbidden organic material. It violently wriggles in your hands.",
+  "shortdescription" : "Ruinous Fiber",
+  "itemTags" : [ "reagent" ]
+}

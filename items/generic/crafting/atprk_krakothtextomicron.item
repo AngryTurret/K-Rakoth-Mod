@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_krakothtextomicron",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextomicron.png",
+  "description" : "Some sort of a note lost in haste. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Omicron",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexomicron-codex"
+  ]
+}
