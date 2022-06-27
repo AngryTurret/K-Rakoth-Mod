@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_shapelesschest",
+  "colonyTags" : ["atprk_noolith","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 120,
+  "description" : "A pale, withered crystalline box.",
+  "shortdescription" : "Shapeless Chest",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 2.0,
+
+  "apexDescription" : "There is something wrong with this crystalline chest. I cannot explain what exactly, however.",
+  "avianDescription" : "This crystalline chest gives off a bad aura. It feels like something ghostly possesses it.",
+  "floranDescription" : "Ssstrange shiny box makess Floran feel... empty...",
+  "glitchDescription" : "Alert. Something is off about this crystalline chest.",
+  "humanDescription" : "A chest devoid of color and, I don't know, life? I know it sounds weird but that's what I feel about it.",
+  "hylotlDescription" : "I am not very superstitious but there is something ghastly about this pale chest.",
+  "novakidDescription" : "That's one eery box o' gems... Something ain't right 'bout it...",
+
+  "inventoryIcon" : "atprk_shapelesschesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_shapelesschest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "iceshard" } ],
+
+  "openSounds" : [ "/sfx/objects/ancientenergy_chord.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
