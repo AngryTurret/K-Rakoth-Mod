@@ -15,17 +15,17 @@
             "It is always thrilling to discover something new in chunks of amber. You should try it one day.",
             "Don't worry about my head, it's just a mask, not real amber.",
             "What's with that surprised look of yours? Is there amber stuck in my fur?",
-            "I love archaelogy. Sadly, the Miniknog does not fund it enough.",
+            "I love paleontology. Sadly, the Miniknog does not fund it enough.",
             "As we can see from fossils, life always finds a way, even if it is dull and miserable.",
             "Yesterday I found a beautiful butterfly inside a chunk of amber. Would you like to take a look?"
           ]
         },
         "human" : {
           "default" : [
-            "Do you like archaeology? I know a lot about it!",
+            "Do you like paleontology? I know a lot about it!",
             "My collection of insects preserved in amber keeps growing, and I won't stop yet!",
             "What's with that surprised look of yours? Is there amber stuck in my hair?",
-            "The Earth used to have many things preserved in amber. It's a shame it's all gone now.",
+            "Earth used to have many things preserved in amber. It's a shame it's all gone now.",
             "Amber rocks are beautiful. I could watch the insects inside of these all day long.",
             "How much tree resin do you need to cover a whole person? Just asking."
           ]
