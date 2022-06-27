@@ -14,9 +14,9 @@
   "avianDescription" : "I bet this altar hasn't been used in any rituals for a while.",
   "floranDescription" : "Ancient table. Floran can chop meat on it.",
   "glitchDescription" : "Worried. I hope this altar wasn't used for anything sinister.",
-  "humanDescription" : "I wouldn't put that counter in my house.",
+  "humanDescription" : "I wouldn't put this counter in my house.",
   "hylotlDescription" : "I guess this altar was used for ancient rituals.",
-  "novakidDescription" : "This strange counter has symbols on it. What do those mean?",
+  "novakidDescription" : "This strange counter has symbols on it. What do they mean?",
 
   "inventoryIcon" : "atprk-eldritchaltaricon.png",
   "orientations" : [
