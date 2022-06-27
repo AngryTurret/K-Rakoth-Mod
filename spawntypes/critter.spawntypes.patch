@@ -32,5 +32,22 @@
         "aggressive": false
       }
     }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_tinyufocritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "night"
+      },
+      "spawnChance" : 0.05,
+      "monsterType" : "atprk_tinyufocritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
   }
 ]

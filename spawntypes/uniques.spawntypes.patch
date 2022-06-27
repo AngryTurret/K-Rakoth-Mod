@@ -105,6 +105,58 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_ambryo",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "groupSize" : [1, 2],
+      "spawnChance" : 0.1,
+      "monsterType" : "atprk_ambryo",
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_xenoprobe",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "exposed",
+        "time" : "night"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_xenoprobe",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_xenoprobeasteroid",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_xenoprobe",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_lunarcrustoise",
 	  "spawnParameters" : {
 		"area" : "surface",
@@ -123,6 +175,23 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_erchiusspook",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_erchiusspook",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_shapelessdweller",
 	  "spawnParameters" : {
 		"area" : "surface",
@@ -130,7 +199,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.05,
-      "monsterType" : "atprk_shapelessdweller",
+      "monsterType" : [
+        [0.95, "atprk_shapelessdweller"],
+        [0.05, "atprk_shapelesswarlock"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -147,7 +219,10 @@
         "time" : "night"
       },
       "spawnChance" : 0.03,
-      "monsterType" : "atprk_shapelessdweller",
+      "monsterType" : [
+        [0.98, "atprk_shapelessdweller"],
+        [0.02, "atprk_shapelesswarlock"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
