@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_amberblobfloor5",
+  "colonyTags" : ["atprk_amber"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+
+  "description" : "A shiny bubble of solid amber.",
+  "shortdescription" : "Amber Blob",
+  "race" : "generic",
+
+  "lightColor" : [70, 40, 20],
+
+  "apexDescription" : "A nearly hardened blob of tree resin.",
+  "avianDescription" : "A round amber blob. It's still sticky to touch.",
+  "floranDescription" : "Sssticky glob!",
+  "glitchDescription" : "Excited. I wonder if I can find some exotic bugs within.",
+  "humanDescription" : "A sticky glob of amber.",
+  "hylotlDescription" : "A round golden blob of fossilized tree resin.",
+  "novakidDescription" : "Aw shucks, for a second I thought it's gold.",
+
+  "atprk_anneliskDescription" : "These amber chunks have no business being this big! What the heck?",
+  "atprk_fenronDescription" : "I shouldn't wiggle my tail around these too much, or else I'll get glued.",
+  "atprk_noolithDescription" : "A hardened blob of amber full of prehistoric critters.",
+
+  "inventoryIcon" : "atprk_amberblobfloor5icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_amberblobfloor5.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_amberblock", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
