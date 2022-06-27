@@ -17,6 +17,10 @@
   "hylotlDescription" : "This plant can endure much radiation.",
   "novakidDescription" : "A poor plant massacred by radiation.",
 
+  "atprk_anneliskDescription" : "An irradiated plant.",
+  "atprk_fenronDescription" : "This plant consumes radiation itself to survive. That's brutal.",
+  "atprk_noolithDescription" : "Life finds a way to thrive even in the least hospitable conditions.",
+
   "inventoryIcon" : "capsulebigicon.png",
   "orientations" : [
     {

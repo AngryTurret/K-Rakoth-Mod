@@ -1,0 +1,44 @@
+{
+  "objectName" : "atprk_virtualconsolebroken",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A strange broken device that looks like a teleporter.",
+  "shortdescription" : "Broken Spaceship Simulator",
+  "race" : "generic",
+  "category" : "breakable",
+  "price" : 250,
+  "printable" : false,
+
+  "apexDescription" : "Some sort of a teleporter. It does not appear to be functional.",
+  "avianDescription" : "This teleporter looks very familiar for some reason.",
+  "floranDescription" : "Russsty teleporter thingy.",
+  "glitchDescription" : "Thoughtful. Haven't I seen this machine elsewhere?",
+  "humanDescription" : "I dunno, something that looks like a destroyed teleporter.",
+  "hylotlDescription" : "I believe this device was used to teleport people into virtual realities.",
+  "novakidDescription" : "Remains of some odd-lookin' teleporter.",
+
+  "atprk_anneliskDescription" : "This thing could create VR simulations you could enter. Shame I've got no clue how to repair it.",
+  "atprk_fenronDescription" : "I'm not sure what it is. A broken teleporter, I guess?",
+  "atprk_noolithDescription" : "A destroyed teleporter, it seems. Perhaps it used to be connected to something other than the real space.",
+
+  "inventoryIcon" : "atprk_virtualconsolebrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_virtualconsolebroken.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 8,
+  "rooting" : true,
+
+  "breakDropPool" : "remoteteleporter"
+}

@@ -19,6 +19,10 @@
   "humanDescription" : "I wonder if this starfish sees me. Probably not.",
   "hylotlDescription" : "A somewhat unsettling but mostly harmless deep sea creature.",
   "novakidDescription" : "If Novakids were sea creatures, they'd look somethin' like this but maybe more glowy.",
+
+  "atprk_anneliskDescription" : "Something that escaped from a Hylotl sushi bar and found a way into the ocean.",
+  "atprk_fenronDescription" : "With enough effort I can cook this little starfish into something tasty.",
+  "atprk_noolithDescription" : "An unsettling marine creature. At least it seems to be harmless.",
   
   "inventoryIcon" : "atprk_seatrenchstar2icon.png",
   "orientations" : [

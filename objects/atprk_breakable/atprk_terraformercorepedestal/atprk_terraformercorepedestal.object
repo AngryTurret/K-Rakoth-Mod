@@ -17,6 +17,10 @@
   "hylotlDescription" : "A core extracted from an ancient terraformer. With right tools, one can use it once again.",
   "novakidDescription" : "A round core of a terraformer, if my mind ain't foolin' me. Handy stuff.",
 
+  "atprk_anneliskDescription" : "Am I blessed by Eye of Fortune today? I've just found a real treasure over here!",
+  "atprk_fenronDescription" : "A shiny artifact. Whatever it is, it doesn't look like something K'Rakoths would make.",
+  "atprk_noolithDescription" : "Oh, an ancient terraformer core! Perhaps I could use it somehow.",
+
   "inventoryIcon" : "atprk_terraformercorepedestalicon.png",
   "orientations" : [
     {
