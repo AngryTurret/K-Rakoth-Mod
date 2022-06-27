@@ -4,20 +4,20 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 150,
-  "description" : "A levitation devise repurposed by Miniknog scientists.",
+  "description" : "A levitation device repurposed by Miniknog scientists.",
   "shortdescription" : "Reverse-Engineered Hoverpad",
   "race" : "apex",
 
   "apexDescription" : "It appears to be a zero-gravity engine.",
   "avianDescription" : "A reverse-engineered hoverpad.",
   "floranDescription" : "Floaty ssstuff.",
-  "glitchDescription" : "Informed. This device can lift different objects in the air.",
+  "glitchDescription" : "Informed. This device can lift different objects into the air.",
   "humanDescription" : "A sort of anti-gravity engine made from ancient tech.",
   "hylotlDescription" : "An experimental set of zero-gravity engines.",
   "novakidDescription" : "Yet another way to deny gravity.",
 
   "atprk_anneliskDescription" : "A zero-gravity engine. Not all that special, really.",
-  "atprk_fenronDescription" : "A hoverpad repurposed from the older machinery.",
+  "atprk_fenronDescription" : "A hoverpad repurposed from older machinery.",
   "atprk_noolithDescription" : "This design looks oddly familiar.",
 
   "inventoryIcon" : "atprk_apexhoverpadicon.png",
