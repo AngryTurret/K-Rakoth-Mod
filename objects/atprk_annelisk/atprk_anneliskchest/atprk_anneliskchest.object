@@ -20,6 +20,10 @@
   "hylotlDescription" : "A hard delivery package, abandoned long ago.",
   "novakidDescription" : "A strange plastic chest. Guess it's very cheap.",
 
+  "atprk_anneliskDescription" : "Looks like someone forgot to take this delivery package. Well, it can be mine now.",
+  "atprk_fenronDescription" : "A plastic box full of potentially usefull things. Or maybe not.",
+  "atprk_noolithDescription" : "A forgotten delivery package.",
+
   "inventoryIcon" : "atprk_anneliskchesticon.png",
   "orientations" : [
     {

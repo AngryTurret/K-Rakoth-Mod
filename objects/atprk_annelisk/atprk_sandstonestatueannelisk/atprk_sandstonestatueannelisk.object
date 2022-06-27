@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk_sandstonestatueannelisk",
+  "colonyTags" : ["sandstone","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A sandstone memorial of a forgotten race.",
+  "shortdescription" : "Annelisk Sandstone Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "A life-sized statue of an unknown annelid alien.",
+  "avianDescription" : "A sandstone statue of some humanoid worm. That's... unusual.",
+  "floranDescription" : "Long sssnake perssson? Worm perssson? Who knowsss.",
+  "glitchDescription" : "Puzzled. What is this creature supposed to be? A worm or a serpent?",
+  "humanDescription" : "I've never seen anyone like this guy. Not the most social race, probably.",
+  "hylotlDescription" : "Some unknown worm-like being. It is probably extinct by now.",
+  "novakidDescription" : "A sandystone worm? That's sure odd.",
+
+  "atprk_anneliskDescription" : "Cool, a guy made of sandstone. Can I have my own statue, too?",
+  "atprk_fenronDescription" : "What a waste of sandstone. I'd understand if it was someone honorable, but this? Pathetic.",
+  "atprk_noolithDescription" : "A sandstone Annelisk. The real one would be unpleasant to deal with.",
+
+  "inventoryIcon" : "atprk_sandstonestatueanneliskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_sandstonestatueannelisk.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

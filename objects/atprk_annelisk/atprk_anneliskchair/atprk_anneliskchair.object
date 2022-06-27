@@ -16,6 +16,10 @@
   "hylotlDescription" : "What a repugnant seat. Its creator clearly had no comfort in mind.",
   "novakidDescription" : "Not the best, but this'll do.",
 
+  "atprk_anneliskDescription" : "This chair looks pretty familiar for some reason.",
+  "atprk_fenronDescription" : "A short uncomfortable chair. It'd be more useful as a blunt weapon.",
+  "atprk_noolithDescription" : "It's just a small lobby chair. Nothing remarkable about it.",
+
   "inventoryIcon" : "atprk_anneliskchairicon.png",
   "orientations" : [
     {

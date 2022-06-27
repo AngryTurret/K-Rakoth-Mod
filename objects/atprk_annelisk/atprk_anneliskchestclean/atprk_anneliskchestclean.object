@@ -21,6 +21,10 @@
   "hylotlDescription" : "A hard delivery package.",
   "novakidDescription" : "A strange plastic chest. Guess it's very cheap.",
 
+  "atprk_anneliskDescription" : "An average delivery package.",
+  "atprk_fenronDescription" : "A plastic box full of potentially usefull things. Or maybe not.",
+  "atprk_noolithDescription" : "A clean delivery package.",
+
   "inventoryIcon" : "atprk_anneliskchestcleanicon.png",
   "orientations" : [
     {

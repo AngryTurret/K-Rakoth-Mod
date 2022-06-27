@@ -18,6 +18,10 @@
   "hylotlDescription" : "A high-tech bed of sorts. No aesthetics, just pure yet questionable efficiency.",
   "novakidDescription" : "Only an oddball would sleep in that position.",
 
+  "atprk_anneliskDescription" : "Ah yes, of course they want you to sleep in a pod. The next thing they ask for is to eat the bugs.",
+  "atprk_fenronDescription" : "It looks more like a soup can than a resting spot. There is no way I'm spending a night in it.",
+  "atprk_noolithDescription" : "A sleeping pod designed by the Annelisks.",
+
   "objectType" : "loungeable",
   "sitCoverImage" : "/objects/atprk_annelisk/atprk_annelisksleepingpod/atprk_annelisksleepingpodcover.png",
   "sitFlipDirection" : false,

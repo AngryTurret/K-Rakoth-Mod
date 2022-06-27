@@ -17,6 +17,10 @@
   "hylotlDescription" : "A tasteless lobby table.",
   "novakidDescription" : "A pretty heavy metal table.",
 
+  "atprk_anneliskDescription" : "A heavy mass-produced office table. Cheap stuff, really.",
+  "atprk_fenronDescription" : "A painted office table.",
+  "atprk_noolithDescription" : "A cheap metal table fit for an office building.",
+
   "inventoryIcon" : "atprk_annelisktablecleanicon.png",
   "orientations" : [
     {

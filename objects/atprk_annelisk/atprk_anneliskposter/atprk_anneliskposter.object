@@ -17,6 +17,10 @@
   "hylotlDescription" : "It does not look anything like the Letheia logo, so it is definitely something else.",
   "novakidDescription" : "A company logo maybe, go figure.",
 
+  "atprk_anneliskDescription" : "People say Ouroboros Industrial Cartel was just a front company for K'Rakoths. Maybe it was, maybe not. Go figure.",
+  "atprk_fenronDescription" : "They probably don't sell anything anymore, so why bother with ads?",
+  "atprk_noolithDescription" : "Ouroboros Industrial Cartel used to be something that controlled all Annelisks. And the company itself was controlled by the False Lords.",
+
   "inventoryIcon" : "atprk_anneliskpostericon.png",
   "orientations" : [
     {
