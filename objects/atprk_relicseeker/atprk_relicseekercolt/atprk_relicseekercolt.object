@@ -1,0 +1,76 @@
+{
+  "objectName" : "atprk_relicseekercolt",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Essential",
+  "category" : "other",
+  "price" : 0,
+  "description" : "A self-proclaimed Relic Seeker theologian.",
+  "shortdescription" : "Colt",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "lightColor" : [30, 20, 50],
+
+  "apexDescription" : "An absent-minded Relic Seeker theologian.",
+  "avianDescription" : "A Relic Seeker theologian. Perhaps we can talk about Kluex sometimes.",
+  "floranDescription" : "Glowing man wantsss to know old godsss? Ssstrange.",
+  "glitchDescription" : "Cautious. There is something suspicious about this Novakid.",
+  "humanDescription" : "A shady Novakid who seems to be interested in ancient faith.",
+  "hylotlDescription" : "A rather eccentric Novakid theologian researching the so-called Prophecy of Ri'shaan.",
+  "novakidDescription" : "A shady fella who studies forgotten religions.",
+
+  "inventoryIcon" : "atprk_relicseekercolticon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_relicseekercolt.png:<color>", "fullbright" : true }, { "image" : "atprk_relicseekercoltlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_relicseekercolt.png:<color>", "fullbright" : true }, { "image" : "atprk_relicseekercoltlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "offeredQuests" : [
+    "atprk_rishaanquest1", "atprk_rishaanquest2", "atprk_rishaanquest3"
+  ],
+  "turnInQuests" : [
+    "atprk_rishaanquest1", "atprk_rishaanquest2", "atprk_rishaanquest3"
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "Ri'shaan... I've got so many questions about Him yet so little answers...",
+    "It's curious how despite their extreme pragmatism, the K'Rakoths still allowed faith in their society.",
+    "I wonder if there were any other deities in the K'Rakothan pantheon. Maybe they even had their own version of the Cultivator.",
+    "Hm... What if the Cultivator was a high-ranked Ancient rather than a god? I mean, it's quite possible.",
+    "Don't think Novakids have no faith. We have, we just don't remember whom to pray to.",
+    "Not sure if Big Ape's even real but he's definitely not a god. No need to inflate his ego.",
+    "Kluex? Well... I've got some theories about Him but I'm afraid most Avians won't like 'em.",
+    "Don't ask me about crazy cultists, please. Not my favorite topic to discuss.",
+    "Beware, kind stranger. Some worlds are way too dark and dangerous for us mortals."
+  ],
+
+  "uniqueId" : "atprk_relicseekercolt"
+}
