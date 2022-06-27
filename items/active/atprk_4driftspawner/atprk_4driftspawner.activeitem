@@ -1,0 +1,21 @@
+{
+  "itemName" : "atprk_4driftspawner",
+  "level" : 1,
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "description" : "Open an extradimensional tunnel for a brief amount of time.",
+  "shortdescription" : "Dimensional Tunneller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "atprk_4driftspawner.png",
+  "animation" : "atprk_4driftspawner.animation",
+  "animationParts" : {
+    "transponder" : "atprk_4driftspawner.png"
+  },
+  "scripts" : ["atprk_4driftspawner.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/atprk_place4drift/atprk_place4drift.config"
+}

@@ -3,10 +3,10 @@
   "price" : 1000,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "No, it doesn't shoot worms.",
+  "description" : "An antique energy pistol. No, it doesn't shoot worms.",
   "shortdescription" : "Worm Pistol",
   "category" : "uniqueWeapon",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "base",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
   

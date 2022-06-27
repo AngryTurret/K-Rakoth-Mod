@@ -1,0 +1,120 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "middle" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.7, 0.125], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "middleFullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.7, 0.125], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "muzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.75, 0],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "weapon" : {
+      "angularVelocity" : 0
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "muzzle" : {},
+    "beamEnd" : {}
+  },
+
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [0, 0, 0, 0],
+      "particles" : [ ]
+    },
+    "beamCollision" : {
+      "active" : false,
+      "transformationGroups" : ["muzzle", "beamEnd"],
+      "emissionRate" : 20,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 1,
+            "color" : [243, 34, 0],
+            "position" : [0, 0],
+            "fullbright" : true,
+            "destructionAction" : "fade",
+            "destructionTime" : 0.2,
+            "fade" : 1,
+            "layer" : "front",
+            "timeToLive" : 0.6,
+            "variance" : {
+              "initialVelocity" : [2.0, 2.0],
+              "position" : [0.25, 0.25]
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "lights" : {
+    "muzzleFlash" : {
+      "color" : [0, 0, 0]
+    }
+  },
+
+  "sounds" : {
+    "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+    "fireLoop" : [ "/sfx/gun/mech_beamdrill_loop.ogg" ],
+    "fireEnd" : [],
+    "beamImpact" : []
+  }
+}

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "An antique weapon of Fenron origin.",
   "shortdescription" : "Feral Morningstar",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "base",
   "category" : "whip",
   "twoHanded" : false,
   "itemTags" : ["weapon"],
