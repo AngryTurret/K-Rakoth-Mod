@@ -17,6 +17,10 @@
   "hylotlDescription" : "A piggy bank shaped like a sea pig. That's very creative.",
   "novakidDescription" : "A weird gilded piggy bank.",
 
+  "atprk_anneliskDescription" : "Ka-ching!",
+  "atprk_fenronDescription" : "A piggy bank shaped like a strange sea animal.",
+  "atprk_noolithDescription" : "A piggy bank made of K'Rakothan gold.",
+
   "inventoryIcon" : "atprk_oldpiggybankicon.png",
   "orientations" : [
     {

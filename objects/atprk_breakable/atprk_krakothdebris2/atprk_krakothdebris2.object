@@ -17,6 +17,10 @@
   "hylotlDescription" : "I wonder what these scraps were part of.",
   "novakidDescription" : "Bunch o' junk but even older.",
 
+  "atprk_anneliskDescription" : "Extremely ancient scrap materials.",
+  "atprk_fenronDescription" : "I can only guess what those mechanisms are supposed to be.",
+  "atprk_noolithDescription" : "Remnants of K'Rakothan technologies.",
+
   "inventoryIcon" : "atprk_krakothdebris2icon.png",
   "orientations" : [
     {

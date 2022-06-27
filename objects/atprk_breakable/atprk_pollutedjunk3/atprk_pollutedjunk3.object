@@ -17,6 +17,10 @@
   "hylotlDescription" : "A pile of debris. How irresponsible.",
   "novakidDescription" : "Bunch o' junk.",
 
+  "atprk_anneliskDescription" : "It's not mine, just saying.",
+  "atprk_fenronDescription" : "A pile of metallic debris.",
+  "atprk_noolithDescription" : "Judging by contents, it's a pile of Annelisk-made debris.",
+
   "inventoryIcon" : "atprk_pollutedjunk3icon.png",
   "orientations" : [
     {
