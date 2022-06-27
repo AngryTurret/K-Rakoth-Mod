@@ -4,6 +4,7 @@
   "type" : "head",
 
   "frames" : {
-    "head" : "atprk_androne-head.png"
+    "head" : "atprk_androne-head.png",
+    "headnobright" : "atprk_androne-headnobright.png"
   }
 }

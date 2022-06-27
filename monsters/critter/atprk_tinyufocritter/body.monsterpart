@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_tinyufocritter",
+  "category" : "atprk_tinyufocritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}

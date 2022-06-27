@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/monsterSpawnGroups/-",
+    "value": {
+      "monsters": [ "atprk_shruberserk", "atprk_hungertrictus", "atprk_hungertrictus" ],
+      "biome": "jungle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/monsterSpawnGroups/-",
+    "value": {
+      "monsters": [ "atprk_sapphase", "atprk_roxmol", "atprk_roxmol" ],
+      "biome": "ice"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/monsterSpawnGroups/-",
+    "value": {
+      "monsters": [ "atprk_oculopter", "atprk_androne", "atprk_androne" ],
+      "biome": "scorchedcity"
+    }
+  }
+]

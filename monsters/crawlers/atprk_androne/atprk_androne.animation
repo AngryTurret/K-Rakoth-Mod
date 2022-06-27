@@ -75,7 +75,36 @@
         "properties" : {
           "transformationGroups" : [ "aim", "facing", "body" ],
           "offset" : [0.0, 0.6875],
-          "zLevel" : 2
+          "zLevel" : 2,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.1"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:idle.1"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:hurt.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "headnobright" : {
+        "properties" : {
+          "transformationGroups" : [ "aim", "facing", "body" ],
+          "offset" : [0.0, 0.6875],
+          "zLevel" : 3
         },
         "partStates" : {
           "body" : {
