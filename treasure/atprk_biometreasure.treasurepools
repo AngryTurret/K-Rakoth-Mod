@@ -114,6 +114,129 @@
   ],
 
   // ================================
+  //              Amber
+  // ================================
+
+  "atprk_amberChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_amberTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_amberTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_amberTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "atprk_amberbed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberchest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberdoor-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberlight-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ambertable-recipe"},
+        {"weight" : 0.02, "item" : "atprk_amberinsect1"},
+        {"weight" : 0.02, "item" : "atprk_amberinsect2"},
+        {"weight" : 0.02, "item" : "atprk_amberinsect3"},
+        {"weight" : 0.05, "item" : "bioluminhead"},
+        {"weight" : 0.05, "item" : "bioluminchest"},
+        {"weight" : 0.05, "item" : "bioluminlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Amber Caves
+  // ================================
+
+  "atprk_ambercavesChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_ambercavesTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_ambercavesTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_ambercavesTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "atprk_amberbed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberchest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberdoor-recipe"},
+        {"weight" : 0.3, "item" : "atprk_amberlight-recipe"},
+        {"weight" : 0.3, "item" : "atprk_ambertable-recipe"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect1"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect2"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect3"},
+        {"weight" : 0.001, "item" : "amberfossil"},
+        {"weight" : 0.05, "item" : "bioluminhead"},
+        {"weight" : 0.05, "item" : "bioluminchest"},
+        {"weight" : 0.05, "item" : "bioluminlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Forgotten Mountains
+  // ================================
+
+  "atprk_forgottenmountainsChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_forgottenmountainsTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_forgottenmountainsTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_forgottenmountainsTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.3, "item" : "atprk_forgottenbookcase-recipe"},
+        {"weight" : 0.3, "item" : "atprk_forgottenbunkbed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_forgottencage-recipe"},
+        {"weight" : 0.3, "item" : "atprk_forgottenchair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_forgottendesk-recipe"},
+        {"weight" : 0.02, "item" : "atprk_forgottenbook"},
+        {"weight" : 0.05, "item" : "wizardback"},
+        {"weight" : 0.05, "item" : "wizardhead"},
+        {"weight" : 0.05, "item" : "wizardchest"},
+        {"weight" : 0.05, "item" : "wizardlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
   //              Radiotrophic Forest
   // ================================
 
@@ -356,6 +479,10 @@
         {"weight" : 0.3, "item" : "atprk_ufodoor-recipe"},
         {"weight" : 0.3, "item" : "atprk_ufolight-recipe"},
         {"weight" : 0.3, "item" : "atprk_ufotable-recipe"},
+        {"weight" : 0.1, "item" : "salvagearm"},
+        {"weight" : 0.1, "item" : "salvagebody"},
+        {"weight" : 0.1, "item" : "salvagebooster"},
+        {"weight" : 0.1, "item" : "salvagelegs"},
         {"weight" : 0.05, "item" : "spacesuithead"},
         {"weight" : 0.05, "item" : "spacesuitchest"},
         {"weight" : 0.05, "item" : "spacesuitback"},
@@ -396,7 +523,7 @@
         {"weight" : 0.3, "item" : "atprk-krakothlocker-recipe"},
         {"weight" : 0.3, "item" : "atprk-krakothstasiscanister-recipe"},
         {"weight" : 0.3, "item" : "atprk-krakothswitch1-recipe"},
-        {"weight" : 0.15, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.1, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.1, "item" : "atprk_eldertech"},
         {"weight" : 0.05, "item" : "atprk_chthonicscraps"}
       ]
@@ -435,7 +562,7 @@
         {"weight" : 0.3, "item" : "atprk-eldritchchair-recipe"},
         {"weight" : 0.3, "item" : "atprk-eldritchtable-recipe"},
         {"weight" : 0.3, "item" : "atprk-eldritchstool-recipe"},
-        {"weight" : 0.15, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.1, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.05, "item" : "atprk_krakothtextchi"},
         {"weight" : 0.1, "item" : "atprk_eldertech"},
         {"weight" : 0.1, "item" : "atprk_aeonbattery"}
@@ -559,6 +686,7 @@
         {"weight" : 0.2, "item" : "atprk_krakothmetal-recipe"},
         {"weight" : 0.2, "item" : "atprk_slopedkrakothpanel-recipe"},
         {"weight" : 0.2, "item" : "atprk_krakothplatform-recipe"},
+        {"weight" : 0.01, "item" : "atprk_krakothlaserminer-recipe"},
         {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 1]}
       ]
     }]

@@ -17,7 +17,7 @@
     "texture" : "atprk_4dblock.png",
     "variants" : 1,
     "lightTransparent" : true,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 470,
     "radiantLight" : [191, 21, 184]

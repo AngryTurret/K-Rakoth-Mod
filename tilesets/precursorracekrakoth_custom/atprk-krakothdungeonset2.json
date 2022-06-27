@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-rishaanchurch",
  "spacing":0,
- "tilecount":38,
+ "tilecount":40,
  "tileheight":96,
  "tileproperties":
     {
@@ -311,6 +311,25 @@
          "imagePositionX":"-24",
          "imagePositionY":"-16",
          "object":"atprk_apexhoverpad"
+        },
+     "38":
+        {
+         "\/\/description":"A K'Rakothan weapon repurposed by the Miniknog.",
+         "\/\/name":"atprk_apextestgunfixed",
+         "\/\/shortdescription":"Reverse-Engineered Cannon",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_apextestgunfixed",
+         "tilesetDirection":"right"
+        },
+     "39":
+        {
+         "\/\/description":"A rather unlucky cultist.",
+         "\/\/name":"atprk_deadcultistprop",
+         "\/\/shortdescription":"Dead Occasus Cultist",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_deadcultistprop"
         },
      "4":
         {
@@ -670,6 +689,25 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "38":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
      "4":
         {
          "\/\/description":"string",
@@ -919,6 +957,18 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_apexhoverpad.png",
          "imageheight":18,
          "imagewidth":48
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_apextestgunfixed.png",
+         "imageheight":40,
+         "imagewidth":48
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_deadcultistprop.png",
+         "imageheight":16,
+         "imagewidth":40
         },
      "4":
         {

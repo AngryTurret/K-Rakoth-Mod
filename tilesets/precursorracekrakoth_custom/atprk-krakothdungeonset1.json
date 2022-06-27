@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":36,
+ "tilecount":52,
  "tileheight":96,
  "tileproperties":
     {
@@ -300,6 +300,39 @@
          "imagePositionY":"0",
          "object":"atprk_seatrenchstar3"
         },
+     "36":
+        {
+         "\/\/description":"An imposing statue of a K'Rakoth leader.",
+         "\/\/name":"atprk-krakothrulerstatue",
+         "\/\/shortdescription":"Eldritch Ruler Statue",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothrulerstatue",
+         "tilesetDirection":"right"
+        },
+     "37":
+        {
+         "\/\/description":"A naval mine built by K'Rakoths. Thank goodness it doesn't work anymore.",
+         "\/\/name":"atprk_krakothminefake",
+         "\/\/shortdescription":"Disabled Naval Mine",
+         "imagePositionX":"-32",
+         "imagePositionY":"-32",
+         "object":"atprk_krakothminefake"
+        },
+     "38":
+        {
+         "\/\/description":"A shard of a force field. I wonder what powers it.",
+         "\/\/name":"atprk_energyshieldblock",
+         "\/\/shortdescription":"Aeon Force Field",
+         "material":"atprk_energyshieldblock"
+        },
+     "39":
+        {
+         "\/\/description":"Ancient scrap materials compressed into a solid metal cluster.",
+         "\/\/name":"atprk_slopedkrakothscrap",
+         "\/\/shortdescription":"Eldritch Scrap Panel",
+         "material":"atprk_slopedkrakothscrap"
+        },
      "4":
         {
          "\/\/description":"An old touch-screen switch.",
@@ -309,12 +342,132 @@
          "imagePositionY":"-8",
          "object":"atprk-krakothswitch1"
         },
+     "40":
+        {
+         "\/\/description":"What seems to be a working power reactor.",
+         "\/\/name":"atprk-krakothshipreactor1",
+         "\/\/shortdescription":"Aeon Reactor",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipreactor1",
+         "tilesetDirection":"right"
+        },
+     "41":
+        {
+         "\/\/description":"What seems to be a deactivated power reactor.",
+         "\/\/name":"atprk-krakothshipreactor2",
+         "\/\/shortdescription":"Aeon Reactor",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipreactor2",
+         "tilesetDirection":"right"
+        },
+     "42":
+        {
+         "\/\/description":"What seems to be a ruined power reactor.",
+         "\/\/name":"atprk-krakothshipreactorbroken",
+         "\/\/shortdescription":"Destroyed Aeon Reactor",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipreactorbroken",
+         "tilesetDirection":"right"
+        },
+     "43":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble1",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble1",
+         "tilesetDirection":"right"
+        },
+     "44":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble1_orientation2",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble1",
+         "tilesetDirection":"right"
+        },
+     "45":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble1_orientation3",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"0",
+         "imagePositionY":"-16",
+         "object":"atprk-krakothshipgreeble1",
+         "tilesetDirection":"right"
+        },
+     "46":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble2",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble2",
+         "tilesetDirection":"right"
+        },
+     "47":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble2_orientation2",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble2",
+         "tilesetDirection":"right"
+        },
+     "48":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble2_orientation3",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"0",
+         "imagePositionY":"-16",
+         "object":"atprk-krakothshipgreeble2",
+         "tilesetDirection":"right"
+        },
+     "49":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble3",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble3",
+         "tilesetDirection":"right"
+        },
      "5":
         {
          "\/\/description":"Ancient plating made of unknown metal alloys.",
          "\/\/name":"atprk_slopedkrakothpanel",
          "\/\/shortdescription":"Eldritch Panel",
          "material":"atprk_slopedkrakothpanel"
+        },
+     "50":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble3_orientation2",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothshipgreeble3",
+         "tilesetDirection":"right"
+        },
+     "51":
+        {
+         "\/\/description":"A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+         "\/\/name":"atprk-krakothshipgreeble3_orientation3",
+         "\/\/shortdescription":"Elder Ship Greeble",
+         "imagePositionX":"0",
+         "imagePositionY":"-16",
+         "object":"atprk-krakothshipgreeble3",
+         "tilesetDirection":"right"
         },
      "6":
         {
@@ -644,6 +797,39 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "38":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
      "4":
         {
          "\/\/description":"string",
@@ -653,12 +839,132 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "40":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "41":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "42":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "43":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "44":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "45":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "46":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "47":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "48":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "49":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
          "material":"string"
+        },
+     "50":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "51":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "6":
         {
@@ -880,16 +1186,112 @@
          "imageheight":24,
          "imagewidth":24
         },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothrulerstatue.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothminefake.png",
+         "imageheight":48,
+         "imagewidth":48
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_energyshieldblock.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_slopedkrakothscrap.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
      "4":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothswitch1.png",
          "imageheight":16,
          "imagewidth":16
         },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipreactor1.png",
+         "imageheight":88,
+         "imagewidth":48
+        },
+     "41":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipreactor2.png",
+         "imageheight":88,
+         "imagewidth":48
+        },
+     "42":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipreactorbroken.png",
+         "imageheight":64,
+         "imagewidth":48
+        },
+     "43":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble1.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble1_orientation2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "45":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble1_orientation3.png",
+         "imageheight":32,
+         "imagewidth":8
+        },
+     "46":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble2_orientation2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "48":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble2_orientation3.png",
+         "imageheight":32,
+         "imagewidth":8
+        },
+     "49":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble3.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
      "5":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
          "imageheight":8,
+         "imagewidth":8
+        },
+     "50":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble3_orientation2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "51":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshipgreeble3_orientation3.png",
+         "imageheight":32,
          "imagewidth":8
         },
      "6":

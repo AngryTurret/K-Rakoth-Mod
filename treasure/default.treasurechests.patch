@@ -33,6 +33,39 @@
 	  ]
   },
   {"op" : "add",
+	"path" : "/atprk_amber", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_amberchest" ],
+		  "treasurePool" : "atprk_amberChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_ambercaves", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_amberchest" ],
+		  "treasurePool" : "atprk_ambercavesChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_forgottenmountains", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "medievalchest" ],
+		  "treasurePool" : "atprk_forgottenmountainsChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
 	"path" : "/atprk_radiotrophic", 
 	"value" : 
 	  [

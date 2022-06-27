@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-glitchtower",
  "spacing":0,
- "tilecount":26,
+ "tilecount":33,
  "tileheight":88,
  "tileproperties":
     {
@@ -191,6 +191,46 @@
          "imagePositionY":"0",
          "object":"atprk_ashdoor"
         },
+     "26":
+        {
+         "\/\/description":"A tarnished banner of an unidentified kingdom.",
+         "\/\/name":"atprk_forgottenbanner1",
+         "\/\/shortdescription":"Large Tarnished Banner",
+         "imagePositionX":"-8",
+         "imagePositionY":"-32",
+         "object":"atprk_forgottenbanner1",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A tarnished banner of an unidentified kingdom.",
+         "\/\/name":"atprk_forgottenbanner2",
+         "\/\/shortdescription":"Large Tarnished Banner",
+         "imagePositionX":"-8",
+         "imagePositionY":"-32",
+         "object":"atprk_forgottenbanner2",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "\/\/description":"A tarnished banner of an unidentified kingdom.",
+         "\/\/name":"atprk_forgottenbanner3",
+         "\/\/shortdescription":"Small Tarnished Banner",
+         "imagePositionX":"-8",
+         "imagePositionY":"-16",
+         "object":"atprk_forgottenbanner3",
+         "tilesetDirection":"right"
+        },
+     "29":
+        {
+         "\/\/description":"An incomplete armor set.",
+         "\/\/name":"atprk_forgottenarmor",
+         "\/\/shortdescription":"Rusty Armor",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_forgottenarmor",
+         "tilesetDirection":"right"
+        },
      "3":
         {
          "\/\/description":"A dark flag bearing an emblem.",
@@ -199,6 +239,34 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_glitchstandard",
+         "tilesetDirection":"right"
+        },
+     "30":
+        {
+         "\/\/description":"A bowl that doesn't look clean at all.",
+         "\/\/name":"atprk_forgottenbowl",
+         "\/\/shortdescription":"Rusty Bowl",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_forgottenbowl"
+        },
+     "31":
+        {
+         "\/\/description":"A fallen rust-covered chandelier.",
+         "\/\/name":"atprk_forgottenchandelier",
+         "\/\/shortdescription":"Rusty Chandelier",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_forgottenchandelier"
+        },
+     "32":
+        {
+         "\/\/description":"Tarnished remains of a battle standard.",
+         "\/\/name":"atprk_forgottenstandard",
+         "\/\/shortdescription":"Tarnished Battle Standard",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_forgottenstandard",
          "tilesetDirection":"right"
         },
      "4":
@@ -443,7 +511,75 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "29":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "30":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "31":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "32":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -630,9 +766,51 @@
          "imageheight":40,
          "imagewidth":40
         },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner1.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner2.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenarmor.png",
+         "imageheight":40,
+         "imagewidth":16
+        },
      "3":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_glitchstandard.png",
+         "imageheight":40,
+         "imagewidth":16
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbowl.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenchandelier.png",
+         "imageheight":16,
+         "imagewidth":40
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenstandard.png",
          "imageheight":40,
          "imagewidth":16
         },

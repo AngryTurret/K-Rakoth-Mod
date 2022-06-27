@@ -1,0 +1,17 @@
+[
+{"op":"add",
+	"path":"/desertTreasure/0/1/pool/-",
+	"value":
+        {"weight" : 0.02, "item" : "atprk_sandstonestatueannelisk"}
+},
+{"op":"add",
+	"path":"/desertTreasure/0/1/pool/-",
+	"value":
+        {"weight" : 0.02, "item" : "atprk_sandstonestatuefenron"}
+},
+{"op":"add",
+	"path":"/desertTreasure/0/1/pool/-",
+	"value":
+        {"weight" : 0.02, "item" : "atprk_sandstonestatuenoolith"}
+}
+]

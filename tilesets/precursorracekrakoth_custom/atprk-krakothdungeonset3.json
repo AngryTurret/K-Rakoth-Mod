@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":39,
+ "tilecount":46,
  "tileheight":88,
  "tileproperties":
     {
@@ -326,6 +326,16 @@
          "object":"atprk-eldritchfloodlight",
          "tilesetDirection":"right"
         },
+     "39":
+        {
+         "\/\/description":"A broken probe with a small built-in storage.",
+         "\/\/name":"atprk-krakothprobebroken",
+         "\/\/shortdescription":"Disabled Eldritch Probe",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothprobebroken",
+         "tilesetDirection":"right"
+        },
      "4":
         {
          "\/\/description":"An ancient shield generator.",
@@ -334,6 +344,66 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"atprk-krakothgenerator",
+         "tilesetDirection":"right"
+        },
+     "40":
+        {
+         "\/\/description":"Remains of unimaginably old machinery.",
+         "\/\/name":"atprk_krakothdebris1",
+         "\/\/shortdescription":"Elder Debris",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothdebris1",
+         "tilesetDirection":"right"
+        },
+     "41":
+        {
+         "\/\/description":"Remains of unimaginably old machinery.",
+         "\/\/name":"atprk_krakothdebris2",
+         "\/\/shortdescription":"Elder Debris",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothdebris2",
+         "tilesetDirection":"right"
+        },
+     "42":
+        {
+         "\/\/description":"Remains of unimaginably old machinery.",
+         "\/\/name":"atprk_krakothdebris3",
+         "\/\/shortdescription":"Elder Debris",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothdebris3",
+         "tilesetDirection":"right"
+        },
+     "43":
+        {
+         "\/\/description":"Remains of unimaginably old machinery.",
+         "\/\/name":"atprk_krakothdebris4",
+         "\/\/shortdescription":"Elder Debris",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothdebris4",
+         "tilesetDirection":"right"
+        },
+     "44":
+        {
+         "\/\/description":"Remains of unimaginably old machinery.",
+         "\/\/name":"atprk_krakothdebris5",
+         "\/\/shortdescription":"Elder Debris",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothdebris5",
+         "tilesetDirection":"right"
+        },
+     "45":
+        {
+         "\/\/description":"K'Rakoths tried to reverse-engineer this terraformer, it seems.",
+         "\/\/name":"atprk-eldritchterraformerframefixed",
+         "\/\/shortdescription":"Deactivated Terraformer",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchterraformerframefixed",
          "tilesetDirection":"right"
         },
      "5":
@@ -703,7 +773,77 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "4":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "40":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "41":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "42":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "43":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "44":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "45":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -943,8 +1083,8 @@
      "35":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_4dblock.png",
-         "imageheight":10,
-         "imagewidth":10
+         "imageheight":8,
+         "imagewidth":8
         },
      "36":
         {
@@ -964,10 +1104,52 @@
          "imageheight":8,
          "imagewidth":8
         },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothprobebroken.png",
+         "imageheight":18,
+         "imagewidth":32
+        },
      "4":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothgenerator.png",
          "imageheight":32,
+         "imagewidth":32
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris1.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "41":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris2.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "42":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris3.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "43":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris4.png",
+         "imageheight":24,
+         "imagewidth":40
+        },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris5.png",
+         "imageheight":24,
+         "imagewidth":40
+        },
+     "45":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframefixed.png",
+         "imageheight":64,
          "imagewidth":32
         },
      "5":

@@ -1,0 +1,24 @@
+{
+  "materialId" : 62115,
+  "materialName" : "atprk_energyshieldblock",
+  "particleColor" : [207, 60, 231, 255],
+
+  "description" : "A shard of a force field. I wonder what powers it.",
+  "glitchDescription" : "Impressed. Quite a powerful force field.",
+  "floranDescription" : "Huge piece of ssstrong force field.",
+  "shortdescription" : "Aeon Force Field",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 35,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_energyshieldblock.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 5000,
+    "radiantLight" : [235, 115, 255]
+  }
+}

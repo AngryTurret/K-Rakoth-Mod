@@ -421,7 +421,10 @@
         {"weight" : 0.10, "item" : "atprk_fenronfossil3"},
         {"weight" : 0.10, "item" : "atprk_noolithfossil1"},
         {"weight" : 0.10, "item" : "atprk_noolithfossil2"},
-        {"weight" : 0.10, "item" : "atprk_noolithfossil3"}
+        {"weight" : 0.10, "item" : "atprk_noolithfossil3"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect1"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect2"},
+        {"weight" : 0.05, "item" : "atprk_amberinsect3"}
       ]
     }]
   ],

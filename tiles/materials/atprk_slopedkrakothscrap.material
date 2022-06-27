@@ -1,0 +1,26 @@
+{
+  "materialId" : 62116,
+  "materialName" : "atprk_slopedkrakothscrap",
+  "particleColor" : [124, 148, 132, 255],
+  "itemDrop" : "atprk_slopedkrakothscrap",
+
+  "description" : "Ancient scrap materials compressed into a solid metal cluster.",
+  "glitchDescription" : "Neutral. Some sort of an ancient scrap material.",
+  "floranDescription" : "Packed junk metalsss.",
+  "novakidDescription" : "Compressed scraps o' some old machinery.",
+
+  "shortdescription" : "Eldritch Scrap Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 25,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_slopedkrakothscrap.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5001
+  }
+}

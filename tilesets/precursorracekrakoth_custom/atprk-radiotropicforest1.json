@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-radiotropic",
  "spacing":0,
- "tilecount":10,
+ "tilecount":17,
  "tileheight":64,
  "tileproperties":
     {
@@ -31,6 +31,68 @@
          "imagePositionY":"0",
          "object":"atprk_radiotrophicbush2",
          "tilesetDirection":"right"
+        },
+     "10":
+        {
+         "\/\/description":"Fossilized tree resin. You can even spot ancient bugs in it!",
+         "\/\/name":"atprk_amberblock",
+         "\/\/shortdescription":"Amber",
+         "material":"atprk_amberblock"
+        },
+     "11":
+        {
+         "\/\/description":"A round, hollow amber blob you can put things in.",
+         "\/\/name":"atprk_amberchest",
+         "\/\/shortdescription":"Amber Chest",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_amberchest",
+         "tilesetDirection":"right"
+        },
+     "12":
+        {
+         "\/\/description":"A shiny bubble of solid amber.",
+         "\/\/name":"atprk_amberblobfloor1",
+         "\/\/shortdescription":"Amber Blob",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_amberblobfloor1"
+        },
+     "13":
+        {
+         "\/\/description":"A shiny bubble of solid amber.",
+         "\/\/name":"atprk_amberblobfloor2",
+         "\/\/shortdescription":"Amber Blob",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_amberblobfloor2"
+        },
+     "14":
+        {
+         "\/\/description":"A shiny bubble of solid amber.",
+         "\/\/name":"atprk_amberblobfloor3",
+         "\/\/shortdescription":"Amber Blob",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_amberblobfloor3"
+        },
+     "15":
+        {
+         "\/\/description":"A shiny bubble of solid amber.",
+         "\/\/name":"atprk_amberblobfloor4",
+         "\/\/shortdescription":"Amber Blob",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_amberblobfloor4"
+        },
+     "16":
+        {
+         "\/\/description":"A shiny bubble of solid amber.",
+         "\/\/name":"atprk_amberblobfloor5",
+         "\/\/shortdescription":"Amber Blob",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_amberblobfloor5"
         },
      "2":
         {
@@ -128,6 +190,68 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "10":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "11":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "12":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "13":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "14":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "15":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
      "2":
         {
          "\/\/description":"string",
@@ -215,6 +339,48 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush2.png",
          "imageheight":16,
          "imagewidth":24
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblock.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberchest.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor1.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor3.png",
+         "imageheight":6,
+         "imagewidth":14
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor4.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor5.png",
+         "imageheight":6,
+         "imagewidth":14
         },
      "2":
         {

@@ -102,5 +102,36 @@
       ]
     }]
    ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_ambryoHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "hardenedcarapace"},
+		{"weight" : 0.40, "item" : "atprk_amberblock"},
+		{"weight" : 0.05, "item" : "atprk_amberinsect1"},
+		{"weight" : 0.05, "item" : "atprk_amberinsect2"},
+		{"weight" : 0.05, "item" : "atprk_amberinsect3"},
+		{"weight" : 0.002, "item" : "atprk_ambryoaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_xenoprobeHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "staticcell"},
+		{"weight" : 0.40, "item" : "stickofram"},
+		{"weight" : 0.05, "item" : "salvagearm"},
+		{"weight" : 0.05, "item" : "salvagebody"},
+		{"weight" : 0.05, "item" : "salvagebooster"},
+		{"weight" : 0.05, "item" : "salvagelegs"},
+		{"weight" : 0.002, "item" : "atprk_xenoprobeaf"}
+      ]
+    }]
+   ]		
   }
 ]
