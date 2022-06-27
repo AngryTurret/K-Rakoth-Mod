@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2}
+  ],
+  "output" : {
+    "item" : "atprk_radiotrophictimber",
+    "count" : 1
+  },
+  "duration" : 0.05,
+  "groups" : [ "tileprinter" ]
+}

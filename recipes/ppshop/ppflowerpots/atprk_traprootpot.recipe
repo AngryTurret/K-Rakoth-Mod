@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 700 }
+  ],
+  "output" : {
+    "item" : "atprk_traprootpot",
+    "count" : 1
+  },
+  "groups" : [ "ppshop", "ppflowerpots" ]
+}
