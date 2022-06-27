@@ -14,6 +14,10 @@
   "hylotlDescription" : "The glow these algae emit is almost ghastly.",
   "novakidDescription" : "An unsettlin' lookin' kelp.",
 
+  "atprk_anneliskDescription" : "A type of kelp I can probably farm for natural bioluminescence.",
+  "atprk_fenronDescription" : "It better not be poisonous.",
+  "atprk_noolithDescription" : "Bioluminescent algae stems native to boiling oceans.",
+
   "category" : "light",
   "printable" : false,
 
