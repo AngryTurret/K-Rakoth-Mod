@@ -8,6 +8,7 @@
   "shortdescription" : "Eldritch Tentacle Statue",
   "race" : "generic",
   "printable" : false,
+  "health" : 5,
 
   "apexDescription" : "This statue looks surprisingly organic despite being made of metal.",
   "avianDescription" : "I hope it won't try to grab me.",

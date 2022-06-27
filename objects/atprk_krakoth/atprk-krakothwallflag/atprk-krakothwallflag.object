@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-krakothwallflag",
+  "colonyTags" : ["atrpk_krakoth","pretty"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 120,
+  "lightColor" : [117, 58, 127],
+
+  "description" : "A holographic flag of the K'Rakothan civilization.",
+  "shortdescription" : "K'Rakoth Wall Holoflag",
+  "race" : "generic",
+
+  "apexDescription" : "This seems to be a holographic flag.",
+  "avianDescription" : "A holographic flag that depicts a thin tentacle holding an orb.",
+  "floranDescription" : "Light flag with sssome vine in the middle.",
+  "glitchDescription" : "Disturbed. Something is dreadfully familiar about this flag...",
+  "humanDescription" : "A strange holographic flag.",
+  "hylotlDescription" : "A flag of the K'Rakothan people. The symbol in the middle is probably a tentacle holding a pearl.",
+  "novakidDescription" : "I dunno, I see a huge tentacle grabbin' a planet 'ere.",
+
+  "inventoryIcon" : "atprk-krakothwallflagicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothwallflag.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "animation" : "/objects/atprk_krakoth/atprk-krakothwallflag/atprk-krakothwallflag.animation",
+  "animationParts" : {
+    "bg" : "atprk-krakothwallflag.png",
+    "fg" : "atprk-krakothwallflaglit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -8,6 +8,7 @@
   "shortdescription" : "Eldritch Statue",
   "race" : "generic",
   "printable" : false,
+  "health" : 5,
 
   "apexDescription" : "It was either an ancient ruler or a renowned scholar. Perhaps we'll never know for sure.",
   "avianDescription" : "Who is this mysterious creature? Maybe it was a deity of ancient people similar to Kluex?",

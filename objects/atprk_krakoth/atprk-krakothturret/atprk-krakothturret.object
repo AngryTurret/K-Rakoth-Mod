@@ -8,6 +8,7 @@
   "printable" : false,
   "category" : "decorative",
   "price" : 110,
+  "health" : 1.5,
 
   "apexDescription" : "Since this turret hasn't shot me down yet, it's probably deactivated.",
   "avianDescription" : "Thank Kluex, this turret ran out of power.",
