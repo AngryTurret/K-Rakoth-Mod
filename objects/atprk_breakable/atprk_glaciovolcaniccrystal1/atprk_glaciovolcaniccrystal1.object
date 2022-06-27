@@ -18,6 +18,10 @@
   "hylotlDescription" : "A smooth crystal.",
   "novakidDescription" : "A big cold crystal.",
 
+  "atprk_anneliskDescription" : "Something I can sell to a local pawnshop.",
+  "atprk_fenronDescription" : "A large frozen crystal.",
+  "atprk_noolithDescription" : "A crystal suitable for a new Noolith vessel.",
+
   "inventoryIcon" : "atprk_glaciovolcaniccrystal1icon.png",
   "orientations" : [
     {
