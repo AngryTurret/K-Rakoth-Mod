@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "atprk_krakothtexteta.png",
-  "description" : "A survivor's log written in K'Rakothan language. ^red;Requires translation.^white;",
+  "description" : "A survivor's log written in the K'Rakothan language. ^red;Requires translation.^white;",
   "shortdescription" : "K'Rakoth Codex Eta",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
