@@ -16,6 +16,10 @@
   "hylotlDescription" : "A statue of some sharp-looking crystal creature.",
   "novakidDescription" : "I don't remember seein' any folks like this.",
 
+  "atprk_anneliskDescription" : "Nah, the real ones look way more majestic than that. And more snobbish, of course.",
+  "atprk_fenronDescription" : "I could take on this crystal golem with no effort. Mark my words.",
+  "atprk_noolithDescription" : "I have to admit, this one looks pretty convincing.",
+
   "inventoryIcon" : "atprk_servantstatue-crystalicon.png",
   "orientations" : [
     {

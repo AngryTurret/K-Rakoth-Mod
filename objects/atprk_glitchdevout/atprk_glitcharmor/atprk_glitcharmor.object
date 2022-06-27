@@ -16,6 +16,10 @@
   "hylotlDescription" : "What is this armor made of? I don't recognize the material.",
   "novakidDescription" : "This armor's bit too advanced for the Glitch. That's weird.",
 
+  "atprk_anneliskDescription" : "Oh wow, I thought these things were gone forever. Who knows, maybe I can still find blueprints for my own suit.",
+  "atprk_fenronDescription" : "This armor suit is sure impressive, but isn't it a bit too modern for the Glitch?",
+  "atprk_noolithDescription" : "A power armor forged from long-forgotten materials.",
+
   "inventoryIcon" : "atprk_glitcharmoricon.png",
   "orientations" : [
     {

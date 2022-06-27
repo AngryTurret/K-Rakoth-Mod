@@ -16,6 +16,10 @@
   "hylotlDescription" : "This banner has been crafted with great pride. It must have meaning.",
   "novakidDescription" : "The banner's all right.",
 
+  "atprk_anneliskDescription" : "I dunno, all those royal banners and stuff are too pompous for my taste.",
+  "atprk_fenronDescription" : "Not convincing enough. Your banner must display all your force and courage.",
+  "atprk_noolithDescription" : "A carefully woven banner indeed.",
+
   "inventoryIcon" : "atprk_glitchbanner2icon.png",
   "orientations" : [
     {

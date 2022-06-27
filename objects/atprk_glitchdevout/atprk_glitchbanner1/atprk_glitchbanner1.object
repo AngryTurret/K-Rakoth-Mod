@@ -16,6 +16,10 @@
   "hylotlDescription" : "The creature on this banner reminds me of marine life.",
   "novakidDescription" : "There's some strange squid on this banner. Did those robots like calamari or somethin'?",
 
+  "atprk_anneliskDescription" : "Meh, I've seen better.",
+  "atprk_fenronDescription" : "Whatever this creature on the banner is supposed to be, it doesn't look like an apex predator.",
+  "atprk_noolithDescription" : "I wish I could just burn this ugly rug.",
+
   "inventoryIcon" : "atprk_glitchbanner1icon.png",
   "orientations" : [
     {

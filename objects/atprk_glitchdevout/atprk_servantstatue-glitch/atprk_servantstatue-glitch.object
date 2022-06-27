@@ -16,6 +16,10 @@
   "hylotlDescription" : "A stone Glitch statue, worn by time... Oh, and it's called Automaton for some reason.",
   "novakidDescription" : "A stone Glitch with orange eyes.",
 
+  "atprk_anneliskDescription" : "Oh wow, these guys now come in stone, too! He heh. Never gets old.",
+  "atprk_fenronDescription" : "The Glitch may be powerful but they will never match a Fenron! Flesh always stands a chance against steel!",
+  "atprk_noolithDescription" : "Some things never change, it seems...",
+
   "inventoryIcon" : "atprk_servantstatue-glitchicon.png",
   "orientations" : [
     {

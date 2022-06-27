@@ -16,6 +16,10 @@
   "hylotlDescription" : "A stone statue of an alien creature known as K'Rakoth, I suppose.",
   "novakidDescription" : "A squid thing named K'Rakoth. What a weird name.",
 
+  "atprk_anneliskDescription" : "So the tincans still make statues of the old ones, huh? What a bunch of bootlickers.",
+  "atprk_fenronDescription" : "A smart ancient squid with a bunch of tech. Pull them out of their shell, and what are they? Prey.",
+  "atprk_noolithDescription" : "Simply disgusting.",
+
   "inventoryIcon" : "atprk_krakothstonestatueicon.png",
   "orientations" : [
     {

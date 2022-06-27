@@ -16,6 +16,10 @@
   "hylotlDescription" : "A flag that looks like it can be carried and planted as a marker.",
   "novakidDescription" : "This flag probably means somethin' to someone.",
 
+  "atprk_anneliskDescription" : "A flag with an angry tentacled thing on it.",
+  "atprk_fenronDescription" : "What an unusual color for a battle flag, especially the one sewn by the Glitch.",
+  "atprk_noolithDescription" : "I don't even want to look at this heinously vibrant flag.",
+
   "inventoryIcon" : "atprk_glitchstandardicon.png",
   "orientations" : [
     {

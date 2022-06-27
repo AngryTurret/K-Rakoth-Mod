@@ -16,6 +16,10 @@
   "hylotlDescription" : "I don't recognize this species. Is this a giant eel with arms?",
   "novakidDescription" : "A long-lookin' buddy made of stone.",
 
+  "atprk_anneliskDescription" : "Hey handsome... Just kidding, you're not my type.",
+  "atprk_fenronDescription" : "Hmph. Why would anyone erect a whole statue for a spineless worm?",
+  "atprk_noolithDescription" : "The Annelisks... Sometimes they were even more vicious than the False Lords.",
+
   "inventoryIcon" : "atprk_servantstatue-wormicon.png",
   "orientations" : [
     {

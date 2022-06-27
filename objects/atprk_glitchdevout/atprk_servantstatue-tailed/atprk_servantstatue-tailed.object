@@ -16,6 +16,10 @@
   "hylotlDescription" : "A statue of a supposedly feral creature. It actually looks perfectly calm.",
   "novakidDescription" : "Some furry guy. I've never seen anybody like him.",
 
+  "atprk_anneliskDescription" : "Check out this tough guy over here! Looks like a real deal to me!",
+  "atprk_fenronDescription" : "So many inaccuracies. Was this statue made in a haste or something?",
+  "atprk_noolithDescription" : "Ah yes, the Fenrons. They were brave and strong but not particularly intelligent.",
+
   "inventoryIcon" : "atprk_servantstatue-tailedicon.png",
   "orientations" : [
     {

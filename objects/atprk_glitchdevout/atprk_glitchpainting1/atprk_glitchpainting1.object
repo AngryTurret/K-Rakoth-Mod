@@ -17,6 +17,10 @@
   "hylotlDescription" : "Surprisingly vivid colors for a Glitch painting.",
   "novakidDescription" : "An alien squid's about t' eat this Glitch, I guess?",
 
+  "atprk_anneliskDescription" : "Eww. I wouldn't even let that big guy stand so close to me.",
+  "atprk_fenronDescription" : "This squidface is clearly looking for a fight. Hit them right in the eye, robot!",
+  "atprk_noolithDescription" : "So many centuries have passed, and there are still people who are this loyal to the False Lords. How gross and pathetic.",
+
   "inventoryIcon" : "atprk_glitchpainting1icon.png",
   "orientations" : [
     {
