@@ -110,7 +110,7 @@
                  "name":"",
                  "properties":
                     {
-                     "monster":"atprk_shapelessdweller"
+                     "monster":"atprk_shapelesswarlock"
                     },
                  "propertytypes":
                     {
@@ -129,7 +129,7 @@
                  "name":"",
                  "properties":
                     {
-                     "monster":"atprk_shapelessdweller"
+                     "monster":"atprk_shapelesswarlock"
                     },
                  "propertytypes":
                     {

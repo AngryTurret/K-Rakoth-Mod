@@ -43,7 +43,27 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":2147492464,
+                 "height":16,
+                 "id":769,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"atprk_shapelessdwellingsTreasure\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":264,
+                 "y":216
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -72,7 +92,7 @@
                  "name":"",
                  "properties":
                     {
-                     "monster":"atprk_shapelessdweller"
+                     "monster":"atprk_shapelesswarlock"
                     },
                  "propertytypes":
                     {
@@ -278,7 +298,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":769,
+ "nextobjectid":770,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -419,6 +439,10 @@
         {
          "firstgid":8700,
          "source":"..\/..\/..\/..\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8801,
+         "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glaciovolcanicset1.json"
         }],
  "tilewidth":8,
  "type":"map",
