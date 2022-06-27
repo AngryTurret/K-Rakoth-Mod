@@ -2,7 +2,7 @@
   "objectName" : "atprk_forgottenstandard",
   "colonyTags" : ["glitch","glitchcastle","atprk_forgotten"],
   "rarity" : "Common",
-  "description" : "Tarnished remains of a battle standard.",
+  "description" : "The tarnished remains of a battle standard.",
   "shortdescription" : "Tarnished Battle Standard",
   "race" : "glitch",
   "category" : "decorative",
@@ -10,7 +10,7 @@
 
   "apexDescription" : "This standard has seen way too many wars.",
   "avianDescription" : "At this point it barely resembles a banner, to be honest.",
-  "floranDescription" : "Lookss like sssomeone lossst a war once ago.",
+  "floranDescription" : "Lookss like sssomeone lossst a war long ago.",
   "glitchDescription" : "Mournful. Some battles cannot be won after all.",
   "humanDescription" : "A worn-out battle banner, I guess.",
   "hylotlDescription" : "A relic of a long-forgotten war.",
