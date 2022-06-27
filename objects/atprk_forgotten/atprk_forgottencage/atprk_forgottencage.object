@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk_forgottencage",
+  "colonyTags" : ["atprk_forgotten","pretty"],
+  "rarity" : "Common",
+  "description" : "A rusty cage. There's no one inside yet.",
+  "shortdescription" : "Forgotten Bird Cage",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "apexDescription" : "An empty bird cage.",
+  "avianDescription" : "A trap for small birds.",
+  "floranDescription" : "Cage for Floran's meal.",
+  "glitchDescription" : "Disinterested. A rusty bird cage. No birds detected.",
+  "humanDescription" : "A rusty cage. Maybe I should clean it up before letting any birds in.",
+  "hylotlDescription" : "An old-fashioned bird cage.",
+  "novakidDescription" : "Ain't no birds 'ere.",
+
+  "atprk_anneliskDescription" : "An antique bird cage. An actual bird is sold separately.",
+  "atprk_fenronDescription" : "A cage to keep small prey in.",
+  "atprk_noolithDescription" : "An empty bird cage made of rusty metal.",
+
+  "inventoryIcon" : "atprk_forgottencageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forgottencage.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

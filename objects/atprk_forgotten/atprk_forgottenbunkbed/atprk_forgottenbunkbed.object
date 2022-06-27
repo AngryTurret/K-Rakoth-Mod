@@ -1,0 +1,61 @@
+{
+  "objectName" : "atprk_forgottenbunkbed",
+  "colonyTags" : ["atprk_forgotten"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 195,
+  "printable" : false,
+  "description" : "A bunk bed from the distant past.",
+  "shortdescription" : "Forgotten Bunk Bed",
+  "race" : "generic",
+
+  "apexDescription" : "I suppose this double bed is efficient enough when you have limited room for furniture.",
+  "avianDescription" : "A bunk bed you can easily share with your roommate... until you decide who gets the top bunk.",
+  "floranDescription" : "Top bed iss too high for Floran, Floran will sssleep below.",
+  "glitchDescription" : "Distrustful. How do I know the top bunk won't collapse right on me while I'm sleeping?",
+  "humanDescription" : "I call top bunk!",
+  "hylotlDescription" : "It does not look safe enough to sleep in calmly.",
+  "novakidDescription" :  "A rusty bunk bed. I'd take the top bunk but it ain't lookin' all that safe to me.",
+
+  "atprk_anneliskDescription" : "Two beds at the price of one! If it's not a good deal, then I don't know what is.",
+  "atprk_fenronDescription" : "The bottom bunk is for resting, the top one is for scouting for enemies.",
+  "atprk_noolithDescription" : "What's this, a two-storey bed? Well, I suppose it does save more space in a room.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/atprk_forgotten/atprk_forgottenbunkbed/atprk_forgottenbunkbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_forgottenbunkbedicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_forgottenbunkbed.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-10, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_forgottenbunkbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      
+      "direction" : "right",
+
+      "sitPosition" : [-10, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_forgottenbowl",
+  "colonyTags" : ["glitch","atprk_forgotten"],
+  "rarity" : "Common",
+  "description" : "A bowl that doesn't look clean at all.",
+  "shortdescription" : "Rusty Bowl",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 25,
+
+  "apexDescription" : "A rusty metal bowl.",
+  "avianDescription" : "What used to be a clean food bowl.",
+  "floranDescription" : "Bowl isss covered in grosss russst. Floran doesssn't want it.",
+  "glitchDescription" : "Disgusted. A rust-covered metal bowl.",
+  "humanDescription" : "A very rusty metal bowl.",
+  "hylotlDescription" : "Unless you do not care about hygiene at all, you should not eat from this rusty bowl.",
+  "novakidDescription" : "This bowl just won't do.",
+
+  "atprk_anneliskDescription" : "Nothing special, just a food bowl.",
+  "atprk_fenronDescription" : "A dirty metal bowl.",
+  "atprk_noolithDescription" : "A rust-covered metal bowl.",
+
+  "inventoryIcon" : "atprk_forgottenbowlicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_forgottenbowl.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

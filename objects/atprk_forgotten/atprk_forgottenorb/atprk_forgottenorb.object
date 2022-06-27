@@ -1,0 +1,67 @@
+{
+  "objectName" : "atprk_forgottenorb",
+  "colonyTags" : ["atprk_forgotten","light","pretty","valuable"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 195,
+
+  "description" : "A magical orb for thinking important matters over.",
+  "shortdescription" : "Orb of Pondering",
+  "race" : "generic",
+
+  "apexDescription" : "It is just a fantasy-themed desk lamp, there is nothing magical about it.",
+  "avianDescription" : "If you gaze into this orb, you won't see your future. You're more likely to go blind from it.",
+  "floranDescription" : "Fake magical orb.",
+  "glitchDescription" : "Humorous. Pondering my orb...",
+  "humanDescription" : "A not-so-magical orb.",
+  "hylotlDescription" : "A desk lamp shaped like a smooth magical orb.",
+  "novakidDescription" : "Oh thank goodness, that's just a shiny ball. I thought it's a Novakid's head.",
+
+  "atprk_anneliskDescription" : "Whatever this orb's made of, it's not real crystal. Pawn shops won't accept it.",
+  "atprk_fenronDescription" : "Does this orb actually do anything other than glowing?",
+  "atprk_noolithDescription" : "A cheap round toy. The best you can do with it is scam superstitious people.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [60, 154, 168],
+
+  "inventoryIcon" : "atprk_forgottenorbicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_forgottenorb.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "atprk_forgottenorb.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_forgottenorb.png",
+    "fg" : "atprk_forgottenorblit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

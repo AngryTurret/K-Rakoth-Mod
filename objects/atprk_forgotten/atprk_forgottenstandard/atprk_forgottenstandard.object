@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_forgottenstandard",
+  "colonyTags" : ["glitch","glitchcastle","atprk_forgotten"],
+  "rarity" : "Common",
+  "description" : "Tarnished remains of a battle standard.",
+  "shortdescription" : "Tarnished Battle Standard",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 50,
+
+  "apexDescription" : "This standard has seen way too many wars.",
+  "avianDescription" : "At this point it barely resembles a banner, to be honest.",
+  "floranDescription" : "Lookss like sssomeone lossst a war once ago.",
+  "glitchDescription" : "Mournful. Some battles cannot be won after all.",
+  "humanDescription" : "A worn-out battle banner, I guess.",
+  "hylotlDescription" : "A relic of a long-forgotten war.",
+  "novakidDescription" : "I dunno, a worn-out towel?",
+
+  "atprk_anneliskDescription" : "An old battle standard thingy.",
+  "atprk_fenronDescription" : "This banner represents a kingdom that got defeated by a stronger foe.",
+  "atprk_noolithDescription" : "Whoever produced this standard is now long-forgotten.",
+
+  "inventoryIcon" : "atprk_forgottenstandardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forgottenstandard.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_forgottenbanner2",
+  "colonyTags" : ["glitch","glitchcastle","atprk_forgotten"],
+  "rarity" : "Common",
+  "description" : "A tarnished banner of an unidentified kingdom.",
+  "shortdescription" : "Large Tarnished Banner",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "It is impossible to identify the kingdom this banner represented.",
+  "avianDescription" : "A woven banner of some mysterious, forgotten kingdom.",
+  "floranDescription" : "Dull banner.",
+  "glitchDescription" : "Irked. I cannot identify the pattern on this banner. How do I know which kingdom it belonged to then?",
+  "humanDescription" : "It's hard to tell what used to be pictured on this banner. It could be a bird, a lion or even a poptop.",
+  "hylotlDescription" : "What used to be a regal banner is now nothing but a tarnished rag. How tragic.",
+  "novakidDescription" : "A sad-lookin' rug. Should I just take it off?",
+
+  "atprk_anneliskDescription" : "I can't even tell what's pictured on this tarnished rug.",
+  "atprk_fenronDescription" : "A worn-out royal banner of sorts.",
+  "atprk_noolithDescription" : "I don't really remember whom this banner belonged to, and there is no telling.",
+
+  "inventoryIcon" : "atprk_forgottenbanner2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forgottenbanner2.png:<color>",
+      "imagePosition" : [-8, -32],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-1, 0], [0, 0], [1, 0] ]
+    },
+    {
+      "dualImage" : "atprk_forgottenbanner2.png:<color>",
+      "imagePosition" : [-8, -32],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, 1], [0, 1], [1, 1] ]
+    }
+  ]
+}

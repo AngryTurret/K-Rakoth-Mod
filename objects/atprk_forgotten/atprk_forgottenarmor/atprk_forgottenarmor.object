@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_forgottenarmor",
+  "colonyTags" : ["glitch","glitchcastle","atprk_forgotten","combat"],
+  "rarity" : "Common",
+  "description" : "An incomplete armor set.",
+  "shortdescription" : "Rusty Armor",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 85,
+
+  "apexDescription" : "A rusty set of medieval armor.",
+  "avianDescription" : "Hm, some parts of this armor set are missing. They could be nearby, or probably not.",
+  "floranDescription" : "Russsty metal armor.",
+  "glitchDescription" : "Curious. I wonder where the helmet is.",
+  "humanDescription" : "An incomplete armor set covered in a thick layer of rust.",
+  "hylotlDescription" : "A heavily worn-out set of armor.",
+  "novakidDescription" : "It seems someone needed a helmet.",
+
+  "atprk_anneliskDescription" : "Even without rust this armor doesn't stand a chance against modern firearms.",
+  "atprk_fenronDescription" : "I can sense this armor has seen many fierce battles.",
+  "atprk_noolithDescription" : "A set of armor once used by the Glitch or some other people.",
+
+  "inventoryIcon" : "atprk_forgottenarmoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forgottenarmor.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

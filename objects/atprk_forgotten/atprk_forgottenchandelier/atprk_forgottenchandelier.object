@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_forgottenchandelier",
+  "colonyTags" : ["glitch","atprk_forgotten"],
+  "rarity" : "Common",
+  "description" : "A fallen rust-covered chandelier.",
+  "shortdescription" : "Rusty Chandelier",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 75,
+
+  "apexDescription" : "A lying metal chandelier with a broken chain.",
+  "avianDescription" : "A corroded metal chandelier.",
+  "floranDescription" : "No more hanging fire, yay!",
+  "glitchDescription" : "Upset. I doubt this chandelier can be repaired.",
+  "humanDescription" : "A rust-covered chandelier.",
+  "hylotlDescription" : "A broken chandelier. Its chains could not hold it anymore.",
+  "novakidDescription" : "A rust-ridden metal lamp of sorts. It used t' be one at least.",
+
+  "atprk_anneliskDescription" : "An old-fashioned metal chandelier lying on the floor.",
+  "atprk_fenronDescription" : "This chandelier's chain is broken. What a shame, I could've made a weapon out of it.",
+  "atprk_noolithDescription" : "A broken metal chandelier.",
+
+  "inventoryIcon" : "atprk_forgottenchandeliericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forgottenchandelier.png:<color>",
+
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

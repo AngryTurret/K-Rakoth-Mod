@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_forgottenbookcase",
+  "colonyTags" : ["atprk_forgotten","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 175,
+  "description" : "A classic bookcase filled to the brim.",
+  "shortdescription" : "Forgotten Bookcase",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A wooden bookcase with a metallic frame.",
+  "avianDescription" : "There are so many books they don't even fit in!",
+  "floranDescription" : "Bookcassse full of booksss.",
+  "glitchDescription" : "Impressed. What a large collection of books.",
+  "humanDescription" : "A whole personal library in one bookcase.",
+  "hylotlDescription" : "A bookcase with a wide selection of books.",
+  "novakidDescription":  "That's a lot of stuff to read.",
+
+  "atprk_anneliskDescription" : "This bookcase comes with a full set of free books.",
+  "atprk_fenronDescription" : "Is there anything to read about close-range combat, I wonder?",
+  "atprk_noolithDescription" : "A bookcase full of valuable lore. Hopefully.",
+
+  "inventoryIcon" : "atprk_forgottenbookcaseicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_forgottenbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_forgottenbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

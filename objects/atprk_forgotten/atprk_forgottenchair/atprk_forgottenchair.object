@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_forgottenchair",
+  "colonyTags" : ["atprk_forgotten"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A tall rusty chair once utilized in an ancient kingdom.",
+  "shortdescription" : "Forgotten Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "A rather large wooden chair.",
+  "avianDescription" : "Quite an impressive wooden chair, albeit a bit huge.",
+  "floranDescription" : "Big chair with metal framesss.",
+  "glitchDescription" : "Impressed. A well-manufactured wooden chair.",
+  "humanDescription" : "This chair may be a bit too large for me but it does look fancy.",
+  "hylotlDescription" : "An antique chair of metal and wood.",
+  "novakidDescription" : "A tad bit huge wooden chair.",
+
+  "atprk_anneliskDescription" : "A gray classic chair with metal frames.",
+  "atprk_fenronDescription" : "I hope this chair is as sturdy as it looks.",
+  "atprk_noolithDescription" : "A familiar design, I must say.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "atprk_forgottenchairicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_forgottenchair.png:<color>",
+      "sitCoverImage" : "/objects/atprk_forgotten/atprk_forgottenchair/atprk_forgottenchaircover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [2, 24] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_forgottenchair.png:<color>",
+      "sitCoverImage" : "/objects/atprk_forgotten/atprk_forgottenchair/atprk_forgottenchaircover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [3, 24] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
