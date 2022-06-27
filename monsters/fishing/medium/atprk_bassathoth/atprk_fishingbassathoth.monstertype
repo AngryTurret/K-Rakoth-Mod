@@ -1,7 +1,7 @@
 {
   "type" : "atprk_fishingbassathoth",
   "shortdescription" : "Bassathoth",
-  "description" : "Pretty much a sleepy, blind idiot fish. Once you see it, it should be easy to catch one.",
+  "description" : "Pretty much a sleepy, blind, idiot fish. Once you see it, it should be easy to catch one.",
 
   "categories" : [ "atprk_fishingbassathoth" ],
   "parts" : [ "body" ],
