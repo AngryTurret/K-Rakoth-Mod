@@ -126,7 +126,6 @@
 
 
   "hueShiftOptions" : [0],
-  "parallax" : "/parallax/underground/underground5d.parallax",
 
   "sky" : {
     "topColor" : [182, 204, 255],

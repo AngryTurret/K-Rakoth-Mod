@@ -8,13 +8,14 @@
         "select" : 2,
         "pool" : [
           [ 1, "bobot" ],
-          [ 1, "scandroid" ]
+          [ 1, "skimbus" ],
+          [ 1, "atprk_xenoprobe" ]
         ]
       },
       {
         "select" : 3,
         "pool" : [
-          [ 0.25, "skellyfishcritter" ],
+          [ 0.25, "atprk_tinyufocritter" ],
           [ 0.25, "spidercritter" ],
           [ 0.25, "appofloatcritter" ],
           [ 0.25, "rolypolycritter" ]
@@ -90,7 +91,21 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.08, "atprk_pollutedjunk1" ], [0.08, "atprk_pollutedjunk2" ], [0.08, "atprk_pollutedjunk3" ], [0.08, "atprk_pollutedjunk4" ], [0.08, "atprk_pollutedjunk5" ], [0.02, "atprk_krakothdebris1" ], [0.02, "atprk_krakothdebris2" ], [0.02, "atprk_krakothdebris3" ], [0.02, "atprk_krakothdebris4" ], [0.02, "atprk_krakothdebris5" ]],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "atprk_virtualconsolebroken" ] ],
             "parameters" : { }
           }
         ]
@@ -142,7 +157,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.08, "atprk_pollutedjunk1" ], [0.08, "atprk_pollutedjunk2" ], [0.08, "atprk_pollutedjunk3" ], [0.08, "atprk_pollutedjunk4" ], [0.08, "atprk_pollutedjunk5" ], [0.02, "atprk_krakothdebris1" ], [0.02, "atprk_krakothdebris2" ], [0.02, "atprk_krakothdebris3" ], [0.02, "atprk_krakothdebris4" ], [0.02, "atprk_krakothdebris5" ]],
             "parameters" : { }
           }
         ]

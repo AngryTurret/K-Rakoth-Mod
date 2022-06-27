@@ -1,6 +1,6 @@
 {
   "name" : "atprk_ashworld",
-  "friendlyName" : "Ash",
+  "friendlyName" : "Ashy",
 
   "spawnProfile" : {
     "groups" : [
@@ -412,6 +412,20 @@
             "name" : "magmapitcher",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
+            "parameters" : { }
           }
         ]
       },

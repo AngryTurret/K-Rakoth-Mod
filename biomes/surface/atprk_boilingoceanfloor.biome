@@ -62,6 +62,20 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "atprk-krakothrulerstatue" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "grass",

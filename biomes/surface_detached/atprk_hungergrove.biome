@@ -117,6 +117,9 @@
     "grassMod" : [ "aliengrass" ],
     "grassModDensity" : 0.6,
 
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.8,
+
     "items" : [
       {
         "mode" : "ceiling",
