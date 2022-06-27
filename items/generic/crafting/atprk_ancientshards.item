@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "craftingMaterial",
   "inventoryIcon" : "atprk_ancientshards.png",
-  "description" : "Remains of ancient artifacts.",
+  "description" : "The remains of ancient artifacts.",
   "shortdescription" : "Ancient Shards",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
