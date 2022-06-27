@@ -1,0 +1,36 @@
+{
+  "input" : [
+    { "item" : "atprk_shapelessprism", "count" : 1 },
+    { "item" : "atprk_ancientshards", "count" : 2 },
+    { "item" : "solidfuel", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "filledcapturepod",
+    "count" : 1,
+    "parameters" : {
+      "rarity" : "Legendary",
+      "shortdescription" : "Ghostly Capture Pod",
+      "description" : "No one knows how this erchius being was captured but with the right artifacts, you can control it.",
+      "tooltipFields" : {
+        "subtitle" : "Erchius Spook",
+        "objectImage" : "/monsters/ghosts/atprk_erchiusspook/atprk_erchiusspook.png:fly.1"
+      },
+      "pets" : [
+        {
+          "name" : "Erchius Spook",
+          "portrait" : [
+            {"image" : "/monsters/ghosts/atprk_erchiusspook/atprk_erchiusspook.png:fly.1"}
+          ],
+          "config" : {
+            "type" : "atprk_erchiusspook",
+            "parameters" : {
+              "level" : 6,
+              "aggressive" : true
+            }
+          }
+        }
+      ]
+    }
+  },
+  "groups" : [ "atprk_relicexchange" ]
+}

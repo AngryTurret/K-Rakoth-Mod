@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "essence", "count" : 300}
+  ],
+  "output" : {
+    "item" : "atprk_ancientflametrapalt",
+    "count" : 1
+  },
+  "groups" : [ "atprk_vaultraidershop" ]
+}

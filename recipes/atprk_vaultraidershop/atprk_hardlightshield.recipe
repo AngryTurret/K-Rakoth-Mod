@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "essence", "count" : 675}
+  ],
+  "output" : {
+    "item" : "atprk_hardlightshield",
+    "count" : 1
+  },
+  "groups" : [ "atprk_vaultraidershop" ]
+}
