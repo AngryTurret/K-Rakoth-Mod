@@ -1,7 +1,7 @@
 {
   "type" : "atprk_fishingspectrout",
   "shortdescription" : "Spectrout",
-  "description" : "Its translucent body makes it more difficult to spot it in water.",
+  "description" : "Its translucent body makes it more difficult to spot in water.",
 
   "categories" : [ "atprk_fishingspectrout" ],
   "parts" : [ "body" ],
