@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_spongedoorpropdouble",
+  "colonyTags" : ["atprk_sponge","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Sponge doors full of holes. Let's hope they don't let much heat through.",
+  "shortdescription" : "Sponge Double Door Prop",
+  "race" : "generic",
+
+  "apexDescription" : "Doors of questionable durability.",
+  "avianDescription" : "There is something funny about these doors but I cannot quite put my finger on it.",
+  "floranDescription" : "Floran kicksss yellow doors open. Floran alssso bitess them. Sssometimes.",
+  "glitchDescription" : "Comical. Two unexplainably hilarious doors.",
+  "humanDescription" : "Why do I feel like these doors will laugh if I open them?",
+  "hylotlDescription" : "These wide flat sponges will protect your household from elements and unwanted nematodes.",
+  "novakidDescription" : "Who'd make their front doors look like huge pieces o' cheese?",
+
+  "inventoryIcon" : "atprk_spongedoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_spongedoorpropdouble.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

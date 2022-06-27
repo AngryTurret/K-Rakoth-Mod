@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_spongedoorprop",
+  "colonyTags" : ["atprk_sponge","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A sponge door full of holes. Let's hope it doesn't let much heat through.",
+  "shortdescription" : "Sponge Door",
+  "race" : "generic",
+
+  "apexDescription" : "A door of questionable durability.",
+  "avianDescription" : "There is something funny about this door but I cannot quite put my finger on it.",
+  "floranDescription" : "Floran kicksss yellow door open. Floran alssso bitess it. Sssometimes.",
+  "glitchDescription" : "Comical. An unexplainably hilarious door.",
+  "humanDescription" : "Why do I feel like this door will laugh if I open it?",
+  "hylotlDescription" : "This wide flat sponge will protect your household from elements and unwanted nematodes.",
+  "novakidDescription" : "Who'd make their front door look like a huge piece o' cheese?",
+
+  "inventoryIcon" : "atprk_spongedoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_spongedoorprop.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
