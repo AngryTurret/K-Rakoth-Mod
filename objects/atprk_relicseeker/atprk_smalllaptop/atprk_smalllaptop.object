@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_smalllaptop",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "description" : "A modern laptop.",
+  "shortdescription" : "Modern Laptop",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "apexDescription" : "A portable computer.",
+  "avianDescription" : "Quite a small modern laptop.",
+  "floranDescription" : "Hard book with ssscreen?",
+  "glitchDescription" : "Confused. This laptop's webcam is covered with duct tape for some reason.",
+  "humanDescription" : "A small laptop. I wonder if it comes with any videogames.",
+  "hylotlDescription" : "A common laptop. Nothing too exciting about it.",
+  "novakidDescription" : "Yet another electronic thingamajig.",
+
+  "inventoryIcon" : "atprk_smalllaptopicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_smalllaptop.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

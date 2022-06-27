@@ -1,0 +1,89 @@
+{
+  "objectName" : "atprk_starcartographer",
+  "colonyTags" : ["atprk_relicseeker","commerce","atprk_planetpin"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A Glitch cartographer who sells planet pins.",
+  "shortdescription" : "Star Cartographer",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "It seems I can obtain planet pins from this cartographer.",
+  "avianDescription" : "A Glitch cartographer who gives special pins for exploring new frontiers.",
+  "floranDescription" : "Metal man sssells shiny pinsss. Floran getsss more pinss if Floran finds more planetsss.",
+  "glitchDescription" : "Amicable. A fellow Glitch traveller who sells planet pins.",
+  "humanDescription" : "I can get some fancy planet pins from this guy.",
+  "hylotlDescription" : "This space cartographer will reward me with pins if I keep exploring new planets.",
+  "novakidDescription" : "A fella who sells planet pins. I can get more if I explore space long enough.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Star Cartographer",
+        "subtitle" : "Sells pins of explored planets"
+      }
+    },
+    "buyFactor" : 2.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : { "name" : "atprk_gardenpin" } },
+      { "item" : { "name" : "atprk_moonpin" } },
+
+      { "item" : { "name" : "atprk_barrenpin" }, "prerequisiteQuest" : "floran_mission1" },
+      { "item" : { "name" : "atprk_desertpin" }, "prerequisiteQuest" : "floran_mission1" },
+      { "item" : { "name" : "atprk_forestpin" }, "prerequisiteQuest" : "floran_mission1" },
+
+      { "item" : { "name" : "atprk_ashworldpin" }, "prerequisiteQuest" : "atprk_relicsearchquest1" },
+
+      { "item" : { "name" : "atprk_oceanpin" }, "prerequisiteQuest" : "hylotl_mission1" },
+      { "item" : { "name" : "atprk_savannahpin" }, "prerequisiteQuest" : "hylotl_mission1" },
+      { "item" : { "name" : "atprk_snowpin" }, "prerequisiteQuest" : "hylotl_mission1" },
+
+      { "item" : { "name" : "atprk_alienpin" }, "prerequisiteQuest" : "avian_mission1" },
+      { "item" : { "name" : "atprk_junglepin" }, "prerequisiteQuest" : "avian_mission1" },
+      { "item" : { "name" : "atprk_toxicpin" }, "prerequisiteQuest" : "avian_mission1" },
+
+      { "item" : { "name" : "atprk_arcticpin" }, "prerequisiteQuest" : "apex_mission1" },
+      { "item" : { "name" : "atprk_midnightpin" }, "prerequisiteQuest" : "apex_mission1" },
+      { "item" : { "name" : "atprk_tundrapin" }, "prerequisiteQuest" : "apex_mission1" },
+
+      { "item" : { "name" : "atprk_boilingoceanpin" }, "prerequisiteQuest" : "atprk_relicsearchquest5" },
+
+      { "item" : { "name" : "atprk_magmapin" }, "prerequisiteQuest" : "glitch_mission1" },
+      { "item" : { "name" : "atprk_scorchedcitypin" }, "prerequisiteQuest" : "glitch_mission1" },
+      { "item" : { "name" : "atprk_volcanicpin" }, "prerequisiteQuest" : "glitch_mission1" }
+    ]
+  },
+
+  "inventoryIcon" : "atprk_starcartographericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_starcartographer.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_starcartographerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 10,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_starcartographer.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_starcartographerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 10,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

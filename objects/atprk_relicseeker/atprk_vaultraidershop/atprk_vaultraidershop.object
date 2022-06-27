@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk_vaultraidershop",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "description" : "A stash of valuable ancient loot. I can buy some of it with essence.",
+  "shortdescription" : "Vault Raider's Stash",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Now I can get hold of ancient technologies if I have enought essence.",
+  "avianDescription" : "Here I can spend spare essence on ancient artifacts.",
+  "floranDescription" : "Very old ssstuff sssold for essence.",
+  "glitchDescription" : "Intrigued. With enough essence, I can obtain some ancient technologies.",
+  "humanDescription" : "As long as I have spare essence, I may take ancient loot from here.",
+  "hylotlDescription" : "With enough essence, I can buy artifacts made by the Ancients.",
+  "novakidDescription" : "Take a relic, leave some essence. That's the rule 'ere.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Vault Raider's Stash",
+        "subtitle" : "Buy Jade's loot with spare essence",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_vaultraidershopicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_vaultraidershop" ]
+  },
+
+  "inventoryIcon" : "atprk_vaultraidershopicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_vaultraidershop.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

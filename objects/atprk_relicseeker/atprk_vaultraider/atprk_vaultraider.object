@@ -1,0 +1,72 @@
+{
+  "objectName" : "atprk_vaultraider",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "An enigmatic traveller in black.",
+  "shortdescription" : "Vault Raider",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "Yet another rebellious teenager.",
+  "avianDescription" : "I can sense all the edge from miles away.",
+  "floranDescription" : "Thiss blue perssson with hornsss is too sasssy.",
+  "glitchDescription" : "Sarcastic. Watch out, we've got a bad girl over here!",
+  "humanDescription" : "What's up with all the edge?",
+  "hylotlDescription" : "Unfortunately, some races are not as familiar with manners as the Hylotl.",
+  "novakidDescription" : "Who's this bratty show-off in the corner?",
+
+  "inventoryIcon" : "atprk_vaultraidericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_vaultraider.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 14,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_vaultraider.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 14,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "offeredQuests" : [
+    "atprk_vaultscanquest"
+  ],
+  "turnInQuests" : [
+    "atprk_vaultscanquest"
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "I broke into an Ancient Vault once. Yeah, for real. No, I won't spoil anything.",
+    "Eyes up here, pal.",
+    "If you touch my horns, you're dead. Got it?",
+    "Ever met a shady guy in a hood? And I don't mean those Novakid nerds.",
+    "What? You're one of those Protectors? Yeah cool whatever.",
+    "If you ever get hold of some strange purple essence, bring it here. Maybe we could trade a bit.",
+    "Penguins may be posers but when it comes to big guns, they know their stuff.",
+    "Who you're calling deadbeat, punk?",
+    "Don't you have anything better to do? Lame.",
+    "Ancient ruins are pretty cool, I guess."
+  ],
+
+  "uniqueId" : "atprk_vaultraider"
+}
