@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_shapelessprism",
+  "rarity" : "Rare",
+  "category" : "fuel",
+  "inventoryIcon" : "atprk_shapelessprism.png",
+  "description" : "An enigmatic erchius-infused prism of unknown origin.",
+  "shortdescription" : "Shapeless Prism",
+  "fuelAmount" : 50,
+  "price" : 1500
+}
