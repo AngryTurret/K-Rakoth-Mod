@@ -17,6 +17,10 @@
   "hylotlDescription" : "A beautiful vase made of mysterious ancient materials.",
   "novakidDescription" : "A person-tall vase. I don't wanna break it, so I'll be careful.", 
 
+  "atprk_anneliskDescription" : "How much pixels can I get for this antique vase? Just asking.",
+  "atprk_fenronDescription" : "Just a tall ancient urn, not much to wiggle your tail about.",
+  "atprk_noolithDescription" : "A well-crafted vase typical of the Ancients.",
+
   "inventoryIcon" : "atprk_ancientvaseicon.png",
   "orientations" : [
     {

@@ -21,6 +21,10 @@
   "hylotlDescription" : "A beautifully crafted statue with glowing eyes.",
   "novakidDescription" : "A very familiar look...",
 
+  "atprk_anneliskDescription" : "Hiding your face as usual, eh?",
+  "atprk_fenronDescription" : "These glowing eyes could easily give this statue's position away.",
+  "atprk_noolithDescription" : "I wish my people were guided by the Ancients instead of the False Lords back then.",
+
   "inventoryIcon" : "atprk_ancientstatuepropicon.png",
   "orientations" : [
     {

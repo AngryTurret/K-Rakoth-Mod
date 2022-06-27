@@ -20,6 +20,10 @@
   "hylotlDescription" : "An unremarkable yet ancient tomb.",
   "novakidDescription" : "I think at this point there's only dust inside.",
 
+  "atprk_anneliskDescription" : "Should I go ahead and desecrate an ancient tomb? Well, only if there's something valuable inside.",
+  "atprk_fenronDescription" : "A tomb for the dead. By the looks of it, only dust remains inside.",
+  "atprk_noolithDescription" : "Unlike the other races, the Nooliths have no need to bury their old vessels.",
+
   "inventoryIcon" : "atprk_ancienttombicon.png",
   "orientations" : [
     {

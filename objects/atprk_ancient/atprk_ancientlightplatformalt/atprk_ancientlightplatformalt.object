@@ -1,0 +1,69 @@
+{
+  "objectName" : "atprk_ancientlightplatformalt",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Legendary",
+  "category" : "door",
+  "price" : 95,
+  "printable" : false,
+  "description" : "A beam of hard light creating a platform.",
+  "shortdescription" : "Ancient Light Platform",
+  "race" : "ancient",
+
+  "closedLight" : [103, 250, 255],
+
+  "apexDescription" : "Just your average holographic platform.",
+  "avianDescription" : "This does not look stable to bear my weight.",
+  "floranDescription" : "Floran suspiciousss of hard light.",
+  "glitchDescription" : "Nervous. It looks as though I would fall right through this platform.",
+  "humanDescription" : "This platform is made of some sort of force field technology.",
+  "hylotlDescription" : "This energy barrier can support weight beyond it's means.",
+  "novakidDescription" : "Solid energy, just like us Novakid.",
+
+  "atprk_anneliskDescription" : "A fancy light platform.",
+  "atprk_fenronDescription" : "How does this platform work? I mean, something has to power it, right?",
+  "atprk_noolithDescription" : "A solid beam of light I can stand on.",
+
+  "inventoryIcon" : "atprk_ancientlightplatformalticon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "atprk_ancientlightplatformalt.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/ancientlightplatform_off.ogg" ],
+      "close" : [ "/sfx/objects/ancientlightplatform_on.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_ancientlightplatformalt.png"
+  },
+
+    "orientations" : [
+    {
+      "image" : "atprk_ancientlightplatformalt.png:default",
+      "imagePosition" : [-17, -1],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-17, -1],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ],
+      "bgAnchors" : [ [0,0] ]
+    },
+    {
+      "image" : "atprk_ancientlightplatformalt.png:default",
+      "imagePosition" : [-17, -1],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-17, -1],
+      "direction" : "right",
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ],
+      "bgAnchors" : [ [0,0] ]
+    }
+  ],
+
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, 0] ]
+}
