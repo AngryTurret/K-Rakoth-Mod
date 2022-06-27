@@ -13,9 +13,9 @@
   "avianDescription" : "I'd rather not sleep in this bed unless I want to torture my back.",
   "floranDescription" : "Ssstrong bed for ssstrong ssleepers.",
   "glitchDescription" : "Confident. A bed that is way too uncomfortable to sleep in.",
-  "humanDescription" : "Does anyone have a pillow? Actually, it could use a mattress too.",
+  "humanDescription" : "Does anyone have a pillow? Actually, this could use a mattress too.",
   "hylotlDescription" : "I suspect this bed is actually a religious altar of sorts.",
-  "novakidDescription" : "Why'd anyone sleep in that? Even the bare floor's softer.",
+  "novakidDescription" : "Why'd anyone sleep in this? Even the bare floor's softer.",
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
