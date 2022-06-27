@@ -1,0 +1,93 @@
+[
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_relicflag1",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_relic1",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [234, 869]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_relicflag2",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_relic2",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [225, 869]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_relicflag3",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_relic3",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [227, 883]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_relicflag4",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_relic4",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [207, 880]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_relicflag5",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_relic5",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [219, 879]
+      },
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_vaultraider",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [206, 865]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/atprk_relicseekerhq_vaultraiderflag",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_vaultraidershop",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [209, 869]
+      }
+          ]
+    }
+  }
+
+]

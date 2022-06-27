@@ -18,6 +18,23 @@
     "worldEdgeForceRegions" : "TopAndBottom",
     "biome" : "space"
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_relicseekerhq",
+    "value" : {
+      "primaryDungeon" : "atprk_relicseekerhq",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/i-was-the-sun.ogg",
+    "environmentStatusEffects" : ["dontstarve"],
+    "biome" : "atprk_relicseekerhqbiome"
+    }
   }
 
 

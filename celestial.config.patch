@@ -18,6 +18,16 @@
         "maskPerPlanetRange" : [3, 3]
       }
     },
+    {
+      "op" : "add",
+      "path" : "/terrestrialHorizonGraphics/atprk_ruinedworld",
+      "value" : {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/atprk_ruinedworld_<selector>.png",
+        "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "maskRange" : [1, 25],
+        "maskPerPlanetRange" : [3, 3]
+      }
+    },
 
     {
       "op" : "add",
@@ -34,6 +44,15 @@
       "path" : "/terrestrialGraphics/atprk_ashworld",
       "value" : {
         "baseImages" : "/celestial/system/terrestrial/biomes/atprk_ashworld/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/terrestrialGraphics/atprk_ruinedworld",
+      "value" : {
+        "baseImages" : "/celestial/system/terrestrial/biomes/atprk_ruinedworld/maskie<num>.png",
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
         "dynamicsRange" : [1, 30]
       }

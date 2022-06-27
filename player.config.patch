@@ -1,0 +1,30 @@
+[
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_4dblock" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk-4dcratemedium" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk-4dcratesmall" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk-4dchair" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk-4dtable" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_4dcraftingsmall" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk-4dperfect" }
+  }
+]

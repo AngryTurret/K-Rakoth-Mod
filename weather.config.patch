@@ -18,5 +18,14 @@
 			[0.22, "lightash"],
 			[0.03, "glowingrain"]
 		]
+	},
+	{
+		"op":"add",
+		"path":"/atprk_ruinedworld",
+		"value" : [
+			[0.50, "clear"],
+			[0.40, "meteorshower"],
+			[0.10, "largemeteor"]
+		]
 	}
 ]

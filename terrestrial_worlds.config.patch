@@ -6,6 +6,9 @@
       "blendSize" : 30,
       "threatRange" : [6, 6],
       "layers" : {
+        "space" : {
+          "primaryRegion" : ["atprk_boilingoceanorbit"]
+        },
         "surface" : {
           "primaryRegion" : ["atprk_boilingocean"],
           "baseHeight" : 1150,
@@ -35,7 +38,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : ["atprk_ashworld"],
-          "secondaryRegions" : [ "barren", "volcanic", "savannah" ],
+          "secondaryRegions" : [ "atprk_ashylakes", "volcanic", "barren" ],
           "dungeons" : [
             [4.0,"atprk_glitchdevouttower"], [1.0,"atprk_apexarea48"], [0.5,"atprk_krakothchurch"], [0.5,"atprk_krakothlab"],
             [1.0,"evilfortress"], [1.0,"dungeoncrawler"], [1.0,"glitchcastle"], [1.0,"glitchvillage"],
@@ -45,6 +48,18 @@
             [1.0,"apextestfacility"], [1.0, "apexbase"], [1.0, "apexcamp"], [1.0, "apexcity"],
             [1.0,"hylotlruinedcastle"], [1.0, "hylotlcity"]
           ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/atprk_ruinedworld",
+    "value" : {
+      "threatRange" : [6, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["atprk_ruinedworld"]
         }
       }
     }
@@ -95,6 +110,11 @@
     "op" : "add",
     "path" : "/regionTypes/deepunderground/subRegion/-",
     "value" : "atprk_noolithbirthplace"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/shallowunderground/subRegion/-",
+    "value" : "atprk_ambercaves"
   },
 {
     "op" : "add",
@@ -175,7 +195,21 @@
       "biome" : [
         [0, [ "atprk_ashworld" ]]
       ],
-      "subRegion" : ["bones", "tar"]
+      "subRegion" : ["atprk_amber", "atprk_forgottenmountains", "tar"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_ruinedworld",
+    "value" : {
+      "caveLiquid" : [ "poison" ],
+      "caveLiquidChanceRange" : [10, 10],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_ruinedworld" ]]
+      ]
     }
   },
   {
@@ -273,6 +307,50 @@
   },
   {
     "op" : "add",
+    "path" : "/regionTypes/atprk_ashylakes",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidSeedDensityRange" : [20, 20],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_ashylakes" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_amber",
+    "value" : {
+      "caveLiquid" : [ "tarliquid", "swampwater" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_amber" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_forgottenmountains",
+    "value" : {
+      "caveLiquid" : [ "swampwater" ],
+      "blockSelector" : [ "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_forgottenmountains" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
     "path" : "/regionTypes/atprk_deepnecropolis",
     "value" : {
       "caveLiquid" : [ "healingliquid" ],
@@ -288,6 +366,16 @@
       "caveLiquid" : [ "lava" ],
       "biome" : [
         [0, [ "atprk_noolithbirthplace" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_ambercaves",
+    "value" : {
+      "caveLiquid" : [ "tarliquid", "swampwater" ],
+      "biome" : [
+        [0, [ "atprk_ambercaves" ]]
       ]
     }
   },
@@ -331,6 +419,17 @@
         [0, [ "atprk_humidunderground1", "atprk_humidunderground2", "atprk_humidunderground3" ]]
       ],
       "subRegion" : ["atprk_chthoniccomplex"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_boilingoceanorbit",
+    "value" : {
+      "blockSelector" : [ "asteroids" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_kesslerfield", "atprk_shatteredshield", "asteroids" ]]
+      ]
     }
   },
 
