@@ -4,6 +4,7 @@
 	  "path": "/collectables/atprk_shruberserk",
 	  "value": 	  
 	  {
+	    "order" : 61,
 	    "monsterType" : "atprk_shruberserk",
 	    "icon" : "/monsters/walkers/atprk_shruberserk/atprk_shruberserk.png:idle.1"
 	  }
@@ -13,6 +14,7 @@
 	  "path": "/collectables/atprk_hungertrictus",
 	  "value": 	  
 	  {
+	    "order" : 62,
 	    "monsterType" : "atprk_hungertrictus",
 	    "icon" : "/monsters/walkers/atprk_hungertrictus/atprk_hungertrictus.png:idle.1"
 	  }
@@ -22,6 +24,7 @@
 	  "path": "/collectables/atprk_roxmol",
 	  "value": 	  
 	  {
+	    "order" : 63,
 	    "monsterType" : "atprk_roxmol",
 	    "icon" : "/monsters/walkers/atprk_roxmol/atprk_roxmol.png:idle.1"
 	  }
@@ -31,6 +34,7 @@
 	  "path": "/collectables/atprk_sapphase",
 	  "value": 	  
 	  {
+	    "order" : 64,
 	    "monsterType" : "atprk_sapphase",
 	    "icon" : "/monsters/ghosts/atprk_sapphase/atprk_sapphase.png:idle.1"
 	  }
@@ -40,6 +44,7 @@
 	  "path": "/collectables/atprk_androne",
 	  "value": 	  
 	  {
+	    "order" : 65,
 	    "monsterType" : "atprk_androne",
 	    "icon" : "/monsters/crawlers/atprk_androne/atprk_androne-full.png:idle.1"
 	  }
@@ -49,6 +54,7 @@
 	  "path": "/collectables/atprk_oculopter",
 	  "value": 	  
 	  {
+	    "order" : 66,
 	    "monsterType" : "atprk_oculopter",
 	    "icon" : "/monsters/flyers/atprk_oculopter/atprk_oculopter.png:idle.1"
 	  }
@@ -58,8 +64,29 @@
 	  "path": "/collectables/atprk_lunarcrustoise",
 	  "value": 	  
 	  {
+	    "order" : 67,
 	    "monsterType" : "atprk_lunarcrustoise",
 	    "icon" : "/monsters/crawlers/atprk_lunarcrustoise/atprk_lunarcrustoise.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_ambryo",
+	  "value": 	  
+	  {
+	    "order" : 68,
+	    "monsterType" : "atprk_ambryo",
+	    "icon" : "/monsters/walkers/atprk_ambryo/atprk_ambryo.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_xenoprobe",
+	  "value": 	  
+	  {
+	    "order" : 69,
+	    "monsterType" : "atprk_xenoprobe",
+	    "icon" : "/monsters/ghosts/atprk_xenoprobe/atprk_xenoprobe.png:fly.1"
 	  }
 	}
 ]

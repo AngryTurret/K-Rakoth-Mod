@@ -3,6 +3,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingcththonicshrimp",
     "value" : {
+	  "order" : 49,
 	  "monsterType": "atprk_fishingcththonicshrimp",
 	  "icon" : "/monsters/fishing/small/atprk_cththonicshrimp/atprk_fishingcththonicshrimp.png:swim.1"
     }
@@ -11,6 +12,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingshallowone",
     "value" : {
+	  "order" : 50,
 	  "monsterType": "atprk_fishingshallowone",
 	  "icon" : "/monsters/fishing/small/atprk_shallowone/atprk_fishingshallowone.png:swim.1"
     }
@@ -19,6 +21,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingbassathoth",
     "value" : {
+	  "order" : 51,
 	  "monsterType": "atprk_fishingbassathoth",
 	  "icon" : "/monsters/fishing/medium/atprk_bassathoth/atprk_fishingbassathoth.png:swim.1"
     }
@@ -27,6 +30,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingspectrout",
     "value" : {
+	  "order" : 52,
 	  "monsterType": "atprk_fishingspectrout",
 	  "icon" : "/monsters/fishing/medium/atprk_spectrout/atprk_fishingspectrout.png:swim.1"
     }
@@ -35,6 +39,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingtidewarper",
     "value" : {
+	  "order" : 53,
 	  "monsterType": "atprk_fishingtidewarper",
 	  "icon" : "/monsters/fishing/medium/atprk_tidewarper/atprk_fishingtidewarper.png:swim.1"
     }
@@ -43,6 +48,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishinginferneel",
     "value" : {
+	  "order" : 54,
 	  "monsterType": "atprk_fishinginferneel",
 	  "icon" : "/monsters/fishing/small/atprk_inferneel/atprk_fishinginferneel.png:swim.1"
     }
@@ -51,6 +57,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingaethersquid",
     "value" : {
+	  "order" : 55,
 	  "monsterType": "atprk_fishingaethersquid",
 	  "icon" : "/monsters/fishing/large/atprk_aethersquid/atprk_fishingaethersquid.png:swim.1"
     }
@@ -59,6 +66,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishinghottongue",
     "value" : {
+	  "order" : 56,
 	  "monsterType": "atprk_fishinghottongue",
 	  "icon" : "/monsters/fishing/medium/atprk_hottongue/atprk_fishinghottongue.png:swim.1"
     }
@@ -67,6 +75,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingumbray",
     "value" : {
+	  "order" : 57,
 	  "monsterType": "atprk_fishingumbray",
 	  "icon" : "/monsters/fishing/large/atprk_umbray/atprk_fishingumbray.png:swim.1"
     }
@@ -75,6 +84,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_fishingtrokath",
     "value" : {
+	  "order" : 58,
 	  "monsterType": "atprk_fishingtrokath",
 	  "icon" : "/monsters/fishing/large/atprk_trokath/atprk_fishingtrokath.png:swim.1"
     }

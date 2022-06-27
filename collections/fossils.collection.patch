@@ -3,6 +3,7 @@
 	"path": "/collectables/atprk_noolithSkeleton",
 	"value":	 
 	{
+	  "order" : 24,
 	  "title" : "Noolith Fossil",
 	  "description" : "The crystalline body of a Noolith, a member of a supposedly extinct race.",
 	  "icon" : "/items/fossils/humanoid/atprk_noolithfossilhead.png"
@@ -12,6 +13,7 @@
 	"path": "/collectables/atprk_fenronSkeleton",
 	"value":	 
 	{
+	  "order" : 25,
 	  "title" : "Fenron Fossil",
 	  "description" : "The fossilised remains of a Fenron, a member of a supposedly extinct race.",
 	  "icon" : "/items/fossils/humanoid/atprk_fenronfossilhead.png"
@@ -21,6 +23,7 @@
 	"path": "/collectables/atprk_anneliskSkeleton",
 	"value":	 
 	{
+	  "order" : 26,
 	  "title" : "Annelisk Fossil",
 	  "description" : "The dehydrated remains of an Annelisk, a member of a supposedly extinct race.",
 	  "icon" : "/items/fossils/humanoid/atprk_anneliskfossilhead.png"

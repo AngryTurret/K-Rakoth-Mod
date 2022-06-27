@@ -4,6 +4,7 @@
 	  "path": "/collectables/atprk_shruberserkaf",
 	  "value": 		
 	  {
+		"order" : 70,
 		"item" : "atprk_shruberserkaf"
 	  }
 	},
@@ -12,6 +13,7 @@
 	  "path": "/collectables/atprk_hungertrictusaf",
 	  "value": 		
 	  {
+		"order" : 71,
 		"item" : "atprk_hungertrictusaf"
 	  }
 	},
@@ -20,6 +22,7 @@
 	  "path": "/collectables/atprk_roxmolaf",
 	  "value": 		
 	  {
+		"order" : 72,
 		"item" : "atprk_roxmolaf"
 	  }
 	},
@@ -28,15 +31,8 @@
 	  "path": "/collectables/atprk_sapphaseaf",
 	  "value": 		
 	  {
+		"order" : 73,
 		"item" : "atprk_sapphaseaf"
-	  }
-	},
-	{
-	  "op": "add", 
-	  "path": "/collectables/atprk_oculopteraf",
-	  "value": 		
-	  {
-		"item" : "atprk_oculopteraf"
 	  }
 	},
 	{
@@ -44,7 +40,17 @@
 	  "path": "/collectables/atprk_androneaf",
 	  "value": 		
 	  {
+		"order" : 74,
 		"item" : "atprk_androneaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_oculopteraf",
+	  "value": 		
+	  {
+		"order" : 75,
+		"item" : "atprk_oculopteraf"
 	  }
 	},
 	{
@@ -52,7 +58,26 @@
 	  "path": "/collectables/atprk_lunarcrustoiseaf",
 	  "value": 		
 	  {
+		"order" : 76,
 		"item" : "atprk_lunarcrustoiseaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_ambryoaf",
+	  "value": 		
+	  {
+		"order" : 77,
+		"item" : "atprk_ambryoaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_xenoprobeaf",
+	  "value": 		
+	  {
+		"order" : 78,
+		"item" : "atprk_xenoprobeaf"
 	  }
 	}
 ]
