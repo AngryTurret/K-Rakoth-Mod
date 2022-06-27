@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-krakothshipreactor2",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","science"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 450,
+  "description" : "What seems to be a deactivated power reactor.",
+  "shortdescription" : "Aeon Reactor",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 10,
+
+  "apexDescription" : "A massive power reactor that utilized unknown type of energy.",
+  "avianDescription" : "An impossibly ancient power reactor. By the looks of it, it ran out of power long time ago.",
+  "floranDescription" : "Huge reactor doesssn't work anymore. Maybe Floran can fix it, maybe not.",
+  "glitchDescription" : "Observant. Despite the appearance, it seems that this reactor ran out of power pretty recently.",
+  "humanDescription" : "A huge reactor designed by the old ones. It doesn't work anymore.",
+  "hylotlDescription" : "It is a mystery what kind of energy powered K'Rakothan machinery. Perhaps we will discover it one day.",
+  "novakidDescription" : "A huge 'n strong power reactor. Too bad it ain't workin' anymore.",
+
+  "inventoryIcon" : "atprk-krakothshipreactor2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothshipreactor2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

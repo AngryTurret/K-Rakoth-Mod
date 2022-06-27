@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-krakothshipreactor1",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","science"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 550,
+  "description" : "What seems to be a working power reactor.",
+  "shortdescription" : "Aeon Reactor",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 10,
+
+  "apexDescription" : "How does this reactor still work? It should have ran out of power long ago.",
+  "avianDescription" : "A massive ancient reactor that still works somehow.",
+  "floranDescription" : "Huge reactor ssstill powersss thingss. Very good.",
+  "glitchDescription" : "Impressed. Those who constructed this reactor clearly had reliability in mind.",
+  "humanDescription" : "Cool... Anyway, can I charge my phone from this thing?",
+  "hylotlDescription" : "How peculiar, this reactor is still capable of powering countless machines! K'Rakothan engineering genius knows no limits.",
+  "novakidDescription" : "Whoah, this huge reactor works like clockwork! And that's after aeons of bein' neglected!",
+
+  "lightColor" : [255, 83, 198],
+
+  "flickerPeriod" : 0.6,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk-krakothshipreactor1icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk-krakothshipreactor1.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-krakothshipreactor1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 10,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk-krakothshipreactor1.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk-krakothshipreactor1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 10,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

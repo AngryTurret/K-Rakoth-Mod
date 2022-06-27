@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-krakothshipreactorbroken",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","science"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 350,
+  "description" : "What seems to be a ruined power reactor.",
+  "shortdescription" : "Destroyed Aeon Reactor",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 8.5,
+
+  "apexDescription" : "A destroyed power reactor. It was probably damaged and then exploded.",
+  "avianDescription" : "I certainly wouldn't want to see a moment when this reactor blew up.",
+  "floranDescription" : "Huge reactor went ka-boom. Now there isss no reactor.",
+  "glitchDescription" : "Cautious. A ruined reactor. Who knows whether it's safe to stay nearby.",
+  "humanDescription" : "Well, here goes a power reactor. Are there any spare parts for it?",
+  "hylotlDescription" : "Not even the most sophisticated pieces of technology can endure the ravages of time.",
+  "novakidDescription" : "It used to be a strong power reactor but now it's gone. What a shame.",
+
+  "inventoryIcon" : "atprk-krakothshipreactorbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothshipreactorbroken.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

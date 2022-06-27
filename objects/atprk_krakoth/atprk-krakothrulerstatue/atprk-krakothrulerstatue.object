@@ -8,6 +8,7 @@
   "shortdescription" : "Eldritch Ruler Statue",
   "race" : "generic",
   "printable" : false,
+  "health" : 2.5,
 
   "apexDescription" : "It could be a statue of an authority figure perhaps.",
   "avianDescription" : "It must've been a very fearsome person in the ancient society.",
