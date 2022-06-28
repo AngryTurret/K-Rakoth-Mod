@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 250,
-  "description" : "A levitation device once used by K'Rakoth people.",
+  "description" : "A levitation device once used by the K'Rakoth people.",
   "shortdescription" : "Eldritch Hoverpad",
   "race" : "generic",
   "printable" : false,
@@ -12,10 +12,10 @@
   "apexDescription" : "It appears to be a zero-gravity engine.",
   "avianDescription" : "An engine that allows you to float in the air.",
   "floranDescription" : "Very floaty ssstuff.",
-  "glitchDescription" : "Informed. This device can lift different objects in the air.",
+  "glitchDescription" : "Informed. This device can lift different objects into the air.",
   "humanDescription" : "A sort of anti-gravity engine.",
   "hylotlDescription" : "An ancient levitation device.",
-  "novakidDescription" : "Yet another way to deny gravity.",
+  "novakidDescription" : "Yet another way to defy gravity.",
 
   "inventoryIcon" : "atprk-krakothhoverpadicon.png",
   "orientations" : [
