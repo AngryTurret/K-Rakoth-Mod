@@ -10,12 +10,12 @@
   "scannable" : false,
 
   "apexDescription" : "This naval mine does not work, it seems... which is still concerning.",
-  "avianDescription" : "Oh thank Kluex, I thought I'm about to explode.",
+  "avianDescription" : "Oh thank Kluex, I thought I was about to explode.",
   "floranDescription" : "No ka-boom? Phew.",
   "glitchDescription" : "Relieved. It's just a defective mine.",
   "humanDescription" : "I should be very careful here... Oh wait, it doesn't work.",
   "hylotlDescription" : "Apparently this mine doesn't work anymore. I can approach it safely.",
-  "novakidDescription" : "Hey, I'm not gonna blow up! That's a good news for sure!",
+  "novakidDescription" : "Hey, I'm not gonna blow up! That's good news for sure!",
 
   "atprk_anneliskDescription" : "No worries, this mine is out of power.",
   "atprk_fenronDescription" : "I must stay vigilant, it could still explode right in my face.",
