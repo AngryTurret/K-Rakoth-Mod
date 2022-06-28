@@ -3,7 +3,7 @@
 	"prerequisites": ["atprk_relicsearchquest3"],
 	"title": "^green;Ancient Science",
 	"text": "^#c89696;Scorched planets^white; never fail to capture my imagination, and there's a good reason for that! Within ^orange;K'Rakothan laboratories^white; on their surface, many ancient relics await to be discovered. Maybe you can even stumble upon a ^green;Deactivated Terraformer^white; or two.",
-	"completionText": "By the looks of it, K'Rakothan scientists were as fond of ancient artifacts as we are, amirite? Anyway, thank you once again!",
+	"completionText": "By the looks of it, K'Rakothan scientists were as fond of ancient artifacts as we are, amirite? Anyways, thank you once again!",
 	"moneyRange": [1250, 1250],
 	"rewards": [
 		[
