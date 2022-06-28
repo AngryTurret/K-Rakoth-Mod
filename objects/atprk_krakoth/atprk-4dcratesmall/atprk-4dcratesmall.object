@@ -16,9 +16,9 @@
   "avianDescription" : "I wonder if I can make four-dimensional storage even smaller. I could carry it around!",
   "floranDescription" : "It's bigger on the inssside!",
   "glitchDescription" : "Surprised. This container's capacity is comparable to a large cargo crate.",
-  "humanDescription" : "Ah, a nice little storage that can keep a lot of stuff in it.",
+  "humanDescription" : "Ah, a nice little storage container that can keep a lot of stuff in it.",
   "hylotlDescription" : "With this extradimensional box, I can use space more efficiently.",
-  "novakidDescription" : "This lil' box has enough place for all my guns!",
+  "novakidDescription" : "This lil' box has enough space for all my guns!",
 
   "learnBlueprintsOnPickup" : [
     "atprk-4dcratetiny"
