@@ -2,7 +2,7 @@
 	"id": "atprk_vaultscanquest",
 	"prerequisites": ["atprk_relicsearchquest5"],
 	"title": "^green;Raiders of the Lost Vault",
-	"text": "Hey, you think you're so cool? Fooling around K'Rakothan ruins is fun and all, but what about the Ancients? I bet you can't clear a single ^orange;Ancient Vault^white; on your own. Wanna prove me wrong? Go ^green;scan whatever lies at the end of it^white;, then we'll talk.",
+	"text": "Hey, you think you're so cool? Fooling around K'Rakothan ruins is fun and all, but what about the Ancients? I bet you can't clear a single ^orange;Ancient Vault^white; on your own. Wanna prove me wrong? Go ^green;scan whatever lies at the end of them^white;, then we'll talk.",
 	"completionText": "Now we're talking! We can share our loot if you want. Give me a moment, gotta clean this mess first.",
 	"moneyRange": [5000, 5000],
 	"rewards": [
@@ -131,7 +131,7 @@
 				"unique": false,
 				"senderName" : "Jade",
 				"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
-				"text": "I can tell you've already been inside the Vault before. It should be a cakewalk for you."
+				"text": "I can tell you've already been inside a Vault before. It should be a cakewalk for you."
 			},
 			"startAlreadyComplete": {
 				"messageId": "atprk_vaultscanquest_sac",
