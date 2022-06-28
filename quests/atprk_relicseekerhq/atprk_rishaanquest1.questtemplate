@@ -54,7 +54,7 @@
 					"messageId": "atprk_rishaanquest1_up1",
 					"type": "quest",
 					"unique": false,
-					"text": "While there is not much useful information I can gather from hieroglyphs on these pillars, Colt could take a look at them, too."
+					"text": "While there is not much useful information I can gather from the hieroglyphs on these pillars, Colt should take a look at them too."
 				},
 				"atprk_relicseekerdisplay3": {
 					"messageId": "atprk_rishaanquest1_up2",
@@ -66,13 +66,13 @@
 					"messageId": "atprk_rishaanquest1_up3",
 					"type": "quest",
 					"unique": false,
-					"text": "It appears to be a recurring symbol in K'Rakothan religion. A giant eye in the middle represents Ri'shaan's omniscience, and tendrils display His grip on countless worlds."
+					"text": "This appears to be a recurring symbol in K'Rakothan religion. The giant eye in the middle represents Ri'shaan's omniscience, and the tendrils display His grip on countless worlds."
 				},
 				"atprk-gildedorgan": {
 					"messageId": "atprk_rishaanquest1_up4",
 					"type": "quest",
 					"unique": false,
-					"text": "An ancient organ to perform ceremonial music. Remarkably, it was constructed in a way that allowed K'Rakoths to play it both underwater and on surface."
+					"text": "An ancient organ to perform ceremonial music. Remarkably, it was constructed in a way that allowed K'Rakoths to play it both underwater and on the surface."
 				},
 				"atprk-gildedportrait-glitch": {
 					"messageId": "atprk_rishaanquest1_up5",
@@ -90,7 +90,7 @@
 					"messageId": "atprk_rishaanquest1_up7",
 					"type": "quest",
 					"unique": false,
-					"text": "Apparently, Ri'shaan relied on this race to gain some of His strength. The portrait we see does not match any known sapient species, which is quite unnerving."
+					"text": "Apparently, Ri'shaan relied on this race to gain some of His strength. The portrait we see here does not match any known sapient species, which is quite unnerving."
 				},
 				"atprk-gildedportrait-tailed": {
 					"messageId": "atprk_rishaanquest1_up8",
@@ -116,13 +116,13 @@
 				"messageId": "atprk_rishaanquest1_swp",
 				"type": "quest",
 				"unique": false,
-				"text": "You already have some scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile it for Colt at once."
+				"text": "You already have some scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile them for Colt at once."
 			},
 			"startAlreadyComplete": {
 				"messageId": "atprk_rishaanquest1_sac",
 				"type": "quest",
 				"unique": false,
-				"text": "You already have enough scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile it for Colt at once."
+				"text": "You already have enough scan data on various religious artifacts of K'Rakothan origin. If you have no objections, I will compile them for Colt at once."
 			},
 			"complete": {
 				"messageId": "atprk_rishaanquest1_c",
