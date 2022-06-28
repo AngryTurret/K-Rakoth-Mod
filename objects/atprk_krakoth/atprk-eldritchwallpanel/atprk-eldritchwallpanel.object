@@ -6,11 +6,11 @@
   "price" : 100,
   "printable" : false,
 
-  "description" : "A hi-tech wall panel. I'm not sure what it is for.",
+  "description" : "A high-tech wall panel. I'm not sure what it is for.",
   "shortdescription" : "Elder Wall Panel",
   "race" : "generic",
 
-  "apexDescription" : "A wall panel covering hi-tech machinery.",
+  "apexDescription" : "A wall panel covering high-tech machinery.",
   "avianDescription" : "I can hear a subtle buzzing behind this panel.",
   "floranDescription" : "Wall shieldsss?",
   "glitchDescription" : "Neutral. A wall panel. Purpose unknown.",
