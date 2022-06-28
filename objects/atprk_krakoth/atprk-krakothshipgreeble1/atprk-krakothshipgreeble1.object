@@ -2,7 +2,7 @@
   "objectName" : "atprk-krakothshipgreeble1",
   "colonyTags" : ["atprk_krakoth"],
   "rarity" : "Common",
-  "description" : "A strange piece of ship. Looks like it might serve a purpose, but who really knows?",
+  "description" : "A strange piece of a ship. Looks like it might serve a purpose, but who really knows?",
   "shortdescription" : "Elder Ship Greeble",
   "race" : "generic",
   "category" : "decorative",
@@ -14,7 +14,7 @@
   "floranDescription" : "Ssspaceship thingy.",
   "glitchDescription" : "Puzzled. I cannot figure out what this mechanism does.",
   "humanDescription" : "A spaceship thingy.",
-  "hylotlDescription" : "What a strange piece of ship. Is it purely decorative?",
+  "hylotlDescription" : "What a strange piece of a ship. Is it purely decorative?",
   "novakidDescription" : "Go figure what this lil' thingy does.",
 
   "inventoryIcon" : "atprk-krakothshipgreeble1icon.png",
