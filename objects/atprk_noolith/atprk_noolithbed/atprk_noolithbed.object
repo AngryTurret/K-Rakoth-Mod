@@ -13,8 +13,8 @@
   "avianDescription" : "A crystal bed so smooth I'm afraid I may slip off of it in sleep.",
   "floranDescription" : "Ssslippery ssstone bed.",
   "glitchDescription" : "Angry. Who took the blanket? This bed is already quite uncomfortable!",
-  "humanDescription" : "Ouch. It must be hard to sleep in it.",
-  "hylotlDescription" : "As wealthy as this bed is, it is not the healthiest to sleep in.",
+  "humanDescription" : "Ouch. It must be hard to sleep on this.",
+  "hylotlDescription" : "As wealthy as this bed is, it is not the healthiest to sleep on.",
   "novakidDescription" : "Sleepin' on a huge diamond, huh... if that's even a diamond.",
 
   "objectType" : "loungeable",
