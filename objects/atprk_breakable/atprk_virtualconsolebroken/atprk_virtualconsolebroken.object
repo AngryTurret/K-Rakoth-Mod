@@ -19,7 +19,7 @@
 
   "atprk_anneliskDescription" : "This thing could create VR simulations you could enter. Shame I've got no clue how to repair it.",
   "atprk_fenronDescription" : "I'm not sure what it is. A broken teleporter, I guess?",
-  "atprk_noolithDescription" : "A destroyed teleporter, it seems. Perhaps it used to be connected to something other than the real space.",
+  "atprk_noolithDescription" : "A destroyed teleporter, it seems. Perhaps it used to be connected to something other than real space.",
 
   "inventoryIcon" : "atprk_virtualconsolebrokenicon.png",
   "orientations" : [
