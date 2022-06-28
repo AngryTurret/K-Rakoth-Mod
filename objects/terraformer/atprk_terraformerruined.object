@@ -2,7 +2,7 @@
   "objectName" : "atprk_terraformerruined",
   "colonyTags" : [],
   "rarity" : "Essential",
-  "description" : "Transforms a planet's climate into a vile mass of tentacles.",
+  "description" : "Transforms a planet's climate into a vile mass of tentacles. ^red;You monster.^reset;",
   "shortdescription" : "Ruinous Terraformer",
   "race" : "ancient",
   "category" : "terraformer",
