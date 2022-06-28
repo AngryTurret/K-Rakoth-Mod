@@ -2,8 +2,8 @@
 	"id": "atprk_relicsearchquest1",
 	"prerequisites": [],
 	"title": "^green;Eternal Devotion",
-	"text": "Could you help us with our research? We're lookin' for a few notable K'Rakothan artifacts. The first one of them is the ^green;Eldritch Glitch Armor^white; stand, guarded by a secluded group of ^orange;Glitch Devouts^white;. You're more likely to find their strongholds on ^#ffc053;ashy planets^white;.",
-	"completionText": "Well done! I hope those Devouts didn't cause you too much trouble. Anyway, from now on you may go visit the third train carriage 'n check the relics you recover.",
+	"text": "Could you help us with our research? We're lookin' for a few notable K'Rakothan artifacts. The first one of them is the ^green;Eldritch Glitch Armor^white; stand, guarded by a secluded group of ^orange;Glitch Devouts^white;. You're most likely to find their strongholds on ^#ffc053;ashy planets^white;.",
+	"completionText": "Well done! I hope those Devouts didn't cause you too much trouble. Anyways, from now on you may go visit the third train carriage 'n check out the relics you've recovered.",
 	"moneyRange": [1000, 1000],
 	"rewards": [
 		[
