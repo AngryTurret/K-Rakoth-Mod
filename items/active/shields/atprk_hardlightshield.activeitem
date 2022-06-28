@@ -1,6 +1,6 @@
 {
   "itemName" : "atprk_hardlightshield",
-  "fixedLevel" : false,
+  "level" : 7,
   "price" : 1750,
   "maxStack" : 1,
   "rarity" : "Legendary",
