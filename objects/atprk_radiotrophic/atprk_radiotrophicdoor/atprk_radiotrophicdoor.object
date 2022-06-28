@@ -15,8 +15,8 @@
   "floranDescription" : "Floran doesss not like door's hissing.",
   "glitchDescription" : "Happy. This door slides into the wall and gives you more space.",
   "humanDescription" : "Hey, how do I lock this door if there's nothing to keep it closed?",
-  "hylotlDescription" : "A door that disappears in the wall.",
-  "novakidDescription" : "A slidin' door. We didn't have those in the village.",
+  "hylotlDescription" : "A door that disappears into the wall.",
+  "novakidDescription" : "A slidin' door. We didn't have those back in town.",
 
   "inventoryIcon" : "atprk_radiotrophicdooricon.png",
   "orientations" : [
