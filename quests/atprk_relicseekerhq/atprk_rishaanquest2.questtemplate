@@ -2,7 +2,7 @@
 	"id": "atprk_rishaanquest2",
 	"prerequisites": ["atprk_rishaanquest1"],
 	"title": "^green;Manuscripts of the Old",
-	"text": "The data you gave me is marvelous! Ri'shaan is quite a peculiar deity, that's for sure. But y'know, I can't decipher a whole lot from artifacts alone. If you happen to run into some ^green;K'Rakoth Codices^white; (Tau and Upsilon), I'd like to take a look, ^orange;even if they're not translated^white; in our language.",
+	"text": "The data you gave me is marvelous! Ri'shaan is quite a peculiar deity, that's for sure. But y'know, I can't decipher a whole lot from artifacts alone. If you happen to run into some ^green;K'Rakoth Codices^white; (Tau and Upsilon), I'd like to take a look, ^orange;even if they're not translated^white; into our language.",
 	"completionText": "Well done, kind stranger! You can keep these codices, I've already copied their texts to my computer.",
 	"moneyRange": [2400, 2400],
 	"rewards": [
