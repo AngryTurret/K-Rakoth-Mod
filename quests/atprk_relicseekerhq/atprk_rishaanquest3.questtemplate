@@ -2,7 +2,7 @@
 	"id": "atprk_rishaanquest3",
 	"prerequisites": ["atprk_rishaanquest2"],
 	"title": "^green;From Beyond the Ark",
-	"text": "Hm. I've looked through holy texts, and now I think I know who Ri'shaan is. A planet-sized being, devouring whole worlds... Sounds ^orange;a tad bit familiar^white;, doesn't it? Anyway, it'd be amazing to ^green;get samples^white; and see if my theory's correct but... it's madness, I know. No one in their right mind would take such a risk.",
+	"text": "Hm. I've looked through the holy texts, and now I think I know who Ri'shaan is. A planet-sized being, devouring whole worlds... Sounds ^orange;a tad bit familiar^white;, doesn't it? Anyway, it'd be amazing to ^green;get samples^white; and see if my theory's correct but... it's madness, I know. No one in their right mind would take such a risk.",
 	"completionText": "Oh my... Never thought I'd hold a piece of a god... Thank you once again, you've done a lot for my research!",
 	"moneyRange": [2400, 2400],
 	"rewards": [
