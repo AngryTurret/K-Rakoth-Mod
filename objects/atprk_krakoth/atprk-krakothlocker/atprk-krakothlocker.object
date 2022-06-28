@@ -16,9 +16,9 @@
   "avianDescription" : "A place to keep your things.",
   "floranDescription" : "Floran can ssstuff things into locker.",
   "glitchDescription" : "Neutral. An ancient storage locker.",
-  "humanDescription" : "It's an old looking storage locker.",
+  "humanDescription" : "This is an old looking storage locker.",
   "hylotlDescription" : "Somewhere to store personal belongings.",
-  "novakidDescription" : "A locker in the wall.",
+  "novakidDescription" : "A locker on the wall.",
 
   "inventoryIcon" : "atprk-krakothlockericon.png",
   "orientations" : [
