@@ -8,11 +8,11 @@
   "shortdescription" : "Radiotrophic Timber",
   "apexdescription" : "Green radiotrophic material.",
   "aviandescription" : "Radiotrophic planks.",
-  "glitchdescription" : "Neutral. Green wood planks.",
+  "glitchdescription" : "Neutral. Green wooden planks.",
   "florandescription" : "Sssstrong wood plankss.",
   "humandescription" : "Radiotrophic wood planks.",
   "hylotldescription" : "Refined radiotrophic wood that can be used for crafting.",
-  "novakiddescription" : "Green wood planks.",
+  "novakiddescription" : "Green wooden planks.",
 
   "materialId" : 62104
 }
