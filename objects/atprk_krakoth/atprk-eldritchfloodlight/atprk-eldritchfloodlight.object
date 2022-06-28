@@ -2,7 +2,7 @@
   "objectName" : "atprk-eldritchfloodlight",
   "colonyTags" : ["atprk_krakoth","light"],
   "rarity" : "Common",
-  "description" : "A tiny faint wall light.",
+  "description" : "A tiny, faint wall light.",
   "shortdescription" : "Elder Floodlight",
   "race" : "generic",
 
