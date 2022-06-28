@@ -4,7 +4,7 @@
       "path": "/atprk_4ddistortion",
       "value": {
         "unique": false,
-        "text": "WARNING! SPATIAL DISTORTIONS DETECTED!\nSince you are surrounded by multidimensional geometry, a prolonged stay within the rift will cause severe damage to your body. Hurry up!",
+        "text": "WARNING! SPATIAL DISTORTIONS DETECTED!\nSince you are surrounded by multidimensional geometry, a prolonged stay within the rift will cause severe damage to your body. Please hurry.",
       "portraitImage" : "yell.<frame>",
       "textSpeed" : 70
       }
@@ -22,7 +22,7 @@
     "op": "add",
       "path": "/atprk_relicseekerhqintro_colt",
       "value": {
-        "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolescences on Earth's destruction. Anyway, I'm Colt. I'll be here in case you need somethin'.",
+        "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolescences on Earth's destruction. Anyways, I'm Colt. I'll be here in case you need somethin'.",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
       }
