@@ -5,7 +5,7 @@
       "path" : "/visitableTypeDescription/atprk_boilingocean",
       "value" : [
         "An ^#837ad7;aquatic planet^white; subjected to ^red;deadly heat^white;. Since oceanic water evaporates constantly, rainfall is extremely common here.",
-        "This ^red;dangerously hot^white; planet is covered in a large ^#837ad7;boiling ocean^white;. Unless you want to get multiple burns all over your body, you should take caution before diving in this planet's waters.",
+        "This ^red;dangerously hot^white; planet is covered in a large ^#837ad7;boiling ocean^white;. Unless you want to get multiple burns all over your body, you should take caution before diving into this planet's waters.",
         "A ^#837ad7;boiling oceanic^white; planet. My readings indicate that there are many ancient structures both across the surface and underwater."
       ]
     },
@@ -25,7 +25,7 @@
       "value" : [
         "This ^#ffc053;ash-covered^white; planet appears to be relatively young. My sensors indicate occasional pools of lava and numerous lifeforms adapted to high temperatures.",
         "The landing location is covered in a thick layer of ^#ffc053;volcanic ash^white;. Despite high temperatures, this planet is still habitable to most lifeforms.",
-        "Aside from ^#ffc053;ashy^white; mountains and small pools of hot lava, the current landing site is dotted in Glitch-built structures. Caution is advised."
+        "Aside from ^#ffc053;ashy^white; mountains and small pools of hot lava, the current landing site is dotted with Glitch-built structures. Caution is advised."
       ]
     },
     {
@@ -42,8 +42,8 @@
       "op" : "add",
       "path" : "/visitableTypeDescription/atprk_ruinedworld",
       "value" : [
-        "After a successful process of hostile terraforming, this planet has become another host for ^#641929;the Ruin^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
-        "What once was a potentially habitable planet now is nothing but ^#641929;a ferocious mass of tentacles^white;. By bringing this superorganism into existence, ^red;you have officially betrayed the Terrene Protectorate^white;.",
+        "After a successful process of hostile terraforming, this planet has become a new host for ^#641929;the Ruin^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
+        "What once was a potentially habitable planet now is nothing but ^#641929;a ferocious mass of tentacles^white;. By bringing this superorganism back into existence, ^red;you have officially betrayed the Terrene Protectorate^white;.",
         "We have managed to terraform this whole planet into a colossal, hateful living being made of ^#641929;tentacles^white;. Captain, ^red;are we the baddies now^white;?"
       ]
     },
@@ -103,7 +103,7 @@
     {"description" : "A vast underwater complex built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
     },
     { "op": "add", "path": "/displayDungeons/atprk_apexarea48", "value": 
-    {"description" : "A Miniknog military base. Detailed scan is not possible.", "icon" : "/interface/cockpit/dungeons/atprk_apexarea48.png" }
+    {"description" : "A Miniknog military base. Detailed scan not possible.", "icon" : "/interface/cockpit/dungeons/atprk_apexarea48.png" }
     },
     { "op": "add", "path": "/displayDungeons/atprk_krakothchurch", "value": 
     {"description" : "A religious structure built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
