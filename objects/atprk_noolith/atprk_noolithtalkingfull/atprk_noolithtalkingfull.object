@@ -14,7 +14,7 @@
   "floranDescription" : "Isss rock perssson in pain?",
   "glitchDescription" : "Compassionate. A poor Noolith who cannot move or think clearly.",
   "humanDescription" : "I, uh... H-hello?",
-  "hylotlDescription" : "Poor crystalline creature. Is it even ethical to keep it in this state?",
+  "hylotlDescription" : "Some poor crystalline creature. Is it even ethical to keep it in this state?",
   "novakidDescription" : "Wait, it that crystal tryin' to talk with me?",
 
   "scripts" : [ "/objects/atprk_noolith/atprk_noolithtalkingfull/atprk_noolithtalkingfull.lua" ],
