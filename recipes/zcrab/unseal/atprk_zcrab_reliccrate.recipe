@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_relicgoods", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_zcrab_reliccrate",
+    "count" : 1
+  },
+  "groups" : [ "cratesealer", "unseal" ]
+}
