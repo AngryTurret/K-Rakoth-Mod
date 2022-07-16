@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_zcrab_reliccrate",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "An unsealed crate of rare and unusual items, open it to reveal its contents.",
+  "shortdescription" : "Unsealed Minor Artifacts",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_zcrab_reliccrate.png",
+  "animation" : "atprk_zcrab_goodcrate.animation",
+  "animationCustom" : {},
+  "scripts" : ["/items/active/unsorted/geode/geode.lua"],
+
+  "fireTime" : 0.1,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedrelicgoodspool",
+    "level" : 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_zcrab_fossilcrate",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "An unsealed crate of fossilized bones, open it to reveal its contents.",
+  "shortdescription" : "Unsealed Alien Fossils",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_zcrab_fossilcrate.png",
+  "animation" : "atprk_zcrab_goodcrate.animation",
+  "animationCustom" : {},
+  "scripts" : ["/items/active/unsorted/geode/geode.lua"],
+
+  "fireTime" : 0.1,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unpackedfossilgoodspool",
+    "level" : 1
+  }
+}
