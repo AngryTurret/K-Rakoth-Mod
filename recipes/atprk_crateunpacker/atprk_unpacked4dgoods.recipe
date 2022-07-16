@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "dubloon", "count" : 1 },
-    { "item" : "atprk_hyperpixel", "count" : 1 },
     { "item" : "atprk_4dgoods", "count" : 1 }
   ],
   "output" : {
