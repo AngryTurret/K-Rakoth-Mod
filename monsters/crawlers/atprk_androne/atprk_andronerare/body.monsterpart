@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_andronerare-body",
+  "category" : "atprk_andronerare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_andronerare-body.png"
+  }
+}

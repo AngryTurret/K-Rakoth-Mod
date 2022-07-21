@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_andronerare-head",
+  "category" : "atprk_andronerare",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "atprk_andronerare-head.png",
+    "headnobright" : "atprk_andronerare-headnobright.png"
+  }
+}
