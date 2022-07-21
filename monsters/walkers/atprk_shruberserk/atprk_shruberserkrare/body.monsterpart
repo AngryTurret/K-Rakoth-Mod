@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_shruberserkrare",
+  "category" : "atprk_shruberserkrare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_shruberserkrare.png"
+  }
+}
