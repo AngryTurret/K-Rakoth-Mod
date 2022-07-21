@@ -94,6 +94,18 @@
    ]		
   },
   {"op" : "add",
+   "path" : "/atprk_oculopterrareTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.50, "item" : "atprk_olddeliverypackrare"},
+	    {"weight" : 0.006, "item" : "atprk_oculopteraf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
    "path" : "/atprk_lunarcrustoiseTreasure",
    "value" : [
 	[1, {

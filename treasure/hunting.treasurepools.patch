@@ -92,6 +92,18 @@
    ]		
   },
   {"op" : "add",
+   "path" : "/atprk_oculopterrareHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "staticcell"},
+		{"weight" : 0.40, "item" : "atprk_olddeliverypackrare"},
+		{"weight" : 0.002, "item" : "atprk_oculopteraf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
    "path" : "/atprk_lunarcrustoiseHunting",
    "value" : [
 	[1, {
