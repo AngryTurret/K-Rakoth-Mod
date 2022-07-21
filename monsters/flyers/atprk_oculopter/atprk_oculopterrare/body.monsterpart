@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_oculopterrare",
+  "category" : "atprk_oculopterrare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_oculopterrare.png",
+    "bodynobright" : "atprk_oculopterrarenobright.png"
+  }
+}
