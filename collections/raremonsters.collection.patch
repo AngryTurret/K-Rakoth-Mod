@@ -1,0 +1,82 @@
+[
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_shruberserkrare",
+	  "value": 	  
+	  {
+	    "order" : 58,
+	    "monsterType" : "atprk_shruberserkrare",
+	    "icon" : "/monsters/walkers/atprk_shruberserk/atprk_shruberserkrare/atprk_shruberserkrare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_hungertrictusrare",
+	  "value": 	  
+	  {
+	    "order" : 59,
+	    "monsterType" : "atprk_hungertrictusrare",
+	    "icon" : "/monsters/walkers/atprk_hungertrictus/atprk_hungertrictusrare/atprk_hungertrictusrare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_roxmolrare",
+	  "value": 	  
+	  {
+	    "order" : 60,
+	    "monsterType" : "atprk_roxmolrare",
+	    "icon" : "/monsters/walkers/atprk_roxmol/atprk_roxmolrare/atprk_roxmolrare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_sapphaserare",
+	  "value": 	  
+	  {
+	    "order" : 61,
+	    "monsterType" : "atprk_sapphaserare",
+	    "icon" : "/monsters/ghosts/atprk_sapphase/atprk_sapphaserare/atprk_sapphaserare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_andronerare",
+	  "value": 	  
+	  {
+	    "order" : 62,
+	    "monsterType" : "atprk_andronerare",
+	    "icon" : "/monsters/crawlers/atprk_androne/atprk_andronerare/atprk_andronerare-full.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_oculopterrare",
+	  "value": 	  
+	  {
+	    "order" : 63,
+	    "monsterType" : "atprk_oculopterrare",
+	    "icon" : "/monsters/flyers/atprk_oculopter/atprk_oculopterrare/atprk_oculopterrare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_ambryorare",
+	  "value": 	  
+	  {
+	    "order" : 64,
+	    "monsterType" : "atprk_ambryorare",
+	    "icon" : "/monsters/walkers/atprk_ambryo/atprk_ambryorare/atprk_ambryorare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_xenoproberare",
+	  "value": 	  
+	  {
+	    "order" : 65,
+	    "monsterType" : "atprk_xenoproberare",
+	    "icon" : "/monsters/ghosts/atprk_xenoprobe/atprk_xenoproberare/atprk_xenoproberare.png:fly.1"
+	  }
+	}
+]
