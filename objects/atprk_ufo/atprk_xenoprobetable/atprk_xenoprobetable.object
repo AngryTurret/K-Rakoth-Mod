@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk_xenoprobetable",
+  "colonyTags" : ["monstrous"],
+  "rarity" : "Uncommon",
+  "category" : "furniture",
+  "price" : 0,
+  "description" : "A coffee table modeled after a Xenoprobe. Tractor beams not included.",
+  "shortdescription" : "Monstrous Coffee Table",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Is this made from a real Xenoprobe's chassis? If that's the case, there may be tracking devices inside...",
+  "avianDescription" : "Finally I can take a closer look at a Xenoprobe without it flying away.",
+  "floranDescription" : "Sssmall alien table with glowy ssstripes.",
+  "glitchDescription" : "Distrustful. How do I know this is not a real Xenoprobe? I don't want it to harm any mooshis on its own!",
+  "humanDescription" : "Well, at very least this thing won't try to steal milk and beef anymore, right?",
+  "hylotlDescription" : "A Xenoprobe? Hm... I recall seeing one of these descending from the night sky.",
+  "novakidDescription" : "Eh, I dunno, looks way too much like a real deal t' me.",
+
+  "inventoryIcon" : "atprk_xenoprobetableicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_xenoprobetable.png:<color>", "fullbright" : true }, { "image" : "atprk_xenoprobetablelit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_xenoprobetable.png:<color>", "fullbright" : true }, { "image" : "atprk_xenoprobetablelit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}
