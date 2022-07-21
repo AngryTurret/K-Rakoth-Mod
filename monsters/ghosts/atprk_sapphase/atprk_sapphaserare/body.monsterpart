@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_sapphaserare",
+  "category" : "atprk_sapphaserare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_sapphaserare.png",
+    "bodyfullbright" : "atprk_sapphaserarefullbright.png"
+  }
+}
