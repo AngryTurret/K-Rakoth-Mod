@@ -9,13 +9,13 @@
   "race" : "generic",
   "printable" : false,
 
-  "apexDescription" : "Is this made from a real Xenoprobe's chassis? If that's the case, there may be tracking devices inside...",
+  "apexDescription" : "Is this made from a real Xenoprobe chassis? If that's the case, there may be tracking devices inside...",
   "avianDescription" : "Finally I can take a closer look at a Xenoprobe without it flying away.",
   "floranDescription" : "Sssmall alien table with glowy ssstripes.",
   "glitchDescription" : "Distrustful. How do I know this is not a real Xenoprobe? I don't want it to harm any mooshis on its own!",
-  "humanDescription" : "Well, at very least this thing won't try to steal milk and beef anymore, right?",
-  "hylotlDescription" : "A Xenoprobe? Hm... I recall seeing one of these descending from the night sky.",
-  "novakidDescription" : "Eh, I dunno, looks way too much like a real deal t' me.",
+  "humanDescription" : "Well, at the very least this thing won't try to steal milk and beef anymore, right?",
+  "hylotlDescription" : "A Xenoprobe? Hm... I recall seeing one of these descending from the night sky once.",
+  "novakidDescription" : "Eh, I dunno, looks way too much like the real deal t' me.",
 
   "inventoryIcon" : "atprk_xenoprobetableicon.png",
   "orientations" : [
