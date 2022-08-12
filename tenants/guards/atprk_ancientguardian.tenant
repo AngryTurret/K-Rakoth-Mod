@@ -11,7 +11,7 @@
   "tenants": [
     {
       "spawn": "npc",
-      "species": "novakid",
+      "species": "shadow",
       "level": 6,
       "type": "atprk_ancientguardian",
       "overrides": {
