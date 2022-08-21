@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "atprk_relicseekerhq_artifactrecycler",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_relicseekerhq_artifactrecycler" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_relicseekerhq_artifactrecycler",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerhq_artifactrecycler.json" ]
+    }
+  ]
+}

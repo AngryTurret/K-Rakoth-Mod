@@ -9849,18 +9849,6 @@
                  "y":992
                 }, 
                 {
-                 "gid":2147491635,
-                 "height":32,
-                 "id":1515,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":3688,
-                 "y":976
-                }, 
-                {
                  "gid":6061,
                  "height":24,
                  "id":1516,
@@ -13893,6 +13881,18 @@
                  "width":80,
                  "x":2712,
                  "y":888
+                }, 
+                {
+                 "gid":2147492504,
+                 "height":32,
+                 "id":2546,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":3688,
+                 "y":976
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -14257,7 +14257,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2546,
+ "nextobjectid":2547,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -14408,15 +14408,15 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk_relicseekerset1.json"
         }, 
         {
-         "firstgid":8855,
+         "firstgid":8857,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glitchdevoutset1.json"
         }, 
         {
-         "firstgid":8888,
+         "firstgid":8890,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }, 
         {
-         "firstgid":8928,
+         "firstgid":8930,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
