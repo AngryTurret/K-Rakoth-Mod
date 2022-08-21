@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_terraformerframe", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_ancientshards", "count" : 4 },
+  "groups" : [ "atprk_artifactrecycler", "nouncrafting" ]
+}
