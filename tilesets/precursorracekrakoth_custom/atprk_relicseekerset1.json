@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":21,
+ "tilecount":23,
  "tileheight":80,
  "tileproperties":
     {
@@ -148,6 +148,26 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_relicseekerdisplay5"
+        },
+     "21":
+        {
+         "\/\/description":"A station used to recycle spare relic pieces into pixels.",
+         "\/\/name":"atprk_artifactrecycler",
+         "\/\/shortdescription":"^orange;Artifact Recycler^white;",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_artifactrecycler",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "\/\/description":"What seems to be a deactivated recycling station.",
+         "\/\/name":"atprk_artifactrecycleroff",
+         "\/\/shortdescription":"Disabled Artifact Recycler",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_artifactrecycleroff",
+         "tilesetDirection":"right"
         },
      "3":
         {
@@ -356,6 +376,26 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "21":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "22":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
         {
          "\/\/description":"string",
@@ -509,6 +549,18 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay5.png",
          "imageheight":40,
          "imagewidth":26
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_artifactrecycler.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_artifactrecycleroff.png",
+         "imageheight":32,
+         "imagewidth":32
         },
      "3":
         {
