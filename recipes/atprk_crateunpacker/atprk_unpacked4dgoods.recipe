@@ -7,5 +7,5 @@
     "item" : "atprk_unpacked4dgoods",
     "count" : 1
   },
-  "groups" : [ "atprk_crateunpacker" ]
+  "groups" : [ "atprk_crateunpacker", "nouncrafting" ]
 }

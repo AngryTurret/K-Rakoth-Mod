@@ -7,5 +7,5 @@
     "item" : "atprk_unpackedrelicgoods",
     "count" : 1
   },
-  "groups" : [ "atprk_crateunpacker" ]
+  "groups" : [ "atprk_crateunpacker", "nouncrafting" ]
 }
