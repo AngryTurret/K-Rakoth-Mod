@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_artifactrecycleroff",
+  "colonyTags" : ["atprk_relicseeker","misc"],
+  "rarity" : "Legendary",
+  "description" : "What seems to be a deactivated recycling station.",
+  "shortdescription" : "Disabled Artifact Recycler",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1050,
+  "printable" : false,
+
+  "apexDescription" : "A deactivated recycling station.",
+  "avianDescription" : "An odd-looking pixel printer or something similar to it.",
+  "floranDescription" : "Ssssome workbench. It doessn't work.",
+  "glitchDescription" : "Disappointed. I cannot find a way to power this workbench.",
+  "humanDescription" : "I wonder if there's a way to turn this on.",
+  "hylotlDescription" : "I can tell it is a deactivated recycling station.",
+  "novakidDescription" : "I can't turn this thingy on yet.",
+
+  "inventoryIcon" : "atprk_artifactrecyclerofficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_artifactrecycleroff.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

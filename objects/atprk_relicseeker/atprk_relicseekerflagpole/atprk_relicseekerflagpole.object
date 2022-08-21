@@ -1,0 +1,52 @@
+{
+  "objectName" : "atprk_relicseekerflagpole",
+  "colonyTags" : ["atprk_relicseeker"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 0,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The Relic Seeker flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Relic Seeker Flag",
+  "race" : "generic",
+
+  "apexDescription" : "A Relic Seeker flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This Relic Seeker flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Relic Ssseeker flag makess good point to teleport back to ussing teleporter!",
+  "glitchDescription" : "Observant. A small locator module attached to this Relic Seeker flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This Relic Seeker flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This Relic Seeker flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this Relic Seeker flag for quick teleportin'.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "atprk_relicseekerflagpole.png",
+  "orientations" : [
+    {
+      "image" : "atprk_relicseekerflagpole.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_relicseekerflagpole.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
