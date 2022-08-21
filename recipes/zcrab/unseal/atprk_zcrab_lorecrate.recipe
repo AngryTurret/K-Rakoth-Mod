@@ -6,5 +6,5 @@
     "item" : "atprk_zcrab_lorecrate",
     "count" : 1
   },
-  "groups" : [ "cratesealer", "unseal" ]
+  "groups" : [ "cratesealer", "unseal", "nouncrafting" ]
 }

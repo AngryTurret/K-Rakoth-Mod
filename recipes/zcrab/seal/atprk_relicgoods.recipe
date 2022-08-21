@@ -6,5 +6,5 @@
     "item" : "atprk_relicgoods",
     "count" : 1
   },
-  "groups" : [ "cratesealer", "seal" ]
+  "groups" : [ "cratesealer", "seal", "nouncrafting" ]
 }
