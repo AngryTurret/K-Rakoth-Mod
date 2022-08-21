@@ -51,6 +51,12 @@
         "dungeonId" : "atprk_relicseekerhq_relic4",
         "targetInstance" : "atprk_relicseekerhq",
         "targetPosition" : [207, 880]
+      },
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_artifactrecycler",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [459, 886]
       }
           ]
     }
