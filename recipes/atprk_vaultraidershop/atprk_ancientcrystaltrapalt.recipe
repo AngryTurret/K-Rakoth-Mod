@@ -6,5 +6,5 @@
     "item" : "atprk_ancientcrystaltrapalt",
     "count" : 1
   },
-  "groups" : [ "atprk_vaultraidershop" ]
+  "groups" : [ "atprk_vaultraidershop", "nouncrafting" ]
 }
