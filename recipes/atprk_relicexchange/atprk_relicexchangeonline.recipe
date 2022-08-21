@@ -7,5 +7,5 @@
     "item" : "atprk_relicexchangeonline",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange" ]
+  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
 }

@@ -32,5 +32,5 @@
       ]
     }
   },
-  "groups" : [ "atprk_relicexchange" ]
+  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
 }

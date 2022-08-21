@@ -6,5 +6,5 @@
     "item" : "atprk_relicpackfenron",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange" ]
+  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
 }
