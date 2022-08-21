@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "greendye", "count" : 1 },
+    { "item" : "fabric", "count" : 20 }
+  ],
+  "output" : { "item" : "atprk_relicseekerflagpole", "count" : 1 },
+  "groups" : [ "ppshop", "ppflagpoles" ]
+}
