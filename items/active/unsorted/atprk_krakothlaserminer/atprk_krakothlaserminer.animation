@@ -87,7 +87,7 @@
           "particle" : {
             "type" : "ember",
             "size" : 1,
-            "color" : [243, 34, 0],
+            "color" : [249, 21, 207],
             "position" : [0, 0],
             "fullbright" : true,
             "destructionAction" : "fade",
