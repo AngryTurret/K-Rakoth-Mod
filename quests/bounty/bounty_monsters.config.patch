@@ -1,0 +1,66 @@
+[
+  {
+    "op": "add",
+    "path": "/monsters/atprk_shruberserkrare",
+    "value": {
+      "portraitCenter" : [-1.0, -0.75],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_hungertrictusrare",
+    "value": {
+      "portraitCenter" : [-0.25, 0.0],
+      "portraitScale": 0.5
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_roxmolrare",
+    "value": {
+      "portraitCenter" : [0.0, 0.25],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_sapphaserare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_oculopterrare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_andronerare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_ambryorare",
+    "value": {
+      "portraitCenter" : [0.0, -0.5],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_xenoproberare",
+    "value": {
+      "portraitCenter" : [-0.25, 0.375],
+      "portraitScale": 1
+    }
+  }
+]
