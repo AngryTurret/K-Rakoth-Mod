@@ -5,8 +5,7 @@
         "value": [
             [0, {
                 "pool": [
-                        { "weight": 0.89, "item": "atprk_ruinousbulb"},
-                        { "weight": 0.01, "item": "atprk_ruinousgrowth" },
+                        { "weight": 0.8, "item": "atprk_ruinousbulb"},
                         {"weight": 0.1, "item": "plantfibre" }
                     ],
                     "poolRounds": [
