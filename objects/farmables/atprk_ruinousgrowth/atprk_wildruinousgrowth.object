@@ -50,13 +50,11 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "atprk_ruinousgrowthHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "atprk_ruinousgrowthHarvest"
     }
   ],
 
   "breakDropOptions" : [
-    [ [ "atprk_ruinousgrowth", 1, { } ] ]
   ],
 
   "maxImmersion" : 0.125,
