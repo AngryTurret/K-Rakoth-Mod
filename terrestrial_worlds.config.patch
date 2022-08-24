@@ -56,7 +56,7 @@
     "op" : "add",
     "path" : "/planetTypes/atprk_ruinedworld",
     "value" : {
-      "threatRange" : [6, 6],
+      "threatRange" : [8, 8],
       "layers" : {
         "surface" : {
           "primaryRegion" : ["atprk_ruinedworld"]
