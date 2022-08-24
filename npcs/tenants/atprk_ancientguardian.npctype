@@ -1,6 +1,8 @@
 {
   "type" : "atprk_ancientguardian",
   "baseType" : "friendlyguardtenant",
+  
+  "nameGen" : [ "/monsters/boss/guardianboss/bossnamegen.config:names", "/monsters/boss/guardianboss/bossnamegen.config:names" ],
 
   "scriptConfig" : {
     "reactions" : {
