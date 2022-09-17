@@ -2,7 +2,7 @@
 	"id": "atprk_relicsearchquest5",
 	"prerequisites": ["atprk_relicsearchquest4"],
 	"title": "^green;Ruler of the Ocean",
-	"text": "Our next goal lies below the waves of ^#837ad7;boiling oceans^white;. That's right, the very planets where the sunken K'Rakothan cities are! I strongly believe there must be a ^green;Eldritch Ruler Statue^white; somewhere. It's kinda rare but I guess ^orange;an abandoned citadel^white; should've at least one such statue.",
+	"text": "Our next goal lies below the waves of ^#837ad7;boiling planets^white;. That's right, the very planets where the sunken K'Rakothan cities are! I strongly believe there must be a ^green;Eldritch Ruler Statue^white; somewhere. It's kinda rare but I guess ^orange;an abandoned citadel^white; should've at least one such statue.",
 	"completionText": "A dreadful statue indeed but I'm glad it's fully intact. Another priceless artifact in our collection!",
 	"moneyRange": [1500, 1500],
 	"rewards": [
