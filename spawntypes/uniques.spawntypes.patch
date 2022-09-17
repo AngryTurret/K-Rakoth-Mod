@@ -10,7 +10,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.05,
-      "monsterType" : "atprk_shruberserk",
+      "monsterType" : [
+      [0.99, "atprk_shruberserk"],
+      [0.01, "atprk_shruberserkrare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -27,7 +30,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.08,
-      "monsterType" : "atprk_hungertrictus",
+      "monsterType" : [
+      [0.99, "atprk_hungertrictus"],
+      [0.01, "atprk_hungertrictusrare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -44,7 +50,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.1,
-      "monsterType" : "atprk_roxmol",
+      "monsterType" : [
+      [0.99, "atprk_roxmol"],
+      [0.01, "atprk_roxmolrare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -61,7 +70,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.02,
-      "monsterType" : "atprk_sapphase",
+      "monsterType" : [
+      [0.99, "atprk_sapphase"],
+      [0.01, "atprk_sapphaserare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -78,7 +90,10 @@
         "time" : "day"
       },
       "spawnChance" : 0.02,
-      "monsterType" : "atprk_oculopter",
+      "monsterType" : [
+      [0.99, "atprk_oculopter"],
+      [0.01, "atprk_oculopterrare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -95,7 +110,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.08,
-      "monsterType" : "atprk_androne",
+      "monsterType" : [
+      [0.99, "atprk_androne"],
+      [0.01, "atprk_andronerare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -113,7 +131,10 @@
       },
       "groupSize" : [1, 2],
       "spawnChance" : 0.1,
-      "monsterType" : "atprk_ambryo",
+      "monsterType" : [
+      [0.99, "atprk_ambryo"],
+      [0.01, "atprk_ambryorare"]
+    ],
       "monsterParameters" : {
         "aggressive" : false
       }
@@ -130,7 +151,10 @@
         "time" : "night"
       },
       "spawnChance" : 0.02,
-      "monsterType" : "atprk_xenoprobe",
+      "monsterType" : [
+      [0.99, "atprk_xenoprobe"],
+      [0.01, "atprk_xenoproberare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -147,7 +171,10 @@
         "time" : "all"
       },
       "spawnChance" : 0.01,
-      "monsterType" : "atprk_xenoprobe",
+      "monsterType" : [
+      [0.99, "atprk_xenoprobe"],
+      [0.01, "atprk_xenoproberare"]
+    ],
       "monsterParameters" : {
         "aggressive" : true
       }
