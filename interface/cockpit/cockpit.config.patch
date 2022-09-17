@@ -12,7 +12,7 @@
     {
       "op" : "add",
       "path" : "/planetTypeNames/atprk_boilingocean",
-      "value" : "Boiling Ocean"
+      "value" : "Boiling"
     },
     {
       "op" : "add",
