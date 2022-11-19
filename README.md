@@ -1,7 +1,7 @@
 #  Starbound: K'Rakoths, the Lords of the Cosmos mod
 ![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/1617345978457515522/13D6F1B5F968DCC35D5CB519E05610013FD5C766/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-This mod adds dungeons, biomes and lore related to [b]K'Rakoths[/b], an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
+This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
 
 ## Planets
 - Ashy - relatively young planets known for moderate volcanic activity yet safe to traverse even when you don't have heat protection. Multiple Glitch fortresses can be found there.
