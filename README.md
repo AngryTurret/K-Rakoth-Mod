@@ -1,10 +1,7 @@
 #  Starbound: K'Rakoths, the Lords of the Cosmos mod
 ![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/1617345978457515522/13D6F1B5F968DCC35D5CB519E05610013FD5C766/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
-## This mod does not add in new playable races and never will, it just adds the remnants (dungeons, props, etc.) and lore of new extinct ones.
 
-So, there are many playable race mods, most of which are more or less humanoid. But what about some more alien races that are not playable but still provide additional lore and places to explore?
-
-This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
+This mod adds dungeons, biomes and lore related to [b]K'Rakoths[/b], an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
 
 ## Planets
 - Ashy - relatively young planets known for moderate volcanic activity yet safe to traverse even when you don't have heat protection. Multiple Glitch fortresses can be found there.
@@ -18,12 +15,12 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Terraforming Laboratory. Once ago, K'Rakoths raided one of the Ancient Vaults and recovered some technologies, including terraformers. These technologies are still kept in vast underground complexes filled with water, security robots and all sorts of elder machinery. Keep in mind that they are also protected by force fields.
 
 ## Mini-Biomes
-- Radiotrophic Forest (Alien mini-biome). Calling this place a forest may be a stretch: its hostile terrain is overwhelmed by piles of toxic waste and pools of both poison and slime, so only the hardiest vegetation can survive there, as well as wild snagglers and pteropods. On the bright side, this biome is the only source of radiotrophic wood that is more durable than any other type of wood. Moreover, some K'Rakothan artifacts can be found buried underground.
-- Hunger Grove (Jungle mini-biome). A wild area infested by countless predatory plant species, from small, relatively harmless plants to colossal maneaters. Very few wanderers have enough courage to go there, let alone build permanent settlements nearby, and if there are any signs of civilization, they are usually buried beneath thick scarlet vines and roots.
-- Ancient Necropolis (Midnight mini-biome). Once a grand city built by the Ancients, now it's nothing but millenia-old ruins of metal and stone. The area is long-depleted of its natural resources, so it means that there are neither trees nor ores to be found. At the same time, many creatures collected by the Ancients still live among remains of old structures and act as the last guardians of numerous ancient relics.
-- Glaciovolcanic (Tundra mini-biome). Long time ago it was a site of high volcanic activity. As the result, this frozen area has much more valuable metals and crystals than other surface biomes, and small volcanoes can be encountered there. This place is also a home to bizarre crystal-based beings that are very territorial and tolerate no intruders.
-- Polluted (Scorched mini-biome). Whoever had inhabited this biome before, all they left behind is piles of garbage, lakes of oil and half-dead vegetation. Even though the area looks fairly abandoned, countless hostile automatons keep patrolling it. Luckily, some of them seem to only utilize solar energy, which means that the biome is safer at night.
-- Ship Graveyard (Scorched mini-biome). A dry wasteland full of shipwrecks, meteorites and lost equipment. It is unknown how or why this biome was formed - the only thing that can be said for sure is that you can find lots of scrap materials there.
+- Radiotrophic, an irradiated forest of short but durable trees. Spawns on Alien planets.
+- Hunger Grove, an overgrown terrain infested by countless predatory plants. Spawns on Jungle planets.
+- Ancient Necropolis, a remnant of once grand city built by the Ancients. Spawns on Midnight planets.
+- Glaciovolcanic, an icy biome rich in ores and crystals. Spawns on Tundra planets.
+- Polluted, a ruined settlement left behind by a forgotten race. Spawns on Scorched planets.
+- Ship Graveyard, a barren wasteland littered with space debris. Spawns on Scorched planets.
 - More cave variants, including the counterparts of the aforementioned mini-biomes.
 
 ## Other features
@@ -32,9 +29,9 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Various traces of the three extinct races that served K'Rakoths: fossils, small ruins and other minor things. No, they will not be playable, that sort of ruins the whole premise of the mod.
 - New food and catchable fish with corresponding collection entries.
 - New furniture and tenants to make your colonies more diverse.
-- New microdungeons for different biomes.
+- Many new microdungeons for different biomes.
 
-## Compatibility
+## Compatibility and Recommended Patches
 - Material IDs: 62103-62114.
 - More Planet Info: Compatible. All new dungeons show up with custom icons, so you will not miss them. The mini-biomes are displayed as well, even though they have technical names.
 - Frackin' Universe: Compatible, but to make new dungeons spawn of FU planets, install [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2605267672). There are some other helpful tweaks as well.
@@ -45,3 +42,4 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - K'Rakoth dungeons are more likely to spawn on higher-tier planets.
 - Some specific sprites are placeholders that will be improved later.
 - You can [subscribe to Steam Workshop version here](https://steamcommunity.com/workshop/filedetails/?id=2604255131).
+- Integration patches and addons for various mods [have their own repository](https://github.com/AngryTurret/K-Rakoth-Mod-Patches).
