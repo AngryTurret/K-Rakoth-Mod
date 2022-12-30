@@ -32,7 +32,7 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Many new microdungeons for different biomes.
 
 ## Compatibility and Recommended Patches
-- Material IDs: 62103-62114.
+- Material IDs: 62103-62116. In the future updates, it will be expanded to 62100-62125.
 - More Planet Info: Compatible. All new dungeons show up with custom icons, so you will not miss them. The mini-biomes are displayed as well, even though they have technical names.
 - Frackin' Universe: Compatible, but to make new dungeons spawn of FU planets, install [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2605267672). There are some other helpful tweaks as well.
 - Arcana: Compatible, but then again, there is [a patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2607069863) to make new dungeons spawn on Arcana planets.
