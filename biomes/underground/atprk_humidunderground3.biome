@@ -41,10 +41,10 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+      "tracks" : [ "/sfx/environmental/volcanic_underground.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+      "tracks" : [ "/sfx/environmental/volcanic_underground.ogg" ]
     }
   },
 
