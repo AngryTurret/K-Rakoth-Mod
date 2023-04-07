@@ -53,7 +53,7 @@
         "movement" : 80.0
       },
       "fullbright" : true,
-      "light" : [151, 41, 114]
+      "light" : [255, 83, 198]
     },
 
     "stances" : {
