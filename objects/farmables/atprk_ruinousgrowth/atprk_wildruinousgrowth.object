@@ -7,6 +7,7 @@
   "shortdescription" : "Ruinous Growth Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "lightColor" : [66, 107, 95],
   "price" : 120,
   "hasObjectItem" : false,
 
@@ -23,7 +24,7 @@
   "inventoryIcon" : "atprk_ruinousgrowthicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_ruinousgrowth.png:<color>.<stage>.<alt>",
+      "imageLayers" : [{ "image" : "atprk_ruinousgrowth.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "atprk_ruinousgrowthlit.png:<color>.<stage>.<alt>"}],
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -50,7 +51,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "atprk_ruinousgrowthHarvest"
+      "harvestPool" : "atprk_ruinousgrowthHarvest",
+      "resetToStage" : 0
     }
   ],
 
