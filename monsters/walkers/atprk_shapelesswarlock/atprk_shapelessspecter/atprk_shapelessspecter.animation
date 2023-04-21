@@ -70,7 +70,8 @@
       "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
-          "offset" : [0.0, 0.0]
+          "offset" : [0.0, 0.0],
+          "fullbright" : true
         },
         "partStates" : {
           "body" : {
@@ -144,6 +145,10 @@
     },
     "deathPoof" : {
       "particles" : [
+        { "particle" : "ghostsparkle" },
+        { "particle" : "ghostsparkle" },
+        { "particle" : "ghostsparkle" },
+        { "particle" : "ghostsparkle" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -164,8 +169,18 @@
     }
   },
 
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [140, 50, 140],
+      "pointLight" : true,
+      "anchorPart" : "body"
+    }
+  },
+
   "sounds" : {
     "aggroHop" : [ ],
-    "deathPuff" : [ "/sfx/objects/prism_break_large2.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

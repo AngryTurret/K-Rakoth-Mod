@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "atprk_shapelessspecter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_shapelessspecter.png"
+  }
+}

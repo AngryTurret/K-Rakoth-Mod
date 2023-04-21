@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_roxmolpurple",
+  "category" : "atprk_roxmolpurple",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_roxmolpurple.png"
+  }
+}

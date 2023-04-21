@@ -1,14 +1,14 @@
 {
-  "type" : "atprk_shruberserkrare",
-  "shortdescription" : "Ice Shruberserk",
-  "description" : "Shruberserk allows smaller creatures to hide in its foliage, only to eat them later.",
+  "type" : "atprk_roxmolpurple",
+  "shortdescription" : "Roxmol",
+  "description" : "A semi-sapient crystal struggling to understand the world around it.",
 
-  "categories" : [ "atprk_shruberserkrare" ],
+  "categories" : [ "atprk_roxmolpurple" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_shruberserkrare.animation",
+  "animation" : "atprk_roxmolpurple.animation",
 
-  "dropPools" : [ { "default" : "atprk_shruberserkTreasure", "bow" : "atprk_shruberserkHunting" } ],
+  "dropPools" : [ { "default" : "atprk_roxmolTreasure", "bow" : "atprk_roxmolHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -16,90 +16,73 @@
     ],
 
     "behavior" : "monster",
-    "deathBehavior" : "monster-death",
 
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 60,
+      "targetQueryRange" : 15,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 60,
-      "targetOutOfSightTime" : 10,
+      "keepTargetInRange" : 15,
+      "targetOutOfSightTime" : 2.5,
 
-      "damageTakenActions" : [
-        {
-          "name" : "action-charge",
-          "cooldown" : 4.0,
-          "parameters" : {
-            "minimumRange" : 0,
-            "maximumRange" : 40,
-            "keepInRange" : true,
-            "windupTime" : 0,
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
-            "chargeTime" : 2,
-            "chargeSpeed" : 40,
-            "chargeControlForce" : 300,
-            "wallKnockback" : true,
-            "wallCrashSound" : "wallCrash",
-            "wallCrashEmitter" : "",
-
-            "winddownTime" : 0.6
-          }
-        }
-      ],
+      "fleeActions" : [],
 
       "hostileActions" : [
         {
-          "name" : "action-charge",
+          "name" : "approach-walk",
           "parameters" : {
-            "minimumRange" : 5,
-            "maximumRange" : 20,
-            "keepInRange" : true,
-            "windupTime" : 3,
-
-            "chargeTime" : 2,
-            "chargeSpeed" : 40,
-            "chargeControlForce" : 300,
-            "wallKnockback" : true,
-            "wallCrashSound" : "wallCrash",
-            "wallCrashEmitter" : "",
-
-            "winddownTime" : 0.6
-          }
-        },
-        {
-          "name" : "action-charge",
-          "parameters" : {
-            "minimumRange" : 0,
-            "maximumRange" : 5,
-            "keepInRange" : true,
-            "windupTime" : 0,
-
-            "chargeTime" : 2,
-            "chargeSpeed" : 40,
-            "chargeControlForce" : 300,
-            "wallKnockback" : true,
-            "wallCrashSound" : "wallCrash",
-            "wallCrashEmitter" : "",
-
-            "winddownTime" : 0.6
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
           }
         }
       ],
 
-      "periodicActions" : [],
+      "periodicActions" : [
+        {
+          "name" : "action-invulnerable",
+          "cooldown" : [6, 12],
+          "parameters" : {
+            "windupTime" : 0.5,
+            "windupState" : "invulnerablewindup",
+            "winddownTime" : 0.5,
+            "winddownState" : "invulnerablewinddown",
+
+            "invulnerableTime" : 20
+          }
+        }
+      ],
+
+      "damageTakenActions" : [
+        {
+          "name" : "action-invulnerable",
+          "parameters" : {
+            "windupTime" : 0.5,
+            "windupState" : "invulnerablewindup",
+            "winddownTime" : 0.5,
+            "winddownState" : "invulnerablewinddown",
+
+            "invulnerableTime" : 4
+          }
+        }
+      ],
 
       "approachActions" : [
         {
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 7,
+            "maxJumps" : 3,
             "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
             "jumpXControlForce" : 50,
-            "minXRange" : 30
+            "minXRange" : 10
           }
         }
       ],
@@ -114,11 +97,11 @@
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 7,
+            "maxJumps" : 3,
             "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
             "jumpXControlForce" : 50,
-            "minXRange" : 30
+            "minXRange" : 10
           }
         }
       ],
@@ -131,53 +114,39 @@
             "wanderTime" : [5, 20]
           }
         }
-      ],
-
-      "deathActions" : [
-        {
-          "name" : "action-projectile",
-          "parameters" : {
-            "projectileCount" : 3,
-            "projectileType" : "atprk_shruberserkrareegg",
-            "projectileParameters" : {},
-            "aimDirection" : [1, 1],
-            "inaccuracy" : 1.5,
-            "fireOffset" : [0, 1]
-          }
-        }
       ]
     },
 
     "touchDamage" : {
-      "poly" : [ [0.875, 2.375], [1.375, 1.875], [1.375, -1.875], [0.875, -2.375], [-0.875, -2.375], [-1.375, -1.875], [-1.375, 1.875], [-0.875, 2.375] ],
-      "damage" : 15,
+      "poly" : [ [0.3125, 1.25], [0.8125, 0.75],  [0.8125, -0.75], [0.3125, -1.25],  [-0.3125, -1.25], [-0.8125, -0.75],  [-0.8125, 0.75], [-0.3125, 1.25] ],
+      "damage" : 9,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "icehammer",
+      "damageSourceKind" : "slash",
       "knockback" : 20,
-      "statusEffects" : [ "frostslow" ]
+      "statusEffects" : [ ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [0.875, 2.375], [1.375, 1.875], [1.375, -1.875], [0.875, -2.375], [-0.875, -2.375], [-1.375, -1.875], [-1.375, 1.875], [-0.875, 2.375] ],
+      "collisionPoly" : [ [0.3125, 1.25], [0.8125, 0.75],  [0.8125, -0.75], [0.3125, -1.25],  [-0.3125, -1.25], [-0.8125, -0.75],  [-0.8125, 0.75], [-0.3125, 1.25] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 6,
-      "runSpeed" : 10,
+      "walkSpeed" : 4,
+      "runSpeed" : 6,
 
       "airFriction" : 0,
 
       "airJumpProfile" : {
-        "jumpSpeed" : 35.0,
+        "jumpSpeed" : 45.0,
         "jumpInitialPercentage" : 1.0,
         "jumpHoldTime" : 0.0
       }
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "stone",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -188,7 +157,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "stone"
       },
 
       "appliesEnvironmentStatusEffects" : false,
@@ -208,7 +177,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 60
+          "baseValue" : 48
         },
         "protection" : {
           "baseValue" : 0.0
@@ -220,31 +189,31 @@
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.5
         },
         "fireResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.0
         },
         "fireStatusImmunity" : {
           "baseValue" : 0.0
         },
         "iceResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : 0.0
         },
         "iceStatusImmunity" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "electricResistance" : {
-          "baseValue" : 0.0
-        },
-        "electricStatusImmunity" : {
-          "baseValue" : 0.0
-        },
-        "poisonResistance" : {
           "baseValue" : 0.5
         },
-        "poisonStatusImmunity" : {
+        "electricStatusImmunity" : {
           "baseValue" : 1.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
         }
       },
 
@@ -266,6 +235,6 @@
     "capturable" : true,
     "captureHealthFraction" : 0.5,
     "nametagColor" : [64, 200, 255],
-    "captureCollectables" : { "raremonsters" : "atprk_shruberserkrare" }
+    "captureCollectables" : { "monsters" : "atprk_roxmol" }
   }
 }

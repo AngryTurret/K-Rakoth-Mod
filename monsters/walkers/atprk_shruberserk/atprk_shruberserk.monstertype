@@ -16,6 +16,7 @@
     ],
 
     "behavior" : "monster",
+    "deathBehavior" : "monster-death",
 
     "behaviorConfig" : {
       "damageOnTouch" : true,
@@ -128,6 +129,20 @@
           "cooldown" : 6.0,
           "parameters" : {
             "wanderTime" : [5, 20]
+          }
+        }
+      ],
+
+      "deathActions" : [
+        {
+          "name" : "action-projectile",
+          "parameters" : {
+            "projectileCount" : 3,
+            "projectileType" : "atprk_shruberserkegg",
+            "projectileParameters" : {},
+            "aimDirection" : [1, 1],
+            "inaccuracy" : 1.5,
+            "fireOffset" : [0, 1]
           }
         }
       ]

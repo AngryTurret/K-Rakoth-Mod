@@ -1,14 +1,14 @@
 {
-  "type" : "atprk_shapelesswarlock",
-  "shortdescription" : "Shapeless Warlock",
-  "description" : "Infused with pure erchius energy, this strange being can summon erchius spooks.",
+  "type" : "atprk_shapelessspecter",
+  "shortdescription" : "Shapeless Specter",
+  "description" : "Whether this is indeed a ghost of a warlock or an erchius entity taking on their form is anyone's guess.",
 
-  "categories" : [ "atprk_shapelesswarlock" ],
+  "categories" : [ "atprk_shapelessspecter" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_shapelesswarlock.animation",
+  "animation" : "atprk_shapelessspecter.animation",
 
-  "dropPools" : [ "atprk_shapelessdwellerTreasure" ],
+  "dropPools" : [ "atprk_erchiusspookTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -16,7 +16,8 @@
     ],
 
     "behavior" : "monster",
-    "deathBehavior" : "monster-death",
+
+    "renderLayer" : "foregroundEntity",
 
     "behaviorConfig" : {
       "damageOnTouch" : true,
@@ -55,17 +56,6 @@
         }
       ],
 
-      "concurrentHostileActions" : [
-        {
-          "name" : "action-spawncompanions",
-          "parameters" : {
-            "maxCount" : 2,
-            "spawnCooldown" : 4,
-            "monsterType" : "atprk_erchiusspook"
-          }
-        }
-      ],
-
       "periodicActions" : [],
 
       "approachActions" : [
@@ -98,19 +88,9 @@
       "wanderActions" : [
         {
           "name" : "wander-walk",
-          "cooldown" : 6.0,
+          "cooldown" : 5.0,
           "parameters" : {
             "wanderTime" : [2, 4]
-          }
-        }
-      ],
-
-      "deathActions" : [
-        {
-          "name" : "action-spawnmonster",
-          "parameters" : {
-            "monsterType" : "atprk_shapelessspecter",
-            "replacement" : true
           }
         }
       ]
@@ -124,8 +104,8 @@
       "collisionPoly" : [ [-1.0, -2.5], [1.0, -2.5], [1.0, 1.0], [-1.0, 1.0] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 2.0,
-      "runSpeed" : 4.0,
+      "walkSpeed" : 2.5,
+      "runSpeed" : 4.5,
       "flySpeed" : 25.0,
       "airForce" : 50.0,
       "airJumpProfile": {
@@ -133,7 +113,7 @@
       }
     },
 
-    "bodyMaterialKind" : "stone",
+    "bodyMaterialKind" : "organic",
 
     "knockoutTime" : 0.1,
     "knockoutEffect" : "blink",
@@ -154,7 +134,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "stone"
+        "targetMaterialKind" : "organic"
       },
 
       "appliesEnvironmentStatusEffects" : false,
@@ -174,28 +154,43 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 150
+          "baseValue" : 75
+        },
+        "physicalResistance" : {
+          "baseValue" : 1.0
         },
         "fireResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : -0.5
         },
         "fireStatusImmunity" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "iceResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : -0.5
         },
         "iceStatusImmunity" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : -0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.75
         },
         "healthRegen" : {
-          "baseValue" : 0.1
+          "baseValue" : 0.2
         },
         "powerMultiplier" : {
-          "baseValue" : 1.2
+          "baseValue" : 1.0
         }
       },
 

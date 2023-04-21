@@ -12,10 +12,7 @@
           "walk" : {
             "frames" : 7,
             "cycle" : 0.5,
-            "mode" : "loop",
-            "properties" : {
-              "particleEmittersOff" : [ "mouthwater" ]
-            }
+            "mode" : "loop"
           },
           "jump" : {
             "frames" : 2,
@@ -29,7 +26,6 @@
             "cycle" : 0.125,
             "mode" : "loop",
             "properties" : {
-              "particleEmittersOff" : [ "mouthwater" ],
               "persistentSound" : "/sfx/npc/monsters/oogler_windup.ogg",
               "persistentSoundStopTime" : 0.5
             }
@@ -38,17 +34,13 @@
             "frames" : 1,
             "cycle" : 0.6,
             "mode" : "transition",
-            "transition" : "idle",
-            "properties" : {
-              "particleEmittersOff" : [ "mouthwater" ]
-            }
+            "transition" : "idle"
           },
           "charge" : {
             "frames" : 7,
             "cycle" : 0.35,
             "mode" : "loop",
             "properties" : {
-              "particleEmittersOff" : [ "mouthwater" ],
               "persistentSound" : "/sfx/npc/smallbiped/angstyhead_small_turnhostile.ogg",
               "persistentSoundStopTime" : 1
             },
@@ -176,6 +168,12 @@
     "deathPoof" : {
       "particles" : [
         { "particle" : "monstersplosion" },
+        { "particle" : "atprk_shruberserkrareleaf1" },
+        { "particle" : "atprk_shruberserkrareleaf2" },
+        { "particle" : "atprk_shruberserkrareleaf3" },
+        { "particle" : "atprk_shruberserkrareleaf1" },
+        { "particle" : "atprk_shruberserkrareleaf3" },
+        { "particle" : "atprk_shruberserkrareleaf1" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },

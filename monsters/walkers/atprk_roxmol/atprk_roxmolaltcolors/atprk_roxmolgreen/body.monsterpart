@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_roxmolgreen",
+  "category" : "atprk_roxmolgreen",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_roxmolgreen.png"
+  }
+}
