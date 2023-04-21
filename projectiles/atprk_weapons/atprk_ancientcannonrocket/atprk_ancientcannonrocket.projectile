@@ -1,0 +1,56 @@
+{
+  "projectileName" : "atprk_ancientcannonrocket",
+  "image" : "atprk_ancientcannonrocket.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [125, 125, 100],
+  "frameNumber" : 4,
+  "flippable" : false,
+  "fullbright" : true,
+  "physics" : "laser",
+  "bounces" : 0,
+  "emitters" : [ "electricplasma" ],
+  "actionOnReap" : [
+    {
+      "action" : "spark"
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/grenadeblast_small_electric2.ogg" ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/electricexplosionknockbackstatus.config"
+    },
+    {
+      "action" : "loop",
+      "count" : 15,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "ember",
+            "size" : 1.0,
+            "color" : [96, 96, 214, 255],
+            "light" : [53, 53, 96],
+            "fullbright" : true,
+            "fade" : 0.9,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0.0, -50.0],
+            "approach" : [0, 30],
+            "timeToLive" : 0.7,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [10, 10],
+              "timeToLive" : 0.3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "damagePoly" : [ [-8, 0], [2, 3], [8, 0], [2, -3] ],
+  "damageKind" : "electricplasma",
+  "knockback" : 15,
+
+  "speed" : 70
+}

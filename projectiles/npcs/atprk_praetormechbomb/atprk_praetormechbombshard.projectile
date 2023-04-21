@@ -1,0 +1,41 @@
+{
+  "projectileName" : "atprk_praetormechbombshard",
+  "physics" : "grenade",
+  "image" : "atprk_praetormechbombshard.png",
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "fullbright" : true,
+  "speed" : 35,
+  "actionOnReap" : [
+    {
+      "action" : "tile",
+      "materials" : [
+        {"kind" : "atprk_4dblock"}
+      ]
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/magnorbs_fire6.ogg" ]
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.066,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/atprk_praetormechbombshardtrail/atprk_praetormechbombshardtrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.2,
+        "layer" : "back",
+        "position" : [0.0, 0.0]
+      }
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

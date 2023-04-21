@@ -1,0 +1,29 @@
+{
+  "projectileName" : "atprk_fallingdungbeetle",
+  "image" : "atprk_fallingdungbeetle.png",
+  "physics" : "roller",
+  "animationCycle" : 2,
+  "frameNumber" : 1,
+  "renderLayer" : "Object+1",
+  "power" : 0,
+  "speed" : 12,
+  "piercing" : true,
+  "initialVelocity" : 20,
+  "timeToLive" : 3,
+  "bounces" : 3,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "atprk_dungbeetlecritter",
+      "offset" : [0, 2],
+      "arguments" : {
+        "aggressive" : true
+      }
+    }
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "persistentAudio" : "/sfx/projectiles/beetle3.ogg"
+}

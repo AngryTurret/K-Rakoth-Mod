@@ -1,0 +1,25 @@
+{
+  "projectileName" : "atprk_ancientstatuemimicfireball",
+  "physics" : "default",
+  "image" : "atprk_ancientstatuemimicfireball.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [151, 51, 255],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionnodamage.config"
+    }
+  ],
+  "power" : 42,
+  "knockback" : 40,
+  "speed" : 50,
+  "damageKind" : "fireplasma",
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "atprk_ancientburning"
+  ],
+  "persistentAudio" : "/sfx/projectiles/dragonprojectile_loop.ogg",
+  "emitters" : [ "fireplasma", "smoke", "flames" ]
+}

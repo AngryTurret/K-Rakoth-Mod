@@ -1,0 +1,24 @@
+{
+  "projectileName" : "atprk_ancientprismreflected",
+  "physics" : "laser",
+  "image" : "atprk_ancientprismreflected.png",
+  "fullbright" : true,
+  "animationCycle" : 0.1,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 50,
+  "timeToLive" : 3,
+  "lightColor" : [115, 211, 255],
+  "piercing" : true,
+  "damageKind" : "plasma",
+  "damageType" : "IgnoresDef",
+  "damagePoly" : [[-6, 3], [-3, 6], [3, 6], [6, 3], [6, -3], [3, -6], [-3, -6], [-6, -3]],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+    }
+  ],
+
+  "persistentAudio" : "/sfx/objects/crystaltrap_loop.ogg"
+}

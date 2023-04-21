@@ -1,0 +1,23 @@
+{
+  "projectileName" : "atprk_ancientshardsstatueexplosionspawn",
+  "image" : "atprk_ancientshardsstatueexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "atprk_ancientstatuemimic",
+      "offset" : [0, 2],
+      "arguments" : {
+        "aggressive" : true
+      }
+    }
+  ]
+}

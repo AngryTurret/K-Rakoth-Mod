@@ -1,0 +1,13 @@
+{
+  "projectileName" : "atprk_ancientshardsstatueexplosion",
+  "image" : "atprk_ancientshardsstatueexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true
+}

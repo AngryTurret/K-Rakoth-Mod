@@ -1,0 +1,87 @@
+{
+  "projectileName" : "atprk_ancientshardsstatueexplosionbase",
+  "image" : "atprk_ancientshardsstatueexplosionbase.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosion",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_ancientshardsstatueexplosionspawn",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0,
+          "inheritSpeedFactor" : 1
+        }
+      ]
+    }
+  ]
+}

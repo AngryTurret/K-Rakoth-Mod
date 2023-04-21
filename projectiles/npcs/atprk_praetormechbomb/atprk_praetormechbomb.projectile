@@ -1,0 +1,50 @@
+{
+  "projectileName" : "atprk_praetormechbomb",
+  "physics" : "grenade",
+  "bounces" : 1,
+  "timeToLive" : 1.5,
+  "image" : "atprk_praetormechbomb.png",
+  "speed" : 20,
+  "animationCycle" : 1.5,
+  "lightColor" : [101, 0, 105],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/atprk_chthonicrpgexplosion/atprk_chthonicrpgexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_praetormechbombshard",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_praetormechbombshard",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_praetormechbombshard",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_praetormechbombshard",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    }
+  ],
+  "power" : 60,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

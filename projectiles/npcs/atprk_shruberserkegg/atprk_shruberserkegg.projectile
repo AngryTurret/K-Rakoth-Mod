@@ -1,0 +1,91 @@
+{
+  "projectileName" : "atprk_shruberserkegg",
+  "image" : "atprk_shruberserkegg.png",
+  "physics" : "roller",
+  "animationCycle" : 2,
+  "frameNumber" : 1,
+  "renderLayer" : "Object+1",
+  "power" : 0,
+  "speed" : 15,
+  "piercing" : true,
+  "initialVelocity" : 20,
+  "timeToLive" : 3,
+  "bounces" : -1,
+  "flippable" : true,
+  "orientationLocked" : false,
+
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 4,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+              "type" : "ember",
+              "size" : 1.3,
+              "color" : [147, 40, 118, 255],
+              "fade" : 0.9,
+              "initialVelocity" : [13, 8.0],
+              "finalVelocity" : [16, -19.0],
+              "approach" : [20, 30],
+              "timeToLive" : 0.8,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [13, 3],
+                "timeToLive" : 1,
+                "size" : 1.3
+              }
+          }
+        }
+      ]
+    },
+    {
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "spawnmonster",
+          "type" : "petalcritter",
+          "offset" : [0, 2],
+          "arguments" : {
+            "aggressive" : false
+            }
+        },
+        {
+          "action" : "spawnmonster",
+          "type" : "atprk_fenronscabcritter",
+          "offset" : [0, 2],
+          "arguments" : {
+            "aggressive" : false
+            }
+        },
+        {
+          "action" : "spawnmonster",
+          "type" : "birdcritter",
+          "offset" : [0, 2],
+          "arguments" : {
+            "aggressive" : false
+            }
+        },
+        {
+          "action" : "spawnmonster",
+          "type" : "bloodtoadcritter",
+          "offset" : [0, 2],
+          "arguments" : {
+            "aggressive" : false
+            }
+        },
+        {
+          "action" : "spawnmonster",
+          "type" : "armadillocritter",
+          "offset" : [0, 2],
+          "arguments" : {
+            "aggressive" : false
+            }
+        }
+      ]
+    }
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

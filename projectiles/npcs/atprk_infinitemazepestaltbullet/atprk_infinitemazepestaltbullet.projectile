@@ -1,0 +1,37 @@
+{
+  "projectileName" : "atprk_infinitemazepestaltbullet",
+  "image" : "atprk_infinitemazepestaltbullet.png",
+  "animationCycle" : 0.3,
+  "animationLoops" : true,
+  "lightColor" : [150, 125, 100],
+  "frameNumber" : 4,
+  "flippable" : false,
+  "fullbright" : true,
+  "renderLayer" : "Monster+1",
+  "damageKindImage" : "icon.png",
+  "physics" : "laser",
+  "emitters" : [ ],
+  "damageKind" : "slash",
+
+  "periodicActions" : [
+    {
+      "time" : 0.066,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/atprk_infinitemazepestalttrail/atprk_infinitemazepestalttrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.2,
+        "layer" : "back",
+        "position" : [0.0, 0.0]
+      }
+    }
+  ],
+
+  "speed" : 35,
+  "timeToLive" : 4.0,
+
+  "damageRepeatTimeout" : 0.5
+}
