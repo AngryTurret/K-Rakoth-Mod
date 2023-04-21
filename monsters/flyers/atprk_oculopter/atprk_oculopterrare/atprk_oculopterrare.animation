@@ -6,20 +6,34 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 1,
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/mandraflora_spinning.ogg"
+            }
           },
           "fly" : {
-            "frames" : 1
+            "frames" : 1,
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/mandraflora_spinning.ogg"
+            }
           },
           "aggro" : {
             "frames" : 6,
-            "cycle" : 0.6
+            "cycle" : 0.6,
+            "properties" : {
+              "immediateSound" : "/sfx/objects/camera_alert_off.ogg",
+              "persistentSound" : "/sfx/npc/monsters/mandraflora_spinning.ogg"
+            }
           },
           "fire" : {
             "frames" : 6,
             "cycle" : 0.6,
             "mode" : "transition",
-            "transition" : "fly"
+            "transition" : "fly",
+            "properties" : {
+              "immediateSound" : "/sfx/objects/redalert2.ogg",
+              "persistentSound" : "/sfx/npc/monsters/mandraflora_spinning.ogg"
+            }
           }
         }
       },
