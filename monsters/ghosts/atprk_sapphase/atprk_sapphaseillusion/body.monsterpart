@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_sapphaseillusion",
+  "category" : "atprk_sapphaseillusion",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_sapphaseillusion.png"
+  }
+}

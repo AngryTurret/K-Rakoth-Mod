@@ -1,14 +1,14 @@
 {
-  "type" : "atprk_erchiusspook",
-  "shortdescription" : "Erchius Spook",
-  "description" : "A small apparition attracted to erchius deposits.",
+  "type" : "atprk_sapphaseillusion",
+  "shortdescription" : "Sapphase Illusion",
+  "description" : "A decoy Sapphase formed from reflected light.",
 
-  "categories" : [ "atprk_erchiusspook" ],
+  "categories" : [ "atprk_sapphaseillusion" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_erchiusspook.animation",
+  "animation" : "atprk_sapphaseillusion.animation",
 
-  "dropPools" : [ "atprk_erchiusspookTreasure" ],
+  "dropPools" : [ ],
 
   "baseParameters" : {
     "scripts" : [
@@ -16,17 +16,46 @@
     ],
 
     "behavior" : "monster",
-
+    "damageBar" : "None",
     "renderLayer" : "foregroundEntity",
 
     "behaviorConfig" : {
-      "damageOnTouch" : true,
+      "damageOnTouch" : false,
 
       "targetQueryRange" : 20,
       "targetOnDamage" : true,
       "keepTargetInSight" : false,
-      "keepTargetInRange" : 60,
+      "keepTargetInRange" : 50,
       "targetOutOfSightTime" : 5.0,
+
+      "hurtTime" : 0.25,
+      "hurtWaitForGround" : false,
+
+      "damageTakenActions" : [
+        {
+          "name" : "action-invulnerable",
+          "parameters" : {
+            "windupTime" : 0,
+            "windupState" : "",
+            "winddownTime" : 0,
+            "winddownState" : "idle",
+
+            "invulnerableTime" : 1
+          }
+        }
+      ],
+
+      // Special hook for behavior during the invulnerable action
+      // If this behavior succeeds, invulnerability ends
+      "invulnerableActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "usePathfinding" : false,
+            "flyState" : ""
+          }
+        }
+      ],
 
       "foundTargetActions" : [ ],
 
@@ -65,19 +94,9 @@
         }
       ],
 
-      "concurrentActions" : [  ],
+      "concurrentActions" : [ { "name" : "action-ghostsparkle" } ],
 
-      "concurrentHostileActions" : [  ]
-    },
-
-    "touchDamage" : {
-      "poly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
-      "damage" : 10,
-
-      "teamType" : "enemy",
-      "damageSourceKind" : "slash",
-      "knockback" : 20,
-      "statusEffects" : [ ]
+      "concurrentHostileActions" : [ { "name" : "action-ghostsparkle" } ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],
@@ -88,16 +107,16 @@
       "collisionPoly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 15,
-      "runSpeed" : 12,
+      "walkSpeed" : 5,
+      "runSpeed" : 14,
       "gravityEnabled" : false,
 
-      "airFriction" : 1,
+      "airFriction" : 0.5,
       "airForce" : 10,
-      "flySpeed" : 15
+      "flySpeed" : 10
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "stone",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -108,7 +127,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "stone"
       },
 
       "appliesEnvironmentStatusEffects" : false,
@@ -122,49 +141,49 @@
 
       "stats" : {
         "knockbackStunTime" : {
-          "baseValue" : 0.2
+          "baseValue" : 0.25
         },
         "knockbackThreshold" : {
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 80
+          "baseValue" : 22
         },
         "protection" : {
           "baseValue" : 0.0
         },
         "healthRegen" : {
-          "baseValue" : 0.2
+          "baseValue" : 0.0
         },
         "powerMultiplier" : {
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.5
         },
         "fireResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "fireStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "iceResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "iceStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "electricResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "electricStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "poisonResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "poisonStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         }
       },
 

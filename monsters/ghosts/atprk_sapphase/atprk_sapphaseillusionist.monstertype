@@ -1,14 +1,14 @@
 {
-  "type" : "atprk_erchiusspook",
-  "shortdescription" : "Erchius Spook",
-  "description" : "A small apparition attracted to erchius deposits.",
+  "type" : "atprk_sapphaseillusionist",
+  "shortdescription" : "Illusionist Sapphase",
+  "description" : "Its hardened sapphire shell protects its actual body - a small yellow core.",
 
-  "categories" : [ "atprk_erchiusspook" ],
+  "categories" : [ "atprk_sapphase" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_erchiusspook.animation",
+  "animation" : "atprk_sapphase.animation",
 
-  "dropPools" : [ "atprk_erchiusspookTreasure" ],
+  "dropPools" : [ { "default" : "atprk_sapphaseTreasure", "bow" : "atprk_sapphaseHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -25,8 +25,37 @@
       "targetQueryRange" : 20,
       "targetOnDamage" : true,
       "keepTargetInSight" : false,
-      "keepTargetInRange" : 60,
+      "keepTargetInRange" : 50,
       "targetOutOfSightTime" : 5.0,
+
+      "hurtTime" : 0.25,
+      "hurtWaitForGround" : false,
+
+      "damageTakenActions" : [
+        {
+          "name" : "action-invulnerable",
+          "parameters" : {
+            "windupTime" : 0,
+            "windupState" : "",
+            "winddownTime" : 0,
+            "winddownState" : "idle",
+
+            "invulnerableTime" : 1
+          }
+        }
+      ],
+
+      // Special hook for behavior during the invulnerable action
+      // If this behavior succeeds, invulnerability ends
+      "invulnerableActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "usePathfinding" : false,
+            "flyState" : ""
+          }
+        }
+      ],
 
       "foundTargetActions" : [ ],
 
@@ -65,18 +94,30 @@
         }
       ],
 
-      "concurrentActions" : [  ],
+      "concurrentActions" : [ { "name" : "action-ghostsparkle" } ],
 
-      "concurrentHostileActions" : [  ]
+      "concurrentHostileActions" : [
+        {
+          "name" : "action-ghostsparkle"
+        },
+        {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 2,
+            "spawnCooldown" : 2.5,
+            "monsterType" : "atprk_sapphaseillusion"
+          }
+        }
+      ]
     },
 
     "touchDamage" : {
       "poly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
-      "damage" : 10,
+      "damage" : 8,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
-      "knockback" : 20,
+      "knockback" : 15,
       "statusEffects" : [ ]
     },
 
@@ -88,16 +129,16 @@
       "collisionPoly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 15,
-      "runSpeed" : 12,
+      "walkSpeed" : 5,
+      "runSpeed" : 14,
       "gravityEnabled" : false,
 
-      "airFriction" : 1,
+      "airFriction" : 0.5,
       "airForce" : 10,
-      "flySpeed" : 15
+      "flySpeed" : 10
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "stone",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -108,11 +149,11 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "stone"
       },
 
       "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -122,46 +163,46 @@
 
       "stats" : {
         "knockbackStunTime" : {
-          "baseValue" : 0.2
+          "baseValue" : 0.25
         },
         "knockbackThreshold" : {
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 80
+          "baseValue" : 45
         },
         "protection" : {
           "baseValue" : 0.0
         },
         "healthRegen" : {
-          "baseValue" : 0.2
+          "baseValue" : 0.0
         },
         "powerMultiplier" : {
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.5
         },
         "fireResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "fireStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "iceResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.5
         },
         "iceStatusImmunity" : {
           "baseValue" : 0.0
         },
         "electricResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.0
         },
         "electricStatusImmunity" : {
           "baseValue" : 0.0
         },
         "poisonResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.0
         },
         "poisonStatusImmunity" : {
           "baseValue" : 0.0
@@ -183,8 +224,11 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : false,
+    "capturable" : true,
     "captureHealthFraction" : 0.5,
-    "nametagColor" : [64, 200, 255]
+    "capturedMonsterName" : "Sapphase",
+    "capturedMonsterType" : "atprk_sapphase",
+    "nametagColor" : [64, 200, 255],
+    "captureCollectables" : { "monsters" : "atprk_sapphase" }
   }
 }

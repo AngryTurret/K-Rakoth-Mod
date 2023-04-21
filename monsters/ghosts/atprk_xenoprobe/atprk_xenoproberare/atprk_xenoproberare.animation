@@ -8,14 +8,19 @@
           "idle" : {
             "frames" : 3,
             "cycle" : 0.25,
-            "mode" : "loop"
+            "mode" : "loop",
+            "properties" : {
+              "particleEmittersOff" : [ "charge" ]
+            }
           },
           "fly" : {
             "frames" : 3,
             "cycle" : 0.25,
             "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/projectiles/gravitymine_loop.ogg"
+              "particleEmittersOff" : [ "charge" ],
+              "persistentSound" : "/sfx/projectiles/raygun_wobble_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.8
             }
           },
           "chargewindup" : {
@@ -30,7 +35,10 @@
             "cycle" : 0.25,
             "mode" : "loop",
             "properties" : {
-              "immediateSound" : "/sfx/projectiles/gravitymine_detonate.ogg"
+              "particleEmittersOn" : [ "charge" ],
+              "immediateSound" : "/sfx/projectiles/gravitymine_detonate.ogg",
+              "persistentSound" : "/sfx/projectiles/raygun_wobble_loop2.ogg",
+              "persistentSoundRangeMultiplier" : 0.8
             }
           }
         }
@@ -64,7 +72,7 @@
             "mode" : "transition",
             "transition" : "off",
             "properties" : {
-              "particleEmittersOff" : [ "releaseParticles" ]
+              "particleEmittersOn" : [ "releaseParticles" ]
             }
           }
         }
@@ -172,9 +180,18 @@
         { "particle" : "dimflames" }
       ]
     },
+    "charge" : {
+      "emissionRate" : 20,
+      "particles" : [
+        { "particle" : "atprk_xenoproberarecharge", "offset" : [-0.5, 0.25] }
+      ]
+    },
     "deathPoof" : {
       "particles" : [
-        { "particle" : "monstersplosion" },
+        { "particle" : "fireswoosh1" },
+        { "particle" : "fireswoosh2" },
+        { "particle" : "fireswoosh1" },
+        { "particle" : "fireswoosh2" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -214,6 +231,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/projectiles/fireball_spit.ogg" ]
   }
 }

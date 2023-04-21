@@ -8,12 +8,20 @@
           "idle" : {
             "frames" : 6,
             "cycle" : 1.0,
-            "mode" : "loop"
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/erchiusghost_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
           },
           "fly" : {
             "frames" : 6,
             "cycle" : 0.5,
-            "mode" : "loop"
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/erchiusghost_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
           }
         }
       },

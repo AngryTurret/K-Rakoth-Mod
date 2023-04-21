@@ -56,6 +56,33 @@
 
             "winddownState" : ""
           }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 5.5,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 30,
+            "minimumRange" : 10,
+            "windupStopForce" : 50,
+            "windupState" : "",
+            "windupTime" : 0.2,
+
+            "projectileType" : "miniwobbleshot",
+            "projectileCount" : 3,
+            "projectileInterval" : 0.3,
+            "projectileParameters" : {
+              "speed" : 45
+            },
+            "fireOffset" : [0.5, 0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "",
+            "fireSound" : "fire",
+
+            "winddownState" : "idle",
+            "winddownTime" : 1.0
+          }
         }
       ],
 
@@ -108,6 +135,7 @@
             "projectileCount" : 1,
             "projectileType" : "fireplasmaexplosion",
             "projectileParameters" : {
+              "power" : 20,
               "damageTeam" : { "type" : "enemy", "team" : 0 }
             },
             "aimDirection" : [0, 0],
