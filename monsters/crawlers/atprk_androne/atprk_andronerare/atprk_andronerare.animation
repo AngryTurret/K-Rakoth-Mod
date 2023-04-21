@@ -192,6 +192,7 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
     "deathPuff" : [ "/sfx/gun/flamethrower_stop.ogg" ],
-    "fire" : [ "/sfx/gun/plasma_pistol3.ogg" ]
+    "fire" : [ "/sfx/gun/plasma_pistol3.ogg" ],
+    "zap" : [ "/sfx/gun/mech_teslastream_fire5.ogg" ]
   }
 }

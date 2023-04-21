@@ -39,8 +39,8 @@
           "name" : "action-fire",
           "parameters" : {
             "requireLineOfSight" : true,
-            "maximumRange" : 15,
-            "minimumRange" : 2,
+            "maximumRange" : 16,
+            "minimumRange" : 8,
             "windupTime" : 2.0,
             "windupStopForce" : 50,
             "windupState" : "idle",
@@ -57,6 +57,30 @@
 
             "winddownState" : "",
             "winddownTime" : 0.0
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 6,
+            "minimumRange" : 2.5,
+            "windupTime" : 0.2,
+            "windupStopForce" : 50,
+            "windupState" : "idle",
+
+            "projectileType" : "lightning",
+            "fireOffset" : [0.0, 0.75],
+            "fireSound" : "zap",
+            "projectileCount" : 3,
+            "projectileInterval" : 0.01,
+            "fireState" : "",
+            "fireDelay" : 0.2,
+            "rotateAim" : true,
+
+            "winddownState" : "",
+            "winddownTime" : 0.3
           }
         }
       ],
