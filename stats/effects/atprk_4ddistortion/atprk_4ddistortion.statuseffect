@@ -1,6 +1,6 @@
 {
   "name" : "atprk_4ddistortion",
-  "blockingStat" : "atprk_4ddistortionImmunity",
+  "blockingStat" : "atprk_4ddistortionStatusImmunity",
 
   "effectConfig" : {
     "directives" : "fade=E31ADC=0.2",
@@ -12,7 +12,7 @@
     "energyCost" : 5,
     "healthDamage" : 2
   },
-  "defaultDuration" : 3,
+  "defaultDuration" : 5,
 
   "scripts" : [
     "atprk_4ddistortion.lua"

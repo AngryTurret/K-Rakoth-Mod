@@ -1,0 +1,271 @@
+{
+// ----------------- Note: this cutscene is slightly janky due to the timing of some elements.
+
+  "muteSfx" : true,
+  "muteMusic" : true,
+  "skippable" : false,
+  "letterbox" : false,
+  "backgroundColor" : [0, 0, 0, 255],
+  "backgroundFadeTime" : 0.5,
+
+  "panels" : [
+
+    {
+      "startTime" : 1,
+      "endTime" : 33,
+      "drawables" : [
+        {
+          "image" : "/cinematics/atprk_relicsearchquestcomplete_bg.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.0,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 310]
+        },
+        {
+          "timecode" : 1.5,
+          "zoom" : 1.5,
+          "alpha" : 1,
+          "position" : [480, 310]
+        },
+        {
+          "timecode" : 31.5,
+          "zoom" : 1.5,
+          "alpha" : 1,
+          "position" : [480, 310]
+        },
+        {
+          "timecode" : 32,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 310]
+        }
+      ]
+    },
+
+// ------------------ radio message popup background
+    {
+      "startTime" : 1.5,
+      "endTime" : 31,
+      "drawables" : [
+        {
+          "image" : "/cinematics/radiomessagebg.png:<frame>"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [480, 100],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 146.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 147,
+          "frame" : 12
+        },
+        {
+          "timecode" : 31.5,
+          "alpha" : 1.0
+        },
+        {
+          "timecode" : 32.0,
+          "alpha" : 0.0
+        }
+      ]
+    },
+
+
+
+// ----------------- Libra's speech
+    {
+      "startTime" : 2.0,
+      "endTime" : 10.0,
+      "drawables" : [
+        {
+          "image" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "Would you look at that! We've put together an entire collection of valuable K'Rakothan relics!",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.3,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 2.5,
+          "frame" : 12,
+          "textPercentage" : 1
+        }
+
+      ]
+    },
+
+    {
+      "startTime" : 10.0,
+      "endTime" : 16.0,
+      "drawables" : [
+        {
+          "image" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "Thank you for your help! I'd take us a while t' retrieve them on our own.",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.3,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 2.5,
+          "frame" : 12,
+          "textPercentage" : 1
+        }
+      ]
+    },
+
+    {
+      "startTime" : 16.00,
+      "endTime" : 25.0,
+      "drawables" : [
+        {
+          "image" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "But don't think we were lazin' around all this time! We've made an important discovery!",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.3,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 2.5,
+          "frame" : 12,
+          "textPercentage" : 1
+        }
+      ]
+    },
+
+    {
+      "startTime" : 25.0,
+      "endTime" : 31.0,
+      "drawables" : [
+        {
+          "image" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "You wanna know what it is? I can tell you at once if you don't mind!",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.3,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 2.5,
+          "frame" : 12,
+          "textPercentage" : 1
+        }
+      ]
+    }
+  ],
+
+  "audio" : [
+    {
+      "timecode" : 2,
+      "endTimecode" : 4,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 10,
+      "endTimecode" : 13,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 17,
+      "endTimecode" : 18,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 25,
+      "endTimecode" : 27,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+
+    {
+      "timecode" : 1.0,
+      "endTimecode" : 31.5,
+      "loops" : 0,
+      "resource" : "/sfx/objects/gramophone.ogg"
+    }
+  ]
+}

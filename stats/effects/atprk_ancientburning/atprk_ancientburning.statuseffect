@@ -1,0 +1,16 @@
+{
+  "name" : "atprk_ancientburning",
+  "blockingStat" : "atprk_ancientfireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "atprk_ancientburning.lua"
+  ],
+
+  "animationConfig" : "atprk_ancientburning.animation",
+
+  "label" : "Ceaseless Burning",
+  "icon" : "/interface/statuses/atprk_ancientfire.png"
+}
