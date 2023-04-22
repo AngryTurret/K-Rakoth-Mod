@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_seapigcritter",
+  "category" : "atprk_seapigcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

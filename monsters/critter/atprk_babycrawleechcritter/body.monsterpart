@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_babycrawleechcritter",
+  "category" : "atprk_babycrawleechcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

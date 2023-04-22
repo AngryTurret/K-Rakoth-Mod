@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_drillcritter",
+  "category" : "atprk_drillcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "type" : "atprk_amberballcritter",
+  "type" : "atprk_tinyhovercarcritter4",
 
-  "categories" : [ "atprk_amberballcritter" ],
+  "categories" : [ "atprk_tinyhovercarcritter4" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_amberballcritter.animation",
+  "animation" : "atprk_tinyhovercarcritter.animation",
+  "reversed" : false,
 
   "dropPools" : [
     {
@@ -18,7 +19,6 @@
     ],
 
     "behavior" : "walkingcritter",
-    "damageBar" : "None", 
 
     "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
     "scale" : 1.0,
@@ -27,12 +27,12 @@
       "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
 
       "mass" : 0.5,
-      "walkSpeed" : 6.5,
-      "runSpeed" : 6.5,
+      "walkSpeed" : 5,
+      "runSpeed" : 5,
       "jumpSpeed" : 5
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "stone",
 
     "knockoutTime" : 0.1,
     "knockoutEffect" : "",
@@ -42,7 +42,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "stone"
       },
 
       "appliesEnvironmentStatusEffects" : false,

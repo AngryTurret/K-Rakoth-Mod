@@ -1,10 +1,10 @@
 {
-  "type" : "atprk_amberballcritter",
+  "type" : "atprk_erchiuswhispercritter",
 
-  "categories" : [ "atprk_amberballcritter" ],
+  "categories" : [ "atprk_erchiuswhispercritter" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_amberballcritter.animation",
+  "animation" : "atprk_erchiuswhispercritter.animation",
 
   "dropPools" : [
     {
@@ -17,8 +17,9 @@
       "/monsters/monster.lua"
     ],
 
-    "behavior" : "walkingcritter",
-    "damageBar" : "None", 
+    "behavior" : "flyingcritter",
+
+    "renderLayer" : "foregroundEntity",
 
     "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
     "scale" : 1.0,
@@ -26,10 +27,14 @@
     "movementSettings" : {
       "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
 
-      "mass" : 0.5,
-      "walkSpeed" : 6.5,
-      "runSpeed" : 6.5,
-      "jumpSpeed" : 5
+      "mass" : 0.1,
+      "walkSpeed" : 1,
+      "runSpeed" : 1,
+      "flySpeed" : 4,
+      "airFriction" : 0.5,
+      "airForce" : 1200.5,
+      "gravityEnabled" : false,
+      "jumpSpeed" : 1
     },
 
     "bodyMaterialKind" : "organic",
@@ -69,6 +74,21 @@
         },
         "healthRegen" : {
           "baseValue" : 0.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 1.0
+        },
+        "fireResistance" : {
+          "baseValue" : -0.5
+        },
+        "iceResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "poisonResistance" : {
+          "baseValue" : -0.5
         },
         "powerMultiplier" : {
           "baseValue" : 1.0

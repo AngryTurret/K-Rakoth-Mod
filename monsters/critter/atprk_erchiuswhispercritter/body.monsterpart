@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_erchiuswhispercritter",
+  "category" : "atprk_erchiuswhispercritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

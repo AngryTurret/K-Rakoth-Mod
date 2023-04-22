@@ -19,12 +19,12 @@
         "states" : {
           "idle" : {
             "frames" : 8,
-            "cycle" : 4,
+            "cycle" : 1.2,
             "mode" : "loop"
           },
           "fly" : {
             "frames" : 8,
-            "cycle" : 2,
+            "cycle" : 1.0,
             "mode" : "loop"
           }
         }
@@ -54,28 +54,7 @@
     "parts" : {
       "body" : {
         "properties" : {
-          "zLevel" : 1,
           "fullbright" : true,
-          "rotationGroup" : "body"
-        },
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame>"
-              }
-            },
-            "fly" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            }
-          }
-        }
-      },
-      "bodynobright" : {
-        "properties" : {
-          "zLevel" : 2,
           "rotationGroup" : "body"
         },
         "partStates" : {
@@ -106,6 +85,7 @@
   "particleEmitters" : {
      "deathPoof" : {
       "particles" : [
+        { "particle" : "monstersplosion" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -156,7 +136,7 @@
     "Glow" : {
       "active" : true,
       "position" : [0, 0],
-      "color" : [10, 30, 10],
+      "color" : [100, 20, 100],
       "pointLight" : true
     }
   }

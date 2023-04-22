@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_tinyhovercarcritter4",
+  "category" : "atprk_tinyhovercarcritter4",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body4.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_fenronscabcritter",
+  "category" : "atprk_fenronscabcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

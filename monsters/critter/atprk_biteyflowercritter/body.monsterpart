@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_biteyflowercritter",
+  "category" : "atprk_biteyflowercritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

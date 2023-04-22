@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_meteorollcritter",
+  "category" : "atprk_meteorollcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

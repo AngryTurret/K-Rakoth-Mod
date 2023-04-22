@@ -1,10 +1,11 @@
 {
-  "type" : "atprk_amberballcritter",
+  "type" : "atprk_dungbeetlecritter",
 
-  "categories" : [ "atprk_amberballcritter" ],
+  "categories" : [ "atprk_dungbeetlecritter" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_amberballcritter.animation",
+  "animation" : "atprk_dungbeetlecritter.animation",
+  "reversed" : false,
 
   "dropPools" : [
     {
@@ -18,7 +19,6 @@
     ],
 
     "behavior" : "walkingcritter",
-    "damageBar" : "None", 
 
     "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
     "scale" : 1.0,
@@ -27,8 +27,8 @@
       "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
 
       "mass" : 0.5,
-      "walkSpeed" : 6.5,
-      "runSpeed" : 6.5,
+      "walkSpeed" : 5,
+      "runSpeed" : 5,
       "jumpSpeed" : 5
     },
 

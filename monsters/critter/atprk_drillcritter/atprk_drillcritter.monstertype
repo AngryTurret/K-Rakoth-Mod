@@ -1,10 +1,11 @@
 {
-  "type" : "atprk_amberballcritter",
+  "type" : "atprk_drillcritter",
 
-  "categories" : [ "atprk_amberballcritter" ],
+  "categories" : [ "atprk_drillcritter" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_amberballcritter.animation",
+  "animation" : "atprk_drillcritter.animation",
+  "reversed" : false,
 
   "dropPools" : [
     {
@@ -18,7 +19,6 @@
     ],
 
     "behavior" : "walkingcritter",
-    "damageBar" : "None", 
 
     "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
     "scale" : 1.0,
@@ -27,12 +27,12 @@
       "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
 
       "mass" : 0.5,
-      "walkSpeed" : 6.5,
-      "runSpeed" : 6.5,
-      "jumpSpeed" : 5
+      "walkSpeed" : 0,
+      "runSpeed" : 0,
+      "jumpSpeed" : 1
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "robotic",
 
     "knockoutTime" : 0.1,
     "knockoutEffect" : "",
@@ -42,7 +42,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "robotic"
       },
 
       "appliesEnvironmentStatusEffects" : false,

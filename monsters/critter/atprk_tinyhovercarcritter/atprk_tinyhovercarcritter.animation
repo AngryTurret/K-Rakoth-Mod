@@ -18,13 +18,13 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 8,
-            "cycle" : 4,
+            "frames" : 1,
+            "cycle" : 1,
             "mode" : "loop"
           },
-          "fly" : {
+          "walk" : {
             "frames" : 8,
-            "cycle" : 2,
+            "cycle" : 0.6,
             "mode" : "loop"
           }
         }
@@ -65,9 +65,9 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             }
           }
@@ -85,9 +85,9 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             }
           }
@@ -106,6 +106,7 @@
   "particleEmitters" : {
      "deathPoof" : {
       "particles" : [
+        { "particle" : "monstersplosion" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -150,14 +151,6 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
-  },
-  "lights" : {
-    "Glow" : {
-      "active" : true,
-      "position" : [0, 0],
-      "color" : [10, 30, 10],
-      "pointLight" : true
-    }
+    "deathPuff" : [ "/sfx/projectiles/gnome_hit_metal4.ogg" ]
   }
 }

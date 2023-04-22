@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_floatingshardcritter",
+  "category" : "atprk_floatingshardcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_dungbeetlecritter",
+  "category" : "atprk_dungbeetlecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}
