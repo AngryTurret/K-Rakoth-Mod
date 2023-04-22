@@ -135,7 +135,7 @@
         }
       ],
       "animationFrames" : 2,
-      "text" : "Thank you for your help! I'd take us a while t' retrieve them on our own.",
+      "text" : "Thank you for your help! It'd take us a while t' retrieve them on our own.",
       "textPosition" : {
         "position" : [34, 21],
         "vAnchor" : "top",
