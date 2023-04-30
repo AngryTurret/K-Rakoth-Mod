@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_ancientstatuemimic",
+  "category" : "atprk_ancientstatuemimic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_ancientstatuemimic.png",
+    "bodynobright" : "atprk_ancientstatuemimicnobright.png"
+  }
+}

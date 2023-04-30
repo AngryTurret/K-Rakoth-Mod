@@ -4,25 +4,44 @@
       "body" : {
         "priority" : 0,
         "default" : "idle",
-
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 0.75,
+            "mode" : "loop"
           },
           "fly" : {
-            "frames" : 4,
-            "cycle" : 0.4,
+            "frames" : 8,
+            "cycle" : 0.75,
             "mode" : "loop"
           },
-          "charge" : {
+          "firewindup" : {
             "frames" : 4,
-            "cycle" : 0.25,
-            "mode" : "loop"
+            "cycle" : 0.375,
+            "mode" : "transition",
+            "transition" : "winduploop"
+          },
+          "winduploop" : {
+            "frames" : 4,
+            "cycle" : 0.375,
+            "mode" : "loop",
+            "properties" : {
+              "immediateSound" : "/sfx/npc/boss/guardian_closehand.ogg"
+            }
           },
           "fire" : {
             "frames" : 4,
-            "cycle" : 0.4,
-            "mode" : "loop"
+            "cycle" : 0.375,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "swoop" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "immediateSound" : "/sfx/npc/monsters/orbide_charge.ogg"
+            }
           }
         }
       },
@@ -34,7 +53,9 @@
             "frames" : 1
           },
           "stunned" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 0.75,
+            "mode" : "loop"
           }
         }
       },
@@ -61,49 +82,18 @@
     },
 
     "parts" : {
-      "backWings" : {
-        "properties" : {
-          "zLevel" : 0,
-          "centered" : true
-        },
-
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame>"
-              }
-            },
-            "fly" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            }
-          }
-        }
-      },
-
       "body" : {
         "properties" : {
           "zLevel" : 1,
-          "centered" : true
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.25, -0.25],
+          "fullbright" : true
         },
-
         "partStates" : {
           "body" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:fly.<frame>"
               }
             },
             "fly" : {
@@ -111,74 +101,19 @@
                 "image" : "<partImage>:fly.<frame>"
               }
             },
-            "charge" : {
+            "firewindup" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:windup.<frame>"
               }
             },
-            "fire" : {
+            "winduploop" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            }
-          }
-        }
-      },
-
-      "bodyfullbright" : {
-        "properties" : {
-          "zLevel" : 2,
-          "fullbright" : true,
-          "centered" : true
-        },
-
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:winduploop.<frame>"
               }
             },
-            "fly" : {
+            "swoop" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            }
-          }
-        }
-      },
-
-      "head" : {
-        "properties" : {
-          "zLevel" : 1,
-          "centered" : true
-        },
-
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame>"
-              }
-            },
-            "fly" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
-              }
-            },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:swoop.<frame>"
               }
             },
             "fire" : {
@@ -196,18 +131,17 @@
           }
         }
       },
-
-      "frontWings" : {
+      "bodynobright" : {
         "properties" : {
-          "zLevel" : 3,
-          "centered" : true
+          "zLevel" : 2,
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.25, -0.25]
         },
-
         "partStates" : {
           "body" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:fly.<frame>"
               }
             },
             "fly" : {
@@ -215,14 +149,31 @@
                 "image" : "<partImage>:fly.<frame>"
               }
             },
-            "charge" : {
+            "firewindup" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "winduploop" : {
+              "properties" : {
+                "image" : "<partImage>:winduploop.<frame>"
+              }
+            },
+            "swoop" : {
+              "properties" : {
+                "image" : "<partImage>:swoop.<frame>"
               }
             },
             "fire" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:fire.<frame>"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:hurt.<frame>"
               }
             }
           }
@@ -231,13 +182,21 @@
     }
   },
 
+  "transformationGroups" : {
+    "body" : { "interpolated" : true }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "electricswoosh1" },
-        { "particle" : "electricswoosh2" },
-        { "particle" : "electricswoosh1" },
-        { "particle" : "electricswoosh2" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -276,15 +235,8 @@
   },
 
   "sounds" : {
-    "aggroHop" : [  ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
-  },
-  
-  "effects" : {
-    "blink" : {
-      "type" : "flash",
-      "time" : 0.25,
-      "directives" : "fade=ffffff;0.5"
-    }
+    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
+    "deathPuff" : [ "/sfx/melee/blunt_kill_stone1.ogg" ],
+    "fire" : [ "/sfx/gun/dragonhead_charged_fire1.ogg" ]
   }
 }

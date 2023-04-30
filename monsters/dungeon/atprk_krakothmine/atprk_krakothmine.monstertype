@@ -1,6 +1,6 @@
 {
   "type" : "atprk_krakothmine",
-  "shortdescription" : "Naval Mine",
+  "shortdescription" : "Elder Naval Mine",
   "description" : "A naval mine built by K'Rakoths. Has a primitive AI.",
 
   "categories" : [ "atprk_krakothmine" ],
@@ -78,6 +78,16 @@
             "inaccuracy" : 0,
             "fireOffset" : [0, 0]
           }
+        },
+        {
+          "name" : "action-projectile",
+          "parameters" : {
+            "projectileCount" : 1,
+            "projectileType" : "atprk_whirlpool",
+            "aimDirection" : [0, 0],
+            "inaccuracy" : 0,
+            "fireOffset" : [0, 0]
+          }
         }
       ]
     },
@@ -148,14 +158,29 @@
         "powerMultiplier" : {
           "baseValue" : 1.0
         },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
         "fireStatusImmunity" : {
           "baseValue" : 1.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.5
         },
         "iceStatusImmunity" : {
           "baseValue" : 1.0
         },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
         "electricStatusImmunity" : {
           "baseValue" : 1.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
         },
         "poisonStatusImmunity" : {
           "baseValue" : 1.0

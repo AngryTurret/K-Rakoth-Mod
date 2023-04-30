@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_ancientcultivatormimic",
+  "category" : "atprk_ancientcultivatormimic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_ancientcultivatormimic.png",
+    "bodynobright" : "atprk_ancientcultivatormimicnobright.png"
+  }
+}

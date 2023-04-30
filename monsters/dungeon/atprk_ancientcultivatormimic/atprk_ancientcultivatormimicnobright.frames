@@ -1,0 +1,24 @@
+{
+  "frameGrid" : {
+    "size" : [64, 48],
+    "dimensions" : [9, 5],
+
+    "names" : [
+      [ null, "fly.1", "fly.2", "fly.3", "fly.4", "fly.5", "fly.6", "fly.7", "fly.8" ],
+      [ null, "hurt.1", "hurt.2", "hurt.3", "hurt.4", "hurt.5", "hurt.6", "hurt.7", "hurt.8" ],
+      [ null, "windup.1", "windup.2", "windup.3", "windup.4", null, "winduploop.1", "winduploop.2", "winduploop.3" ],
+      [ "winduploop.4", null, "fire.1", "fire.2", "fire.3", "fire.4", null, "shield.1", "shield.2"],
+      [ "shield.3", "shield.4", null, "hit.1", "hit.2", "hit.3", "hit.4", null, null]
+    ]
+  },
+  "aliases" : {
+  "shieldup.1" : "windup.1",
+  "shieldup.2" : "windup.2",
+  "shieldup.3" : "windup.3",
+  "shieldup.4" : "windup.4",
+  "shielddown.1" : "windup.4",
+  "shielddown.2" : "windup.3",
+  "shielddown.3" : "windup.2",
+  "shielddown.4" : "windup.1"
+  }
+}

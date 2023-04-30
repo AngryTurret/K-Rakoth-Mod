@@ -1,14 +1,14 @@
 {
-  "type" : "atprk_krakothpatroldrone",
-  "shortdescription" : "Major Eldrone",
-  "description" : "A large patrol drone designed by K'Rakoths. It's equipped with heavy weapons.",
+  "type" : "atprk_ancientstatuemimic",
+  "shortdescription" : "Ancient Statue Mimic",
+  "description" : "It hates being awoken for no reason.",
 
-  "categories" : [ "atprk_krakothpatroldrone" ],
-  "parts" : [ "body", "bodylit" ],
+  "categories" : [ "atprk_ancientstatuemimic" ],
+  "parts" : [ "body" ],
 
-  "animation" : "atprk_krakothpatroldrone.animation",
+  "animation" : "atprk_ancientstatuemimic.animation",
 
-  "dropPools" : [ "atprk_krakothrobotTreasure" ],
+  "dropPools" : [ ],
 
   "baseParameters" : {
     "scripts" : [
@@ -17,50 +17,79 @@
 
     "behavior" : "monster",
 
+    "seeThroughLiquid" : false,
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
       "targetQueryRange" : 40,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 100,
+      "keepTargetInRange" : 80,
       "targetOutOfSightTime" : 5.0,
 
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
       "hostileActions" : [
-        {
+       {
           "name" : "action-fire",
           "cooldown" : 1.0,
           "parameters" : {
-            "onGround" : false,
             "requireLineOfSight" : true,
-            "maximumRange" : 80,
-            "minimumRange" : 2,
-            "windupState" : "fire",
-            "windupTime" : 0.4,
-            "windupStopForce" : 200,
+            "maximumRange" : 20,
+            "minimumRange" : 5,
+            "windupState" : "firewindup",
+            "windupTime" : 0.8,
 
-            "projectileType" : "atprk_aeonenergyshot",
-            "projectileCount" : 2,
-            "projectileInterval" : 0.15,
-            "fireOffset" : [0, -2.0],
+            "projectileType" : "atprk_ancientstatuemimicflame",
+            "projectileCount" : 4,
+            "projectileInterval" : 0.08,
+            "fireOffset" : [0.75, -1.0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "fire",
             "fireSound" : "fire",
-            "fireState" : "",
+            "fireDelay" : 0.1,
+
+            "projectileSpeed": 50,
 
             "winddownState" : "",
-            "winddownTime" : 0.1
+            "winddownTime" : 0.8
+          }
+        },
+        {
+          "name" : "action-swoop",
+          "cooldown" : 1.0,
+          "parameters" : {
+            "minimumRange" : 3,
+            "maximumRange" : 10,
+            "onGround" : false,
+            "windupState" : "firewindup",
+            "windupTime" : 0.8,
+
+            "gravityMultiplier" : -0.5,
+            "swoopVelocity" : 40,
+            "collisionCheck" : true,
+            "highArc" : false,
+            "swoopTime" : 0.5,
+
+            "winddownTime" : 0.5,
+            "winddownState" : "fire",
+            "winddownStopForce" : 20
           }
         }
       ],
 
+      "periodicActions" : [
+       ],
+
       "approachActions" : [
         {
-          "name" : "wander-fly",
+          "name" : "approach-fly",
           "parameters" : {
-            "wanderTime" : 30,
-            "groundDistance" : 15,
-            "ceilingDistance" : 4,
-            "xVelocity" : 8,
-            "yVelocity" : 12
+            "minRange" : 4,
+            "maxRange" : 8
           }
         }
       ],
@@ -80,11 +109,11 @@
         {
           "name" : "wander-fly",
           "parameters" : {
-            "wanderTime" : 1,
+            "wanderTime" : [2,4],
             "groundDistance" : 8,
-            "ceilingDistance" : 4,
-            "xVelocity" : 2,
-            "yVelocity" : 2
+            "ceilingDistance" : 8,
+            "xVelocity" : 4,
+            "yVelocity" : 12
           }
         }
       ],
@@ -94,13 +123,12 @@
       "concurrentHostileActions" : [ ]
     },
 
-
     "touchDamage" : {
-      "poly" : [ [0.875, 2.625], [1.625, 1.875], [1.625, -1.875], [0.875, -2.625], [-0.875, -2.625], [-1.625, -1.875], [-1.625, 1.875], [-0.875, 2.625] ],
-      "damage" : 10,
+      "poly" : [ [0.5, 1.25],  [1.25, 0.5], [1.25, -1.0], [0.5, -1.75], [-0.5, -1.75], [-1.25, -1.0], [-1.25, 0.5], [-0.5, 1.25] ],
+      "damage" : 9,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "hammer",
+      "damageSourceKind" : "lash",
       "knockback" : 20,
       "statusEffects" : [ ]
     },
@@ -109,19 +137,19 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [0.875, 2.625], [1.625, 1.875], [1.0, -1.875], [0.375, -2.625], [-0.375, -2.625], [-1.0, -1.875], [-1.625, 1.875], [-0.875, 2.625] ],
+      "collisionPoly" : [ [0.5, 1.25],  [1.25, 0.5], [1.25, -1.0], [0.5, -1.75], [-0.5, -1.75], [-1.25, -1.0], [-1.25, 0.5], [-0.5, 1.25] ],
 
-      "mass" : 0.5,
+      "mass" : 1.0,
       "walkSpeed" : 4,
       "runSpeed" : 12,
       "gravityEnabled" : false,
 
-      "airFriction" : 2,
-      "airForce" : 20,
-      "flySpeed" : 15
+      "airFriction" : 4,
+      "airForce" : 40,
+      "flySpeed" : 40
     },
 
-    "bodyMaterialKind" : "robotic",
+    "bodyMaterialKind" : "stone",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -132,7 +160,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "robotic"
+        "targetMaterialKind" : "stone"
       },
 
       "appliesEnvironmentStatusEffects" : false,
@@ -152,13 +180,13 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 95
+          "baseValue" : 500
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "healthRegen" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.3
         },
         "powerMultiplier" : {
           "baseValue" : 1.0
@@ -179,7 +207,7 @@
           "baseValue" : 1.0
         },
         "electricResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.5
         },
         "electricStatusImmunity" : {
           "baseValue" : 1.0
@@ -188,6 +216,12 @@
           "baseValue" : 0.5
         },
         "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "specialStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "lavaImmunity" : {
           "baseValue" : 1.0
         }
       },
@@ -200,7 +234,7 @@
         "health" : {
           "maxStat" : "maxHealth",
           "deltaStat" : "healthRegen",
-          "defaultPercentage" : 120
+          "defaultPercentage" : 100
         }
       }
     },
