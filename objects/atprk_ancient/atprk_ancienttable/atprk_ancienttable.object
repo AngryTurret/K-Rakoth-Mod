@@ -6,7 +6,7 @@
   "price" : 110,
 
   "description" : "An approximate recreation of the tables used by the Ancients.",
-  "shortdescription" : "Ancient Table",
+  "shortdescription" : "Necropolis Table",
   "race" : "ancient",
   "printable" : false,
 

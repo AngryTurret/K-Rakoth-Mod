@@ -5,7 +5,7 @@
   "category" : "door",
   "price" : 95,
   "description" : "A door made of ancient materials.",
-  "shortdescription" : "Ancient Door",
+  "shortdescription" : "Necropolis Door",
   "race" : "ancient",
   "printable" : false,
 

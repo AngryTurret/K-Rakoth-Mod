@@ -3,7 +3,7 @@
   "colonyTags" : ["ancient","atprk_ancient"],
   "rarity" : "Rare",
   "description" : "A stone tomb left untouched for ages.",
-  "shortdescription" : "Ancient Tomb",
+  "shortdescription" : "Necropolis Tomb",
   "race" : "ancient",
   "printable" : false,
   "objectType" : "container",
@@ -39,6 +39,8 @@
       "collisionSpaces" : [ [-2, 1], [-1, 1], [-0, 1], [1, 1] ]
     }
   ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
 
   "openSounds" : [ "/sfx/objects/stonedoor_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/stonedoor_close.ogg" ],
