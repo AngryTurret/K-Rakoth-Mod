@@ -98,14 +98,14 @@
       "kind" : "atprk_boilingoceanback",
       "offset" : [0, 655],
       "parallax" : [10, 1.234],
-      "fadePercent" : 0.5
+      "fadePercent" : 0.25
     },
     {
       "kind" : "atprk_boilingoceantowers",
       "offset" : [0, 450],
       "parallax" : [9, 9],
       "directives" : "",
-      "fadePercent" : 0.95,
+      "fadePercent" : 0.5,
       "nohueshift" : true
     },
     {
@@ -113,7 +113,7 @@
       "offset" : [0, 525],
       "parallax" : [8, 8],
       "directives" : "",
-      "fadePercent" : 0.8,
+      "fadePercent" : 0.4,
       "nohueshift" : true
     },
     {

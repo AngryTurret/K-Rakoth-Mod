@@ -1,0 +1,11 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/atprk_chthonianmetalrockdark",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    }
+  ]
+}
