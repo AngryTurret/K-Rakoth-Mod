@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_ruineyepiles",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "atprk_ruineyepiles.png",
+  "shortdescription" : "Pile of Ruinous Eyes",
+  "description" : "A pile of sinister eyes.",
+  "glitchDescription" : "Worried. I feel like I'm being watched.",
+  "floranDescription" : "Evil sssnake eyess!",
+  "novakidDescription" : "Hey, if you keep starin' at me like this, y'all go blind!",
+
+  "materialId" : 62117,
+  "learnBlueprintsOnPickup" : [ "atprk_ruineyepiles" ]
+}

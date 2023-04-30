@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_frozenfishwater",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_frozenfishwater.png",
+  "shortdescription" : "Marine Ice",
+  "description" : "Frozen sea water full of fish.",
+  "glitchdescription" : "Observant. This ice contains frozen fishes.",
+  "florandescription" : "Frozen sssoup.",
+  "novakiddescription" : "Will I get some fish soup if I melt this?",
+
+  "materialId" : 62100
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_deadtentacleblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "atprk_deadtentacleblock.png",
+  "description" : "A mass of decomposing tentacles. Needless to say, it smells.",
+  "shortdescription" : "Dead Tentacle Cluster",
+  "glitchDescription" : "Disgusted. A decaying mass of severed tentacles.",
+  "floranDescription" : "Gross ssstinky tentacles.",
+  "novakidDescription" : "All o' these tentacles have been rottin' for a while.",
+
+  "materialId" : 62118
+}

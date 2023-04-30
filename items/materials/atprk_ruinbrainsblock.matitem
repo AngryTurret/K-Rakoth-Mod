@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_ruinbrainsblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "atprk_ruinbrainsblock.png",
+  "description" : "Pulsating brain matter. It still develops its wrinkles.",
+  "shortdescription" : "Inferior Brains",
+  "glitchdescription" : "Alarmed. Is there brain activity within this material?",
+  "florandescription" : "Floran want to ssstab sssquishy brain.",
+  "novakiddescription" : "Some fleshy brainstuff.",
+
+  "materialId" : 62119,
+  "learnBlueprintsOnPickup" : [ "atprk_ruinbrainsblock" ]
+}

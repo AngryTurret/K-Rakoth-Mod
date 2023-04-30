@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_tinyancienthomeblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_tinyancienthomeblock.png",
+  "description" : "A miniature house block.",
+  "shortdescription" : "High Gnome Minihouse",
+  "glitchDescription" : "Amused. A ludicrously tiny room.",
+  "floranDescription" : "Tiny houssses.",
+  "novakidDescription" : "Housin' for insects.",
+
+  "materialId" : 62101
+}

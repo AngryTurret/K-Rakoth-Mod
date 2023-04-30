@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_ruinice",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_ruinice.png",
+  "description" : "Putrid organic liquids in a frozen state.",
+  "shortdescription" : "Frozen Tentacle Ichor",
+  "glitchdescription" : "Disgusted. Solid ice with traces of organic matter.",
+  "florandescription" : "Sssmelly ice.",
+  "novakiddescription" : "'tis better stay frozen.",
+
+  "materialId" : 62121,
+  "learnBlueprintsOnPickup" : [ "atprk_ruinice" ]
+}

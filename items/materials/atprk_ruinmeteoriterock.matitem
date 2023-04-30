@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_ruinmeteoriterock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "atprk_ruinmeteoriterock.png",
+  "description" : "Chunks of meteorite infested by the Ruin.",
+  "shortdescription" : "Tentacomet Cluster",
+  "glitchdescription" : "Cautious. These meteorite rocks are inhabited.",
+  "florandescription" : "Tentacled thingsss have space rock shellsss.",
+  "novakiddescription" : "Space rocks with spooky eyes.",
+
+  "materialId" : 62120,
+  "learnBlueprintsOnPickup" : [ "atprk_ruinmeteoriterock" ]
+}

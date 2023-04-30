@@ -1,0 +1,14 @@
+{
+  "itemName" : "atprk_chthonianrock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "atprk_chthonianrock.png",
+  "description" : "Dense metallic rock.",
+  "shortdescription" : "Chthonian Rock",
+  "glitchdescription" : "Neutral. Dense metallic rock.",
+  "florandescription" : "Hard rocksss.",
+  "novakiddescription" : "Hard metallic rock.",
+
+  "materialId" : 62102
+}
