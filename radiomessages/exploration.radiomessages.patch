@@ -1,4 +1,5 @@
 [
+  // ------- Environment -------
   {
     "op": "add",
       "path": "/atprk_4ddistortion",
@@ -9,6 +10,8 @@
       "textSpeed" : 70
       }
   },
+
+  // ------- ST Syllectis -------
   {
     "op": "add",
       "path": "/atprk_relicseekerhqintro",
@@ -25,6 +28,127 @@
         "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolescences on Earth's destruction. Anyways, I'm Colt. I'll be here in case you need somethin'.",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+      }
+  },
+
+  // ------- Infinity Maze -------
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro_infinitemaze",
+      "value": {
+        "type" : "tutorial",
+        "text" : "Oh yeah, this little thing. Well, I've found it lying around one of those Ancient Gates. No clue what it does though... ^#71f2f6;Wanna figure it out?^white;",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_start",
+      "value": {
+        "text": "Hold on a sec, this place looks familiar. Is it one of those random doorways? Okay, whatever's going on, there must be a catch, I'm telling you.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_challengebuild",
+      "value": {
+        "text": "Whoah, look how far away the exit is! You might want to, uh, go fetch some blocks and start building a bridge across this huge gap.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_challengemech",
+      "value": {
+        "text": "Watch out, pal, zero gravity! You probably won't go any further unless you find a way to bring your mech here. Or a rocket spear at least.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_shop1",
+      "value": {
+        "text": "What? You think I'm gonna lag behind and let you have all the fun? Forget about it! Besides, gotta restock my stash somehow.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_shop2",
+      "value": {
+        "text": "Greetings, tall one! Welcome to the realm of High Gnomes! As long as you don't step on our loyal citizens, you are free to roam around the wonderful capital of our empire!",
+    "senderName" : "Emperor of Gnomekind",
+    "portraitImage" : "/interface/chatbubbles/atprk_gnomekingchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_infinitemaze_shop3",
+      "value": {
+        "text": "Yet another lost soul... If you are worthy, the Gate will let you through. If you are not, then proceed to the next hall.",
+    "senderName" : "Mysterious Gatekeeper",
+    "portraitImage" : "/interface/chatbubbles/atprk_gatekeeperchat.png:<frame>"
+      }
+  },
+
+  // ------- Miscellaneous -------
+  {
+    "op": "add",
+      "path": "/atprk_betastarmapmessage",
+      "value": {
+        "type" : "tutorial",
+        "text" : "You have found an obsolete starmap upgrade. It is not compatible with modern navigation systems, so you will have to find another way to access its contents."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing1",
+      "value": {
+        "text": "Nooooo! My palace! What have you done?! Do you have any idea how long it will take us to rebuild it?",
+    "senderName" : "Emperor of Gnomekind",
+    "portraitImage" : "/interface/chatbubbles/atprk_gnomekingchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing2",
+      "value": {
+        "text": "Your decisiveness is impressive. Unfortunately, your primitive tools are not enough to capture somebody like me.",
+    "senderName" : "Mysterious Gatekeeper",
+    "portraitImage" : "/interface/chatbubbles/atprk_gatekeeperchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing3",
+      "value": {
+        "text": "Nice job breaking my stuff, jerk!",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing4",
+      "value": {
+        "text": "Angry. Oh you inconsiderate... Just because you're a Protector doesn't mean you get to swing around your matter manipulator!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing5",
+      "value": {
+        "text": "H-hey! Stop doing this! No one gave you a permission t' dismantle our ship!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_libramad.png:<frame>"
       }
   }
 ]
