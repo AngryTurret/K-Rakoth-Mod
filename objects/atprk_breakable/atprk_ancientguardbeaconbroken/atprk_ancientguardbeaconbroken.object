@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk_ancientguardbeaconbroken",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "description" : "An inactive ancient beacon.",
+  "shortdescription" : "Broken Ancient Beacon",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "apexDescription" : "A deactivated beacon. It should crumble eventually.",
+  "avianDescription" : "A beacon that can be broken down into ancient materials.",
+  "floranDescription" : "Floran can sssmash thisss beacon to get old rocksss.",
+  "glitchDescription" : "Neutral. This beacon is not fuctional. Perhaps I can dismantle it.",
+  "humanDescription" : "I wonder if I can smash this beacon in a single blow.",
+  "hylotlDescription" : "Now that this beacon does not work anymore, it can only be deconstructed.",
+  "novakidDescription" : "Some crumblin' beacon.",
+
+  "atprk_anneliskDescription" : "A huge stone beacon full of treasures.",
+  "atprk_fenronDescription" : "Maybe if I smash this beacon, there will be something valuable in it.",
+  "atprk_noolithDescription" : "I know that vandalism is bad but there seems to be no way to repair this beacon.",
+
+
+  "inventoryIcon" : "atprk_ancientguardbeaconbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_ancientguardbeaconbroken.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "health" : 240,
+  "rooting" : true,
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "shadowshard" }, { "count" : 5, "particle" : "shadowrockshard" } ],
+  "smashDropOptions" : [
+    [ [ "essence", 33, { } ], [ "atprk_ancientshards", 4, { } ], [ "ancientblock", 5, { } ] ]
+  ]
+}
