@@ -37,17 +37,18 @@
 		"turnInEntityUid": "atprk_vaultraider",
 		"setUniverseFlags" : ["atprk_relicseekerhq_vaultraiderflag"],
 
-		"targetValue": 60,
+		"targetValue": 100,
 		"objectValues": {
-			"terraforge": 50,
-			"weaponupgradeanvil": 20,
+			"terraforge": 70,
+			"weaponupgradeanvil": 30,
 			"ancientmural1": 1,
 			"ancientmural2": 1,
 			"ancientmural3": 1,
 			"ancientmural4": 1,
 			"ancientmural5": 1,
 			"ancientmural6": 1,
-			"atprk_weaponupgradeanvilsmall": 10
+			"atprk_vaultraidershop": 1,
+			"atprk_weaponupgradeanvilsmall": 30
 		},
 		"radioMessages": {
 			"uniqueProgress": {
@@ -115,8 +116,16 @@
 					"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
 					"text": "It's just some ancient text, come on."
 				},
-				"atprk_weaponupgradeanvilsmall": {
+				"atprk_vaultraidershop": {
 					"messageId": "atprk_vaultscanquest_up9",
+					"type": "quest",
+					"unique": false,
+					"senderName" : "Jade",
+					"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
+					"text": "Hey-hey-hey, hands off! Beat my challenge first!"
+				},
+				"atprk_weaponupgradeanvilsmall": {
+					"messageId": "atprk_vaultscanquest_up10",
 					"type": "quest",
 					"unique": false,
 					"senderName" : "Jade",

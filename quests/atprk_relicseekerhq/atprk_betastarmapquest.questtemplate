@@ -1,0 +1,43 @@
+{
+	"id": "atprk_betastarmapquest",
+	"prerequisites": [],
+	"requiredItems" : [ "atprk_betastarmap" ],
+	"title": "^green;Distant Stars",
+	"text": "Intrigued. I see you have an ^green;Outdated Starmap Upgrade^white; in your pocket. If only you knew how tricky these things are to come across nowadays! Could you ^orange;give it to me^white; so I can extract some navigation data?",
+	"completionText": "Pleased. Much obliged. From what I gather, this map contains records on a distant area designated as ^orange;Sector X^white;, and... Surprised. Huh. There seem to be quite a few unusual planets.",
+	"moneyRange": [50, 50],
+	"rewards": [
+		[
+			["upgrademodule", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_starcartographer/atprk_starklanceportrait1.png"
+				}],
+				"title": "Starklance"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_starcartographer/atprk_starklanceportrait1.png"
+				}],
+				"title": "Starklance"
+			}
+		},
+		"requireTurnIn": true,
+
+		"turnInDescription": "Let ^orange;Starklance^reset; analyze the ^orange;Outdated Starmap Upgrade^reset;",
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk_betastarmap",
+				"count": 1,
+				"consume": true
+			}
+		]
+	}
+}
