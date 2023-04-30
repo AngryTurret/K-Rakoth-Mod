@@ -51,12 +51,24 @@
       { "item" : { "name" : "atprk_tundrapin" }, "prerequisiteQuest" : "apex_mission1" },
 
       { "item" : { "name" : "atprk_boilingoceanpin" }, "prerequisiteQuest" : "atprk_relicsearchquest5" },
+      { "item" : { "name" : "atprk_chthonianmoonpin" }, "prerequisiteQuest" : "atprk_relicsearchquest5" },
 
       { "item" : { "name" : "atprk_magmapin" }, "prerequisiteQuest" : "glitch_mission1" },
       { "item" : { "name" : "atprk_scorchedcitypin" }, "prerequisiteQuest" : "glitch_mission1" },
-      { "item" : { "name" : "atprk_volcanicpin" }, "prerequisiteQuest" : "glitch_mission1" }
+      { "item" : { "name" : "atprk_volcanicpin" }, "prerequisiteQuest" : "glitch_mission1" },
+
+      { "item" : { "name" : "atprk_aridpin" }, "prerequisiteQuest" : "atprk_betastarmapquest" },
+      { "item" : { "name" : "atprk_asteroidpin" }, "prerequisiteQuest" : "atprk_betastarmapquest" },
+      { "item" : { "name" : "atprk_tentaclepin" }, "prerequisiteQuest" : "atprk_betastarmapquest" }
     ]
   },
+
+  "offeredQuests" : [
+    "atprk_betastarmapquest"
+  ],
+  "turnInQuests" : [
+    "atprk_betastarmapquest"
+  ],
 
   "inventoryIcon" : "atprk_starcartographericon.png",
   "orientations" : [
@@ -66,6 +78,8 @@
 
       "direction" : "left",
       "flipImages" : true,
+
+      "questIndicatorPosition" : [-0.5, 0],
 
       "frames" : 10,
       "animationCycle" : 3,
@@ -79,11 +93,18 @@
 
       "direction" : "right",
 
+      "questIndicatorPosition" : [0.5, 0],
+
       "frames" : 10,
       "animationCycle" : 3,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup4", 1, { } ], [ "lunarbasechair", 1, { } ] ]
+  ],
+
+  "uniqueId" : "atprk_starcartographer"
 }
