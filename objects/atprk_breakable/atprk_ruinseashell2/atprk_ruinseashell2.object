@@ -1,0 +1,51 @@
+{
+  "objectName" : "atprk_ruinseashell2",
+  "colonyTags" : ["ocean"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+
+  "description" : "A slightly off-putting seashell.",
+  "shortdescription" : "Ruined Seashell",
+  "race" : "generic",
+
+  "apexDescription" : "A dried-up seashell. It may or may not contain some pixels.",
+  "avianDescription" : "Its stench may be foul but I still want to crack it open.",
+  "floranDescription" : "Floran wants to ssstomp this ssstinky sseashell.",
+  "glitchDescription" : "Disgusted. A foul-smelling seashell. Hopefully it contains something other than gunk.",
+  "humanDescription" : "An emptied seashell... Or is it?",
+  "hylotlDescription" : "There is something off about this withered sea shell.",
+  "novakidDescription": "A pale seashell full o' treasures n' rotten tentacles.",
+
+  "atprk_anneliskDescription" : "Whatever used to live inside this shell is long dead.",
+  "atprk_fenronDescription" : "A fragile-looking shell for sure. Let's crack it open!",
+  "atprk_noolithDescription" : "I'd rather not touch this.",
+
+  "inventoryIcon" : "atprk_ruinseashell2icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ruinseashell2.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ruinseashell2.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 3, "particle" : "seashellshard" } ],
+  "smashDropPool" : "smashMoney",
+  "breakDropPool" : "smashMoney",
+
+  "biomePlaced" : true
+}
