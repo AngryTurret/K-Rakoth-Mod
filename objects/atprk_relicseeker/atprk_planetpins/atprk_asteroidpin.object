@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_asteroidpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of an asteroid cluster.",
+  "shortdescription" : "Asteroid Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A collection of small asteroid pins.",
+  "avianDescription" : "Scattered remains of long-dead worlds.",
+  "floranDescription" : "Ssspace rocksss.",
+  "glitchDescription" : "Neutral. A round asteroid cluster.",
+  "humanDescription" : "I expected a single pin shaped like a ring.",
+  "hylotlDescription" : "A handful of miniature pins shaped like asteroids.",
+  "novakidDescription" : "This'll be a bunch o' space rocks, nothin' else.",
+
+  "atprk_anneliskDescription" : "Free resources waiting to be harvested.",
+  "atprk_fenronDescription" : "A pile of space rocks glued together.",
+  "atprk_noolithDescription" : "The silent remnants of planets long forgotten.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_asteroid1" ],
+
+  "inventoryIcon" : "atprk_asteroidpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_asteroidpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

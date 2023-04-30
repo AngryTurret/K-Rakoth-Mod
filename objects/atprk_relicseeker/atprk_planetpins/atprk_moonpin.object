@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_moonpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a lunar planet... I mean a moon.",
+  "shortdescription" : "Lunar Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A moon. For whatever reason, moons like this one are haunted by exotic creatures.",
+  "avianDescription" : "Albeit cursed by Kluex, moons attract countless strangers because of erchius.",
+  "floranDescription" : "Lunar pin. Floransss go to moonss to get pink cryssstals and fuel sspacessships with them.",
+  "glitchDescription" : "Thoughtful. It is notable how lunar celestial bodies were not as dangerous before...",
+  "humanDescription" : "A lunar pin. No, there are no tiny whalers on it, I checked.",
+  "hylotlDescription" : "Thanks to lunar worlds, we can power our ships with erchius and breach the speed of light itself.",
+  "novakidDescription" : "Just an average moon. These're quite useful for spacers 'cause of pink crystal fuel.",
+
+  "atprk_anneliskDescription" : "Barring spooky erchius monsters, moons are basically the galactic fuel stations.",
+  "atprk_fenronDescription" : "A pin of an average moon. Well, as long as we don't count hostile erchius abominations.",
+  "atprk_noolithDescription" : "My kind has had a morbid experience with lunar worlds...",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_moon1", "atprk_planetpincomment_moon2" ],
+
+  "inventoryIcon" : "atprk_moonpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_moonpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

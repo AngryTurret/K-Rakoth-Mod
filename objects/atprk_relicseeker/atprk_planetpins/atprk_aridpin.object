@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_aridpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of an arid planet.",
+  "shortdescription" : "Arid Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "This is hardly different from a barren planet, to be frank.",
+  "avianDescription" : "An arid world. Compared to barren planets, it's more hospitable but only barely.",
+  "floranDescription" : "Jusst barren planet with more grass. Ssstill boring.",
+  "glitchDescription" : "Unimpressed. Isn't this basically a savannah planet with less vegetation?",
+  "humanDescription" : "A pin of an arid planet. I don't have all that much to say about it.",
+  "hylotlDescription" : "A fairly unremarkable arid planet. It can be easily mistaken for any other dry world.",
+  "novakidDescription" : "Another savannah planet, eh? Odd.",
+
+  "atprk_anneliskDescription" : "A poor imitation of a habitable world.",
+  "atprk_fenronDescription" : "Uh... A slightly less barren planet?...",
+  "atprk_noolithDescription" : "I don't recall seeing this celestial body before. Is this a type of a barren world?",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_arid1", "atprk_planetpincomment_arid2" ],
+
+  "inventoryIcon" : "atprk_aridpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_aridpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

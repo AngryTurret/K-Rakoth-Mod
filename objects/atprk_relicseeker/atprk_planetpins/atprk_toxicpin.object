@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_toxicpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a toxic planet.",
+  "shortdescription" : "Toxic Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "Toxic worlds prove that some alien civilizations can disregard nature to extreme degrees.",
+  "avianDescription" : "Oh dear Kluex, spare these miserable toxic realms. Haven't they suffered enough?",
+  "floranDescription" : "Toxic planetsss ssscare Floran. There's too much poissson in the water.",
+  "glitchDescription" : "Fearful. What kind of beasts could lurk beneath the polluted waves of toxic planets?",
+  "humanDescription" : "So, uh... Who did this, anyway? There's no way toxic planets have always been like that.",
+  "hylotlDescription" : "Is no one else concerned about the literal seas of waste toxic planets are? I mean, it's weird at best and unbelievably irresponsible at worst.",
+  "novakidDescription" : "A toxic planet pin. A homeworld of toxic fellas, methinks.",
+
+  "atprk_anneliskDescription" : "Why is it always Annelisks who get blamed for every toxic planet? We only polluted some of them!",
+  "atprk_fenronDescription" : "Nature alone couldn't have created such a toxic planet. Or could it?",
+  "atprk_noolithDescription" : "Not all civilizations manage to live in harmony with nature, and toxic planets prove it.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_toxic1", "atprk_planetpincomment_toxic2" ],
+
+  "inventoryIcon" : "atprk_toxicpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_toxicpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

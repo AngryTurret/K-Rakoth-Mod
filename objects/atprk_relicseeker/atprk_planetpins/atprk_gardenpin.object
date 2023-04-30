@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_gardenpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a garden planet.",
+  "shortdescription" : "Lush Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A small lush planet. This is where my journey started.",
+  "avianDescription" : "A peaceful lush planet where life thrives and hardly anything bothers you.",
+  "floranDescription" : "Lush planetsss are nice but boring. There aren't many ssstrong monsssterss!",
+  "glitchDescription" : "Happy. A nice little lush planet. A perfect place for a farm.",
+  "humanDescription" : "Lush planets are quite similar to Earth. One day I'll probably settle on one of those.",
+  "hylotlDescription" : "Ah, peaceful lush planets. Many Hylotl travel there to take a break from bustling cities and to meditate.",
+  "novakidDescription" : "Gleaps can be annoyin' as heck but otherwise garden planets are just fine.",
+
+  "atprk_anneliskDescription" : "Whew, I was lucky that my SAIL had found a lush planet. Imagine if it was a toxic one instead!",
+  "atprk_fenronDescription" : "Garden planets are so peaceful. Maybe even too peaceful.",
+  "atprk_noolithDescription" : "A pin of a lush planet chosen by the Ancients to build a gateway on.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_garden1", "atprk_planetpincomment_garden2" ],
+
+  "inventoryIcon" : "atprk_gardenpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_gardenpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

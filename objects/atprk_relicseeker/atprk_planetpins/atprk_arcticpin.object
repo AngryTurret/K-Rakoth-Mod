@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_arcticpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of an arctic planet.",
+  "shortdescription" : "Arctic Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A pin of an arctic planet. Rumors say the Miniknog have hidden facilities beneath the waves.",
+  "avianDescription" : "A pin of a nearly frozen arctic oceanic planet. There you can catch a lot of fish.",
+  "floranDescription" : "Cold arctic waterss ssscare Florans away.",
+  "glitchDescription" : "Disinterested. For most Glitch kingdoms, arctic planets have little use.",
+  "humanDescription" : "To be honest, I thought I'd meet at least some Penguins on arctic planets.",
+  "hylotlDescription" : "Sadly, the Hylotl have no interest in building colonies on arctic planets. It's way too costly to us.",
+  "novakidDescription" : "A cold arctic ocean where eveythin' keeps freezin' in seconds.",
+
+  "atprk_anneliskDescription" : "Quite a cold arctic planet. I wouldn't want to get stranded there!",
+  "atprk_fenronDescription" : "Whenever you seek a Variegated Breacher to hunt down, a frigid arctic ocean is your friend.",
+  "atprk_noolithDescription" : "I remember my people gathering on arctic planets to watch the aurora borealis.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_arctic1", "atprk_planetpincomment_arctic2", "atprk_planetpincomment_arctic3" ],
+
+  "inventoryIcon" : "atprk_arcticpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_arcticpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

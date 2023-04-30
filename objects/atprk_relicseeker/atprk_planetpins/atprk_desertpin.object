@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_desertpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a desert planet.",
+  "shortdescription" : "Desert Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "Desert planets. If you want to get some glass, these are good places to gather materials.",
+  "avianDescription" : "Most desert planets remind me of Avos, the homeworld of my people.",
+  "floranDescription" : "Desssert planetss are bad! Too hot, almost no plantsss, meats are too dry! At leassst Floran can get enough sssun there.",
+  "glitchDescription" : "Annoyed. My joints fill with sand everytime I visit desert planets. It's not exciting at all.",
+  "humanDescription" : "A pin of a desert planet, a place you should stay away from if you hate sand.",
+  "hylotlDescription" : "The Hylotl can tolerate desert planets but only barely. The air there is way too dry, and there is little water.",
+  "novakidDescription" : "Thank goodness there're no giant worms on desert planets... Or are there?",
+
+  "atprk_anneliskDescription" : "Funny enough, some of the tallest Annelisks in our history came from desert colonies.",
+  "atprk_fenronDescription" : "A pin showing a typical desert of searing sand and overly pervasive cacti.",
+  "atprk_noolithDescription" : "Largely devoid of liquid water, desert planets are challenging to survive on.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_desert1", "atprk_planetpincomment_desert2", "atprk_planetpincomment_desert3" ],
+
+  "inventoryIcon" : "atprk_desertpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_desertpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

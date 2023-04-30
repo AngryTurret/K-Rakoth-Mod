@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_forestpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a forest planet.",
+  "shortdescription" : "Forest Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "Each forest planet is a great source of wood and relatively cheap ores.",
+  "avianDescription" : "It's always refreshing to visit a forest planet. No meteors, no pools of poison, no tentacles. Just peace and quiet.",
+  "floranDescription" : "Foressst planetss are good for Floran. Here Floran hasss many hiding sspots and wild beasts!",
+  "glitchDescription" : "Pleased. A pin of a beautiful green forest planet.",
+  "humanDescription" : "Forest planets are perfect if you want to go on a camping trip with your friends.",
+  "hylotlDescription" : "A beautiful forest planet. It's a home to many plants and critters.",
+  "novakidDescription" : "A pin o' some forest planet. I think I've been there before... or maybe not, I kinda forgot.",
+
+  "atprk_anneliskDescription" : "Forest planets are great if you need a lot of fresh wood. Look out for mites though!",
+  "atprk_fenronDescription" : "Compared to jungles, forests are underwhelming. The wildlife there is not as fun to hunt.",
+  "atprk_noolithDescription" : "A verdant forest planet. Perhaps the only thing that ruins its tranquility is barbarian Floran tribes.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_forest1", "atprk_planetpincomment_forest2" ],
+
+  "inventoryIcon" : "atprk_forestpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_forestpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

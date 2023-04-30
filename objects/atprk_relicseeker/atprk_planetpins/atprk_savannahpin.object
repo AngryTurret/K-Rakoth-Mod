@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_savannahpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a savannah planet.",
+  "shortdescription" : "Savannah Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "Although the Fenerox are not known to be a spacefaring race, they are somehow found across most savannah planets.",
+  "avianDescription" : "Savannah planets are quite temperate, and there are many hostile creatures lurking in their tall grass.",
+  "floranDescription" : "Sssavannah planetss are home to fuzzy Fenerox people. Floransss are better huntersss than them!",
+  "glitchDescription" : "Neutral. A pin of a temperate savannah planet. You can mine some titanium ore there.",
+  "humanDescription" : "Settling on savannah planets is not too easy but at least you get to enjoy picturesque views there.",
+  "hylotlDescription" : "Savannah planets are beautiful in their own right but most Hylotl wouldn't like to settle on them.",
+  "novakidDescription" : "A savannah planet. A great place for huntin'.",
+
+  "atprk_anneliskDescription" : "Eh, people only really care about those planets because of titanium and fluffy natives.",
+  "atprk_fenronDescription" : "If I describe a savannah planet, I'll start another long rant about the Fenerox, so no comments here.",
+  "atprk_noolithDescription" : "A temperate savannah planet teeming with life.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_savannah1", "atprk_planetpincomment_savannah2" ],
+
+  "inventoryIcon" : "atprk_savannahpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_savannahpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_junglepin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a jungle planet.",
+  "shortdescription" : "Jungle Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A greenish pin of a jungle planet unknown to me.",
+  "avianDescription" : "Somewhere on jungle planets, many Avian people reside. While not the safest, these verdant worlds feed many beaks.",
+  "floranDescription" : "Junglesss have much prey... but also predatorsss. Competition for meatss getsss very intenssse at timesss.",
+  "glitchDescription" : "Cautious. These jungle planets require extra preparations for inexperienced travellers.",
+  "humanDescription" : "Why are all jungle planets irradiated? There were jungles on Earth, too, and they were fine without any radiation.",
+  "hylotlDescription" : "The wild beauty of jungles is very inspirational. My people draw many paintings of them.",
+  "novakidDescription" : "A jungle planet, right? It's like a forest planet but wilder.",
+
+  "atprk_anneliskDescription" : "I wonder how many jungle planets are targeted by poachers.",
+  "atprk_fenronDescription" : "Kohria, the homeworld of my ancestors, used to look like this, if stories are to be believed.",
+  "atprk_noolithDescription" : "A very detailed pin of a savage jungle world.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_jungle1", "atprk_planetpincomment_jungle2", "atprk_planetpincomment_jungle3" ],
+
+  "inventoryIcon" : "atprk_junglepin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_junglepin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_tundrapin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a tundra planet.",
+  "shortdescription" : "Tundra Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "Tundra planets are perhaps the most optimal for Apex habitation, even though it is pretty cold there.",
+  "avianDescription" : "Brrr, just looking at this cold tundra pin makes me shiver.",
+  "floranDescription" : "Another sssnowy planet that'sss even worsse for Floran.",
+  "glitchDescription" : "Neutral. A dangerously cold tundra planet where many Apex reside. Big Ape watches them closely.",
+  "humanDescription" : "A tundra planet, huh? You can mine many valuable ores there if you don't mind severe frost.",
+  "hylotlDescription" : "A pin of an unknown tundra planet, notorious for its deadly chill.",
+  "novakidDescription" : "Quite a chill tundra. If you ever go there, take a warm jacket, you're gonna need it.",
+
+  "atprk_anneliskDescription" : "Many tundra planets are under the Miniknog influence. I don't envy those living there.",
+  "atprk_fenronDescription" : "A pin of a harsh tundra planet. Those who venture there underprepared risk being frozen to death.",
+  "atprk_noolithDescription" : "Somewhere on tundra planets lie the crystalline ruins of ancient Noolith communities.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_tundra1", "atprk_planetpincomment_tundra2" ],
+
+  "inventoryIcon" : "atprk_tundrapin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_tundrapin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

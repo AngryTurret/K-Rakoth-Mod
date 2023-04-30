@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_snowpin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a snowy planet.",
+  "shortdescription" : "Snowy Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "While somewhat warmer than tundras, snowy planets are still suitable for Apex habitation.",
+  "avianDescription" : "A pin of a cold snowy planet. If you're lucky enough, here you can meet an Alpaca or two.",
+  "floranDescription" : "Sssnowy planetsss are too cold for Floran but it's very fun to play in sssnow.",
+  "glitchDescription" : "Analytical. Quite obviously, snowy planets are statistically the best places to gather some snow and ice.",
+  "humanDescription" : "A cute snowy planet pin! I wonder if it looks as cute on a Christmas tree.",
+  "hylotlDescription" : "A pin of a snowy planet. On such planets, most water is either frozen or hidden in caves.",
+  "novakidDescription" : "A pin o' some snowy planet, amirite? Quite a cold place, if you ask me.",
+
+  "atprk_anneliskDescription" : "A pin of an average snowy planet. I'll need to bring a warm jacket there.",
+  "atprk_fenronDescription" : "A frigid planet of snow and mountains. There I can find large herds of wild Carpicoats.",
+  "atprk_noolithDescription" : "A small planet subjected to eternal winter. For this reason, it always snows there.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_snow1", "atprk_planetpincomment_snow2", "atprk_planetpincomment_snow3" ],
+
+  "inventoryIcon" : "atprk_snowpin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_snowpin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

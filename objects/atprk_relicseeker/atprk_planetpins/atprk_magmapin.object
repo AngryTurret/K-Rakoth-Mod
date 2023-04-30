@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_magmapin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a lava planet.",
+  "shortdescription" : "Lava Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A molten lava planet. According to science, it should cool down eventually.",
+  "avianDescription" : "An ocean of unimaginably hot lava, scaled down and made into a harmless pin.",
+  "floranDescription" : "Too much fire on lava planetsss! Too much fire! Floran doesss not want to go there!",
+  "glitchDescription" : "Terrified. A shockingly hot lava world. A Glich will probably melt there in seconds.",
+  "humanDescription" : "Oh hey, a magma planet pin! Wait, I mean a lava planet pin!",
+  "hylotlDescription" : "I hope no one calls it a magma planet. That would be incorrect.",
+  "novakidDescription" : "An orange pin o' some... uh... magma planet? I ain't 'member the right name, to be honest.",
+
+  "atprk_anneliskDescription" : "So how exactly do lava planets stay molten? Is something keeping them overheated?",
+  "atprk_fenronDescription" : "A lava planet is probably one of the most brutal places in the Universe.",
+  "atprk_noolithDescription" : "A furious ocean of molten lava, waiting to consume anyone unfortunate to fall into it.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_magma1", "atprk_planetpincomment_magma2" ],
+
+  "inventoryIcon" : "atprk_magmapin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_magmapin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

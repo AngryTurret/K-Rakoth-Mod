@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_scorchedcitypin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a scorched planet.",
+  "shortdescription" : "Scorched Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A pin of a highly urbanized scorched planet.",
+  "avianDescription" : "Scorched planets were home to a race of blue-skinned humanoids once. I wonder what had happened to them.",
+  "floranDescription" : "Sscorched planet cursssed with fire and meteorsss. Floranss rarely go there.",
+  "glitchDescription" : "Intrigued. A post-apocallyptic scorched planet populated by horned survivalists who... don't do much, to be fair.",
+  "humanDescription" : "A pin of a planet that got scorched by its own star. It's both unfortunate and ironic at the same time.",
+  "hylotlDescription" : "A scorched planet. Long time ago, it was populated by a proud race, but then the extreme heat brought their whole civilization down.",
+  "novakidDescription" : "A scorched planet you can't explore without runnin' into some blue-skinned oddballs.",
+
+  "atprk_anneliskDescription" : "A scorched planet covered in abandoned cities. At least some of them belonged to my people.",
+  "atprk_fenronDescription" : "A pin of a planet scorched by the fiery star it orbits. Hmph, talk about betrayal.",
+  "atprk_noolithDescription" : "The Universe doesn't take decadence lightly, and this is something the Deadbeats have yet to learn.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_scorched1", "atprk_planetpincomment_scorched2", "atprk_planetpincomment_scorched3" ],
+
+  "inventoryIcon" : "atprk_scorchedcitypin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_scorchedcitypin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

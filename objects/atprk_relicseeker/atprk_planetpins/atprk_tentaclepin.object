@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_tentaclepin",
+  "colonyTags" : ["atprk_planetpin"],
+  "rarity" : "Common",
+  "description" : "A large pin of a tentacle planet.",
+  "shortdescription" : "Tentacle Pin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "A pin of a planet buried under colossal tentacles. These look very similar to the Ruin's.",
+  "avianDescription" : "One shudders to imagine how exactly this world got corrupted by the Ruin. May Kluex cleanse it of its vile tentacles.",
+  "floranDescription" : "World of giant tentaclesss. If Floran sssettles there, Floran will never run out of food!",
+  "glitchDescription" : "Disturbed. The mere idea of tentacled planets is disgusting yet apparently they were a thing... Or still are...",
+  "humanDescription" : "So Earth was not the only planet destroyed by the Ruin... This is horrible!",
+  "hylotlDescription" : "A pin of an unfortunate world that was most likely tainted by the Ruin.",
+  "novakidDescription" : "Hm, these tiny tentacles do look familiar. I mean, veeery familiar.",
+
+  "atprk_anneliskDescription" : "What the heck is wrong with this planet? Is it being absorbed by the Ruin or something?",
+  "atprk_fenronDescription" : "A world taken over by a tentacled parasite. Fighting this thing off must be a gargantuan effort.",
+  "atprk_noolithDescription" : "Oh no... It seems that not all planets were liberated from the Ruin's spawn.",
+
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_tentacle1", "atprk_planetpincomment_tentacle2" ],
+
+  "inventoryIcon" : "atprk_tentaclepin.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_tentaclepin.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
