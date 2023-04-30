@@ -1,0 +1,160 @@
+{
+  "objectName" : "atprk_ancientspeedboosteralt",
+  "colonyTags" : ["ancient"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "The gas released from these chutes increases your running speed. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Speed Booster",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "A clever device, it emits a gas capable of increasing my physical speed.",
+  "avianDescription" : "Sweet smelling green gas puts a zip in my step.",
+  "floranDescription" : "Green gas makes Floran run faster.",
+  "glitchDescription" : "Hopeful. The gas from this device has a sweet smell.",
+  "humanDescription" : "This gas smells fresh and sweet. What does it do?",
+  "hylotlDescription" : "The beneficial properties of this gas are related to physical speed enhancement.",
+  "novakidDescription" : "A green gas. It increases my speed.",
+
+  "inventoryIcon" : "atprk_ancientspeedboosteralticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientspeedboosteralt.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteralt.png",
+        "fg" : "atprk_ancientspeedboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientspeedboosteralt.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteralt.png",
+        "fg" : "atprk_ancientspeedboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientspeedboosteraltleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteraltleft.png",
+        "fg" : "atprk_ancientspeedboosteraltleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_ancientspeedboosteraltright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteraltright.png",
+        "fg" : "atprk_ancientspeedboosteraltright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_ancientspeedboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteraltceiling.png",
+        "fg" : "atprk_ancientspeedboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_ancientspeedboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientspeedboosteraltceiling.png",
+        "fg" : "atprk_ancientspeedboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "health" : 5,
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "speedboostergas", // name of projectile (required)
+  "projectileConfig" : { 
+    "speed" : 10
+  } 
+  // "projectilePosition" : [1.0, 0.5] // source position for projectile
+  // "projectileDirection" : [1, 0] // direction to shoot
+}

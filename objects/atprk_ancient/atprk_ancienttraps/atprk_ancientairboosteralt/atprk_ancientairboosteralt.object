@@ -1,0 +1,160 @@
+{
+  "objectName" : "atprk_ancientairboosteralt",
+  "colonyTags" : ["ancient"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "The gas released from these chutes makes you feel light as a feather. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Air Booster",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "The airflow from this vent is low gravity stimulus.",
+  "avianDescription" : "This vent simulates the feeling of flight!",
+  "floranDescription" : "Vent makesss Floran go fly!",
+  "glitchDescription" : "Quizzical. An air vent, it seems safe enough.",
+  "humanDescription" : "Give me a gravity boost!",
+  "hylotlDescription" : "Exposure to this vent's airflow will allow me to conserve energy.",
+  "novakidDescription" : "Sometimes you just need a little boost in life.",
+
+  "inventoryIcon" : "atprk_ancientairboosteralticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientairboosteralt.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteralt.png",
+        "fg" : "atprk_ancientairboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientairboosteralt.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteralt.png",
+        "fg" : "atprk_ancientairboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientairboosteraltleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteraltleft.png",
+        "fg" : "atprk_ancientairboosteraltleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_ancientairboosteraltright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteraltright.png",
+        "fg" : "atprk_ancientairboosteraltright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_ancientairboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteraltceiling.png",
+        "fg" : "atprk_ancientairboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_ancientairboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientairboosteraltceiling.png",
+        "fg" : "atprk_ancientairboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "health" : 5,
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "lowgravboostergas", // name of projectile (required)
+  "projectileConfig" : { 
+    "speed" : 10
+  } 
+  // "projectilePosition" : [1.0, 0.5] // source position for projectile
+  // "projectileDirection" : [1, 0] // direction to shoot
+}

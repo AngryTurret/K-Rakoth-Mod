@@ -1,0 +1,164 @@
+{
+  "objectName" : "atprk_ancientpoisontrap",
+  "colonyTags" : ["ancient","atprk_ancient","evil"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "This trap spews toxic gas to deter invaders. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Poison Trap",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "A gas-dispensing trap.",
+  "avianDescription" : "This trap unleashes putrid gases.",
+  "floranDescription" : "Ssstinky!",
+  "glitchDescription" : "Careful. I should probably hold a breath.",
+  "humanDescription" : "A rather disgusting trap.",
+  "hylotlDescription" : "A continuous stream of green poisonous gas.",
+  "novakidDescription" : "'Tis smells better than a wooden outhouse.",
+
+  "atprk_anneliskDescription" : "Something tells me I shouldn't breathe this gas.",
+  "atprk_fenronDescription" : "A well-crafted poison trap.",
+  "atprk_noolithDescription" : "A trap loaded with poisonous gases.",
+
+  "inventoryIcon" : "atprk_ancientpoisontrapicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientpoisontrap.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrap.png",
+        "fg" : "atprk_ancientpoisontrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientpoisontrap.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrap.png",
+        "fg" : "atprk_ancientpoisontrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientpoisontrapleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrapleft.png",
+        "fg" : "atprk_ancientpoisontrapleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_ancientpoisontrapright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrapright.png",
+        "fg" : "atprk_ancientpoisontrapright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_ancientpoisontrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrapceiling.png",
+        "fg" : "atprk_ancientpoisontrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_ancientpoisontrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientpoisontrapceiling.png",
+        "fg" : "atprk_ancientpoisontrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [0, 0, 0],
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "atprk_trappoison", // name of projectile (required)
+  "projectileConfig" : { 
+    "damageTeam" : { "type" : "friendly" },
+    "power" : 20,
+    "speed" : 10
+  },
+  
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+  "health" : 5
+}

@@ -1,0 +1,164 @@
+{
+  "objectName" : "atprk_ancienticetrapalt",
+  "colonyTags" : ["ancient","atprk_ancient","evil"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "This trap spews frost to deter invaders. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Ice Trap",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "It's a deadly ice trap.",
+  "avianDescription" : "A hazardous ice mechanism.",
+  "floranDescription" : "Ice can be dangerousss.",
+  "glitchDescription" : "Cautious. It's a deadly ice trap.",
+  "humanDescription" : "It's a deadly ice trap.",
+  "hylotlDescription" : "Ice, water in its most deadly form.",
+  "novakidDescription" : "This frost trap could freeze the paws off a brass monkey.",
+
+  "atprk_anneliskDescription" : "Can I replace my old fridge with this thing?",
+  "atprk_fenronDescription" : "What an odd ice trap.",
+  "atprk_noolithDescription" : "An ancient ice trap that can freeze almost anything.",
+
+  "inventoryIcon" : "atprk_ancienticetrapalticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancienticetrapalt.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapalt.png",
+        "fg" : "atprk_ancienticetrapalt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancienticetrapalt.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapalt.png",
+        "fg" : "atprk_ancienticetrapalt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancienticetrapaltleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapaltleft.png",
+        "fg" : "atprk_ancienticetrapaltleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_ancienticetrapaltright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapaltright.png",
+        "fg" : "atprk_ancienticetrapaltright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_ancienticetrapaltceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapaltceiling.png",
+        "fg" : "atprk_ancienticetrapaltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_ancienticetrapaltceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancienticetrapaltceiling.png",
+        "fg" : "atprk_ancienticetrapaltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [0, 0, 0],
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "trapice", // name of projectile (required)
+  "projectileConfig" : { 
+    "damageTeam" : { "type" : "friendly" },
+    "power" : 20,
+    "speed" : 10
+  },
+  
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+  "health" : 5
+}

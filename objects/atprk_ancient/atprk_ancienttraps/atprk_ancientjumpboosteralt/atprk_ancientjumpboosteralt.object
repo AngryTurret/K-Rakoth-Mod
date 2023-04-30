@@ -1,0 +1,160 @@
+{
+  "objectName" : "atprk_ancientjumpboosteralt",
+  "colonyTags" : ["ancient"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "The gas released from these chutes increase your jumping power. \n^red;Destroyed when broken.",
+  "shortdescription" : "Ancient Jump Booster",
+  "race" : "ancient",
+  "category" : "trap",
+  "price" : 2000,
+
+  "apexDescription" : "If I stand over this vent it will boost my jump.",
+  "avianDescription" : "This vent increases the height I can jump.",
+  "floranDescription" : "After walking through this gasss Floran can jump like monster.",
+  "glitchDescription" : "Excited. This vapour will allow me to jump very high indeed.",
+  "humanDescription" : "It may look dangerous, but this gas has beneficial properties.",
+  "hylotlDescription" : "Infused with the powers of this vapour I am able to reach new heights.",
+  "novakidDescription" : "This device boosts my jumps.",
+
+  "inventoryIcon" : "atprk_ancientjumpboosteralticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientjumpboosteralt.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteralt.png",
+        "fg" : "atprk_ancientjumpboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientjumpboosteralt.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteralt.png",
+        "fg" : "atprk_ancientjumpboosteralt.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_ancientjumpboosteraltleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteraltleft.png",
+        "fg" : "atprk_ancientjumpboosteraltleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_ancientjumpboosteraltright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteraltright.png",
+        "fg" : "atprk_ancientjumpboosteraltright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_ancientjumpboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteraltceiling.png",
+        "fg" : "atprk_ancientjumpboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_ancientjumpboosteraltceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_ancientjumpboosteraltceiling.png",
+        "fg" : "atprk_ancientjumpboosteraltceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "health" : 5,
+  "breakDropOptions" : [
+    [ [ "essence", 60, { } ] ]
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "jumpboostergas", // name of projectile (required)
+  "projectileConfig" : { 
+    "speed" : 10
+  } 
+  // "projectilePosition" : [1.0, 0.5] // source position for projectile
+  // "projectileDirection" : [1, 0] // direction to shoot
+}
