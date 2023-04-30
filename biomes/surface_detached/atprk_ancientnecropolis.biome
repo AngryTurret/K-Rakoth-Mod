@@ -14,12 +14,39 @@
         ]
       },
       {
-        "select" : 4,
+        "select" : 1,
         "pool" : [ 
           [ 1, "voltip" ],
-          [ 1, "pyromantle" ],
-          [ 1, "wisper" ],
+          [ 1, "scandroid" ],
+          [ 1, "bobot" ],
+          [ 1, "lumoth" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "agrobat" ],
+          [ 1, "miasmop" ],
+          [ 1, "pteropod" ],
           [ 1, "snaunt" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "pulpin" ],
+          [ 1, "capricoat" ],
+          [ 1, "wisper" ],
+          [ 1, "skimbus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "crabcano" ],
+          [ 1, "pyromantle" ],
+          [ 1, "ignome" ],
+          [ 1, "smoglin" ]
         ]
       }
     ]
@@ -66,6 +93,20 @@
         "objectSets" : [
           {
             "pool" : [ [0.1, "atprk_ancientdebris1" ], [0.1, "atprk_ancientdebris2" ], [0.1, "atprk_ancientdebris3" ], [0.1, "atprk_ancientdebris4" ], [0.1, "atprk_ancientdebris5" ], [0.1, "atprk_ancientdebris6" ], [0.1, "atprk_ancientdebris7" ], [0.1, "atprk_ancientdebris8" ], [0.1, "atprk_ancientdebris9" ], [0.1, "atprk_ancientdebris10" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "atprk_ancientmistprimer" ] ],
             "parameters" : { }
           }
         ]
