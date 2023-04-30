@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "essence", "count" : 300}
+  ],
+  "output" : {
+    "item" : "atprk_ancientairboosteralt",
+    "count" : 1
+  },
+  "groups" : [ "atprk_vaultraidershopinfinitemaze", "nouncrafting" ]
+}

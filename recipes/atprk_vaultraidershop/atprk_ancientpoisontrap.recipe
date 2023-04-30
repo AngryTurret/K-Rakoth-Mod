@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "essence", "count" : 300}
+  ],
+  "output" : {
+    "item" : "atprk_ancientpoisontrap",
+    "count" : 1
+  },
+  "groups" : [ "atprk_vaultraidershop", "nouncrafting" ]
+}
