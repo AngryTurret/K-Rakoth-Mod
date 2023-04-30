@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_frozenchucklefish",
+  "colonyTags" : ["ice"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "breakable",
+  "price" : 75,
+
+  "description" : "It's not dead, it's in a feature freeze.",
+  "shortdescription" : "Fishy Chunk of Ice",
+  "race" : "generic",
+
+  "apexDescription" : "A large frozen fish.",
+  "avianDescription" : "A fish trapped in an icy prison.",
+  "floranDescription" : "Sssilly fish got sstuck.",
+  "glitchDescription" : "Witty. There is something fishy about this chunk of ice.",
+  "humanDescription" : "Must be hard to chuckle when you're frozen.",
+  "hylotlDescription" : "It doesn't look amused anymore.",
+  "novakidDescription" : "A huge fish stuck in a chunk o' ice.",
+
+  "atprk_anneliskDescription" : "So, no content for now?",
+  "atprk_fenronDescription" : "Finally, no more chuckling.",
+  "atprk_noolithDescription" : "This joke is getting old.",
+
+  "inventoryIcon" : "atprk_frozenchucklefishicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_frozenchucklefish.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "iceshard" } ],
+  "smashDropPool" : "iceBreakables",
+
+  "biomePlaced" : true
+}

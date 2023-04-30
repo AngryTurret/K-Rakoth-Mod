@@ -1,0 +1,74 @@
+{
+  "objectName" : "atprk_erchiusfogprimer",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+  "description" : "A hard metallic rock.",
+  "shortdescription" : "Foggy Chthonian Rock",
+  "race" : "generic",
+  "health" : 5,
+
+  "apexDescription" : "A metallic rock.",
+  "avianDescription" : "A metal-coated rock.",
+  "floranDescription" : "Hard ssstone.",
+  "glitchDescription" : "Neutral. A rock with traces of various metals.",
+  "humanDescription" : "A dull metal rock.",
+  "hylotlDescription" : "A rock rich with metal.",
+  "novakidDescription" : "A tough rock.",
+
+  "atprk_anneliskDescription" : "A metal-rich rock.",
+  "atprk_fenronDescription" : "A dense alien rock.",
+  "atprk_noolithDescription" : "A rock reinforced by metal.",
+
+  "inventoryIcon" : "atprk_erchiusfogprimericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_erchiusfogprimer.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_erchiusfogprimer.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "particleEmitter" : {
+    "emissionRate" : 0.25,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/animations/atprk_erchiusfog/atprk_erchiusfog.png",
+      "size" : 1.0,
+      "color" : [175, 175, 175, 255],
+      "destructionAction" : "fade",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "timeToLive" : 15,
+      "layer" : "front",
+      "position" : [2, 3],
+      "collidesForeground" : false
+    },
+    "particleVariance" : {
+      "initialVelocity" : [3.0, 0.0],
+      "position" : [1, 1]
+    }
+  },
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "rockshard" } ],
+
+  "biomePlaced" : true
+}
