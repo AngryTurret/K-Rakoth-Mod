@@ -5,12 +5,39 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 3,
-        "pool" : [
-          [ 1, "pyromantle" ],
-          [ 1, "wisper" ],
+        "select" : 1,
+        "pool" : [ 
           [ 1, "voltip" ],
+          [ 1, "scandroid" ],
+          [ 1, "bobot" ],
+          [ 1, "lumoth" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "agrobat" ],
+          [ 1, "miasmop" ],
+          [ 1, "pteropod" ],
           [ 1, "snaunt" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "pulpin" ],
+          [ 1, "capricoat" ],
+          [ 1, "wisper" ],
+          [ 1, "skimbus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1, "crabcano" ],
+          [ 1, "pyromantle" ],
+          [ 1, "ignome" ],
+          [ 1, "smoglin" ]
         ]
       }
     ]
