@@ -1,0 +1,403 @@
+{
+  // ------- Lush -------
+  "atprk_planetpincomment_garden1" : {
+    "type" : "tutorial",
+    "text" : "Cordial. ^#76fe68;Lush^white; planets may not be particularly impressive, I know. But you can't deny they're quite peaceful.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_garden2" : {
+    "type" : "tutorial",
+    "text" : "Thoughtful. In fact, the Ancients choosing them over any other planets to build their mysterious gates on is telling.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Lunar -------
+  "atprk_planetpincomment_moon1" : {
+    "type" : "tutorial",
+    "text" : "Uneasy. One shudders to imagine what ^#949493;lunar^white; miners have to go through just to let us chart the stars...",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_moon2" : {
+    "type" : "tutorial",
+    "text" : "Dumbfounded. Wait, what do you mean you have to put up with this on daily basis?",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Barren -------
+  "atprk_planetpincomment_barren1" : {
+    "type" : "tutorial",
+    "text" : "Aloof. There is nothing notable about ^#999966;barren^white; planets. No natural resources, no water, no flora. It's not even populated by robots.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Desert -------
+  "atprk_planetpincomment_desert1" : {
+    "type" : "tutorial",
+    "text" : "Knowledgeable. Just so you know, not all ^#e6c801;deserts^white; are hot. You can also find cold ones out there.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_desert2" : {
+    "type" : "tutorial",
+    "text" : "Not sure what you're talkin' about. Every desert planet I've seen so far was quite hot and full of sand.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_desert3" : {
+    "type" : "tutorial",
+    "text" : "Witty. Just because your SAIL chooses to call only one planet type a desert doesn't mean there aren't more. Some of them are in plain sight.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Forest -------
+  "atprk_planetpincomment_forest1" : {
+    "type" : "tutorial",
+    "text" : "Neutral. ^#15ce02;Forest^white; planets are pretty common around gentle stars. I suppose a star of any other type would either overheat or freeze them.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_forest2" : {
+    "type" : "tutorial",
+    "text" : "Cordial. As a side note, those planets are perfect for hiking. Peeved. Well, as long as you don't run into rabid hunters, that is.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Ocean -------
+  "atprk_planetpincomment_ocean1" : {
+    "type" : "tutorial",
+    "text" : "Annoyed. The ^#008aff;oceanic^white; worlds are always tricky to land on. The small islands are too far apart from each other.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_ocean2" : {
+    "type" : "tutorial",
+    "text" : "You gotta admit they are quite romantic though, especially in the evening!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_ocean3" : {
+    "type" : "tutorial",
+    "text" : "Unimpressed. Well yes, they are. It doesn't negate the fact that they are also painfully inconvenient in many ways.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  },
+  "atprk_planetpincomment_ocean4" : {
+    "type" : "tutorial",
+    "text" : "Sorry about that, he's only angry 'cause he can't swim well.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+
+  // ------- Savannah -------
+  "atprk_planetpincomment_savannah1" : {
+    "type" : "tutorial",
+    "text" : "Disinterested. ^#ffe21d;Savannah^white; planets are not exactly my favorite. They are dry and dusty most of the year, and there's hardly any rain.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_savannah2" : {
+    "type" : "tutorial",
+    "text" : "Insightful. On the other hand, Currentcorn grows best in those conditions.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Snowy -------
+  "atprk_planetpincomment_snow1" : {
+    "type" : "tutorial",
+    "text" : "Nostalgic. My hometown is on one of those ^#69f1fd;snowy^white; planets. I haven't been there in ages...",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_snow2" : {
+    "type" : "tutorial",
+    "text" : "Resentful. However, I definitely don't miss explaining the countryfolk why planets are not just flat circles in the sky. Every. Single. Time.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  },
+  "atprk_planetpincomment_snow3" : {
+    "type" : "tutorial",
+    "text" : "Irked. And I know that not all Glitch are well-educated but this really gets ridiculous at times! Who in their right mind believes in giant space turtles?",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Ashy -------
+  "atprk_planetpincomment_ashy1" : {
+    "type" : "tutorial",
+    "text" : "Curious. So how is it on ^#ffc053;ashy^white; planets these days? Still overran by the Glitch Devouts, I suppose?",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_ashy2" : {
+    "type" : "tutorial",
+    "text" : "Pensive. There was a time in my life when I believed them not to be militant but misunderstood. I even attempted to reach out once.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_ashy3" : {
+    "type" : "tutorial",
+    "text" : "Ominous. I know better now.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerdeadserious.png:<frame>"
+  },
+
+  // ------- Alien -------
+  "atprk_planetpincomment_alien1" : {
+    "type" : "tutorial",
+    "text" : "Curious. I see you have visited one of those crazy pink planets. Everyone I've ever met calls them ^#7800ff;alien^white; for some reason.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_alien2" : {
+    "type" : "tutorial",
+    "text" : "Informed. I mean... All exoplanets are technically alien. Whoever came up with this classification didn't think it through.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_alien3" : {
+    "type" : "tutorial",
+    "text" : "Aw c'mon Starklance, don't be a bore! They do look alien!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_alien4" : {
+    "type" : "tutorial",
+    "text" : "Unfazed. I guess? My point still stands though.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Jungle -------
+  "atprk_planetpincomment_jungle1" : {
+    "type" : "tutorial",
+    "text" : "What I absolutely love about ^#12a003;jungles^white; is how they're teemin' with diverse plant life.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_jungle2" : {
+    "type" : "tutorial",
+    "text" : "Irked. And overgrown Poptops out for your blood.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  },
+  "atprk_planetpincomment_jungle3" : {
+    "type" : "tutorial",
+    "text" : "Well, it's not like they can run very fast, y'know. Remember their stubby legs?",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+
+  // ------- Toxic -------
+  "atprk_planetpincomment_toxic1" : {
+    "type" : "tutorial",
+    "text" : "Uncertain. I have no idea whether ^#06ff00;toxic^white; planets are like this naturally or if they were polluted by greedy industrialists.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_toxic2" : {
+    "type" : "tutorial",
+    "text" : "Thoughtful. The better question is why any sane person would willingly land there, let alone go fishing.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Arctic -------
+  "atprk_planetpincomment_arctic1" : {
+    "type" : "tutorial",
+    "text" : "Dismissive. There is a good reason not even the Hylotl bother settling on ^#00ffe4;arctic^white; planets.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_arctic2" : {
+    "type" : "tutorial",
+    "text" : "Sigh... Lemme guess. Havin' to deal with little land n' frigid climate?",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_arctic3" : {
+    "type" : "tutorial",
+    "text" : "Indignant. Exactly! On top of that, have you ever seen a Muckfang? They make an already awful planet type much worse.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Midnight -------
+  "atprk_planetpincomment_midnight1" : {
+    "type" : "tutorial",
+    "text" : "Uneasy. The lands of eternal ^#e11212;midnight^white; have always rubbed me the wrong way. I'm not superstitious but there is just something... wrong with them.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_midnight2" : {
+    "type" : "tutorial",
+    "text" : "You ain't the first one t' notice this, my friend. Midnight planets have always had a special place in many religions.",
+    "senderName" : "Colt",
+    "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+  },
+  "atprk_planetpincomment_midnight3" : {
+    "type" : "tutorial",
+    "text" : "Disturbed. Yes, I'm aware. And the fact doesn't help my feelings, really.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Tundra -------
+  "atprk_planetpincomment_tundra1" : {
+    "type" : "tutorial",
+    "text" : "Wary. Cold and unforgiving, ^#61ffe3;tundras^white; are not exactly welcoming. Great care should be taken when one ventures there.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_tundra2" : {
+    "type" : "tutorial",
+    "text" : "Wary. On top of that, many tundra planets are occupied by the Miniknog forces which is unfortunate, to put it mildly.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Lava -------
+  "atprk_planetpincomment_magma1" : {
+    "type" : "tutorial",
+    "text" : "Informed. For ages it was believed that ^#ff1818;lava^white; planets were nests of cosmic dragons... Until it was proven that cosmic dragons were just a myth.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_magma2" : {
+    "type" : "tutorial",
+    "text" : "Informed. Nowadays people only ever go there to catch fireproof fish. Some fools still hope to discover dragons though.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Scorched -------
+  "atprk_planetpincomment_scorched1" : {
+    "type" : "tutorial",
+    "text" : "Thoughtful. Given all their former glory, it's a mystery how the denizens of ^#b24301;scorched^white; planets can't make a comeback to the galactic stage.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_scorched2" : {
+    "type" : "tutorial",
+    "text" : "Says the dude whose people can't get over shields, swords and literal witch-hunt.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+  },
+  "atprk_planetpincomment_scorched3" : {
+    "type" : "tutorial",
+    "text" : "Peeved. Touche, Jade.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  },
+
+  // ------- Volcanic -------
+  "atprk_planetpincomment_volcanic1" : {
+    "type" : "tutorial",
+    "text" : "Proud. As harsh as ^#e11212;volcanic^white; planets are, they are also home to many charismatic kings, noble knights and poets of great renown.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_volcanic2" : {
+    "type" : "tutorial",
+    "text" : "So, any particular reason the Glitch are so obsessed with hot places?",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+  "atprk_planetpincomment_volcanic3" : {
+    "type" : "tutorial",
+    "text" : "Humorous. How do I know? For your information, I was born on a cold planet!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Boiling -------
+  "atprk_planetpincomment_boiling1" : {
+    "type" : "tutorial",
+    "text" : "Impressed. So you have explored a ^#837ad7;boiling^white; planet after all. I keep hearing about such places yet I've never set a foot there before.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_boiling2" : {
+    "type" : "tutorial",
+    "text" : "Sneering. I hope you're ready to get bombarded with questions about your journey. Libra sure will ask a lot of them.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_boiling3" : {
+    "type" : "tutorial",
+    "text" : "No, I won't!\n \nWell, just a little bit if you don't mind.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+  },
+
+  // ------- Chthonian -------
+  "atprk_planetpincomment_chthonianmoon1" : {
+    "type" : "tutorial",
+    "text" : "Knowledgeable. Sometimes a misplaced gas giant core and a little bit of asteroids make a ^#68878e;chthonian^white; moon.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_chthonianmoon2" : {
+    "type" : "tutorial",
+    "text" : "Thoughtful. You don't see those very often but they do give you an insight into what gas giants are like beneath the dense clouds.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Asteroids (Sector X) -------
+  "atprk_planetpincomment_asteroid1" : {
+    "type" : "tutorial",
+    "text" : "Baffled. I've found a strange ^#d7711e;asteroid^white; formation in the Sector X. They are not alighned in a belt but rather a sphere. Are they orbiting something massive?",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Arid (Sector X) -------
+  "atprk_planetpincomment_arid1" : {
+    "type" : "tutorial",
+    "text" : "Analytical. The first planet found in the Sector X is... Confused. Barren again? I'm sure it was labelled as ^#d0b469;arid^white; instead! Let me check once more.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_arid2" : {
+    "type" : "tutorial",
+    "text" : "Unimpressed. Oh well. It seems that arid planets are slightly more habitable than barren ones but otherwise they're identical.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+
+  // ------- Tentacle (Sector X) -------
+  "atprk_planetpincomment_tentacle1" : {
+    "type" : "tutorial",
+    "text" : "Puzzled. Now this is something unusual. The surface of ^#c555c1;tentacle^white; planets is comprised entirely of corrupted soil and - you guessed it - living tentacles.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_tentacle2" : {
+    "type" : "tutorial",
+    "text" : "Disturbed. Come to think of it, this sounds alarmingly familiar...",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  },
+
+  // ------- Ruined -------
+  "atprk_planetpincomment_ruin1" : {
+    "type" : "tutorial",
+    "text" : "Shocked. Hond on, what?! I swear this planets wasn't ^#641929;ruined^white; before!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+  },
+  "atprk_planetpincomment_ruin2" : {
+    "type" : "tutorial",
+    "text" : "Suspicious. This can't be right.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
+  }
+}
