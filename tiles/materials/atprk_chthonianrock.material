@@ -1,0 +1,23 @@
+{
+  "materialId" : 62102,
+  "materialName" : "atprk_chthonianrock",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "atprk_chthonianrock",
+  "description" : "Dense metallic rock.",
+  "shortdescription" : "Chthonian Rock",
+  "glitchDescription" : "Neutral. Dense metallic rock.",
+  "floranDescription" : "Hard rocksss.",
+  "novakidDescription" : "Hard metallic rock.",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_chthonianrock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1600
+  }
+}

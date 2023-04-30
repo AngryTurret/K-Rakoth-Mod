@@ -1,0 +1,24 @@
+{
+  "materialId" : 62120,
+  "materialName" : "atprk_ruinmeteoriterock",
+  "particleColor" : [111, 94, 74, 255],
+  "itemDrop" : "atprk_ruinmeteoriterock",
+  "description" : "Chunks of meteorite infested by the Ruin.",
+  "shortdescription" : "Tentacomet Cluster",
+  "glitchDescription" : "Cautious. These meteorite rocks are inhabited.",
+  "floranDescription" : "Tentacled thingsss have space rock shellsss.",
+  "novakidDescription" : "Space rocks with spooky eyes.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
+  "health" : 18,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_ruinmeteoriterock.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1910
+  }
+}

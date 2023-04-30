@@ -1,0 +1,25 @@
+{
+  "materialId" : 62100,
+  "materialName" : "atprk_frozenfishwater",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "atprk_frozenfishwater",
+  "description" : "Frozen sea water full of fish.",
+  "shortdescription" : "Marine Ice",
+  "glitchDescription" : "Observant. This ice contains frozen fishes.",
+  "floranDescription" : "Frozen sssoup.",
+  "novakidDescription" : "Will I get some fish soup if I melt this?",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 3,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_frozenfishwater.png",
+    "variants" : 5,
+    "backgroundLightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 390
+  }
+}

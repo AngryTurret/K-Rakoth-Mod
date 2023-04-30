@@ -1,0 +1,24 @@
+{
+  "materialId" : 62119,
+  "materialName" : "atprk_ruinbrainsblock",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "atprk_ruinbrainsblock",
+  "description" : "Pulsating brain matter. It still develops its wrinkles.",
+  "shortdescription" : "Inferior Brains",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 16,
+  "category" : "materials",
+  "glitchDescription" : "Alarmed. Is there brain activity within this material?",
+  "floranDescription" : "Floran want to ssstab sssquishy brain.",
+  "novakidDescription" : "Some fleshy brainstuff.",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_ruinbrainsblock.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1777
+  }
+}

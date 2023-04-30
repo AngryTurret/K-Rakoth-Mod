@@ -1,0 +1,26 @@
+{
+  "materialId" : 62117,
+  "materialName" : "atprk_ruineyepiles",
+  "particleColor" : [103, 103, 103, 255],
+  "itemDrop" : "atprk_ruineyepiles",
+  "shortdescription" : "Pile of Ruinous Eyes",
+  "description" : "A pile of sinister eyes.",
+  "glitchDescription" : "Worried. I feel like I'm being watched.",
+  "floranDescription" : "Evil sssnake eyess!",
+  "novakidDescription" : "Hey, if you keep starin' at me like this, y'all go blind!",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_ruineyepiles.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 450
+  }
+}

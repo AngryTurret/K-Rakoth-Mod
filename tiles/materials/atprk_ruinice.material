@@ -1,0 +1,25 @@
+{
+  "materialId" : 62121,
+  "materialName" : "atprk_ruinice",
+  "particleColor" : [145, 186, 233, 255],
+  "itemDrop" : "atprk_ruinice",
+  "shortdescription" : "Frozen Tentacle Ichor",
+  "description" : "Putrid organic liquids in a frozen state.",
+  "glitchDescription" : "Disgusted. Solid ice with traces of organic matter.",
+  "floranDescription" : "Sssmelly ice.",
+  "novakidDescription" : "'tis better stay frozen.",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 4,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_ruinice.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1880
+  }
+}

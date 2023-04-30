@@ -1,0 +1,24 @@
+{
+  "materialId" : 62101,
+  "materialName" : "atprk_tinyancienthomeblock",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "atprk_tinyancienthomeblock",
+  "description" : "A miniature house block.",
+  "shortdescription" : "High Gnome Minihouse",
+  "glitchDescription" : "Amused. A ludicrously tiny room.",
+  "floranDescription" : "Tiny houssses.",
+  "novakidDescription" : "Housin' for insects.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "atprk_tinyancienthomeblock.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1450
+  }
+}
