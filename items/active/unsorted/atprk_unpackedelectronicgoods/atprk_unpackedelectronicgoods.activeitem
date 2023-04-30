@@ -11,7 +11,7 @@
   "inventoryIcon" : "atprk_unpackedelectronicgoods.png",
   "animation" : "atprk_unpackedelectronicgoods.animation",
   "animationCustom" : {},
-  "scripts" : ["atprk_unpackedelectronicgoods.lua"],
+  "scripts" : ["/items/active/unsorted/atprk_unpackedgoods.lua"],
 
   "fireTime" : 2.0,
   "fireOffset" : [1.0, 0.0],
