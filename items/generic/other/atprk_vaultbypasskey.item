@@ -1,0 +1,8 @@
+{
+  "itemName" : "atprk_vaultbypasskey",
+  "rarity" : "Legendary",
+  "category" : "quest",
+  "inventoryIcon" : "atprk_vaultbypasskey.png",
+  "description" : "A key that can briefly open the gate to the Terraforge.",
+  "shortdescription" : "Vault Bypass Key"
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "atprk_betastarmap",
+  "price" : 3750,
+  "rarity" : "Legendary",
+  "category" : "quest",
+  "inventoryIcon" : "atprk_betastarmap.png",
+  "description" : "A heavily outdated starmap. Perhaps someone else could decipher its contents.",
+  "shortdescription" : "Outdated Starmap Upgrade",
+
+  "radioMessagesOnPickup" : [ "atprk_betastarmapmessage" ]
+}
