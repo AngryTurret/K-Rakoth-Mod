@@ -1,0 +1,11 @@
+{
+  "itemName" : "atprk_dontpickthisup2",
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "atprk_dontpickthisup2.png",
+  "description" : "You were not supposed to break this.",
+  "shortdescription" : "^red; ^white;",
+
+  "radioMessagesOnPickup" : [ "atprk_dontbreakthisthing2" ],
+  "consumeOnPickup" : true
+}
