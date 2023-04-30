@@ -1,5 +1,5 @@
 {
-  "objectName" : "atprk_vaultraidershop",
+  "objectName" : "atprk_vaultraidershopinfinitemaze",
   "colonyTags" : ["atprk_relicseeker","commerce"],
   "rarity" : "Common",
   "category" : "decorative",
@@ -34,23 +34,30 @@
         "visible" : false
       }
     },
-    "filter" : [ "atprk_vaultraidershop" ]
+    "filter" : [ "atprk_vaultraidershopinfinitemaze" ]
   },
 
   "inventoryIcon" : "atprk_vaultraidershopicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_vaultraidershop.png:<color>",
+      "imageLayers" : [ { "image" : "atprk_vaultraidershopinfinitemaze.png", "fullbright" : true }, { "image" : "atprk_vaultraidershopinfinitemazelit.png" } ],
       "imagePosition" : [-24, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : true,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_vaultraidershopinfinitemaze.png", "fullbright" : true }, { "image" : "atprk_vaultraidershopinfinitemazelit.png" } ],
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ],
   "breakDropOptions" : [
-    [ [ "atprk_dontpickthisup3", 1, { } ], [ "smallwoodencrate", 1, { } ] ]
+    [ [ "atprk_dontpickthisup3", 1, { } ], [ "largewoodencrate", 1, { } ] ]
   ]
 }
