@@ -3,7 +3,7 @@
   "materialName" : "atprk_ruinbrainsblock",
   "particleColor" : [112, 72, 39, 255],
   "itemDrop" : "atprk_ruinbrainsblock",
-  "description" : "Pulsating brain matter. It still develops its wrinkles.",
+  "description" : "Pulsating brain matter. It's still developing its wrinkles.",
   "shortdescription" : "Inferior Brains",
   "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 16,
