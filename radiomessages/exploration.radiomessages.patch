@@ -25,7 +25,7 @@
     "op": "add",
       "path": "/atprk_relicseekerhqintro_colt",
       "value": {
-        "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolescences on Earth's destruction. Anyways, I'm Colt. I'll be here in case you need somethin'.",
+        "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolences on Earth's destruction. Anyways, I'm Colt. I'll be here in case you need somethin'.",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
       }
