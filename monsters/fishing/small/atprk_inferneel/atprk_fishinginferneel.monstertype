@@ -1,7 +1,7 @@
 {
   "type" : "atprk_fishinginferneel",
   "shortdescription" : "Inferneel",
-  "description" : "If you feel a sudden burning sensation in your leg, chances are one of those little guys bit you.",
+  "description" : "If you feel a sudden burning sensation in your leg, chances are one of these little guys bit you.",
 
   "categories" : [ "atprk_fishinginferneel" ],
   "parts" : [ "body" ],
