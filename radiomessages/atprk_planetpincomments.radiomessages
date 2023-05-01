@@ -8,7 +8,7 @@
   },
   "atprk_planetpincomment_garden2" : {
     "type" : "tutorial",
-    "text" : "Thoughtful. In fact, the Ancients choosing them over any other planets to build their mysterious gates on is telling.",
+    "text" : "Thoughtful. In fact, the Ancients choosing them over any other planets to build their mysterious gates on is quite telling.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -50,7 +50,7 @@
   },
   "atprk_planetpincomment_desert3" : {
     "type" : "tutorial",
-    "text" : "Witty. Just because your SAIL chooses to call only one planet type a desert doesn't mean there aren't more. Some of them are in plain sight.",
+    "text" : "Witty. Just because your SAIL chooses to call only one planet type a desert doesn't mean there aren't more. Some of them are hidden in plain sight.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -258,7 +258,7 @@
   },
   "atprk_planetpincomment_tundra2" : {
     "type" : "tutorial",
-    "text" : "Wary. On top of that, many tundra planets are occupied by the Miniknog forces which is unfortunate, to put it mildly.",
+    "text" : "Wary. On top of that, many tundra planets are occupied by Miniknog forces which is unfortunate, to put it mildly.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -286,7 +286,7 @@
   },
   "atprk_planetpincomment_scorched2" : {
     "type" : "tutorial",
-    "text" : "Says the dude whose people can't get over shields, swords and literal witch-hunt.",
+    "text" : "Says the dude whose people can't get over shields, swords and literal witch-hunting.",
     "senderName" : "Jade",
     "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
   },
@@ -354,7 +354,7 @@
   // ------- Asteroids (Sector X) -------
   "atprk_planetpincomment_asteroid1" : {
     "type" : "tutorial",
-    "text" : "Baffled. I've found a strange ^#d7711e;asteroid^white; formation in the Sector X. They are not alighned in a belt but rather a sphere. Are they orbiting something massive?",
+    "text" : "Baffled. I've found a strange ^#d7711e;asteroid^white; formation in the Sector X. They are not aligned in a belt but rather a sphere. Are they orbiting something massive?",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -390,7 +390,7 @@
   // ------- Ruined -------
   "atprk_planetpincomment_ruin1" : {
     "type" : "tutorial",
-    "text" : "Shocked. Hond on, what?! I swear this planets wasn't ^#641929;ruined^white; before!",
+    "text" : "Shocked. Hold on, what?! I swear this planets wasn't ^#641929;ruined^white; before!",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
