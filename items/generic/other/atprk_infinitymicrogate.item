@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "quest",
   "inventoryIcon" : "atprk_infinitymicrogate.png",
-  "description" : "A mysterious device found near the Ancient Gates.",
+  "description" : "A mysterious device found near Ancient Gates.",
   "shortdescription" : "^orange;Infinity Microgate^white;",
 
   "radioMessagesOnPickup" : [ "atprk_relicseekerhqintro_infinitemaze" ]
