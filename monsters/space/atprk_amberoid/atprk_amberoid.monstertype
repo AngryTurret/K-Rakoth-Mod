@@ -1,7 +1,7 @@
 {
   "type" : "atprk_amberoid",
   "shortdescription" : "Amberoid",
-  "description" : "According to the legend, Ambryos who jump too high reach the exosphere and turn into Amberoids.",
+  "description" : "According to legend, Ambryos who jump too high reach the exosphere and turn into Amberoids.",
 
   "categories" : [ "atprk_amberoid" ],
   "parts" : [ "body" ],
