@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_stainlesssteel", "count" : 15},
+    { "item" : "smallbattery", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_betascreen",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}

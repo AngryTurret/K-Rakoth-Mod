@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_stainlesssteel", "count" : 30},
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "atprk_betabed",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "beds", "all", "mod" ]
+}
