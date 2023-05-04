@@ -1,15 +1,14 @@
 {
-  "objectName" : "atprk-krakothcontainer1",
+  "objectName" : "atprk-krakothcontainer3",
   "colonyTags" : ["atprk_krakoth","storage","commerce"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
   "description" : "An abandoned metal crate.",
-  "shortdescription" : "Medium Eldritch Crate",
+  "shortdescription" : "Large Eldritch Crate",
   "race" : "generic",
   "category" : "storage",
-  "printable" : false,
-  "price" : 110,
+  "price" : 145,
   "health" : 2.5,
 
   "apexDescription" : "I doubt this shape is efficient enough.",
@@ -20,14 +19,26 @@
   "hylotlDescription" : "It looks somewhat simplistic and not very stackable, to be honest.",
   "novakidDescription" : "This crate ain't bad but could be better.",
 
-  "inventoryIcon" : "atprk-krakothcontainer1icon.png",
+  "inventoryIcon" : "atprk-krakothcontainer3icon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk-krakothcontainer1.png:<color>",
 
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+      "image" : "atprk-krakothcontainer3.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "image" : "atprk-krakothcontainer3.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
@@ -37,11 +48,10 @@
 
   "scripts" : ["/scripts/atprk_container.lua"],
 
-  "openSounds" : [ "/sfx/objects/metalslidingdoor_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/metalslidingdoor_close.ogg" ],
-  "slotCount" : 24,
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
-
 }
