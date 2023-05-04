@@ -1,0 +1,73 @@
+{
+  "objectName" : "atprk_ancientwireddoor",
+  "colonyTags" : ["ancient","atprk_ancient","door"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "category" : "door",
+  "price" : 0,
+  "description" : "This door can only be opened by connecting it to a switch.",
+  "shortdescription" : "Ancient Wired Door",
+  "race" : "ancient",
+  "health" : 10000000,
+
+  "apexDescription" : "An indestructible door. The only way to open it is to connect it to a switch.",
+  "avianDescription" : "Unless I connect this door to a switch, I won't be able to unseal it.",
+  "floranDescription" : "Sssturdy door needss ssswitch. Floran mussst use wiring tool.",
+  "glitchDescription" : "Irked. A door too heavy to open. Maybe I could trigger it somehow.",
+  "humanDescription" : "I don't see any switch that'd open this door. What if I place my own?",
+  "hylotlDescription" : "The only way to advance is to put some kind of a lever near this door.",
+  "novakidDescription" : "My matter manipulator won't break this door here. Gotta use the wirin' mode.",
+
+  "atprk_anneliskDescription" : "If I can't dismantle this door, then at least I can wire it to a switch, right?",
+  "atprk_fenronDescription" : "What a tough door! Guess brute force alone won't help me unseal it.",
+  "atprk_noolithDescription" : "My wiring tool seems to recognize this door. Could this be a hint?",
+
+  "inventoryIcon" : "atprk_ancientwireddooricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientwireddoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "atprk_ancientwireddoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_ancientwireddoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_ancientshards", 1, { } ] ]
+  ]
+}

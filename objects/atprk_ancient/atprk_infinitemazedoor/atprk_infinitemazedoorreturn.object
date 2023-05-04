@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_infinitemazedoorreturn",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "I sure hope this door will take me back to reality!",
+  "shortdescription" : "Infinite Challenge Door",
+  "race" : "ancient",
+
+  "apexDescription" : "That gate must be the exit.",
+  "avianDescription" : "Thank the Kluex. I believe this must be my way out.",
+  "floranDescription" : "Floran guesses thisss is door out.",
+  "glitchDescription" : "Hopeful. Surely, this must be the way out of here.",
+  "humanDescription" : "I sure hope this door will take me back to reality!",
+  "hylotlDescription" : "Everything that has a beginning must come to an end. It's time for me to leave this place.",
+  "novakidDescription" : "Time for me to be leavin' this place.",
+
+  "lightColor" : [76, 60, 86],
+
+  "inventoryIcon" : "atprk_infinitemazedooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazedoorreturn.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazedoorreturnlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "detectArea" : [ [-3, 0], [3, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/atprk_ancient/atprk_infinitemazedoor/atprk_infinitemazedoor.animation",
+  "animationParts" : {
+    "bg" : "atprk_infinitemazedoorreturn.png",
+    "fg" : "atprk_infinitemazedoorreturnlit.png"
+  },
+
+  "scripts" : [ "/objects/atprk_ancient/atprk_infinitemazedoor/atprk_infinitemazedoor.lua" ],
+  "scriptDelta" : 20,
+
+  "returnDoor" : true
+}

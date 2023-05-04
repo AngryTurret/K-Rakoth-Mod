@@ -1,0 +1,88 @@
+{
+  "objectName" : "atprk_infinitemazegatekeeper",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "A cloaked stranger who sells keys to places beyond our reality.",
+  "shortdescription" : "Mysterious Gatekeeper",
+  "race" : "ancient",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "An anonymous gatekeeper. Only the worthy can get past them.",
+  "avianDescription" : "If I manage to prove my worth, they'll probably give me a key to the Gate.",
+  "floranDescription" : "Ssstrange perssson decidess who goes through huge gatesss.",
+  "glitchDescription" : "Irked. There must be a way to convince them to let me in.",
+  "humanDescription" : "A hooded stranger who holds the keys to distant places.",
+  "hylotlDescription" : "If I prove my good intentions, this hooded person may let me pass.",
+  "novakidDescription" : "A somewhat familiar fella givin' keys to those they trust.",
+
+  "atprk_anneliskDescription" : "How much do I have to pay for a single key, again?",
+  "atprk_fenronDescription" : "There must be a way to get the keys from them, whether by force or not.",
+  "atprk_noolithDescription" : "If I bring them enough artifacts, I'll be able to skip the Ancient Vault and go straight to the Terraforge.",
+
+  "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 20,
+  "chatOptions" : [
+    "You will have one minute to pass through. No more, no less.",
+    "Not everyone can use the Terraforge. Not everyone will.",
+    "May the Cultivator be with you.",
+    "The Terraforge is waiting... It always waits.",
+    "   ..."
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Mysterious Gatekeeper",
+        "subtitle" : "Grants quick access to the Terraforge",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_infinitemazegatekeepericon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_infinitemazegatekeeper" ]
+  },
+
+  "inventoryIcon" : "atprk_infinitemazegatekeepericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazegatekeeper.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazegatekeeperlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 40,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazegatekeeper.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazegatekeeperlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 40,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup2", 1, { } ] ]
+  ]
+}

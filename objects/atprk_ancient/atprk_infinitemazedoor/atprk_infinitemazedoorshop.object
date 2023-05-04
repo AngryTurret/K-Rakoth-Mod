@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_infinitemazedoorshop",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "An unusual doorway leading to a possibly safer pocket dimension.",
+  "shortdescription" : "Infinite Merchant Door",
+  "race" : "ancient",
+
+  "apexDescription" : "This door looks different from the rest. I wonder what this implies.",
+  "avianDescription" : "The symbols on this door are not the same as before. Hm.",
+  "floranDescription" : "Sssomething is wrong with thisss door.",
+  "glitchDescription" : "Attentive. The symbols on this door don't match the previously encountered signs.",
+  "humanDescription" : "Hold up, why is the sign suddently different? Does this door lead elsewhere?",
+  "hylotlDescription" : "Judging by the hieroglyphs on this door, it may be connected to some safer location.",
+  "novakidDescription" : "Wait, what's up with this one? The letters are different!",
+
+  "lightColor" : [76, 60, 86],
+
+  "inventoryIcon" : "atprk_infinitemazedooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazedoorshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazedoorshoplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "detectArea" : [ [-3, 0], [3, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/atprk_ancient/atprk_infinitemazedoor/atprk_infinitemazedoor.animation",
+  "animationParts" : {
+    "bg" : "atprk_infinitemazedoorshop.png",
+    "fg" : "atprk_infinitemazedoorshoplit.png"
+  },
+
+  "scripts" : [ "/objects/atprk_ancient/atprk_infinitemazedoor/atprk_infinitemazedoorshop.lua" ],
+  "scriptDelta" : 20,
+
+  "vanishTime" : 15,
+
+  "messagePlayerInterval" : 0.5,
+  "messagePlayerRange" : 30,
+
+  "health" : 10,
+  "smashOnBreak" : true
+}
