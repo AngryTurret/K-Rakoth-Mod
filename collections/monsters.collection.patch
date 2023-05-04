@@ -88,5 +88,45 @@
 	    "monsterType" : "atprk_xenoprobe",
 	    "icon" : "/monsters/ghosts/atprk_xenoprobe/atprk_xenoprobe.png:fly.1"
 	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_duodung",
+	  "value": 	  
+	  {
+	    "order" : 70,
+	    "monsterType" : "atprk_duodung",
+	    "icon" : "/monsters/walkers/atprk_duodung/atprk_duodung.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_clamia",
+	  "value": 	  
+	  {
+	    "order" : 71,
+	    "monsterType" : "atprk_clamia",
+	    "icon" : "/monsters/walkers/atprk_clamia/atprk_clamia.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_crawleech",
+	  "value": 	  
+	  {
+	    "order" : 72,
+	    "monsterType" : "atprk_crawleech",
+	    "icon" : "/monsters/crawlers/atprk_crawleech/atprk_crawleech.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_algeist",
+	  "value": 	  
+	  {
+	    "order" : 73,
+	    "monsterType" : "atprk_algeist",
+	    "icon" : "/monsters/ghosts/atprk_algeist/atprk_algeist.png:fly.1"
+	  }
 	}
 ]

@@ -79,5 +79,41 @@
 		"order" : 78,
 		"item" : "atprk_xenoprobeaf"
 	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_duodungaf",
+	  "value": 		
+	  {
+		"order" : 79,
+		"item" : "atprk_duodungaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_clamiaaf",
+	  "value": 		
+	  {
+		"order" : 80,
+		"item" : "atprk_clamiaaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_crawleechaf",
+	  "value": 		
+	  {
+		"order" : 81,
+		"item" : "atprk_crawleechaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_algeistaf",
+	  "value": 		
+	  {
+		"order" : 82,
+		"item" : "atprk_algeistaf"
+	  }
 	}
 ]
