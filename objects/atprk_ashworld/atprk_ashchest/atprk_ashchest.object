@@ -34,8 +34,9 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-
   ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
 
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
