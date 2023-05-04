@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "atprk_relicseekerhq_mechbayopen",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_relicseekerhq_mechbayopen" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_relicseekerhq_mechbayopen",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerhq_mechbayopen.json" ]
+    }
+  ]
+}

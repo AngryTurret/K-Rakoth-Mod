@@ -1,0 +1,106 @@
+[
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_amberasteroid"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_amberasteroid",
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_amberasteroid.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_ancientcastle"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_ancientcastle",
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_ancientcastle.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_betaasteroidcamp"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_betaasteroidcamp",
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_betaasteroidcamp.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_peacekeeperbase"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_peacekeeperbase",
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_peacekeeperbase.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_rishaanseed1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_rishaanseed1",
+      "minimumThreatLevel" : 3.9,
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_rishaanseed1.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_anomaly_rishaanseed2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_rishaanseed2",
+      "minimumThreatLevel" : 3.9,
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_rishaanseed2.json" ],
+      "chance" : 1
+    }	
+}
+]
