@@ -39,6 +39,8 @@
     }
   ],
 
+  "scripts" : ["/scripts/atprk_container.lua"],
+
   "openSounds" : [ "/sfx/objects/metalslidingdoor_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalslidingdoor_close.ogg" ],
   "slotCount" : 16,

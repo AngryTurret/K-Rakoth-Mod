@@ -1,0 +1,70 @@
+{
+  "objectName" : "atprk-krakothsmallconsole",
+  "colonyTags" : ["atrpk_krakoth","wired"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "category" : "wire",
+  "price" : 105,
+  "lightColor" : [108, 28, 73],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A K'Rakothan console that does stuff. Probably some important stuff.",
+  "shortdescription" : "Elder Ship Console",
+  "race" : "generic",
+
+  "apexDescription" : "I wonder what this console does.",
+  "avianDescription" : "This console seems to be somewhat more intuitive than the rest.",
+  "floranDescription" : "Floran wantsss to push all buttonsss at once.",
+  "glitchDescription" : "Relieved. Unlike the other consoles here, this one is somewhat more user-friendly.",
+  "humanDescription" : "This should do something, I guess.",
+  "hylotlDescription" : "A K'Rakothan console. A less complicated one, to be more specific.",
+  "novakidDescription" : "Okay, I guess I can distinguish some buttons here...",
+
+  "inventoryIcon" : "atprk-krakothsmallconsoleicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothsmallconsole.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk-krakothsmallconsole.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/atprk_krakoth/atprk-krakothsmallconsole/atprk-krakothsmallconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk-krakothsmallconsole.png",
+    "fg" : "atprk-krakothsmallconsolelit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}
