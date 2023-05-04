@@ -1,0 +1,39 @@
+{
+  "itemName" : "atprk_npcancienthammer",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A powerful scythe drenched in potent poison.",
+  "shortdescription" : "Ancient Guardian's Scythe",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "inventoryIcon" : "/items/active/weapons/npc/atprk_npcancienthammer/atprk_npcancienthammer.png",
+
+  "animation" : "/items/active/weapons/npc/atprk_npcancienthammer/atprk_npcancienthammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "/items/active/weapons/npc/atprk_npcancienthammer/atprk_npcancienthammer.png",
+    "bladefullbright" : "/items/active/weapons/npc/atprk_npcancienthammer/atprk_npcancienthammer_fullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer_poison1.ogg", "/sfx/melee/swing_hammer_poison2.ogg", "/sfx/melee/swing_hammer_poison3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scriptDelta" : 2,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : [0.45, 0.45],
+    "baseDps" : [10, 11]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua"
+}
