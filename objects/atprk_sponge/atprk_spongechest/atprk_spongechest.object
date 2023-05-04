@@ -1,6 +1,6 @@
 {
   "objectName" : "atprk_spongechest",
-  "colonyTags" : ["atprk_spongechest","storage"],
+  "colonyTags" : ["atprk_sponge","storage"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
@@ -30,8 +30,9 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-
   ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
 
   "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
