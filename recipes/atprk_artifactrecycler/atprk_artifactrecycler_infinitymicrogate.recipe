@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_infinitymicrogate", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 500 },
+  "groups" : [ "atprk_artifactrecycler", "nouncrafting" ]
+}

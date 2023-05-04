@@ -1,0 +1,16 @@
+{
+  "currencyInputs" : {
+    "essence" : 500
+  },
+  "input" : [
+    { "item" : "venomsample", "count" : 5 },
+    { "item" : "giantflowerpetal", "count" : 20 },
+    { "item" : "floweryblock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_microformerfloralglade",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "atprk_experimentalterraforming", "all" ]
+}
