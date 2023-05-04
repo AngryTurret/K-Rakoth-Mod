@@ -5,7 +5,7 @@
 	[1, {
       "pool" : [
 		{"weight" : 0.60, "item" : "atprk_traproot"},
-		{"weight" : 0.40, "item" : "biosample"},
+		{"weight" : 0.40, "item" : "livingroot"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief1"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief2"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief3"},
@@ -21,7 +21,7 @@
 	[1, {
       "pool" : [
 		{"weight" : 0.60, "item" : "atprk_traproot"},
-		{"weight" : 0.40, "item" : "biosample"},
+		{"weight" : 0.40, "item" : "livingroot"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief1"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief2"},
 		{"weight" : 0.05, "item" : "atprk_fenronbasrelief3"},
@@ -142,6 +142,54 @@
 		{"weight" : 0.05, "item" : "salvagebooster"},
 		{"weight" : 0.05, "item" : "salvagelegs"},
 		{"weight" : 0.002, "item" : "atprk_xenoprobeaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_duodungHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.65, "item" : "biosample"},
+		{"weight" : 0.35, "item" : "venomsample"},
+		{"weight" : 0.002, "item" : "atprk_duodungaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_clamiaHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "rawfish"},
+		{"weight" : 0.40, "item" : "hardenedcarapace"},
+		{"weight" : 0.002, "item" : "atprk_clamiaaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_crawleechHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "greenslime"},
+		{"weight" : 0.40, "item" : "alienmeat"},
+		{"weight" : 0.002, "item" : "atprk_crawleechaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_algeistHunting",
+   "value" : [
+	[1, {
+      "pool" : [
+		{"weight" : 0.60, "item" : "kelp"},
+		{"weight" : 0.40, "item" : "phasematter"},
+		{"weight" : 0.002, "item" : "atprk_algeistaf"}
       ]
     }]
    ]		

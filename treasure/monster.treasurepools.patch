@@ -4,8 +4,9 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.50, "pool" : "money"},
-	    {"weight" : 0.45, "item" : "plantfibre"},
+	    {"weight" : 0.70, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.25, "item" : "livingroot"},
+	    {"weight" : 0.10, "item" : "atprk_traproot"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
@@ -20,9 +21,9 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.50, "pool" : "money"},
-	    {"weight" : 0.30, "item" : "plantfibre"},
-	    {"weight" : 0.20, "item" : "atprk_traproot"},
+	    {"weight" : 0.70, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.25, "item" : "livingroot"},
+	    {"weight" : 0.25, "item" : "atprk_traproot"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
 	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
@@ -37,7 +38,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.75, "pool" : "money"},
+	    {"weight" : 0.75, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.30, "item" : "crystal"},
 	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
 	    {"weight" : 0.01, "item" : "atprk_noolithshard2"},
@@ -53,7 +54,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.40, "item" : "crystal"},
 	    {"weight" : 0.10, "item" : "phasematter"},
 	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
@@ -70,7 +71,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.70, "pool" : "money"},
+	    {"weight" : 0.70, "pool" : "robotTreasure"},
 	    {"weight" : 0.30, "item" : "stickofram"},
 	    {"weight" : 0.01, "item" : "atprk_encryptionkey1"},
 	    {"weight" : 0.01, "item" : "atprk_encryptionkey2"},
@@ -86,7 +87,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.50, "pool" : "robotTreasure"},
 	    {"weight" : 0.50, "item" : "atprk_olddeliverypack"},
 	    {"weight" : 0.006, "item" : "atprk_oculopteraf"}
       ]
@@ -98,7 +99,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.50, "pool" : "robotTreasure"},
 	    {"weight" : 0.50, "item" : "atprk_olddeliverypackrare"},
 	    {"weight" : 0.006, "item" : "atprk_oculopteraf"}
       ]
@@ -123,8 +124,7 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.45, "pool" : "money"},
-	    {"weight" : 0.30, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.20, "item" : "hardenedcarapace"},
 	    {"weight" : 0.10, "item" : "atprk_amberblock"},
 	    {"weight" : 0.01, "item" : "atprk_amberinsect1"},
@@ -140,13 +140,62 @@
    "value" : [
 	[1, {
       "pool" : [
-	    {"weight" : 0.70, "pool" : "money"},
+	    {"weight" : 0.70, "pool" : "robotTreasure"},
 	    {"weight" : 0.30, "item" : "stickofram"},
 	    {"weight" : 0.01, "item" : "salvagearm"},
 	    {"weight" : 0.01, "item" : "salvagebody"},
 	    {"weight" : 0.01, "item" : "salvagebooster"},
 	    {"weight" : 0.01, "item" : "salvagelegs"},
 	    {"weight" : 0.006, "item" : "atprk_xenoprobeaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_duodungTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.30, "item" : "biosample"},
+	    {"weight" : 0.20, "item" : "poop"},
+	    {"weight" : 0.006, "item" : "atprk_duodungaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_clamiaTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "basicMonsterTreasure"},
+	    {"weight" : 0.20, "item" : "hardenedcarapace"},
+	    {"weight" : 0.006, "item" : "atprk_clamiaaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_crawleechTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "basicMonsterTreasure"},
+	    {"weight" : 0.20, "item" : "greenslime"},
+	    {"weight" : 0.006, "item" : "atprk_crawleechaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_algeistTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.20, "item" : "phasematter"},
+	    {"weight" : 0.006, "item" : "atprk_algeistaf"}
       ]
     }]
    ]		
@@ -160,7 +209,8 @@
 	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.30, "item" : "hardenedcarapace"},
 	    {"weight" : 0.10, "item" : "crystal"},
-	    {"weight" : 0.05, "item" : "solidfuel"}
+	    {"weight" : 0.05, "item" : "solidfuel"},
+	    {"weight" : 0.01, "item" : "atprk_shapelessprism"}
       ]
     }]
    ]		
@@ -179,14 +229,42 @@
    ]		
   },
   {"op" : "add",
+   "path" : "/atprk_apexmechenemyTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.60, "pool" : "robotTreasure"},
+	    {"weight" : 0.30, "item" : "atprk_reliccircuitry"},
+	    {"weight" : 0.06, "item" : "atprk_chthonicscraps"},
+	    {"weight" : 0.04, "item" : "salvagetier4"},
+	    {"weight" : 0.02, "item" : "salvagetier5"},
+	    {"weight" : 0.01, "item" : "salvagetier6"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
    "path" : "/atprk_krakothrobotTreasure",
    "value" : [
 	[1, {
       "pool" : [
 	    {"weight" : 0.50, "pool" : "money"},
-	    {"weight" : 0.40, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.40, "pool" : "robotTreasure"},
 	    {"weight" : 0.05, "item" : "atprk_chthonicscraps"},
 	    {"weight" : 0.01, "item" : "atprk_eldertech"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_infinitemazerobotTreasure",
+   "value" : [
+	[1, {
+      "fill" : [ {"pool" : "essenceDrop"} ],
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "money"},
+	    {"weight" : 0.25, "item" : ["ancientblock", 3]},
+	    {"weight" : 0.05, "item" : "atprk_ancientshards"}
       ]
     }]
    ]		

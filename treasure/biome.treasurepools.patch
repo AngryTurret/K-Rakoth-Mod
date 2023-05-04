@@ -2,16 +2,21 @@
 {"op":"add",
 	"path":"/desertTreasure/0/1/pool/-",
 	"value":
-        {"weight" : 0.02, "item" : "atprk_sandstonestatueannelisk"}
+        {"weight" : 0.025, "item" : "atprk_sandstonestatueannelisk"}
 },
 {"op":"add",
 	"path":"/desertTreasure/0/1/pool/-",
 	"value":
-        {"weight" : 0.02, "item" : "atprk_sandstonestatuefenron"}
+        {"weight" : 0.025, "item" : "atprk_sandstonestatuefenron"}
 },
 {"op":"add",
 	"path":"/desertTreasure/0/1/pool/-",
 	"value":
-        {"weight" : 0.02, "item" : "atprk_sandstonestatuenoolith"}
+        {"weight" : 0.025, "item" : "atprk_sandstonestatuenoolith"}
+},
+{"op":"add",
+	"path":"/boneTreasure/0/1/pool/-",
+	"value":
+        {"weight" : 0.05, "item" : "atprk_fenronskullhat"}
 }
 ]

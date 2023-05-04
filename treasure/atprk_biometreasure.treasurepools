@@ -276,6 +276,46 @@
   ],
 
   // ================================
+  //              Irradiated Roots
+  // ================================
+
+  "atprk_irradiatedrootsChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_irradiatedrootsTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_irradiatedrootsTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_irradiatedrootsTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "toxicwaste", 3]},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicchair-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicchest-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicdoor-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophiclamp-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophictable-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicplantpot-recipe"},
+        {"weight" : 0.2, "item" : "atprk_radiotrophicbed-recipe"},
+        {"weight" : 0.05, "item" : "mutanthead"},
+        {"weight" : 0.05, "item" : "mutantchest"},
+        {"weight" : 0.05, "item" : "mutantpants"}
+      ]
+    }]
+  ],
+
+  // ================================
   //              Hunger Grove
   // ================================
 
@@ -436,10 +476,10 @@
         {"weight" : 0.3, "item" : "atprk_anneliskposterclean-recipe"},
         {"weight" : 0.3, "item" : "atprk_annelisktableclean-recipe"},
         {"weight" : 0.3, "item" : "atprk_annelisksleepingpod-recipe"},
-        {"weight" : 0.25, "item" : "atprk_encryptionkey1"},
-        {"weight" : 0.25, "item" : "atprk_encryptionkey2"},
-        {"weight" : 0.25, "item" : "atprk_encryptionkey3"},
-        {"weight" : 0.25, "item" : "atprk_encryptionkey4"},
+        {"weight" : 0.2, "item" : "atprk_encryptionkey1"},
+        {"weight" : 0.2, "item" : "atprk_encryptionkey2"},
+        {"weight" : 0.2, "item" : "atprk_encryptionkey3"},
+        {"weight" : 0.2, "item" : "atprk_encryptionkey4"},
         {"weight" : 0.05, "item" : "moneybagshead"},
         {"weight" : 0.05, "item" : "moneybagschest"},
         {"weight" : 0.05, "item" : "moneybagspants"}
@@ -487,6 +527,50 @@
         {"weight" : 0.05, "item" : "spacesuitchest"},
         {"weight" : 0.05, "item" : "spacesuitback"},
         {"weight" : 0.05, "item" : "spacesuitlegs"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Flattened Hulls
+  // ================================
+
+  "atprk_flattenedhullsChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_flattenedhullsTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_flattenedhullsTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_flattenedhullsTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "atprk_stainlesssteel-recipe"},
+        {"weight" : 0.3, "item" : "atprk_betabed-recipe"},
+        {"weight" : 0.3, "item" : "atprk_betachair-recipe"},
+        {"weight" : 0.3, "item" : "atprk_betachest-recipe"},
+        {"weight" : 0.3, "item" : "atprk_betascreen-recipe"},
+        {"weight" : 0.3, "item" : "atprk_betatable-recipe"},
+        {"weight" : 0.2, "item" : "atprk_betarobotpart1"},
+        {"weight" : 0.2, "item" : "atprk_betarobotpart2"},
+        {"weight" : 0.2, "item" : "atprk_betarobotpart3"},
+        {"weight" : 0.2, "item" : "atprk_betarobotpart4"},
+        {"weight" : 0.05, "item" : "uraniumrod"},
+        {"weight" : 0.05, "item" : "atprk_betahumanarmorhead"},
+        {"weight" : 0.05, "item" : "atprk_betahumanarmorchest"},
+        {"weight" : 0.05, "item" : "atprk_betahumanarmorlegs"},
+        {"weight" : 0.01, "item" : "atprk_betastarmap"}
       ]
     }]
   ],
@@ -644,8 +728,9 @@
         {"weight" : 0.2, "item" : "atprk_krakothplatform-recipe"},
         {"weight" : 0.1, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.1, "item" : "atprk_eldertech"},
-        {"weight" : 0.08, "item" : "atprk_4dcube"},
-        {"weight" : 0.02, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.08, "item" : "atprk_4dgoods"},
+        {"weight" : 0.04, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.02, "item" : "atprk_4dcube"},
         {"weight" : 0.01, "item" : "atprk_chthonicalloy"}
       ]
     }]
@@ -688,6 +773,47 @@
         {"weight" : 0.2, "item" : "atprk_krakothplatform-recipe"},
         {"weight" : 0.01, "item" : "atprk_krakothlaserminer-recipe"},
         {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 1]}
+      ]
+    }]
+  ],
+
+  // ================================
+  //              Rotten Sanctum
+  // ================================
+
+  "atprk_rottensanctumChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_rottensanctumTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+        {"weight" : 0.3, "pool" : "atprk_rottensanctumTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.40, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_rottensanctumTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "atprk_chthonicscraps"},
+        {"weight" : 0.2, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.05, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 2]},
+        {"weight" : 0.3, "item" : [ "atprk_slopedgildedpanel", 5]},
+        {"weight" : 0.2, "item" : "atprk_eldertech"},
+        {"weight" : 0.1, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.05, "item" : "atprk_4dgoods"},
+        {"weight" : 0.2, "item" : "atprk_gildedmetal-recipe"},
+        {"weight" : 0.2, "item" : "atprk_slopedgildedpanel-recipe"},
+        {"weight" : 0.05, "item" : "atprk_krakothtexttau"},
+        {"weight" : 0.05, "item" : "atprk_krakothtextupsilon"}
       ]
     }]
   ]
