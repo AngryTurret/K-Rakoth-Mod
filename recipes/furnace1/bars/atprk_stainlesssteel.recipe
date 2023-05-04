@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1},
+    { "item" : "coalore", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_stainlesssteel",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all", "mod" ]
+}

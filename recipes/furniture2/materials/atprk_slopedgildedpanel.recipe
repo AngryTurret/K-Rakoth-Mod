@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_slopedgildedpanel", "count" : 25 },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture2", "materials", "all", "mod" ]
+}

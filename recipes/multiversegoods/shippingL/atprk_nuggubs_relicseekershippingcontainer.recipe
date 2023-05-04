@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 625 }
+  ],
+  "output" : {
+    "item" : "atprk_relicseekershippingcontainer",
+    "count" : 1
+  },
+  "groups" : [ "multiversegoods", "multiverseshippingL", "multiversestarbound" ]
+}

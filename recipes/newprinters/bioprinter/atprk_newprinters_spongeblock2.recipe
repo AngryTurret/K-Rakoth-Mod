@@ -6,5 +6,5 @@
     "item" : "atprk_spongeblock",
     "count" : 1
   },
-  "groups" : [ "biorecipes" ]
+  "groups" : [ "biorecipes", "nouncrafting" ]
 }
