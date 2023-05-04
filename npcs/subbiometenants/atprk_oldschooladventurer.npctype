@@ -1,0 +1,47 @@
+{
+  "type" : "atprk_oldschooladventurer",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "Solarium? Pfft, please! Have you ever heard of impervium? That's the real stuff!",
+            "Why do we have to fuel our ships with erchius? Can't you just shove some coal in the fuel hatch?",
+            "As long as you don't keep an open jar of peanut butter anywhere, we should be safe.",
+            "Man, weapons just don't feel the same anymore! Gimme my explosive piglet launchers!",
+            "Ah, this metal furniture brings back memories...",
+            "Nice equipment you have! But have you got anything that extracts brains?",
+            "Back in the day, the grass was greener. And redder. And purpler. And any other color you could imagine!",
+            "What is this thing you call a \"colony deed\" doing in my room? Could you take it away?",
+            "What happened to the USCM? They're surprisingly quiet nowadays.",
+            "Under no circumstances should you invite those pesky Agarans! Even if they offer candies!"
+          ]
+        }
+      }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant"]
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "atprk_betahumanarmorhead", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "chest" : [
+              { "name" : "atprk_betahumanarmorchest", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "atprk_betahumanarmorlegs", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type" : "atprk_devoutattackmelter",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Intimidating. Stop right there, or else!",
+            "Imperious. Freeze!",
+            "Hostile. You will not go any further!",
+            "Confident. You can't get past me!",
+            "Angry. You've gone too far, hoarder!",
+            "Agressive. Don't underestimate my hammer!",
+            "Alert. Hey! How did you get here?",
+            "Angry. You are not supposed to be here!",
+            "Menacing. Your journey ends here!",
+            "Intimidating. No mercy to hoarders!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "foundryhardhathead", "parameters" : { "colorIndex" : 5 } }
+            ],
+            "back" : [
+              { "name" : "coldprotectionback", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npchammer"
+            ]
+          }
+        ] ]
+    ]
+  },
+ "statusControllerSettings" : {    
+    "stats" : {
+	  "maxHealth" : {
+        "baseValue" : 125.0
+      },
+	"iceStatusImmunity" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

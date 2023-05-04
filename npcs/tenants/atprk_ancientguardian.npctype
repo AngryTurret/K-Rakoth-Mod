@@ -1,7 +1,7 @@
 {
   "type" : "atprk_ancientguardian",
   "baseType" : "friendlyguardtenant",
-  
+
   "nameGen" : [ "/monsters/boss/guardianboss/bossnamegen.config:names", "/monsters/boss/guardianboss/bossnamegen.config:names" ],
 
   "scriptConfig" : {
@@ -42,23 +42,58 @@
       [0, [
           {
             "head" : [
-              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 5 } }
             ],
             "chest" : [
-              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : [5, 7, 8, 9] } }
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : 5 } }
             ],
             "primary" : [
-              "npcbroadsword",
-              "npcaxe",
-              "npcshortsword",
-              "npcspear",
-              "npchammer"
+              "atprk_npcancientbroadsword"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 7 } }
             ],
-            "alt" : [
-              "atprk_hardlightshield"
+            "chest" : [
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "legs" : [
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "primary" : [
+              "atprk_npcancienthammer"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "chest" : [
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "legs" : [
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "primary" : [
+              "atprk_npcancientrocketlauncher"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 8 } }
+            ],
+            "chest" : [
+              { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 8 } }
+            ],
+            "legs" : [
+              { "name" : "atprk_ancientguardlegs", "parameters" : { "colorIndex" : 8 } }
+            ],
+            "primary" : [
+              "atprk_npcancientspear"
             ]
           }
         ] ]

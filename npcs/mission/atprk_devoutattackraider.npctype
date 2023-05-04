@@ -1,0 +1,63 @@
+{
+  "type" : "atprk_devoutattackraider",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Eager. For the Lords of the Cosmos!",
+            "Fearless. Our masters protect us!",
+            "Menacing. You shall pay for your theft!",
+            "Aggressive. Messing with us was your fatal mistake!",
+            "Courageous. All your relics belong to us!",
+            "Alert. Hey, I see another one!",
+            "Hostile. Here you are, thief!",
+            "Indignant. You won't get away with this, you hoarders!",
+            "Angry. Stop right there, you heretic!",
+            "Intimidating. No mercy to hoarders!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "glitchtier5mhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npctungstenbow" }
+            ],
+            "alt" : [
+              "atprk_devoutshield"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

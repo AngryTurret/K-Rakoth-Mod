@@ -1,0 +1,159 @@
+{
+  "type" : "atprk_devoutattackpenguin",
+  "baseType" : "guard",
+
+  "levelVariance" : [0, 0],
+  "damageTeamType" : "friendly",
+  "dropPools" : [ "money" ],
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 500.0
+      }
+    }
+  },
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      
+      "hostileDamageTeam" : { "type" : "friendly", "team" : 1 }
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "These Glitch fellas don't fool around!",
+            "Looks like we're on our own here.",
+            "Watch out, they've got a bunch of ancient guns!",
+            "Are we safe now? Can we go back to the space train?",
+            "Look, there must be a workin' teleporter somewhere. Can you find it?",
+            "Finally, we're free! Thanks, bud!",
+            "They don't pay me enough to deal with this!",
+            "I slammed my flipper in the door. Now it hurts.",
+            "I told 'em they needed more guns to protect themselves! I told 'em!",
+            "These robots are tough! Be careful around 'em!",
+            "Don't worry, I've got a plan!... Wait, nevermind, I forgot it.",
+            "Where are we even? It's a K'Rakothan ship, right?",
+            "Where're the escape pods? Are there any?",
+            "You didn't forget about us! I knew it!",
+            "This ol' ship's smaller than I expected.",
+            "Why do I always end up in awkward situations like this?",
+            "Alright, gotta get outta here before more tincans arrive!",
+            "Thanks for lettin' us out! That cell stank like a rotten mussel!",
+            "Can I go loot their stuff? Who knows what else they've got here!"
+          ]
+        }
+      },
+
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Get those clankers!",
+            "Bang! Bang!",
+            "Surprise, tincans!",
+            "I'm gonna dismantle all o' you!",
+            "Come here!",
+            "Hands up so I can see 'em!",
+            "Give us our stuff back!",
+            "I'll be dead before you catch me again!",
+            "Incoming!",
+            "Revenge!",
+            "Leave us alone, you metal weirdos!"
+          ]
+        }
+      },
+
+      "reattack" : {
+        "default" : {
+          "default" : [
+            "I see them again!",
+            "Watch out, they're back!",
+            "Hey, that's where they are!",
+            "Incoming tincans!"
+          ]
+        }
+      },
+
+      "killedTarget" : {
+        "default" : {
+          "default" : [
+            "Bang! Got 'em!",
+            "Phew, that was close.",
+            "One more down!",
+            "Boom! Headshot!",
+            "I don't know what else they expected here.",
+            "That's one baddie less!",
+            "They messed with the wrong bird!"
+
+          ]
+        }
+      },
+
+      "lostTarget" : {
+        "default" : {
+          "default" : [
+            "Yo, do you see them?",
+            "So that's it, right?",
+            "Can we go back now?",
+            "Don't drop your guard yet!"
+
+          ]
+        }
+      },
+
+      "outOfSight" : {
+        "default" : {
+          "default" : [
+            "Hey, where are they now?",
+            "They've slipped away from me!",
+            "Hey, uh, where did it go?",
+            "Come out, coward!",
+            "They must be hiding somewhere!"
+          ]
+        }
+      },
+
+      "cheerOn" : {
+        "default" : {
+          "default" : [
+            "Get 'em!",
+            "Show them who's the boss!",
+            "Don't let them get away!"
+          ]
+        }
+      },
+
+      "cantReach" : {
+        "default" : {
+          "default" : [
+            "Wait, my gun jammed! Gimme a moment!",
+            "I can't reach them!",
+            "They're too far!",
+            "I won't hit a thing from here!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "legs" : [
+              { "name" : "penguinscanner", "parameters" : { "colorIndex" : [0,2,3] } },
+              { "name" : "atprk_penguinseekerbandana", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "primary" : [
+              "npcpistol"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

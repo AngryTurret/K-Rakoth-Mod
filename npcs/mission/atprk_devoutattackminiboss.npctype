@@ -1,0 +1,331 @@
+{
+  "type" : "atprk_devoutattackminiboss",
+  "baseType" : "hostile",
+
+  "identity" : {
+    "name" : "Flintheart",
+    "gender" : "male",
+    "race" : "glitch"
+  },
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "glitch" : {
+          "default" : [
+            "Assertive. Whatever you are, you shall not pass!",
+            "Eager. Take this!"
+          ],
+          "apex" : [
+            "Indignant. The Miniknog should have stayed away from us!",
+            "Hostile. Your kind shall never learn our secrets!",
+            "Aggressive. Begone, Apex!"
+          ],
+          "avian" : [
+            "Judgemental. Kluex shall punish you for your sins!",
+            "Eager. You cannot survive our duel, bird!",
+            "Confident. There is no room for flying!"
+          ],
+          "floran" : [
+            "Angry. You are too wicked to wield the holy artifacts!",
+            "Arrogant. Floran tribes are below us!",
+            "Indignant. I knew Florans are not to be trusted!"
+          ],
+          "glitch" : [
+            "Aggressive. You shall be slain, traitor!",
+            "Menacing. We shall come for your kingdom next!",
+            "Frustrated. You chose the wrong side!"
+          ],
+          "human" : [
+            "Arrogant. Surrender, meatbag, and I may spare you!",
+            "Mocking. Soon you shall become just like your homeworld... Dead!",
+            "Imposing. You have no idea who you deal with!"
+          ],
+          "hylotl" : [
+            "Judgemental. Your arrogance shall be your downfall!",
+            "Witty. You are like a fish out of water!",
+            "Angry. You shall not slip out of my hands!"
+          ],
+          "novakid" : [
+            "Enraged. You hoarders made your final mistake!",
+            "Jeering. Your stellar body is nothing against my strength!",
+            "Imposing. Begone, star person!"
+          ],
+          "penguin" : [
+            "Imperious. Surrender now, you mischievous bird!",
+            "Jeering. You think YOU can defeat me! Ha!",
+            "Hostile. You shall be frozen to death, Penguin!"
+          ],
+          "pandorasboxpenguin" : [
+            "Imperious. Surrender now, you mischievous bird!",
+            "Jeering. You think YOU can defeat me! Ha!",
+            "Hostile. You shall be frozen to death, Penguin!"
+          ],
+          "pengukin" : [
+            "Imperious. Surrender now, you mischievous bird!",
+            "Mocking. A tall Penguin is still a mere Penguin!",
+            "Hostile. You shall be frozen to death, Pengukin!"
+          ],
+          "robopenguin" : [
+            "Imperious. Surrender now, you mischievous bird!",
+            "Baffled. What are you even?!",
+            "Confident. I can tell a fake Glitch from afar!"
+          ],
+          "fenerox" : [
+            "Disgusted. Who let this brute in?",
+            "Confident. You stand no chance against me, savage!",
+            "Furious. Die, you filthy Fenerox!"
+          ],
+          "shadow" : [
+            "Imperative. Silence, dark one!",
+            "Enraged. Die, abomination!",
+            "Mocking. There are no shadows to hide in!"
+          ],
+          "epshadow" : [
+            "Imperative. Silence, dark one!",
+            "Enraged. Die, abomination!",
+            "Mocking. There are no shadows to hide in!"
+          ],
+          "alpaca" : [
+            "Surprised. Never thought I would meet an Alpaca in combat!",
+            "Eager. Let our duel begin!",
+            "Confident. Your fur is not thick enough to save you from my strikes!"
+          ],
+          "frog" : [
+            "Jeering. How about you crawl back into the mud pit you call home?",
+            "Judgemental. You dare meddling with our affairs, amphibian!",
+            "Angry. You shall not slip out of my hands!"
+          ],
+          "xmunfrogg" : [
+            "Jeering. How about you crawl back into the mud pit you call home?",
+            "Judgemental. You dare meddling with our affairs, amphibian!",
+            "Angry. You shall not slip out of my hands!"
+          ],
+          "arcanian" : [
+            "Menacing. I'm going to drop you off on a viridescent planet!",
+            "Jeering. Your arcane trickery does not scare me!",
+            "Hostile. You should have minded your business, Arcanian!"
+          ],
+          "gilten" : [
+            "Alert. I knew the Aurea would come for our masters' legacy! Stay back!",
+            "Proud. I shall never kneel before the Gilten!",
+            "Jeering. Your arcane trickery does not scare me!"
+          ],
+          "avali" : [
+            "Frustrated. You dare boarding our vessel, feathered lizard!",
+            "Imposing. Your haughty kind shall fall!",
+            "Intimidating. Our masters shall eradicate you one day!"
+          ],
+          "smolavali" : [
+            "Frustrated. You dare boarding our vessel, feathered lizard!",
+            "Imposing. Your haughty kind shall fall!",
+            "Judgemental. Oh, now they send babies to fight!"
+          ],
+          "novali" : [
+            "Frustrated. You dare boarding our vessel, glowing lizard!",
+            "Baffled. What are you even?!",
+            "Jeering. Your stellar body is nothing against my strength!"
+          ],
+          "avikan" : [
+            "Judgemental. Respect our forerunners, and we shall respect yours!",
+            "Hostile. Take this, you dishonest nomad!",
+            "Indignant. Rhadeis shall not save you from my wrath!"
+          ],
+          "trink" : [
+            "Imposing. You have greatly miscalculated your chances here!",
+            "Interrogative. Don't you think you are better than us!",
+            "Arrogant. A soulless machine stands no chance against a Glitch!"
+          ],
+          "droden" : [
+            "Confident. The Glitch are superior to you in all ways!",
+            "Eager. Come here, I'm going to dismantle you!",
+            "Arrogant. A soulless machine stands no chance against a Glitch!"
+          ],
+          "aegi" : [
+            "Assertive. A Human from another planet is still just a Human!",
+            "Arrogant. Surrender, meatbag, and I may spare you!",
+            "Proud. The Alliance can't stop us!"
+          ],
+          "akkimari" : [
+            "Alert. I knew the Akkimari were behind this!",
+            "Imperious. You scavengers shall pay for your crimes!",
+            "Angry. Stand still, bug!"
+          ],
+          "centens" : [
+            "Assertive. Whatever you are, you shall not pass!",
+            "Proud. The K'Rakoths are the only rulers of the cosmos!",
+            "Hostile. Not a single Avikan could defeat me, and neither can you!"
+          ],
+          "nostos" : [
+            "Furious. I shall slay you, outcast!",
+            "Interrogative. Don't you think you are better than us!",
+            "Haughty. You shall only learn your demise here!"
+          ],
+          "angel" : [
+            "Menacing. I shall send you straight to hell!",
+            "Frightened. A living Angel? Here?! Impossible!",
+            "Disturbed. I thought you were just a myth!"
+          ],
+          "nebulite" : [
+            "Frightened. How are you still alive?!",
+            "Aggressive. You are nothing but a relic from the past!",
+            "Disturbed. I thought you were just a myth!"
+          ],
+          "Indix" : [
+            "Witty. You are not even real! This shall be easy!",
+            "Irritated. Your kind really gets on my nerves!",
+            "Eager. Not a single Indix can get past me!"
+          ],
+          "elduukhar" : [
+            "Excited. I always wanted to slay a dragon!",
+            "Aggressive. You shall pay for your sins!",
+            "Assertive. Your precious crystals are useless here!"
+          ],
+          "nightar" : [
+            "Eager. Let our duel begin!",
+            "Proud. Our kingdom has always been superior!",
+            "Mocking. There are no shadows to hide in!"
+          ],
+          "radien" : [
+            "Intimidating. Freaks like you are not welcome here!",
+            "Haughty. You are just as pitiful as your Novakid friends!",
+            "Alert. Stop right there, mutant!"
+          ],
+          "thelusian" : [
+            "Jeering. You glorified cockroach shall be slain!",
+            "Haughty. What can a single Thelusian even do?",
+            "Angry. Give up while you still can, pest!"
+          ],
+          "precursor" : [
+            "Assertive. Whatever you are, you shall not pass!",
+            "Proud. The K'Rakoths are the only rulers of the cosmos!",
+            "Furious. This is not YOUR galaxy to take!"
+          ],
+          "fragmentedruin" : [
+            "Enraged. Die, abomination!",
+            "Imperious. Begone, beast of Ri'shaan!",
+            "Intimidating. My spear shall pierce your giant eye!"
+          ],
+          "shoggoth" : [
+            "Enraged. Die, abomination!",
+            "Confident. I know your dirty tricks, Shoggoth!",
+            "Angry. You cannot fool me, you spineless monster!"
+          ],
+          "saturn" : [
+            "Assertive. Stop resisting, moth!",
+            "Proud. Your witchcraft is not enough to defeat me!",
+            "Witty. Shall you surrender if I give you a lantern?"
+          ],
+          "saturn2" : [
+            "Assertive. Stop resisting, moth!",
+            "Proud. Your witchcraft is not enough to defeat me!",
+            "Witty. Shall you surrender if I give you a lantern?"
+          ],
+          "FutaraDragon" : [
+            "Excited. I always wanted to slay a dragon!",
+            "Jeering. I fear no dragons!",
+            "Mocking. Your skull shall make a great trophy!"
+          ]
+        }
+      },
+      "reattack" : {
+        "glitch" : {
+          "default" : [
+            "Alert. Here you are!"
+          ]
+        }
+      },
+      "killedTarget" : {
+        "glitch" : {
+          "default" : [
+            "Pleased. This is what you get for stealing!"
+          ]
+        }
+      },
+      "lostTarget" : {
+        "glitch" : {
+          "default" : [
+            "Intimidating. Show yourself, or else!"
+          ]
+        }
+      },
+      "outOfSight" : {
+        "glitch" : {
+          "default" : [
+            "Irked. Where did they go?!"
+          ]
+        }
+      },
+      "cheerOn" : {
+        "glitch" : {
+          "default" : [
+            "Eager. Take them down!"
+          ]
+        }
+      },
+      "cantReach" : {
+        "glitch" : {
+          "default" : [
+            "Irritated. You cannot evade me forever, thief!",
+            "Indignant. Fight me like a man, you coward!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "atprk_elderarmorhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "coldprotectionback", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "chest" : [
+              { "name" : "atprk_elderarmorchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "atprk_elderarmorlegs", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [
+              "npcspear"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npcrocketlauncher" }
+            ]
+          }
+        ] ]
+    ]
+  },
+  
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 350.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+	"fireStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"iceStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"poisonStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"electricStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

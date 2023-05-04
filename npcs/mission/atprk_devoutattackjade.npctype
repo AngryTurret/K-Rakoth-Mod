@@ -1,0 +1,115 @@
+{
+  "type" : "atprk_devoutattackjade",
+  "baseType" : "follower",
+
+  "identity" : {
+    "name" : "Jade",
+    "gender" : "female",
+    "race" : "human"
+  },
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "follower" : {
+        "attack" : {
+          "default" : {
+            "default" : [
+              "I'll take these guys on!",
+              "Take this!",
+              "Take that!",
+              "Get over here!",
+              "You don't mess with us!",
+              "I won't let you escape!",
+              "Oh man, here we go!",
+              "Hey, I see another one!",
+              "Watch out!",
+              "Let's waste them!",
+              "Incoming!",
+              "Wait, are we doing this now? Alright.",
+              "I swear I'll make them fear us!",
+              "Oh look, more targets!",
+              "I'm not good at punchlines, so just die already!"
+            ]
+          }
+        },
+        "join" : {
+          "default" : {
+            "default" : [
+              "About time you let me out.",
+              "I didn't need your help to get out, you know.",
+              "Alright, it's time to kick some butts!"
+            ]
+          }
+        },
+        "returnFromCombat" : {
+          "default" : {
+            "default" : [
+              "Meh, could be better.",
+              "Well, that was easy.",
+              "Easy.",
+              "Are they even trying?",
+              "Next!",
+              "Not bad at all.",
+              "Okay, who's next?",
+              "I could do this all day long!",
+              "I'm not even tired yet!",
+              "Not so tough huh?",
+              "Let's move on.",
+              "Nothing to see here.",
+              "Ha, losers!",
+              "Well?",
+              "Can we go loot some crates while we're here?",
+              "I almost feel bad for them... Naaaah, just kidding."
+            ]
+          }
+        },
+        "wait" : {
+          "default" : {
+            "default" : [
+              "I got you covered, pal!",
+              "Hey, don't make me wait!",
+              "Come on, I don't have all day."
+            ]
+          }
+        },
+        "returnFromWait" : {
+          "default" : {
+            "default" : [
+              "Finally.",
+              "Alright, let's go.",
+              "Are you ready now?"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "atprk_jadenpccostumehead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "atprk_jadenpccostumechest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "atprk_jadenpccostumelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdeadbeataxe"
+            ],
+            "sheathedprimary" : [
+              "npcneopistol"
+            ],
+            "alt" : [
+              { "name" : "atprk_hardlightshield" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

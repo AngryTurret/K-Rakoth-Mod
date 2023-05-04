@@ -1,0 +1,56 @@
+{
+  "type" : "atprk_devoutattackseeker",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "novakid" : {
+          "default" : [
+            "What's all that noise? Are we in danger?",
+            "This just ain't right!",
+            "The teleporter's not workin'! We're stuck!",
+            "What's the matter? Is something wrong with power?",
+            "Sweet Cultivator, what's the meaning of this?",
+            "What happened? I think somebody's missing!",
+            "What did I miss? What's up with all these red lights?",
+            "Someone cut the power! That's not good at all!",
+            "Where're the Peacekeepers when you need 'em?!",
+            "Be careful! I think I heard some gunshots!",
+            "This can't be all that bad, right?",
+            "Oh no, we are doomed!",
+            "They came for our relics! There's no other explaination!",
+            "Not the space pirates!",
+            "Teleporter down! We're trapped!",
+            "Are you sure you can take care of this?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "chest" : [
+              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

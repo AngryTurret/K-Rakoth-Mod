@@ -1,0 +1,60 @@
+{
+  "type" : "atprk_devoutattackpetraider",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Eager. For the Lords of the Cosmos!",
+            "Fearless. Our masters protect us!",
+            "Menacing. You shall pay for your theft!",
+            "Aggressive. Messing with us was your fatal mistake!",
+            "Courageous. All your relics belong to us!",
+            "Imperious. Surrender now, hoarder!",
+            "Agressive. My war beasts shall tear you apart!",
+            "Indignant. You won't get away with this, you hoarders!",
+            "Angry. Stop right there, you heretic!",
+            "Intimidating. No mercy to hoarders!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "bearhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "shortcapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcpetcapturepod"
+            ],
+            "sheathedprimary" : [ 
+              "npcaxe",
+              "npcshortsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

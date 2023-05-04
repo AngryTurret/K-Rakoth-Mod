@@ -1,0 +1,60 @@
+{
+  "type" : "atprk_devoutattackengineer",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Alert. I see an intruder!",
+            "Hostile. No mercy for intruders!",
+            "Frightened. S-stay back!",
+            "Angry. You are not supposed to be here!",
+            "Alarmed. H-hey, get out of here!",
+            "Menacing. This wrench is heavier than it looks!",
+            "Jeering. Hey! Who do you think you are?",
+            "Imposing. Get off our spaceship, hoarder!",
+            "Annoyed. Come on, give me a break!",
+            "Intimidating. No mercy to hoarders!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "devhead", "parameters" : { "colorIndex" : [2, 5] } }, { "name" : "mininghathead", "parameters" : { "colorIndex" : [2, 5] } }, { "name" : "foundryhardhathead", "parameters" : { "colorIndex" : [2, 5] } }, { "name" : "weldershelmethead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "boilerback", "parameters" : { "colorIndex" : [2, 5] } }, { "name" : "toxicwasteback", "parameters" : { "colorIndex" : 0 } }, { "name" : "atprk_thinkingdrone", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "foundryguardchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : [2, 3] } }
+            ],
+            "legs" : [
+              { "name" : "foundrylegs", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcwrench"
+            ],
+            "sheathedprimary" : [ 
+              "npcshotgun",
+              "npcpistol"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

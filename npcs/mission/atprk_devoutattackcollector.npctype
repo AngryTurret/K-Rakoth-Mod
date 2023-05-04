@@ -1,0 +1,111 @@
+{
+  "type" : "atprk_devoutattackcollector",
+  "baseType" : "follower",
+
+  "identity" : {
+    "name" : "Relic Collector",
+    "race" : "apex"
+  },
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "follower" : {
+        "attack" : {
+          "default" : {
+            "default" : [
+              "Hands off the artifacts!",
+              "Behold! The ancient power!",
+              "I've got something just for you!",
+              "Leave, you metal creeps!",
+              "Leave us alone! What did we even do?",
+              "You have no idea who you're dealing with!",
+              "Fire!",
+              "I'm not going to die here! Not like this!",
+              "Don't let them pass any further!",
+              "Keep the distance!",
+              "Hey, stay back!",
+              "Let's see what these trinkets do!",
+              "Don't. Touch. My. RELICS!",
+              "I'm so fed up with robbers!",
+              "Attack!"
+            ]
+          }
+        },
+        "join" : {
+          "default" : {
+            "default" : [
+              "Don't worry, I'm coming with you.",
+              "What? Somebody has to watch your back.",
+              "We need to save our artifacts! Together!"
+            ]
+          }
+        },
+        "returnFromCombat" : {
+          "default" : {
+            "default" : [
+              "I got one!",
+              "I knew these relics would come in handy.",
+              "They won't take our relics away!",
+              "I think this was the last one. Unless...",
+              "Let's go!",
+              "I swear they almost got me!",
+              "Now I want to keep this gun to myself.",
+              "That's what you get for messing with us!",
+              "Look out! There could be more!",
+              "Hm, this little ghost did well...",
+              "By the way, mind if I take their weapons?",
+              "Got 'em.",
+              "Okay, who's gonna pick up all these scraps?",
+              "This'll be one Devout less.",
+              "Hey, are you alright?",
+              "Phew..."
+            ]
+          }
+        },
+        "wait" : {
+          "default" : {
+            "default" : [
+              "Alright, I'll be waiting for you.",
+              "Hurry up, please!",
+              "I'll watch your back from here."
+            ]
+          }
+        },
+        "returnFromWait" : {
+          "default" : {
+            "default" : [
+              "Go, go, go!",
+              "Let's move on.",
+              "Ah, here you are."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "atprk_relicexchangenpchat", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ],
+            "primary" : [
+              "atprk_npcerchiusspookpod"
+            ],
+            "sheathedprimary" : [
+              "atprk_anneliskpistol"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
