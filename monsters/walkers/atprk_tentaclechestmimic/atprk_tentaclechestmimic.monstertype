@@ -1,7 +1,7 @@
 {
   "type" : "atprk_tentaclechestmimic",
   "shortdescription" : "Tentamimic",
-  "description" : "Amusingly, this creature was shaped like a chest long before it was assimilated.",
+  "description" : "Disturbingly, the terraforming process has managed to convert some organic chest into a new class of ruinspawn.",
 
   "categories" : [ "atprk_tentaclechestmimic" ],
   "parts" : [ "body" ],
