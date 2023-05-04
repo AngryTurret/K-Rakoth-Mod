@@ -11,7 +11,7 @@
     "op": "add",
     "path": "/baseParameters/monsterSpawnGroups/-",
     "value": {
-      "monsters": [ "atprk_sapphase", "atprk_roxmol", "atprk_roxmol" ],
+      "monsters": [ "atprk_sapphase", "atprk_roxmol", "atprk_roxmolblue" ],
       "biome": "ice"
     }
   },
@@ -21,6 +21,14 @@
     "value": {
       "monsters": [ "atprk_oculopter", "atprk_androne", "atprk_androne" ],
       "biome": "scorchedcity"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/monsterSpawnGroups/-",
+    "value": {
+      "monsters": [ "atprk_algeist", "atprk_clamia", "atprk_clamia", "atprk_crawleech" ],
+      "biome": "ocean"
     }
   }
 ]
