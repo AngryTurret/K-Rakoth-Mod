@@ -1,0 +1,53 @@
+{
+  "objectName" : "atprk_metamorphosismodule1",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","evil"],
+  "rarity" : "Legendary",
+  "description" : "An ominous mechanism that serves an unknown purpose.",
+  "shortdescription" : "Metamorphosis Amplifier",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "light",
+  "price" : 550,
+  "lightColor" : [77, 56, 5],
+
+  "apexDescription" : "Whatever it is, it does not look safe to stay around.",
+  "avianDescription" : "This mechanism emits vile, ruinous aura.",
+  "floranDescription" : "Huge mashine doesss things Floran doesssn't undersstand.",
+  "glitchDescription" : "Cautious. Is this a deactivated turret or...?",
+  "humanDescription" : "I don't know what this is for and I'm not sure if I wish to find out.",
+  "hylotlDescription" : "One can only wonder what this mechanism does.",
+  "novakidDescription" : "Let's hope it's not a huge ray gun.",
+
+  "atprk_anneliskDescription" : "Whatever this is, it must be something really power-consuming...",
+  "atprk_fenronDescription" : "If it isn't a massive energy cannon, then I've got no idea what else it could be.",
+  "atprk_noolithDescription" : "This ancient machinery channels ruinous energy.",
+
+  "inventoryIcon" : "atprk_metamorphosismodule1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_metamorphosismodule1.png:<color>.<frame>",
+      "imagePosition" : [-32, -40],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_metamorphosismodule1.png",
+    "fg" : "atprk_metamorphosismodule1lit.png"
+  },
+  "animationPosition" : [-32, -40],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

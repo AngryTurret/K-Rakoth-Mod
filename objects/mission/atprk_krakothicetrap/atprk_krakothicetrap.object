@@ -1,0 +1,162 @@
+{
+  "objectName" : "atprk_krakothicetrap",
+  "colonyTags" : ["atprk_krakoth","evil"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A defective cooling mechanism.",
+  "shortdescription" : "K'Rakoth Cryogenic Trap",
+  "race" : "generic",
+
+  "apexDescription" : "A malfunctioning freezing mechanism.",
+  "avianDescription" : "This mechanism will freeze me if I'm not careful around it.",
+  "floranDescription" : "Cold metal thingy ssspews ice.",
+  "glitchDescription" : "Cautious. This cooling mechanism appears to be unstable.",
+  "humanDescription" : "I should probably stay away from this thing.",
+  "hylotlDescription" : "Some sort of a malfunctioning cooling machine.",
+  "novakidDescription" : "I don't think I can just cover this freezin' hole.",
+
+  "category" : "trap",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_krakothicetrapicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothicetrap.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrap.png",
+        "fg" : "atprk_krakothicetrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_krakothicetrap.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrap.png",
+        "fg" : "atprk_krakothicetrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 1.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_krakothicetrapleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrapleft.png",
+        "fg" : "atprk_krakothicetrapleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [1.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "atprk_krakothicetrapright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrapright.png",
+        "fg" : "atprk_krakothicetrapright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-0.2, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "atprk_krakothicetrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrapceiling.png",
+        "fg" : "atprk_krakothicetrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "atprk_krakothicetrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetrapceiling.png",
+        "fg" : "atprk_krakothicetrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.16, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "trapice", // name of projectile (required)
+  "projectileConfig" : { 
+    "damageTeam" : { "type" : "environment" },
+    "power" : 20,
+    "speed" : 10
+  },
+  
+  "health" : 5,
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/metalbarrel_break1.ogg", "/sfx/objects/metalbarrel_break2.ogg", "/sfx/objects/metalbarrel_break3.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "greystoneshard" } ]
+}

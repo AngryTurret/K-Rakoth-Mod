@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_woodenstand2broken",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A fallen wooden stand.",
+  "shortdescription" : "Wide Wooden Stand",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A ruined display stand.",
+  "avianDescription" : "This is unfortunate.",
+  "floranDescription" : "Fallen ssstump.",
+  "glitchDescription" : "Upset. There is nothing to display anymore.",
+  "humanDescription" : "What a mess.",
+  "hylotlDescription" : "How inconsiderate.",
+  "novakidDescription" : "Who's gonna clean this up?",
+
+  "inventoryIcon" : "atprk_woodenstand2brokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_woodenstand2broken.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

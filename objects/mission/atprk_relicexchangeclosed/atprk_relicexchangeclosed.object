@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_relicexchangeclosed",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "printable" : false,
+  "description" : "The ship must be saved before trading artifacts.",
+  "shortdescription" : "Closed Relic Exchange",
+  "race" : "generic",
+
+  "apexDescription" : "I don't have time for this.",
+  "avianDescription" : "Until the ship is safe, I shouldn't distract myself.",
+  "floranDescription" : "Floran mussst go, no time for relicss!",
+  "glitchDescription" : "Serious. Saving the ship is my top priority!",
+  "humanDescription" : "I should probably save the ship before trading artifacts.",
+  "hylotlDescription" : "I ought to focus on saving the ship. The ancient relics can wait a bit.",
+  "novakidDescription" : "Ain't the right time t' trade ancient doodads!",
+
+  "inventoryIcon" : "atprk_relicexchangeclosedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicexchangeclosed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

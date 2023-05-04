@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_crateunpackerclosed",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A hollow cargo crate. Smells like fish and gunpowder.",
+  "shortdescription" : "Closed Crate Unpacker",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "I could probably use this as a cover.",
+  "avianDescription" : "Where did the little penguin go?",
+  "floranDescription" : "Boxesss sstay locked until Floran ssaves everyone.",
+  "glitchDescription" : "Concerned. Hello? Is anyone here?",
+  "humanDescription" : "I hope that penguin merchant is fine.",
+  "hylotlDescription" : "It seems that there is no one inside.",
+  "novakidDescription" : "Hey, where's the lil' fella?",
+
+  "inventoryIcon" : "atprk_crateunpackerclosedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_crateunpackerclosed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

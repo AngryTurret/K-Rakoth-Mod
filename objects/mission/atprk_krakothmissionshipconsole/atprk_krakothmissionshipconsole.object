@@ -1,0 +1,79 @@
+{
+  "objectName" : "atprk_krakothmissionshipconsole",
+  "colonyTags" : ["atprk_krakoth","electronic","wired"],
+  "rarity" : "Legendary",
+  "description" : "This console should allow me to control some of the ship's systems.",
+  "shortdescription" : "Elder Captain's Console",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 450,
+  "lightColor" : [108, 28, 73],
+  
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.975,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "This advanced console should give me access to various ship systems.",
+  "avianDescription" : "I can disable this ship's inhibitors and undock the carriage from here.",
+  "floranDescription" : "Huge consssole turnsss many thingss on and off.",
+  "glitchDescription" : "Neutral. A ship captain's console connected to various crucial systems.",
+  "humanDescription" : "Now I can finally turn the inhibitors off and go back to ST Syllectis.",
+  "hylotlDescription" : "This large console should allow me to turn the inhibitors off and go back to the Relic Seekers' ship.",
+  "novakidDescription" : "A heavy-lookin' console for sure. Gotta turn buncha stuff off!",
+
+  "inventoryIcon" : "atprk_krakothmissionshipconsoleicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothmissionshipconsole.png:<color>.on",
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "flipImages" : true,
+      "direction" : "left",
+
+      "lightPosition" : [-1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_krakothmissionshipconsole.png:<color>.on",
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "atprk_krakothmissionshipconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk_krakothmissionshipconsole.png",
+    "fg" : "atprk_krakothmissionshipconsolelit.png"
+  },
+
+  "turnInQuests" : [
+    "atprk_relicsearchmission1"
+  ],
+
+  "outputNodes" : [ [0, 1] ],
+
+  "uniqueId" : "atprk_krakothmissionshipconsole"
+}

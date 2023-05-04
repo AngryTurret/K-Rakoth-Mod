@@ -1,0 +1,68 @@
+{
+  "objectName" : "atprk_cultistpropshop",
+  "colonyTags" : ["cultist","evil","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A former Occasus member who sells cult-themed wares.",
+  "shortdescription" : "Occasus Warehouse",
+  "race" : "generic",
+  "printable" : false,
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Occasus Warehouse",
+        "subtitle" : "Praise the Ruin"
+      }
+    },
+    "buyFactor" : 5.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "cultistbannerlarge" },
+      { "item" : "cultistchestlarge" },
+      { "item" : "cultistdoor" },
+      { "item" : "cultistairlockbossdoor" },
+      { "item" : "cultistairlockhatch" },
+      { "item" : { "name" : "atprk_betacultisthood" }, "prerequisiteQuest" : "atprk_betastarmapquest" }
+    ]
+  },
+
+  "apexDescription" : "A friendly cultist who sells Occasus furniture.",
+  "avianDescription" : "This hooded merchant sells all sorts of occult items previously owned by the Occasus.",
+  "floranDescription" : "Ssstore where Floran can buy cultisst thingsss.",
+  "glitchDescription" : "Unimpressed. Most of the items sold here lack in quality. I don't think this cultist will earn a lot.",
+  "humanDescription" : "Hey, I think I've met this particular cultist before!... Actually, nevermind.",
+  "hylotlDescription" : "Now that the Occasus is defeated, its ex-members have to do something else for the living.",
+  "novakidDescription" : "A hooded fella sellin' all sorts o' cult decorations.",
+
+  "inventoryIcon" : "atprk_cultistpropshopicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_cultistpropshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_cultistpropshoplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 41,
+      "animationCycle" : 3.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_cultistpropshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_cultistpropshoplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 41,
+      "animationCycle" : 3.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

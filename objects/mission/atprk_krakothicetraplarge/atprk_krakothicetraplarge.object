@@ -1,0 +1,92 @@
+{
+  "objectName" : "atprk_krakothicetraplarge",
+  "colonyTags" : ["atprk_krakoth","evil"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A timed ice barrier generator.",
+  "shortdescription" : "K'Rakoth Cryogenic Blaster",
+  "race" : "generic",
+
+  "apexDescription" : "A deadly ice barrier generator.",
+  "avianDescription" : "This machine creates an icy pillar.",
+  "floranDescription" : "Not sssolid but very cold wall.",
+  "glitchDescription" : "Cautious. A freezing barrier.",
+  "humanDescription" : "An icy barrier generator.",
+  "hylotlDescription" : "A timed cryogenic barrier generator.",
+  "novakidDescription" : "A huge gizmo makin' walls o' pure frost.",
+
+  "category" : "trap",
+  "price" : 0,
+
+  "inventoryIcon" : "atprk_krakothicetraplargeicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothicetraplarge.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-32, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetraplarge.png",
+        "fg" : "atprk_krakothicetraplarge.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 6],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_krakothicetraplarge.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [-32, 0],
+      "animationParts" : {
+        "bg" : "atprk_krakothicetraplarge.png",
+        "fg" : "atprk_krakothicetraplarge.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 6],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [0, 0, 0],
+
+  "fireTime" : 3,
+  "fireTimeVariance" : 0.0,
+  "projectile" : "freezetrapbeam",
+  "projectileConfig" : {
+    "damageType" : "Environment",
+    "power" : 0
+  },
+  
+  "health" : 10,
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "greystoneshard" } ]
+}

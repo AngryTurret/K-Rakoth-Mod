@@ -1,0 +1,40 @@
+{
+  "objectName" : "atprk_relicseekerhqteleporteroff2",
+  "colonyTags" : ["atprk_relicseeker","misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "A deactivated brass teleporter. I can't use it yet.",
+  "shortdescription" : "Disabled Teleporter",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "This teleporter is disabled at the moment.",
+  "avianDescription" : "I cannot use this teleporter yet.",
+  "floranDescription" : "Teleporter isss off. Floran mussst wait.",
+  "glitchDescription" : "Neutral. An inactive teleporter.",
+  "humanDescription" : "I can't enable this teleporter yet.",
+  "hylotlDescription" : "Unfortunately, I cannot use this teleporter right now.",
+  "novakidDescription" : "This teleporter's not workin'. Not much else t' say here.",
+
+  "category" : "teleporter",
+
+  "inventoryIcon" : "atprk_relicseekerhqteleporteroff2icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_relicseekerhqteleporteroff2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 10,
+
+  "teleporterFootPosition" : [0, 1]
+
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_relicseekerdisplaysmashed",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A smashed display. Whatever it used to display is gone now.",
+  "shortdescription" : "Smashed Relic Display",
+  "race" : "generic",
+
+  "apexDescription" : "A smashed display.",
+  "avianDescription" : "What a treachery!",
+  "floranDescription" : "Thievesss!",
+  "glitchDescription" : "Cautious. It seems that there are robbers somewhere.",
+  "humanDescription" : "Uh-oh, something was stolen!",
+  "hylotlDescription" : "Some people just don't bother to pay any respect to someone else's hard work.",
+  "novakidDescription" : "Hey, is it me or is there somethin' missin'?",
+
+
+  "inventoryIcon" : "atprk_relicseekerdisplaysmashedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicseekerdisplaysmashed.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

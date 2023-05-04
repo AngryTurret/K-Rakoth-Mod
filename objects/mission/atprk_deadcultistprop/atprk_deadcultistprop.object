@@ -17,6 +17,10 @@
   "hylotlDescription" : "Although they worshipped the Ruin, I don't think they deserved such a horrible fate.",
   "novakidDescription" : "I kinda feel bad for that cultist.",
 
+  "atprk_anneliskDescription" : "Oh well, at least they won't pester me.",
+  "atprk_fenronDescription" : "This weakling clearly took on somebody out of their league.",
+  "atprk_noolithDescription" : "Rest in peace, stranger.",
+
 
   "inventoryIcon" : "atprk_deadcultistpropicon.png",
   "orientations" : [
