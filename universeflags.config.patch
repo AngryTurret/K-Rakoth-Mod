@@ -83,6 +83,32 @@
   },
   {
     "op": "add",
+    "path": "/atprk_relicseekerhq_mechbayflag",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_mechbayopen",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [289, 890]
+      },
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_shipdamage1",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [361, 871]
+      },
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_shipdamage2",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [274, 868]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
     "path": "/atprk_relicseekerhq_vaultraiderflag",
     "value": {
           "actions": [

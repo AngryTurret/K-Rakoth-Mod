@@ -20,6 +20,14 @@
     },
     {
       "op" : "add",
+      "path" : "/terrestrialHorizonGraphics/atprk_chthonianmoon",
+      "value" : {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/atprk_chthonianmoon_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op" : "add",
       "path" : "/terrestrialHorizonGraphics/atprk_ruinedworld",
       "value" : {
         "baseImages" : "/celestial/system/terrestrial/horizon/textures/atprk_ruinedworld_<selector>.png",
@@ -50,6 +58,16 @@
     },
     {
       "op" : "add",
+      "path" : "/terrestrialGraphics/atprk_chthonianmoon",
+      "value" : {
+        "baseImages" : "/celestial/system/terrestrial/biomes/atprk_chthonianmoon/maskie<num>.png",
+        "liquidImages" : "",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 50]
+      }
+    },
+    {
+      "op" : "add",
       "path" : "/terrestrialGraphics/atprk_ruinedworld",
       "value" : {
         "baseImages" : "/celestial/system/terrestrial/biomes/atprk_ruinedworld/maskie<num>.png",
@@ -72,6 +90,11 @@
       "op" : "add",
       "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
       "value" : "atprk_ashworld"
+    },
+    {
+      "op" : "add",
+      "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+      "value" : "atprk_chthonianmoon"
     }
   ],
 
@@ -105,6 +128,11 @@
       "op" : "add",
       "path" : "/satelliteTypes/HotNSat/baseParameters/terrestrialType/-",
       "value" : "atprk_ashworld"
+    },
+    {
+      "op" : "add",
+      "path" : "/satelliteTypes/SpicyNSat/baseParameters/terrestrialType/-",
+      "value" : "atprk_chthonianmoon"
     }
   ]
 ]

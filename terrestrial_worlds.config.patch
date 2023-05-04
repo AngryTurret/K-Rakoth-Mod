@@ -54,6 +54,39 @@
   },
   {
     "op" : "add",
+    "path" : "/planetTypes/atprk_chthonianmoon",
+    "value" : {
+      "gravityRange" : [120, 120],
+      "threatRange" : [6, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["atprk_chthonianmoon"],
+          "secondaryRegions" : [ "atprk_chthonianswamp" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : ["atprk_chthonianunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["atprk_chthonianunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["atprk_chthoniancaves"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["atprk_chthoniandepths"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["atprk_chthoniancorelayer"],
+          "baseHeight" : 150
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
     "path" : "/planetTypes/atprk_ruinedworld",
     "value" : {
       "threatRange" : [7, 7],
@@ -103,6 +136,26 @@
   },
 {
     "op" : "add",
+    "path" : "/regionTypes/shallowunderground/subRegion/-",
+    "value" : "atprk_ambercaves"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/shallowunderground/subRegion/-",
+    "value" : "atprk_grosscatacombs"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/midunderground/subRegion/-",
+    "value" : "atprk_bluecaves"
+  },
+{
+    "op" : "add",
+    "path" : "/regionTypes/midunderground/subRegion/-",
+    "value" : "atprk_irradiatedroots"
+  },
+{
+    "op" : "add",
     "path" : "/regionTypes/deepunderground/subRegion/-",
     "value" : "atprk_deepnecropolis"
   },
@@ -113,18 +166,8 @@
   },
 {
     "op" : "add",
-    "path" : "/regionTypes/shallowunderground/subRegion/-",
-    "value" : "atprk_ambercaves"
-  },
-{
-    "op" : "add",
-    "path" : "/regionTypes/midunderground/subRegion/-",
-    "value" : "atprk_bluecaves"
-  },
-{
-    "op" : "add",
-    "path" : "/regionTypes/shallowunderground/subRegion/-",
-    "value" : "atprk_grosscatacombs"
+    "path" : "/regionTypes/deepunderground/subRegion/-",
+    "value" : "atprk_flattenedhulls"
   },
 
   {
@@ -196,6 +239,78 @@
         [0, [ "atprk_ashworld" ]]
       ],
       "subRegion" : ["atprk_amber", "atprk_forgottenmountains", "tar"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_ashylakes",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidSeedDensityRange" : [20, 20],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_ashylakes" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_amber",
+    "value" : {
+      "caveLiquid" : [ "tarliquid", "swampwater" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_amber" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_forgottenmountains",
+    "value" : {
+      "caveLiquid" : [ "swampwater" ],
+      "blockSelector" : [ "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_forgottenmountains" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthonianmoon",
+    "value" : {
+      "caveLiquid" : [ "fuel" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_chthonianmoon" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthonianswamp",
+    "value" : {
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidSeedDensityRange" : [20, 20],
+      "encloseLiquids" : true,
+      "blockSelector" : [ "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "atprk_chthonianswamp" ]]
+      ]
     }
   },
   {
@@ -307,50 +422,6 @@
   },
   {
     "op" : "add",
-    "path" : "/regionTypes/atprk_ashylakes",
-    "value" : {
-      "caveLiquid" : [ "lava" ],
-      "caveLiquidSeedDensityRange" : [20, 20],
-      "encloseLiquids" : true,
-      "blockSelector" : [ "remixedPoolsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgCaveSelector" : [ "empty" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [
-        [0, [ "atprk_ashylakes" ]]
-      ]
-    }
-  },
-  {
-    "op" : "add",
-    "path" : "/regionTypes/atprk_amber",
-    "value" : {
-      "caveLiquid" : [ "tarliquid", "swampwater" ],
-      "blockSelector" : [ "remixedMildSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgCaveSelector" : [ "empty" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [
-        [0, [ "atprk_amber" ]]
-      ]
-    }
-  },
-  {
-    "op" : "add",
-    "path" : "/regionTypes/atprk_forgottenmountains",
-    "value" : {
-      "caveLiquid" : [ "swampwater" ],
-      "blockSelector" : [ "remixedMountainsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgCaveSelector" : [ "empty" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [
-        [0, [ "atprk_forgottenmountains" ]]
-      ]
-    }
-  },
-  {
-    "op" : "add",
     "path" : "/regionTypes/atprk_deepnecropolis",
     "value" : {
       "caveLiquid" : [ "healingliquid" ],
@@ -376,6 +447,26 @@
       "caveLiquid" : [ "tarliquid", "swampwater" ],
       "biome" : [
         [0, [ "atprk_ambercaves" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_irradiatedroots",
+    "value" : {
+      "caveLiquid" : [ "poison", "slimeliquid" ],
+      "biome" : [
+        [0, [ "atprk_irradiatedroots" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_flattenedhulls",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "biome" : [
+        [0, [ "atprk_flattenedhulls" ]]
       ]
     }
   },
@@ -411,6 +502,26 @@
   },
   {
     "op" : "add",
+    "path" : "/regionTypes/atprk_rottensanctum",
+    "value" : {
+      "caveLiquid" : [ "poison" ],
+      "biome" : [
+        [0, [ "atprk_rottensanctum" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_cryonicvents",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "biome" : [
+        [0, [ "atprk_cryonicvents" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
     "path" : "/regionTypes/atprk_humidunderground",
     "value" : {
       "caveLiquid" : [ "water" ],
@@ -418,7 +529,60 @@
       "biome" : [
         [0, [ "atprk_humidunderground1", "atprk_humidunderground2", "atprk_humidunderground3" ]]
       ],
-      "subRegion" : ["atprk_chthoniccomplex"]
+      "subRegion" : ["atprk_chthoniccomplex", "atprk_rottensanctum", "atprk_cryonicvents"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthonianunderground",
+    "value" : {
+      "fgCaveSelector" : [ "moonCaves" ],
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidSeedDensityRange" : [3.5, 3.5],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "biome" : [
+        [0, [ "atprk_chthonianunderground" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthoniancaves",
+    "value" : {
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "biome" : [
+        [0, [ "atprk_chthoniancaves" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthoniandepths",
+    "value" : {
+      "caveLiquid" : [ ],
+      "fgCaveSelector" : [ "empty" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "biome" : [
+        [0, [ "atprk_chthoniandepths" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/atprk_chthoniancorelayer",
+    "value" : {
+      "fgCaveSelector" : [ "empty" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "subBlockSelector" : [ "lowHillsSurface" ],
+      "biome" : [
+        [0, [ "atprk_chthoniancorelayer" ]]
+      ]
     }
   },
   {

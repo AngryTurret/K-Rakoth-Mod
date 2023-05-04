@@ -26,5 +26,43 @@
   { "op" : "add",
 	"path" : "/defaultBlueprints/tier1/-",
 	"value" : { "item" : "atprk-4dperfect" }
+  },
+
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_terraformerruined" }
+  },
+
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_amberoid"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_devouttrifangle"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_krakothspaceturret"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_krakothspacemine"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_infinitemazepsiloi"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_infinitemazeaspis"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_infinitemazepestalt"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_infinitemazehoplite"
   }
 ]

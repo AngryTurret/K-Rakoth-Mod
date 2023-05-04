@@ -21,6 +21,16 @@
 	},
 	{
 		"op":"add",
+		"path":"/atprk_chthonianmoon",
+		"value" : [
+			[0.7, "clear"],
+			[0.23, "glowingrain"],
+			[0.05, "meteorshower"],
+			[0.02, "largemeteor"]
+		]
+	},
+	{
+		"op":"add",
 		"path":"/atprk_ruinedworld",
 		"value" : [
 			[0.50, "clear"],

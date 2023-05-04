@@ -35,8 +35,106 @@
     "environmentStatusEffects" : ["dontstarve"],
     "biome" : "atprk_relicseekerhqbiome"
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_devoutattackmission",
+    "value" : {
+      "primaryDungeon" : "atprk_devoutattackmission",
+    "threatLevel" : 6,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/desert-battle-2.ogg",
+    "environmentStatusEffects" : ["dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "atprk_relicseekerhqbiome"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_infinitemaze",
+    "value" : {
+      "primaryDungeon" : "atprk_infinitemaze",
+    "threatLevel" : 8,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/event-horizon.ogg",
+    "environmentStatusEffects" : ["dontstarve"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_infinitemazealt",
+    "value" : {
+      "primaryDungeon" : "atprk_infinitemazealt",
+    "threatLevel" : 8,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/event-horizon.ogg",
+    "environmentStatusEffects" : ["dontstarve"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_infinitemazealtalt",
+    "value" : {
+      "primaryDungeon" : "atprk_infinitemazealtalt",
+    "threatLevel" : 8,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/event-horizon.ogg",
+    "environmentStatusEffects" : ["dontstarve"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_infinitemazeshop",
+    "value" : {
+      "primaryDungeon" : "atprk_infinitemazeshop",
+    "threatLevel" : 8,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/event-horizon.ogg",
+    "environmentStatusEffects" : ["dontstarve"]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_infinitemazevaultroom",
+    "value" : {
+      "primaryDungeon" : "atprk_infinitemazevaultroom",
+    "threatLevel" : 8,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/temple-of-kluex.ogg",
+    "environmentStatusEffects" : ["dontstarve"]
+    }
   }
-
 
 ]
 
