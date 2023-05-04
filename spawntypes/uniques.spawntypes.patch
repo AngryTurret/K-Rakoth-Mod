@@ -11,9 +11,9 @@
       },
       "spawnChance" : 0.05,
       "monsterType" : [
-      [0.99, "atprk_shruberserk"],
-      [0.01, "atprk_shruberserkrare"]
-    ],
+        [0.99, "atprk_shruberserk"],
+        [0.01, "atprk_shruberserkrare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -31,9 +31,9 @@
       },
       "spawnChance" : 0.08,
       "monsterType" : [
-      [0.99, "atprk_hungertrictus"],
-      [0.01, "atprk_hungertrictusrare"]
-    ],
+        [0.99, "atprk_hungertrictus"],
+        [0.01, "atprk_hungertrictusrare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -51,9 +51,12 @@
       },
       "spawnChance" : 0.1,
       "monsterType" : [
-      [0.99, "atprk_roxmol"],
-      [0.01, "atprk_roxmolrare"]
-    ],
+        [0.25, "atprk_roxmol"],
+        [0.25, "atprk_roxmolblue"],
+        [0.24, "atprk_roxmolgreen"],
+        [0.25, "atprk_roxmolpurple"],
+        [0.01, "atprk_roxmolrare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -71,9 +74,10 @@
       },
       "spawnChance" : 0.02,
       "monsterType" : [
-      [0.99, "atprk_sapphase"],
-      [0.01, "atprk_sapphaserare"]
-    ],
+        [0.80, "atprk_sapphase"],
+        [0.19, "atprk_sapphaseillusionist"],
+        [0.01, "atprk_sapphaserare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -91,9 +95,10 @@
       },
       "spawnChance" : 0.02,
       "monsterType" : [
-      [0.99, "atprk_oculopter"],
-      [0.01, "atprk_oculopterrare"]
-    ],
+        [0.80, "atprk_oculopter"],
+        [0.19, "atprk_oculoptercamo"],
+        [0.01, "atprk_oculopterrare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -111,9 +116,9 @@
       },
       "spawnChance" : 0.08,
       "monsterType" : [
-      [0.99, "atprk_androne"],
-      [0.01, "atprk_andronerare"]
-    ],
+        [0.99, "atprk_androne"],
+        [0.01, "atprk_andronerare"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -132,9 +137,9 @@
       "groupSize" : [1, 2],
       "spawnChance" : 0.1,
       "monsterType" : [
-      [0.99, "atprk_ambryo"],
-      [0.01, "atprk_ambryorare"]
-    ],
+        [0.99, "atprk_ambryo"],
+        [0.01, "atprk_ambryorare"]
+      ],
       "monsterParameters" : {
         "aggressive" : false
       }
@@ -150,13 +155,13 @@
         "region" : "exposed",
         "time" : "night"
       },
-      "spawnChance" : 0.02,
+      "spawnChance" : 0.01,
       "monsterType" : [
-      [0.99, "atprk_xenoprobe"],
-      [0.01, "atprk_xenoproberare"]
-    ],
+        [0.99, "atprk_xenoprobe"],
+        [0.01, "atprk_xenoproberare"]
+      ],
       "monsterParameters" : {
-        "aggressive" : true
+        "aggressive" : false
       }
     }
   },
@@ -172,9 +177,154 @@
       },
       "spawnChance" : 0.01,
       "monsterType" : [
-      [0.99, "atprk_xenoprobe"],
-      [0.01, "atprk_xenoproberare"]
-    ],
+        [0.99, "atprk_xenoprobe"],
+        [0.01, "atprk_xenoproberare"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_duodung",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.05,
+      "monsterType" : [
+        [0.99, "atprk_duodung"],
+        [0.01, "atprk_duodungrare"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_clamia",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "groupSize" : [1, 2],
+      "spawnChance" : 0.08,
+      "monsterType" : [
+        [0.99, "atprk_clamia"],
+        [0.01, "atprk_clamiarare"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_crawleech",
+	  "spawnParameters" : {
+		"area" : "ceiling",
+        "region" : "enclosed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.06,
+      "monsterType" : [
+        [0.99, "atprk_crawleech"],
+        [0.01, "atprk_crawleechrare"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_algeist",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : [
+        [0.99, "atprk_algeist"],
+        [0.01, "atprk_algeistrare"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_clamiarottensanctum",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "groupSize" : [1, 2],
+      "spawnChance" : 0.08,
+      "monsterType" : [
+        [0.94, "atprk_clamia"],
+        [0.01, "atprk_clamiarare"],
+        [0.05, "tentacleclam"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_crawleechrottensanctum",
+	  "spawnParameters" : {
+		"area" : "ceiling",
+        "region" : "enclosed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.06,
+      "monsterType" : [
+        [0.94, "atprk_crawleech"],
+        [0.01, "atprk_crawleechrare"],
+        [0.05, "tentaclecrawler"]
+      ],
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_algeistrottensanctum",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : [
+        [0.94, "atprk_algeist"],
+        [0.01, "atprk_algeistrare"],
+        [0.05, "tentacleghost"]
+      ],
       "monsterParameters" : {
         "aggressive" : true
       }
@@ -190,8 +340,8 @@
         "region" : "all",
         "time" : "all"
       },
-      "spawnChance" : 0.08,
       "groupSize" : [1, 2],
+      "spawnChance" : 0.08,
       "monsterType" : "atprk_lunarcrustoise",
       "monsterParameters" : {
         "aggressive" : true
@@ -206,6 +356,23 @@
 	  "spawnParameters" : {
 		"area" : "air",
         "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_erchiusspook",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_erchiusspookchthonian",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
         "time" : "all"
       },
       "spawnChance" : 0.02,
@@ -301,6 +468,75 @@
       },
       "spawnChance" : 0.01,
       "monsterType" : "atprk_krakothmine",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_krakothspacemine",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_krakothspacemine",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_tentaclechestmimic",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.01,
+      "monsterType" : "atprk_tentaclechestmimic",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_triplod",
+	  "spawnParameters" : {
+		"area" : "ceiling",
+        "region" : "enclosed",
+        "time" : "all"
+      },
+      "groupSize" : [1, 2],
+      "spawnChance" : 0.06,
+      "monsterType" : "triplod",
+      "monsterParameters" : {
+        "aggressive" : true
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_parasprite",
+	  "spawnParameters" : {
+		"area" : "air",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "parasprite",
       "monsterParameters" : {
         "aggressive" : true
       }

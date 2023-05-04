@@ -37,6 +37,142 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_fenronscabcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_fenronscabcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_biteyflowercritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_biteyflowercritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_floatingshardcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_floatingshardcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_androneminicritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_androneminicritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_drillcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_drillcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_seapigcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_seapigcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_meteorollcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "day"
+      },
+      "spawnChance" : 0.15,
+      "monsterType" : "atprk_meteorollcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_erchiuswhispercritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_erchiuswhispercritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_tinyufocritter",
 	  "spawnParameters" : {
 		"area" : "surface",
