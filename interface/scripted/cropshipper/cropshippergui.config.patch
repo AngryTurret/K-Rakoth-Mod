@@ -1,0 +1,67 @@
+[
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_ambergine"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_exoticstarfish"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_ruinousbulb"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_traproot"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_prehistoricpasta"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_cookedtraproot"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_sanguinesalad"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_stuffedflytrap"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_venusbite"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_venuskiss"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_deepseasteak"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_starfishsushi"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
+    "value": "atprk_stellarsauce"
+  }
+]

@@ -40,6 +40,25 @@
     },
     {
       "op" : "add",
+      "path" : "/visitableTypeDescription/atprk_chthonianmoon",
+      "value" : [
+        "This exotic moon appears to be a ^#68878e;former core^white; of a gas giant: its dense surface is rich in fuel and metals. ^red;A lack of breathable atmosphere^white; and ^red;extreme gravity^white; however necessitate caution.",
+        "The beam site is a ^#68878e;chthonian^white; terrain with ^red;no breatheable atmosphere^white;. On top of that, its metallic composition is responsible for ^red;increased gravity^white;.",
+        "This ^#68878e;chthonian^white; moon contains dense deposits of fuel and metals ready for extraction. As a downside, its ^red;intense gravity^white; will most likely crush your body."
+      ]
+    },
+    {
+      "op" : "add",
+      "path" : "/planetTypeNames/atprk_chthonianmoon",
+      "value" : "Chthonian"
+    },
+    {
+      "op" : "add",
+      "path" : "/planetTypeColors/atprk_chthonianmoon",
+      "value" : [104, 135, 142]
+    },
+    {
+      "op" : "add",
       "path" : "/visitableTypeDescription/atprk_ruinedworld",
       "value" : [
         "After a successful process of hostile terraforming, this planet has become a new host for ^#641929;the Ruin^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
