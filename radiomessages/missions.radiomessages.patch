@@ -15,7 +15,7 @@
       "path": "/atprk_devoutattackmessage02a",
       "value": {
         "type" : "mission",
-        "text" : "Stressful. We're under attack! The Glitch Devouts have hacked our systems and board the train!",
+        "text" : "Stressful. We're under attack! The Glitch Devouts have hacked our systems and boarded the train!",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
       }
@@ -55,7 +55,7 @@
       "path": "/atprk_devoutattackmessage04a",
       "value": {
         "type" : "mission",
-        "text" : "It seems that the Glitch Devouts have somehow acquired a derelict K'Rakothan vessel and use its inhibitors to disable our teleporters."
+        "text" : "It seems that the Glitch Devouts have somehow acquired a derelict K'Rakothan vessel and are using its inhibitors to disable our teleporters."
       }
   },
   {
