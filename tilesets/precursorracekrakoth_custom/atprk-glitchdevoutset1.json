@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-glitchtower",
  "spacing":0,
- "tilecount":33,
+ "tilecount":38,
  "tileheight":88,
  "tileproperties":
     {
@@ -267,6 +267,56 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_forgottenstandard",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "\/\/description":"An old-fashioned chair once used by brave spacefarers.",
+         "\/\/name":"atprk_betacaptainschair",
+         "\/\/shortdescription":"Oldschool Captain's Chair",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_betacaptainschair",
+         "tilesetDirection":"right"
+        },
+     "34":
+        {
+         "\/\/description":"An emptied material dispensing pod.",
+         "\/\/name":"atprk_betadungeonpod",
+         "\/\/shortdescription":"Oldschool Dispensing Pod",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"atprk_betadungeonpod",
+         "tilesetDirection":"right"
+        },
+     "35":
+        {
+         "\/\/description":"How did this even make it so far?",
+         "\/\/name":"atprk_betashiplockeralt",
+         "\/\/shortdescription":"Oldschool Storage Locker",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_betashiplockeralt",
+         "tilesetDirection":"right"
+        },
+     "36":
+        {
+         "\/\/description":"This panel could be used instead of colony deeds.",
+         "\/\/name":"atprk_betaspawner",
+         "\/\/shortdescription":"Oldschool Spawner",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_betaspawner",
+         "tilesetDirection":"right"
+        },
+     "37":
+        {
+         "\/\/description":"A locker that cannot be unlocked.",
+         "\/\/name":"atprk_betashiplockerprop",
+         "\/\/shortdescription":"Oldschool Shiplocker",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_betashiplockerprop",
          "tilesetDirection":"right"
         },
      "4":
@@ -589,6 +639,56 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "33":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "34":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "35":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "4":
         {
          "\/\/description":"string",
@@ -813,6 +913,36 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenstandard.png",
          "imageheight":40,
          "imagewidth":16
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betacaptainschair.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betadungeonpod.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betashiplockeralt.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betaspawner.png",
+         "imageheight":40,
+         "imagewidth":16
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betashiplockerprop.png",
+         "imageheight":24,
+         "imagewidth":32
         },
      "4":
         {

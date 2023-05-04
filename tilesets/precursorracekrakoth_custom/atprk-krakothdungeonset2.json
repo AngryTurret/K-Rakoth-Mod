@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-rishaanchurch",
  "spacing":0,
- "tilecount":40,
+ "tilecount":43,
  "tileheight":96,
  "tileproperties":
     {
@@ -337,6 +337,30 @@
          "\/\/name":"atprk_krakothmetal",
          "\/\/shortdescription":"Eldritch Metal Block",
          "material":"atprk_krakothmetal"
+        },
+     "40":
+        {
+         "\/\/description":"A mass of decomposing tentacles. Needless to say, it smells.",
+         "\/\/name":"atprk_deadtentacleblock",
+         "\/\/shortdescription":"Dead Tentacle Cluster",
+         "material":"atprk_deadtentacleblock"
+        },
+     "41":
+        {
+         "\/\/description":"A pile of sinister eyes.",
+         "\/\/name":"atprk_ruineyepiles",
+         "\/\/shortdescription":"Pile of Ruinous Eyes",
+         "material":"atprk_ruineyepiles"
+        },
+     "42":
+        {
+         "\/\/description":"A shiny ornate chest.",
+         "\/\/name":"atprk-gildedchest",
+         "\/\/shortdescription":"Gilded Chest",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-gildedchest",
+         "tilesetDirection":"right"
         },
      "5":
         {
@@ -715,6 +739,30 @@
          "\/\/shortdescription":"string",
          "material":"string"
         },
+     "40":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "41":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "42":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -975,6 +1023,24 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmetal.png",
          "imageheight":8,
          "imagewidth":8
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_deadtentacleblock.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "41":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_ruineyepiles.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "42":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-gildedchest.png",
+         "imageheight":16,
+         "imagewidth":16
         },
      "5":
         {

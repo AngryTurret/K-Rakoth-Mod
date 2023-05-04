@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":52,
+ "tilecount":80,
  "tileheight":96,
  "tileproperties":
     {
@@ -469,12 +469,191 @@
          "object":"atprk-krakothshipgreeble3",
          "tilesetDirection":"right"
         },
+     "52":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"atprk-krakothsmallboosterflame",
+         "\/\/shortdescription":"Damaging Small Booster Flame",
+         "imagePositionX":"-16",
+         "imagePositionY":"-24",
+         "object":"atprk-krakothsmallboosterflame",
+         "tilesetDirection":"right"
+        },
+     "53":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"atprk-krakothsmallboosterflame_orientation2",
+         "\/\/shortdescription":"Damaging Small Booster Flame",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothsmallboosterflame",
+         "tilesetDirection":"right"
+        },
+     "54":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"atprk-krakothboosterflame",
+         "\/\/shortdescription":"Damaging Booster Flame",
+         "imagePositionX":"-40",
+         "imagePositionY":"-32",
+         "object":"atprk-krakothboosterflame",
+         "tilesetDirection":"right"
+        },
+     "55":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"atprk-krakothbigboosterflame",
+         "\/\/shortdescription":"Damaging Booster Flame",
+         "imagePositionX":"-32",
+         "imagePositionY":"-32",
+         "object":"atprk-krakothbigboosterflame",
+         "tilesetDirection":"right"
+        },
+     "56":
+        {
+         "\/\/description":"A durable canister that seemingly freezes time within itself.",
+         "\/\/name":"atprk-krakothstasiscanister",
+         "\/\/shortdescription":"Elder Stasis Canister",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"atprk-krakothstasiscanister",
+         "tilesetDirection":"right"
+        },
+     "57":
+        {
+         "\/\/description":"A durable canister that seemingly freezes time within itself.",
+         "\/\/name":"atprk-krakothstasiscanisteralt",
+         "\/\/shortdescription":"Elder Stasis Canister",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"atprk-krakothstasiscanisteralt",
+         "tilesetDirection":"right"
+        },
+     "58":
+        {
+         "\/\/description":"A metallic Captain's chair.",
+         "\/\/name":"atprk-eldritchcaptainchair",
+         "\/\/shortdescription":"Elder Captain's Chair",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchcaptainchair",
+         "tilesetDirection":"right"
+        },
+     "59":
+        {
+         "\/\/description":"An extra-large metal chair for extra-large people.",
+         "\/\/name":"atprk-eldritchcaptainchairlarge",
+         "\/\/shortdescription":"Large Elder Captain's Chair",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchcaptainchairlarge",
+         "tilesetDirection":"right"
+        },
      "6":
         {
          "\/\/description":"A sturdy ancient platform.",
          "\/\/name":"atprk_krakothplatform",
          "\/\/shortdescription":"Eldritch Platform",
          "material":"atprk_krakothplatform"
+        },
+     "60":
+        {
+         "\/\/description":"This guidance beacon marks the position of a landing bay.",
+         "\/\/name":"atprk-krakothmechbeacon",
+         "\/\/shortdescription":"Elder Landing Beacon",
+         "imagePositionX":"-16",
+         "imagePositionY":"-16",
+         "object":"atprk-krakothmechbeacon",
+         "tilesetDirection":"right"
+        },
+     "61":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk-krakothdockingfield",
+         "\/\/shortdescription":"Elder Docking Field",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-krakothdockingfield",
+         "tilesetDirection":"right"
+        },
+     "62":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk-krakothdockingfield_orientation2",
+         "\/\/shortdescription":"Elder Docking Field",
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"atprk-krakothdockingfield",
+         "tilesetDirection":"right"
+        },
+     "63":
+        {
+         "\/\/description":"An ancient airlock door.",
+         "\/\/name":"atprk-krakothsmalldoor",
+         "\/\/shortdescription":"Eldritch Ship Door",
+         "imagePositionX":"-20",
+         "imagePositionY":"0",
+         "object":"atprk-krakothsmalldoor",
+         "tilesetDirection":"right"
+        },
+     "64":
+        {
+         "\/\/description":"This teleporter should get you back to the ST Syllectis.",
+         "\/\/name":"atprk_missionreturnteleporter",
+         "\/\/shortdescription":"ST Syllectis Teleporter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_missionreturnteleporter"
+        },
+     "65":
+        {
+         "\/\/description":"A K'Rakothan console that does stuff. Probably some important stuff.",
+         "\/\/name":"atprk-krakothsmallconsole",
+         "\/\/shortdescription":"Elder Ship Console",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-krakothsmallconsole",
+         "tilesetDirection":"right"
+        },
+     "66":
+        {
+         "\/\/description":"This console should allow me to control some of the ship's systems.",
+         "\/\/name":"atprk_krakothmissionshipconsole",
+         "\/\/shortdescription":"Elder Captain's Console",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_krakothmissionshipconsole",
+         "tilesetDirection":"right"
+        },
+     "67":
+        {
+         "\/\/description":"A defective cooling mechanism.",
+         "\/\/name":"atprk_krakothicetrap",
+         "\/\/shortdescription":"K'Rakoth Cryogenic Trap",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothicetrap",
+         "tilesetDirection":"right"
+        },
+     "68":
+        {
+         "\/\/description":"A defective cooling mechanism.",
+         "\/\/name":"atprk_krakothicetrap_orientation2",
+         "\/\/shortdescription":"K'Rakoth Cryogenic Trap",
+         "imagePositionX":"0",
+         "imagePositionY":"-8",
+         "object":"atprk_krakothicetrap",
+         "tilesetDirection":"right"
+        },
+     "69":
+        {
+         "\/\/description":"A defective cooling mechanism.",
+         "\/\/name":"atprk_krakothicetrap_orientation3",
+         "\/\/shortdescription":"K'Rakoth Cryogenic Trap",
+         "imagePositionX":"0",
+         "imagePositionY":"-8",
+         "object":"atprk_krakothicetrap",
+         "tilesetDirection":"right"
         },
      "7":
         {
@@ -484,6 +663,105 @@
          "imagePositionX":"-32",
          "imagePositionY":"0",
          "object":"atprk-eldritchaltar",
+         "tilesetDirection":"right"
+        },
+     "70":
+        {
+         "\/\/description":"A defective cooling mechanism.",
+         "\/\/name":"atprk_krakothicetrap_orientation4",
+         "\/\/shortdescription":"K'Rakoth Cryogenic Trap",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_krakothicetrap",
+         "tilesetDirection":"right"
+        },
+     "71":
+        {
+         "\/\/description":"A timed ice barrier generator.",
+         "\/\/name":"atprk_krakothicetraplarge",
+         "\/\/shortdescription":"K'Rakoth Cryogenic Blaster",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"atprk_krakothicetraplarge",
+         "tilesetDirection":"right"
+        },
+     "72":
+        {
+         "\/\/description":"A powerful submarine designed for a single K'Rakoth.",
+         "\/\/name":"atprk-krakothsubmarineprop",
+         "\/\/shortdescription":"Elder Submarine",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothsubmarineprop",
+         "tilesetDirection":"right"
+        },
+     "73":
+        {
+         "\/\/description":"A table for lengthy negotiations.",
+         "\/\/name":"atprk-krakothnegotiatingtable",
+         "\/\/shortdescription":"Elder Negotiating Table",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothnegotiatingtable",
+         "tilesetDirection":"right"
+        },
+     "74":
+        {
+         "\/\/description":"A holographic flag of the K'Rakothan civilization.",
+         "\/\/name":"atprk-krakothwallflag",
+         "\/\/shortdescription":"K'Rakoth Wall Holoflag",
+         "imagePositionX":"-16",
+         "imagePositionY":"-16",
+         "object":"atprk-krakothwallflag"
+        },
+     "75":
+        {
+         "\/\/description":"A computer rack loaded with tremendous amounts of data.",
+         "\/\/name":"atprk-eldritchserver",
+         "\/\/shortdescription":"Elder Server",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchserver",
+         "tilesetDirection":"right"
+        },
+     "76":
+        {
+         "\/\/description":"An abandoned metal crate.",
+         "\/\/name":"atprk-krakothcontainer3",
+         "\/\/shortdescription":"Large Eldritch Crate",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk-krakothcontainer3",
+         "tilesetDirection":"right"
+        },
+     "77":
+        {
+         "\/\/description":"A minor K'Rakoth artifact. It's still on.",
+         "\/\/name":"atprk-eldritchpclarge",
+         "\/\/shortdescription":"Large Eldritch Computer",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchpclarge",
+         "tilesetDirection":"right"
+        },
+     "78":
+        {
+         "\/\/description":"The K'Rakoth flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+         "\/\/name":"atprk-flagkrakoth",
+         "\/\/shortdescription":"K'Rakoth Holoflag",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-flagkrakoth",
+         "tilesetDirection":"right"
+        },
+     "79":
+        {
+         "\/\/description":"A detailed hologram of a grand ancient city.",
+         "\/\/name":"atprk-krakothcityhologram",
+         "\/\/shortdescription":"Elder City Hologram",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-krakothcityhologram",
          "tilesetDirection":"right"
         },
      "8":
@@ -966,6 +1244,86 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "52":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "53":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "54":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "55":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "56":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "57":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "58":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "59":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "6":
         {
          "\/\/description":"string",
@@ -973,7 +1331,205 @@
          "\/\/shortdescription":"string",
          "material":"string"
         },
+     "60":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "61":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "62":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "63":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "64":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "65":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "66":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "67":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "68":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "69":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "7":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "70":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "71":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "72":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "73":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "74":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "75":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "76":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "77":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "78":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "79":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -1294,10 +1850,118 @@
          "imageheight":32,
          "imagewidth":8
         },
+     "52":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothsmallboosterflame.png",
+         "imageheight":31,
+         "imagewidth":38
+        },
+     "53":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothsmallboosterflame_orientation2.png",
+         "imageheight":29,
+         "imagewidth":38
+        },
+     "54":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothboosterflame.png",
+         "imageheight":64,
+         "imagewidth":54
+        },
+     "55":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothbigboosterflame.png",
+         "imageheight":71,
+         "imagewidth":40
+        },
+     "56":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstasiscanister.png",
+         "imageheight":38,
+         "imagewidth":24
+        },
+     "57":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstasiscanisteralt.png",
+         "imageheight":38,
+         "imagewidth":24
+        },
+     "58":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchcaptainchair.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "59":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchcaptainchairlarge.png",
+         "imageheight":28,
+         "imagewidth":34
+        },
      "6":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
          "imageheight":8,
+         "imagewidth":8
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmechbeacon.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothdockingfield.png",
+         "imageheight":96,
+         "imagewidth":16
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothdockingfield_orientation2.png",
+         "imageheight":16,
+         "imagewidth":96
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothsmalldoor.png",
+         "imageheight":40,
+         "imagewidth":32
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_missionreturnteleporter.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothsmallconsole.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmissionshipconsole.png",
+         "imageheight":32,
+         "imagewidth":48
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothicetrap.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothicetrap_orientation2.png",
+         "imageheight":16,
+         "imagewidth":8
+        },
+     "69":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothicetrap_orientation3.png",
+         "imageheight":16,
          "imagewidth":8
         },
      "7":
@@ -1305,6 +1969,66 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchaltar.png",
          "imageheight":16,
          "imagewidth":64
+        },
+     "70":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothicetrap_orientation4.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
+     "71":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothicetraplarge.png",
+         "imageheight":96,
+         "imagewidth":64
+        },
+     "72":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothsubmarineprop.png",
+         "imageheight":72,
+         "imagewidth":128
+        },
+     "73":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothnegotiatingtable.png",
+         "imageheight":16,
+         "imagewidth":96
+        },
+     "74":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothwallflag.png",
+         "imageheight":40,
+         "imagewidth":40
+        },
+     "75":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchserver.png",
+         "imageheight":56,
+         "imagewidth":32
+        },
+     "76":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcontainer3.png",
+         "imageheight":32,
+         "imagewidth":48
+        },
+     "77":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchpclarge.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "78":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-flagkrakoth.png",
+         "imageheight":32,
+         "imagewidth":24
+        },
+     "79":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcityhologram.png",
+         "imageheight":24,
+         "imagewidth":56
         },
      "8":
         {
@@ -1319,6 +2043,6 @@
          "imagewidth":24
         }
     },
- "tilewidth":96,
+ "tilewidth":128,
  "type":"tileset"
 }

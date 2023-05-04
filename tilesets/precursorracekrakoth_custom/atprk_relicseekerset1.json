@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":23,
+ "tilecount":37,
  "tileheight":80,
  "tileproperties":
     {
@@ -169,6 +169,75 @@
          "object":"atprk_artifactrecycleroff",
          "tilesetDirection":"right"
         },
+     "23":
+        {
+         "\/\/description":"No signal.",
+         "\/\/name":"atprk_relicseekerhqteleporteroff1",
+         "\/\/shortdescription":"Disabled Teleporter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekerhqteleporteroff1"
+        },
+     "24":
+        {
+         "\/\/description":"A deactivated brass teleporter. I can't use it yet.",
+         "\/\/name":"atprk_relicseekerhqteleporteroff2",
+         "\/\/shortdescription":"Disabled Teleporter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekerhqteleporteroff2",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "\/\/description":"A brass teleporter connected to the Metamorphosis Hall.",
+         "\/\/name":"atprk_relicseekerhqteleporterengine",
+         "\/\/shortdescription":"Colt's Teleporter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekerhqteleporterengine",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "\/\/description":"The ship must be saved before trading artifacts.",
+         "\/\/name":"atprk_relicexchangeclosed",
+         "\/\/shortdescription":"Closed Relic Exchange",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_relicexchangeclosed",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A hollow cargo crate. Smells like fish and gunpowder.",
+         "\/\/name":"atprk_crateunpackerclosed",
+         "\/\/shortdescription":"Closed Crate Unpacker",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_crateunpackerclosed",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "\/\/description":"An enigmatic traveller in black.",
+         "\/\/name":"atprk_vaultraiderinfinitemaze",
+         "\/\/shortdescription":"Vault Raider",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_vaultraiderinfinitemaze",
+         "tilesetDirection":"right"
+        },
+     "29":
+        {
+         "\/\/description":"A self-proclaimed Relic Seeker theologian.",
+         "\/\/name":"atprk_relicseekercoltpraying",
+         "\/\/shortdescription":"Colt",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekercoltpraying",
+         "tilesetDirection":"right"
+        },
      "3":
         {
          "\/\/description":"A display of a display of a display of a display...",
@@ -177,6 +246,75 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_relicseekerdisplay2"
+        },
+     "30":
+        {
+         "\/\/description":"A smashed display. Whatever it used to display is gone now.",
+         "\/\/name":"atprk_relicseekerdisplaysmashed",
+         "\/\/shortdescription":"Smashed Relic Display",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekerdisplaysmashed"
+        },
+     "31":
+        {
+         "\/\/description":"I should probably follow her instructions.",
+         "\/\/name":"atprk_relicseekerlibradevoutattack",
+         "\/\/shortdescription":"Libra Eclipse",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekerlibradevoutattack",
+         "tilesetDirection":"right"
+        },
+     "32":
+        {
+         "\/\/description":"A Glitch cartographer who sells planet pins.",
+         "\/\/name":"atprk_starcartographerdevoutattack",
+         "\/\/shortdescription":"Star Cartographer",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_starcartographerdevoutattack",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "\/\/description":"A stash of valuable ancient loot. You can buy some of it with essence.",
+         "\/\/name":"atprk_vaultraidershopinfinitemaze",
+         "\/\/shortdescription":"Vault Raider's Stash",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_vaultraidershopinfinitemaze",
+         "tilesetDirection":"right"
+        },
+     "34":
+        {
+         "\/\/description":"A fallen wooden stand.",
+         "\/\/name":"atprk_woodenstand2broken",
+         "\/\/shortdescription":"Wide Wooden Stand",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_woodenstand2broken",
+         "tilesetDirection":"right"
+        },
+     "35":
+        {
+         "\/\/description":"A chatty but largely ineffective Repairbot.",
+         "\/\/name":"atprk_mechbotrandy",
+         "\/\/shortdescription":"Randy",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_mechbotrandy",
+         "tilesetDirection":"right"
+        },
+     "36":
+        {
+         "\/\/description":"Literally everyone can see you, Randy.",
+         "\/\/name":"atprk_mechbotrandydevoutattack",
+         "\/\/shortdescription":"Barrel Randy",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_mechbotrandydevoutattack",
+         "tilesetDirection":"right"
         },
      "4":
         {
@@ -396,6 +534,75 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "23":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "24":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "25":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "29":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
         {
          "\/\/description":"string",
@@ -404,6 +611,75 @@
          "imagePositionX":"string",
          "imagePositionY":"string",
          "object":"string"
+        },
+     "30":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "31":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "32":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "33":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "34":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "35":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "4":
         {
@@ -562,11 +838,95 @@
          "imageheight":32,
          "imagewidth":32
         },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff1.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporterengine.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchangeclosed.png",
+         "imageheight":43,
+         "imagewidth":56
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_crateunpackerclosed.png",
+         "imageheight":48,
+         "imagewidth":40
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraiderinfinitemaze.png",
+         "imageheight":30,
+         "imagewidth":32
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekercoltpraying.png",
+         "imageheight":28,
+         "imagewidth":16
+        },
      "3":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay2.png",
          "imageheight":40,
          "imagewidth":26
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplaysmashed.png",
+         "imageheight":40,
+         "imagewidth":26
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerlibradevoutattack.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_starcartographerdevoutattack.png",
+         "imageheight":33,
+         "imagewidth":24
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraidershopinfinitemaze.png",
+         "imageheight":32,
+         "imagewidth":54
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_woodenstand2broken.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechbotrandy.png",
+         "imageheight":32,
+         "imagewidth":16
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechbotrandydevoutattack.png",
+         "imageheight":34,
+         "imagewidth":24
         },
      "4":
         {

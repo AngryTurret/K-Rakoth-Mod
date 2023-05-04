@@ -8,8 +8,8 @@
  "margin":0,
  "name":"atprk-necropolis",
  "spacing":0,
- "tilecount":15,
- "tileheight":48,
+ "tilecount":41,
+ "tileheight":96,
  "tileproperties":
     {
      "0":
@@ -82,6 +82,56 @@
          "object":"atprk_ancientdebris10",
          "tilesetDirection":"right"
         },
+     "15":
+        {
+         "\/\/description":"A mysterious doorway leading further into an unknown dimension. What could possibly go wrong?",
+         "\/\/name":"atprk_infinitemazedoor",
+         "\/\/shortdescription":"Infinite Challenge Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazedoor",
+         "tilesetDirection":"right"
+        },
+     "16":
+        {
+         "\/\/description":"I sure hope this door will take me back to reality!",
+         "\/\/name":"atprk_infinitemazedoorreturn",
+         "\/\/shortdescription":"Infinite Challenge Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazedoorreturn",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"A mysterious doorway leading further into an unknown dimension. What could possibly go wrong?",
+         "\/\/name":"atprk_infinitemazedooralt",
+         "\/\/shortdescription":"Infinite Challenge Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazedooralt",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "\/\/description":"A mysterious doorway leading further into an unknown dimension. What could possibly go wrong?",
+         "\/\/name":"atprk_infinitemazedooraltalt",
+         "\/\/shortdescription":"Infinite Challenge Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazedooraltalt",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "\/\/description":"An ancient teleportation platform that summons a player's mech.",
+         "\/\/name":"atprk_infinitemazemechplatform",
+         "\/\/shortdescription":"Ancient Mech Platform",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazemechplatform",
+         "tilesetDirection":"right"
+        },
      "2":
         {
          "\/\/description":"A statue of an enigmatic Ancient specimen.",
@@ -90,6 +140,103 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_ancientshardsstatue1",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "\/\/description":"A miniature house block.",
+         "\/\/name":"atprk_tinyancienthomeblock",
+         "\/\/shortdescription":"High Gnome Minihouse",
+         "material":"atprk_tinyancienthomeblock"
+        },
+     "21":
+        {
+         "\/\/description":"A miniature house built from ancient materials.",
+         "\/\/name":"atprk_tinyancientbuilding1",
+         "\/\/shortdescription":"High Gnome Apartments",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientbuilding1",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "\/\/description":"A miniature house built from ancient materials.",
+         "\/\/name":"atprk_tinyancientbuilding2",
+         "\/\/shortdescription":"High Gnome Apartments",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientbuilding2",
+         "tilesetDirection":"right"
+        },
+     "23":
+        {
+         "\/\/description":"A miniature house built from ancient materials.",
+         "\/\/name":"atprk_tinyancientbuilding3",
+         "\/\/shortdescription":"High Gnome Apartments",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientbuilding3",
+         "tilesetDirection":"right"
+        },
+     "24":
+        {
+         "\/\/description":"A miniature house built from ancient materials.",
+         "\/\/name":"atprk_tinyancientbuilding4",
+         "\/\/shortdescription":"High Gnome Apartments",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientbuilding4",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "\/\/description":"A miniature house built from ancient materials.",
+         "\/\/name":"atprk_tinyancientbuilding5",
+         "\/\/shortdescription":"High Gnome Apartments",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientbuilding5",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "\/\/description":"A tiny essence-powered lamppost. Try not to kick it over.",
+         "\/\/name":"atprk_tinyancientlight",
+         "\/\/shortdescription":"Essence Lamppost",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientlight",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A miniature palace from which the Emperor of Gnomekind rules over tiny people.",
+         "\/\/name":"atprk_tinyancientpalace",
+         "\/\/shortdescription":"High Gnome Palace",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"atprk_tinyancientpalace",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "\/\/description":"This looks like the control panel for the gate. It still seems to work.",
+         "\/\/name":"atprk_infinitemazevaultbypass",
+         "\/\/shortdescription":"Vault Bypass Console",
+         "imagePositionX":"-46",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazevaultbypass",
+         "tilesetDirection":"right"
+        },
+     "29":
+        {
+         "\/\/description":"A cloaked stranger who sells keys to places beyond our reality.",
+         "\/\/name":"atprk_infinitemazegatekeeper",
+         "\/\/shortdescription":"Mysterious Gatekeeper",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazegatekeeper",
          "tilesetDirection":"right"
         },
      "3":
@@ -102,6 +249,106 @@
          "object":"atprk_ancientshardsstatue2",
          "tilesetDirection":"right"
         },
+     "30":
+        {
+         "\/\/description":"An unusual doorway leading to a possibly safer pocket dimension.",
+         "\/\/name":"atprk_infinitemazedoorshop",
+         "\/\/shortdescription":"Infinite Merchant Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_infinitemazedoorshop",
+         "tilesetDirection":"right"
+        },
+     "31":
+        {
+         "\/\/description":"This energy field only lets certain entities through.",
+         "\/\/name":"atprk_ancientfloatingballfield",
+         "\/\/shortdescription":"Ancient Hoverball Field",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_ancientfloatingballfield",
+         "tilesetDirection":"right"
+        },
+     "32":
+        {
+         "\/\/description":"This energy field only lets certain entities through.",
+         "\/\/name":"atprk_ancientfloatingballfield_orientation2",
+         "\/\/shortdescription":"Ancient Hoverball Field",
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"atprk_ancientfloatingballfield",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "\/\/description":"This energy field only lets certain entities through.",
+         "\/\/name":"atprk_ancientfloatingballfieldsmall",
+         "\/\/shortdescription":"Ancient Hoverball Field",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_ancientfloatingballfieldsmall",
+         "tilesetDirection":"right"
+        },
+     "34":
+        {
+         "\/\/description":"This energy field only lets certain entities through.",
+         "\/\/name":"atprk_ancientfloatingballfieldsmall_orientation2",
+         "\/\/shortdescription":"Ancient Hoverball Field",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"atprk_ancientfloatingballfieldsmall",
+         "tilesetDirection":"right"
+        },
+     "35":
+        {
+         "\/\/description":"This door can only be opened by connecting it to a switch.",
+         "\/\/name":"atprk_ancientwireddoor",
+         "\/\/shortdescription":"Ancient Wired Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_ancientwireddoor",
+         "tilesetDirection":"right"
+        },
+     "36":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk_ancientdockingfield",
+         "\/\/shortdescription":"Ancient Docking Field",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_ancientdockingfield",
+         "tilesetDirection":"right"
+        },
+     "37":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk_ancientdockingfield_orientation2",
+         "\/\/shortdescription":"Ancient Docking Field",
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"atprk_ancientdockingfield",
+         "tilesetDirection":"right"
+        },
+     "38":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk_ancientdockingfieldsmall",
+         "\/\/shortdescription":"Ancient Docking Field (Small)",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_ancientdockingfieldsmall",
+         "tilesetDirection":"right"
+        },
+     "39":
+        {
+         "\/\/description":"This energy field can contain both atmosphere and artificial gravity.",
+         "\/\/name":"atprk_ancientdockingfieldsmall_orientation2",
+         "\/\/shortdescription":"Ancient Docking Field (Small)",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"atprk_ancientdockingfieldsmall",
+         "tilesetDirection":"right"
+        },
      "4":
         {
          "\/\/description":"A relic from the other era of the galactic history.",
@@ -110,6 +357,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_ancientvasebroken",
+         "tilesetDirection":"right"
+        },
+     "40":
+        {
+         "\/\/description":"An inactive ancient beacon.",
+         "\/\/name":"atprk_ancientguardbeaconbroken",
+         "\/\/shortdescription":"Broken Ancient Beacon",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_ancientguardbeaconbroken",
          "tilesetDirection":"right"
         },
      "5":
@@ -235,7 +492,154 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "15":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "20":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "21":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "22":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "23":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "24":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "25":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "29":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -255,7 +659,117 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "30":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "31":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "32":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "33":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "34":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "35":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "38":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "4":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "40":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -360,11 +874,101 @@
          "imageheight":40,
          "imagewidth":40
         },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoor.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoorreturn.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedooralt.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedooraltalt.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazemechplatform.png",
+         "imageheight":80,
+         "imagewidth":48
+        },
      "2":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientshardsstatue1.png",
          "imageheight":40,
          "imagewidth":24
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancienthomeblock.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding1.png",
+         "imageheight":32,
+         "imagewidth":56
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding2.png",
+         "imageheight":32,
+         "imagewidth":40
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding3.png",
+         "imageheight":32,
+         "imagewidth":40
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding4.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding5.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientlight.png",
+         "imageheight":16,
+         "imagewidth":8
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientpalace.png",
+         "imageheight":80,
+         "imagewidth":64
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazevaultbypass.png",
+         "imageheight":28,
+         "imagewidth":98
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazegatekeeper.png",
+         "imageheight":35,
+         "imagewidth":32
         },
      "3":
         {
@@ -372,11 +976,77 @@
          "imageheight":40,
          "imagewidth":24
         },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoorshop.png",
+         "imageheight":64,
+         "imagewidth":32
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield.png",
+         "imageheight":96,
+         "imagewidth":16
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield_orientation2.png",
+         "imageheight":12,
+         "imagewidth":96
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall.png",
+         "imageheight":72,
+         "imagewidth":16
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall_orientation2.png",
+         "imageheight":12,
+         "imagewidth":72
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientwireddoor.png",
+         "imageheight":40,
+         "imagewidth":48
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfield.png",
+         "imageheight":96,
+         "imagewidth":16
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfield_orientation2.png",
+         "imageheight":12,
+         "imagewidth":96
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall.png",
+         "imageheight":72,
+         "imagewidth":16
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall_orientation2.png",
+         "imageheight":12,
+         "imagewidth":72
+        },
      "4":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientvasebroken.png",
          "imageheight":28,
          "imagewidth":16
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientguardbeaconbroken.png",
+         "imageheight":53,
+         "imagewidth":46
         },
      "5":
         {
@@ -409,6 +1079,6 @@
          "imagewidth":16
         }
     },
- "tilewidth":56,
+ "tilewidth":98,
  "type":"tileset"
 }
