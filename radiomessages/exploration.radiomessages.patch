@@ -82,7 +82,7 @@
     "op": "add",
       "path": "/atprk_infinitemaze_shop2",
       "value": {
-        "text": "Greetings, tall one! Welcome to the realm of High Gnomes! As long as you don't step on our loyal citizens, you are free to roam around the wonderful capital of our empire!",
+        "text": "Greetings, tall one! Welcome to the realm of the High Gnomes! As long as you don't step on our loyal citizens, you are free to roam around the wonderful capital of our empire!",
     "senderName" : "Emperor of Gnomekind",
     "portraitImage" : "/interface/chatbubbles/atprk_gnomekingchat.png:<frame>"
       }
