@@ -378,6 +378,18 @@
                  "width":8,
                  "x":600,
                  "y":232
+                }, 
+                {
+                 "gid":2147492486,
+                 "height":48,
+                 "id":878,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":992,
+                 "y":256
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -419,25 +431,6 @@
                  "width":8,
                  "x":808,
                  "y":232
-                }, 
-                {
-                 "height":8,
-                 "id":866,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"fish"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1000,
-                 "y":224
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -518,7 +511,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":878,
+ "nextobjectid":879,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

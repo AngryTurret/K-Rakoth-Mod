@@ -679,6 +679,18 @@
                  "width":32,
                  "x":328,
                  "y":664
+                }, 
+                {
+                 "gid":8838,
+                 "height":48,
+                 "id":1072,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":784,
+                 "y":456
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -782,25 +794,6 @@
                 }, 
                 {
                  "height":8,
-                 "id":1068,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"atprk_krakothmine"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":800,
-                 "y":432
-                }, 
-                {
-                 "height":8,
                  "id":1069,
                  "name":"",
                  "properties":
@@ -897,7 +890,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1072,
+ "nextobjectid":1073,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

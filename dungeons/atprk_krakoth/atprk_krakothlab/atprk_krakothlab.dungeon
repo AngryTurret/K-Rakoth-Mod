@@ -34,7 +34,7 @@
       "name" : "atprk_krakothlab1a",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothlab1a", "atprk_krakothlab1b", "atprk_krakothlowside1", "atprk_krakothlowside2" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothlab1a", "atprk_krakothlab1b", "atprk_krakothlowside1", "atprk_krakothlowside2", "atprk_krakothlowside3" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothlab1a.json" ],
       "chance" : 1
@@ -43,7 +43,7 @@
       "name" : "atprk_krakothlab1b",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothlab1a", "atprk_krakothlab1b", "atprk_krakothlowside1", "atprk_krakothlowside2" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothlab1a", "atprk_krakothlab1b", "atprk_krakothlowside1", "atprk_krakothlowside2", "atprk_krakothlowside3" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothlab1b.json" ],
       "chance" : 1
@@ -154,7 +154,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothupside1", "atprk_krakothupside2", "atprk_krakothlowside1", "atprk_krakothlowside2" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothupside1", "atprk_krakothupside2", "atprk_krakothlowside1", "atprk_krakothlowside2", "atprk_krakothlowside3" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothlowside1.json" ],
       "chance" : 1
@@ -164,9 +164,19 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothupside1", "atprk_krakothupside2", "atprk_krakothlowside1", "atprk_krakothlowside2" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothupside1", "atprk_krakothupside2", "atprk_krakothlowside1", "atprk_krakothlowside2", "atprk_krakothlowside3" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothlowside2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothlowside3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "atprk_krakothupside1", "atprk_krakothupside2", "atprk_krakothlowside1", "atprk_krakothlowside2", "atprk_krakothlowside3" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothlowside3.json" ],
       "chance" : 1
     }
   ]

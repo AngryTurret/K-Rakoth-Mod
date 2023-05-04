@@ -32,7 +32,133 @@
          "color":"#5555ff",
          "draworder":"topdown",
          "name":"mods",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":1065,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":1200,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":1066,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":96,
+                 "x":1264,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":1067,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":88,
+                 "x":1376,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":1068,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1704,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":1069,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":96,
+                 "x":1592,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":1070,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"apexshipwall",
+                     "colorVariant":"6"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":88,
+                 "x":1488,
+                 "y":320
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -627,7 +753,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1065,
+ "nextobjectid":1071,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

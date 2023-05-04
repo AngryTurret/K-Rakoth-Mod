@@ -843,6 +843,39 @@
                  "width":24,
                  "x":624,
                  "y":528
+                }, 
+                {
+                 "height":96,
+                 "id":1161,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"locationType\":\"atprk_krakothruins.atprk_krakothruinsdepths\"}",
+                     "stagehand":"questlocation"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":672,
+                 "y":432
+                }, 
+                {
+                 "gid":2147492486,
+                 "height":48,
+                 "id":1162,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":1400,
+                 "y":472
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1029,7 +1062,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1160,
+ "nextobjectid":1163,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
