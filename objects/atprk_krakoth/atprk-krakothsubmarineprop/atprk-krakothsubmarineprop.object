@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-krakothsubmarineprop",
+  "colonyTags" : ["atprk_krakoth","science"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 225,
+  "description" : "A powerful submarine designed for a single K'Rakoth.",
+  "shortdescription" : "Elder Submarine",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 4,
+
+  "apexDescription" : "A submarine designed to be piloted by one large person.",
+  "avianDescription" : "By the looks of it, this submarine was meant to be piloted by a single person.",
+  "floranDescription" : "Sssea car for large sssquidsss.",
+  "glitchDescription" : "Puzzled. Why do aquatic creatures need submarines?",
+  "humanDescription" : "I can't hop in, sadly.",
+  "hylotlDescription" : "A large ancient submarine for deep sea exploration.",
+  "novakidDescription" : "Basically a sea car for a huge squid.",
+
+  "inventoryIcon" : "atprk-krakothsubmarinepropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothsubmarineprop.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

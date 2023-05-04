@@ -35,16 +35,16 @@
   ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animation" : "/objects/atprk_krakoth/atprk-krakothswitch1/atprk-krakothswitch1.animation",
   "animationCustom" : {
     "sounds" : {
       "on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
       "off" : [ "/sfx/objects/apexconsole2switch.ogg" ]
     }
   },
-
   "animationParts" : {
-    "switch" : "atprk-krakothswitch1.png"
+    "bg" : "atprk-krakothswitch1.png",
+    "fg" : "atprk-krakothswitch1lit.png"
   },
   "animationPosition" : [-8, -8],
 
