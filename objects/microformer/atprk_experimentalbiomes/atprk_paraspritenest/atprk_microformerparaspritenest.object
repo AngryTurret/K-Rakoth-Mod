@@ -1,9 +1,9 @@
 {
-  "objectName" : "atprk_microformerlunarcraters",
+  "objectName" : "atprk_microformerparaspritenest",
   "colonyTags" : [],
   "rarity" : "Legendary",
-  "description" : "Transforms an area of a planet into an exotic, erchius-coated forest.",
-  "shortdescription" : "Exolunar Microformer",
+  "description" : "Transforms an area of a planet into a Parasprite-infested crag.",
+  "shortdescription" : "Paranest Microformer",
   "race" : "ancient",
   "category" : "terraformer",
   "price" : 3000,
@@ -55,5 +55,5 @@
 
   "pregenerateTime" : [5, 30],
 
-  "terraformBiome" : "atprk_lunarcraters"
+  "terraformBiome" : "atprk_paraspritenest"
 }
