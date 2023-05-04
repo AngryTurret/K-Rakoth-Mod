@@ -1,0 +1,493 @@
+{
+  "metadata" : {
+    "name" : "atprk_infinitemaze",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ 
+        "atprk_infinitemaze_challengeroom1", "atprk_infinitemaze_ambush", "atprk_infinitemaze_avast", "atprk_infinitemaze_collapse", "atprk_infinitemaze_collision", "atprk_infinitemaze_gauntlet", "atprk_infinitemaze_grid", "atprk_infinitemaze_heatwave", "atprk_infinitemaze_puzzle1", "atprk_infinitemaze_rush", "atprk_infinitemaze_shortcircuit", "atprk_infinitemaze_spacejump", "atprk_infinitemaze_trenches", "atprk_infinitemaze_trespasser", "atprk_infinitemaze_platform1", "atprk_infinitemaze_platform2", "atprk_infinitemaze_platform3", "atprk_infinitemaze_platform4", "atprk_infinitemaze_platform5", "atprk_infinitemaze_platform6"
+      ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_infinitemaze_challengeroom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_challengeroom1.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_ambush",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_ambush.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_avast",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_avast.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_collapse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_collapse.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_collision",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_collision.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_gauntlet",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_gauntlet.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_grid",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_grid.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_heatwave",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_heatwave.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_puzzle1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_puzzle1.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_rush",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_rush.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_shortcircuit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_shortcircuit.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_spacejump",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_spacejump.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_trenches",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_trenches.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_trespasser",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_trespasser.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform1.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform2.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform3.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform4.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform5.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_platform6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_platform6.json" ]
+    },
+
+    // RANDOM ENCOUNTERS
+
+    {
+      "name" : "atprk_infinitemazeencounter_empty1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_empty2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty2.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_empty3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty3.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_empty4",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty4.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_empty5",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty5.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_empty6",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_empty6.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots2.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots3.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots4",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots4.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots5",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots5.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots6",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots6.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots7",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots7.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots8",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots8.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots9",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots9.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_pots10",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_pots10.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_bandit1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_bandit1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_bandit2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_bandit2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_bandit3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_bandit3.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_gnome1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_gnome2", "atprk_infinitemazeencounter_gnome3", "atprk_infinitemazeencounter_gnome4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_gnome1.json" ],
+      "chance" : 0.05
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_gnome2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_gnome1", "atprk_infinitemazeencounter_gnome3", "atprk_infinitemazeencounter_gnome4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_gnome2.json" ],
+      "chance" : 0.05
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_gnome3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_gnome1", "atprk_infinitemazeencounter_gnome2", "atprk_infinitemazeencounter_gnome4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_gnome3.json" ],
+      "chance" : 0.05
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_gnome4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_gnome1", "atprk_infinitemazeencounter_gnome2", "atprk_infinitemazeencounter_gnome3" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_gnome4.json" ],
+      "chance" : 0.05
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_krakoth1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_krakoth2", "atprk_infinitemazeencounter_krakoth3", "atprk_infinitemazeencounter_krakoth4", "atprk_infinitemazeencounter_krakoth5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_krakoth1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_krakoth2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_krakoth1", "atprk_infinitemazeencounter_krakoth3", "atprk_infinitemazeencounter_krakoth4", "atprk_infinitemazeencounter_krakoth5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_krakoth2.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_krakoth3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_krakoth1", "atprk_infinitemazeencounter_krakoth2", "atprk_infinitemazeencounter_krakoth4", "atprk_infinitemazeencounter_krakoth5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_krakoth3.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_krakoth4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_krakoth1", "atprk_infinitemazeencounter_krakoth2", "atprk_infinitemazeencounter_krakoth3", "atprk_infinitemazeencounter_krakoth5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_krakoth4.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_krakoth5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_infinitemazeencounter_krakoth1", "atprk_infinitemazeencounter_krakoth2", "atprk_infinitemazeencounter_krakoth3", "atprk_infinitemazeencounter_krakoth4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_krakoth5.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_beacon",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_beacon.json" ],
+      "chance" : 0.05
+    },
+    {
+      "name" : "atprk_infinitemazeencounter_shortcut",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeencounter/atprk_infinitemazeencounter_shortcut.json" ],
+      "chance" : 0.2
+    },
+
+    // EXIT DOORS
+
+    {
+      "name" : "atprk_infinitemazeexit1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit1" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit1.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit2" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit2.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit3",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit3" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit3.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit4",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit4.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit5",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit5.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit6",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit6" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit6.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit7",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit7" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit7.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit8",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit8" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit8.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit9",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit9" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit9.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexitshop",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexitshop" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexitshop.json" ],
+      "chance" : 0.2
+    }
+  ]
+}
