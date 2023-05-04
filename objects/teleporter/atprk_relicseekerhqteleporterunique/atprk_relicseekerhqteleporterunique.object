@@ -38,6 +38,10 @@
     }
   ],
 
+  "turnInQuests" : [
+    "atprk_infinitemazequest"
+  ],
+
   "health" : 10,
 
   "teleporterFootPosition" : [0, 1]

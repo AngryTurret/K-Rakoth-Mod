@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_relicseekerhqteleporterengine",
+  "colonyTags" : ["atprk_relicseeker","misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Essential",
+  "description" : "A brass teleporter connected to the Metamorphosis Hall.",
+  "shortdescription" : "Colt's Teleporter",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "This teleporter will lead me to the Relic Seeker flagship.",
+  "avianDescription" : "With this small teleporter, I can get on Syllectis, a Relic Seeker flagship.",
+  "floranDescription" : "Teleporter to Relic Ssseeker hideout!",
+  "glitchDescription" : "Excited. I can teleport straight to the largest Relic Seeker ship from here!",
+  "humanDescription" : "This teleporter leads to the main Relic Seeker space train.",
+  "hylotlDescription" : "A brass teleporter connected straight to the Relic Seeker headquarters.",
+  "novakidDescription" : "With this lil' teleporter, I can board Syllectis, one of the most excitin' space trains ever!",
+
+  "category" : "teleporter",
+  "lightColor" : [100, 80, 40],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/atprk_relicseekerhqwarp.config",
+
+  "inventoryIcon" : "atprk_relicseekerhqteleporterengineicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicseekerhqteleporterengine.png:<color>", "fullbright" : true }, { "image" : "atprk_relicseekerhqteleporterenginelit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 10,
+
+  "teleporterFootPosition" : [0, 1]
+
+}
