@@ -1,0 +1,74 @@
+{
+  "type" : "atprk_outlawvigilante",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Fire!"
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "I'm the new law 'round here!",
+            "You ain't gonna stop me if I stop ya first!",
+            "Somebody hired a hitman t' take me down, it seems!",
+            "Hands up so I can see 'em, criminal!",
+            "You 'n me, fella!",
+            "You'll be rottin' in jail!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "novatier1head", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "novatier3head", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "cowboyhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "novatier3chest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "novatier3pants", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "primary" : [
+              "npcmachinepistol"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type" : "atprk_amberscientistvisitor",
+  "baseType" : "outpostvisitor",
+
+  "scriptConfig" : {
+    "dialog" : {
+
+  "converse" : {
+    "default" : {
+      "default" : [
+        "What's with that surprised look of yours? Is there amber stuck in my fur?",
+        "Chunks of amber never fail to capture my imagination. They're so shiny and full of exotic insects.",
+        "Normally I study paleontology, but now I want to check out the ancient ruins nearby.",
+        "The Miniknog does not give enough attention to paleontology. With more funding, I could've done much more!",
+        "I wonder if they sell any fossilized insects at the Terramart."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "bioluminhead", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "scientistchest", "parameters" : { "colorIndex" : [0, 1, 6] } }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

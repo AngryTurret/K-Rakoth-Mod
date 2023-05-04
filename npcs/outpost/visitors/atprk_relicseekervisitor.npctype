@@ -1,0 +1,39 @@
+{
+  "type" : "atprk_relicseekervisitor",
+  "baseType" : "outpostvisitor",
+
+  "scriptConfig" : {
+    "dialog" : {
+
+  "converse" : {
+    "default" : {
+      "default" : [
+        "You ever heard of the Relic Seekers? They travel 'round the galaxy lookin' for ancient artifacts.",
+        "I can't believe I'm finally approachin' the Ark! There's so much I need t' take notes of!",
+        "Mind showin' me the way to the Ark? I can't wait t' see it up close!",
+        "There're so many ancient ruins everywhere... Just what could've happened t' their makers?",
+        "Howdy, pardner! If you're fond of ancient civilizations 'n stuff, consider joinin' the Relic Seekers!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "chest" : [
+              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

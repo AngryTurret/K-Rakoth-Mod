@@ -1,0 +1,58 @@
+{
+  "type" : "atprk_oldschoolthreat",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Ganking time!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Give up! Our weapons are better!",
+            "I hope you wrote a will!",
+            "It's one of those Protectorate losers! Get 'em!",
+            "Aren't you a little too green to take on us?",
+            "You don't know your place, newbie!",
+            "Travellers are perfect for target practice!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "atprk_betahumanarmorhead", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "chest" : [
+              { "name" : "atprk_betahumanarmorchest", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "atprk_betahumanarmorlegs", "parameters" : { "colorIndex" : [0, 4, 5, 8, 9] } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword",
+              "npcdagger"
+            ],
+            "sheathedprimary" : [
+              "npcpistol",
+              "npcshotgun",
+              "npcassaultrifle"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

@@ -1,0 +1,43 @@
+{
+  "type" : "atprk_glitchdevoutvisitor",
+  "baseType" : "outpostvisitor",
+
+  "scriptConfig" : {
+    "dialog" : {
+
+  "converse" : {
+    "default" : {
+      "default" : [
+        "Distrustful. Are you looking for trouble?",
+        "Proud. Our masters left us behind centuries ago, but our kingdom still stands.",
+        "Annoyed. No need to be alarmed, I am only here to restock my supplies.",
+        "Confident. It is only a matter of time before our aquatic masters reclaim the galaxy.",
+        "Menacing. Don't stand in my way, you peasant! I am on an important mission!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier2head", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "glitchtier5mhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier5mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier5mpants", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}
