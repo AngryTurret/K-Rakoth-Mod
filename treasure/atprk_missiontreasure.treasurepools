@@ -1,0 +1,59 @@
+{
+
+  // ================================
+  //       Devout Attack
+  // ================================
+
+    "atprk_devoutattackBasicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.05, "pool" : "commonGun"},
+        {"weight" : 0.15, "item" : [ "atprk_glitchbanner2", 1]},
+        {"weight" : 0.10, "item" : [ "hourglass", 1]},
+        {"weight" : 0.10, "item" : [ "medievalglobe", 1]},
+        {"weight" : 0.04, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_eldertech", 1]},
+        {"weight" : 0.10, "item" : [ "bandage", 1]}
+      ],
+      "poolRounds" : [
+        [0.15, 0],
+        [0.45, 1],
+        [0.30, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_devoutattackRewardTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_glitchdevoutattackcodex-codex", 1]}
+      ],
+      "pool" : [
+        {"weight" : 0.50, "item" : [ "money", 1000]},
+        {"weight" : 0.50, "pool" : "uncommonMelee"},
+        {"weight" : 0.35, "pool" : "uncommonGun"},
+        {"weight" : 0.50, "pool" : "shield"},
+        {"weight" : 0.45, "item" : [ "capturepod", 1]},
+        {"weight" : 0.25, "item" : [ "diamond", 1]}
+      ],
+      "poolRounds" : [
+        [0.5, 4],
+        [0.5, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_devoutattackLoreTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextcorrupted", 1]}
+      ]
+    }]
+  ]
+
+}

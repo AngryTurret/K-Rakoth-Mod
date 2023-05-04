@@ -1,12 +1,196 @@
 [
 	{
         "op": "add",
+        "path": "/atprk_ambergineHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight": 0.89, "item": "atprk_ambergine"},
+                        { "weight": 0.01, "item": "atprk_ambergineseed"},
+                        {"weight": 0.1, "item": "plantfibre" }
+                    ],
+                    "poolRounds": [
+                        [0.6, 1],
+                        [0.4, 2]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
         "path": "/atprk_ruinousgrowthHarvest",
         "value": [
             [0, {
                 "pool": [
                         { "weight": 0.8, "item": "atprk_ruinousbulb"},
                         {"weight": 0.1, "item": "plantfibre" }
+                    ],
+                    "poolRounds": [
+                        [0.6, 1],
+                        [0.4, 2]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/atprk_tinymechfactoryHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight": 0.2, "item": "salvagearm"},
+                        { "weight": 0.2, "item": "salvagebody"},
+                        { "weight": 0.2, "item": "salvagebooster"},
+                        { "weight": 0.2, "item": "salvagelegs"},
+                        { "weight": 0.1, "item": "salvagetier4"},
+                        { "weight": 0.05, "item": "salvagetier5"},
+                        { "weight": 0.025, "item": "salvagetier6" }
+                    ],
+                    "poolRounds": [
+                        [0.5, 1],
+                        [0.4, 2],
+                        [0.1, 3]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/atprk_tinyconstructionsiteHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight" : 0.6, "item" : [ "atprk_tinyancienthomeblock", 10]},
+                        { "weight" : 0.4, "item" : [ "atprk_tinyancienthomeblock", 15]},
+                        { "weight" : 0.2, "item" : [ "atprk_tinyancienthomeblock", 20]},
+                        { "weight" : 0.6, "item" : [ "ancientblock", 10]},
+                        { "weight" : 0.4, "item" : [ "ancientblock", 15]},
+                        { "weight" : 0.2, "item" : [ "ancientblock", 20]},
+                        { "weight" : 0.6, "item" : [ "ancientbrick", 10]},
+                        { "weight" : 0.4, "item" : [ "ancientbrick", 15]},
+                        { "weight" : 0.2, "item" : [ "ancientbrick", 20]},
+                        { "weight" : 0.6, "item" : [ "ancientplatform", 10]},
+                        { "weight" : 0.4, "item" : [ "ancientplatform", 15]},
+                        { "weight" : 0.2, "item" : [ "ancientplatform", 20]},
+                        { "weight": 0.1, "item": "atprk_tinyancientbuilding1"},
+                        { "weight": 0.1, "item": "atprk_tinyancientbuilding2"},
+                        { "weight": 0.1, "item": "atprk_tinyancientbuilding3"},
+                        { "weight": 0.1, "item": "atprk_tinyancientbuilding4"},
+                        { "weight": 0.1, "item": "atprk_tinyancientbuilding5"},
+                        { "weight": 0.05, "item": "fantasyboardgame" }
+                    ],
+                    "poolRounds": [
+                        [0.5, 1],
+                        [0.4, 2],
+                        [0.1, 3]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/atprk_tinybugfarmHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight": 0.02, "item": "ashsprite"},
+                        { "weight": 0.02, "item": "aurorabee"},
+                        { "weight": 0.02, "item": "blueback"},
+                        { "weight": 0.02, "item": "brightstripe"},
+                        { "weight": 0.02, "item": "butterbee"},
+                        { "weight": 0.02, "item": "cinderfly"},
+                        { "weight": 0.02, "item": "dewhopper"},
+                        { "weight": 0.02, "item": "driftbell"},
+                        { "weight": 0.02, "item": "dustmoth"},
+                        { "weight": 0.02, "item": "fawnfly"},
+                        { "weight": 0.02, "item": "fireygiant"},
+                        { "weight": 0.02, "item": "flameroach"},
+                        { "weight": 0.02, "item": "frostfleck"},
+                        { "weight": 0.02, "item": "frostfly"},
+                        { "weight": 0.02, "item": "gasgiant"},
+                        { "weight": 0.02, "item": "glowbug"},
+                        { "weight": 0.02, "item": "goldbuck"},
+                        { "weight": 0.02, "item": "greentip"},
+                        { "weight": 0.02, "item": "heathugger"},
+                        { "weight": 0.02, "item": "hivehog"},
+                        { "weight": 0.02, "item": "icetip"},
+                        { "weight": 0.02, "item": "lavahopper"},
+                        { "weight": 0.02, "item": "muddancer"},
+                        { "weight": 0.02, "item": "mudstag"},
+                        { "weight": 0.02, "item": "orphanfly"},
+                        { "weight": 0.02, "item": "phoenixfly"},
+                        { "weight": 0.02, "item": "polarmoth"},
+                        { "weight": 0.02, "item": "redwing"},
+                        { "weight": 0.02, "item": "sandclown"},
+                        { "weight": 0.02, "item": "scuttleploom"},
+                        { "weight": 0.02, "item": "seahornet"},
+                        { "weight": 0.02, "item": "shadowmoth"},
+                        { "weight": 0.02, "item": "shardwing"},
+                        { "weight": 0.02, "item": "shellcreep"},
+                        { "weight": 0.02, "item": "snowskater"},
+                        { "weight": 0.02, "item": "stinkjack"},
+                        { "weight": 0.02, "item": "sunskipper"},
+                        { "weight": 0.02, "item": "thornbee"},
+                        { "weight": 0.02, "item": "tidefly"},
+                        { "weight": 0.02, "item": "vineclimber"},
+                        { "weight": 0.02, "item": "wavebird"},
+                        { "weight": 0.02, "item": "xenofly"},
+                        { "weight": 0.025, "item": "larva" }
+                    ],
+                    "poolRounds": [
+                        [0.5, 1],
+                        [0.4, 2],
+                        [0.1, 3]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/atprk_tiny4dsyphonHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight": 0.6, "item": "atprk_4dparticle"},
+                        { "weight" : 0.4, "item" : [ "atprk_4dparticle", 2]},
+                        { "weight" : 0.2, "item" : [ "atprk_4dparticle", 3]},
+                        { "weight" : 0.1, "item" : [ "atprk_4dparticle", 5]},
+                        { "weight" : 0.1, "item" : [ "atprk_4dblock", 10]},
+                        { "weight" : 0.2, "item" : [ "essence", 5]},
+                        { "weight" : 0.1, "item" : [ "essence", 10]},
+                        { "weight" : 0.05, "item" : [ "essence", 15]},
+                        { "weight" : 0.025, "item" : [ "essence", 20]},
+                        { "weight": 0.05, "item": "atprk_chthonicscraps" },
+                        { "weight": 0.01, "item": "atprk_ancientshards" },
+                        { "weight": 0.05, "item": "perfectlygenericitem"},
+                        { "weight": 0.025, "item": "atprk-4dperfect"}
+                    ],
+                    "poolRounds": [
+                        [0.5, 1],
+                        [0.4, 2],
+                        [0.1, 3]
+                    ]
+                }
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/atprk_tinyrishaanchurchHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight" : 0.4, "item" : [ "throwinggnome", 2]},
+                        { "weight" : 0.2, "item" : [ "throwinggnome", 3]},
+                        { "weight" : 0.2, "item" : [ "throwinggnome", 5]},
+                        {"weight": 0.1, "item": "atprk_ruinousfiber" },
+                        { "weight" : 0.09, "item" : [ "throwinggnome", 7]},
+                        { "weight": 0.01, "item": "goldbar" }
                     ],
                     "poolRounds": [
                         [0.6, 1],

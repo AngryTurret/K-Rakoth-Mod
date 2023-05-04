@@ -43,6 +43,7 @@
       "fill" : [
         {"pool" : "atprk_unpackedelectronicgoodspool"},
         {"pool" : "atprk_unpackedelectronicgoodspool"},
+        {"pool" : "atprk_unpackedelectronicgoodspool"},
         {"item" : [ "metallicmaterial", 10]}
       ]
     }]
@@ -80,7 +81,8 @@
         {"weight" : 0.02, "item" : "robothenegg"},
         {"weight" : 0.01, "item" : "atprk_eldertech"},
         {"weight" : 0.01, "item" : "atprk_aeonbattery"},
-        {"weight" : 0.01, "item" : "atprk_4dcube"}
+        {"weight" : 0.01, "item" : "atprk_4dcube"},
+        {"weight" : 0.01, "item" : "atprk_betastarmap"}
       ]
     }]
   ],
@@ -88,6 +90,7 @@
   "atprk_unpackedfoodgoods" : [
     [1, {
       "fill" : [
+        {"pool" : "atprk_unpackedfoodgoodspool"},
         {"pool" : "atprk_unpackedfoodgoodspool"},
         {"pool" : "atprk_unpackedfoodgoodspool"},
         {"item" : [ "candyblock", 10]}
@@ -157,6 +160,7 @@
       "fill" : [
         {"pool" : "atprk_unpackedmedicalgoodspool"},
         {"pool" : "atprk_unpackedmedicalgoodspool"},
+        {"pool" : "atprk_unpackedmedicalgoodspool"},
         {"item" : [ "liquidhealing", 10]}
       ]
     }]
@@ -206,6 +210,7 @@
       "fill" : [
         {"pool" : "goodWeapon"},
         {"pool" : "atprk_unpackedmilitarygoodspool"},
+        {"pool" : "atprk_unpackedmilitarygoodspool"},
         {"item" : [ "techhull1", 10]}
       ]
     }]
@@ -248,16 +253,16 @@
         {"weight" : 0.01, "item" : "camohead"},
         {"weight" : 0.01, "item" : "camochest"},
         {"weight" : 0.01, "item" : "camolegs"},
-        {"weight" : 0.08, "item" : "mecharmheatrifle"},
-        {"weight" : 0.08, "item" : "mecharmtommygun"},
-        {"weight" : 0.08, "item" : "mecharmsplitshot"},
-        {"weight" : 0.04, "item" : "mecharmcannon"},
-        {"weight" : 0.04, "item" : "mecharmchainsaw"},
-        {"weight" : 0.04, "item" : "mecharmclustermine"},
-        {"weight" : 0.04, "item" : "mecharmgatling"},
-        {"weight" : 0.04, "item" : "mecharmmissilerack"},
-        {"weight" : 0.04, "item" : "mecharmplasmadrone"},
-        {"weight" : 0.04, "item" : "mecharmwobbleshot"}
+        {"weight" : 0.04, "item" : "mecharmheatrifle"},
+        {"weight" : 0.04, "item" : "mecharmtommygun"},
+        {"weight" : 0.04, "item" : "mecharmsplitshot"},
+        {"weight" : 0.02, "item" : "mecharmcannon"},
+        {"weight" : 0.02, "item" : "mecharmchainsaw"},
+        {"weight" : 0.02, "item" : "mecharmclustermine"},
+        {"weight" : 0.02, "item" : "mecharmgatling"},
+        {"weight" : 0.02, "item" : "mecharmmissilerack"},
+        {"weight" : 0.02, "item" : "mecharmplasmadrone"},
+        {"weight" : 0.02, "item" : "mecharmwobbleshot"}
       ]
     }]
   ],
@@ -265,6 +270,7 @@
   "atprk_unpackedrelicgoods" : [
     [1, {
       "fill" : [
+        {"pool" : "atprk_unpackedrelicgoodspool"},
         {"pool" : "atprk_unpackedrelicgoodspool"},
         {"pool" : "atprk_unpackedrelicgoodspool"},
         {"item" : [ "treasurehoard", 5]}
@@ -323,6 +329,7 @@
       "fill" : [
         {"pool" : "atprk_unpackedloregoodspool"},
         {"pool" : "atprk_unpackedloregoodspool"},
+        {"pool" : "atprk_unpackedloregoodspool"},
         {"item" : [ "bookpiles", 5]}
       ]
     }]
@@ -371,7 +378,8 @@
       "fill" : [
         {"pool" : "atprk_unpackedfossilgoodspool"},
         {"pool" : "atprk_unpackedfossilgoodspool"},
-        {"item" : [ "bone", 7]}
+        {"pool" : "atprk_unpackedfossilgoodspool"},
+        {"item" : [ "bonematerial", 5]}
       ]
     }]
   ],

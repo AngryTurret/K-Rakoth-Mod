@@ -77,6 +77,17 @@
 	  ]
   },
   {"op" : "add",
+	"path" : "/atprk_irradiatedroots", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk_radiotrophicchest" ],
+		  "treasurePool" : "atprk_irradiatedrootsChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
 	"path" : "/atprk_hungergrove", 
 	"value" : 
 	  [
@@ -132,6 +143,17 @@
 	  ]
   },
   {"op" : "add",
+	"path" : "/atprk_flattenedhulls", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "rustchest" ],
+		  "treasurePool" : "atprk_flattenedhullsChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
 	"path" : "/atprk_boilingocean", 
 	"value" : 
 	  [
@@ -171,6 +193,17 @@
 		{
 		  "containers" : [ "atprk-krakothcontainer2" ],
 		  "treasurePool" : "atprk_navalminefieldChestTreasure",
+		  "minimumLevel" : 0
+		}
+	  ]
+  },
+  {"op" : "add",
+	"path" : "/atprk_rottensanctum", 
+	"value" : 
+	  [
+		{
+		  "containers" : [ "atprk-gildedchest" ],
+		  "treasurePool" : "atprk_rottensanctumChestTreasure",
 		  "minimumLevel" : 0
 		}
 	  ]

@@ -190,6 +190,7 @@
       "pool" : [
         {"weight" : 0.50, "pool" : "valuableTreasure"},
         {"weight" : 0.50, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "item" : [ "atprk_apexufoblueprint", 1]},
         {"weight" : 0.05, "item" : [ "atprk_hyperpixel", 1]},
         {"weight" : 0.20, "item" : [ "beachcreeperhead", 1]},
         {"weight" : 0.20, "item" : [ "beachcreeperchest", 1]},
@@ -450,6 +451,47 @@
         {"weight" : 0.25, "item" : [ "solidfuel", 25]}
       ],
       "poolRounds" : 2,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_infinitemazeBlockTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "item" : [ "ancientblock", 35]},
+        {"weight" : 0.33, "item" : [ "ancientblock", 45]},
+        {"weight" : 0.33, "item" : [ "ancientblock", 55]}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_infinitemazeWireTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "tier1switch", 1]},
+        {"weight" : 0.5, "item" : [ "tier2switch", 1]}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothInfinitemazeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "challengeSmallChestTreasure"},
+        {"weight" : 0.20, "item" : "atprk_krakothtextpsi"},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_chthonicscraps", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
       "allowDuplication" : false
     }]
   ]
