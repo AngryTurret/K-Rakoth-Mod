@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_duodungrare",
+  "category" : "atprk_duodungrare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_duodungrare.png"
+  }
+}

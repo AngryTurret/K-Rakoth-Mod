@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_clamia",
+  "category" : "atprk_clamia",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_clamia.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_clamiarare",
+  "category" : "atprk_clamiarare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_clamiarare.png"
+  }
+}
