@@ -1,0 +1,14 @@
+{
+  "currencyInputs" : {
+    "essence" : 2500
+  },
+  "input" : [
+    { "item" : "tentacleblock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "atprk_terraformerruined",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "atprk_metamorphosisengine", "atprk_metamorphosisterraform" ]
+}

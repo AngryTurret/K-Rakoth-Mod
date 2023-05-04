@@ -7,5 +7,6 @@
     "item" : "atprk_ancientstatueprop",
     "count" : 1
   },
+  "duration" : 4,
   "groups" : [ "atprk_reconstructiontable" ]
 }

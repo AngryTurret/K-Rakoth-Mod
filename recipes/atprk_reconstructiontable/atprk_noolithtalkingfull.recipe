@@ -9,5 +9,6 @@
     "item" : "atprk_noolithtalkingfull",
     "count" : 1
   },
+  "duration" : 4,
   "groups" : [ "atprk_reconstructiontable" ]
 }

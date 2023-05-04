@@ -8,5 +8,6 @@
     "item" : "atprk-eldritchterraformerframefixed",
     "count" : 1
   },
+  "duration" : 4,
   "groups" : [ "atprk_reconstructiontable" ]
 }

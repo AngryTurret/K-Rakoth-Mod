@@ -9,5 +9,6 @@
     "item" : "atprk_fenronbasrelieffull",
     "count" : 1
   },
+  "duration" : 4,
   "groups" : [ "atprk_reconstructiontable" ]
 }

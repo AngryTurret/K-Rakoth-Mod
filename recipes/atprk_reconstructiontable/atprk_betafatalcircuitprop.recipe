@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "atprk_betarobotpart1", "count" : 1},
+    { "item" : "atprk_betarobotpart2", "count" : 1},
+    { "item" : "atprk_betarobotpart3", "count" : 1},
+    { "item" : "atprk_betarobotpart4", "count" : 1}
+  ],
+  "output" : {
+    "item" : "atprk_betafatalcircuitprop",
+    "count" : 1
+  },
+  "duration" : 4,
+  "groups" : [ "atprk_reconstructiontable" ]
+}

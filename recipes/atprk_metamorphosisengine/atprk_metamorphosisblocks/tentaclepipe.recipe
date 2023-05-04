@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "atprk_ruinousfiber", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "tentaclepipe", "count" : 15 },
+  "groups" : [ "atprk_metamorphosisengine", "atprk_metamorphosisblocks", "nouncrafting" ]
+}

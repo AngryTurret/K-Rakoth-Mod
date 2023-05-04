@@ -1,0 +1,15 @@
+{
+  "currencyInputs" : {
+    "essence" : 500
+  },
+  "input" : [
+    { "item" : "atprk_ancientshards", "count" : 8 },
+    { "item" : "bugnet", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_tinybugfarm",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "atprk_tinyancientpalace", "mod" ]
+}

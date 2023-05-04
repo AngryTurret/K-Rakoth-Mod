@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_ruinousfiber", "count" : 1 },
+    { "item" : "tentacleblock", "count" : 5 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "dermisblock", "count" : 15 },
+  "groups" : [ "atprk_metamorphosisengine", "atprk_metamorphosisblocks", "nouncrafting" ]
+}

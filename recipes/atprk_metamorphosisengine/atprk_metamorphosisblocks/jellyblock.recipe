@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_ruinousfiber", "count" : 1 },
+    { "item" : "slime", "count" : 10 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "jellyblock", "count" : 10 },
+  "groups" : [ "atprk_metamorphosisengine", "atprk_metamorphosisblocks", "nouncrafting" ]
+}
