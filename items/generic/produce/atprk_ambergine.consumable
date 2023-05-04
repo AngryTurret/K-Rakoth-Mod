@@ -5,7 +5,7 @@
   "category" : "food",
   "eventCategory" : "eventCrop",
   "inventoryIcon" : "atprk_ambergine.png",
-  "description" : "A sweet-scentet vegetable.",
+  "description" : "A sweet-scented vegetable.",
   "shortdescription" : "Ambergine",
   "foodValue" : 6.75,
   "tooltipKind" : "food",
