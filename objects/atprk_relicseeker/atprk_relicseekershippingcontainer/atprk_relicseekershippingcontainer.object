@@ -33,7 +33,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     },
     {
       "image" : "atprk_relicseekershippingcontainer.png:<color>",
@@ -46,9 +45,10 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     }
   ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
 
   "openSounds" : [ "/sfx/objects/shippingcontainer_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/shippingcontainer_close.ogg" ],

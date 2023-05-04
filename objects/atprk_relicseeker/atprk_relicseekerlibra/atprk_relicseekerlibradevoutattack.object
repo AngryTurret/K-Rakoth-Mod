@@ -1,0 +1,62 @@
+{
+  "objectName" : "atprk_relicseekerlibradevoutattack",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "description" : "I should probably follow her instructions.",
+  "shortdescription" : "Libra Eclipse",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [20, 50, 30],
+
+  "apexDescription" : "I can handle this situation.",
+  "avianDescription" : "Don't worry, Kluex always watches over us.",
+  "floranDescription" : "Floran will help ssstar lady.",
+  "glitchDescription" : "Determined. There is nothing I cannot solve!",
+  "humanDescription" : "I'll take care of this situation!",
+  "hylotlDescription" : "Let me reassure you that I can deal with this situation.",
+  "novakidDescription" : "No worries, I'll handle this!",
+
+  "inventoryIcon" : "atprk_relicseekerlibraicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicseekerlibradevoutattack.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_relicseekerlibradevoutattacklit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 20,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_relicseekerlibradevoutattack.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_relicseekerlibradevoutattacklit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 20,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "All these sirens... This can't be right!",
+    "Something's off! Go up to the bridge 'n ask Starklance what the deal is.",
+    "Guess we don't have much time! Run to the bridge!"
+  ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup5", 1, { } ], [ "steamspringchair", 1, { } ] ]
+  ]
+}

@@ -49,7 +49,7 @@
   ],
 
   "offeredQuests" : [
-    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5"
+    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5", "atprk_relicsearchmission1"
   ],
   "turnInQuests" : [
     "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5"
@@ -60,13 +60,18 @@
   "chatOptions" : [
     "We've visited many planets, and all of them had their own stories to tell.",
     "Huh? You want to know who our Relic Exchange guy is? Well, honestly, my guess is as good as yours.",
-    "The second carriage is where our penguin mercs are. If you've got spare dubloons, they can help you.",
+    "The second carriage is where our Penguin mercs are. If you've got spare dubloons, they may help you.",
     "Oh, Colt? He's our theologian. He's generally a nice guy but... Let's just say he gets carried away too fast.",
     "Our cartographer's very keen on space exploration. He may give you special pins for exploring new planets.",
+    "Don't worry if you run into Jade at some point. She's kinder than she lets on.",
     "Space Train Syllectis may be a bit old 'n rusty but there's no way I'm trading it for anythin' else!",
     "Do you like reading books? We've got a whole collection of historical records 'n classic literature.",
     "You're from the Protectorate, right? I'm sorry for what had happened to Earth. It's a great loss.",
     "Have you ever seen K'Rakothan ruins before? They're so imposing 'n spacious."
+  ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup5", 1, { } ], [ "steamspringchair", 1, { } ] ]
   ],
 
   "uniqueId" : "atprk_relicseekerlibra"
