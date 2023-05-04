@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2EtywyAMBmCuldv1GM4dvcsFsjEzVNULkBB2xcy\/6KSR9QF+5SylnJlMJpPJZFbnxyjkMT5C7uyVbBvYp62zxsVzsK3Tyb2lzXEubu0ccD\/C2eF+nFUwp3eDXld5o3tcYE7vQ9Kzn19XonseSds75+VqvK8a74Hjegb2ha2T1kvVtezRutaBzPv5+32VXVuux96xqhZ2Hmq83DyODu9a1Qrdkhf+f1t3dnjVwtbVYn0te7SsVfsmzuHh89eyR8ta9XolXKMfs76z16u6N+7o\/W\/rK3mhGX73bl5pP8Nn5wPEqkfLWqXgXsb6530BOjHvyDNCrTPzvHGAv6nnjbpeGi91HmN1WwfsBX7W3ieoWth3sTql0LXqcQjr0PsRPLd741VLeK7ayovtAxjs8xmv9vcNr\/Wl9j83B1yfmt83NGbv\/QzPUS7e3lmrxtsObm0lt9X6fsrcaL0zQ+pR6\/U2z3o1vRFW0uvp1ng1x+10qrxat7ZvzjtqjPD2RLpn7uC1NGPees9d4O2Khxd7P9nBamW23s9eTut13t24izvKGmGOtq40Rxu1bov5iHat2gPRPa9wR\/eXyWT2zBfGhc2o",
+         "data":"eJzt100KAjEMBeA5iyd1613deQEXIkiZJC+\/zUgWD0Gw7dek0\/F5HMdzMplMJpNJde5BIed4CbmyV7I1sLutXmPxHrR1Jrlb2hL34tJOg9vsfNw+2W1Uulkr5elsFcyid3VR1m5+i3f1cdYreqnffj1cdvtAM1TbXVbv2BneSNvveN7xrf1cWdf1WeG1c15pDZQ12h09B+JFz22Uda0p9Wn03lcvut+U02vP3leNl+qxCOt6r2e5KS93RpHvMuoacWY471nd1rmz7iLUq51bqi+yjigrOpdnbu78cmc0or7S3cZZo\/tZu0btOpBnOzWPp3ckL9VHO3o54z7SvjtHe6W5veOh75MV5qy77sTK\/l+QnNF1Rp8N2n1AvN162boG7f+jLLfUJ1HzRXjPes9bQ28dLV7q\/Eb4LP7AdwzSS71L7zRXebk1ZXi5vtrlzTRTNbXOh3pRc4Y3ao8JK+lF3ZVBvIwT8nZ0G50q7x+Z\/8arrDOU3Z5Ka2dzlrWru8LbxV1pjbZzY+10Rbp3r3UymUwmk+q8ASeHP38=",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2c0NwyAMBWA6QefpaNkkO\/aYBaIckBAKGIzx48dP8qFVSPyRtCrUOYvFYrFYLCvmImrmULYV7K3GWeagtxPp1rah5gLt0HKj+9Z0o3vVNqP71PSie9Q0o3vTNqP7Qt7j3wJFWZ\/8g0L321LeUGqVMkuer3R8fM0a71MH8ZpTh9D5SsbWWLnX0PKWVotXojSMI3m1y7xrl3nXrt29q5t38uYSHncGhe65l\/eKnFJm7Tnj7G\/49cbp8usPytnzOcmtfTn7GzXrNW96e58aVzNnVB+c\/Q2uuaVid40xZeV4tfd3qGdVykqZLyf\/+ZP+fqq1Ut5RzS3e2cyt1pnMUtbRzdz9dQn399O\/JP5L0DZz56jUKu2lzClHyfHny9jw9wbCWmquqdTaJC6EM4ykmXKjjG+Rdod25P3MpYd5VKvPTtYwqT5XtFLZxRlnB6PFYpHPDRTHtIQ=",
+         "data":"eJzt2EtqwzAQBmBl0Yv0tjmrl7lAVwahzPsl250fBA2NPfo0kiEeo9PpdDqdzhPzYcadw9meYPca77IG2c6d7mrbrrVY7\/v+\/f58jt1mjxvyra4rOT1uqH+zHeqptc+Z62XxYk5oWCzcGkHrGunF6kms2NmWeLH1ovaU12y1SuYs6SG0XhH7XuLVOo\/xPbgeU+cf6y30f2+Pz\/l6rOv18xpwRutespxhbL5W7xj09yLOzAepfyis0vlgdc5rob89Xs6nMWvnw9WZv0PF+5yweCVn0FNb48VqW6xYfa5PkbUPoC7njapn8Xprc97M9b2KF6vzn7xP7y9lrvJm1G5vvbeyNuXNWuPdXmpE16RCOavMlV7p799Kq6eexCoxX7G3kEPileznLLPXq\/3Nf9aQ9LlqL0tqVb2zq\/L+vPDheZ+jNVd51z3HOaXW1UvVjjRLnxnYWfN4x4DvPzuhelqj9d0v5bdY52DvjbE6836TnLdIo9fqNc9uyT24PZXdW84cPSQW6PkRbc00U89BzJ3d2wwzZqTO9Xp9tjXaDK2Bdg9kW+dk7W3L+lQmq9\/SsTORc7+Si8td+tPpdDqdzo78ARzMveg=",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -45,49 +45,13 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8829,
-                 "height":24,
-                 "id":799,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":160,
-                 "y":208
-                }, 
-                {
-                 "gid":8829,
-                 "height":24,
-                 "id":800,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":312,
-                 "y":208
-                }, 
-                {
-                 "gid":8833,
-                 "height":40,
-                 "id":801,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":408,
-                 "y":288
-                }, 
-                {
-                 "gid":3477,
+                 "gid":8843,
                  "height":16,
-                 "id":803,
+                 "id":799,
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"atprk_forgottenmountainsChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_rottensanctumChestTreasure\"]}"
                     },
                  "propertytypes":
                     {
@@ -97,110 +61,68 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":168,
-                 "y":384
+                 "x":296,
+                 "y":208
                 }, 
                 {
-                 "gid":7646,
+                 "gid":7243,
+                 "height":16,
+                 "id":800,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":160,
+                 "y":344
+                }, 
+                {
+                 "gid":7241,
+                 "height":24,
+                 "id":801,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":192,
+                 "y":360
+                }, 
+                {
+                 "gid":7242,
+                 "height":16,
+                 "id":802,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":216,
+                 "y":352
+                }, 
+                {
+                 "gid":2147490891,
+                 "height":16,
+                 "id":803,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":400,
+                 "y":304
+                }, 
+                {
+                 "gid":2147490890,
                  "height":16,
                  "id":804,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":40,
-                 "y":184
-                }, 
-                {
-                 "gid":7641,
-                 "height":16,
-                 "id":805,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":368,
-                 "y":352
-                }, 
-                {
-                 "gid":7642,
-                 "height":16,
-                 "id":806,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":224,
-                 "y":368
-                }, 
-                {
-                 "gid":7575,
-                 "height":16,
-                 "id":807,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":192,
-                 "y":384
-                }, 
-                {
-                 "gid":7592,
-                 "height":16,
-                 "id":808,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":304,
-                 "y":384
-                }, 
-                {
-                 "height":96,
-                 "id":809,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"atprk_forgottenmountains.atprk_undergroundfort2\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string",
-                     "stagehand":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":184,
-                 "x":80,
-                 "y":200
-                }, 
-                {
-                 "height":104,
-                 "id":810,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"atprk_forgottenmountains.atprk_undergroundfort2\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string",
-                     "stagehand":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":104,
-                 "x":312,
-                 "y":200
+                 "width":16,
+                 "x":376,
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -343,7 +265,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":811,
+ "nextobjectid":805,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -487,7 +409,7 @@
         }, 
         {
          "firstgid":8801,
-         "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glitchdevoutset1.json"
+         "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }],
  "tilewidth":8,
  "type":"map",

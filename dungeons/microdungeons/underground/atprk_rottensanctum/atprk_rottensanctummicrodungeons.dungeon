@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_rottensanctummicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_rottensanctumstructure1", "atprk_rottensanctumstructure2", "atprk_rottensanctumstructure3", "atprk_rottensanctumstructure4", "atprk_rottensanctumstructure5", "atprk_rottensanctumstructure6", "atprk_rottensanctumstructure7", "atprk_rottensanctumstructure8", "atprk_rottensanctumstructure9", "atprk_rottensanctumstructure10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_rottensanctumstructure1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure1.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure2.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure3.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure4.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure5.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure6.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure7.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure8.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure9.json" ]
+    },
+    {
+      "name" : "atprk_rottensanctumstructure10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_rottensanctumstructure10.json" ]
+    }
+  ]
+}

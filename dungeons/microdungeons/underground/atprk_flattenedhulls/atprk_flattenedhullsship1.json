@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2EtywyAMBmCuldv1GM4dvcsFsjEzVNULkBB2xcy\/6KSR9QF+5SylnJlMJpPJZFbnxyjkMT5C7uyVbBvYp62zxsVzsK3Tyb2lzXEubu0ccD\/C2eF+nFUwp3eDXld5o3tcYE7vQ9Kzn19XonseSds75+VqvK8a74Hjegb2ha2T1kvVtezRutaBzPv5+32VXVuux96xqhZ2Hmq83DyODu9a1Qrdkhf+f1t3dnjVwtbVYn0te7SsVfsmzuHh89eyR8ta9XolXKMfs76z16u6N+7o\/W\/rK3mhGX73bl5pP8Nn5wPEqkfLWqXgXsb6530BOjHvyDNCrTPzvHGAv6nnjbpeGi91HmN1WwfsBX7W3ieoWth3sTql0LXqcQjr0PsRPLd741VLeK7ayovtAxjs8xmv9vcNr\/Wl9j83B1yfmt83NGbv\/QzPUS7e3lmrxtsObm0lt9X6fsrcaL0zQ+pR6\/U2z3o1vRFW0uvp1ng1x+10qrxat7ZvzjtqjPD2RLpn7uC1NGPees9d4O2Khxd7P9nBamW23s9eTut13t24izvKGmGOtq40Rxu1bov5iHat2gPRPa9wR\/eXyWT2zBfGhc2o",
+         "data":"eJzt180RgjAQBWDKsDLrwSaswtK42YDDgRnEbJK3m59NfMy8g+4g+bIh4LYsy8YwDMMwTOushSJe453IyN6UzYHdbLUaG8+BW2clt0tbxbkY2qlwT+EE3NNZE2Z6HYy1lbf3GBuY6Z0kXM\/f3t5ja2SGvI8OKeBdr16PzpJ+1Du6G\/W+LrkFvutVK+0Nze1+naeQnJrlNzV9tqznXBPi1ZxXaz1rx5bTJ+Q8y56V4w05NT2s4UXd2ucR2sOSNctebXnf6OU91gS6llFvjf3Z4kV7LL1PIj0+1tc+hv24C+O+R2rHIZ0n1dA+a7yh+\/f4HDOlvJpaqM+ZVuj+lfaPluv5HEVvo97zvVrq3a9WTeNF9yzP\/w8E64\/Xs7mFt7exZ39HS653BrNgFb2juiPOLO8o7gwn5PUyB4CruPcSr77qmd3HMAzDMAzDMP+SD0YLm1U=",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2c0NwyAMBWA6QefpaNkkO\/aYBaIckBAKGIzx48dP8qFVSPyRtCrUOYvFYrFYLCvmImrmULYV7K3GWeagtxPp1rah5gLt0HKj+9Z0o3vVNqP71PSie9Q0o3vTNqP7Qt7j3wJFWZ\/8g0L321LeUGqVMkuer3R8fM0a71MH8ZpTh9D5SsbWWLnX0PKWVotXojSMI3m1y7xrl3nXrt29q5t38uYSHncGhe65l\/eKnFJm7Tnj7G\/49cbp8usPytnzOcmtfTn7GzXrNW96e58aVzNnVB+c\/Q2uuaVid40xZeV4tfd3qGdVykqZLyf\/+ZP+fqq1Ut5RzS3e2cyt1pnMUtbRzdz9dQn399O\/JP5L0DZz56jUKu2lzClHyfHny9jw9wbCWmquqdTaJC6EM4ykmXKjjG+Rdod25P3MpYd5VKvPTtYwqT5XtFLZxRlnB6PFYpHPDRTHtIQ=",
+         "data":"eJztmVGOgzAMRDnX3o779Gb93AvsF5IbOc44sWPozkjzQVrALzYRDsdBURRFUdQ36nfgJ2vEdvnsjD9BKOOs7yI0jz+KT+E7cntzIjnP45NRjt+pBiLi0PLbcsuxCu4oTs\/47DyuckfV1w6PaiKKVdZiNbPlFV5trclYd3Yxe+qnivUtvMq8Ekcm8xt0Vo6z8oNyedlH8tZKZI4yPGL11MnTmT3PR7t2nYbb9Vz7\/25ez\/naGo2yWtzX8Q5m5JxXoSt4M+Z79\/3IS17ykvfu1lQdE3nzWL+Z2ZLWR1XHm83a9o\/adTLfdRFr7+8ah5e37ed6PcBuzt4etmd\/Y8Rc2S9YHvXes7xt36v1flaPOzqn10v2jOwzIEKusxo3Oi\/y2fHuqaCK3r+qskfVsaLurVWzmo2jreNoTmvPP0LWfa3ftGdVxtgeI5za9eV4pJB4tP25Xd9dMuTN5dN5e8y9OUBqH4m3ihW9f0ZOKjiRGCrzsFv\/hZOiKIqiKErTH\/fhgEU=",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -45,49 +45,13 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8829,
-                 "height":24,
-                 "id":799,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":160,
-                 "y":208
-                }, 
-                {
-                 "gid":8829,
+                 "gid":8836,
                  "height":24,
                  "id":800,
                  "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":312,
-                 "y":208
-                }, 
-                {
-                 "gid":8833,
-                 "height":40,
-                 "id":801,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":408,
-                 "y":288
-                }, 
-                {
-                 "gid":3477,
-                 "height":16,
-                 "id":803,
-                 "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"atprk_forgottenmountainsChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_flattenedhullsChestTreasure\"]}"
                     },
                  "propertytypes":
                     {
@@ -96,111 +60,69 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
-                 "x":168,
-                 "y":384
+                 "width":24,
+                 "x":160,
+                 "y":288
                 }, 
                 {
-                 "gid":7646,
+                 "gid":4404,
+                 "height":16,
+                 "id":801,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":248,
+                 "y":224
+                }, 
+                {
+                 "gid":2147488052,
+                 "height":16,
+                 "id":802,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":128,
+                 "y":224
+                }, 
+                {
+                 "gid":6065,
+                 "height":16,
+                 "id":803,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":232,
+                 "y":304
+                }, 
+                {
+                 "gid":4426,
                  "height":16,
                  "id":804,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":40,
-                 "y":184
+                 "width":16,
+                 "x":304,
+                 "y":248
                 }, 
                 {
-                 "gid":7641,
-                 "height":16,
+                 "gid":4320,
+                 "height":24,
                  "id":805,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":368,
-                 "y":352
-                }, 
-                {
-                 "gid":7642,
-                 "height":16,
-                 "id":806,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":224,
-                 "y":368
-                }, 
-                {
-                 "gid":7575,
-                 "height":16,
-                 "id":807,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":192,
-                 "y":384
-                }, 
-                {
-                 "gid":7592,
-                 "height":16,
-                 "id":808,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":304,
-                 "y":384
-                }, 
-                {
-                 "height":96,
-                 "id":809,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"atprk_forgottenmountains.atprk_undergroundfort2\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string",
-                     "stagehand":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":184,
-                 "x":80,
-                 "y":200
-                }, 
-                {
-                 "height":104,
-                 "id":810,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"atprk_forgottenmountains.atprk_undergroundfort2\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string",
-                     "stagehand":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":104,
-                 "x":312,
-                 "y":200
+                 "width":16,
+                 "x":280,
+                 "y":304
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -343,7 +265,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":811,
+ "nextobjectid":806,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

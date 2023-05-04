@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_chthoniancavesmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_crystalveins1", "atprk_crystalveins2", "atprk_crystalveins3", "atprk_crystalveins4", "atprk_crystalveins5", "atprk_crystalveins6", "atprk_crystalveins7", "atprk_crystalveins8", "atprk_crystalveins9", "atprk_crystalveins10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_crystalveins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins1.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins2.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins3.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins4.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins5.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins6.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins7.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins8.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins9.json" ]
+    },
+    {
+      "name" : "atprk_crystalveins10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_crystalveins10.json" ]
+    }
+  ]
+}

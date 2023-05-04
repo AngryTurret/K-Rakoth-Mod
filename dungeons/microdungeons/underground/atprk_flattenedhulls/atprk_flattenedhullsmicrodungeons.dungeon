@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "name" : "atprk_flattenedhullsmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "atprk_flattenedhullsship1", "atprk_flattenedhullsship2", "atprk_flattenedhullsship3", "atprk_flattenedhullsship4", "atprk_flattenedhullsship5", "atprk_flattenedhullsship6", "atprk_flattenedhullsship7", "atprk_flattenedhullsship8", "atprk_flattenedhullsship9", "atprk_flattenedhullsship10" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_flattenedhullsship1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship1.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship2.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship3.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship4.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship5.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship6.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship7.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship8.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship9.json" ]
+    },
+    {
+      "name" : "atprk_flattenedhullsship10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_flattenedhullsship10.json" ]
+    }
+  ]
+}
