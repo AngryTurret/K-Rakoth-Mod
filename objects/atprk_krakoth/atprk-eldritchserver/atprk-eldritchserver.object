@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk-eldritchserver",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 195,
+  "printable" : false,
+
+  "description" : "A computer rack loaded with tremendous amounts of data.",
+  "shortdescription" : "Elder Server",
+  "race" : "generic",
+
+  "apexDescription" : "I wonder how much data this server rack stores.",
+  "avianDescription" : "I wouldn't be surprised if this computer was used to store tonnes of knowledge.",
+  "floranDescription" : "Ssserver cabinet of the elderss.",
+  "glitchDescription" : "Amused. Even the ancient ones needed large computers, it seems.",
+  "humanDescription" : "This ancient computer is so tall!",
+  "hylotlDescription" : "A massive server rack containing possibly priceless data.",
+  "novakidDescription" : "That's one big ol' computer.",
+
+  "inventoryIcon" : "atprk-eldritchservericon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchserver.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchserverlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-eldritchserver.png:<color>", "fullbright" : true }, { "image" : "atprk-eldritchserverlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

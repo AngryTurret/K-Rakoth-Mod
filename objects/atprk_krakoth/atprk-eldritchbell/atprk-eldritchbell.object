@@ -2,7 +2,7 @@
   "objectName" : "atprk-eldritchbell",
   "colonyTags" : ["atprk_krakoth","pretty"],
   "rarity" : "Common",
-  "description" : "A minor K'Rakoth artifact. Unfortunately, it's broken.",
+  "description" : "A minor K'Rakothan artifact. Unfortunately, it's broken.",
   "shortdescription" : "Eldritch Bell",
   "race" : "generic",
   "printable" : false,

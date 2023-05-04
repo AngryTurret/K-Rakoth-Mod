@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-eldritchcaptainchairlarge",
+  "colonyTags" : ["atprk_krakoth"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 175,
+  "description" : "An extra-large metal chair for extra-large people.",
+  "shortdescription" : "Large Elder Captain's Chair",
+  "race" : "generic",
+  "printable" : false,
+
+
+  "apexDescription" : "This chair was clearly designed to be used by a large creature.",
+  "avianDescription" : "Whoever sat on this chair was a tall person.",
+  "floranDescription" : "Giant'ss ssseat. Floran wishesss Floran could fight itsss owner.",
+  "glitchDescription" : "Confused. Who needs a chair this big? A horse?",
+  "humanDescription" : "Not only this chair is taller than the rest, it's also way wider.",
+  "hylotlDescription" : "Judging by the size of this chair, it was reserved for a K'Rakoth.",
+  "novakidDescription" : "Heck, you can fit at least three people on this chair!",
+
+
+  "inventoryIcon" : "atprk-eldritchcaptainchairlargeicon.png",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchcaptainchairlarge.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [2, 24]
+    },
+    {
+      "image" : "atprk-eldritchcaptainchairlarge.png:<color>",
+      "imagePosition" : [-18, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [2, 24]
+    }
+  ]
+}

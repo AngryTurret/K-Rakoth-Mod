@@ -1,13 +1,13 @@
 {
-  "objectName" : "atprk-eldritchpc",
+  "objectName" : "atprk-eldritchpclarge",
   "colonyTags" : ["atprk_krakoth","pretty"],
   "rarity" : "Common",
   "description" : "A minor K'Rakothan artifact. It's still on.",
-  "shortdescription" : "Eldritch Computer",
+  "shortdescription" : "Large Eldritch Computer",
   "race" : "generic",
   "printable" : false,
   "category" : "decorative",
-  "price" : 50,
+  "price" : 65,
 
   "apexDescription" : "Wait, how is this computer still on? It's been running for centuries.",
   "avianDescription" : "Oh my, this computer is still running some alien applications!",
@@ -17,10 +17,10 @@
   "hylotlDescription" : "How powerful is this computer's accumulator? It's been on forever.",
   "novakidDescription" : "This lil' computer must have a very powerful battery.",
 
-  "inventoryIcon" : "atprk-eldritchpcicon.png",
+  "inventoryIcon" : "atprk-eldritchpclargeicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk-eldritchpc.png:<color>",
+      "dualImage" : "atprk-eldritchpclarge.png:<color>",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,

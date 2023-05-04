@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk-eldritchcaptainchair",
+  "colonyTags" : ["atprk_krakoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A metallic captain's chair.",
+  "shortdescription" : "Elder Captain's Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 115,
+
+  "apexDescription" : "An ancient captain's chair.",
+  "avianDescription" : "An ancient metal chair reserved for crewmembers.",
+  "floranDescription" : "Hard metal chair for ssspacemen.",
+  "glitchDescription" : "Informed. It appears to be a captain's chair.",
+  "humanDescription" : "An angular chair composed of strange metals.",
+  "hylotlDescription" : "A metallic chair commonly found aboard K'Rakothan spacecraft.",
+  "novakidDescription" : "A hardy chair reserved for space cap'n.",
+
+  "inventoryIcon" : "atprk-eldritchcaptainchairicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchcaptainchair.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [-4, 23],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "atprk-eldritchcaptainchair.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [4, 23],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}
