@@ -1,20 +1,20 @@
 {
-  "objectName" : "atprk_lunarcrustoiseaf",
+  "objectName" : "atprk_algeistaf",
   "colonyTags" : ["pretty"],
   "rarity" : "Legendary",
   "category" : "actionFigure",
-  "collectablesOnPickup" : { "actionfigures" : "atprk_lunarcrustoiseaf" },
+  "collectablesOnPickup" : { "actionfigures" : "atprk_algeistaf" },
   "price" : 5000,
   "printable" : false,
-  "description" : "The label reads, \"A subspecies of Crustoise affected by erchius crystals. It's still as dangerous.\"",
-  "shortdescription" : "Crescentoise Figurine",
+  "description" : "The label reads, \"It's commonly believed that being spat at by an Algeist is a bad omen.\"",
+  "shortdescription" : "Algeist Figurine",
 
 
 
-  "inventoryIcon" : "atprk_lunarcrustoiseaf.png",
+  "inventoryIcon" : "atprk_algeistaf.png",
   "orientations" : [
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_algeistaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -23,7 +23,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_algeistaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "right",
 

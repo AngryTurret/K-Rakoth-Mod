@@ -1,20 +1,20 @@
 {
-  "objectName" : "atprk_lunarcrustoiseaf",
+  "objectName" : "atprk_duodungaf",
   "colonyTags" : ["pretty"],
   "rarity" : "Legendary",
   "category" : "actionFigure",
-  "collectablesOnPickup" : { "actionfigures" : "atprk_lunarcrustoiseaf" },
+  "collectablesOnPickup" : { "actionfigures" : "atprk_duodungaf" },
   "price" : 5000,
   "printable" : false,
-  "description" : "The label reads, \"A subspecies of Crustoise affected by erchius crystals. It's still as dangerous.\"",
-  "shortdescription" : "Crescentoise Figurine",
+  "description" : "The label reads, \"Working in tandem with a stray Po, this dung beetle accelerates in a matter of seconds.\"",
+  "shortdescription" : "Duodung Figurine",
 
 
 
-  "inventoryIcon" : "atprk_lunarcrustoiseaf.png",
+  "inventoryIcon" : "atprk_duodungaf.png",
   "orientations" : [
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_duodungaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -23,7 +23,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_duodungaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "right",
 

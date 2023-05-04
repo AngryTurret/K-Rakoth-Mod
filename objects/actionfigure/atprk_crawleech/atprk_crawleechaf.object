@@ -1,20 +1,20 @@
 {
-  "objectName" : "atprk_lunarcrustoiseaf",
+  "objectName" : "atprk_crawleechaf",
   "colonyTags" : ["pretty"],
   "rarity" : "Legendary",
   "category" : "actionFigure",
-  "collectablesOnPickup" : { "actionfigures" : "atprk_lunarcrustoiseaf" },
+  "collectablesOnPickup" : { "actionfigures" : "atprk_crawleechaf" },
   "price" : 5000,
   "printable" : false,
-  "description" : "The label reads, \"A subspecies of Crustoise affected by erchius crystals. It's still as dangerous.\"",
-  "shortdescription" : "Crescentoise Figurine",
+  "description" : "The label reads, \"Being bottom feeders, Crawleeches survive by filtering mud below themselves.\"",
+  "shortdescription" : "Crawleech Figurine",
 
 
 
-  "inventoryIcon" : "atprk_lunarcrustoiseaf.png",
+  "inventoryIcon" : "atprk_crawleechaf.png",
   "orientations" : [
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_crawleechaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -23,7 +23,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "atprk_lunarcrustoiseaf.png:<color>",
+      "image" : "atprk_crawleechaf.png:<color>",
       "imagePosition" : [-2, 0],
       "direction" : "right",
 
