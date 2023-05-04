@@ -50,6 +50,8 @@
     }
   ],
 
+  "scripts" : ["/scripts/atprk_container.lua"],
+
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
   "slotCount" : 16,

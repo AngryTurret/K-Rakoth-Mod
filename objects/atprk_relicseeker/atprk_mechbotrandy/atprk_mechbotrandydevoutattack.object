@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk_mechbotrandydevoutattack",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "Literally everyone can see you, Randy.",
+  "shortdescription" : "Barrel Randy",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "This disguise is... insufficient.",
+  "avianDescription" : "You may want to change your hiding spot.",
+  "floranDescription" : "Ssstupid metalman isss very visssible.",
+  "glitchDescription" : "Sarcastic. Yeah. This is definitely just a barrel.",
+  "humanDescription" : "How did you even hop in there?",
+  "hylotlDescription" : "This is not the right moment to fool around.",
+  "novakidDescription" : "Barrels ain't that good for hidin', bud.",
+
+  "inventoryIcon" : "atprk_mechbotrandyicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_mechbotrandydevoutattack.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_mechbotrandydevoutattack.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "barrellarge", 1, { } ] ]
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "He-he, they're never gonna find me!",
+    "Sneaky mode activated!",
+    "Are we still under attack?",
+    "Where did the little guys go?",
+    "I'm just a barrel, don't mind me! Or am I?",
+    "Barrel Randy! The master of disguise!",
+    "Occupied! Go find your own barrel!"
+  ]
+
+}

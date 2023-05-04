@@ -1,0 +1,76 @@
+{
+  "objectName" : "atprk_mechbotrandy",
+  "colonyTags" : ["atprk_relicseeker"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A chatty but largely ineffective Repairbot.",
+  "shortdescription" : "Randy",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "A rather talkative robot.",
+  "avianDescription" : "What a friedly automaton! He's a little loud though.",
+  "floranDescription" : "Relic Ssseekers have their own metalman?",
+  "glitchDescription" : "Irritated. Do you have to shout every word out loud?",
+  "humanDescription" : "Haven't we met before?",
+  "hylotlDescription" : "A mech repair robot designed by Humans.",
+  "novakidDescription" : "'Gotta figure out how t' turn this fella's volume down.",
+
+  "inventoryIcon" : "atprk_mechbotrandyicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_mechbotrandy.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_mechbotrandy.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "barrellarge", 1, { } ] ]
+  ],
+
+  "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 5,
+  "chatCooldown" : 7,
+  "chatOptions" : [
+    "What's up, bud?",
+    "Hi! I'm Randy!",
+    "You like mechs? I LOVE mechs! They're so cool!",
+    "Need some flashy mech parts? Feel free to use our crafting table!",
+    "What's this in your hands? A matter manipulator? Where do I get one?",
+    "Should I get a pet Skimbus? Nah, probably not.",
+    "Starklance needs to smile more! Tell him!",
+    "How many mechs do you have? Only one? You need more!",
+    "I think I have to fix something. Ah well, maybe later!",
+    "Space is fun! I mean, when it's not all empty!",
+    "Wait, what was I talking about?",
+    "Ay, it's you again!",
+    "Why the long face?",
+    "Do the Glitch dream of Robot Chickens?",
+    "What? No, I'm not Rob Repairo! Who's that even?",
+    "Remember the USCM? I worked for them! Not kidding!"
+  ],
+
+  "uniqueId" : "atprk_mechbotrandy"
+}
