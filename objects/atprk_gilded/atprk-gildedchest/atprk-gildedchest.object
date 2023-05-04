@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk-gildedchest",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 90,
+  "description" : "A shiny ornate chest.",
+  "shortdescription" : "Gilded Chest",
+  "race" : "generic",
+  "health" : 1.5,
+  "printable" : false,
+
+  "apexDescription" : "A gilded chest. I wonder what's inside?",
+  "avianDescription" : "A golden chest surely must contain something valuable!",
+  "floranDescription" : "Golden chessst full of treasssuress.",
+  "glitchDescription" : "Excited. I cannot wait to open this gilded chest!",
+  "humanDescription" : "The chest itself could be considered a treasure.",
+  "hylotlDescription" : "I wonder if this chest contains ancient treasures.",
+  "novakidDescription" : "A chest o' gold filled with goodies.",
+
+  "atprk_anneliskDescription" : "Woo, it's hoarding time!",
+  "atprk_fenronDescription" : "An ornate chest abandoned for ages.",
+  "atprk_noolithDescription" : "I have a bad feeling about this chest but it's still worth checking it.",
+
+  "inventoryIcon" : "atprk-gildedchesticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-gildedchest.png:<color>.<key>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "atprk-gildedchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
