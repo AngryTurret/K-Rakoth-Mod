@@ -1,0 +1,248 @@
+{
+  "metadata" : {
+    "name" : "atprk_infinitemazevaultroom",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ 
+        "atprk_infinitemaze_vaultroom1", "atprk_infinitemaze_vaultroom2"
+      ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_infinitemaze_vaultroom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_vaultroom1.json" ]
+    },
+    {
+      "name" : "atprk_infinitemaze_vaultroom2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_infinitemaze_vaultroom2.json" ]
+    },
+    {
+      "name" : "atprk_infinitemazeexit1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit1" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit1.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit2" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit2.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit3",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit3" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit3.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit4",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit4.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit5",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit5" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit5.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit6",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit6" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit6.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit7",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit7" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit7.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit8",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit8" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit8.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit9",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit9" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit9.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit1alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit1alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit1alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit2alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit2alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit2alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit3alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit3alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit3alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit4alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit4alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit4alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit5alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit5alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit5alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit6alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit6alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit6alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit7alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit7alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit7alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit8alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit8alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit8alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit9alt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit9alt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit9alt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit1altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit1altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit1altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit2altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit2altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit2altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit3altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit3altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit3altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit4altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit4altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit4altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit5altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit5altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit5altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit6altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit6altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit6altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit7altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit7altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit7altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit8altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit8altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit8altalt.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "atprk_infinitemazeexit9altalt",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_infinitemazeexit9altalt" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/other/atprk_infinitemaze/atprk_infinitemazeexit/atprk_infinitemazeexit9altalt.json" ],
+      "chance" : 0.2
+    }
+  ]
+}
