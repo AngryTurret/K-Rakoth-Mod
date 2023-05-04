@@ -132,7 +132,7 @@
   // ------- Ashy -------
   "atprk_planetpincomment_ashy1" : {
     "type" : "tutorial",
-    "text" : "Curious. So how is it on ^#ffc053;ashy^white; planets these days? Still overran by the Glitch Devouts, I suppose?",
+    "text" : "Curious. So how is it on ^#ffc053;ashy^white; planets these days? Still overrun by the Glitch Devouts, I suppose?",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
