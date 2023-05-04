@@ -1,0 +1,18 @@
+{
+  "name" : "atprk_rottententacleshrub",
+  "description" : "A grotesque tentacle.",
+  "shortdescription" : "A grotesque tentacle.",
+  "floranDescription" : "Fishy arm.",
+  "glitchDescription" : "Horrified. A grotesque tentacle.",
+  "shapes" : [
+    {
+      "base" : "atprk_rottententacleshrub1.png"
+    },
+    {
+      "base" : "atprk_rottententacleshrub2.png"
+    },
+    {
+      "base" : "atprk_rottententacleshrub3.png"
+    }
+  ]
+}
