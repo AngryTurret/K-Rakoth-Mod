@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_algeist",
+  "category" : "atprk_algeist",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_algeist.png"
+  }
+}

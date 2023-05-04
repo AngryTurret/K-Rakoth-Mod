@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_crawleechrare",
+  "category" : "atprk_crawleechrare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_crawleechrare.png"
+  }
+}

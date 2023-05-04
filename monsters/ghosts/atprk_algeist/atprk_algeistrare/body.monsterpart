@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_algeistrare",
+  "category" : "atprk_algeistrare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_algeistrare.png"
+  }
+}
