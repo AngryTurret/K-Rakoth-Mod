@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_stainlesssteel",
+  "price" : 90,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_stainlesssteel.png",
+  "description" : "A smooth stainless steel bar. Can be used to craft oldschool objects.",
+  "shortdescription" : "Stainless Steel Bar",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_stainlesssteel"
+  ]
+}

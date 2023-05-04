@@ -1,0 +1,19 @@
+{
+  "itemName" : "atprk_cookedambergine",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "atprk_cookedambergine.png",
+  "description" : "It may have lost some of its unique flavor but it's still delicious.",
+  "shortdescription" : "Cooked Ambergine",
+  "foodValue" : 18,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "atprk_prehistoricpasta" ]
+}

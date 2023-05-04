@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_betarobotpart1",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_betarobotpart1.png",
+  "description" : "A discarded part of a larger robot.",
+  "shortdescription" : "Rusty Robot Arms",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_betafatalcircuitprop"
+  ]
+}
