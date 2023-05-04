@@ -1,0 +1,111 @@
+[
+  // ------- Devout Attack -------
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage01",
+      "value": {
+        "type" : "mission",
+        "text" : "Hold up, why didn't you teleport? What's goin' on here? Did we run out of power again or somethin'?",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage02a",
+      "value": {
+        "type" : "mission",
+        "text" : "Stressful. We're under attack! The Glitch Devouts have hacked our systems and board the train!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage02b",
+      "value": {
+        "type" : "mission",
+        "text" : "'ight, don't panic! We must deal with these intruders! Open the hatch 'n take 'em down!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage03a",
+      "value": {
+        "type" : "mission",
+        "text" : "Shocked. The last carriage has detached! They're taking our Syllectis apart!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage03b",
+      "value": {
+        "type" : "mission",
+        "text" : "Wh- WHAT?! They took away the last one?! That's where the artifacts are! Quick, run to the mech bay and try to bring it back!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_libramad.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage04a",
+      "value": {
+        "type" : "mission",
+        "text" : "It seems that the Glitch Devouts have somehow acquired a derelict K'Rakothan vessel and use its inhibitors to disable our teleporters."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage04b",
+      "value": {
+        "type" : "mission",
+        "text" : "Well, this does explain a lot... Look around their ship, there must be a way to stop 'em!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage05a",
+      "value": {
+        "type" : "mission",
+        "text" : "Y'know, for a millenia-old starship it's surprisingly well-preserved. Too bad we're not the first t' discover it.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage05b",
+      "value": {
+        "type" : "mission",
+        "text" : "Annoyed. I think we've got more urgent problems right now!",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage06",
+      "value": {
+        "type" : "mission",
+        "text" : "Watch out! You may run into their cap'n soon! And I don't think they'll be glad to see you!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_devoutattackmessage07",
+      "value": {
+        "type" : "mission",
+        "text" : "Thank goodness, you made it through! Now that you've dealt with the Devouts, you need t' find a way to bring our relics back.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  }
+]

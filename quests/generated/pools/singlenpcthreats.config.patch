@@ -46,5 +46,17 @@
 		"seed" : "stable"
 	  }
 	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "ruthless vigilante",
+		"species" : "novakid",
+		"typeName" : "atprk_outlawvigilante",
+		"seed" : "stable"
+	  }
+	]
   }
 ]

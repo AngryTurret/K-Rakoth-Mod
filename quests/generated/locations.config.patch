@@ -195,6 +195,14 @@
 	  "atprk_forgottentower2" : {
 		"name" : "top of a buried tower",
 		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_forgottenbridge1" : {
+		"name" : "ancient bridge",
+		"tags" : [ "generic", "friendly" ]
+	  },
+	  "atprk_forgottenbridge2" : {
+		"name" : "ancient crossroads",
+		"tags" : [ "generic", "friendly" ]
 	  }
 	}
   },
@@ -689,8 +697,12 @@
 		"name" : "top of the Devout Tower",
 		"tags" : [ "glitch", "friendly"]
 	  },
+	  "atprk_glitchdevouttowerarmorroom" : {
+		"name" : "upper hall of the Devout Tower",
+		"tags" : [ "glitch", "friendly"]
+	  },
 	  "atprk_glitchdevouttowerhall" : {
-		"name" : "hall of the Devout Tower",
+		"name" : "ominous sealed entrance",
 		"tags" : [ "glitch", "friendly" ]
 	  }
 	}

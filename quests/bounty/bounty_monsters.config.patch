@@ -62,5 +62,37 @@
       "portraitCenter" : [-0.25, 0.375],
       "portraitScale": 1
     }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_duodungrare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_clamiarare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_crawleechrare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/monsters/atprk_algeistrare",
+    "value": {
+      "portraitCenter" : [0.0, 0.0],
+      "portraitScale": 1
+    }
   }
 ]

@@ -1,10 +1,10 @@
 {
 	"id": "atprk_rishaanquest1",
 	"prerequisites": ["atprk_relicsearchquest2"],
-	"title": "^green;Forgotten Gods",
-	"text": "Howdy, kind stranger. Y'know, I'd really like to learn more about ^orange;Ri'shaan^white; but the others insist we need to research other aspects of K'Rakothan culture first. Nonsense! It'd be great if I could ^green;gather some scan data^white; from ^orange;elder churches^white; somehow. Those are usually found on ^#969696;dark planets^white;, if I recall correctly...",
+	"title": "^orange;Forgotten Gods",
+	"text": "Howdy, kind stranger. Y'know, I'd really like to learn more about ^orange;Ri'shaan^white; but the others insist we need to research other aspects of K'Rakothan culture first. Nonsense! It'd be great if I could ^green;gather some scan data^white; from ^orange;elder churches^white; somehow. Those are usually found on ^#969696;dark planets^white; if I recall correctly...",
 	"completionText": "Oh, you... You actually went outta your way to explore a church of Ri'shaan for me? Thank you, kind stranger! Here, take this modest gift for your trouble.",
-	"moneyRange": [1200, 1200],
+	"moneyRange": [750, 750],
 	"rewards": [
 		[
 			["rewardbag", 1]

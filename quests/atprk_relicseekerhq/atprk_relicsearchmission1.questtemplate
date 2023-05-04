@@ -1,0 +1,50 @@
+{
+	"id": "atprk_relicsearchmission1",
+	"prerequisites": ["atprk_relicsearchquest5"],
+	"title": "^green;Cold Embrace",
+	"text": "Good news! While you were searching for the artifacts, we've managed to pinpoint the location of a ^orange;cryogenic tomb^white; where the last K'Rakoths might be preserved! If this ain't the opportunity to uncover their mysteries, then I don't know what is! ^green;Talk to me when you're ready^white; and we'll go there at once!",
+	"completionText": "Even though the controls are quite convoluted, I can use this console to undock the stolen carriage and disable the inhibitors. I should do this quick and go check on the Relic Seekers.",
+	"moneyRange": [250, 250],
+	"rewards": [
+		[
+			["rewardbag", 1],
+			["atprk_hyperpixel", 1]
+		]
+	],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/instance.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait2.png"
+				}],
+				"title": "Libra Eclipse"
+			},
+			"questComplete": {
+				"default" : "player"
+			}
+		},
+		"descriptions": {
+			"enterInstance": "Talk to ^orange;Libra^reset; to travel to the ^orange;cryogenic tomb^reset;",
+			"findGoal": "Follow Libra's instructions",
+			"turnIn": "Approach the ^orange;captain's console^reset;"
+		},
+
+		"setUniverseFlags" : ["atprk_relicseekerhq_mechbayflag"],
+
+		"warpEntityUid": "atprk_relicseekerlibra",
+		"warpAction": "instanceworld:atprk_devoutattackmission",
+		"warpDialog": "/interface/confirmation/atprk_teleportconfirmation.config:atprk_devoutattackmission",
+
+		"goalTrigger": "proximity",
+		"proximityRange": 15,
+
+		"goalEntityUid": "atprk_devoutattackexit",
+		"indicateGoal": false,
+		"trackGoalEntity": false,
+
+		"turnInEntityUid": "atprk_krakothmissionshipconsole"
+	}
+}

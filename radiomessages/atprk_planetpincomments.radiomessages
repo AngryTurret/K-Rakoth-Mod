@@ -390,7 +390,7 @@
   // ------- Ruined -------
   "atprk_planetpincomment_ruin1" : {
     "type" : "tutorial",
-    "text" : "Shocked. Hold on, what?! I swear this planets wasn't ^#641929;ruined^white; before!",
+    "text" : "Shocked. Hold on, what?! I swear this planet wasn't ^#641929;ruined^white; before!",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },

@@ -42,5 +42,16 @@
 		"typeName" : "atprk_devoutdiverthreat"
 	  }
 	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "oldschool thugs",
+		"species" : "human",
+		"typeName" : "atprk_oldschoolthreat"
+	  }
+	]
   }
 ]
