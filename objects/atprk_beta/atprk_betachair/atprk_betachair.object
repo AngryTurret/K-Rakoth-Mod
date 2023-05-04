@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_betachair",
+  "colonyTags" : ["atprk_beta"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A spiky chair with a soft cushion.",
+  "shortdescription" : "Oldschool Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 115,
+
+  "apexDescription" : "A hard, pointy chair.",
+  "avianDescription" : "This chair looks like it was made for an evil Glitch.",
+  "floranDescription" : "Floran ssstab chair if chair ssstab Floran.",
+  "glitchDescription" : "Content. The perfect shape for a Glitch.",
+  "humanDescription" : "As long as you sit still, the spikes won't stab you.",
+  "hylotlDescription" : "An unpleasant-looking chair. Besides, the light-reflective cushion is a weird design choice.",
+  "novakidDescription" : "Well, at least it's got a shiny cushion.",
+
+  "atprk_anneliskDescription" : "Could these spikes be any sharper?",
+  "atprk_fenronDescription" : "This chair looks more like a beartrap.",
+  "atprk_noolithDescription" : "An angular chair with a soft cushion.",
+
+  "inventoryIcon" : "atprk_betachairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betachair.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

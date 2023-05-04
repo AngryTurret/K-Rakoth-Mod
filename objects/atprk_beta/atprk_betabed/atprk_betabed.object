@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_betabed",
+  "colonyTags" : ["atprk_beta"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An old-fashioned steel bed.",
+  "shortdescription" : "Oldschool Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 170,
+
+  "apexDescription" : "Barring these large spikes, this steel bed is surprisingly comfortable.",
+  "avianDescription" : "Despite all the steel, this bed is soft and inviting.",
+  "floranDescription" : "Bed hass teeth of sssteel. They will protect Floran when Floran sssleeps.",
+  "glitchDescription" : "Pensive. What is the purpose behind these sharp spikes at the corners?",
+  "humanDescription" : "A retro-styled bed with light-reflective stripes.",
+  "hylotlDescription" : "This angular bed reminds me of deep sea predators in a way.",
+  "novakidDescription" : "A metal bed with some shiny stripes glued on.",
+
+  "atprk_anneliskDescription" : "This is still better than that one ugly bed in my old apartments.",
+  "atprk_fenronDescription" : "A metallic bed with sharp protrusions.",
+  "atprk_noolithDescription" : "I expected more shades of blue for some reason.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-13, 12.5],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/atprk_beta/atprk_betabed/atprk_betabedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed3"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "atprk_betabedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betabed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_betafatalcircuitprop",
+  "colonyTags" : ["atprk_beta","pretty","valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 1600,
+  "description" : "There seems to be no way to turn this robot on.",
+  "shortdescription" : "Fatal Circuit Chassis",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "An abnormally large Glitch chassis.",
+  "avianDescription" : "A lifeless body of a massive mechanoid.",
+  "floranDescription" : "Dead metal man iss not like the ressst. This one iss tall and sssmelly.",
+  "glitchDescription" : "Disgusted. Why does this giant reek like rotten brains?",
+  "humanDescription" : "This is either an old mech or a giant Glitch.",
+  "hylotlDescription" : "Was this robot meant to be an advanced Glitch warform by chance?",
+  "novakidDescription" : "That's a tall rusty fella.",
+
+  "atprk_anneliskDescription" : "Not sure if this was a mech or an automated security robot.",
+  "atprk_fenronDescription" : "The fiercest war beasts are not created, they are born.",
+  "atprk_noolithDescription" : "I wonder if the Usurpers ever tried to mutilate the Glitch in a similar way.",
+
+  "inventoryIcon" : "atprk_betafatalcircuitpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betafatalcircuitprop.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk_betatable",
+  "colonyTags" : ["atprk_beta","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A smooth steel table.",
+  "shortdescription" : "Oldschool Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 145,
+
+  "apexDescription" : "A solid steel table.",
+  "avianDescription" : "A sturdy steel table.",
+  "floranDescription" : "Hisss! Floran ssstub toe on table!",
+  "glitchDescription" : "Pleased. The quality of the material is hard to deny.",
+  "humanDescription" : "A perfectly angular table indeed.",
+  "hylotlDescription" : "An intrusive, ugly metal table.",
+  "novakidDescription" : "A fine steel table.",
+
+  "atprk_anneliskDescription" : "A strangely geometric table.",
+  "atprk_fenronDescription" : "These yellow stripes under the table look like eyes!",
+  "atprk_noolithDescription" : "A stainless steel table.",
+
+  "inventoryIcon" : "atprk_betatableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betatable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

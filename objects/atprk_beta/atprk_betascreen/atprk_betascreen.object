@@ -1,0 +1,62 @@
+{
+  "objectName" : "atprk_betascreen",
+  "colonyTags" : ["atrpk_beta","electronic"],
+  "rarity" : "Common",
+  "description" : "Numbers dance and scroll on the screen. What do they mean?",
+  "shortdescription" : "Oldschool Monitor",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 200,
+
+  "lightColor" : [121, 100, 18],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "A monitor. The information makes no sense to me.",
+  "avianDescription" : "A monitor filled with arcane data.",
+  "floranDescription" : "Floran cannot read thisss mess.",
+  "glitchDescription" : "Irked. Most of the data shown on the screen is unreadable.",
+  "humanDescription" : "This reminds me of that one old movie. I can't remember the name of it.",
+  "hylotlDescription" : "Whatever this screen is meant to display is no longer decipherable.",
+  "novakidDescription" : "A bunch o' gibberish on the screen.",
+
+  "atprk_anneliskDescription" : "Gee, that's a lot of spam.",
+  "atprk_fenronDescription" : "If any of this data was important, sure it'd be written in a more accessible form?",
+  "atprk_noolithDescription" : "A stream of heavily corrupted information.",
+
+  "inventoryIcon" : "atprk_betascreenicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_betascreen.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_betascreen.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "atprk_betascreen.animation",
+  "animationParts" : {
+    "bg" : "atprk_betascreen.png",
+    "fg" : "atprk_betascreenlit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

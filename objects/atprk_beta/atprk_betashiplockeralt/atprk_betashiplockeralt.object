@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk_betashiplockeralt",
+  "colonyTags" : ["atprk_beta","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 115,
+  "description" : "How did this even make it so far?",
+  "shortdescription" : "Oldschool Storage Locker",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A classic shiplocker model.",
+  "avianDescription" : "Shiplockers like this one weren't manufactured in a while.",
+  "floranDescription" : "Old ssstorage.",
+  "glitchDescription" : "Nostalgic. This shiplocker has been taken off the market long ago.",
+  "humanDescription" : "I didn't expect to see these once more.",
+  "hylotlDescription" : "A retro storage locker.",
+  "novakidDescription" : "This storage would look outta place on a modern ship.",
+
+  "atprk_anneliskDescription" : "Eh, some off-brand storage locker.",
+  "atprk_fenronDescription" : "How could anyone use this cramped locker?",
+  "atprk_noolithDescription" : "It must be an antique shiplocker.",
+
+
+  "inventoryIcon" : "atprk_betashiplockeralticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_betashiplockeralt.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_betashiplockeraltlit.png:<color>.<key>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_betashiplockeralt.png:<color>.<key>", "fullbright" : true }, { "image" : "atprk_betashiplockeraltlit.png:<color>.<key>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
+
+  "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

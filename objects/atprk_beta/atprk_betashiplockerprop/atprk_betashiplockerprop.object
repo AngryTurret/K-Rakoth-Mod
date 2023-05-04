@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_betashiplockerprop",
+  "colonyTags" : ["atprk_beta","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 125,
+  "description" : "A locker that cannot be unlocked.",
+  "shortdescription" : "Oldschool Shiplocker",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A ship's storage system. I think it ran out of power.",
+  "avianDescription" : "There is no way to unlock this anymore.",
+  "floranDescription" : "Locker iss closssed forever.",
+  "glitchDescription" : "Upset. I cannot access this locker's contents.",
+  "humanDescription" : "A rust-ridden shiplocker. Its door's jammed.",
+  "hylotlDescription" : "Since this storage locker is not powered, I cannot open it.",
+  "novakidDescription" : "A tightly sealed locker.",
+
+  "atprk_anneliskDescription" : "A shiplocker so old it's barely functional.",
+  "atprk_fenronDescription" : "I guess I might need a crowbar here.",
+  "atprk_noolithDescription" : "There is probably something hidden in this locker but it's no use bothering with it.",
+
+  "inventoryIcon" : "atprk_betashiplockerpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betashiplockerprop.png:<color>",
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

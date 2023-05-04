@@ -1,0 +1,46 @@
+{
+  "objectName" : "atprk_betachest",
+  "colonyTags" : ["atprk_beta","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A chest covered in light-reflective markings.",
+  "shortdescription" : "Oldschool Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A steel chest.",
+  "avianDescription" : "Thanks to its light-reflective stripes, I won't trip on this chest in the dark.",
+  "floranDescription" : "Ssshiny metal chesst. Ssstripes reflect light.",
+  "glitchDescription" : "Unimpressed. If you don't count yellow markings, it is simply a steel chest.",
+  "humanDescription" : "A chest I can easily spot in the dark.",
+  "hylotlDescription" : "The markings on this chest are light-reflective.",
+  "novakidDescription" : "A stainless steel chest with glowin' stripes.",
+
+  "atprk_anneliskDescription" : "A hardy stainless steel chest.",
+  "atprk_fenronDescription" : "This chest will be easily exposed unless I remove these shiny stripes.",
+  "atprk_noolithDescription" : "A small chest manufactured from high-quality steel.",
+
+  "inventoryIcon" : "atprk_betachesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betachest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

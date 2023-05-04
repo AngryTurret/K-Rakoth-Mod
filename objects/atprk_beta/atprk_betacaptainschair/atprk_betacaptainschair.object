@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_betacaptainschair",
+  "colonyTags" : ["atprk_beta"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An old-fashioned chair once used by brave spacefarers.",
+  "shortdescription" : "Oldschool Captain's Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "An old captain's chair.",
+  "avianDescription" : "A soft captain's chair with a broken armrest.",
+  "floranDescription" : "Chair sssmells like hair.",
+  "glitchDescription" : "Pleased. A dusty yet comfortable captain's chair.",
+  "humanDescription" : "An outmoded captain's chair found on older spaceships.",
+  "hylotlDescription" : "This captain's chair was evidently not used in a while.",
+  "novakidDescription" : "This chair must've seen many stars... 'n butts.",
+
+  "atprk_anneliskDescription" : "What a cheap captain's chair. At least it's comfy.",
+  "atprk_fenronDescription" : "This chair has endured disrepair for ages.",
+  "atprk_noolithDescription" : "An old-fashioned captain's chair typical of Human spacecraft.",
+
+  "inventoryIcon" : "atprk_betacaptainschairicon.png",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  
+  "orientations" : [
+    {
+      "image" : "atprk_betacaptainschair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [12, 21]
+    },
+    {
+      "image" : "atprk_betacaptainschair.png:<color>",
+      "imagePosition" : [-18, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [2, 21]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk_betadungeonpod",
+  "colonyTags" : ["atprk_beta"],
+  "rarity" : "Common",
+  "description" : "An emptied material dispensing pod.",
+  "shortdescription" : "Oldschool Dispensing Pod",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 115,
+
+  "apexDescription" : "This pod was used to dispense crafting materials.",
+  "avianDescription" : "This rusty pod provided crafting materials once. Now it's fully depleted.",
+  "floranDescription" : "Empty metal dissspenser.",
+  "glitchDescription" : "Startled. There are traces of unknown matter on the inside.",
+  "humanDescription" : "Need a dispenser here! A working one!",
+  "hylotlDescription" : "This empty dispensing pod used to provide free crafting materials.",
+  "novakidDescription" : "Well, uh, a broken dispenser?",
+
+  "atprk_anneliskDescription" : "This better contain something useful!",
+  "atprk_fenronDescription" : "I'll be honest, I'm not sure what this pod was meant to do.",
+  "atprk_noolithDescription" : "I don't recognize this mechanism at all, let alone the matter it contains.",
+
+  "inventoryIcon" : "atprk_betadungeonpodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_betadungeonpod.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}
