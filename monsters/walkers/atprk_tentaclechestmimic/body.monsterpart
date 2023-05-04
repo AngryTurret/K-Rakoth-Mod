@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_tentaclechestmimic",
+  "category" : "atprk_tentaclechestmimic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_tentaclechestmimic.png"
+  }
+}
