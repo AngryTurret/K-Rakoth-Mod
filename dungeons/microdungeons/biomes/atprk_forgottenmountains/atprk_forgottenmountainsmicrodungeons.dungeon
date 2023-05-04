@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "atprk_forgottencavein1", "atprk_forgottencavein2", "atprk_forgottencemetery", "atprk_forgottenrubble1", "atprk_forgottenrubble2", "atprk_forgottenrubble3", "atprk_forgottenrubble4", "atprk_forgottenrubble5" ],
+    "anchor" : [ "atprk_forgottencavein1", "atprk_forgottencavein2", "atprk_forgottencemetery", "atprk_forgottenrubble1", "atprk_forgottenrubble2", "atprk_forgottenrubble3", "atprk_forgottenrubble4", "atprk_forgottenrubble5", "atprk_forgottenbridge1", "atprk_forgottenbridge2", "atprk_forgottenyard" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -69,6 +69,27 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "atprk_forgottenrubble5.json" ]
+    },
+    {
+      "name" : "atprk_forgottenbridge1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenbridge1.json" ]
+    },
+    {
+      "name" : "atprk_forgottenbridge2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenbridge2.json" ]
+    },
+    {
+      "name" : "atprk_forgottenyard",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_forgottenyard.json" ]
     }
   ]
 }
