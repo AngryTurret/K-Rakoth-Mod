@@ -1,0 +1,68 @@
+{
+  "objectName" : "atprk-krakothcityhologram",
+  "colonyTags" : ["atrpk_krakoth","pretty","wired"],
+  "rarity" : "Common",
+  "description" : "A detailed hologram of a grand ancient city.",
+  "shortdescription" : "Elder City Hologram",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 130,
+  "printable" : false,
+
+  "lightColor" : [117, 58, 127],
+
+  "apexDescription" : "This hologram displays an aquatic city.",
+  "avianDescription" : "Given the age of this holographic projector, this map is most likely outdated.",
+  "floranDescription" : "Floran sssees many tall buildingsss.",
+  "glitchDescription" : "Attentive. This map doesn't tell me where I am, so this must be another location.",
+  "humanDescription" : "There are many ancient streets on this map. Most of them probably don't exist anymore.",
+  "hylotlDescription" : "I assume this is a hologram of a densely-populated K'Rakothan city. Which one though?",
+  "novakidDescription" : "A holographic map o' some huge city.",
+
+  "inventoryIcon" : "atprk-krakothcityhologramicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothcityhologram.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk-krakothcityhologram.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "animation" : "/objects/atprk_krakoth/atprk-krakothcityhologram/atprk-krakothcityhologram.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_button.ogg" ],
+      "off" : [ "/sfx/objects/console_button3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk-krakothcityhologram.png",
+    "fg" : "atprk-krakothcityhologramlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [1, 0] ]
+}
