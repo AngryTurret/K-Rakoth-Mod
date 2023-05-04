@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_infinitemazemechplatform",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Legendary",
+  "description" : "An ancient teleportation platform that summons a player's mech.",
+  "shortdescription" : "Ancient Mech Platform",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+
+  "apexDescription" : "It seems that this platform will summon a mech.",
+  "avianDescription" : "A seemingly magical gate that summons a personal mech suit.",
+  "floranDescription" : "Ancient gate to sssummon my mech sssuit.",
+  "glitchDescription" : "Thoughtful. This teleporter bears an uncanny resemblance to modern mech summoning platforms. Coincidence?",
+  "humanDescription" : "Wait, if the Ancients had mech pads, does this imply that they used them just like we do?",
+  "hylotlDescription" : "Apparently the Ancients knew we would have access to mech suits.",
+  "novakidDescription" : "It's a pad made for teleportin' in mech armour. Except this one's very old.",
+
+  "lightColor" : [113, 89, 128],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "atprk_infinitemazemechplatformicon.png",
+  "orientations" : [
+    { 
+      "imageLayers" : [ { "image" : "atprk_infinitemazemechplatform.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazemechplatformlit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      
+      "imagePosition" : [-24, 0],
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    },
+    { 
+      "imageLayers" : [ { "image" : "atprk_infinitemazemechplatform.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazemechplatformlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [-24, 0],
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    }
+  ],
+
+  "scripts" : [ "atprk_infinitemazemechplatform.lua" ]
+}

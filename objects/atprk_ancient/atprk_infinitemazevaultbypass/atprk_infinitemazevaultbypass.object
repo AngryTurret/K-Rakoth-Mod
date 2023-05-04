@@ -1,0 +1,80 @@
+{
+  "objectName" : "atprk_infinitemazevaultbypass",
+  "colonyTags" : ["ancient","atprk_ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+  "description" : "This looks like the control panel for the gate. It still seems to work.",
+  "shortdescription" : "Vault Bypass Console",
+  "race" : "ancient",
+
+  "apexDescription" : "An extremely old piece of technology.",
+  "avianDescription" : "This console must be as old at the gate itself. That's old!",
+  "floranDescription" : "Ancient controlsss for the ancient gate.",
+  "glitchDescription" : "Impressed. The control panel for the gate, it looks very old indeed.",
+  "humanDescription" : "The gate control panel. It must be as old as the gate.",
+  "hylotlDescription" : "The gate console. Like the gate, it is a mystery.",
+  "novakidDescription" : "Let's see if I can't get this old thing workin'.",
+
+  "lightColor" : [113, 89, 128],
+
+  "inventoryIcon" : "atprk_infinitemazevaultbypassicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazevaultbypass.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazevaultbypasslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-46, 0],
+      "animationPosition" : [1, 14],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ],
+
+      "detectArea" : [ [-2, 0], [2.3, 5] ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_infinitemazevaultbypass.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_infinitemazevaultbypasslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-33, 0],
+      "animationPosition" : [14, 14],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, 0], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0] ],
+
+      "detectArea" : [ [-0.3, 0], [4, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/atprk_ancient/atprk_infinitemazevaultbypass/atprk_infinitemazevaultbypass.animation",
+  "animationParts" : {
+    "bg" : "atprk_infinitemazevaultbypass.png",
+    "fg" : "atprk_infinitemazevaultbypasslit.png",
+    "portal" : "atprk_infinitemazevaultbypassportal.png"
+  },
+
+  "scripts" : [ "/objects/atprk_ancient/atprk_infinitemazevaultbypass/atprk_infinitemazevaultbypass.lua" ],
+  "scriptDelta" : 20,
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/gatewarp.config",
+
+  "inactiveInteractAction" : "ScriptPane",
+  "inactiveInteractData" : "/interface/scripted/ancientconsole/ancientconsolegui.config",
+
+  "vaultInstanceOptions" : [
+    ["atprk_infinitemazeterraforge", "atprk_infinitemazevaultroom"]
+  ],
+
+  "vaultActiveTime" : 60
+}

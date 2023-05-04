@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_tinyancientbuilding1",
+  "colonyTags" : ["ancient","atprk_ancient", "gnome"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 650,
+  "description" : "A miniature house built from ancient materials.",
+  "shortdescription" : "High Gnome Apartments",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A tiny apartment building strangely reminiscent of the Apex architecture.",
+  "avianDescription" : "What a comically small building. I could use it as a chest!",
+  "floranDescription" : "Sssmall people hide in thisss housse-shaped box.",
+  "glitchDescription" : "Concerned. Unknown miniature technologies detected.",
+  "humanDescription" : "Uh... Were the Ancients this tiny? No way!",
+  "hylotlDescription" : "A surprisingly detailed dollhouse... Wait a second, it is inhabited by living beings!",
+  "novakidDescription" : "What's this, apartments for ants?",
+
+  "atprk_anneliskDescription" : "This has to be the tiniest apartment building I've ever seen. Talk about affordable housing!",
+  "atprk_fenronDescription" : "Maybe I could fit in if I removed the roof. The question is, how to do so without accidentally killing somebody.",
+  "atprk_noolithDescription" : "A miniature building inhabited by technologically advanced critters.",
+
+  "inventoryIcon" : "atprk_tinyancientbuilding1icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_tinyancientbuilding1.png:<color>", "fullbright" : true }, { "image" : "atprk_tinyancientbuilding1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_tinyancientbuilding1.png:<color>", "fullbright" : true }, { "image" : "atprk_tinyancientbuilding1lit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
