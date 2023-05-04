@@ -1,0 +1,28 @@
+{
+  "id" : "atprk_krakothcodexpsi",
+  "title" : "Exploring the Infinity",
+  "description" : "A K'Rakothan researcher's diary on the elusive Infinity Maze.",
+  "icon" : "atprk_krakothcodexpsiicon.png",
+  "contentPages" : [
+  "This is getting ridiculous.
+
+It's been at least two weeks since our mobile team had lost the entry point and subsequently all means of communication with the other side. Our supplies ran out many chambers ago so we've only managed to make it this far by filtering local pools of water and hunting occasional creatures.",
+
+"We - well, most of us - have passed countless chambers filled to the brim with all kinds of traps imaginable. Laser beams, saws, hard light barriers... Whoever designed this place clearly wanted any trespasser dead.
+
+What's even worse is that there seems to be no end to it. Every door we've seen so far leads to another chamber, sometimes nearly identical to the previous one. The only notable landmark was an inactive gate, similar to the ones normally found at the edge of some systems.",
+
+"Our team's morale is low, to say the least, but I've finally worked out a theory on what exactly we're dealing with.
+
+Since we've initially crossed one of the so-called challenge doors, it's reasonable to assume that this place is some sort of an interdimensional network where all of the Ancients' test chambers are usually stored. When a challenge door manifests itself somewhere in the real world, it randomly connects to one of the chambers available.",
+
+"The rest are supposed to be sealed away until the door expires but... We wouldn't be here in the first place if this was the case.
+
+Frankly, I'm not sure whether this was a deliberate trap set up by the Ancients or we accidentally triggered something we weren't meant to trigger. All the same, I can't be sure if any of us will live long enough to learn it either."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}
