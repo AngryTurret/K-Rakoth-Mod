@@ -1,0 +1,26 @@
+{
+  "id" : "atprk_glitchdevoutattackcodex",
+  "species" : "glitch",
+  "title" : "Abandoned Leviathan",
+  "description" : "A brief report explaining how the Glitch found a K'Rakothan ship.",
+  "icon" : "atprk_glitchdevoutattackcodex.png",
+  "contentPages" : [
+  "Your majesty, I am glad to inform you that a derelict K'Rakothan spaceship has come into our possession.
+
+We discovered it in the middle of the Verdant Crescent system, emerging from a luminous portal. Granted, it was tainted by the forces from beyond our reality but not severely. Our skillful tinkerers have found a way to put it back together, and now it is almost back to its former might.",
+
+"Although only a fraction of the spaceship's arsenal could be safely restored, it still has enough to be a formidable opponent in combat. Its inhibitors can disrupt enemy teleporters, and its powerful cannons shred anything in its way.
+
+There was also a shattered pod with K'Rakothan attires littering the floor. Sadly, we know nothing about the fate of their owner.",
+
+"Regardless, I believe this spaceship shall become a fine addition to our fleet. With its capabilities, our enemies shall think twice before bothering us.
+
+Sincerely,
+Captain Flintheart."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
