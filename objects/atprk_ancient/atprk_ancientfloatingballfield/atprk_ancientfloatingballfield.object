@@ -1,0 +1,148 @@
+{
+  "objectName" : "atprk_ancientfloatingballfield",
+  "objectType" : "physics",
+  "colonyTags" : ["ancient"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 0,
+  "description" : "This energy field only lets certain entities through.",
+  "shortdescription" : "Ancient Hoverball Field",
+  "race" : "ancient",
+
+  "apexDescription" : "This energy field prevents mechs from passing through.",
+  "avianDescription" : "Only some ancient constructs can breach this barrier.",
+  "floranDescription" : "Light wall blocksss everything except flying ballsss.",
+  "glitchDescription" : "Thoughtful. If I cannot bypass this barrier, then perhaps I can send something through.",
+  "humanDescription" : "This barrier doesn't seem to block projectiles or ancient constructs. Hm...",
+  "hylotlDescription" : "A variant of a force field that only lets the ancient automata through.",
+  "novakidDescription" : "I can't drive my mech through this field. Gotta find some workaround.",
+
+  "atprk_anneliskDescription" : "An anti-mech field. It seems to let the other things through just fine.",
+  "atprk_fenronDescription" : "This field won't let me through. I need to send something else to the other side.",
+  "atprk_noolithDescription" : "This energy field turns solid once it detects a mech.",
+
+  "lightColor" : [56, 102, 124],
+  "lightPosition" : [0, 6],
+
+  "inventoryIcon" : "atprk_ancientfloatingballfieldicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancientfloatingballfield.png:<color>.off",
+      "imagePosition" : [-4, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "atprk_ancientfloatingballfield.png",
+        "fg" : "atprk_ancientfloatingballfieldlit.png"
+      },
+      "animationPosition" : [-4, 0],
+
+      "detectArea" : [ [-0.5, 0], [0.5, 12] ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ],
+
+      "enableCollision" : "barrierVertical"
+    },
+    {
+      "image" : "atprk_ancientfloatingballfield.png:<color>.off",
+      "imagePosition" : [-4, 0],
+
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "atprk_ancientfloatingballfield.png",
+        "fg" : "atprk_ancientfloatingballfieldlit.png"
+      },
+      "animationPosition" : [-4, 0],
+
+      "detectArea" : [ [-0.5, 0], [0.5, 12] ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ],
+
+      "enableCollision" : "barrierVertical"
+    },
+    {
+      "image" : "atprk_ancientfloatingballfieldhorizontal.png:<color>.off",
+      "imagePosition" : [-48, 4],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "atprk_ancientfloatingballfieldhorizontal.png",
+        "fg" : "atprk_ancientfloatingballfieldhorizontallit.png"
+      },
+      "animationPosition" : [-48, 4],
+
+      "detectArea" : [ [-6, 0.5], [6, 1.5] ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+
+      "enableCollision" : "barrierHorizontal"
+    },
+    {
+      "image" : "atprk_ancientfloatingballfieldhorizontal.png:<color>.off",
+      "imagePosition" : [-48, 4],
+
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "atprk_ancientfloatingballfieldhorizontal.png",
+        "fg" : "atprk_ancientfloatingballfieldhorizontallit.png"
+      },
+      "animationPosition" : [-48, 4],
+
+      "detectArea" : [ [-6, 0.5], [6, 1.5] ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+
+      "enableCollision" : "barrierHorizontal"
+    }
+  ],
+
+  "physicsCollisions" : {
+    "barrierVertical" : {
+      "collision" : [
+        [-0.25, 0],
+        [0.25, 0],
+        [0.25, 12],
+        [-0.25, 12]
+      ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["player", "npc", "vehicle"],
+      "enabled" : false
+    },
+    "barrierHorizontal" : {
+      "collision" : [
+        [-6, 0.75],
+        [6, 0.75],
+        [6, 1.25],
+        [-6, 1.25]
+      ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["player", "npc", "vehicle"],
+      "enabled" : false
+    }
+  },
+
+  "scripts" : [
+    "atprk_ancientfloatingballfield.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "atprk_ancientfloatingballfield.animation",
+
+  "outputNodes" : [ [0, 0] ],
+
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature", "vehicle" ]
+}
