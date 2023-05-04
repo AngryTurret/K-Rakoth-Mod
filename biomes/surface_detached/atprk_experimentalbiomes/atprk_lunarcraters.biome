@@ -11,6 +11,13 @@
           [ 1.0, "atprk_erchiusspook" ],
           [ 1.0, "atprk_shapelessdwellernight" ]
         ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.25, "atprk_meteorollcritter" ],
+          [ 0.25, "atprk_erchiuswhispercritter" ]
+        ]
       }
     ],
     "monsterParameters" : {

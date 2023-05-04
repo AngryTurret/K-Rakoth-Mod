@@ -230,15 +230,6 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:ultraRare",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "atprk_shapelessdwellings" ]
-      },
-      {
-        "mode" : "floor",
         "priority" : 3.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseSmall",

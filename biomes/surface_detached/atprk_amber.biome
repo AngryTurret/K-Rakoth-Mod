@@ -138,7 +138,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildbonebooseed" ] ],
+            "pool" : [ [1, "atprk_wildambergineseed" ] ],
             "parameters" : {
               "startingStage" : 4
             }

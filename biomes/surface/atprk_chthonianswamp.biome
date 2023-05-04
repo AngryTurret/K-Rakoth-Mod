@@ -1,0 +1,173 @@
+{
+  "name" : "atprk_chthonianswamp",
+  "friendlyName" : "Chthonian Swamp",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1.0, "atprk_erchiusspookchthonian" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.25, "atprk_erchiuswhispercritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "alien"
+    }
+  },
+
+  "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
+
+  "mainBlock" : "atprk_chthonianrock",
+  "subBlocks" : [ "obsidian", "magmarock" ],
+  "ores" : "atprk_chthoniansurface",
+
+  "parallax" : "/parallax/surface/moon.parallax",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "metal" ],
+    "grassModDensity" : 0.4,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.2, "atprk_chthonianrocksmall1" ], [0.2, "atprk_chthonianrocksmall2" ], [0.2, "atprk_chthonianrocksmall3" ], [0.2, "atprk_chthonianrocksmall4" ], [0.2, "atprk_chthonianrocksmall5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "atprk_erchiusfogprimer" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:veryRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_shapelessdwellings" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "metal" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.2, "atprk_chthonianrocksmall1" ], [0.2, "atprk_chthonianrocksmall2" ], [0.2, "atprk_chthonianrocksmall3" ], [0.2, "atprk_chthonianrocksmall4" ], [0.2, "atprk_chthonianrocksmall5" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

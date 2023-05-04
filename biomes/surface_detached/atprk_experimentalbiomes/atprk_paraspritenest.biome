@@ -1,0 +1,197 @@
+{
+  "name" : "atprk_paraspritenest",
+  "friendlyName" : "Parasprite Nest",
+
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "atprk_parasprite" ],
+          [ 1, "atprk_triplod" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "appofloatcritter" ],
+          [ 1, "blipcritter" ],
+          [ 1, "hazmatcritter" ],
+          [ 1, "mousecritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "jungle"
+    }
+  },
+
+  "mainBlock" : "mud",
+  "subBlocks" : [ "sewage", "rock03", "slime" ],
+  "ores" : "surface",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.6,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 75,
+        "treeStemHueShiftMax" : 20,
+        "treeStemList" : [ "stripey", "old", "barren" ],
+        "treeFoliageList" : [ "patchy" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "slimeblob1" ], [0.25, "slimeblob2" ], [0.25, "slimeblob3" ], [0.25, "slimeblob4" ], [0.25, "slimeblob5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:moderateClumps",
+
+        "type" : "grass",
+        "grasses" : [ "slime" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "slimebush",
+            "baseHueShiftMax" : 35,
+            "modHueShiftMax" : 10
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "mushroomseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "slimegrass" ],
+    "grassModDensity" : 0.7,
+
+    "ceilingGrassMod" : [ "ceilingslimegrass" ],
+    "ceilingGrassModDensity" : 0.5,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "ceilingslime1" ], [0.35, "ceilingslime2" ], [0.35, "ceilingslime3" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "slimeblob1" ], [0.25, "slimeblob2" ], [0.25, "slimeblob3" ], [0.25, "slimeblob4" ], [0.25, "slimeblob5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "slimebush",
+            "baseHueShiftMax" : 35,
+            "modHueShiftMax" : 10
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "slime" ]
+      }
+    ]
+  }
+}

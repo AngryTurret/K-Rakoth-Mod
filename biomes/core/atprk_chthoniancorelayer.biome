@@ -1,0 +1,34 @@
+{
+  "name" : "atprk_chthoniancorelayer",
+  "friendlyName" : "Chthonian Core Layer",
+
+  "parallax" : "/parallax/underground/rockunderground.parallax",
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "deadcore" ],
+  "ores" : "atprk_chthoniancore",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [ ]
+  },
+
+  "hueShiftOptions" : [0]
+}

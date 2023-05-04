@@ -1,0 +1,120 @@
+{
+  "name" : "atprk_rottensanctum",
+  "friendlyName" : "Rotten Sanctum",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 1.0, "atprk_clamiarottensanctum" ],
+          [ 1.0, "atprk_crawleechrottensanctum" ],
+          [ 1.0, "atprk_algeistrottensanctum" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "bigwormcritter" ],
+          [ 1, "fisheyecritter" ],
+          [ 1, "cellcritter" ],
+          [ 1, "cell2critter" ],
+          [ 1, "eggcellcritter" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "corruptdirt",
+  "subBlocks" : [ "atprk_deadtentacleblock", "direstone", "slime" ],
+  "ores" : "depth1",
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "tentaclegrass" ],
+    "grassModDensity" : 1,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "tentaclepopsmall" ], [0.35, "tentaclepopmed" ], [0.35, "tentaclepopbig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "atprk_rottensanctum" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.125, "atprk_ruinseashell1" ], [0.125, "atprk_ruinseashell2" ], [0.125, "atprk_ruinseashell3" ], [0.125, "atprk_ruinseashell4" ], [0.125, "atprk_ruinseashell5" ], [0.125, "atprk_ruinseashell6" ], [0.125, "atprk_ruinseashell7" ], [0.125, "atprk_ruinseashell8" ]]
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_rottententacleshrub",
+            "baseHueShiftMax" : 10,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 2,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "atprk_rottententaclevine" ],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "slime" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "atprk_rottensanctummicrodungeons" ]
+      }
+    ]
+  }
+}

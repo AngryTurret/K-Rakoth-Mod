@@ -10,7 +10,7 @@
       {
         "select" : 1,
         "pool" : [
-          [ 1, "asteroidskimbus" ]
+          [ 1, "atprk_krakothspacemine" ]
         ]
       }
     ]

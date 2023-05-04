@@ -1,14 +1,17 @@
 {
-  "name" : "atprk_chthoniccomplex",
-  "friendlyName" : "Chthonic Complex",
+  "name" : "atprk_cryonicvents",
+  "friendlyName" : "Cryonic Vents",
 
   "spawnProfile" : {
     "groups" : [
       {
         "select" : 2,
         "pool" : [
-          [ 1, "atprk_krakothpatroldrone" ],
-          [ 1, "atprk_krakothsmalldrone" ]
+          [ 1.0, "atprk_krakothsmalldrone" ],
+          [ 1.0, "wisper" ],
+          [ 1.0, "pulpin" ],
+          [ 1.0, "lilodon" ],
+          [ 1.0, "monopus" ]
         ]
       }
     ]
@@ -16,12 +19,13 @@
 
   "parallax" : "/parallax/underground/atprk_humidunderground.parallax",
 
-  "mainBlock" : "rock03",
-  "subBlocks" : [ "junktech", "stonerubble", "mud" ],
+  "mainBlock" : "ice",
+  "subBlocks" : [ "atprk_frozenfishwater", "slush" ],
+  "ores" : "depth1",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "ash" ],
-    "grassModDensity" : 0.8,
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.9,
 
     "items" : [
       {
@@ -33,7 +37,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.25, "atprk_krakothdebris1" ], [0.25, "atprk_krakothdebris2" ], [0.25, "atprk_krakothdebris3" ], [0.25, "atprk_krakothdebris4" ], [0.25, "atprk_krakothdebris5" ] ],
+            "pool" : [ [0.25, "icesphere1" ], [0.25, "icesphere2" ], [0.25, "icesphere3" ], [0.25, "icesphere4" ] ],
             "parameters" : { }
           }
         ]
@@ -42,8 +46,8 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "ash" ],
-    "grassModDensity" : 0.4,
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.8,
 
     "items" : [
       {
@@ -101,7 +105,35 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
+            "pool" : [ [0.25, "icesphere1" ], [0.25, "icesphere2" ], [0.25, "icesphere3" ], [0.25, "icesphere4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:veryRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "atprk_frozenchucklefish" ] ],
             "parameters" : { }
           }
         ]
@@ -115,7 +147,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.2, "atprk-eldritchmachinery1" ], [0.2, "atprk-eldritchmachinery2" ], [0.2, "atprk-eldritchlamppost" ], [0.2, "atprk-krakothturret" ], [0.2, "atprk-eldritchtank" ] ],
+            "pool" : [ [0.2, "iceshard1" ], [0.2, "iceshard2" ], [0.2, "iceshard3" ], [0.2, "iceshard4" ], [0.2, "iceshard5" ] ],
             "parameters" : { }
           }
         ]

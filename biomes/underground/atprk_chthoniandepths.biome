@@ -1,0 +1,34 @@
+{
+  "name" : "atprk_chthoniandepths",
+  "friendlyName" : "Chthonian Depths",
+
+  "parallax" : "/parallax/underground/atprk_chthoniandepths.parallax",
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "atprk_chthonianrock", "deadcore" ],
+  "ores" : "atprk_chthoniandepth3",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [ ]
+  },
+
+  "hueShiftOptions" : [0]
+}

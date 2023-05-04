@@ -14,9 +14,9 @@
       {
         "select" : 3,
         "pool" : [
-          [ 1, "dancercritter" ],
+          [ 1, "atprk_fenronscabcritter" ],
+          [ 1, "atprk_biteyflowercritter" ],
           [ 1, "petalcritter" ],
-          [ 1, "poofincritter" ],
           [ 1, "swarmcritter" ]
         ]
       }
@@ -38,7 +38,7 @@
 
   "surfacePlaceables" : {
     "grassMod" : [ "aliengrass" ],
-    "grassModDensity" : 0.8,
+    "grassModDensity" : 0.9,
 
     "ceilingGrassMod" : [ "roots" ],
     "ceilingGrassModDensity" : 0.8,

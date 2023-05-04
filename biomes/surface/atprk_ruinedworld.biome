@@ -16,6 +16,12 @@
         ]
       },
       {
+        "select" : 1,
+        "pool" : [
+          [ 1, "atprk_tentaclechestmimic" ]
+        ]
+      },
+      {
         "select" : 3,
         "pool" : [
           [ 1, "bigwormcritter" ],
@@ -38,7 +44,7 @@
     }
   },
 
-  "hueShiftOptions" : [-45, 0, 45],
+  "hueShiftOptions" : [-25, 0, 25],
 
   "weather" : [
     [0, [

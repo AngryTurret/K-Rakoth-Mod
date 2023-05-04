@@ -14,9 +14,9 @@
       {
         "select" : 3,
         "pool" : [
+          [ 1, "atprk_androneminicritter" ],
+          [ 1, "atprk_drillcritter" ],
           [ 1, "hazmatcritter" ],
-          [ 1, "gullcritter" ],
-          [ 1, "groopcritter" ],
           [ 1, "swarmflyingcritter" ],
           [ 1, "ravencritter" ]
         ]

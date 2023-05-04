@@ -1,28 +1,29 @@
 {
-  "name" : "atprk_ambercaves",
-  "friendlyName" : "Amber Caves",
+  "name" : "atprk_irradiatedroots",
+  "friendlyName" : "Irradiated Roots",
 
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [ 
-          [ 1.0, "atprk_ambryo" ]
+          [ 1, "pteropod" ],
+          [ 1, "snaggler" ]
         ]
       }
     ]
   },
 
-  "mainBlock" : "rock17",
-  "subBlocks" : [ "atprk_amberblock", "bonematerial", "plantmatter" ],
-  "ores" : "depth1",
+  "mainBlock" : "grassyrock",
+  "subBlocks" : [ "rock04", "waste" ],
+  "ores" : "depth2",
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "savannahgrass" ],
-    "grassModDensity" : 0.5,
+    "grassMod" : [ "toxicgrass" ],
+    "grassModDensity" : 0.6,
 
     "ceilingGrassMod" : [ "roots" ],
-    "ceilingGrassModDensity" : 0.8,
+    "ceilingGrassModDensity" : 0.7,
 
     "items" : [
       {
@@ -47,50 +48,57 @@
 
         "type" : "tree",
         "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "atprk_ambervine" ],
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "hivevine" ],
         "treeFoliageList" : [ "" ]
       },
       {
-        "mode" : "floor",
-        "priority" : 1.0,
+        "mode" : "ceiling",
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseSmall",
+        "distribution" : "/biomes/distributions.config:moderateClumps",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.25, "atprk_amberblobfloor1" ], [0.25, "atprk_amberblobfloor2" ], [0.25, "atprk_amberblobfloor3" ], [0.25, "atprk_amberblobfloor4" ], [0.25, "atprk_amberblobfloor5" ] ],
+            "pool" : [ [0.10, "root1" ], [0.10, "root2" ], [0.10, "root3" ], [0.10, "root4" ], [0.10, "root5" ], [0.10, "root6" ], [0.10, "root7" ], [0.10, "root8" ], [0.10, "root9" ], [0.10, "root10" ] ],
             "parameters" : { }
           }
         ]
       },
       {
-        "mode" : "ceiling",
+        "mode" : "floor",
+        "priority" : 1.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.33, "atprk_amberblobceiling1" ], [0.33, "atprk_amberblobceiling2" ], [0.33, "atprk_amberblobceiling3" ] ],
+            "pool" : [ [0.35, "atprk_radiotrophicbush1" ], [0.35, "atprk_radiotrophicbush2" ], [0.35, "atprk_radiotrophicbush3" ], [0.35, "atprk_radiotrophicbush4" ], [0.35, "atprk_radiotrophicbush5" ] ],
             "parameters" : { }
           }
         ]
       },
       {
         "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "vine" ]
+      },
+      {
+        "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+        "distribution" : "/biomes/distributions.config:moderateClumps",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
-            "parameters" : { }
-          }
-        ]
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "atprk_radiotrophic1" ],
+        "treeFoliageList" : [ "atprk_radiotrophicleaf1" ]
       },
       {
         "mode" : "floor",
@@ -99,16 +107,7 @@
         "distribution" : "/biomes/distributions.config:minibiomeChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "atprk_ambercaves" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "savannahgrass" ]
+        "treasureBoxSets" : [ "atprk_irradiatedroots" ]
       },
       {
         "mode" : "floor",
@@ -119,9 +118,9 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "atprk_wildambergineseed" ] ],
+            "pool" : [ [1, "wildtoxictopseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 3
             }
           }
         ]

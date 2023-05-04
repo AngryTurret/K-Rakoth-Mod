@@ -7,16 +7,21 @@
       {
         "select" : 2,
         "pool" : [
-          [ 1, "bobot" ],
           [ 1, "skimbus" ],
-          [ 1, "atprk_xenoprobe" ]
+          [ 1, "atprk_triplod" ]
         ]
       },
       {
-        "select" : 3,
+        "select" : 2,
         "pool" : [
-          [ 0.25, "atprk_tinyufocritter" ],
-          [ 0.25, "spidercritter" ],
+          [ 1, "atprk_xenoprobe" ],
+          [ 0.25, "atprk_tinyufocritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.25, "atprk_meteorollcritter" ],
           [ 0.25, "appofloatcritter" ],
           [ 0.25, "rolypolycritter" ]
         ]

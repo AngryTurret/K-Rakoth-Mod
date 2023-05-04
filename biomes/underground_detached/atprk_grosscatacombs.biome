@@ -8,9 +8,9 @@
         "select" : 2,
         "pool" : [
           [ 1.0, "hemogoblin" ],
-          [ 1.0, "oogler" ],
+          [ 1.0, "atprk_duodung" ],
           [ 1.0, "spookit" ],
-          [ 1.0, "petricub" ],
+          [ 1.0, "oogler" ],
           [ 1.0, "batong" ]
         ]
       },
@@ -46,6 +46,20 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "prisontoilet" ] ],
             "parameters" : { }
           }
         ]
@@ -103,6 +117,20 @@
 
         "type" : "microdungeon",
         "microdungeons" : [ "atprk_grosscatacombsmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ultraRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "prisontoilet" ] ],
+            "parameters" : { }
+          }
+        ]
       },
       {
         "mode" : "floor",
