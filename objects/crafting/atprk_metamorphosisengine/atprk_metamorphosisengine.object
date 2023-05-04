@@ -13,22 +13,8 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/atprk_crafting.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : "Metamorphosis Engine",
-        "subtitle" : "Ri'shaan must grow, and so must you",
-        "icon" : {
-          "file" : "/interface/crafting/atprk_metamorphosisengineicon.png"
-        }
-      }
-    },
-    "filter" : [ "atprk_metamorphosisengine" ]
+    "config" : "/interface/windowconfig/atprk_metamorphosisengine.config"
   },
-
-  "learnBlueprintsOnPickup" : [
-    "atprk_terraformerruined"
-  ],
 
   "apexDescription" : "I should not use it... Or should I?...",
   "avianDescription" : "Oh Kluex... This machine radiates with pure evil yet it's so... entrancing.",
