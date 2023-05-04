@@ -26,5 +26,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "atprk_biotyranthead", "atprk_biotyrantchest", "atprk_biotyrantlegs" ]
+  "learnBlueprintsOnPickup" : [ "atprk_biotyranthead", "atprk_biotyrantchest", "atprk_biotyrantlegs", "jellyblock" ]
 }
