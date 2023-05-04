@@ -1,0 +1,11 @@
+{
+  "name" : "atprk_krakothspaceturret",
+  "category" : "atprk_krakothspaceturret",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothspaceturret.png",
+    "bodyfullbright" : "atprk_krakothspaceturretfullbright.png",
+    "turret" : "atprk_krakothspaceturretturret.png"
+  }
+}

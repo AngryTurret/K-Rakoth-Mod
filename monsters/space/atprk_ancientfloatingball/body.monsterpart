@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_ancientfloatingball",
+  "category" : "atprk_ancientfloatingball",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_ancientfloatingball.png",
+    "bodyfullbright" : "atprk_ancientfloatingballfullbright.png"
+  }
+}

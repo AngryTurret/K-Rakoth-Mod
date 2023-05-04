@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_krakothspacemine",
+  "category" : "atprk_krakothspacemine",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothspacemine.png",
+    "bodyfullbright" : "atprk_krakothspaceminefullbright.png"
+  }
+}

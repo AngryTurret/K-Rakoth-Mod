@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_ancientprismenemy",
+  "category" : "atprk_ancientprismenemy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_ancientprismenemy.png",
+    "bodyfullbright" : "atprk_ancientprismenemyfullbright.png"
+  }
+}

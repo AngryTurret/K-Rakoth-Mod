@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_devouttrifangle",
+  "category" : "atprk_devouttrifangle",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_devouttrifangle.png",
+    "bodyfullbright" : "atprk_devouttrifanglefullbright.png"
+  }
+}

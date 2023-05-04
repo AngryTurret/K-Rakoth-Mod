@@ -1,0 +1,11 @@
+{
+  "name" : "atprk_infinitemazepestalt",
+  "category" : "atprk_infinitemazepestalt",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_infinitemazepestaltbody.png",
+    "turret" : "atprk_infinitemazepestaltturret.png",
+    "turretfullbright" : "atprk_infinitemazepestaltturretfullbright.png"
+  }
+}

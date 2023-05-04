@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_infinitemazeaspis",
+  "category" : "atprk_infinitemazeaspis",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_infinitemazeaspis.png",
+    "bodyfullbright" : "atprk_infinitemazeaspisfullbright.png"
+  }
+}

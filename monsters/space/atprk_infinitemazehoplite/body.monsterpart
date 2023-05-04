@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_infinitemazehoplite",
+  "category" : "atprk_infinitemazehoplite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_infinitemazehoplite.png",
+    "bodyfullbright" : "atprk_infinitemazehoplitefullbright.png"
+  }
+}

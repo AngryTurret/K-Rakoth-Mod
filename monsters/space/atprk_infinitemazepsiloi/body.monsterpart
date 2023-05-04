@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_infinitemazepsiloi",
+  "category" : "atprk_infinitemazepsiloi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_infinitemazepsiloi.png",
+    "bodyfullbright" : "atprk_infinitemazepsiloifullbright.png"
+  }
+}
