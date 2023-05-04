@@ -1,0 +1,69 @@
+{
+  "objectName" : "atprk_tinymechfactory",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "description" : "Manufactures mech components.",
+  "category" : "decorative",
+  "shortdescription" : "Tiny Component Factory",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1750,
+
+  "apexDescription" : "A tiny factory producing mech components.",
+  "avianDescription" : "Gnomes work here all day long to craft assorted mech parts.",
+  "floranDescription" : "Little men make mech partsss for me.",
+  "glitchDescription" : "Enthusiastic. This miniature factory shall help me out with crafting mech parts.",
+  "humanDescription" : "This small factory produces mech components.",
+  "hylotlDescription" : "A miniature mech building facility where I can get missing components.",
+  "novakidDescription" : "I can get some mech components from these guys.",
+
+  "inventoryIcon" : "atprk_tinymechfactoryicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_tinymechfactory.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinymechfactorylit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_tinymechfactory.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinymechfactorylit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "alts" : 7,
+      "harvestPool" : "atprk_tinymechfactoryHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.17,
+  "consumeSoilMoisture" : false
+}

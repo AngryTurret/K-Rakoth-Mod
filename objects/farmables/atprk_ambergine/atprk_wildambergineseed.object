@@ -1,0 +1,68 @@
+{
+  "objectName" : "atprk_wildambergineseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "This juicy vegetable tends to attract swarms of flies. Look out!",
+  "shortdescription" : "Ambergine Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 23,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "A nutritious vegetable containing traces of hardened amber. Otherwise it is edible.",
+  "avianDescription" : "Ambergine makes a great ingredient for vegetarian meals. Keeping the bugs away from it is tricky though.",
+  "floranDescription" : "Sssmelly yellow vegetable attractsss bugss. Floran can usse it as bait.",
+  "glitchDescription" : "Knowledgeable. Ambergines are often the first to be targeted by locusts. This is why most farmers grow them separately.",
+  "humanDescription" : "Mmm, this plant smells so nice. It'd be a shame to actually eat it.",
+  "hylotlDescription" : "Ambergines are valued for their sweet scent. Our people use them to make not only meals but also perfume.",
+  "novakidDescription" : "Eh, an amber eggplant? It better not be full o' bugs.",
+
+  "atprk_anneliskDescription" : "Eww, I hate ambergines. They're so gross and hard. How can people enjoy this?",
+  "atprk_fenronDescription" : "Ah, sweet ambergines. They can be used to lure locusts away from your crops.",
+  "atprk_noolithDescription" : "The scent makes this ambergine an easy target for flies and other insects.",
+
+  "inventoryIcon" : "atprk_wildambergineseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_wildambergineseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1740, 1860]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "atprk_ambergineHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_ambergineseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.25,
+  "consumeSoilMoisture" : false
+}

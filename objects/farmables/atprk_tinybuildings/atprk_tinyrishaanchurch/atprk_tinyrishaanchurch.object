@@ -1,0 +1,51 @@
+{
+  "objectName" : "atprk_tinyrishaanchurch",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","gnome","pretty"],
+  "rarity" : "Essential",
+  "description" : "Allows you to harvest tiny worshippers.",
+  "category" : "decorative",
+  "shortdescription" : "Tiny Church of Ri'shaan",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 2200,
+
+  "apexDescription" : "A small church where gnomes gather to worship Ri'shaan.",
+  "avianDescription" : "As the time goes on, more and more tiny parishioners will visit this miniature temple.",
+  "floranDescription" : "Religiousss lunchbox.",
+  "glitchDescription" : "Disturbed. It is probably better not to know what exactly is going on inside.",
+  "humanDescription" : "Now I need to wait a bit to collect a bunch of pint-sized cultists.",
+  "hylotlDescription" : "A miniature replica of Ri'shaan's temple. Gnomes can use it to organize church meetings.",
+  "novakidDescription" : "This freaky dollhouse right here attracts lil' cultists.",
+
+  "inventoryIcon" : "atprk_tinyrishaanchurchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_tinyrishaanchurch.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [85, 95]
+    },
+    {
+      "duration" : [85, 95]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "atprk_tinyrishaanchurchHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.17,
+  "consumeSoilMoisture" : false
+}

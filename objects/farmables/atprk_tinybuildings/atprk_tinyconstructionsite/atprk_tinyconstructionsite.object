@@ -1,0 +1,69 @@
+{
+  "objectName" : "atprk_tinyconstructionsite",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "description" : "Provides blocks and decorative buildings.",
+  "category" : "decorative",
+  "shortdescription" : "Tiny Construction Site",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1250,
+
+  "apexDescription" : "A downscaled yet fully functional construction site.",
+  "avianDescription" : "How adorable. May I commission a miniature castle?",
+  "floranDescription" : "Tiny buildersss!",
+  "glitchDescription" : "Insecure. I should be careful not to knock everything over by accident.",
+  "humanDescription" : "They build stuff so fast! Do they have their own matter manipulators by chance?",
+  "hylotlDescription" : "Building houses must be easier for Gnomes. Most of their materials weight very little.",
+  "novakidDescription" : "A dollhouse buildin' yard! Ain't that hilarious?",
+
+  "inventoryIcon" : "atprk_tinyconstructionsiteicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_tinyconstructionsite.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinyconstructionsitelit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_tinyconstructionsite.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinyconstructionsitelit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "atprk_tinyconstructionsiteHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.17,
+  "consumeSoilMoisture" : false
+}

@@ -1,0 +1,69 @@
+{
+  "objectName" : "atprk_tinybugfarm",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "description" : "Breeds all kinds of bugs you can imagine. Requires fertile soil.",
+  "category" : "decorative",
+  "shortdescription" : "Tiny Bug Farm",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1450,
+
+  "apexDescription" : "Well, this... actually makes sense.",
+  "avianDescription" : "A bug-breeding farm ran by hard-working Gnomes.",
+  "floranDescription" : "Jarsss where bugss grow.",
+  "glitchDescription" : "Amused. I wonder if Gnomes can also ride these bugs.",
+  "humanDescription" : "It's like a more elaborate ant farm.",
+  "hylotlDescription" : "I can collect exotic insects from this farm provided it is built on a fertile land.",
+  "novakidDescription" : "A farm so small one can only breed bugs in here.",
+
+  "inventoryIcon" : "atprk_tinybugfarmicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_tinybugfarm.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinybugfarmlit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_tinybugfarm.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tinybugfarmlit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "alts" : 6,
+      "harvestPool" : "atprk_tinybugfarmHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.17,
+  "consumeSoilMoisture" : true
+}

@@ -1,0 +1,69 @@
+{
+  "objectName" : "atprk_tiny4dsyphon",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "description" : "Extracts resources from other dimensions.",
+  "category" : "decorative",
+  "shortdescription" : "Tiny Dimensional Syphon",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1450,
+
+  "apexDescription" : "Hopefully this device will not cause a resonance cascade.",
+  "avianDescription" : "A marvelous machine that draws valuable resources from another plane of existence.",
+  "floranDescription" : "Little men open portalsss to other worldsss to get sstuff.",
+  "glitchDescription" : "Intrigued. Using this generator, the Gnomes can extract resources from other layers or reality.",
+  "humanDescription" : "Could you guys grab me a cup of interdimensional coffee while we're at it?",
+  "hylotlDescription" : "It's remarkable how the Gnomekind has mastered both the Ancient and K'Rakothan technologies.",
+  "novakidDescription" : "I dunno, is this safe t' overload the Tesseract Generator like that?",
+
+  "inventoryIcon" : "atprk_tiny4dsyphonicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_tiny4dsyphon.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tiny4dsyphonlit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_tiny4dsyphon.png:<color>.<stage>.<alt>", "fullbright" : true }, { "image" : "atprk_tiny4dsyphonlit.png:<color>.<stage>.<alt>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "requireTilledAnchors" : false,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "duration" : [120, 130]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "atprk_tiny4dsyphonHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.17,
+  "consumeSoilMoisture" : false
+}

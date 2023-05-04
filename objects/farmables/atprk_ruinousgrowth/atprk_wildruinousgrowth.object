@@ -21,6 +21,10 @@
   "hylotlDescription" : "A vicious organic growth, complete with a pulsating tumor.",
   "novakidDescription" : "That meaty thing over 'ere ain't lookin' healthy.",
 
+  "atprk_anneliskDescription" : "Oh man, this lump of meat looks nasty!... Can I sell it?",
+  "atprk_fenronDescription" : "I wonder if this will explode into poisonous gunk if I poke it.",
+  "atprk_noolithDescription" : "This fleshy growth looks swollen. It must be infected.",
+
   "inventoryIcon" : "atprk_ruinousgrowthicon.png",
   "orientations" : [
     {
@@ -35,8 +39,6 @@
 
     }
   ],
-
-  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "stages" : [
     {
@@ -56,8 +58,7 @@
     }
   ],
 
-  "breakDropOptions" : [
-  ],
+  "breakDropOptions" : [ ],
 
   "maxImmersion" : 0.125,
   "consumeSoilMoisture" : false
