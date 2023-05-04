@@ -30,9 +30,10 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
 
   "openSounds" : [ "/sfx/objects/ancientenergy_chord.ogg" ],
   "closeSounds" : [ "/sfx/objects/cardboardbox_close.ogg" ],

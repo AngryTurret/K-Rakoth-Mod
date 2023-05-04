@@ -37,6 +37,8 @@
   "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
   "smashParticles" : [ { "count" : 5, "particle" : "iceshard" } ],
 
+  "scripts" : ["/scripts/atprk_container.lua"],
+
   "openSounds" : [ "/sfx/objects/ancientenergy_chord.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 16,
