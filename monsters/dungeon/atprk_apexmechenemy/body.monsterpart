@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_apexmechenemy",
+  "category" : "atprk_apexmechenemy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_apexmechenemy.png",
+    "bodynobright" : "atprk_apexmechenemy_fullbright.png"
+  }
+}
