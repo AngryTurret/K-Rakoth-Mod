@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_tinyancientlight",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "category" : "breakable",
+  "price" : 100,
+  "printable" : false,
+
+  "description" : "A tiny essence-powered lamppost. Try not to kick it over.",
+  "shortdescription" : "Essence Lamppost",
+  "race" : "generic",
+
+  "fullbright" : true,
+  "lightColor" : [198, 124, 238],
+
+  "apexDescription" : "A tiny light source.",
+  "avianDescription" : "There is a tiny purple star in this lamp.",
+  "floranDescription" : "Sssmall purple light on ssstick.",
+  "glitchDescription" : "Observant. A tiny glowing pillar.",
+  "humanDescription" : "An odd purple lamp. Or is it a tiny lamppost?",
+  "hylotlDescription" : "A small lamppost powered by ancient particles.",
+  "novakidDescription" : "A weird glowy spike.",
+
+  "inventoryIcon" : "atprk_tinyancientlighticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_tinyancientlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "atprk_tinyancientlight.animation",
+  "animationParts" : {
+    "bg" : "atprk_tinyancientlight.png",
+    "fg" : "atprk_tinyancientlightlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+  
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/ancient_pot_break_small1.ogg", "/sfx/objects/ancient_pot_break_small2.ogg", "/sfx/objects/ancient_pot_break_small3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "essence", 1, {} ] ]
+  ]
+}

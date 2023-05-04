@@ -1,0 +1,71 @@
+{
+  "objectName" : "atprk_tinyancientpalace",
+  "colonyTags" : ["ancient","atprk_ancient","gnome"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 1350,
+  "description" : "A miniature palace from which the Emperor of Gnomekind rules over tiny people.",
+  "shortdescription" : "High Gnome Palace",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 5,
+
+  "apexDescription" : "A miniature palace of sorts. Here I can request similarly small buildings.",
+  "avianDescription" : "A palace where the Emperor of Gnomekind reigns over his tiny empire. Perhaps I could learn something from him.",
+  "floranDescription" : "Sssmall cassstle. Floran can learn how to make tiny homesss if Floran asssks nicely.",
+  "glitchDescription" : "Respectful. The residence of the Emperor of Gnomekind. I wonder if I he is open to trade.",
+  "humanDescription" : "This is the place where I can finally learn how to make my own tiny towns!",
+  "hylotlDescription" : "A grand miniature castle. The local ruler accepts ancient artifacts in exchange for tiny buildings.",
+  "novakidDescription" : "Here lives a tiny rich fella who's willin' t' trade. I wonder what he offers.",
+
+  "atprk_anneliskDescription" : "So this is where the tiny guy lives huh. Hey, I'd like to buy some of these funny houses!",
+  "atprk_fenronDescription" : "The ruler of everything that's tiny resides in this castle. Perhaps I can prove my worth and learn his wisdom.",
+  "atprk_noolithDescription" : "A glorious residence of the Emperor of Gnomekind. If I show respect, I'll be allowed to learn something valuable from him.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/atprk_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "High Gnome Palace",
+        "subtitle" : "Build tiny homes and gather resources",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_tinyancientpalaceicon.png"
+        }
+      }
+    },
+    "filter" : [ "atprk_tinyancientpalace" ]
+  },
+
+  "inventoryIcon" : "atprk_tinyancientpalaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_tinyancientpalace.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_tinyancientpalacelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 26,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_tinyancientpalace.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_tinyancientpalacelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+
+      "direction" : "right",
+
+      "frames" : 26,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup1", 1, { } ], [ "atprk_tinyancienthomeblock", 3, { } ] ]
+  ]
+}
