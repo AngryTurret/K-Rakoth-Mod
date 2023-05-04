@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_starcartographerdevoutattack",
+  "colonyTags" : ["atprk_relicseeker","commerce","atprk_planetpin"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A Glitch cartographer who sells planet pins.",
+  "shortdescription" : "Star Cartographer",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "It seems I can obtain planet pins from this cartographer.",
+  "avianDescription" : "A Glitch cartographer who gives special pins for exploring new frontiers.",
+  "floranDescription" : "Metal man sssells shiny pinsss. Floran getsss more pinss if Floran finds more planetsss.",
+  "glitchDescription" : "Amicable. A fellow Glitch traveller who sells planet pins.",
+  "humanDescription" : "I can get some fancy planet pins from this guy.",
+  "hylotlDescription" : "This space cartographer will reward me with pins if I keep exploring new planets.",
+  "novakidDescription" : "A fella who sells planet pins. I can get more if I explore space long enough.",
+
+  "inventoryIcon" : "atprk_starcartographericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_starcartographerdevoutattack.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup4", 1, { } ], [ "lunarbasechair", 1, { } ] ]
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "Focused. See that small console over there? Turn it on so you can unlock the hatch!",
+    "Alert. I've sealed the hatch so the Glitch Devouts don't attack us.",
+    "Irritated. Forget about these stupid pins, save us!"
+  ]
+
+}

@@ -1,5 +1,5 @@
 {
-  "objectName" : "atprk_vaultraider",
+  "objectName" : "atprk_vaultraiderinfinitemaze",
   "colonyTags" : ["atprk_relicseeker"],
   "rarity" : "Common",
   "category" : "other",
@@ -20,53 +20,45 @@
   "inventoryIcon" : "atprk_vaultraidericon.png",
   "orientations" : [
     {
-      "image" : "atprk_vaultraider.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
+      "image" : "atprk_vaultraiderinfinitemaze.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
 
       "direction" : "left",
       "flipImages" : true,
 
-      "frames" : 14,
-      "animationCycle" : 1.8,
+      "frames" : 19,
+      "animationCycle" : 2.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "atprk_vaultraider.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
+      "image" : "atprk_vaultraiderinfinitemaze.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
 
       "direction" : "right",
 
-      "frames" : 14,
-      "animationCycle" : 1.8,
+      "frames" : 19,
+      "animationCycle" : 2.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
 
-  "offeredQuests" : [
-    "atprk_vaultscanquest", "atprk_infinitemazequest"
-  ],
-  "turnInQuests" : [
-    "atprk_vaultscanquest"
-  ],
-
   "scripts" : ["/scripts/chattyObject.lua"],
   "scriptDelta" : 60,
   "chatOptions" : [
-    "I broke into an Ancient Vault once. Yeah, for real. No, I won't spoil anything.",
-    "Eyes up here, pal.",
-    "If you touch my horns, you're dead. Got it?",
-    "Ever met a shady guy in a hood? And I don't mean those Novakid nerds.",
-    "What? You're one of those Protectors? Yeah cool whatever.",
-    "If you ever get hold of some strange purple essence, bring it here. Maybe we could trade a bit.",
-    "Penguins may be posers but when it comes to big guns, they know their stuff.",
+    "Don't mind me, I need to take a breather.",
+    "I'm not gonna talk about quests here. Let's go back to the ship if you want to.",
+    "Geez, how many rooms are there even? Do they, like, keep going forever?",
+    "Gotta admit, these pots of essence are freakin' heavy!",
+    "Keep your eyes open. There might be hidden treasures somewhere.",
+    "Oh yeah, look out for bandits. I already had to fight some.",
+    "What are you waiting for? More exposition?",
     "Who you're calling deadbeat, punk?",
-    "Don't you have anything better to do? Lame.",
+    "I swear I've heard some high-pitched noises... The heck was that?",
     "Ancient ruins are pretty cool, I guess."
-  ],
+  ]
 
-  "uniqueId" : "atprk_vaultraider"
 }
