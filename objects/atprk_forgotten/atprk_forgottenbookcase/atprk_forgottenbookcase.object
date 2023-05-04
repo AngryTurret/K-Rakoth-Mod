@@ -43,6 +43,8 @@
     }
   ],
 
+  "scripts" : ["/scripts/atprk_container.lua"],
+
   "objectType" : "container",
   "tooltipKind" : "container",
   "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
