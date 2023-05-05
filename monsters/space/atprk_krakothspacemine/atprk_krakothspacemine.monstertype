@@ -1,7 +1,7 @@
 {
   "type" : "atprk_krakothspacemine",
   "shortdescription" : "Elder Space Mine",
-  "description" : "A space mine built by K'Rakoths. Has a primitive AI.",
+  "description" : "A space mine built by K'Rakoths. It has a primitive AI.",
 
   "categories" : [ "atprk_krakothspacemine" ],
   "parts" : [ "body" ],
