@@ -1,5 +1,6 @@
 {
   "itemName" : "atprk_npcancientbroadsword",
+  "level" : 6,
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -27,7 +28,7 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
   "scriptDelta" : 2,
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
