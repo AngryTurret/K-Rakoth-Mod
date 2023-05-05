@@ -84,7 +84,7 @@
   },
 
   "particleEmitters" : {
-    "physicalswoosh" : {
+    "iceswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
       "emissionRate" : 60,
