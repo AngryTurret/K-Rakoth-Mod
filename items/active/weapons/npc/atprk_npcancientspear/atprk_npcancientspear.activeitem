@@ -37,9 +37,15 @@
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "fireTime" : [1.4, 1.4],
-    "baseDps" : [3, 4],
-
+    "fireTime" : 1.4,
+    "baseDps" : 4,
+    "damageConfig" : {
+      "damageSourceKind" : "icespear",
+      "statusEffects" : [ "frostslow" ],
+      "knockback" : 30,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    },
     "allowHold" : false,
     "stances" : {
       "idle" : {
