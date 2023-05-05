@@ -1,9 +1,10 @@
 {
   "itemName" : "atprk_npcancientspear",
+  "level" : 6,
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A spear so cold it can freeze anyone a matter of seconds.",
+  "description" : "A spear so cold it can freeze anyone in a matter of seconds.",
   "shortdescription" : "Ancient Guardian's Spear",
   "tooltipKind" : "sword",
   "category" : "spear",
@@ -30,7 +31,7 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
   "scriptDelta" : 2,
 
-  "elementalType" : "physical",
+  "elementalType" : "ice",
 
   "aimOffset" : -1.0,
 
