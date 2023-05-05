@@ -32,8 +32,15 @@
 
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : [0.45, 0.45],
-    "baseDps" : [10, 11]
+    "fireTime" : 0.45,
+    "baseDps" : 11,
+    "damageConfig" : {
+      "damageSourceKind" : "poisonhammer",
+      "statusEffects" : [ "weakpoison" ],
+      "knockback" : 40,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua"
