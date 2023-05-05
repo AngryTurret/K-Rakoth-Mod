@@ -1,5 +1,6 @@
 {
   "itemName" : "atprk_npcancientrocketlauncher",
+  "level" : 6,
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -55,7 +56,7 @@
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
   "scriptDelta" : 2,
 
-  "elementalType" : "physical",
+  "elementalType" : "electric",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
