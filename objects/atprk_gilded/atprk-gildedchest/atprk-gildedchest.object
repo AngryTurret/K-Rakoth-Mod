@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 90,
-  "description" : "A shiny ornate chest.",
+  "description" : "A shiny, ornate chest.",
   "shortdescription" : "Gilded Chest",
   "race" : "generic",
   "health" : 1.5,
