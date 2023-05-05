@@ -37,8 +37,8 @@
     "fireTime" : 1.7,
     "baseDps" : 7,
     "damageConfig" : {
-      "damageSourceKind" : "broadsword",
-      "statusEffects" : [ ],
+      "damageSourceKind" : "firebroadsword",
+      "statusEffects" : [ "burning" ],
       "knockback" : 20,
       "knockbackMode" : "facing",
       "timeoutGroup" : "primary"
