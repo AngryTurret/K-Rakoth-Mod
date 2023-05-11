@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_crystalfishcritter",
+  "category" : "atprk_crystalfishcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

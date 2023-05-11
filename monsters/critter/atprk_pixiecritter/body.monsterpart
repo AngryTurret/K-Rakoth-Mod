@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_pixiecritter",
+  "category" : "atprk_pixiecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_babyparaspritecritter",
+  "category" : "atprk_babyparaspritecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

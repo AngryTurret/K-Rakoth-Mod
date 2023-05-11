@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_devouttrifangcritter",
+  "category" : "atprk_devouttrifangcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}

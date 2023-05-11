@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_seahorsecritter",
+  "category" : "atprk_seahorsecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}
