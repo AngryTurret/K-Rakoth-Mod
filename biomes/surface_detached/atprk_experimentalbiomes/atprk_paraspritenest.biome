@@ -13,6 +13,12 @@
         ]
       },
       {
+        "select" : 1,
+        "pool" : [
+          [ 1, "atprk_babyparaspritecritter" ]
+        ]
+      },
+      {
         "select" : 2,
         "pool" : [
           [ 1, "appofloatcritter" ],

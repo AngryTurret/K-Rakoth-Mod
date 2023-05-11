@@ -16,7 +16,7 @@
         "select" : 2,
         "pool" : [
           [ 1, "atprk_floatingshardcritter" ],
-          [ 1, "hollowcritter" ],
+          [ 1, "atprk_crystalfishcritter" ],
           [ 1, "prismscabcritter" ]
         ]
       }

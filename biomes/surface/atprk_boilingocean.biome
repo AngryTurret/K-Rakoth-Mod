@@ -42,7 +42,7 @@
         "pool" : "generatedFlying"
       },
       {
-        "select" : 2,
+        "select" : 3,
         "pool" : [
           [ 1, "appofloatcritter" ],
           [ 1, "squidcritter" ],
@@ -50,7 +50,7 @@
           [ 1, "crabcritter" ],
           [ 1, "charfishcritter" ],
           [ 1, "jellocritter" ],
-          [ 1, "fishchilicritter" ],
+          [ 1, "atprk_seahorsecritter" ],
           [ 1, "volcanicflowercritter" ]
         ]
       }

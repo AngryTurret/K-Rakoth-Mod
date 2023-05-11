@@ -22,7 +22,7 @@
         "select" : 2,
         "pool" : [
           [ 0.25, "atprk_meteorollcritter" ],
-          [ 0.25, "appofloatcritter" ],
+          [ 0.25, "atprk_trifangcritter" ],
           [ 0.25, "rolypolycritter" ]
         ]
       }
