@@ -1,7 +1,7 @@
 {
-  "itemName" : "atprk_ancientguardhead",
+  "itemName" : "atprk_ancientguardheadalt3",
   "price" : 250,
-  "inventoryIcon" : "icons.png:head",
+  "inventoryIcon" : "icon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headwear",
