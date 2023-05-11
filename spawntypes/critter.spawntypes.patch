@@ -88,6 +88,23 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_crystalfishcritter",
+	  "spawnParameters" : {
+		"area" : "liquid",
+        "region" : "all",
+        "time" : "all"
+      },
+      "spawnChance" : 0.04,
+      "monsterType" : "atprk_crystalfishcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_androneminicritter",
 	  "spawnParameters" : {
 		"area" : "surface",
@@ -113,6 +130,23 @@
       },
       "spawnChance" : 0.02,
       "monsterType" : "atprk_drillcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_seahorsecritter",
+	  "spawnParameters" : {
+		"area" : "liquid",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_seahorsecritter",
       "monsterParameters" : {
         "aggressive": false
       }
@@ -179,8 +213,76 @@
         "region" : "exposed",
         "time" : "night"
       },
-      "spawnChance" : 0.05,
+      "spawnChance" : 0.06,
       "monsterType" : "atprk_tinyufocritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_trifangcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_trifangcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_babyparaspritecritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.06,
+      "monsterType" : "atprk_babyparaspritecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_pixiecritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "night"
+      },
+      "spawnChance" : 0.15,
+      "monsterType" : "atprk_pixiecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_dungbeetlecritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_dungbeetlecritter",
       "monsterParameters" : {
         "aggressive": false
       }
