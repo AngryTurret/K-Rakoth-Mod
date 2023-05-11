@@ -56,7 +56,7 @@
           },
           {
             "head" : [
-              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 7 } }
+              { "name" : "atprk_ancientguardheadalt2", "parameters" : { "colorIndex" : 7 } }
             ],
             "chest" : [
               { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 7 } }
@@ -70,7 +70,7 @@
           },
           {
             "head" : [
-              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 9 } }
+              { "name" : "atprk_ancientguardheadalt1", "parameters" : { "colorIndex" : 9 } }
             ],
             "chest" : [
               { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 9 } }
@@ -84,7 +84,7 @@
           },
           {
             "head" : [
-              { "name" : "atprk_ancientguardhead", "parameters" : { "colorIndex" : 8 } }
+              { "name" : "atprk_ancientguardheadalt3", "parameters" : { "colorIndex" : 8 } }
             ],
             "chest" : [
               { "name" : "atprk_ancientguardchest", "parameters" : { "colorIndex" : 8 } }
