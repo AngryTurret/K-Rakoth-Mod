@@ -31,7 +31,9 @@
       [0, [
           {
             "head" : [
-              { "name" : "beachcreeperhead", "parameters" : { "colorIndex" : [1, 2, 3] } }
+              { "name" : "atprk_aliencowhead1", "parameters" : { "colorIndex" : [1, 2, 3] } },
+              { "name" : "atprk_aliencowhead2", "parameters" : { "colorIndex" : [1, 2, 3] } },
+              { "name" : "atprk_aliencowhead3", "parameters" : { "colorIndex" : [1, 2, 3] } }
             ],
             "chest" : [
               { "name" : "hazmatchest", "parameters" : { "colorIndex" : [7] } }
