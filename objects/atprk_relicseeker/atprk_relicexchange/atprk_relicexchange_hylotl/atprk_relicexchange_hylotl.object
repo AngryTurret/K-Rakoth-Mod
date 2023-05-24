@@ -1,0 +1,66 @@
+{
+  "objectName" : "atprk_relicexchange_hylotl",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A relic collector who is interested in rare artifacts.",
+  "shortdescription" : "Relic Exchange",
+  "race" : "generic",
+
+  "apexDescription" : "I can obtain valuable items from this stall provided that I have something to give in return.",
+  "avianDescription" : "This must be a stall where I can turn in rare items and get rewars.",
+  "floranDescription" : "Fish woman wantsss relicsss of ancient people. Floran may have sssome.",
+  "glitchDescription" : "Interested. I can strike a deal with this relic seeker to obtain some artifacts.",
+  "humanDescription" : "This lady sells and accepts rare artifacts. Let's check out what she offers.",
+  "hylotlDescription" : "A fellow Hylotl in charge of exchanging valuable items. I wonder what she offers.",
+  "novakidDescription" : "This here fish person is willin' to trade ancient doodads.",
+
+  "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 20,
+  "chatOptions" : [
+    "Welcome, welcome. Have you come here to turn in Ancient Shards? Or Hyperpixels perhaps?",
+    "Studying ancient civilizations may not be simple but it's worth the effort.",
+    "I wish we could learn more about the Nooliths. The study of their history is not well-documented.",
+    "If you discover anything unusual, feel free to bring it here. Each recovered artifact helps to advance our research.",
+    "As long as you have something to trade, you may acquire a relic from our supply."
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Relic Exchange",
+        "subtitle" : "Turn in rare items to get rewards",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_relicexchangeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_relicexchange_hylotl" ]
+  },
+
+  "inventoryIcon" : "atprk_relicexchange_hylotlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicexchange_hylotl.png:<color>.<frame>",
+      "imagePosition" : [-24, -0],
+
+      "frames" : 27,
+      "animationCycle" : 2.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

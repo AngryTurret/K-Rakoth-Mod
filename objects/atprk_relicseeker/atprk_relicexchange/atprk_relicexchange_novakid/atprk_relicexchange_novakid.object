@@ -1,0 +1,81 @@
+{
+  "objectName" : "atprk_relicexchange_novakid",
+  "colonyTags" : ["atprk_relicseeker","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A relic collector who is interested in rare artifacts.",
+  "shortdescription" : "Relic Exchange",
+  "race" : "generic",
+
+  "apexDescription" : "A person in charge of trading relics, I assume.",
+  "avianDescription" : "Here I can obtain exotic wares from forgotten times.",
+  "floranDescription" : "Floran ssees glowy man who sssells ancient thingsss. Floran alssso smells fresh coffee.",
+  "glitchDescription" : "Disturbed. Is it me or is his cup of coffee bottomless? How much does he drink?",
+  "humanDescription" : "A dandy Novakid who offers unusual items in exchange for even more unusual items.",
+  "hylotlDescription" : "It won't hurt to take a look at their artifacts. They may have something useful.",
+  "novakidDescription" : "A glowin' fella who trades strange artifacts.",
+
+  "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 20,
+  "chatOptions" : [
+    "Howdy, pardner! Got any spare relics t' donate?",
+    "Fenron ruins are tricky t' find. Most of 'em are hidden away in dense jungles.",
+    "Have you ever found Hyperpixels? They contain some interestin' information.",
+    "Gotta stop drinkin' so much coffee some day. It tastes nice, I can't help that.",
+    "We've got much curious stuff in our collection. Wanna take a look?"
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Relic Exchange",
+        "subtitle" : "Turn in rare items to get rewards",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_relicexchangeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "atprk_relicexchange_novakid" ]
+  },
+
+  "inventoryIcon" : "atprk_relicexchange_novakidicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchange_novakid.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_relicexchange_novakidlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 29,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_relicexchange_novakid.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_relicexchange_novakidlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "frames" : 29,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
