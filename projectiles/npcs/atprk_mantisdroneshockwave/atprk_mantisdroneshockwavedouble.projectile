@@ -1,0 +1,29 @@
+{
+  "projectileName" : "atprk_mantisdroneshockwavedouble",
+  "image" : "atprk_mantisdroneshockwavedouble.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "atprk_mantisdroneshockwave",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mantisdroneshockwave",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 180
+    }
+  ],
+  "power" : 50,
+  "speed" : 25,
+  "damageKind" : "slash"
+}

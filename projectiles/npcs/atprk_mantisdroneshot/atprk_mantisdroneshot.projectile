@@ -1,22 +1,32 @@
 {
-  "projectileName" : "atprk_aeonenergyshot",
-  "image" : "atprk_aeonenergyshot.png",
+  "projectileName" : "atprk_mantisdroneshot",
   "physics" : "laser",
-  "animationCycle" : 0.25,
-  "frameNumber" : 4,
-  "damageKind" : "fireplasma",
-  "damagePoly" : [[-4, 2], [-2, 4], [2, 4], [4, 2], [4, -2], [2, -4], [-2, -4], [-4, -2]],
+  "speed" : 45,
+  "timeToLive" : 1.25,
+  "image" : "atprk_mantisdroneshot.png",
+  "animationCycle" : 0.3,
   "lightColor" : [150, 60, 120],
   "fullbright" : true,
-  "flippable" : true,
-  "emitters" : [ "fireplasma" ],
+  "frameNumber" : 10,
+  "supportsProcessing" : true,
   "actionOnReap" : [
-    {
-      "action" : "spark"
-    },
     {
       "action" : "sound",
       "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mantisdroneshotsplit",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mantisdroneshotsplit",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 270
     },
     {
       "action" : "loop",
@@ -40,7 +50,7 @@
             "layer" : "middle",
             "variance" : {
               "position" : [0.25, 0.25],
-              "size" : 0.5,
+              "size" : 0.3,
               "initialVelocity" : [10, 10],
               "timeToLive" : 0.2
             }
@@ -49,8 +59,7 @@
       ]
     }
   ],
-  "statusEffects" : [ ],
-  "power" : 5.0,
-  "speed" : 70,
-  "knockback" : 15
+  "power" : 50,
+  "damagePoly" : [ [-3, 3], [-3, -3], [3, -3], [3, 3] ],
+  "damageKind" : "fireplasma"
 }

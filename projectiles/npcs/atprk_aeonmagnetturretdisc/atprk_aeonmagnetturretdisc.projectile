@@ -1,22 +1,40 @@
 {
-  "projectileName" : "atprk_aeonenergyshot",
-  "image" : "atprk_aeonenergyshot.png",
+  "projectileName" : "atprk_aeonmagnetturretdisc",
+  "image" : "atprk_aeonmagnetturretdisc.png",
   "physics" : "laser",
-  "animationCycle" : 0.25,
-  "frameNumber" : 4,
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
   "damageKind" : "fireplasma",
-  "damagePoly" : [[-4, 2], [-2, 4], [2, 4], [4, 2], [4, -2], [2, -4], [-2, -4], [-4, -2]],
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "bounces" : 6,
+  "timeToLive" : 5,
   "lightColor" : [150, 60, 120],
   "fullbright" : true,
   "flippable" : true,
   "emitters" : [ "fireplasma" ],
+  "periodicActions" : [
+    {
+      "time" : 0.066,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/atprk_aeonmagnetturrettrail/atprk_aeonmagnetturrettrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.2,
+        "layer" : "back",
+        "position" : [0.0, 0.0]
+      }
+    }
+  ],
   "actionOnReap" : [
     {
       "action" : "spark"
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+      "options" : [ "/sfx/melee/laser_weapon_hit.ogg" ]
     },
     {
       "action" : "loop",
@@ -49,8 +67,9 @@
       ]
     }
   ],
+  "persistentAudio" : "/sfx/gun/aegisaltpistol_loop2.ogg",
   "statusEffects" : [ ],
   "power" : 5.0,
-  "speed" : 70,
-  "knockback" : 15
+  "speed" : 55,
+  "knockback" : 20
 }
