@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_devoutattackminibosstele",
+  "category" : "atprk_devoutattackminibosstele",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_devoutattackminibosstele.png",
+    "bodynobright" : "atprk_devoutattackminibosstelelit.png"
+  }
+}

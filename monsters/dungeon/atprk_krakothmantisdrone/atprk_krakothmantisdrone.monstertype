@@ -1,0 +1,253 @@
+{
+  "type" : "atprk_krakothmantisdrone",
+  "shortdescription" : "Aegishrimp",
+  "description" : "If you are not careful, its sudden punch will send you flying.",
+
+  "categories" : [ "atprk_krakothmantisdrone" ],
+  "parts" : [ "body" ],
+
+  "animation" : "atprk_krakothmantisdrone.animation",
+
+  "dropPools" : [ "atprk_krakothrobotTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 25,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.5,
+          "parameters" : {
+            "maximumRange" : 25,
+            "minimumRange" : 1,
+            "maxXRange" : 5,
+            "windupState" : "firewindup",
+            "windupTime" : 0.5,
+
+            "projectileType" : "atprk_mantisdroneshot",
+            "fireOffset" : [0, 1],
+
+            "aimAtTarget" : false,
+            "projectileCount" : 1,
+            "aimDirection" : [0,1],
+            "fireSound" : "fire",
+            "fireState" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.5,
+          "parameters" : {
+            "maximumRange" : 10,
+            "minimumRange" : 1,
+            "windupState" : "windup",
+            "windupTime" : 0.8,
+
+            "projectileType" : "atprk_mantisdroneshockwavedouble",
+            "fireOffset" : [0, 0],
+
+            "aimAtTarget" : false,
+            "projectileCount" : 1,
+            "aimDirection" : [1,0],
+            "fireSound" : "hit",
+            "fireState" : "hit",
+
+            "winddownState" : "",
+            "winddownTime" : 0.8
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 6.5,
+          "parameters" : {
+            "maximumRange" : 20,
+            "minimumRange" : 4,
+            "requireLineOfSight" : true,
+            "windupState" : "windup",
+            "windupTime" : 0.9,
+
+            "projectileType" : "atprk_mantisdroneshockwave",
+            "projectileSpeed": 15,
+            "fireOffset" : [0, 0],
+
+            "projectileCount" : 1,
+            "aimDirection" : [1,0],
+            "fireSound" : "hit",
+            "fireState" : "hit",
+
+            "winddownState" : "",
+            "winddownTime" : 0.6
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : false,
+            "run" : true
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : false
+          }
+        }
+      ],
+
+      "wanderActions" : []
+
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.875, 2.375], [1.375, 1.875], [1.375, -1.875], [0.875, -2.375], [-0.875, -2.375], [-1.375, -1.875], [-1.375, 1.875], [-0.875, 2.375] ],
+      "damage" : 18,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.875, 2.375], [1.375, 1.875], [1.375, -1.875], [0.875, -2.375], [-0.875, -2.375], [-1.375, -1.875], [-1.375, 1.875], [-0.875, 2.375] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 4,
+      "runSpeed" : 8,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 85
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.5
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
+  }
+}

@@ -190,7 +190,7 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/objects/redalert.ogg" ],
     "deathPuff" : [ "/sfx/projectiles/electric_barrier_shock_kill.ogg" ],
-    "fire" : [ "/sfx/gun/pulsecannon2.ogg" ],
+    "fire" : [ "/sfx/gun/plasma_mp3.ogg" ],
     "firealt" : [ "/sfx/gun/ar6.ogg" ]
   },
 

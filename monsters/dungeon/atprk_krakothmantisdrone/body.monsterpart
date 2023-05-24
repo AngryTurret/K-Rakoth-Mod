@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_krakothmantisdrone",
+  "category" : "atprk_krakothmantisdrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothmantisdrone.png",
+    "bodynobright" : "atprk_krakothmantisdronelit.png"
+  }
+}

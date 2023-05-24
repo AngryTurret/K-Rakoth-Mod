@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_krakothmagnetturret",
+  "category" : "atprk_krakothmagnetturret",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_krakothmagnetturret.png",
+    "bodynobright" : "atprk_krakothmagnetturretlit.png"
+  }
+}

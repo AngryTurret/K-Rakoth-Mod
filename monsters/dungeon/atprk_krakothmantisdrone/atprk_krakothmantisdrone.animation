@@ -6,27 +6,37 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 16,
-            "cycle" : 1.0,
-            "mode" : "loop",
+            "frames" : 8,
+            "cycle" : 0.8,
+            "mode" : "loop"
+          },
+          "walk" : {
+            "frames" : 8,
+            "cycle" : 0.8,
+            "mode" : "loop"
+          },
+          "windup" : {
+            "frames" : 3,
+            "cycle" : 0.3
+          },
+          "hit" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle",
             "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
+              "immediateSound" : "/sfx/melee/swing_dagger_electric1.ogg"
             }
           },
-          "fly" : {
-            "frames" : 16,
-            "cycle" : 1.0,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
-            }
+          "firewindup" : {
+            "frames" : 4,
+            "cycle" : 0.4
           },
           "fire" : {
-            "frames" : 22,
-            "cycle" : 0.8,
-            "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
-            }
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
           }
         }
       },
@@ -67,9 +77,10 @@
     "parts" : {
       "body" : {
         "properties" : {
+          "zLevel" : 1,
+          "fullbright" : true,
           "transformationGroups" : [ "body" ],
-          "offset" : [0, 0],
-          "zLevel" : 1
+          "offset" : [0.0, 0.625]
         },
         "partStates" : {
           "body" : {
@@ -78,9 +89,24 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "hit" : {
+              "properties" : {
+                "image" : "<partImage>:hit.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
               }
             },
             "fire" : {
@@ -98,12 +124,11 @@
           }
         }
       },
-      "bodylit" : {
+      "bodynobright" : {
         "properties" : {
-          "transformationGroups" : [ "body" ],
-          "offset" : [0, 0],
           "zLevel" : 2,
-          "fullbright" : true
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.0, 0.625]
         },
         "partStates" : {
           "body" : {
@@ -112,9 +137,24 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "hit" : {
+              "properties" : {
+                "image" : "<partImage>:hit.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
               }
             },
             "fire" : {
@@ -193,8 +233,9 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/gun/rocket_fly_faded.ogg" ],
-    "fire" : [ "/sfx/gun/pulsecannon1.ogg" ]
+    "aggroHop" : [ "/sfx/objects/castleswitchon.ogg" ],
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "hit" : [ "/sfx/melee/blunt_hit_metal1.ogg" ],
+    "fire" : [ "/sfx/gun/pulsecannon2.ogg" ]
   }
 }

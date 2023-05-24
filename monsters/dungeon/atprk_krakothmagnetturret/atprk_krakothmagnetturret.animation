@@ -6,27 +6,31 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 16,
-            "cycle" : 1.0,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
-            }
+            "frames" : 1
           },
-          "fly" : {
-            "frames" : 16,
-            "cycle" : 1.0,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
-            }
+          "walk" : {
+            "frames" : 3,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "firewindup" : {
+            "frames" : 4
           },
           "fire" : {
-            "frames" : 22,
-            "cycle" : 0.8,
-            "properties" : {
-              "persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
-            }
+            "frames" : 1
+          },
+          "firewinddown" : {
+            "frames" : 4,
+            "cycle" : 0.4
+          },
+          "windup" : {
+            "frames" : 5
+          },
+          "shoot" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
           }
         }
       },
@@ -67,9 +71,10 @@
     "parts" : {
       "body" : {
         "properties" : {
-          "transformationGroups" : [ "body" ],
-          "offset" : [0, 0],
-          "zLevel" : 1
+          "zLevel" : 1,
+          "fullbright" : true,
+          "transformationGroups" : [ "facing", "body" ],
+          "offset" : [0.0, 0.75]
         },
         "partStates" : {
           "body" : {
@@ -78,14 +83,34 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
               }
             },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire.<frame>"
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:firewinddown.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "shoot" : {
+              "properties" : {
+                "image" : "<partImage>:shoot.<frame>"
               }
             }
           },
@@ -98,12 +123,11 @@
           }
         }
       },
-      "bodylit" : {
+      "bodynobright" : {
         "properties" : {
-          "transformationGroups" : [ "body" ],
-          "offset" : [0, 0],
           "zLevel" : 2,
-          "fullbright" : true
+          "transformationGroups" : [ "facing", "body" ],
+          "offset" : [0.0, 0.75]
         },
         "partStates" : {
           "body" : {
@@ -112,14 +136,34 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
               }
             },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire.<frame>"
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:firewinddown.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "shoot" : {
+              "properties" : {
+                "image" : "<partImage>:shoot.<frame>"
               }
             }
           },
@@ -136,7 +180,8 @@
   },
 
   "transformationGroups" : {
-    "body" : { "interpolated" : true }
+    "body" : { "interpolated" : true },
+    "facing" : { "interpolated" : false }
   },
 
   "effects" : {
@@ -150,11 +195,6 @@
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "electricswoosh1" },
-        { "particle" : "electricswoosh2" },
-        { "particle" : "electricswoosh1" },
-        { "particle" : "electricswoosh2" },
-        
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -194,7 +234,8 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/gun/rocket_fly_faded.ogg" ],
-    "fire" : [ "/sfx/gun/pulsecannon1.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/gun/pulsecannon2.ogg" ],
+    "firealt" : [ "/sfx/gun/plasma_sniper2.ogg" ]
   }
 }
