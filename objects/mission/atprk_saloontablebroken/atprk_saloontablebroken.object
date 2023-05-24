@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_saloontablebroken",
+  "colonyTags" : ["novakid","novakidvillage","saloon"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A broken saloon table.",
+  "shortdescription" : "Saloon Table",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A broken bar table.",
+  "avianDescription" : "This will not be fixed any time soon.",
+  "floranDescription" : "Ssso many cardsss are lying on the floor.",
+  "glitchDescription" : "Careful. The floor under this table is littered with glass shards.",
+  "humanDescription" : "Is anyone going to clean this up?",
+  "hylotlDescription" : "This table couldn't withstand a fight.",
+  "novakidDescription" : "A common sight t' behold after a bar brawl.",
+
+  "inventoryIcon" : "atprk_saloontablebrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_saloontablebroken.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

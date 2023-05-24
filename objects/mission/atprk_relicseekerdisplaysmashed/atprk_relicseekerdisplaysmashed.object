@@ -4,7 +4,6 @@
   "category" : "decorative",
   "price" : 50,
   "printable" : false,
-
   "description" : "A smashed display. Whatever it used to display is gone now.",
   "shortdescription" : "Smashed Relic Display",
   "race" : "generic",

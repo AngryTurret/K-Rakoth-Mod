@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_mechcraftingtableoff",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "It's currently out of power.",
+  "shortdescription" : "Mech Part Crafting Table",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "This table is deactivated due to the lack of electricity.",
+  "avianDescription" : "If I need new mech components, I'll have to look for another station. This one is off.",
+  "floranDescription" : "Floran can't craft mech partsss without power.",
+  "glitchDescription" : "Irked. I cannot find a way to activate this station.",
+  "humanDescription" : "This table doesn't seem to be functioning. What a bummer.",
+  "hylotlDescription" : "Normally this table can be used to craft mech components. Not now apparently...",
+  "novakidDescription" : "Can't do nothin' at this table until power's back on.",
+
+  "inventoryIcon" : "atprk_mechcraftingtableofficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_mechcraftingtableoff.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
