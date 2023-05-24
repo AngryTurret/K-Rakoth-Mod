@@ -9,5 +9,5 @@
     "item" : "atprk_experimentalterraforming",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
+  "groups" : [ "atprk_relicexchange", "atprk_relicexchange_penguin", "nouncrafting" ]
 }

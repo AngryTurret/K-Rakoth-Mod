@@ -8,5 +8,5 @@
     "item" : "atprk_krakothteleporter",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
+  "groups" : [ "atprk_relicexchange", "atprk_relicexchange_penguin", "nouncrafting" ]
 }

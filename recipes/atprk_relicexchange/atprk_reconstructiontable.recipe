@@ -6,5 +6,5 @@
     "item" : "atprk_reconstructiontable",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange", "nouncrafting" ]
+  "groups" : [ "atprk_relicexchange", "atprk_relicexchange_novakid", "atprk_relicexchange_hylotl", "atprk_relicexchange_penguin", "nouncrafting" ]
 }
