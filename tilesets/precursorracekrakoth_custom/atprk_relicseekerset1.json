@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":37,
+ "tilecount":42,
  "tileheight":80,
  "tileproperties":
     {
@@ -316,6 +316,36 @@
          "object":"atprk_mechbotrandydevoutattack",
          "tilesetDirection":"right"
         },
+     "37":
+        {
+         "\/\/description":"A broken saloon table.",
+         "\/\/name":"atprk_saloontablebroken",
+         "\/\/shortdescription":"Saloon Table",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_saloontablebroken",
+         "tilesetDirection":"right"
+        },
+     "38":
+        {
+         "\/\/description":"It's currently out of power.",
+         "\/\/name":"atprk_mechcraftingtableoff",
+         "\/\/shortdescription":"Mech Part Crafting Table",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"atprk_mechcraftingtableoff",
+         "tilesetDirection":"right"
+        },
+     "39":
+        {
+         "\/\/description":"A relic collector who is interested in rare artifacts.",
+         "\/\/name":"atprk_relicexchange_novakid",
+         "\/\/shortdescription":"Relic Exchange",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_relicexchange_novakid",
+         "tilesetDirection":"right"
+        },
      "4":
         {
          "\/\/description":"A gilded K'Rakoth statue forced into a display.",
@@ -324,6 +354,26 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_relicseekerdisplay3"
+        },
+     "40":
+        {
+         "\/\/description":"A relic collector who is interested in rare artifacts.",
+         "\/\/name":"atprk_relicexchange_hylotl",
+         "\/\/shortdescription":"Relic Exchange",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_relicexchange_hylotl",
+         "tilesetDirection":"right"
+        },
+     "41":
+        {
+         "\/\/description":"A relic collector who is interested in rare artifacts.",
+         "\/\/name":"atprk_relicexchange_penguin",
+         "\/\/shortdescription":"Relic Exchange",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_relicexchange_penguin",
+         "tilesetDirection":"right"
         },
      "5":
         {
@@ -681,6 +731,36 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "38":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "4":
         {
          "\/\/description":"string",
@@ -689,6 +769,26 @@
          "imagePositionX":"string",
          "imagePositionY":"string",
          "object":"string"
+        },
+     "40":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "41":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "5":
         {
@@ -928,11 +1028,41 @@
          "imageheight":34,
          "imagewidth":24
         },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_saloontablebroken.png",
+         "imageheight":20,
+         "imagewidth":40
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechcraftingtableoff.png",
+         "imageheight":48,
+         "imagewidth":64
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_novakid.png",
+         "imageheight":40,
+         "imagewidth":56
+        },
      "4":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay3.png",
          "imageheight":40,
          "imagewidth":26
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_hylotl.png",
+         "imageheight":38,
+         "imagewidth":48
+        },
+     "41":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_penguin.png",
+         "imageheight":30,
+         "imagewidth":48
         },
      "5":
         {
@@ -965,6 +1095,6 @@
          "imagewidth":16
         }
     },
- "tilewidth":56,
+ "tilewidth":64,
  "type":"tileset"
 }
