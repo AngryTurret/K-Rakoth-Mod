@@ -10,7 +10,7 @@
   "race" : "generic",
 
   "apexDescription" : "A Penguin merchant willing to trade artifacts.",
-  "avianDescription" : "This featherless relic collector has got all sorts of archaic mechanisms.",
+  "avianDescription" : "This flightless relic collector has got all sorts of archaic mechanisms.",
   "floranDescription" : "Sssmall bird sssearchess for old thingiesss.",
   "glitchDescription" : "Cautious. Hopefully this Penguin won't ask for dubloons.",
   "humanDescription" : "Here I can obtain all sorts of ancient relics as long as I give something in return.",
@@ -23,7 +23,7 @@
   "chatCooldown" : 20,
   "chatOptions" : [
     "Ay, found any strange items? Bring 'em to me! I'll see what I can do with them!",
-    "What? Never expected a Penguin fond of ancient cultures?",
+    "What? Never expected a Penguin to be fond of ancient cultures?",
     "The abandoned Annelisk settlements are full of exotic tech. You might want to check 'em out some day.",
     "Hyperpixels, Elder Tech, Tesseract Generators - we accept all of this stuff that has lost its purpose!",
     "Careful out there. Not all ruins are safe to traverse."
