@@ -46,8 +46,6 @@
     "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
-    "persistent" : true,
-
     "worldProperties" : {
       "nonCombat" : true
     },

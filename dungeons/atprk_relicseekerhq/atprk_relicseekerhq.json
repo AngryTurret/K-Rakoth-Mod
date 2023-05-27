@@ -13626,6 +13626,14 @@
                  "height":64,
                  "id":2501,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"interactData\" : \"\/interface\/warping\/atprk_relicseekerhquniquetele.config\", \"uniqueId\" : \"atprk_relicseekerhqteleporterunique\" }"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -14420,15 +14428,15 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk_relicseekerset1.json"
         }, 
         {
-         "firstgid":8871,
+         "firstgid":8876,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glitchdevoutset1.json"
         }, 
         {
-         "firstgid":8909,
+         "firstgid":8914,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }, 
         {
-         "firstgid":8952,
+         "firstgid":8957,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
