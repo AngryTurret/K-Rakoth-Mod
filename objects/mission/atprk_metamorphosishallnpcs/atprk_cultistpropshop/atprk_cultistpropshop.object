@@ -25,6 +25,9 @@
       { "item" : "cultistdoor" },
       { "item" : "cultistairlockbossdoor" },
       { "item" : "cultistairlockhatch" },
+      { "item" : "cultisthead" },
+      { "item" : "cultistchest" },
+      { "item" : "cultistlegs" },
       { "item" : { "name" : "atprk_betacultisthood" }, "prerequisiteQuest" : "atprk_betastarmapquest" }
     ]
   },
