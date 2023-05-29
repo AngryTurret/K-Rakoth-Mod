@@ -59,6 +59,12 @@
       "gravityRange" : [120, 120],
       "threatRange" : [6, 6],
       "layers" : {
+      "space" : {
+          "primaryRegion" : ["barrenasteroids"]
+        },
+        "atmosphere" : {
+          "primaryRegion" : ["void"]
+        },
         "surface" : {
           "primaryRegion" : ["atprk_chthonianmoon"],
           "secondaryRegions" : [ "atprk_chthonianswamp" ]
