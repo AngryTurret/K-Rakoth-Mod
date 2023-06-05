@@ -12,7 +12,7 @@
     "path": "/monsters/atprk_hungertrictusrare",
     "value": {
       "portraitCenter" : [-0.25, 0.0],
-      "portraitScale": 0.5
+      "portraitScale": 1
     }
   },
   {
