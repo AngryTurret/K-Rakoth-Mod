@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmsENwyAMRZklq\/WSATpApZ66TCfLrQtUOaBSZEiAmG+DD\/8QFMM3T4ZQujn32EymSn2cc7taYkuEzpczt7O5tsRf4YtzzF5za2rnajxk8jBh1nS0vxllTGRqNh5vYG6pseP2szxy\/a2B9ufX8i\/Od1bCFxXr4+8g5Txx8Nj7PppHjndKeVDtPcTBI849nBMpPFKxPv62YMTFw9d8+IzmQXnK8Xi6n7jmPx6Dk8dTII\/Y00w8qPpA7udWH7rrY7T9w3j045E7z4yyn4\/Gw+qDj0fMpLY+tOznVHsP1fKoOQ+mGHKL8rQL9ZtIrWp4aBKyDmrq5oiHdiYz8EDfXZbcDaDXn6vXK008KL+j7ecaeYSeR\/reNR7yeFBrMnquZ+aRYqKBy2w8pPMZlUcJE0mMjIcsRsZDFifjIYvPEQ+t50EUjxYuPjaXu\/T\/w6VyR7Ko5RLyoPpC3w2caZdYGy1c0D458kR7mpmL1lxG5DKi\/xZGV3zbXek31c8XoFdFhw==",
+         "data":"eJztmsENwyAMRZklq\/WSATpApe7QMTpZbl2gygGVIkMCxHwbfPiHoBi+eTKE0s25x2YyVerjnNvVElsidL6cuZ3NtSX+Cl+cY\/aaW1M7V+Mhk4cJs6aj\/c0oYyJTs\/F4A3NLjR23n+WR628NtD+\/ln9xvrMSvqhYH38HKeeJg8fe99E8crxTyoNq7yEOHnHu4ZxI4ZGK9fG3BSMuHr7mw2c0D8pTjsfT\/cQ1\/\/EYnDyeAnnEnmbiQdUHcj+3+tBdH6PtH8ajH4\/ceWaU\/Xw0HlYffDxiJrX1oWU\/p9p7qJZHzXkwxZBblKddqN9EalXDQ5OQdVBTN0c8tDOZgQf67rLkbgC9\/ly9XmniQfkdbT\/XyCP0PNL3rvGQx4Nak9FzPTOPFBMNXGbjIZ3PqDxKmEhiZDxkMTIesjgZD1l8jnhoPQ+ieLRw8bG53KX\/Hy6VO5JFLZeQB9UX+m7gTLvE2mjhgvbJkSfa08xctOYyIpcR\/bcwuuLb7kq\/qX6+mDdjYw==",
          "encoding":"base64",
          "height":40,
          "name":"back",
@@ -643,7 +643,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8836,
+         "firstgid":8849,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,

@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2sGR2zAMBVDVktZycQFbQGZ83Vpc2d7SQEYHTjAckAJBgPiUcMAk61hrEM8kISo\/x\/HnJ+PR8fc4jtURPWZtfP86jjM+Bx\/l3yX1TU8MyzN+NwLBc7VptIuX5ajnilqkp94S0XOFaatW6HFlierpaXpnS2RPL1PNGlbi7B+l77WK0c9E9vQwrT09a5uevqbcWpue6z2tTNMTx9PCND3TcydP2uPt4DlrOuMZfb8yEtKa7Ww54xntM2OZnrI1bJdAXWtnLTWeO1uO1gMpLw\/PXS219UDLTes58lzYI6fI2NFwdn7e1dLbc3X+6bn3\/zepPzM97U0j805PW8\/ovNPTzhMh7\/S0MUXJNz3nPZHyTc85T7R801Nviphnng\/pTBFzpGezmvPb6DHdwXOmBxu1lJ7JR9d\/tSeS46jl6ucs0ZaSeqM4ai3TdD43jzrNWEY8D72LJ1d\/y9BacqaWsYPp3SyfZjqTi+W6uFvsYqq55mmWtSnafmrlyZ3T0Ne519BiJG9pnyVZFyN7tFYf+nX8D1qD3mtoMZK31DMqRh1zfu7p2buGjit6P0PbP6ND2sPW39ene541eJH4NOYA9763QdS\/l7Pk1tP07Huef5d40vcVE829b+1Zfm\/t2dofuTGlJ+\/5qur4Yur+mbCkphrP1pjSs+15\/vlV\/RzlWXry8nlIntJ+AMHznZ5qv9WuvX6oNz\/rfojuhdzPrddrz1Y\/hLLeWvbu6POTc6rn4ZVn9P4pcbA69\/Ew39nTsr+9quvMfiIJK1PPfqjlKd0\/qelIfWc9y7i8DXv50xpEzE\/OSuLZu\/+UzlEvz6jzd+5eUeup7Yc8zodqT+kzHY3nm4yljMujX5FEqQXNadSTq0vrPMGyx7sK7XM6+j2VBOcZPT9pTqPPYlYarTAt45LWEN1Teu2unlemFvMTab290\/zsmbZcc\/\/U1dIrZk1pvyupA70WxZPmNGLZ84yw7K2lWtORQLn\/1F6PZnm1N3qbovRDO1q2PtN6Px2JiPsyGtx6OxOec8syEHJAD1S7NL2340ju0fmh1GGn+qza7+8U0Wbp+gzDSHuE71V0HVEDtW5IuczEP590X5Y=",
+         "data":"eJzt2tGN2zAMBmDP0tX6kgFugALZ4cbIZPfWBQo\/CCUESqYoUvxl84FoL40vFL9IouX+HMefn4xHx9\/jOFZH9Ji18f3rOM74HHyUf5fUNz0xLM\/43QgEz9Wm0S5elqOeK2qRnnpLRM8Vpq1aoceVJaqnp+mdLZE9vUw1a1iJs3+UvtcqRj8T2dPDtPb0rG16+ppya216rve0Mk1PHE8L0\/RMz508aY+3g+es6Yxn9P3KSEhrtrPljGe0z4xlesrWsF0Cda2dtdR47mw5Wg+kvDw8d7XU1gMtN63nyHNhj5wiY0fD2fl5V0tvz9X5p+fe\/9+k\/sz0tDeNzDs9bT2j805PO0+EvNPTxhQl3\/Sc90TKNz3nPNHyTU+9KWKeeT6kM0XMkZ7Nas5vo8d0B8+ZHmzUUnomH13\/1Z5IjqOWq5+zRFtK6o3iqLVM0\/ncPOo0YxnxPPQunlz9LUNryZlaxg6md7N8mulMLpbr4m6xi6nmmqdZ1qZo+6mVJ3dOQ1\/nXkOLkbylfZZkXYzs0Vp96NfxP2gNeq+hxUjeUs+oGHXM+bmnZ+8aOq7o\/Qxt\/4wOaQ9bf1+f7nnW4EXi05gD3PveBlH\/Xs6SW0\/Ts+95\/l3iSd9XTDT3vrVn+b21Z2t\/5MaUnrznq6rji6n7Z8KSmmo8W2NKz7bn+edX9XOUZ+nJy+cheUr7AQTPd3qq\/Va79vqh3vys+yG6F3I\/t16vPVv9EMp6a9m7o89Pzqmeh1ee0funxMHq3MfDfGdPy\/72qq4z+4kkrEw9+6GWp3T\/pKYj9Z31LOPyNuzlT2sQMT85K4ln7\/5TOke9PKPO37l7Ra2nth\/yOB+qPaXPdDSebzKWMi6PfkUSpRY0p1FPri6t8wTLHu8qtM\/p6PdUEpxn9PykOY0+i1lptMK0jEtaQ3RP6bW7el6ZWsxPpPX2TvOzZ9pyzf1TV0uvmDWl\/a6kDvRaFE+a04hlzzPCsreWak1HAuX+U3s9muXV3uhtitIP7WjZ+kzr\/XQkIu7LaHDr7Ux4zi3LQMgBPVDt0vTejiO5R+eHUoed6rNqv79TRJul6zMMI+0RvlfRdUQN1Loh5TIT\/wCsoYAM",
          "encoding":"base64",
          "height":69,
          "name":"back",
@@ -91,18 +91,6 @@
                  "width":32,
                  "x":72,
                  "y":424
-                }, 
-                {
-                 "gid":8833,
-                 "height":16,
-                 "id":914,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":32,
-                 "y":384
                 }, 
                 {
                  "gid":8829,
@@ -618,6 +606,18 @@
                  "width":8,
                  "x":368,
                  "y":176
+                }, 
+                {
+                 "gid":8847,
+                 "height":16,
+                 "id":965,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":32,
+                 "y":384
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -732,7 +732,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":965,
+ "nextobjectid":966,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -879,7 +879,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8839,
+         "firstgid":8849,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,
