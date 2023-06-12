@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-eldritchwalllightbroken",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "description" : "A damaged high-tech wall light.",
+  "shortdescription" : "Flickering Elder Wall Light",
+  "race" : "generic",
+
+  "apexDescription" : "I wonder where this light drains energy from.",
+  "avianDescription" : "A pink light that feels strongly unnatural.",
+  "floranDescription" : "Thisss light iss broken.",
+  "glitchDescription" : "Neutral. An octogonal wall light that flickers a lot.",
+  "humanDescription" : "Someone forgot to turn this off.",
+  "hylotlDescription" : "A high-tech wall light. This one is damaged.",
+  "novakidDescription" : "This light could blind a person with all these flashes!",
+
+  "category" : "light",
+  "price" : 55,
+  "printable" : false,
+  "lightColor" : [255, 83, 198],
+  "flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+
+  "inventoryIcon" : "atprk-eldritchwalllighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchwalllight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk-eldritchwalllight.png",
+    "fg" : "atprk-eldritchwalllightbrokenlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "breakDropOptions" : [
+    [ [ "atprk-eldritchwalllight", 1, { } ] ]
+  ]
+}

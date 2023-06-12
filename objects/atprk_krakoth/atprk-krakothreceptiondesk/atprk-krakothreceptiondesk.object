@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk-krakothreceptiondesk",
+  "colonyTags" : ["atprk_krakoth","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 105,
+  "description" : "A metallic reception desk.",
+  "shortdescription" : "Elder Reception Desk",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A long negotiating table.",
+  "avianDescription" : "A neat spot to discuss important issues.",
+  "floranDescription" : "Large table for large meatsss?",
+  "glitchDescription" : "Aloof. Passing documents over this table to other people will be awkward.",
+  "humanDescription" : "Hello? Is anybody here?",
+  "hylotlDescription" : "A long table where diplomacy takes place.",
+  "novakidDescription" : "A table where important people agree on stuff.",
+
+  "inventoryIcon" : "atprk-krakothreceptiondeskicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothreceptiondesk.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk-krakothreceptiondesk.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ]
+}

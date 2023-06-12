@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk-eldritchfloodlightbroken",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "description" : "A tiny, faint wall light. It barely functions.",
+  "shortdescription" : "Flickering Elder Floodlight",
+  "race" : "generic",
+
+  "apexDescription" : "A flickering floodlight.",
+  "avianDescription" : "A defective wall-mounted light.",
+  "floranDescription" : "Bad underwater light.",
+  "glitchDescription" : "Unimpressed. A damaged floodlight.",
+  "humanDescription" : "A small floodlight. This one flickers a lot.",
+  "hylotlDescription" : "A damaged floodlight of elder design.",
+  "novakidDescription" : "A faint flickerin' light.",
+
+  "category" : "light",
+  "price" : 40,
+  "printable" : false,
+  "lightColor" : [182, 123, 163],
+  "flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+
+  "inventoryIcon" : "atprk-eldritchfloodlighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-eldritchfloodlight.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk-eldritchfloodlight.png",
+    "fg" : "atprk-eldritchfloodlightbrokenlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "breakDropOptions" : [
+    [ [ "atprk-eldritchfloodlight", 1, { } ] ]
+  ]
+}
