@@ -156,6 +156,23 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_navalminecritter",
+	  "spawnParameters" : {
+		"area" : "liquid",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_navalminecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_seapigcritter",
 	  "spawnParameters" : {
 		"area" : "surface",
