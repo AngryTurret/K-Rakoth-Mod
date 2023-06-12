@@ -59,7 +59,7 @@
       "gravityRange" : [120, 120],
       "threatRange" : [6, 6],
       "layers" : {
-      "space" : {
+        "space" : {
           "primaryRegion" : ["barrenasteroids"]
         },
         "atmosphere" : {
@@ -688,12 +688,12 @@
   {
     "op" : "add",
     "path" : "/planetTypes/alien/layers/surface/dungeons/-",
-    "value" : [ 2.0, "atprk_apexarea48" ]
+    "value" : [ 4.0, "atprk_apexarea48" ]
   },
   {
     "op" : "add",
     "path" : "/planetTypes/tundra/layers/surface/dungeons/-",
-    "value" : [ 4.0, "atprk_apexarea48" ]
+    "value" : [ 2.0, "atprk_apexarea48" ]
   },
   {
     "op" : "add",
