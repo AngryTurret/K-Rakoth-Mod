@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_navalminecritter",
+  "category" : "atprk_navalminecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}
