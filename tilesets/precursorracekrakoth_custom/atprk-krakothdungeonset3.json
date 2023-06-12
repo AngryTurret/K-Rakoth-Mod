@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":46,
+ "tilecount":48,
  "tileheight":88,
  "tileproperties":
     {
@@ -404,6 +404,26 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"atprk-eldritchterraformerframefixed",
+         "tilesetDirection":"right"
+        },
+     "46":
+        {
+         "\/\/description":"A damaged high-tech wall light.",
+         "\/\/name":"atprk-eldritchwalllightbroken",
+         "\/\/shortdescription":"Flickering Elder Wall Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchwalllightbroken",
+         "tilesetDirection":"right"
+        },
+     "47":
+        {
+         "\/\/description":"A tiny, faint wall light. It barely functions.",
+         "\/\/name":"atprk-eldritchfloodlightbroken",
+         "\/\/shortdescription":"Flickering Elder Floodlight",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchfloodlightbroken",
          "tilesetDirection":"right"
         },
      "5":
@@ -853,6 +873,26 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "46":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "47":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1151,6 +1191,18 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframefixed.png",
          "imageheight":64,
          "imagewidth":32
+        },
+     "46":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchwalllightbroken.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchfloodlightbroken.png",
+         "imageheight":8,
+         "imagewidth":8
         },
      "5":
         {
