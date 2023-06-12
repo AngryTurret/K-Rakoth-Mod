@@ -9,9 +9,17 @@
   },
   {
 	"op" : "add", 
-    "path" : "/collectables/atprk_sanguinesalad",
+    "path" : "/collectables/atprk_fossilkebab",
     "value" : {
 	  "order" : 152,
+	  "item" : "atprk_fossilkebab"
+	}
+  },
+  {
+	"op" : "add", 
+    "path" : "/collectables/atprk_sanguinesalad",
+    "value" : {
+	  "order" : 153,
 	  "item" : "atprk_sanguinesalad"
 	}
   },
@@ -19,7 +27,7 @@
 	"op" : "add", 
     "path" : "/collectables/atprk_stuffedflytrap",
     "value" : {
-	  "order" : 153,
+	  "order" : 154,
 	  "item" : "atprk_stuffedflytrap"
     }
   },
@@ -28,7 +36,7 @@
     "path" : "/collectables/atprk_venuskiss",
     "value" :     
     {
-	  "order" : 154,
+	  "order" : 155,
 	  "item" : "atprk_venuskiss"
     }
   },
@@ -37,7 +45,7 @@
     "path" : "/collectables/atprk_venusbite",
     "value" :     
     {
-	  "order" : 155,
+	  "order" : 156,
 	  "item" : "atprk_venusbite"
     }
   },
@@ -46,7 +54,7 @@
     "path" : "/collectables/atprk_deepseasteak",
     "value" :     
     {
-	  "order" : 156,
+	  "order" : 157,
 	  "item" : "atprk_deepseasteak"
     }
   },
@@ -55,7 +63,7 @@
     "path" : "/collectables/atprk_starfishsushi",
     "value" :     
     {
-	  "order" : 157,
+	  "order" : 158,
 	  "item" : "atprk_starfishsushi"
     }
   },
@@ -64,7 +72,7 @@
     "path" : "/collectables/atprk_stellarsauce",
     "value" :     
     {
-	  "order" : 158,
+	  "order" : 159,
 	  "item" : "atprk_stellarsauce"
     }
   }
