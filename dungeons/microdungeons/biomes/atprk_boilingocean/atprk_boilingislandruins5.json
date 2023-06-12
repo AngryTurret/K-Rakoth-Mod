@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt11EKgzAQBNCcxcN5A\/8L6dnqX8\/UQrsYUrWJO2sSMwPzUdCwj9igs3O3mWVZlmVZlmVZaF3l6cG4lV6ccXqySnqySujVWx9GRQXptZoXuZaFFxn0Prfwv7V6poFLVh16rx2kd0IsshP0Ga2dZ3KL2dp+JOj3jdDr3THzFBUZi3dJmTPXK\/fdh6XWXpTZfzsOn24l3MPQKf13f04svxdSvWvG2DqC9tnymzD2xuZxyKvWa\/3N792vOTy3c6yyjqVV6\/YbDc\/dtd97tXZq7Htzp\/qOmBFG6fO9Xivtyao1l56bXjtrS2aZE3lm1WxHO2s2W1prc59lLW0+26kxp963dl1JZ64\/9frS82vMpedg++sLYOBDrQ==",
+         "data":"eJzt11EKgzAQBNCcxcN5A\/8LOVLvUP96phbaxZCqTdxZk5gZmI+Chn3EBp2du80sy7Isy7Isy0LrKk8Pxq304ozTk1XSk1VCr976MCoqSK\/VvMi1LLzIoPe5hf+t1TMNXLLq0HvtIL0TYpGdoM9o7TyTW8zW9iNBv2+EXu+OmaeoyFi8S8qcuV657z4stfaizP7bcfh0K+Eehk7pv\/tzYvm9kOpdM8bWEbTPlt+EsTc2j0NetV7rb37vfs3huZ1jlXUsrVq332h47q793qu1U2PfmzvVd8SMMEqf7\/VaaU9Wrbn03PTaWVsyy5zIM6tmO9pZs9nSWpv7LGtp89lOjTn1vrXrSjpz\/anXl55fYy49B9tfX9zHRm4=",
          "encoding":"base64",
          "height":49,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt0uENwiAQQGFmYTg26AQ4mz87kzGWeJo2lhMP8N6XXEyapvCEEAAAAAAAAAAAgBfXbUax9N6AsSX4ak7xMV6U3tx7I0ZKr5c77fV8\/7l3FbPXe39+ia\/vtVzXyrozaevK4fkrW7Nyzqxt0fdp3vvlHaiZ8o0Uz63bozUfPNf21o5la+0dqGk7+h9n6ZXNrb73LYvmFo0tWmdp\/6XebZatUu9Oy9bCS6ek3avmvRHVnslIZ6c1894xtxvj4loo",
+         "data":"eJzt0sENwjAMQNHMwnBs0Aly6WQcOxOHEmGhFLAbnAT\/J1mVoqrNb5oSAAAAAAAAAACI4vaYUSy9N+BsSbGar5d9oii9ufdGnJTeKP901PP9595NTK23rMv7Wr7Xy1aZ0pXT87qK1mycb97t0fdp1pd++Q9opvbt3k2P1nywbu3VjmerZrRtR99xll7Z3Op5Z3k0t2hs0TpL+y\/1bvNslXp3erYWUTol614t941IeyYjnZ3VzHvH3O6+kFpS",
          "encoding":"base64",
          "height":49,
          "name":"front",
@@ -466,7 +466,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8834,
+         "firstgid":8881,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
