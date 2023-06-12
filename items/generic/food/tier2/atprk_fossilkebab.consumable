@@ -1,15 +1,19 @@
 {
-  "itemName" : "atprk_prehistoricpasta",
+  "itemName" : "atprk_fossilkebab",
   "rarity" : "Common",
-  "price" : 225,
+  "price" : 250,
   "category" : "preparedFood",
-  "inventoryIcon" : "atprk_prehistoricpasta.png",
-  "description" : "The original recipe has been lost to the ages. This is the closest thing you can cook.",
-  "shortdescription" : "Prehistoric Pasta",
+  "inventoryIcon" : "atprk_fossilkebab.png",
+  "description" : "A bit chewy but tasty.",
+  "shortdescription" : "Fossil Kebab",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
-        "duration" : 325
+        "duration" : 242
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 120
     }
   ] ],
   "foodValue" : 40,
@@ -20,6 +24,5 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "atprk_fossilkebab" ]
+  ]
 }
