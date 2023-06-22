@@ -9,7 +9,7 @@
   "radioMessagesOnPickup" : [ "pickupflag" ],
   
   "description" : "The K'Rakoth flag. Use ^green;[E]^white; to bookmark a teleportation location.",
-  "shortdescription" : "K'Rakoth Holoflag",
+  "shortdescription" : "K'Rakoth Holo-Flag",
   "race" : "generic",
 
   "apexDescription" : "A K'Rakothan flag. I can use this as a waypoint for teleportation.",
