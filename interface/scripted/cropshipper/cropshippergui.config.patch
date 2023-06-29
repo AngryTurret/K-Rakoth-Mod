@@ -22,12 +22,17 @@
   {
     "op": "add",
     "path": "/acceptItems/-",
+    "value": "atprk_cookedtraproot"
+  },
+  {
+    "op": "add",
+    "path": "/acceptItems/-",
     "value": "atprk_prehistoricpasta"
   },
   {
     "op": "add",
     "path": "/acceptItems/-",
-    "value": "atprk_cookedtraproot"
+    "value": "atprk_fossilkebab"
   },
   {
     "op": "add",
