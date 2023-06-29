@@ -222,6 +222,7 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/smallbiped/angstyhead_small_pain2.ogg" ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/npc/monsters/sporgus_fire.ogg" ],
     "wallCrash" : [ "/sfx/npc/smallbiped/angstyhead_small_pain1.ogg" ]
   }
 }
