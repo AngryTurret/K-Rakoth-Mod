@@ -1,0 +1,18 @@
+{
+  "projectileName" : "atprk_shruberserkthorn",
+  "image" : "atprk_shruberserkthorn.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 1,
+  "physics" : "grenade",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/acidspitexplosion/acidspitexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "slash",
+  "emitters" : [ "poisondrip" ],
+  "renderLayer" : "Monster+50"
+}

@@ -1,0 +1,41 @@
+{
+  "projectileName" : "atprk_shruberserkthornsplit",
+  "image" : "atprk_shruberserkthornsplit.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "physics" : "laser",
+  "bounces" : 0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "atprk_shruberserkthorn",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_shruberserkthorn",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_shruberserkthorn",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_shruberserkthorn",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 270
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "slash"
+}
