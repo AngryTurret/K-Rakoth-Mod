@@ -25,6 +25,12 @@
 			},
 			{
 				"item": {
+					"name": "atprk_pixiewand"
+				},
+				"rarity": 0.2
+			},
+			{
+				"item": {
 					"name": "lanternstickback"
 				},
 				"rarity": 0.2
