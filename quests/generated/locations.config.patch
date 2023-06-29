@@ -658,7 +658,7 @@
 	}
   },
 
-  //Ocean Microdungeons
+  //Ocean Floor Microdungeons
   { "op" : "add",
 	"path" : "/atprk_oceanplus",
 	"value" : {
@@ -684,6 +684,37 @@
 	  },
 	  "atprk_krakothminitemple" : {
 		"name" : "enigmatic temple",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
+  //Toxic Floor Microdungeons
+  { "op" : "add",
+	"path" : "/atprk_toxicplus",
+	"value" : {
+	  "atprk_toxickrakothmonument1" : {
+		"name" : "mysterious marker",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_toxickrakothmonument2" : {
+		"name" : "mysterious marker",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_toxickrakothpod" : {
+		"name" : "submerged escape pod",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_toxicreef" : {
+		"name" : "junk reef",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_toxicskull" : {
+		"name" : "skull grotto",
+		"tags" : [ "ocean" ]
+	  },
+	  "atprk_toxicfloodedvault" : {
+		"name" : "flooded vault",
 		"tags" : [ "ocean" ]
 	  }
 	}
