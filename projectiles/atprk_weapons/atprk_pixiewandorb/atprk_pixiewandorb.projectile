@@ -1,0 +1,84 @@
+{
+  "projectileName" : "atprk_pixiewandorb",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "atprk_pixiewandorb.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [153, 201, 255],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 1,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "ghostsparkle"
+        }
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "deathfizz1left"
+        }
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "deathfizz2left"
+        }
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "deathfizz3left"
+        }
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "deathfizz4left"
+        }
+      ]
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    }
+  ],   
+  "speed" : 0,
+  "power" : 30,
+  "knockback" : 5,
+  "damageKind" : "plasma",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "damageRepeatTimeout" : 0.25,
+
+  "orientationLocked" : true,
+  "fullbright" : true,
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 35,
+    "controlForce" : 95
+  }
+}
