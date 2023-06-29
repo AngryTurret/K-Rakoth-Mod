@@ -1,0 +1,164 @@
+[
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxickrakothmonument1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxickrakothmonument1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxickrakothmonument1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxickrakothmonument2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxickrakothmonument2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxickrakothmonument2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxickrakothpod"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxickrakothpod",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxickrakothpod.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicreef"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicreef",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicreef.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicskull"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicskull",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicskull.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicfloodedvault"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicfloodedvault",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicfloodedvault.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicmines1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicmines1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicmines1.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicmines2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicmines2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicmines2.json" ]
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "atprk_toxicmines3"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_toxicmines3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_toxicmines3.json" ]
+    }	
+}
+]
