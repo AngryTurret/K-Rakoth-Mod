@@ -11,7 +11,8 @@
       },
       "spawnChance" : 0.05,
       "monsterType" : [
-        [0.99, "atprk_shruberserk"],
+        [0.80, "atprk_shruberserk"],
+        [0.19, "atprk_shruberserkthorny"],
         [0.01, "atprk_shruberserkrare"]
       ],
       "monsterParameters" : {
