@@ -1,0 +1,178 @@
+{
+  "itemName" : "atprk_chthonicspear",
+  "price" : 1080,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A versatile weapon once utilized by K'Rakothan troops.",
+  "shortdescription" : "Chthonic Spear",
+  "tooltipKind" : "base",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "atprk_chthonicspear.png",
+
+  "animation" : "/items/active/weapons/melee/atprk_chthonicspear.animation",
+  "animationParts" : {
+    "handle" : "atprk_chthonicspear.png",
+    "blade" : "atprk_chthonicspearfullbright.png",
+    "beamorigin" : "atprk_aeonmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop.ogg" ],
+      "fireEnd" : [],
+      "beamImpact" : []
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "name" : "Stab",
+    "type" : "spearstab",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/spearstab.lua"],
+    "class" : "SpearStab",
+
+    "fireTime" : 0.95,
+    "baseDps" : 11.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 30,
+      "timeoutGroup" : "primary"
+    },
+    "holdDamageMultiplier" : 0.1,
+    "holdDamageConfig" : {
+      "timeoutGroup" : "hold",
+      "timeout" : 0.5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.15,
+        "armRotation" : -110,
+        "weaponRotation" : 20,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 2.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "hold" : {
+        "armRotation" : -30,
+        "weaponRotation" : -60,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 2.0],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  //"muzzleOffset" : [2.375, 0.125],
+  "muzzleOffset" : [2.25, -0.05],
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+
+  "altAbilityType" : "beamfire",
+  "altAbility" : {
+    "name" : "Aeon Beam",
+
+    "scripts" : ["/items/active/weapons/melee/atprk_aeonbeam.lua"],
+    "class" : "AeonBeam",
+
+    "fireTime" : 0.2,
+    "baseDps" : 11.0,
+    "energyUsage" : 50,
+
+    "damageConfig" : {
+      "statusEffects" : [ ],
+      "damageSourceKind" : "plasma",
+      "knockback" : 2
+    },
+
+    "beamLength" : 50,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "startSegmentImage" : "/items/active/weapons/melee/atprk_beamstart.png",
+      "segmentImage" : "/items/active/weapons/melee/atprk_beam.png",
+      "endSegmentImage" : "/items/active/weapons/melee/atprk_beamend.png",
+      "segmentSize" : 1.0,
+      "overdrawLength" : 0.0,
+      "taper" : 0.0,
+      //"jitter" : 0.125,
+      "jitter" : 0.0,
+      "waveform" : {
+        "frequency" : 1.0,
+        "amplitude" : 0.25,
+        "movement" : 0.0
+      },
+      "fullbright" : true,
+      "light" : [255, 83, 198]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.05, 2.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
