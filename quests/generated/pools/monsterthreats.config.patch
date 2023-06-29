@@ -1,0 +1,12 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "Clamias",
+		"typeName" : "atprk_clamia"
+	  }
+	]
+  }
+]

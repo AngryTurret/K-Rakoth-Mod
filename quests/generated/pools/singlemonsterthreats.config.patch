@@ -1,0 +1,62 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Duodung",
+		"typeName" : "atprk_duodung"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Algeist",
+		"typeName" : "atprk_algeist"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Xenoprobe",
+		"typeName" : "atprk_xenoprobe"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Deviant Shruberserk",
+		"typeName" : "atprk_shruberserkthorny"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Deviant Sapphase",
+		"typeName" : "atprk_sapphaseillusionist"
+	  }
+	]
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic", "largespace" ],
+	  {
+		"name" : "Deviant Oculopter",
+		"typeName" : "atprk_oculoptercamo"
+	  }
+	]
+  }
+]

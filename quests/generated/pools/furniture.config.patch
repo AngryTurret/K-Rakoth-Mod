@@ -1,0 +1,78 @@
+[
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_amber", "atprk_amberchest"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_amber", "atprk_amberchair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_amber", "atprk_amberlight"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_beta", "atprk_betachest"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_beta", "atprk_betachair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_beta", "atprk_betascreen"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_forgotten", "atprk_forgottencage"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_forgotten", "atprk_forgottenchair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_forgotten", "atprk_forgottendesk"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_radiotrophic", "atprk_radiotrophicchest"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_radiotrophic", "atprk_radiotrophicchair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_radiotrophic", "atprk_radiotrophiclamp"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_radiotrophic", "atprk_radiotrophicplantpot"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_sponge", "atprk_spongechest"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_sponge", "atprk_spongechair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_sponge", "atprk_spongelight"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_ufo", "atprk_ufochest"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_ufo", "atprk_ufochair"]
+	},
+	{"op" : "add",
+		"path" : "/0/1/-",
+		"value" : ["atprk_ufo", "atprk_ufolight"]
+	}
+]

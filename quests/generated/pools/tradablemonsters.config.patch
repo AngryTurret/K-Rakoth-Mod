@@ -1,0 +1,23 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : {
+      "name" : "Algeist",
+      "typeName" : "atprk_algeist"
+    }
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : {
+      "name" : "Clamia",
+      "typeName" : "atprk_clamia"
+    }
+  },
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : {
+      "name" : "Crawleech",
+      "typeName" : "atprk_crawleech"
+    }
+  }
+]

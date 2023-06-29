@@ -1,0 +1,6 @@
+[
+  { "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [ "atprk_ambergineseed", "atprk_ambergine" ]
+  }
+]
