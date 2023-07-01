@@ -18,6 +18,7 @@
           "primaryRegion" : ["atprk_boilingoceanfloor"],
           "dungeonCountRange" : [2, 3],
           "dungeons" : [
+            [2.0,"atprk_krakothcitadel"],
             [2.0,"atprk_krakothoceanruins"],
             [1.0,"atprk_seatrench"],
             [1.0,"hylotloceancity"],
