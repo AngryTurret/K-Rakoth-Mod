@@ -1,0 +1,24 @@
+{
+  "id" : "atprk_krakothcodexalpha",
+  "title" : "Our Proud People",
+  "description" : "An overview of the Lords of the Cosmos themselves.",
+  "icon" : "atprk_krakothcodexalphaicon.png",
+  "contentPages" : [
+  "Species 001: ^green;The K'Rakoths^white;.
+
+An aquatic species of cephalopods with multiple elongated limbs, two of which are normally used for tool manipulation, even though the rest are equally prehensile. K'Rakoths are also characterized by monocular vision and crests made of soft fins. Staying outside of water for prolonged periods of time is only possible via specialized equipment such as protective land suits.",
+
+"Due to our aquatic origins, it took us longer to establish a functioning, technologically advanced civilization compared to most land-dwelling species. The early K'Rakothan societies relied on submerged volcanic vents to produce tools, and when this was not feasible, domesticated wildlife was used instead. Eventually we learned how to harvest continental resources as well, and ever since we started spreading to the stars.",
+
+"United under Tek'mellian Federation, we subscribe to the ideals of reason and rationality: wisdom, scientific research, and self-improvement are accepted as our greatest values. Those who are willing to learn and master their craft will always be rewarded, and the most skilled of us deserve to be heard when important matters are being discussed.",
+
+"Seeing how most alien civilizations around us fail to achieve our level of advancement and sophistication, we take it upon ourselves to show them the right path. With our guidance, order will prevail and make this part of the chaotic galaxy a more welcoming place.
+
+Only together will we become the true Lords of the Cosmos."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 50
+  }
+}
