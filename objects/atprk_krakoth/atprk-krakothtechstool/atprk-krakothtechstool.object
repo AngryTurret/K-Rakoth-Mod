@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk-krakothtechstool",
+  "colonyTags" : ["atprk_krakoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An uncomfortable green stool.",
+  "shortdescription" : "Eldritch Metal Stool",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 80,
+
+  "apexDescription" : "A small ancient seat.",
+  "avianDescription" : "A short cold chair.",
+  "floranDescription" : "Metal ssstump.",
+  "glitchDescription" : "Bored. Nothing exciting about this stool.",
+  "humanDescription" : "A not-so-creepy stool. That's better.",
+  "hylotlDescription" : "This stool appears to be welded to the floor.",
+  "novakidDescription" : "A hardy metal stool.",
+
+  "inventoryIcon" : "atprk-krakothtechstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothtechstool.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

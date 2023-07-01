@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothtechsignsmall",
+  "colonyTags" : ["atprk_krakoth","atprk_krakothlab"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 30,
+  "description" : "A small electronic sign.",
+  "shortdescription" : "Small Elder Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A small sign.",
+  "avianDescription" : "A tiny wall-mounted sign.",
+  "floranDescription" : "Sssmall sssign.",
+  "glitchDescription" : "Irked. The text is too small to read.",
+  "humanDescription" : "A tiny electronic sign.",
+  "hylotlDescription" : "A wall-mounted sign.",
+  "novakidDescription" : "I can't make out what this sign says.",
+  
+  "inventoryIcon" : "atprk-krakothtechsignsmallicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothtechsignsmall.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
