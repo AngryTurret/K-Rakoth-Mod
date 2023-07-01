@@ -2,7 +2,7 @@
   "objectName" : "atprk-eldritchpc",
   "colonyTags" : ["atprk_krakoth","pretty"],
   "rarity" : "Common",
-  "description" : "A minor K'Rakothan artifact. It's still on.",
+  "description" : "It's still on!",
   "shortdescription" : "Eldritch Computer",
   "race" : "generic",
   "printable" : false,
