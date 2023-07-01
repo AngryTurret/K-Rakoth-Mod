@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-eldritchclock",
+  "colonyTags" : ["atprk_krakoth"],
+  "rarity" : "Common",
+  "description" : "A damaged desk clock.",
+  "shortdescription" : "Eldritch Desk Clock",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 50,
+
+  "apexDescription" : "A desk clock.",
+  "avianDescription" : "It doesn't show any time anymore. Useless!",
+  "floranDescription" : "If clock doesssn't show time, why keep it?",
+  "glitchDescription" : "Disinterested. A non-functional desk clock.",
+  "humanDescription" : "When you're under the sea, it's difficult to tell the exact time.",
+  "hylotlDescription" : "It's hard to spot but this digital clock's screen is slightly cracked.",
+  "novakidDescription" : "A broken clock. Might as well just throw it away.",
+
+  "inventoryIcon" : "atprk-eldritchclockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-eldritchclock.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
