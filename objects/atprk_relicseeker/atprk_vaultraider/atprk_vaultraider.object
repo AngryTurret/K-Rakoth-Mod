@@ -68,5 +68,9 @@
     "Ancient ruins are pretty cool, I guess."
   ],
 
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup3", 1, { } ], [ "metalbarrel1", 1, { } ] ]
+  ],
+
   "uniqueId" : "atprk_vaultraider"
 }

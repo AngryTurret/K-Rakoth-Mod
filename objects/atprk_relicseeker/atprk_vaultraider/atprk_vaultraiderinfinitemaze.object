@@ -59,6 +59,10 @@
     "Who you're calling deadbeat, punk?",
     "I swear I've heard some high-pitched noises... The heck was that?",
     "Ancient ruins are pretty cool, I guess."
+  ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup3", 1, { } ] ]
   ]
 
 }

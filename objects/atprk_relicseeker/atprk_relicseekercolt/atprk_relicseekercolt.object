@@ -72,5 +72,9 @@
     "Beware, kind stranger. Some worlds are way too dark and dangerous for us mortals."
   ],
 
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup6", 1, { } ] ]
+  ],
+
   "uniqueId" : "atprk_relicseekercolt"
 }

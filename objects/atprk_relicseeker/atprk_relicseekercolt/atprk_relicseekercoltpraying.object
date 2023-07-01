@@ -49,5 +49,9 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "atprk_dontpickthisup6", 1, { } ] ]
   ]
 }
