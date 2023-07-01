@@ -1,0 +1,129 @@
+{
+  "metadata" : {
+    "name" : "atprk_krakothcitadel",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_krakothcitadel_base1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 50,
+    "protected" : true
+  },
+
+  "parts" : [
+
+    // BASE LAYOUTS
+    {
+      "name" : "atprk_krakothcitadel_base1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "atprk_krakothcitadel_base1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_base1.json" ],
+      "chance" : 0
+    },
+
+    // BOTTOM FLOOR PIECES
+    {
+      "name" : "atprk_krakothcitadel_lowlevel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_lowlevel1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothcitadel_lowlevel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_lowlevel2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothcitadel_lowlevel3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_lowlevel3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothcitadel_lowlevel4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_lowlevel4.json" ],
+      "chance" : 1
+    },
+
+    // MIDDLE PIECES
+    {
+      "name" : "atprk_krakothcitadel_hallway1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_hallway2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway2.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_hallway3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway3.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_hallway4",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway4.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_hallway5",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway5.json" ],
+      "chance" : 0.1
+    },
+
+    // ROOF PIECES
+    {
+      "name" : "atprk_krakothcitadel_highlevel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_highlevel1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_highlevel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_highlevel2.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "atprk_krakothcitadel_highlevel3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_highlevel3.json" ],
+      "chance" : 0.1
+    }
+  ]
+}
