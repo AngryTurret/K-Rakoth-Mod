@@ -83,7 +83,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_spaceencounterBetaCampTreasure\"]}"
                     },
                  "propertytypes":
                     {
