@@ -115,6 +115,19 @@
       "path": "/mods_present/MorePlanetInfo",
       "inverse": false
     },
+
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_ashylakes" : { "word" : "atprk_ashylakes", "friendlyWord" : "Ashy Lakes" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_chthonianswamp" : { "word" : "atprk_chthonianswamp", "friendlyWord" : "Chthonian Swamp" } }},
+
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_amber" : { "word" : "atprk_amber", "friendlyWord" : "Amber" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_ancientnecropolis" : { "word" : "atprk_ancientnecropolis", "friendlyWord" : "Ancient Necropolis" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_forgottenmountains" : { "word" : "atprk_forgottenmountains", "friendlyWord" : "Forgotten Mountains" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_glaciovolcanic" : { "word" : "atprk_glaciovolcanic", "friendlyWord" : "Glaciovolcanic" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_hungergrove" : { "word" : "atprk_hungergrove", "friendlyWord" : "Hunger Grove" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_polluted" : { "word" : "atprk_polluted", "friendlyWord" : "Polluted" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_radiotrophic" : { "word" : "atprk_radiotrophic", "friendlyWord" : "Radiotrophic" } }},
+	{ "op": "add", "path": "/wordsList", "value": { "atprk_shipgraveyard" : { "word" : "atprk_shipgraveyard", "friendlyWord" : "Ship Graveyard" } }},
+
     { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower", "value": 
     {"description" : "Possibly a Glitch religious structure. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_glitchdevouttower.png" }
     },
@@ -130,9 +143,11 @@
     { "op": "add", "path": "/displayDungeons/atprk_krakothlab", "value": 
     {"description" : "A research facility built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
     },
+    { "op": "add", "path": "/displayDungeons/atprk_krakothcitadel", "value": 
+    {"description" : "A massive fortified structure built by an elder race. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_krakothdungeon.png" }
+    },
     { "op": "add", "path": "/displayDungeons/atprk_seatrench", "value": 
     {"description" : "A deep oceanic trench populated by exotic lifeforms.", "icon" : "/interface/cockpit/dungeons/atprk_seatrench.png" }
     }
-  
   ]
 ]
