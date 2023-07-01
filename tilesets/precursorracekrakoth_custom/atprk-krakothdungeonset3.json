@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":48,
+ "tilecount":51,
  "tileheight":88,
  "tileproperties":
     {
@@ -426,6 +426,25 @@
          "object":"atprk-eldritchfloodlightbroken",
          "tilesetDirection":"right"
         },
+     "48":
+        {
+         "\/\/description":"A damaged desk clock.",
+         "\/\/name":"atprk-eldritchclock",
+         "\/\/shortdescription":"Eldritch Desk Clock",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchclock",
+         "tilesetDirection":"right"
+        },
+     "49":
+        {
+         "\/\/description":"A small electronic sign.",
+         "\/\/name":"atprk-krakothtechsignsmall",
+         "\/\/shortdescription":"Small Elder Sign",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk-krakothtechsignsmall"
+        },
      "5":
         {
          "\/\/description":"A durable airlock door made of ancient alloys.",
@@ -434,6 +453,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk-krakothdoor",
+         "tilesetDirection":"right"
+        },
+     "50":
+        {
+         "\/\/description":"A deactivated extradimensional crate. How do I turn it on now?",
+         "\/\/name":"atprk-4dcrateframesmall",
+         "\/\/shortdescription":"Extradimensional Crate Frame",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-4dcrateframesmall",
          "tilesetDirection":"right"
         },
      "6":
@@ -893,7 +922,36 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "48":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "49":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
      "5":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "50":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -1204,10 +1262,28 @@
          "imageheight":8,
          "imagewidth":8
         },
+     "48":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchclock.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "49":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothtechsignsmall.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
      "5":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothdoor.png",
          "imageheight":64,
+         "imagewidth":24
+        },
+     "50":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcrateframesmall.png",
+         "imageheight":16,
          "imagewidth":24
         },
      "6":

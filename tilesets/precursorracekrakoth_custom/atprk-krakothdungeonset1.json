@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":80,
+ "tilecount":82,
  "tileheight":96,
  "tileproperties":
     {
@@ -772,6 +772,26 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"atprk-krakothcontainer1",
+         "tilesetDirection":"right"
+        },
+     "80":
+        {
+         "\/\/description":"An uncomfortable stool.",
+         "\/\/name":"atprk-krakothtechstool",
+         "\/\/shortdescription":"Eldritch Metal Stool",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-krakothtechstool",
+         "tilesetDirection":"right"
+        },
+     "81":
+        {
+         "\/\/description":"A metallic reception desk.",
+         "\/\/name":"atprk-krakothreceptiondesk",
+         "\/\/shortdescription":"Elder Reception Desk",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk-krakothreceptiondesk",
          "tilesetDirection":"right"
         },
      "9":
@@ -1549,6 +1569,26 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "80":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "81":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "9":
         {
          "\/\/description":"string",
@@ -2035,6 +2075,18 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcontainer1.png",
          "imageheight":24,
          "imagewidth":32
+        },
+     "80":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothtechstool.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "81":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothreceptiondesk.png",
+         "imageheight":16,
+         "imagewidth":48
         },
      "9":
         {
