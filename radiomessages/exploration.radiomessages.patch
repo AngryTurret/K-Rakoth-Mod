@@ -150,5 +150,14 @@
     "senderName" : "Libra Eclipse",
     "portraitImage" : "/interface/chatbubbles/atprk_libramad.png:<frame>"
       }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing6",
+      "value": {
+        "text": "Now, now, no need for pointless vandalism! If you really need to obtain something you can't normally get, why don't you just use, ahem, commands?",
+    "senderName" : "Colt",
+    "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+      }
   }
 ]
