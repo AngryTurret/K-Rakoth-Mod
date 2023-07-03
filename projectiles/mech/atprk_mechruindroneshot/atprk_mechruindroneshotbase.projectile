@@ -1,0 +1,82 @@
+{
+  "projectileName" : "atprk_mechruindroneshotbase",
+  "image" : "atprk_mechruindroneshotbase.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshot",
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "atprk_mechruindroneshotdoom",
+          "inheritDamageFactor" : 1.3,
+          "inheritSpeedFactor" : 1
+        }
+      ]
+    }
+  ],
+  "damagePoly" : [ ],
+  "power" : 50,
+  "speed" : 70,
+  "damageKind" : "plasmashotgun"
+}

@@ -1,0 +1,107 @@
+{
+  "projectileName" : "atprk_mechnoolithdronecomet",
+  "image" : "atprk_mechnoolithdronecomet.png",
+  "physics" : "bullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "ice",
+  "damagePoly" : [ [-10, 0], [-7, -7], [0, -10], [7, -7], [10, 0], [7, 7], [0, 10], [-7, 7] ],
+  "flippable" : true,
+  "emitters" : [ "iceplasma" ],
+  "timeToLive" : 1.25,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/prism_break_large1.ogg", "/sfx/objects/prism_break_large2.ogg" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 225
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 270
+    },
+    {
+      "action" : "projectile",
+      "type" : "atprk_mechnoolithdronecometshard",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 315
+    },
+    {
+      "action" : "loop",
+      "count" : 3,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/icecloudpuff/icecloudpuff.animation",
+            "initialVelocity" : [0.0, 7.0],
+            "finalVelocity" : [0.0, 3.0],
+            "approach" : [0.3, 60],
+            "timeToLive" : 0.7,
+            "layer" : "front",
+            "size" : 0.6,
+            "collidesForeground" : true,
+            "variance" : {
+            "position" : [0.5, 0.5],
+            "size" : 0.2,
+            "initialVelocity" : [5, 3],
+            "finalVelocity" : [0, 0],
+            "rotation" : 180,
+            "angularVelocity" : 180
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 35,
+  "knockback" : 20,
+  "persistentAudio" : "/sfx/projectiles/iceorb_loop.ogg"
+}

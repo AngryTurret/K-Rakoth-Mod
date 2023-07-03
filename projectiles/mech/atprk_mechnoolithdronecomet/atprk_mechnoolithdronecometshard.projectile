@@ -1,0 +1,19 @@
+{
+  "projectileName" : "atprk_mechnoolithdronecometshard",
+  "image" : "atprk_mechnoolithdronecometshard.png",
+  "physics" : "bullet",
+  "animationCycle" : 0.08,
+  "frameNumber" : 1,
+  "damageKind" : "ice",
+  "flippable" : true,
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 50,
+  "timeToLive" : 2.0,
+  "actionOnHit" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/prism_break_small1.ogg", "/sfx/objects/prism_break_small2.ogg", "/sfx/objects/prism_break_small3.ogg" ]
+    }
+  ]
+}
