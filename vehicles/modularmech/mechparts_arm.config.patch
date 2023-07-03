@@ -1,0 +1,339 @@
+[{
+	"op": "add",
+	"path": "/atprk_ruindronelauncher",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 3
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/dronelauncher.lua",
+			"armClass": "DroneLauncher",
+			"rotationLimits": [-0.7, 0.6],
+			"fireOffset": [4, 0],
+			"deployTime": 0.4,
+			"launchTiming": 0.25,
+			"cooldownTime": 10,
+
+			"droneOrbitRate" : 0.8,
+			"droneOrbitDistance" : 4,
+
+			"maxDrones": 2,
+			"droneMonsterType": "atprk_mechruindrone",
+			"droneParameters": {
+				"movementMode": "Orbit",
+				"attackMode": "Target",
+				"targetRange": 40,
+				"duration": 120,
+				"statusSettings": {
+					"stats": {
+						"flatMaxHealth": {
+							"baseValue": 4500
+						}
+					}
+				},
+				"gun": {
+					"fireDelay": 0.8,
+					"fireTime": 0.3,
+					"fireOffset": [2, 0],
+					"projectileType": "atprk_mechruindroneshotbase",
+					"projectileParameters": {
+						"speed": 70,
+						"power": 35
+					},
+					"projectileCount": 1,
+					"projectileSpacing": [0, 0.25],
+					"projectileSpread": 0.1
+				}
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_ruindronelauncher.png",
+			"<armName>Fullbright": "arm/atprk_ruindronelauncher_fullbright.png"
+		},
+		"defaultPrimaryColors": ["7c9484",
+			"5e7366",
+			"3f4d43",
+			"202a23"
+		],
+		"defaultSecondaryColors": ["757575",
+			"474747",
+			"292929",
+			"151515"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+							"windup": {
+								"mode": "end"
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Activate": ["/sfx/gun/mech_plasmadrone1.ogg"],
+				"<armName>Recover": ["/sfx/gun/mech_shielddrone_recover1.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_phaseblade",
+	"value": {
+		"stats": {
+			"power": 5,
+			"energy": 5
+		},
+		"partParameters": {
+			"script" : "/vehicles/modularmech/armscripts/meleearm.lua",
+			"armClass": "MeleeArm",
+			"rotationLimits" : [-1.0, 1.0],
+			"fireOffset" : [3.5, 0.5],
+
+			"windupTime" : 0.4,
+			"windupAngle" : 0.8,
+
+			"swingTime" : 0.08,
+			"fireTime" : 0.2,
+
+			"fireAngle" : -0.8,
+			"comboFireAngle" : 0.8,
+
+			"cooldownTime" : 0.4,
+			"cooldownAngle" : -0.3,
+
+			"projectileType" : "atprk_mechphasebladeswoosh",
+			"projectileParameters": {
+				"power" : 220,
+				"knockback" : 15
+			},
+
+			"projectileTrackSource" : true,
+			"projectileBaseDistance" : 9,
+			"projectileTimeToLive" : 0.3
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_phaseblade.png",
+			"<armName>Fullbright": "arm/atprk_phaseblade_fullbright.png"
+		},
+		"defaultPrimaryColors": ["abb7a4",
+			"7d8677",
+			"5a6056",
+			"3b3f39"
+		],
+		"defaultSecondaryColors": ["b2e89d",
+			"51bd3b",
+			"247824",
+			"144216"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+						  "windup": {
+						    "properties" : {
+						      "persistentSound" : "/sfx/melee/energywhip_swing3.ogg", "persistentSoundRangeMultiplier" : 1.0, "persistentSoundStopTime" : 0.5
+            }
+							},
+						  "winddown": {
+						    "properties" : {
+						      "persistentSound" : "/sfx/melee/energywhip_swing1.ogg", "persistentSoundRangeMultiplier" : 1.0, "persistentSoundStopTime" : 0.75
+            }
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Fire": ["/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg"]
+			},
+			"transformationGroups": {
+				"<armName>" : {
+				  "interpolated" : false
+				}
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_phaseraygun",
+	"value": {
+		"stats": {
+			"power": 5,
+			"energy": 5
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/gunarm.lua",
+			"armClass": "GunArm",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [4.9, -0.2],
+
+			"extendTime" : 1.0,
+			"fireTime" : 0.2,
+
+			"projectileType" : "atprk_mechphaserayshot",
+			"projectileParameters": {
+				"speed" : 50,
+				"power" : 45
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_phaseraygun.png",
+			"<armName>Fullbright": "arm/atprk_phaseraygun_fullbright.png"
+		},
+		"defaultPrimaryColors": ["abb7a4",
+			"7d8677",
+			"5a6056",
+			"3b3f39"
+		],
+		"defaultSecondaryColors": ["b2e89d",
+			"51bd3b",
+			"247824",
+			"144216"
+		],
+		"animationCustom": {
+			"sounds": {
+				"<armName>Fire": ["/sfx/gun/plasma_pistol1.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_fenronfist",
+	"value": {
+		"stats": {
+			"power": 5,
+			"energy": 5
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/gunarm.lua",
+			"armClass": "GunArm",
+			"rotationLimits" : [-1.0, 1.0],
+			"fireOffset" : [2.5, -0.7],
+
+			"extendTime" : 1.0,
+			"fireTime" : 0.65,
+
+			"projectileType" : "atprk_mechfenronfistpunch",
+			"projectileParameters": {
+				"power" : 75,
+				"knockback" : 45
+			},
+			"frontPartImages": {
+				"<armName>": "arm/atprk_fenronfist_front.png",
+				"<armName>Fullbright": "arm/atprk_fenronfist_front_fullbright.png"
+			},
+			"backPartImages": {
+				"<armName>": "arm/atprk_fenronfist_back.png",
+				"<armName>Fullbright": "arm/atprk_fenronfist_back_fullbright.png"
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_fenronfist_front.png",
+			"<armName>Fullbright": "arm/atprk_fenronfist_front_fullbright.png"
+		},
+		"defaultPrimaryColors": ["fcd0b7",
+			"e7ab89",
+			"c97648",
+			"89360d"
+		],
+		"defaultSecondaryColors": ["f48c9a",
+			"d93a62",
+			"932540",
+			"60112d"
+		],
+		"animationCustom": {
+			"sounds": {
+				"<armName>Fire": ["/sfx/gun/rocket_fire1.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_noolithdronelauncher",
+	"value": {
+		"stats": {
+			"power": 5,
+			"energy": 5
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/dronelauncher.lua",
+			"armClass": "DroneLauncher",
+			"rotationLimits": [-0.7, 0.6],
+			"fireOffset": [3, 0],
+			"deployTime": 0.4,
+			"launchTiming": 0.25,
+			"cooldownTime": 10,
+
+			"maxDrones": 1,
+
+			"droneMonsterType": "atprk_mechnoolithdrone",
+			"droneParameters": {
+				"movementMode" : "Standoff",
+				"standoffDistance" : 5,
+				"attackMode" : "Target",
+				"targetRange" : 40,
+				"duration": 120,
+				"statusSettings": {
+					"stats": {
+						"flatMaxHealth": {
+							"baseValue": 2000
+						}
+					}
+				},
+				"gun": {
+					"fireDelay": 1.2,
+					"fireTime": 0.75,
+					"fireOffset": [2, 0],
+					"projectileType": "atprk_mechnoolithdronecomet",
+					"projectileParameters": {
+						"speed": 25,
+						"power": 60
+					},
+					"projectileCount": 1,
+					"projectileSpacing": [0, 0.25],
+					"projectileSpread": 0.1
+				}
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_noolithdronelauncher.png",
+			"<armName>Fullbright": "arm/atprk_noolithdronelauncher_fullbright.png"
+		},
+		"defaultPrimaryColors": ["9da8af",
+			"676f83",
+			"3d3d51",
+			"24232f"
+		],
+		"defaultSecondaryColors": ["e7f3f9",
+			"c3dce9",
+			"9cb5c1",
+			"6b838f"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+							"windup": {
+								"mode": "end"
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Activate": ["/sfx/gun/mech_shielddrone1.ogg"],
+				"<armName>Recover": ["/sfx/gun/mech_shielddrone_recover1.ogg"]
+			}
+		}
+	}
+}]
