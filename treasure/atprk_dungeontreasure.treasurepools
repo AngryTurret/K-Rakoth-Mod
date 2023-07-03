@@ -308,7 +308,7 @@
   ],
 
   // ================================
-  //       K'Rakoth Laboratory
+  //       Terraforming Laboratory
   // ================================
 
     "atprk_krakothlabTreasure" : [
@@ -386,6 +386,102 @@
   ],
 
   // ================================
+  //       Submerged Citadel (WIP)
+  // ================================
+
+    "atprk_krakothcitadelTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "pool" : "basicTreasure"},
+        {"weight" : 0.04, "item" : [ "atprk-eldritchclock", 1]},
+        {"weight" : 0.04, "item" : [ "atprk-eldritchwalllight", 1]},
+        {"weight" : 0.10, "item" : [ "atprk_eldertech", 1]},
+        {"weight" : 0.04, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_hyperpixel", 2]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.30, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothcitadelRareTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece4", 1]},
+        {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.01, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 3]},
+        {"weight" : 0.02, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 4]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothcitadelChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.40, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.02, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.02, "item" : [ "atprk-flagkrakoth-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_thinkingdrone", 1]}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothcitadelLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "item" : "atprk_krakothtextalpha"},
+        {"weight" : 0.50, "item" : "atprk_krakothtextbeta"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothcitadelReligionLore" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextomicron", 1]},
+        {"item" : [ "atprk_deadtentacleblock", 2]}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       Space Encounters
+  // ================================
+
+  "atprk_spaceencounterBetaCampTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_betastarmap", 1]}
+      ]
+    }]
+  ],
+
+  // ================================
   //       Other
   // ================================
 
@@ -393,6 +489,24 @@
     [1, {
       "pool" : [
         {"weight" : 0.10, "pool" : "oceanFloorTreasure"},
+        {"weight" : 0.10, "item" : [ "medkit", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_krakothtextcorrupted", 1]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_krakothToxicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "toxicTreasure"},
         {"weight" : 0.10, "item" : [ "medkit", 1]},
         {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
         {"weight" : 0.20, "item" : [ "atprk_krakothtextcorrupted", 1]},
@@ -432,7 +546,7 @@
         {"weight" : 0.20, "item" : "atprk_krakothtextxi"},
         {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
         {"weight" : 0.20, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
-        {"weight" : 0.20, "item" : [ "atprk_4dcube", 1]}
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 1]}
       ],
       "poolRounds" : [
         [0.50, 1],
