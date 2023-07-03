@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_mechruindrone",
+  "category" : "atprk_mechruindrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyFullbright" : "body_fullbright.png"
+  }
+}

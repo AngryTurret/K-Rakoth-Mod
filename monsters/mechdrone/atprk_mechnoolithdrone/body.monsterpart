@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_mechnoolithdrone",
+  "category" : "atprk_mechnoolithdrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyFullbright" : "body_fullbright.png"
+  }
+}
