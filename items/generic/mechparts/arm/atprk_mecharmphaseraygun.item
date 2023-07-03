@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmphaseraygun",
+  "price" : 4800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmphaseraygun.png",
+  "description" : "This mech arm fires oscillating energy orbs that phase through blocks.",
+  "shortdescription" : "Phase Ray Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_phaseraygun"]
+}

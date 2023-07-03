@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmruindrone",
+  "price" : 6200,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmruindrone.png",
+  "description" : "A mech arm that summons two ruinous minions.",
+  "shortdescription" : "Ruinous Beholder Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_ruindronelauncher"]
+}
