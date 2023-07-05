@@ -118,7 +118,7 @@
   },
   "atprk_planetpincomment_snow2" : {
     "type" : "tutorial",
-    "text" : "Resentful. However, I definitely don't miss explaining the countryfolk why planets are not just flat circles in the sky. Every. Single. Time.",
+    "text" : "Resentful. However, I definitely don't miss explaining to the countryfolk why planets are not just flat circles in the sky. Every. Single. Time.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographersuspicious.png:<frame>"
   },
@@ -354,7 +354,7 @@
   // ------- Asteroids (Sector X) -------
   "atprk_planetpincomment_asteroid1" : {
     "type" : "tutorial",
-    "text" : "Baffled. I've found a strange ^#d7711e;asteroid^white; formation in the Sector X. They are not aligned in a belt but rather a sphere. Are they orbiting something massive?",
+    "text" : "Baffled. I've found a strange ^#d7711e;asteroid^white; formation in Sector X. They are not aligned in a belt but rather a sphere. Are they orbiting something massive?",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -376,7 +376,7 @@
   // ------- Tentacle (Sector X) -------
   "atprk_planetpincomment_tentacle1" : {
     "type" : "tutorial",
-    "text" : "Puzzled. Now this is something unusual. The surface of ^#c555c1;tentacle^white; planets is comprised entirely of corrupted soil and - you guessed it - living tentacles.",
+    "text" : "Puzzled. Now this is something unusual. The surface of ^#c555c1;tentacle^white; planets are comprised entirely of corrupted soil and - you guessed it - living tentacles.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
