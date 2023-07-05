@@ -3,7 +3,7 @@
   "mode" : "floor",
   "priority" : 1,
   "variants" : 1,
-  "distribution" : "/biomes/distributions.config:veryRare",
+  "distribution" : "/biomes/distributions.config:ultraRare",
 
   "type" : "microdungeon",
   "microdungeons" : [ "atprk_shapelesscavedwellings" ]
