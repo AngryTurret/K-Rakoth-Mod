@@ -116,17 +116,18 @@
       "inverse": false
     },
 
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_ashylakes" : { "word" : "atprk_ashylakes", "friendlyWord" : "Ashy Lakes" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_chthonianswamp" : { "word" : "atprk_chthonianswamp", "friendlyWord" : "Chthonian Swamp" } }},
-
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_amber" : { "word" : "atprk_amber", "friendlyWord" : "Amber" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_ancientnecropolis" : { "word" : "atprk_ancientnecropolis", "friendlyWord" : "Ancient Necropolis" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_forgottenmountains" : { "word" : "atprk_forgottenmountains", "friendlyWord" : "Forgotten Mountains" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_glaciovolcanic" : { "word" : "atprk_glaciovolcanic", "friendlyWord" : "Glaciovolcanic" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_hungergrove" : { "word" : "atprk_hungergrove", "friendlyWord" : "Hunger Grove" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_polluted" : { "word" : "atprk_polluted", "friendlyWord" : "Polluted" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_radiotrophic" : { "word" : "atprk_radiotrophic", "friendlyWord" : "Radiotrophic" } }},
-	{ "op": "add", "path": "/wordsList", "value": { "atprk_shipgraveyard" : { "word" : "atprk_shipgraveyard", "friendlyWord" : "Ship Graveyard" } }},
+	{ "op": "add", "path": "/namesList", "value": { 
+    "atprk_ashylakes" : { "word" : "atprk_ashylakes", "friendlyWord" : "Ashy Lakes" },
+    "atprk_chthonianswamp" : { "word" : "atprk_chthonianswamp", "friendlyWord" : "Chthonian Swamp" },
+    "atprk_amber" : { "word" : "atprk_amber", "friendlyWord" : "Amber" },
+    "atprk_ancientnecropolis" : { "word" : "atprk_ancientnecropolis", "friendlyWord" : "Ancient Necropolis" },
+    "atprk_forgottenmountains" : { "word" : "atprk_forgottenmountains", "friendlyWord" : "Forgotten Mountains" },
+    "atprk_glaciovolcanic" : { "word" : "atprk_glaciovolcanic", "friendlyWord" : "Glaciovolcanic" },
+    "atprk_hungergrove" : { "word" : "atprk_hungergrove", "friendlyWord" : "Hunger Grove" },
+    "atprk_polluted" : { "word" : "atprk_polluted", "friendlyWord" : "Polluted" },
+    "atprk_radiotrophic" : { "word" : "atprk_radiotrophic", "friendlyWord" : "Radiotrophic" },
+    "atprk_shipgraveyard" : { "word" : "atprk_shipgraveyard", "friendlyWord" : "Ship Graveyard" }
+}},
 
     { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower", "value": 
     {"description" : "Possibly a Glitch religious structure. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_glitchdevouttower.png" }
