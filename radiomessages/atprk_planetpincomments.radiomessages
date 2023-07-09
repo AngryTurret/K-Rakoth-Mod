@@ -244,7 +244,7 @@
   },
   "atprk_planetpincomment_midnight3" : {
     "type" : "tutorial",
-    "text" : "Disturbed. Yes, I'm aware. And the fact doesn't help my feelings, really.",
+    "text" : "Disturbed. Yes, I'm aware. And that fact doesn't help my feelings, really.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -312,7 +312,7 @@
   },
   "atprk_planetpincomment_volcanic3" : {
     "type" : "tutorial",
-    "text" : "Humorous. How do I know? For your information, I was born on a cold planet!",
+    "text" : "Humorous. How would I know? For your information, I was born on a cold planet!",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
