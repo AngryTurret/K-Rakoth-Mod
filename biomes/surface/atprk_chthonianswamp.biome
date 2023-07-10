@@ -30,6 +30,15 @@
 
   "parallax" : "/parallax/surface/moon.parallax",
 
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    }
+  },
+
   "surfacePlaceables" : {
     "grassMod" : [ "metal" ],
     "grassModDensity" : 0.4,
