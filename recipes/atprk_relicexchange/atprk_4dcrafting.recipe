@@ -8,5 +8,5 @@
     "item" : "atprk_4dcrafting",
     "count" : 1
   },
-  "groups" : [ "atprk_relicexchange", "atprk_relicexchange_novakid", "nouncrafting" ]
+  "groups" : [ "atprk_relicexchange", "atprk_relicexchange_penguin", "nouncrafting" ]
 }
