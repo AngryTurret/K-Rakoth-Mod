@@ -1975,6 +1975,48 @@
                  "width":16,
                  "x":1784,
                  "y":1552
+                }, 
+                {
+                 "height":96,
+                 "id":1485,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"locationType\":\"atprk_krakothcitadel.atprk_krakothcitadelentrance2\"}",
+                     "stagehand":"questlocation"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":3512,
+                 "y":1840
+                }, 
+                {
+                 "height":96,
+                 "id":1486,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"locationType\":\"atprk_krakothcitadel.atprk_krakothcitadelentrance1\"}",
+                     "stagehand":"questlocation"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":472,
+                 "y":1840
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3477,7 +3519,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1484,
+ "nextobjectid":1487,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
