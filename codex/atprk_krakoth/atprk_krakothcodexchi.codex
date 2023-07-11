@@ -1,7 +1,7 @@
 {
   "id" : "atprk_krakothcodexchi",
   "title" : "Rise of the Machines",
-  "description" : "A brief summary of the event that can be described as a robot rebellion.",
+  "description" : "A brief summary of an event that can be described as a robot rebellion.",
   "icon" : "atprk_krakothcodexchiicon.png",
   "contentPages" : [
     "Many were intrigued by our thinking machines, even though we, the K'Rakoths, have never really thought about them for too long. After all, they remain nothing but mere working drones.
@@ -24,7 +24,7 @@ At least not one they were willing to share with us. As it turned out later on, 
 
 Instead, many thinking machines refused to do anything at all, lying around and expelling no energy as if they were deactivated. Whether it was due to them seeing no greater purpose in their existence or simply emulating the feeling of genuine laziness remains uncertain.",
 
-"For this reason, we ceased our further experiments with complex AI, resorting back to manufacturing simpler thinking machines that would follow our orders without hesitation. As much as science can potentially give us, we should be wary of all the possible dangers it includes."
+"For this reason, we ceased our further experiments with complex AI, resorting back to manufacturing simpler thinking machines that would follow our orders without hesitation. As much that science can potentially give us, we should be wary of all the possible dangers it includes."
 
   ],
     "itemConfig" : {
