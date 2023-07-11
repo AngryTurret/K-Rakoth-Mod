@@ -839,6 +839,21 @@
 	}
   },
 
+  //Submerged Citadel
+  { "op" : "add",
+	"path" : "/atprk_krakothcitadel",
+	"value" : {
+	  "atprk_krakothcitadelentrance1" : {
+		"name" : "west citadel entrance",
+		"tags" : [ "ocean"]
+	  },
+	  "atprk_krakothcitadelentrance2" : {
+		"name" : "east citadel entrance",
+		"tags" : [ "ocean" ]
+	  }
+	}
+  },
+
   //Unsorted Microdungeons
   { "op" : "add",
 	"path" : "/atprk_misc",
