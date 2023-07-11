@@ -1,5 +1,6 @@
 {
   "itemName" : "atprk_devoutshield",
+  "fixedLevel" : false,
   "price" : 500,
   "maxStack" : 1,
   "rarity" : "Uncommon",
