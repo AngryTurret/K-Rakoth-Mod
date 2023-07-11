@@ -1,5 +1,7 @@
-#  Starbound: K'Rakoths, the Lords of the Cosmos mod
+#  Starbound: K'Rakoth Mod
 ![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/1617345978457515522/13D6F1B5F968DCC35D5CB519E05610013FD5C766/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
+## K'Rakoths, the Lords of the Cosmos
 
 This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
 
@@ -13,6 +15,7 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Area 48. A top-secret military base where the Miniknog scientists research all sorts of technology recovered from ancient ruins. Some tech has already been reverse-engineered, while many other objects still puzzle the Apex and are kept in secure hangars, where no unauthorized personnel can see them. The area is protected by heavily armed guards, and the entrance is littered in land mines.
 - Church of Ri'shaan. Ri'shaan is believed to be an elder deity some K'Rakoths used to worship. Naturally, they constructed spacious churches where they could pray to him undisturbed by non-believers. Each church goes deep underground, and no one is sure what lies on the bottom floor. While most of them are abandoned and infested by Batongs, they still tend to attract cultists of all sorts.
 - Terraforming Laboratory. Once ago, K'Rakoths raided one of the Ancient Vaults and recovered some technologies, including terraformers. These technologies are still kept in vast underground complexes filled with water, security robots and all sorts of elder machinery. Keep in mind that they are also protected by force fields.
+- Submerged Citadel. A massive fortified structure hidden below the waves of Boiling planets. Due to its great importance to the K'Rakoths, it is guarded by advanced security robots, and many of its passages are normally blocked off. You will need the Distortion Sphere tech to traverse it.
 
 ## Mini-Biomes
 - Radiotrophic, an irradiated forest of short but durable trees. Spawns on Alien planets.
@@ -32,11 +35,11 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Many new microdungeons for different biomes.
 
 ## Compatibility and Recommended Patches
-- Material IDs: 62103-62116. In the future updates, it will be expanded to 62100-62125.
-- More Planet Info: Compatible. All new dungeons show up with custom icons, so you will not miss them. The mini-biomes are displayed as well, even though they have technical names.
-- Frackin' Universe: Compatible, but to make new dungeons spawn of FU planets, install [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2605267672). There are some other helpful tweaks as well.
-- Arcana: Compatible, but then again, there is [a patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2607069863) to make new dungeons spawn on Arcana planets.
-- TrueSpace: Compatible. Boiling Oceans count as hot planets. Ashy planets count as warm and hot planets.
+- Material IDs: 62100-62121. In the future updates, it will be expanded to 62100-62125.
+- More Planet Info and TrueSpace: Compatible.
+- Enhanced Storage: Also compatible.
+- Frackin' Universe: Generally compatible but it's highly recommendable to [install this addon first](https://steamcommunity.com/sharedfiles/filedetails/?id=2605267672).
+- Arcana: Compatible but there is [a patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2607069863) to make new dungeons spawn on Arcana planets.
 
 ## Notes and Links
 - K'Rakoth dungeons are more likely to spawn on higher-tier planets.
