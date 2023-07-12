@@ -266,7 +266,7 @@
   // ------- Lava -------
   "atprk_planetpincomment_magma1" : {
     "type" : "tutorial",
-    "text" : "Informed. For ages it was believed that ^#ff1818;lava^white; planets were nests of cosmic dragons... Until it was proven that cosmic dragons were just a myth.",
+    "text" : "Informed. For ages it was believed that ^#ff1818;lava^white; planets were nests for cosmic dragons... Until it was proven that cosmic dragons were just a myth.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
@@ -320,7 +320,7 @@
   // ------- Boiling -------
   "atprk_planetpincomment_boiling1" : {
     "type" : "tutorial",
-    "text" : "Impressed. So you have explored a ^#837ad7;boiling^white; planet after all. I keep hearing about such places yet I've never set a foot there before.",
+    "text" : "Impressed. So you have explored a ^#837ad7;boiling^white; planet after all. I keep hearing about such places yet I've never set foot there before.",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
   },
