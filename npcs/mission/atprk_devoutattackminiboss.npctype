@@ -16,6 +16,7 @@
         "glitch" : {
           "default" : [
             "Assertive. Whatever you are, you shall not pass!",
+            "Angry. Stop right there, intruder!",
             "Eager. Take this!"
           ],
           "apex" : [
@@ -173,10 +174,20 @@
             "Aggressive. You are nothing but a relic from the past!",
             "Disturbed. I thought you were just a myth!"
           ],
+          "pandorasboxsheye" : [
+            "Threatening. Come here, you little rascal!",
+            "Aggressive. You are nothing but a relic from the past!",
+            "Confident. Give up, or else I'll throw you to hungry Poptops!"
+          ],
           "Indix" : [
             "Witty. You are not even real! This shall be easy!",
             "Irritated. Your kind really gets on my nerves!",
             "Eager. Not a single Indix can get past me!"
+          ],
+          "elunite" : [
+            "Arrogant. You are but a mere puppet!",
+            "Irked. Enough of your games, Elunite!",
+            "Haughty. This shall become your final act if you don't stop!"
           ],
           "elduukhar" : [
             "Excited. I always wanted to slay a dragon!",
