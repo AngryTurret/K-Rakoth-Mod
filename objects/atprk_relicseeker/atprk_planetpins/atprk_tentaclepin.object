@@ -9,12 +9,12 @@
   "printable" : false,
   "price" : 150,
 
-  "apexDescription" : "A pin of a planet buried under colossal tentacles. These look very similar to the Ruin's.",
-  "avianDescription" : "One shudders to imagine how exactly this world got corrupted by the Ruin. May Kluex cleanse it of its vile tentacles.",
+  "apexDescription" : "A pin of a planet buried under colossal tentacles. These look very familiar.",
+  "avianDescription" : "One shudders to imagine how exactly this world got this corrupted. May Kluex cleanse it of these vile tentacles.",
   "floranDescription" : "World of giant tentaclesss. If Floran sssettles there, Floran will never run out of food!",
   "glitchDescription" : "Disturbed. The mere idea of tentacled planets is disgusting yet apparently they were a thing... Or still are...",
-  "humanDescription" : "So Earth was not the only planet destroyed by the Ruin... This is horrible!",
-  "hylotlDescription" : "A pin of an unfortunate world that was most likely tainted by the Ruin.",
+  "humanDescription" : "I have a guess on how this strange world came to be and it's not a pleasant one.",
+  "hylotlDescription" : "A pin of an unfortunate world that was overtaken by a mass of alien tentacles.",
   "novakidDescription" : "Hm, these tiny tentacles do look familiar. I mean, veeery familiar.",
 
   "atprk_anneliskDescription" : "What the heck is wrong with this planet? Is it being absorbed by the Ruin or something?",
@@ -22,6 +22,29 @@
   "atprk_noolithDescription" : "Oh no... It seems that not all planets were liberated from the Ruin's spawn.",
 
   "radioMessagesOnPickup" : [ "atprk_planetpincomment_tentacle1", "atprk_planetpincomment_tentacle2" ],
+
+  "particleEmitter" : {
+    "emissionRate" : 0.4,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [0, 8],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/sparkles/sparkle1.animation",
+      "size" : 1.0,
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [0, 0],
+      "timeToLive" : 1,
+      "layer" : "front"
+    },
+
+    "particleVariance" : {
+      "position" : [0.7, 0.7]
+    }
+  },
 
   "inventoryIcon" : "atprk_tentaclepin.png",
   "orientations" : [

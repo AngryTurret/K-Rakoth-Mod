@@ -21,6 +21,31 @@
   "atprk_fenronDescription" : "A ruined planet engulfed by a being so massive it blots out its surface. What a horror...",
   "atprk_noolithDescription" : "Once a planet reaches this point, it cannot be saved anymore. It becomes one with the Ruin itself.",
 
+  "radioMessagesOnPickup" : [ "atprk_planetpincomment_ruin1", "atprk_planetpincomment_ruin2" ],
+
+  "particleEmitter" : {
+    "emissionRate" : 0.4,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [0, 8],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/sparkles/sparkle1.animation",
+      "size" : 1.0,
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [0, 0],
+      "timeToLive" : 1,
+      "layer" : "front"
+    },
+
+    "particleVariance" : {
+      "position" : [0.7, 0.7]
+    }
+  },
+
   "inventoryIcon" : "atprk_ruinedworldpin.png",
   "orientations" : [
     {
