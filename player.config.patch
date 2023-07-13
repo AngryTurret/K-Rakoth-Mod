@@ -30,6 +30,23 @@
 
   { "op" : "add",
 	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_tiny4dsyphon" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_tinybugfarm" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_tinyconstructionsite" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_tinymechfactory" }
+  },
+
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
 	"value" : { "item" : "atprk_terraformerruined" }
   },
 
