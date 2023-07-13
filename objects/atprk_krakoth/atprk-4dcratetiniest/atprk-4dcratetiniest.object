@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 60,
-  "description" : "A tiny extradimensional storage. It cannot get any smaller.",
+  "description" : "A tiny extradimensional storage container. It cannot get any smaller.",
   "shortdescription" : "Extradimensional Capsule",
   "race" : "generic",
   "printable" : false,
