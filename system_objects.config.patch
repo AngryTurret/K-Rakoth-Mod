@@ -20,7 +20,7 @@
 		"parameters" : {
 		"icon" : "/celestial/system/ships/atprk_relicseekership.png",
 		"displayName" : "Relic Seeker Ship",
-		"description" : "The crew of this ship scans planets for rare artifacts. They seem to be open to trade."
+		"description" : "The crew of this ship scan planets for rare artifacts. They seem to be open to trade."
 		}
 
 	}
