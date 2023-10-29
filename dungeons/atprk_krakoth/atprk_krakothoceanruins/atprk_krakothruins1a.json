@@ -283,26 +283,6 @@
                 {
                  "gid":2147492457,
                  "height":24,
-                 "id":1024,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":1008,
-                 "y":408
-                }, 
-                {
-                 "gid":2147492457,
-                 "height":24,
                  "id":1025,
                  "name":"",
                  "properties":
@@ -317,7 +297,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":968,
+                 "x":1016,
                  "y":408
                 }, 
                 {
@@ -338,7 +318,7 @@
                  "visible":true,
                  "width":24,
                  "x":976,
-                 "y":384
+                 "y":376
                 }, 
                 {
                  "gid":2147492458,
@@ -691,6 +671,26 @@
                  "width":48,
                  "x":784,
                  "y":456
+                }, 
+                {
+                 "gid":2147492525,
+                 "height":32,
+                 "id":1073,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsTreasure\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":968,
+                 "y":408
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -890,7 +890,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1073,
+ "nextobjectid":1074,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

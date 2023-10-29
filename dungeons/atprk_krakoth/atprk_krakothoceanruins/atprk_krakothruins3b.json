@@ -337,18 +337,6 @@
                  "y":216
                 }, 
                 {
-                 "gid":2147492472,
-                 "height":28,
-                 "id":1052,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":34,
-                 "x":976,
-                 "y":368
-                }, 
-                {
                  "gid":2147492471,
                  "height":16,
                  "id":1053,
@@ -358,18 +346,6 @@
                  "visible":true,
                  "width":40,
                  "x":928,
-                 "y":368
-                }, 
-                {
-                 "gid":8824,
-                 "height":28,
-                 "id":1054,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":34,
-                 "x":880,
                  "y":368
                 }, 
                 {
@@ -863,6 +839,30 @@
                  "width":16,
                  "x":288,
                  "y":200
+                }, 
+                {
+                 "gid":8903,
+                 "height":24,
+                 "id":1101,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":904,
+                 "y":368
+                }, 
+                {
+                 "gid":2147492551,
+                 "height":24,
+                 "id":1102,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":984,
+                 "y":368
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1013,7 +1013,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1101,
+ "nextobjectid":1103,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

@@ -401,38 +401,6 @@
                  "y":376
                 }, 
                 {
-                 "gid":8824,
-                 "height":28,
-                 "id":1118,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":34,
-                 "x":752,
-                 "y":376
-                }, 
-                {
-                 "gid":8809,
-                 "height":24,
-                 "id":1119,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":672,
-                 "y":376
-                }, 
-                {
                  "gid":8802,
                  "height":16,
                  "id":1120,
@@ -876,6 +844,30 @@
                  "width":48,
                  "x":1400,
                  "y":472
+                }, 
+                {
+                 "gid":8903,
+                 "height":24,
+                 "id":1163,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":768,
+                 "y":376
+                }, 
+                {
+                 "gid":8926,
+                 "height":24,
+                 "id":1164,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":672,
+                 "y":376
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1062,7 +1054,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1163,
+ "nextobjectid":1165,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -1207,6 +1199,10 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
+        }, 
+        {
+         "firstgid":8883,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
  "type":"map",
