@@ -205,6 +205,14 @@
                  "height":16,
                  "id":1205,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"defaultSwitchState\" : true}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,

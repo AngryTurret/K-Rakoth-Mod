@@ -714,18 +714,6 @@
                  "y":256
                 }, 
                 {
-                 "gid":8817,
-                 "height":16,
-                 "id":1034,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":1304,
-                 "y":280
-                }, 
-                {
                  "gid":8838,
                  "height":18,
                  "id":1035,
@@ -941,6 +929,18 @@
                  "width":16,
                  "x":2144,
                  "y":280
+                }, 
+                {
+                 "gid":8921,
+                 "height":16,
+                 "id":1063,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":1296,
+                 "y":280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1114,7 +1114,7 @@
                  "properties":
                     {
                      "npc":"apex",
-                     "typeName":"atprk_apextestsubject"
+                     "typeName":"atprk_apexufopilot"
                     },
                  "propertytypes":
                     {
@@ -1208,7 +1208,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1063,
+ "nextobjectid":1064,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -1353,6 +1353,10 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
+        }, 
+        {
+         "firstgid":8844,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,
  "type":"map",
