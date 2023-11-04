@@ -1,0 +1,46 @@
+{
+  "type" : "atprk_apexufopilot",
+  "baseType" : "hostile",
+
+  "levelVariance" : [2, 2],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Hostiles spotted!",
+            "You are not part of the test!",
+            "Intruder alert!",
+            "Stay out of this vehicle!",
+            "Freeze!"
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "Hostiles spotted!",
+            "You are not part of the test!",
+            "Intruder alert!",
+            "Stay out of this vehicle!",
+            "Freeze!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "mechpilothead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "miniknogchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "miniknogpants", "parameters" : { "colorIndex" : 0 } } ],
+            "primary" : [
+              "npcassaultrifle"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

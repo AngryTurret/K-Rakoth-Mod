@@ -1,29 +1,32 @@
 {
   "type" : "atprk_apextestsubject",
-  "baseType" : "hostile",
+  "baseType" : "villager",
+  
+  "damageTeamType" : "enemy",
+  "damageTeam" : 2,
+  "questGenerator" : { "pools" : [], "enableParticipation" : false },
 
   "scriptConfig" : {
     "dialog" : {
-      "attack" : {
-        "default" : {
-          "default" : [
-            "Guards, there is a spy!",
-            "The Miniknog will stop you!",
-            "Wait, you are not a scientist!",
-            "You are not supposed to be here!",
-            "Intruder!"
-          ]
-        },
+      "converse" : {
         "apex" : {
           "default" : [
-            "Guards, there is a spy!",
-            "The Miniknog will stop you!",
-            "Wait, you are not a scientist!",
-            "You are not supposed to be here!",
-            "Intruder!"
+            "Are you here to save me? Thank goodness!",
+            "Did I do everything right? May I go now?",
+            "Wait, you're not a scientist. Who are you?",
+            "Is this also part of the test?",
+            "Freedom, at last!",
+            "Is the test over?",
+            "Science makes me hungry.",
+            "Where's your jumpsuit?",
+            "Thank you for freeing us!",
+            "The banana is a lie! Don't believe them!"
           ]
         }
       }
+    },
+    "behaviorConfig" : {
+      "greetingChance" : 0
     }
   },
 
@@ -36,9 +39,6 @@
             ],
             "legs" : [
               { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : [11] } }
-            ],
-            "primary" : [
-              "npcdagger"
             ]
           }
         ] ]
