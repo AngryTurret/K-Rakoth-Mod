@@ -125,7 +125,7 @@
           "baseValue" : 0.2
         },
         "knockbackThreshold" : {
-          "baseValue" : 9
+          "baseValue" : 20
         },
         "maxHealth" : {
           "baseValue" : 80
@@ -140,7 +140,7 @@
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.8
         },
         "fireResistance" : {
           "baseValue" : -0.5
