@@ -76,7 +76,7 @@
           "baseValue" : 0.0
         },
         "physicalResistance" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.8
         },
         "fireResistance" : {
           "baseValue" : -0.5
