@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_swimbooster10",
+  "colonyTags" : ["atrpk_krakoth","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+  "description" : "A funnel designed to speed up the flow of water.",
+  "shortdescription" : "Current Accelerator",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "apexDescription" : "This funnel allows me to swim faster.",
+  "avianDescription" : "This funnel is designed to help people swim faster.",
+  "floranDescription" : "Funnel letsss Floran ssswim fasster.",
+  "glitchDescription" : "Excited. With this funnel, I can swim faster than usual.",
+  "humanDescription" : "This funnel lets me move faster in the water.",
+  "hylotlDescription" : "This funnel is designed to speed up underwater movement.",
+  "novakidDescription" : "This funnel here makes swimmin' way easier.",
+
+  "statusEffects"  : [ "atprk_swimboostbooster" ],
+
+  "inventoryIcon" : "atprk_swimboostericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_swimbooster10.png", "fullbright" : true }, { "image" : "atprk_swimbooster10lit.png" } ],
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_swimbooster10.png", "fullbright" : true }, { "image" : "atprk_swimbooster10lit.png" } ],
+      "imagePosition" : [-8, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk_krakothmissionmonitor",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Common",
+  "description" : "Is this monitor watching me?",
+  "shortdescription" : "Elder Monitor",
+  "race" : "generic",
+  "printable" : false,
+
+  "category" : "decorative",
+  "price" : 250,
+  "lightColor" : [57, 3, 47],
+
+  "apexDescription" : "I am probably being watched by... something.",
+  "avianDescription" : "The symbol on the screen seems to track me. This can't be good.",
+  "floranDescription" : "Thisss sscreen has eyesss!",
+  "glitchDescription" : "Suspicious. I feel like somebody is watching me.",
+  "humanDescription" : "A strange symbol on the screen. Is this an eye?",
+  "hylotlDescription" : "This monitor appears to have motion sensors. I should stay alert.",
+  "novakidDescription" : "Ay, this one's different!",
+
+  "inventoryIcon" : "atprk_krakothmissionmonitoricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothmissionmonitor.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_krakothmissionmonitor.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "atprk_krakothmissionmonitor.animation",
+  "animationParts" : {
+    "bg" : "atprk_krakothmissionmonitor.png",
+    "fg" : "atprk_krakothmissionmonitorlit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}
