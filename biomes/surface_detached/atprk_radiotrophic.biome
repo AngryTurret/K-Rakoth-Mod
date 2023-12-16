@@ -97,7 +97,7 @@
       },
       {
         "mode" : "floor",
-        "priority" : 3.0,
+        "priority" : 2.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseMedium",
 

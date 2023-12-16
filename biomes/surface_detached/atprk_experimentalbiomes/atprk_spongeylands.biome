@@ -72,7 +72,7 @@
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 1.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseLarge",
 
@@ -85,15 +85,45 @@
       {
         "mode" : "floor",
         "priority" : 2.0,
-        "variants" : 1,
+        "variants" : 3,
         "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "atprk_spongebush",
-            "baseHueShiftMax" : 30,
-            "modHueShiftMax" : 30
+            "name" : "atprk_spongebush_a",
+            "baseHueShiftMax" : 35,
+            "modHueShiftMax" : 35
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_spongebush_b",
+            "baseHueShiftMax" : 25,
+            "modHueShiftMax" : 25
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:common",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_spongebush_c",
+            "baseHueShiftMax" : 25,
+            "modHueShiftMax" : 25
           }
         ]
       },
@@ -137,16 +167,16 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "priority" : 2.0,
+        "variants" : 2,
+        "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "atprk_spongebush",
-            "baseHueShiftMax" : 30,
-            "modHueShiftMax" : 30
+            "name" : "atprk_spongebush_c",
+            "baseHueShiftMax" : 35,
+            "modHueShiftMax" : 35
           }
         ]
       },

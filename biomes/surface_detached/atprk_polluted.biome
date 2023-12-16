@@ -79,15 +79,30 @@
       },
       {
         "mode" : "floor",
-        "priority" : 2.0,
+        "priority" : 3.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:common",
 
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "atprk_pollutedbush",
+            "name" : "atprk_pollutedbush_a",
             "baseHueShiftMax" : 50,
+            "modHueShiftMax" : 20
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "atprk_pollutedbush_b",
+            "baseHueShiftMax" : 40,
             "modHueShiftMax" : 20
           }
         ]
@@ -142,15 +157,15 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1.0,
+        "priority" : 3.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "atprk_pollutedbush",
-            "baseHueShiftMax" : 40,
+            "name" : "atprk_pollutedbush_a",
+            "baseHueShiftMax" : 30,
             "modHueShiftMax" : 20
           }
         ]
