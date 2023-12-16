@@ -383,11 +383,11 @@
     [1, {
       "pool" : [
         {"weight" : 0.5, "item" : "crystal"},
-        {"weight" : 0.3, "item" : "atprk_noolithbookcase-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithbookcaseclean-recipe"},
         {"weight" : 0.3, "item" : "atprk_noolithbed-recipe"},
-        {"weight" : 0.3, "item" : "atprk_noolithchair-recipe"},
-        {"weight" : 0.3, "item" : "atprk_noolithchest-recipe"},
-        {"weight" : 0.3, "item" : "atprk_noolithtable-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithchairclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithchestclean-recipe"},
+        {"weight" : 0.3, "item" : "atprk_noolithtableclean-recipe"},
         {"weight" : 0.2, "item" : "atprk_noolithshard1"},
         {"weight" : 0.2, "item" : "atprk_noolithshard2"},
         {"weight" : 0.2, "item" : "atprk_noolithshard3"},
