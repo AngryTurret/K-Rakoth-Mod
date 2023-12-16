@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "atprk_noolithbookcaseclean",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "storage", "all", "mod" ]
+}
