@@ -1,14 +1,14 @@
 {
-  "objectName" : "atprk_noolithchest",
+  "objectName" : "atprk_noolithchestclean",
   "colonyTags" : ["atprk_noolith","storage"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 55,
-  "description" : "A cracked crystalline box.",
-  "shortdescription" : "Old Monolith Chest",
+  "price" : 70,
+  "description" : "A pretty crystalline box.",
+  "shortdescription" : "Monolith Chest",
   "race" : "generic",
   "health" : 1.5,
 
@@ -20,10 +20,10 @@
   "hylotlDescription" : "I doubt this crystal chest is strong enough to have lasted for so long.",
   "novakidDescription" : "Look at that, a box made o' pure crystals!",
 
-  "inventoryIcon" : "atprk_noolithchesticon.png",
+  "inventoryIcon" : "atprk_noolithchestcleanicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_noolithchest.png:<color>.<key>",
+      "dualImage" : "atprk_noolithchestclean.png:<color>.<key>",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,

@@ -1,12 +1,12 @@
 {
-  "objectName" : "atprk_noolithchair",
+  "objectName" : "atprk_noolithchairclean",
   "colonyTags" : ["atprk_noolith"],
   "rarity" : "Common",
   "description" : "A crystal you can sit on.",
-  "shortdescription" : "Old Monolith Chair",
+  "shortdescription" : "Monolith Chair",
   "race" : "generic",
   "category" : "furniture",
-  "price" : 90,
+  "price" : 105,
   
   "apexDescription" : "A crystal chair of highly questionable efficiency.",
   "avianDescription" : "It looks pretty cold. I'd rather place a cushion on it.",
@@ -16,10 +16,10 @@
   "hylotlDescription" : "A chair made of shiny crystals, or rather one large crystal.",
   "novakidDescription" : "My legs will freeze if I sit on this for too long.",
   
-  "inventoryIcon" : "atprk_noolithchairicon.png",
+  "inventoryIcon" : "atprk_noolithchaircleanicon.png",
   "orientations" : [
     {
-      "image" : "atprk_noolithchair.png:<color>",
+      "image" : "atprk_noolithchairclean.png:<color>",
       "direction" : "left",
       "flipImages" : true,
 
@@ -31,7 +31,7 @@
 
     },
     {
-      "image" : "atprk_noolithchair.png:<color>",
+      "image" : "atprk_noolithchairclean.png:<color>",
       "direction" : "right",
 
       "imagePosition" : [-12, 0],

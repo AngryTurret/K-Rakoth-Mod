@@ -1,14 +1,14 @@
 {
-  "objectName" : "atprk_noolithbookcase",
+  "objectName" : "atprk_noolithbookcaseclean",
   "colonyTags" : ["atprk_noolith","knowledge","storage"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
   "description" : "A bookcase carved from a large crystal.",
-  "shortdescription" : "Old Monolith Bookcase",
+  "shortdescription" : "Monolith Bookcase",
   "race" : "Generic",
   "category" : "storage",
-  "price" : 95,
+  "price" : 110,
   "health" : 1.5,
 
   "apexDescription" : "This is one of the least efficient shapes for a bookcase I can think of.",
@@ -19,10 +19,10 @@
   "hylotlDescription" : "I appreciate this bookcase's simplicity, but it is not very practical.",
   "novakidDescription" : "That bookcase over there is plain stupid.",
 
-  "inventoryIcon" : "atprk_noolithbookcaseicon.png",
+  "inventoryIcon" : "atprk_noolithbookcasecleanicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_noolithbookcase.png:<color>",
+      "dualImage" : "atprk_noolithbookcaseclean.png:<color>",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,
