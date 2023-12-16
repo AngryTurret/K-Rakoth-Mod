@@ -1,4 +1,4 @@
-#  Starbound: K'Rakoth Mod
+#  Starbound: K'Rakoth Mod (v1.4.3)
 ![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/2019350432632796986/E1B1CE08EC53AFF2BE69A3121537ACE5D56D3551/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 ## K'Rakoths, the Lords of the Cosmos
@@ -40,6 +40,7 @@ This mod adds dungeons, biomes and lore related to K'Rakoths, an old aquatic rac
 - Enhanced Storage: Also compatible.
 - Frackin' Universe: Generally compatible but it's highly recommendable to [install this addon first](https://steamcommunity.com/sharedfiles/filedetails/?id=2605267672).
 - Arcana: Compatible but there is [a patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2607069863) to make new dungeons spawn on Arcana planets.
+- For other mods, check [the compatibility page](https://github.com/AngryTurret/K-Rakoth-Mod/wiki/Compatibility).
 
 ## Notes and Links
 - K'Rakoth dungeons are more likely to spawn on higher-tier planets.
