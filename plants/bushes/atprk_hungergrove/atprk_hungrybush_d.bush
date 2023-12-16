@@ -1,0 +1,18 @@
+{
+  "name" : "atprk_hungrybush_d",
+  "description" : "Hopefully it's just a bush.",
+  "shortdescription" : "Juvenile Shruberserk",
+  "floranDescription" : "Sssleepy bush.",
+  "glitchDescription" : "Paranoid. Something is hiding in this bush.",
+  "shapes" : [
+    {
+      "base" : "atprk_hungrybush10.png"
+    },
+    {
+      "base" : "atprk_hungrybush11.png"
+    },
+    {
+      "base" : "atprk_hungrybush12.png"
+    }
+  ]
+}

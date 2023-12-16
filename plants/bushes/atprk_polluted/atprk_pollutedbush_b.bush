@@ -1,0 +1,30 @@
+{
+  "name" : "atprk_pollutedbush_b",
+  "description" : "A malnourished dirty plant.",
+  "shortdescription" : "Polluted Bush",
+  "floranDescription" : "Poor plant.",
+  "glitchDescription" : "Resentful. A dirty plant.",
+  "shapes" : [
+    {
+      "base" : "atprk_pollutedbush7.png"
+    },
+    {
+      "base" : "atprk_pollutedbush8.png"
+    },
+    {
+      "base" : "atprk_pollutedbush9.png"
+    },
+    {
+      "base" : "atprk_pollutedbush10.png"
+    },
+    {
+      "base" : "atprk_pollutedbush11.png"
+    },
+    {
+      "base" : "atprk_pollutedbush14.png"
+    },
+    {
+      "base" : "atprk_pollutedbush15.png"
+    }
+  ]
+}

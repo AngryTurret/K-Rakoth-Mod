@@ -1,0 +1,24 @@
+{
+  "name" : "atprk_spongebush_c",
+  "description" : "A chunk of a sea sponge.",
+  "shortdescription" : "Sponge Chunk",
+  "floranDescription" : "Piece of a ssea sssponge.",
+  "glitchDescription" : "Neutral. A chunk of a sea sponge.",
+  "shapes" : [
+    {
+      "base" : "atprk_spongebush10.png"
+    },
+    {
+      "base" : "atprk_spongebush11.png"
+    },
+    {
+      "base" : "atprk_spongebush12.png"
+    },
+    {
+      "base" : "atprk_spongebush13.png"
+    },
+    {
+      "base" : "atprk_spongebush14.png"
+    }
+  ]
+}

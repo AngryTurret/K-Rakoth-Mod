@@ -1,0 +1,18 @@
+{
+  "name" : "atprk_hungrybush_a",
+  "description" : "A plant with many tooth-like thorns.",
+  "shortdescription" : "Traproot",
+  "floranDescription" : "Thisss plant bitesss!",
+  "glitchDescription" : "Disturbed. This plant has teeth.",
+  "shapes" : [
+    {
+      "base" : "atprk_hungrybush1.png"
+    },
+    {
+      "base" : "atprk_hungrybush2.png"
+    },
+    {
+      "base" : "atprk_hungrybush3.png"
+    }
+  ]
+}

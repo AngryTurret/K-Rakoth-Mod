@@ -1,0 +1,36 @@
+{
+  "name" : "atprk_pollutedbush_a",
+  "description" : "Dirty grass.",
+  "shortdescription" : "Polluted Grass",
+  "floranDescription" : "Thin weedsss.",
+  "glitchDescription" : "Melancholic. Malnourished grass.",
+  "shapes" : [
+    {
+      "base" : "atprk_pollutedbush1.png"
+    },
+    {
+      "base" : "atprk_pollutedbush2.png"
+    },
+    {
+      "base" : "atprk_pollutedbush3.png"
+    }
+	,
+    {
+      "base" : "atprk_pollutedbush4.png"
+    }
+	,
+    {
+      "base" : "atprk_pollutedbush5.png"
+    }
+	,
+    {
+      "base" : "atprk_pollutedbush6.png"
+    },
+    {
+      "base" : "atprk_pollutedbush12.png"
+    },
+    {
+      "base" : "atprk_pollutedbush13.png"
+    }
+  ]
+}

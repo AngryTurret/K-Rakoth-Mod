@@ -1,0 +1,15 @@
+{
+  "name" : "atprk_hungrybush_b",
+  "description" : "It's full of dead bugs.",
+  "shortdescription" : "Pitcher Plant",
+  "floranDescription" : "Bat toilet.",
+  "glitchDescription" : "Neutral. An exotic plant.",
+  "shapes" : [
+    {
+      "base" : "atprk_hungrybush4.png"
+    },
+    {
+      "base" : "atprk_hungrybush5.png"
+    }
+  ]
+}

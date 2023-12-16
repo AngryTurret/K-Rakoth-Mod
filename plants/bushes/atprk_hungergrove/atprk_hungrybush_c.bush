@@ -1,0 +1,21 @@
+{
+  "name" : "atprk_hungrybush_c",
+  "description" : "A plant covered in sweet nectar.",
+  "shortdescription" : "Sundew",
+  "floranDescription" : "Sssticky.",
+  "glitchDescription" : "Disgusted. This plant sticks to my legs.",
+  "shapes" : [
+    {
+      "base" : "atprk_hungrybush6.png"
+    },
+    {
+      "base" : "atprk_hungrybush7.png"
+    },
+    {
+      "base" : "atprk_hungrybush8.png"
+    },
+    {
+      "base" : "atprk_hungrybush9.png"
+    }
+  ]
+}

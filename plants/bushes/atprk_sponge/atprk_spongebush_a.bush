@@ -1,0 +1,27 @@
+{
+  "name" : "atprk_spongebush_a",
+  "description" : "A tube sponge.",
+  "shortdescription" : "Tube Sponge",
+  "floranDescription" : "Sssea tubes.",
+  "glitchDescription" : "Neutral. A cluster of tall sponges.",
+  "shapes" : [
+    {
+      "base" : "atprk_spongebush1.png"
+    },
+    {
+      "base" : "atprk_spongebush2.png"
+    },
+    {
+      "base" : "atprk_spongebush3.png"
+    },
+    {
+      "base" : "atprk_spongebush4.png"
+    },
+    {
+      "base" : "atprk_spongebush5.png"
+    },
+    {
+      "base" : "atprk_spongebush6.png"
+    }
+  ]
+}
