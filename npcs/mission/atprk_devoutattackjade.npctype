@@ -5,7 +5,9 @@
   "identity" : {
     "name" : "Jade",
     "gender" : "female",
-    "race" : "human"
+    "race" : "human",
+    "personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.2"
   },
 
   "damageTeamType" : "assistant",
