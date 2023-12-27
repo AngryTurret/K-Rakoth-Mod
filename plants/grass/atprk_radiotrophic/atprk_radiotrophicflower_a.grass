@@ -1,0 +1,8 @@
+{
+  "name" : "atprk_radiotrophicflower_a",
+  "description" : "A pale flower.",
+  "shortdescription" : "Irradiated Flower",
+  "floranDescription" : "Sssick flower.",
+  "glitchDescription" : "Neutral. A pale flower.",
+  "images" : [ "atprk_radiotrophicflower1.png", "atprk_radiotrophicflower2.png", "atprk_radiotrophicflower3.png", "atprk_radiotrophicflower4.png", "atprk_radiotrophicflower5.png" ]
+}

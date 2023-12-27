@@ -1,0 +1,8 @@
+{
+  "name" : "atprk_radiotrophicflower_b",
+  "description" : "A radioactive flower.",
+  "shortdescription" : "Nuclear Flower",
+  "floranDescription" : "Weird flower.",
+  "glitchDescription" : "Neutral. An irradiated flower.",
+  "images" : [ "atprk_radiotrophicflower6.png", "atprk_radiotrophicflower7.png", "atprk_radiotrophicflower8.png", "atprk_radiotrophicflower9.png", "atprk_radiotrophicflower10.png" ]
+}
