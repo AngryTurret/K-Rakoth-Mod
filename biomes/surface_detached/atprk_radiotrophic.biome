@@ -88,12 +88,12 @@
       },
       {
         "mode" : "floor",
-        "priority" : 4.0,
+        "priority" : 3.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "grass",
-        "grasses" : [ "vine" ]
+        "grasses" : [ "atprk_radiotrophicflower_a", "atprk_radiotrophicflower_b" ]
       },
       {
         "mode" : "floor",
@@ -150,6 +150,15 @@
             "parameters" : { }
           }
         ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "vine" ]
       },
       {
         "mode" : "ceiling",
