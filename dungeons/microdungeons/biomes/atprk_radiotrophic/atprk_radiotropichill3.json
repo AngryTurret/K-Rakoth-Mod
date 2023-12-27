@@ -555,7 +555,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"atprk_radiotrophicTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_radiotrophicChestTreasure\"]}"
                     },
                  "propertytypes":
                     {
@@ -579,6 +579,78 @@
                  "width":24,
                  "x":200,
                  "y":160
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":832,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":136,
+                 "y":288
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":833,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":96,
+                 "y":360
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":834,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":112,
+                 "y":352
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":835,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":368,
+                 "y":368
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":836,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":344,
+                 "y":344
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":837,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":280,
+                 "y":224
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -841,7 +913,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":832,
+ "nextobjectid":838,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

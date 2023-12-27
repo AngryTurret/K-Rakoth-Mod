@@ -387,7 +387,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"atprk_radiotrophicTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_radiotrophicChestTreasure\"]}"
                     },
                  "propertytypes":
                     {
@@ -422,6 +422,90 @@
                  "visible":true,
                  "width":8,
                  "x":376,
+                 "y":368
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":833,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":304,
+                 "y":304
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":834,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":216,
+                 "y":312
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":835,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":176,
+                 "y":344
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":836,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":168,
+                 "y":352
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":837,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":144,
+                 "y":360
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":838,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":248,
+                 "y":288
+                }, 
+                {
+                 "gid":204,
+                 "height":8,
+                 "id":839,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":352,
                  "y":368
                 }],
          "opacity":1,
@@ -685,7 +769,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":833,
+ "nextobjectid":840,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
