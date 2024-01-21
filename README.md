@@ -1,4 +1,4 @@
-#  Starbound: K'Rakoth Mod (v1.4.4)
+#  Starbound: K'Rakoth Mod (v1.4.5)
 ![K'Rakoths, the Lords of the Cosmos](https://steamuserimages-a.akamaihd.net/ugc/2019350432632796986/E1B1CE08EC53AFF2BE69A3121537ACE5D56D3551/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 ## K'Rakoths, the Lords of the Cosmos
