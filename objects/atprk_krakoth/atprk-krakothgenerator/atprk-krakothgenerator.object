@@ -68,7 +68,6 @@
   "health" : 250,
   "interactive" : false,
 
-  "smashParticles" : [ { "count" : 50, "particle" : "generatorshard" }, { "count" : 10, "particle" : "generatorglassshard" } ],
   "smashDropPool" : "empty",
   "breakDropPool" : "empty",
 
@@ -79,6 +78,6 @@
   "inputNodes" : [ [0, 2] ],
 
   "explodeOnSmash" : true,
-  "explosionProjectile" : "explosivegenerator",
+  "explosionProjectile" : "atprk_chthonicrpgexplosion",
   "explosionOffset" : [1, 2]
 }
