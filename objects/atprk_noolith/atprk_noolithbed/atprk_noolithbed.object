@@ -24,7 +24,7 @@
   "sitAngle" : 90,
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "bed1"
+    "bed5"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
