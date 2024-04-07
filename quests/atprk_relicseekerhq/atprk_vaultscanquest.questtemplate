@@ -65,7 +65,7 @@
 					"type": "quest",
 					"unique": false,
 					"senderName" : "Jade",
-					"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
+					"portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>",
 					"text": "Really? A fancy anvil? I expected something, I dunno, more futuristic than that. You know, whatever, it counts."
 				},
 				"ancientmural1": {
@@ -105,7 +105,7 @@
 					"type": "quest",
 					"unique": false,
 					"senderName" : "Jade",
-					"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
+					"portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>",
 					"text": "Come on, punk, quit teasing me! Keep going."
 				},
 				"ancientmural6": {
@@ -121,7 +121,7 @@
 					"type": "quest",
 					"unique": false,
 					"senderName" : "Jade",
-					"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
+					"portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>",
 					"text": "Hey-hey-hey, hands off! Beat my challenge first!"
 				},
 				"atprk_weaponupgradeanvilsmall": {
@@ -147,7 +147,7 @@
 				"type": "quest",
 				"unique": false,
 				"senderName" : "Jade",
-				"portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>",
+				"portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>",
 				"text": "Wait, that's it? You're already done? Not gonna lie, that was fast."
 			},
 			"complete": {
