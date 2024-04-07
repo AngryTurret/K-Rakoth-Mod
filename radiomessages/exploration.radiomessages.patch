@@ -48,7 +48,7 @@
       "value": {
         "text": "Hold on a sec, this place looks familiar. Is it one of those random doorways? Okay, whatever's going on, there must be a catch, I'm telling you.",
     "senderName" : "Jade",
-    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>"
       }
   },
   {
@@ -75,7 +75,7 @@
       "value": {
         "text": "What? You think I'm gonna lag behind and let you have all the fun? Forget about it! Besides, gotta restock my stash somehow.",
     "senderName" : "Jade",
-    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>"
       }
   },
   {
@@ -130,7 +130,7 @@
       "value": {
         "text": "Nice job breaking my stuff, jerk!",
     "senderName" : "Jade",
-    "portraitImage" : "/interface/chatbubbles/atprk_vaultraiderchat.png:<frame>"
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>"
       }
   },
   {
@@ -155,7 +155,7 @@
     "op": "add",
       "path": "/atprk_dontbreakthisthing6",
       "value": {
-        "text": "Now, now, no need for pointless vandalism! If you really need to obtain something you can't normally get, why don't you just use, ahem, commands?",
+        "text": "Now, now, no need for senseless vandalism! If you really need to obtain something you can't normally get, why don't you just use, ahem, commands?",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
       }
