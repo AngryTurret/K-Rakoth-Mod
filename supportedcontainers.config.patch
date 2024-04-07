@@ -5,6 +5,8 @@
 {"op":"add","path":"/supportedContainers/atprk_smallancientchest","value":"/objects/atprk_ancient/atprk_smallancientchest/atprk_smallancientchest.object"},
 {"op":"add","path":"/supportedContainers/atprk_anneliskchest","value":"/objects/atprk_annelisk/atprk_anneliskchest/atprk_anneliskchest.object"},
 {"op":"add","path":"/supportedContainers/atprk_anneliskchestclean","value":"/objects/atprk_annelisk/atprk_anneliskchestclean/atprk_anneliskchestclean.object"},
+{"op":"add","path":"/supportedContainers/atprk_anneliskcrate1","value":"/objects/atprk_annelisk/atprk_anneliskcrate1/atprk_anneliskcrate1.object"},
+{"op":"add","path":"/supportedContainers/atprk_anneliskcrate2","value":"/objects/atprk_annelisk/atprk_anneliskcrate2/atprk_anneliskcrate2.object"},
 {"op":"add","path":"/supportedContainers/atprk_ashchest","value":"/objects/atprk_ashworld/atprk_ashchest/atprk_ashchest.object"},
 {"op":"add","path":"/supportedContainers/atprk_betachest","value":"/objects/atprk_beta/atprk_betachest/atprk_betachest.object"},
 {"op":"add","path":"/supportedContainers/atprk_betashiplockeralt","value":"/objects/atprk_beta/atprk_betashiplockeralt/atprk_betashiplockeralt.object"},
