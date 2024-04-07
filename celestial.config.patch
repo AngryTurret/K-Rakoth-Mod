@@ -111,6 +111,11 @@
     },
     {
       "op" : "add",
+      "path" : "/planetaryTypes/SpicyPlanet/baseParameters/terrestrialType/-",
+      "value" : "atprk_boilingocean"
+    },
+    {
+      "op" : "add",
       "path" : "/planetaryTypes/WarmPlanet/baseParameters/terrestrialType/-",
       "value" : "atprk_ashworld"
     },
@@ -128,6 +133,11 @@
       "op" : "add",
       "path" : "/satelliteTypes/HotNSat/baseParameters/terrestrialType/-",
       "value" : "atprk_ashworld"
+    },
+    {
+      "op" : "add",
+      "path" : "/satelliteTypes/HotNSat/baseParameters/terrestrialType/-",
+      "value" : "atprk_chthonianmoon"
     },
     {
       "op" : "add",
