@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_annelisksleepingpodbroken1",
+  "colonyTags" : ["atprk_annelisk"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "description" : "Out of order.",
+  "shortdescription" : "Abandoned Sleeping Pod",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 160,
+
+  "apexDescription" : "A derelict sleeping pod.",
+  "avianDescription" : "Ugh, this pod over here needs a cleanup!",
+  "floranDescription" : "Ssstinky pod. Floran can't get in.",
+  "glitchDescription" : "Uneasy. Spending a night in this metal coffin must be terrible.",
+  "humanDescription" : "Something tells me to leave this pod alone.",
+  "hylotlDescription" : "What is this horrible stench? Is it coming from this pod?",
+  "novakidDescription" : "Looks like an outhouse, reeks like one as well.",
+
+  "atprk_anneliskDescription" : "Yuck! If this awful smell is anything to go by, someone overslept.",
+  "atprk_fenronDescription" : "I can barely stand near this thing without gagging.",
+  "atprk_noolithDescription" : "A sleeping pod turned into a deathtrap.",
+
+  "inventoryIcon" : "atprk_annelisksleepingpodbrokenicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_annelisksleepingpodbroken1.png:<color>", "fullbright" : true }, { "image" : "atprk_annelisksleepingpodbroken1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_annelisksleepingpodbroken1.png:<color>", "fullbright" : true }, { "image" : "atprk_annelisksleepingpodbroken1lit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

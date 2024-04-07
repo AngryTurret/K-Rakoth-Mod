@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_annelisksleepingpodbroken3",
+  "colonyTags" : ["atprk_annelisk"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "description" : "Out of order.",
+  "shortdescription" : "Abandoned Sleeping Pod",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 160,
+
+  "apexDescription" : "An old sleeping pod. Its door sustained heavy damage.",
+  "avianDescription" : "Guess someone really wanted to get out.",
+  "floranDescription" : "Floran sssees nothing but darkness and moisssture.",
+  "glitchDescription" : "Curious. Maybe I should shine a flashlight in so I can see better.",
+  "humanDescription" : "If I had to stay in one for too long, I'd panic as well.",
+  "hylotlDescription" : "Someone or something destroyed this pod from the inside.",
+  "novakidDescription" : "Can't see a thing beyond this metal lid!",
+
+  "atprk_anneliskDescription" : "Yuck! If this awful smell is anything to go by, someone overslept.",
+  "atprk_fenronDescription" : "I can barely stand near this thing without gagging.",
+  "atprk_noolithDescription" : "A sleeping pod turned into a deathtrap.",
+
+  "inventoryIcon" : "atprk_annelisksleepingpodbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_annelisksleepingpodbroken3.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
