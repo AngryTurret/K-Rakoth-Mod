@@ -10,21 +10,21 @@
     "op": "add",
     "path": "/atprk_chthoniandepth1",
     "value": [
-    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.60 ], [ "silver", 0.50 ], [ "gold", 0.25 ], [ "iron", 0.75 ], [ "corefragment", 0.10 ] ] ]
+    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.60 ], [ "silver", 0.50 ], [ "gold", 0.25 ], [ "iron", 0.75 ], [ "diamond", 0.00 ], [ "corefragment", 0.10 ] ] ]
 	]
   },
   {
     "op": "add",
     "path": "/atprk_chthoniandepth2",
     "value": [
-    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.60 ], [ "silver", 0.50 ], [ "gold", 0.45 ], [ "iron", 0.90 ], [ "corefragment", 0.35 ] ] ]
+    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.60 ], [ "silver", 0.50 ], [ "gold", 0.45 ], [ "iron", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.35 ] ] ]
 	]
   },
   {
     "op": "add",
     "path": "/atprk_chthoniandepth3",
     "value": [
-    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.45 ], [ "silver", 0.45 ], [ "gold", 0.45 ], [ "iron", 0.75 ], [ "corefragment", 0.75 ] ] ]
+    [0.5, [ [ "erchius", 0.90 ], [ "copper", 0.45 ], [ "silver", 0.45 ], [ "gold", 0.45 ], [ "iron", 0.75 ], [ "diamond", 0.20 ], [ "corefragment", 0.75 ] ] ]
 	]
   },
   {
