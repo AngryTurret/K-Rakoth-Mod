@@ -1,0 +1,64 @@
+{
+  "objectName" : "atprk_anneliskwalllightv",
+  "colonyTags" : ["atprk_annelisk","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+  "description" : "A dim wall light.",
+  "shortdescription" : "Corporate Wall Light",
+  "race" : "generic",
+
+  "lightColor" : [130, 53, 15],
+
+  "apexDescription" : "A barely functional wall light.",
+  "avianDescription" : "This wall light gives off a weak orange glow.",
+  "floranDescription" : "Weak light.",
+  "glitchDescription" : "Dismissive. This wall light has seen better days.",
+  "humanDescription" : "A cheap industrial wall light.",
+  "hylotlDescription" : "An unpleasant mass-produced wall light.",
+  "novakidDescription" : "This light will run outta charge soon.",
+
+  "inventoryIcon" : "atprk_anneliskwalllightvicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskwalllightv.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_anneliskwalllightv.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk_anneliskwalllightv.png",
+    "fg" : "atprk_anneliskwalllightvlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}
