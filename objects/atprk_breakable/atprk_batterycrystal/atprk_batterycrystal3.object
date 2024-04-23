@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_batterycrystal3",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "A large energy crystal.",
+  "shortdescription" : "Charged Crystal",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [52, 68, 149],
+
+  "apexDescription" : "This space crystal pulsates with energy.",
+  "avianDescription" : "This crystal contains a bit of energy.",
+  "floranDescription" : "Blue cryssstal glowss with power.",
+  "glitchDescription" : "Interested. This charged crystal may come in handy.",
+  "humanDescription" : "A glowing crystal charged with energy.",
+  "hylotlDescription" : "It appears that this crystal absorbs energy from its surroundings.",
+  "novakidDescription" : "A glowin' rock full of energy.",
+
+  "inventoryIcon" : "atprk_batterycrystalicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_batterycrystal3.png", "fullbright" : true }, { "image" : "atprk_batterycrystal3lit.png" } ],
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 1],
+
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_batterycrystal3.png", "fullbright" : true }, { "image" : "atprk_batterycrystal3lit.png" } ],
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/ice_break1.ogg", "/sfx/objects/ice_break2.ogg", "/sfx/objects/ice_break3.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "masteroidshard3" } ],
+
+  "scripts" : [
+    "/objects/scripts/explodingsmashable.lua"
+  ],
+  "explosionProjectile" : "mechenergypickup",
+  "explosionOffset" : [0, 1]
+}
