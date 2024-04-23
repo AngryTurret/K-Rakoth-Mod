@@ -8,8 +8,8 @@
  "margin":0,
  "name":"atprk-annelisk",
  "spacing":0,
- "tilecount":6,
- "tileheight":40,
+ "tilecount":25,
+ "tileheight":64,
  "tileproperties":
     {
      "0":
@@ -32,6 +32,98 @@
          "object":"atprk_anneliskchair",
          "tilesetDirection":"right"
         },
+     "10":
+        {
+         "\/\/description":"Out of order.",
+         "\/\/name":"atprk_annelisksleepingpodbroken3",
+         "\/\/shortdescription":"Abandoned Sleeping Pod",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_annelisksleepingpodbroken3",
+         "tilesetDirection":"right"
+        },
+     "11":
+        {
+         "\/\/description":"A large energy crystal.",
+         "\/\/name":"atprk_batterycrystal1",
+         "\/\/shortdescription":"Charged Crystal",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_batterycrystal1"
+        },
+     "12":
+        {
+         "\/\/description":"A large energy crystal.",
+         "\/\/name":"atprk_batterycrystal2",
+         "\/\/shortdescription":"Charged Crystal",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_batterycrystal2"
+        },
+     "13":
+        {
+         "\/\/description":"A large energy crystal.",
+         "\/\/name":"atprk_batterycrystal3",
+         "\/\/shortdescription":"Charged Crystal",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_batterycrystal3"
+        },
+     "14":
+        {
+         "\/\/description":"A dim wall light.",
+         "\/\/name":"atprk_anneliskwalllighth",
+         "\/\/shortdescription":"Corporate Wall Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskwalllighth"
+        },
+     "15":
+        {
+         "\/\/description":"A dim wall light.",
+         "\/\/name":"atprk_anneliskwalllightv",
+         "\/\/shortdescription":"Corporate Wall Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskwalllightv"
+        },
+     "16":
+        {
+         "\/\/description":"A chair designed for civilian spacecraft.",
+         "\/\/name":"atprk_anneliskspacechair",
+         "\/\/shortdescription":"Corporate Chair",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskspacechair",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"Watch out for asteroid monsters!",
+         "\/\/name":"atprk_anneliskminesign1",
+         "\/\/shortdescription":"Space Fauna Sign",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_anneliskminesign1"
+        },
+     "18":
+        {
+         "\/\/description":"Don't forget to look up once in a while.",
+         "\/\/name":"atprk_anneliskminesign2",
+         "\/\/shortdescription":"Falling Meteors Sign",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_anneliskminesign2"
+        },
+     "19":
+        {
+         "\/\/description":"A brief overview of various mineral properties.",
+         "\/\/name":"atprk_anneliskminesign3",
+         "\/\/shortdescription":"Mineral Sign",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_anneliskminesign3"
+        },
      "2":
         {
          "\/\/description":"A rusty metal table for an office lobby.",
@@ -40,6 +132,56 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"atprk_annelisktable",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "\/\/description":"It may work if you interact with it but nothing is guaranteed.",
+         "\/\/name":"atprk_anneliskspacepanel",
+         "\/\/shortdescription":"Small Corporate Console",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskspacepanel",
+         "tilesetDirection":"right"
+        },
+     "21":
+        {
+         "\/\/description":"A mining crate full of precious crystals.",
+         "\/\/name":"atprk_anneliskcrystalcrate",
+         "\/\/shortdescription":"Unsealed Corporate Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskcrystalcrate",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "\/\/description":"A decrepit office table.",
+         "\/\/name":"atprk_anneliskroundtable",
+         "\/\/shortdescription":"Round Corporate Table",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskroundtable",
+         "tilesetDirection":"right"
+        },
+     "23":
+        {
+         "\/\/description":"An airlock door designed for privately-owned spacecraft.",
+         "\/\/name":"atprk_anneliskspacedoor",
+         "\/\/shortdescription":"Old Corporate Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskspacedoor",
+         "tilesetDirection":"right"
+        },
+     "24":
+        {
+         "\/\/description":"An large airlock door designed for privately-owned spacecraft.",
+         "\/\/name":"atprk_anneliskspacedoorlarge",
+         "\/\/shortdescription":"Old Corporate Airlock",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskspacedoorlarge",
          "tilesetDirection":"right"
         },
      "3":
@@ -69,6 +211,46 @@
          "imagePositionX":"-16",
          "imagePositionY":"-16",
          "object":"atprk_annelisklogo"
+        },
+     "6":
+        {
+         "\/\/description":"A mass-produced crate. It has seen better days.",
+         "\/\/name":"atprk_anneliskcrate1",
+         "\/\/shortdescription":"Small Corporate Crate",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskcrate1",
+         "tilesetDirection":"right"
+        },
+     "7":
+        {
+         "\/\/description":"A mass-produced crate. It has seen better days.",
+         "\/\/name":"atprk_anneliskcrate2",
+         "\/\/shortdescription":"Large Corporate Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskcrate2",
+         "tilesetDirection":"right"
+        },
+     "8":
+        {
+         "\/\/description":"Out of order.",
+         "\/\/name":"atprk_annelisksleepingpodbroken1",
+         "\/\/shortdescription":"Abandoned Sleeping Pod",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_annelisksleepingpodbroken1",
+         "tilesetDirection":"right"
+        },
+     "9":
+        {
+         "\/\/description":"Out of order.",
+         "\/\/name":"atprk_annelisksleepingpodbroken2",
+         "\/\/shortdescription":"Abandoned Sleeping Pod",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_annelisksleepingpodbroken2",
+         "tilesetDirection":"right"
         }
     },
  "tilepropertytypes":
@@ -93,7 +275,149 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "10":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "11":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "12":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "13":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "14":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "15":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
      "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "20":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "21":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "22":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "23":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "24":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -130,6 +454,46 @@
          "imagePositionX":"string",
          "imagePositionY":"string",
          "object":"string"
+        },
+     "6":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "7":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "8":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "9":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
@@ -146,11 +510,101 @@
          "imageheight":20,
          "imagewidth":16
         },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken3.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal1.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal3.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllighth.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllightv.png",
+         "imageheight":16,
+         "imagewidth":8
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacechair.png",
+         "imageheight":32,
+         "imagewidth":16
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign1.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign2.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign3.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
      "2":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisktable.png",
          "imageheight":16,
          "imagewidth":40
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacepanel.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrystalcrate.png",
+         "imageheight":24,
+         "imagewidth":48
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskroundtable.png",
+         "imageheight":16,
+         "imagewidth":32
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacedoor.png",
+         "imageheight":40,
+         "imagewidth":48
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacedoorlarge.png",
+         "imageheight":64,
+         "imagewidth":24
         },
      "3":
         {
@@ -169,8 +623,32 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisklogo.png",
          "imageheight":32,
          "imagewidth":32
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrate1.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrate2.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken1.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken2.png",
+         "imageheight":40,
+         "imagewidth":24
         }
     },
- "tilewidth":40,
+ "tilewidth":48,
  "type":"tileset"
 }
