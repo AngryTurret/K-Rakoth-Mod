@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_anneliskspacepanel",
+  "colonyTags" : ["atprk_annelisk","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 95,
+  "description" : "It may work if you interact with it but nothing is guaranteed.",
+  "shortdescription" : "Small Corporate Console",
+  "race" : "generic",
+
+  "apexDescription" : "The screen on this console is shattered. I should be careful with inputs.",
+  "avianDescription" : "None of the buttons are signed so there is only one way to learn what they do.",
+  "floranDescription" : "Floran ssees small buttonsss. Floran wantsss to press them all.",
+  "glitchDescription" : "Annoyed. Unless the screen is repaired, I'll have to type blindly.",
+  "humanDescription" : "Should I press anything to check if this console is working?",
+  "hylotlDescription" : "The screen is either too dark or broken. I don't see any text on it.",
+  "novakidDescription" : "That's a lot of buttons without any labels.",
+
+  "inventoryIcon" : "atprk_anneliskspacepanelicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskspacepanel.png:<color>.off",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "atprk_anneliskspacepanel.png:<color>.off",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/avianconsole_on.ogg" ],
+      "off" : [ "/sfx/objects/avianconsole_off.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "atprk_anneliskspacepanel.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

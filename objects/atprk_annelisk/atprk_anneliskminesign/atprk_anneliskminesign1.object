@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_anneliskminesign1",
+  "colonyTags" : ["atprk_annelisk","mining"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "shortdescription" : "Space Fauna Sign",
+  "description" : "Watch out for asteroid monsters!",
+  "race" : "generic",
+
+  "apexDescription" : "Hostile silicon-based life forms ahead.",
+  "avianDescription" : "This sign indicates dangerous creatures ahead.",
+  "floranDescription" : "Asteroid monssters nearby.",
+  "glitchDescription" : "Cautious. I should look out for hostile creatures.",
+  "humanDescription" : "This place is crawling with all sorts of space fauna.",
+  "hylotlDescription" : "According to this sign, the area is inhabited by hostile life forms.",
+  "novakidDescription" : "This here sign warns me of wild beasts lurkin' around.",
+
+  "inventoryIcon" : "atprk_anneliskminesign1icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskminesign1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

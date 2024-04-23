@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_anneliskroundtable",
+  "colonyTags" : ["atprk_annelisk","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 85,
+  "description" : "A decrepit office table.",
+  "shortdescription" : "Round Corporate Table",
+  "race" : "generic",
+
+  "apexDescription" : "A floor-mounted round table.",
+  "avianDescription" : "A round table that wouldn't be out of place in an abandoned office.",
+  "floranDescription" : "Sssmall filthy table.",
+  "glitchDescription" : "Aloof. A round office table smeared in dirt.",
+  "humanDescription" : "A sturdy office table.",
+  "hylotlDescription" : "This table would look much more pleasant if it weren't this filthy.",
+  "novakidDescription" : "No one sat at this table for ages.",
+
+  "inventoryIcon" : "atprk_anneliskroundtableicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskroundtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ [-2, 1], [-1, 1], [0, 1], [1, 1] ]
+    },
+    {
+      "image" : "atprk_anneliskroundtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ [-2, 1], [-1, 1], [0, 1], [1, 1] ]
+    }
+  ]
+}

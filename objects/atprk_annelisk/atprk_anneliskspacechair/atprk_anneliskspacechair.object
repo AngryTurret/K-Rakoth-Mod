@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_anneliskspacechair",
+  "colonyTags" : ["atprk_annelisk"],
+  "rarity" : "Common",
+  "description" : "A chair designed for civilian spacecraft.",
+  "shortdescription" : "Corporate Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "A fairly simple spacecraft seat.",
+  "avianDescription" : "This chair is designed to withstand a lot of pressure.",
+  "floranDescription" : "Ssturdy ssseat for ssspacecraft.",
+  "glitchDescription" : "Disinteserted. A chair usually found aboard old spaceships.",
+  "humanDescription" : "An old spaceship chair.",
+  "hylotlDescription" : "This chair is firmly bolted to the floor.",
+  "novakidDescription" : "A fine chair made for space travelers.",
+
+  "inventoryIcon" : "atprk_anneliskspacechairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskspacechair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24]
+
+}

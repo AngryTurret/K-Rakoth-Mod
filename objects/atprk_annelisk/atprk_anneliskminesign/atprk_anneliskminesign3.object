@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_anneliskminesign3",
+  "colonyTags" : ["atprk_annelisk","mining"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "shortdescription" : "Mineral Sign",
+  "description" : "A brief overview of various mineral properties.",
+  "race" : "generic",
+
+  "apexDescription" : "A sign that describes some minerals.",
+  "avianDescription" : "I must be approaching a large crystal deposit.",
+  "floranDescription" : "Here Floran can mine ssome shiny rocksss.",
+  "glitchDescription" : "Interested. This sign describes properties of some precious crystals.",
+  "humanDescription" : "The text is faded but I can tell it describes valuable minerals.",
+  "hylotlDescription" : "This sign indicates an area rich in minerals.",
+  "novakidDescription" : "There must be a crystal mine nearby.",
+
+  "inventoryIcon" : "atprk_anneliskminesign3icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskminesign3.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

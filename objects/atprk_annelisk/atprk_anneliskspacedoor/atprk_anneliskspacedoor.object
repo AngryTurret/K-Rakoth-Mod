@@ -1,0 +1,65 @@
+{
+  "objectName" : "atprk_anneliskspacedoor",
+  "colonyTags" : ["atprk_annelisk","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 125,
+  "description" : "An airlock door designed for privately-owned spacecraft.",
+  "shortdescription" : "Old Corporate Door",
+  "race" : "generic",
+
+  "apexDescription" : "An old airlock door.",
+  "avianDescription" : "A decrepit airlock.",
+  "floranDescription" : "Old airlock door.",
+  "glitchDescription" : "Wary. This feeble airlock may get stuck any moment.",
+  "humanDescription" : "I doubt this airlock door will last much longer.",
+  "hylotlDescription" : "A barely functional airlock door.",
+  "novakidDescription" : "A huge ol' airlock.",
+
+  "inventoryIcon" : "atprk_anneliskspacedooricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskspacedoor.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "atprk_anneliskspacedoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "sensorConfig" : {},
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_anneliskspacedoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

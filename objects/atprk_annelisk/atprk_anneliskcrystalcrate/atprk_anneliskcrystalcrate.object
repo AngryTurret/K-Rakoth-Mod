@@ -1,0 +1,42 @@
+{
+  "objectName" : "atprk_anneliskcrystalcrate",
+  "colonyTags" : ["atprk_annelisk","commerce","mining"],
+  "rarity" : "Common",
+  "description" : "A mining crate full of precious crystals.",
+  "shortdescription" : "Unsealed Corporate Crate",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 125,
+  "health" : 1.5,
+
+  "apexDescription" : "An unsealed crate of space minerals.",
+  "avianDescription" : "A full cargo crate. Sadly, these are not avolite crystals.",
+  "floranDescription" : "Sssomeone wanted to take shiny rockss away.",
+  "glitchDescription" : "Shifty. Maybe no one will notice if one gem disappears...",
+  "humanDescription" : "Looks like someone or something pushed this cargo crate over.",
+  "hylotlDescription" : "A layer of dust suggests that these crystals were left untouched for a while.",
+  "novakidDescription" : "A huge box full of riches from beyond the stars.",
+
+  "inventoryIcon" : "atprk_anneliskcrystalcrateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskcrystalcrate.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/objects/coinstack_medium2.ogg" ]
+}

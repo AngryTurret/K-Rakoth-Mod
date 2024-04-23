@@ -1,0 +1,76 @@
+{
+  "objectName" : "atprk_anneliskspacedoorlarge",
+  "colonyTags" : ["atprk_annelisk","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 175,
+  "description" : "An large airlock door designed for privately-owned spacecraft.",
+  "shortdescription" : "Old Corporate Airlock",
+  "race" : "generic",
+
+  "apexDescription" : "An old airlock door.",
+  "avianDescription" : "A decrepit airlock.",
+  "floranDescription" : "Old airlock door.",
+  "glitchDescription" : "Wary. This feeble airlock may get stuck any moment.",
+  "humanDescription" : "I doubt this airlock door will last much longer.",
+  "hylotlDescription" : "A barely functional airlock door.",
+  "novakidDescription" : "A huge ol' airlock.",
+
+  "inventoryIcon" : "atprk_anneliskspacedoorlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskspacedoorlarge.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "door" : "atprk_anneliskspacedoorlarge.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "atprk_anneliskspacedoorlarge.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+
+      "animationParts" : {
+        "door" : "atprk_anneliskspacedoorlarge.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "atprk_anneliskspacedoorlarge.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}
