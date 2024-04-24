@@ -12,9 +12,9 @@
   "apexDescription" : "An unsealed crate of space minerals.",
   "avianDescription" : "A full cargo crate. Sadly, these are not avolite crystals.",
   "floranDescription" : "Sssomeone wanted to take shiny rockss away.",
-  "glitchDescription" : "Shifty. Maybe no one will notice if one gem disappears...",
+  "glitchDescription" : "Shifty. Maybe no one will notice if just one gem disappears...",
   "humanDescription" : "Looks like someone or something pushed this cargo crate over.",
-  "hylotlDescription" : "A layer of dust suggests that these crystals were left untouched for a while.",
+  "hylotlDescription" : "The layer of dust suggests that these crystals were left untouched for a while.",
   "novakidDescription" : "A huge box full of riches from beyond the stars.",
 
   "inventoryIcon" : "atprk_anneliskcrystalcrateicon.png",
