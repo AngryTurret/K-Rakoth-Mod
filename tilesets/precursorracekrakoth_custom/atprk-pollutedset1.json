@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-annelisk",
  "spacing":0,
- "tilecount":25,
+ "tilecount":26,
  "tileheight":64,
  "tileproperties":
     {
@@ -182,6 +182,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_anneliskspacedoorlarge",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "\/\/description":"An old shelf full of junk.",
+         "\/\/name":"atprk_anneliskspaceshelf",
+         "\/\/shortdescription":"Old Corporate Shelf",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskspaceshelf",
          "tilesetDirection":"right"
         },
      "3":
@@ -427,6 +437,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "25":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
         {
          "\/\/description":"string",
@@ -605,6 +625,12 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacedoorlarge.png",
          "imageheight":64,
          "imagewidth":24
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspaceshelf.png",
+         "imageheight":48,
+         "imagewidth":48
         },
      "3":
         {
