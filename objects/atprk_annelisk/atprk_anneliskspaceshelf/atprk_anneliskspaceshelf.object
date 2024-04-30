@@ -1,0 +1,44 @@
+{
+  "objectName" : "atprk_anneliskspaceshelf",
+  "colonyTags" : ["atprk_annelisk","storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "An old shelf full of junk.",
+  "shortdescription" : "Old Corporate Shelf",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 115,
+  "health" : 1.5,
+
+  "apexDescription" : "It's mostly junk and empty cans.",
+  "avianDescription" : "This shelf has enough place for a few more boxes.",
+  "floranDescription" : "There are ssome empty boxes but not much elssse.",
+  "glitchDescription" : "Bored. There is nothing of use on this shelf.",
+  "humanDescription" : "This old shelf has a lot of room for useful items.",
+  "hylotlDescription" : "A lot of emptied containers on this shelf.",
+  "novakidDescription" : "This shelf is half full. Or is it half empty?",
+
+  "inventoryIcon" : "atprk_anneliskspaceshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskspaceshelf.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
+
+  "openSounds" : [ "/sfx/objects/cardboardbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

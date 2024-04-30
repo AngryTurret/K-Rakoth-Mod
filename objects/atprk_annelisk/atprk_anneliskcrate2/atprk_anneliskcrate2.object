@@ -1,6 +1,6 @@
 {
   "objectName" : "atprk_anneliskcrate2",
-  "colonyTags" : ["storage","commerce"],
+  "colonyTags" : ["atprk_annelisk","storage","commerce","mining"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
