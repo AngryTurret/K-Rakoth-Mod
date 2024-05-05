@@ -17,8 +17,6 @@
   "humanDescription" : "This could be a nice prop for sci-fi movies!",
   "hylotlDescription" : "I must admit, it wouldn't be out of place in one of our underwater cities.",
   "novakidDescription" : "Is there one of our folks inside this thing or what?",
-
-  "statusEffects" : [ ],
     
   "lightColor" : [255, 83, 198],
 
@@ -32,24 +30,24 @@
   "orientations" : [
     {
       "image" : "atprk-eldritchlamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
-      "animationPosition" : [-4, 0],
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
 
       "direction" : "left",
       "flipImages" : true,
 
-      "lightPosition" : [0, 6],
+      "lightPosition" : [0, 4],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
       "image" : "atprk-eldritchlamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
-      "animationPosition" : [-4, 0],
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
 
       "direction" : "right",
 
-      "lightPosition" : [0, 6],
+      "lightPosition" : [0, 4],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -74,5 +72,5 @@
   
   "interactive" : false,
   
-  "inputNodes" : [ [0, 6] ]
+  "inputNodes" : [ [0, 1] ]
 }
