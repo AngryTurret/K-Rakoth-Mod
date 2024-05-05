@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
   "inventoryIcon" : "atprk_encryptionkey0.png",
-  "description" : "One of the keys to decode the lost alien broadcast.",
+  "description" : "One of the keys to decode a lost alien broadcast.",
   "shortdescription" : "Encryption Key",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
