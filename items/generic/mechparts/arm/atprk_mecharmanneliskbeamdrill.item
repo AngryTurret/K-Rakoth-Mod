@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmanneliskbeamdrill",
+  "price" : 5600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmanneliskbeamdrill.png",
+  "description" : "A beam drill designed by a long-gone manufacturer.",
+  "shortdescription" : "Ouroboros Drill Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_anneliskbeamdrill"]
+}
