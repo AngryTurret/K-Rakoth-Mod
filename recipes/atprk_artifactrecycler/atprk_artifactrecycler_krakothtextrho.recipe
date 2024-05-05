@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_krakothtextrho", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 75 },
+  "groups" : [ "atprk_artifactrecycler", "nouncrafting" ]
+}
