@@ -209,8 +209,8 @@
 	"path": "/atprk_fenronfist",
 	"value": {
 		"stats": {
-			"power": 5,
-			"energy": 5
+			"power": 4,
+			"energy": 4
 		},
 		"partParameters": {
 			"script": "/vehicles/modularmech/armscripts/gunarm.lua",
@@ -333,6 +333,156 @@
 			"sounds": {
 				"<armName>Activate": ["/sfx/gun/mech_shielddrone1.ogg"],
 				"<armName>Recover": ["/sfx/gun/mech_shielddrone_recover1.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_anneliskbeamdrill",
+	"value": {
+		"stats": {
+			"power": 6,
+			"energy": 6
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/beamarm.lua",
+			"armClass": "BeamArm",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [3.25, 0],
+
+			"windupTime" : 0.4,
+			"fireTime" : 0.1,
+			"holdFire" : true,
+			"winddownTime" : 0.5,
+
+			"repeatFire" : true,
+			"lockAim" : false,
+
+			"beamSourceOffset" : [3.25, 2.5625],
+			"beamHeight" : 0.5,
+			"beamLength" : 35,
+			"beamParticleDensity" : 0.75,
+			"beamTileDamage" : 14,
+			"beamTileDamageDepth" : 2
+		},
+
+		"damageSources": {
+			"<armName>Beam" : {
+				"enabled" : false,
+				"attachToPart" : "<armName>",
+
+				"line" : [ [3.25, 2.5], [33.25, 2.5] ],
+				"damage" : 20,
+				"damageSourceKind" : "fireplasma",
+				"damageRepeatTimeout" : 0.1,
+				"damageRepeatGroup" : "<armName>Beam",
+				"knockback" : 0,
+
+				"rayCheck" : true
+			}
+		},
+
+		"partImages": {
+			"<armName>" : "arm/atprk_anneliskbeamdrill.png",
+			"<armName>Fullbright" : "arm/atprk_anneliskbeamdrill_fullbright.png"
+		},
+		"defaultPrimaryColors": ["a95f5f",
+			"844a4a",
+			"5d3434",
+			"362121"
+		],
+		"defaultSecondaryColors": ["e6e6e6",
+			"b6b6b6",
+			"7b7b7b",
+			"373737"
+		],
+		"animationCustom": {
+			"animatedParts" : {
+			  "stateTypes" : {
+			    "<armName>" : { "states" : {
+			      "active" : {
+			        "properties" : {
+			          "persistentSound" : "/sfx/tech/tech_sonicsphere_charge2.ogg",
+			          "persistentSoundStopTime" : 0.5
+			        },
+			        "cycle" : 0.1
+			      },
+			      "windup" : {
+			        "cycle" : 0.5
+			      },
+			      "winddown" : {
+			        "cycle" : 0.5
+			      }
+			    }},
+			    "<armName>Beam" : {
+			      "default" : "off",
+			      "states" : {
+			        "off" : {},
+			        "fire" : {
+			          "frames" : 4,
+			          "cycle" : 0.25,
+			          "mode" : "transition",
+			          "transition" : "off"
+			        }
+			      }
+			    }
+			  },
+			  "parts" : {
+			    "<armName>Beam" : {
+			      "properties" : {
+			        "zLevel" : 10,
+			        "offset" : [3.25, 2.0625],
+			        "anchorPart" : "<armName>",
+			        "fullbright" : true,
+			        "centered" : false,
+			        "transformationGroups" : ["<armName>Beam"]
+			      },
+			      "partStates" : {
+			        "<armName>Beam" : {
+			          "fire" : {
+			            "properties" : {
+			              "image" : "/vehicles/modularmech/beam/atprk_anneliskdrillbeam.png:<frame>"
+			            }
+			          }
+			        }
+			      }
+			    }
+			  }
+			},
+
+			"particleEmitters" : {
+			  "<armName>Beam" : {
+			    "active" : false,
+			    "anchorPart" : "<armName>",
+			    "particles" : [
+			      { "particle" : {
+			        "type" : "ember",
+			        "fullbright" : true,
+			        "color" : [179, 150, 12, 150],
+			        "light" : [100, 85, 0],
+			        "fade" : 0.5,
+			        "destructionAction" : "shrink",
+			        "destructionTime" : 0.15,
+			        "initialVelocity" : [0, 0],
+			        "timeToLive" : 0.4,
+			        "layer" : "middle",
+			        "variance" : {
+			            "initialVelocity" : [1, 1],
+			            "timeToLive" : 0.2
+			        }
+			      } }
+			    ]
+			  }
+			},
+			"transformationGroups" : {
+			  "<armName>Beam" : {}
+			},
+			"sounds": {
+			  "<armName>Windup" : [ "/sfx/tech/tech_blink2.ogg" ],
+			  "<armName>WinddownNoFire" : [],
+			  "<armName>Winddown" : [ "/sfx/tech/tech_rocketjump_release.ogg" ],
+			  "<armName>Fire" : []
 			}
 		}
 	}
