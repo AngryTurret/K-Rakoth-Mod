@@ -1,9 +1,6 @@
 {
   "input" : [
-    { "item" : "atprk_fenronbasrelief1", "count" : 1},
-    { "item" : "atprk_fenronbasrelief2", "count" : 1},
-    { "item" : "atprk_fenronbasrelief3", "count" : 1},
-    { "item" : "atprk_fenronbasrelief4", "count" : 1}
+    { "item" : "atprk_fenronbasrelief0", "count" : 5}
   ],
   "output" : {
     "item" : "atprk_fenronbasrelieffull",
