@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "atprk_encryptionkey0", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 150 },
+  "groups" : [ "atprk_artifactrecycler", "nouncrafting" ]
+}

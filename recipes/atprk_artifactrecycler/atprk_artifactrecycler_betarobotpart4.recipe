@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "atprk_betarobotpart4", "count" : 1 }
   ],
-  "output" : { "item" : "money", "count" : 150 },
+  "output" : { "item" : "atprk_betarobotpart0", "count" : 1 },
   "groups" : [ "atprk_artifactrecycler", "nouncrafting" ]
 }
