@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "salvagearm", "count" : 10 },
+    { "item" : "salvagetier4", "count" : 5 },
+    { "item" : "atprk_fenronbasrelief0", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "atprk_mecharmfenronfist", "count" : 1 },
+  "groups" : [ "craftingmech", "mecharm" ]
+}
