@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_betarobotpart0",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_betarobotpart0.png",
+  "description" : "A discarded part of a larger robot.",
+  "shortdescription" : "Rusty Robot Gizmo",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_betafatalcircuitprop"
+  ]
+}

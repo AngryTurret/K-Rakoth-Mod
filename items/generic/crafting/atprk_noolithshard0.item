@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_noolithshard0",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_noolithshard0.png",
+  "description" : "A large shard of an exotic crystal.",
+  "shortdescription" : "Dormant Shard",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_noolithtalkingfull"
+  ]
+}

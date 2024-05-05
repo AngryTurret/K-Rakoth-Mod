@@ -1,0 +1,13 @@
+{
+  "itemName" : "atprk_fenronbasrelief0",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_fenronbasrelief0.png",
+  "description" : "A fragment of a bigger stone bas-relief.",
+  "shortdescription" : "Stone Bas-Relief Piece",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_fenronbasrelieffull"
+  ]
+}
