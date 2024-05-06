@@ -6,10 +6,7 @@
       "pool" : [
 		{"weight" : 0.60, "item" : "atprk_traproot"},
 		{"weight" : 0.40, "item" : "livingroot"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief1"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief2"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief3"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief4"},
+		{"weight" : 0.05, "item" : "atprk_fenronbasrelief0"},
 		{"weight" : 0.002, "item" : "atprk_shruberserkaf"}
       ]
     }]
@@ -22,10 +19,7 @@
       "pool" : [
 		{"weight" : 0.60, "item" : "atprk_traproot"},
 		{"weight" : 0.40, "item" : "livingroot"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief1"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief2"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief3"},
-		{"weight" : 0.05, "item" : "atprk_fenronbasrelief4"},
+		{"weight" : 0.05, "item" : "atprk_fenronbasrelief0"},
 		{"weight" : 0.002, "item" : "atprk_hungertrictusaf"}
       ]
     }]
@@ -38,10 +32,7 @@
       "pool" : [
 		{"weight" : 0.60, "item" : "hardenedcarapace"},
 		{"weight" : 0.40, "item" : "crystal"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard1"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard2"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard3"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard4"},
+		{"weight" : 0.05, "item" : "atprk_noolithshard0"},
 		{"weight" : 0.002, "item" : "atprk_roxmolaf"}
       ]
     }]
@@ -54,10 +45,7 @@
       "pool" : [
 		{"weight" : 0.60, "item" : "hardenedcarapace"},
 		{"weight" : 0.40, "item" : "crystal"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard1"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard2"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard3"},
-		{"weight" : 0.05, "item" : "atprk_noolithshard4"},
+		{"weight" : 0.05, "item" : "atprk_noolithshard0"},
 		{"weight" : 0.002, "item" : "atprk_sapphaseaf"}
       ]
     }]
@@ -70,10 +58,7 @@
       "pool" : [
 		{"weight" : 0.60, "item" : "staticcell"},
 		{"weight" : 0.40, "item" : "stickofram"},
-		{"weight" : 0.05, "item" : "atprk_encryptionkey1"},
-		{"weight" : 0.05, "item" : "atprk_encryptionkey2"},
-		{"weight" : 0.05, "item" : "atprk_encryptionkey3"},
-		{"weight" : 0.05, "item" : "atprk_encryptionkey4"},
+		{"weight" : 0.05, "item" : "atprk_encryptionkey0"},
 		{"weight" : 0.002, "item" : "atprk_androneaf"}
       ]
     }]

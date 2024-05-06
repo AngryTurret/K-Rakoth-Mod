@@ -7,10 +7,7 @@
 	    {"weight" : 0.70, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.25, "item" : "livingroot"},
 	    {"weight" : 0.10, "item" : "atprk_traproot"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief4"},
+	    {"weight" : 0.02, "item" : "atprk_fenronbasrelief0"},
 	    {"weight" : 0.006, "item" : "atprk_shruberserkaf"}
       ]
     }]
@@ -24,10 +21,7 @@
 	    {"weight" : 0.70, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.25, "item" : "livingroot"},
 	    {"weight" : 0.25, "item" : "atprk_traproot"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief1"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief2"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief3"},
-	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief4"},
+	    {"weight" : 0.02, "item" : "atprk_fenronbasrelief0"},
 	    {"weight" : 0.006, "item" : "atprk_hungertrictusaf"}
       ]
     }]
@@ -40,10 +34,7 @@
       "pool" : [
 	    {"weight" : 0.75, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.30, "item" : "crystal"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard2"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard3"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard4"},
+	    {"weight" : 0.02, "item" : "atprk_noolithshard0"},
 	    {"weight" : 0.006, "item" : "atprk_roxmolaf"}
       ]
     }]
@@ -57,10 +48,7 @@
 	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.40, "item" : "crystal"},
 	    {"weight" : 0.10, "item" : "phasematter"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard1"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard2"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard3"},
-	    {"weight" : 0.01, "item" : "atprk_noolithshard4"},
+	    {"weight" : 0.02, "item" : "atprk_noolithshard0"},
 	    {"weight" : 0.006, "item" : "atprk_sapphaseaf"}
       ]
     }]
@@ -73,10 +61,7 @@
       "pool" : [
 	    {"weight" : 0.70, "pool" : "robotTreasure"},
 	    {"weight" : 0.30, "item" : "stickofram"},
-	    {"weight" : 0.01, "item" : "atprk_encryptionkey1"},
-	    {"weight" : 0.01, "item" : "atprk_encryptionkey2"},
-	    {"weight" : 0.01, "item" : "atprk_encryptionkey3"},
-	    {"weight" : 0.01, "item" : "atprk_encryptionkey4"},
+	    {"weight" : 0.02, "item" : "atprk_encryptionkey0"},
 	    {"weight" : 0.006, "item" : "atprk_androneaf"}
       ]
     }]
