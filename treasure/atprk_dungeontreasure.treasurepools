@@ -473,6 +473,37 @@
   //       Space Encounters
   // ================================
 
+  "atprk_devoutshipChest" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.8, "item" : [ "atprk_mechbodydevout-recipe", 1]},
+        {"weight" : 0.1, "pool" : "commonSpaceItem"},
+        {"weight" : 0.05, "pool" : "rareSpaceItem"},
+        {"weight" : 0.05, "item" : [ "atprk_glitcharmor", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 2],
+        [0.30, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.8, "item" : [ "atprk_mechbodydevout2-recipe", 1]},
+        {"weight" : 0.1, "pool" : "commonSpaceItem"},
+        {"weight" : 0.05, "pool" : "rareSpaceItem"},
+        {"weight" : 0.05, "item" : [ "atprk_glitcharmor", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 2],
+        [0.30, 3],
+        [0.20, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
   "atprk_spaceencounterBetaCampTreasure" : [
     [1, {
       "fill" : [
