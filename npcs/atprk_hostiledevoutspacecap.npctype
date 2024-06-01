@@ -1,0 +1,80 @@
+{
+  "type" : "atprk_hostiledevoutspacecap",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Charge!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Alert. I see an intruder!",
+            "Hostile. No mercy for intruders!",
+            "Fearless. Our masters protect us!",
+            "Eager. For the Lords of the Cosmos!",
+            "Angry. Stop right there, you heretic!",
+            "Aggressive. Get off our ship!",
+            "Confident. You're not welcome in our flying fortress!",
+            "Imperious. Leave, or else you shall face your demise!",
+            "Hostile. You won't steal from us!",
+            "Startled. How did you get here?!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "glitchtier6mhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "breathprotectionback", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier6mchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier6mpants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "npcbroadsword",
+              "npcshortsword",
+              "npcspear",
+              "npcaxe",
+              "npchammer"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "npctungstenbow" }
+            ],
+            "alt" : [
+              "atprk_devoutshield"
+            ]
+          }
+        ] ]
+    ]
+  },
+ "statusControllerSettings" : {    
+    "stats" : {
+	  "maxHealth" : {
+        "baseValue" : 125.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}
