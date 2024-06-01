@@ -9,5 +9,6 @@
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
     "atprk_krakothcodexomicron-codex"
-  ]
+  ],
+  "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

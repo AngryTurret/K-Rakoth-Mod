@@ -9,5 +9,6 @@
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
     "atprk_ancientstatueprop"
-  ]
+  ],
+  "radioMessagesOnPickup" : [ "atprk_relicmaterialmessage" ]
 }

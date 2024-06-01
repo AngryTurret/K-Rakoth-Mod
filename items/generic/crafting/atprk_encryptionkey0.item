@@ -9,5 +9,6 @@
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
     "atprk_anneliskbroadcast-codex"
-  ]
+  ],
+  "radioMessagesOnPickup" : [ "atprk_relicmaterialmessage" ]
 }

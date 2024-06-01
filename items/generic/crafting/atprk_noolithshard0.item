@@ -9,5 +9,6 @@
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
     "atprk_noolithtalkingfull"
-  ]
+  ],
+  "radioMessagesOnPickup" : [ "atprk_relicmaterialmessage" ]
 }

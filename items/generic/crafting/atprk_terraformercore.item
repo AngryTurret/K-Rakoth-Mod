@@ -6,5 +6,6 @@
   "inventoryIcon" : "atprk_terraformercore.png",
   "description" : "An inactive terraformer core. Hopefully not broken.",
   "shortdescription" : "Terraformer Core",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "atprk_relicmaterialmessage" ]
 }

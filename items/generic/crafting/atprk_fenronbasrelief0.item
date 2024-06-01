@@ -9,5 +9,6 @@
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
     "atprk_fenronbasrelieffull"
-  ]
+  ],
+  "radioMessagesOnPickup" : [ "atprk_relicmaterialmessage" ]
 }
