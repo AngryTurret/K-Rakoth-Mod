@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-annelisk",
  "spacing":0,
- "tilecount":26,
+ "tilecount":29,
  "tileheight":64,
  "tileproperties":
     {
@@ -192,6 +192,35 @@
          "imagePositionX":"-24",
          "imagePositionY":"0",
          "object":"atprk_anneliskspaceshelf",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "\/\/description":"A stationary beam drill.",
+         "\/\/name":"atprk_anneliskminingdrill",
+         "\/\/shortdescription":"Ouroboros Beam Drill",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskminingdrill",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A cheap wall light.",
+         "\/\/name":"atprk_anneliskwalllighttiny",
+         "\/\/shortdescription":"Small Corporate Wall Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskwalllighttiny"
+        },
+     "28":
+        {
+         "\/\/description":"An office printer in a dire need of refill.",
+         "\/\/name":"atprk_anneliskprinter",
+         "\/\/shortdescription":"Old Corporate Printer",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_anneliskprinter",
          "tilesetDirection":"right"
         },
      "3":
@@ -447,6 +476,35 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
         {
          "\/\/description":"string",
@@ -632,6 +690,24 @@
          "imageheight":48,
          "imagewidth":48
         },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminingdrill.png",
+         "imageheight":48,
+         "imagewidth":56
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllighttiny.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskprinter.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
      "3":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskvending.png",
@@ -675,6 +751,6 @@
          "imagewidth":24
         }
     },
- "tilewidth":48,
+ "tilewidth":56,
  "type":"tileset"
 }
