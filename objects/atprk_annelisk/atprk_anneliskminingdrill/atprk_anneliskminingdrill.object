@@ -1,0 +1,49 @@
+{
+  "objectName" : "atprk_anneliskminingdrill",
+  "colonyTags" : ["atprk_annelisk","science","mining"],
+  "rarity" : "Uncommon",
+  "description" : "A stationary beam drill.",
+  "shortdescription" : "Ouroboros Beam Drill",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 450,
+  "health" : 2.5,
+
+  "apexDescription" : "A massive manually-controlled beam drill.",
+  "avianDescription" : "Judging by the design, it's some sort of a mining laser.",
+  "floranDescription" : "Sssome mining cannon?",
+  "glitchDescription" : "Inquisitive. I wonder if this is a weapon or a mining tool.",
+  "humanDescription" : "This appears to be a deactivated beam drill.",
+  "hylotlDescription" : "A mining laser equipped with two heat-resistant shields.",
+  "novakidDescription" : "A turret? A cannon? Somethin' else altogether?",
+
+  "inventoryIcon" : "atprk_anneliskminingdrillicon.png",
+  "orientations" : [
+    { 
+      "image" : "atprk_anneliskminingdrill.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [-30, 42],
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "atprk_anneliskminingdrill.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [-6, 42],
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/atprk_annelisk/atprk_anneliskminingdrill/atprk_anneliskminingdrill_cover.png"
+
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_anneliskprinter",
+  "colonyTags" : ["atprk_annelisk","office"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "description" : "An office printer in a dire need of refill.",
+  "shortdescription" : "Old Corporate Printer",
+  "race" : "generic",
+
+  "apexDescription" : "A large printing machine.",
+  "avianDescription" : "This machine contains a small stack of faded papers.",
+  "floranDescription" : "Machine that printsss picturesss.",
+  "glitchDescription" : "Annoyed. This printing machine must have run out of ink centuries ago.",
+  "humanDescription" : "Apparently this machine is low on cyan ink. And any other ink for that matter.",
+  "hylotlDescription" : "Hopefully this does NOT require a redundant app to function...",
+  "novakidDescription" : "A machine that does... somethin'... with papers, I guess.",
+
+  "inventoryIcon" : "atprk_anneliskprintericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_anneliskprinter.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
