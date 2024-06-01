@@ -54,6 +54,24 @@
   "op": "add",
   "path": "/metadata/anchor/-",
   "value":  
+	 "atprk_anomaly_babyplanet"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_anomaly_babyplanet",
+      "maximumThreatLevel" : 3.9,
+      "rules" : [],
+      "def" : [ "tmx", "atprk_anomaly_babyplanet.json" ],
+      "chance" : 1
+    }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
 	 "atprk_anomaly_peacekeeperbase"	
 },
 {
