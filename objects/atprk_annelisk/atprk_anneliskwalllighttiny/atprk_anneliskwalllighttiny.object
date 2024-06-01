@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_anneliskwalllighttiny",
+  "colonyTags" : ["atprk_annelisk","light"],
+  "rarity" : "Common",
+  "description" : "A cheap wall light.",
+  "shortdescription" : "Small Corporate Wall Light",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 50,
+
+  "lightColor" : [95, 40, 10],
+
+  "apexDescription" : "A subpar wall-mounted light.",
+  "avianDescription" : "This wall light is so tiny I've barely noticed it.",
+  "floranDescription" : "Glowing dot.",
+  "glitchDescription" : "Dismissive. A firefly could provide more light than this weak bulb.",
+  "humanDescription" : "Yeah, that's a veeery helpful wall light.",
+  "hylotlDescription" : "This wall-mounted lightbulb just doesn't glow bright enough.",
+  "novakidDescription" : "A glowin' dot on the wall.",
+
+  "inventoryIcon" : "atprk_anneliskwalllighttinyicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_anneliskwalllighttiny.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_anneliskwalllighttiny.png",
+    "fg" : "atprk_anneliskwalllighttinylit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}
