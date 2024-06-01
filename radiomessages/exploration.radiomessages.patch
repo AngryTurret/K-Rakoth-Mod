@@ -10,6 +10,16 @@
       "textSpeed" : 70
       }
   },
+  {
+    "op": "add",
+      "path": "/atprk_4ddistortionmech",
+      "value": {
+        "unique": false,
+        "text": "WARNING: Your vehicle is not certified for this environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+      }
+  },
 
   // ------- ST Syllectis -------
   {
@@ -97,7 +107,23 @@
       }
   },
 
-  // ------- Miscellaneous -------
+  // ------- Quest Items and Crafting -------
+  {
+    "op": "add",
+      "path": "/atprk_krakothcodexmessage",
+      "value": {
+        "type" : "tutorial",
+        "text" : "I am unable to identify the language used in this codex entry. Unless you discover a way to translate it, its contents will remain a mystery."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicmaterialmessage",
+      "value": {
+        "type" : "tutorial",
+        "text" : "You discovered a fragment of an ancient relic. If you gather enough of these, you should be able to restore valuable items sought by historians and private collectors."
+      }
+  },
   {
     "op": "add",
       "path": "/atprk_betastarmapmessage",
@@ -106,6 +132,8 @@
         "text" : "You have found an obsolete starmap upgrade. It is not compatible with modern navigation systems, so you will have to find another way to access its contents."
       }
   },
+
+  // ------- Miscellaneous -------
   {
     "op": "add",
       "path": "/atprk_dontbreakthisthing1",
