@@ -5,7 +5,7 @@
       "path": "/atprk_4ddistortion",
       "value": {
         "unique": false,
-        "text": "WARNING! SPATIAL DISTORTIONS DETECTED!\nSince you are surrounded by multidimensional geometry, a prolonged stay within the rift will cause severe damage to your body. Please hurry.",
+        "text": "WARNING! SPATIAL DISTORTIONS DETECTED!\nSince you are surrounded by multidimensional geometry, a prolonged stay within this rift will cause severe damage to your body. Please hurry.",
       "portraitImage" : "yell.<frame>",
       "textSpeed" : 70
       }
@@ -121,7 +121,7 @@
       "path": "/atprk_relicmaterialmessage",
       "value": {
         "type" : "tutorial",
-        "text" : "You discovered a fragment of an ancient relic. If you gather enough of these, you should be able to restore valuable items sought by historians and private collectors."
+        "text" : "You discovered a fragment of an ancient relic. If you gather enough of these, you should be able to restore valuable items sought by both historians and private collectors."
       }
   },
   {
