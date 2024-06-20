@@ -13606,7 +13606,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"radioMessage\" : \"atprk_relicseekerhqintro\" }",
+                     "parameters":"{ \"radioMessage\" : \"atprk_relicseekerhqintro_libra\" }",
                      "stagehand":"radiomessage"
                     },
                  "propertytypes":
@@ -13913,6 +13913,48 @@
                  "width":16,
                  "x":2408,
                  "y":976
+                }, 
+                {
+                 "height":72,
+                 "id":2553,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"radioMessage\" : \"atprk_relicseekerhqintro_randy\" }",
+                     "stagehand":"radiomessage"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":112,
+                 "x":2384,
+                 "y":904
+                }, 
+                {
+                 "height":80,
+                 "id":2555,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"radioMessage\" : \"atprk_relicseekerhqintro_starklance\" }",
+                     "stagehand":"radiomessage"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":112,
+                 "x":3832,
+                 "y":896
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -14227,7 +14269,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":2368,
+                 "x":2504,
                  "y":944
                 }],
          "opacity":1,
@@ -14277,7 +14319,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2552,
+ "nextobjectid":2556,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

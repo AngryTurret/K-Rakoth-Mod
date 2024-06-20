@@ -24,11 +24,20 @@
   // ------- ST Syllectis -------
   {
     "op": "add",
-      "path": "/atprk_relicseekerhqintro",
+      "path": "/atprk_relicseekerhqintro_libra",
       "value": {
         "text": "Oh sorry, didn't hear you approachin'. Welcome aboard! My name's Libra Eclipse, and I'm in charge of the Relic Seekers. Feel free to ask me about our organization.",
     "senderName" : "Libra Eclipse",
     "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro_starklance",
+      "value": {
+        "text": "Perturbed. I didn't know we expected guests today. You are free to look around, just don't touch anything. Untroubled. Oh, and call me Starklance.",
+    "senderName" : "Starklance",
+    "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
       }
   },
   {
@@ -38,6 +47,24 @@
         "text": "Who's there?... Ah, I see. You must be from the Terrene Protectorate, right? My condolences on Earth's destruction. Anyways, I'm Colt. I'll be here in case you need somethin'.",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro_jade",
+      "value": {
+        "text": "Okay, that's close enough for you, back off.",
+    "senderName" : "Jade",
+    "portraitImage" : "/interface/chatbubbles/atprk_vaultraidersurprised.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_relicseekerhqintro_randy",
+      "value": {
+        "text": "Ooh, a newcomer! Hi, I'm Randy! If you're looking for a job, you came to the right place. And don't worry, it won't take long to fill you in on the tasks!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
       }
   },
 

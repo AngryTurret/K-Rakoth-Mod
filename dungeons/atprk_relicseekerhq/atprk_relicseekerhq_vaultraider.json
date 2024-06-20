@@ -88,6 +88,27 @@
                  "width":24,
                  "x":0,
                  "y":40
+                }, 
+                {
+                 "height":40,
+                 "id":909,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"radioMessage\" : \"atprk_relicseekerhqintro_jade\" }",
+                     "stagehand":"radiomessage"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":0,
+                 "y":0
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -158,7 +179,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":909,
+ "nextobjectid":911,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
