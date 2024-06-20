@@ -304,7 +304,7 @@
               { "name" : "atprk_elderarmorlegs", "parameters" : { "colorIndex" : 0 } }
             ],
             "primary" : [
-              "npcspear"
+              "atprk_npcchthonicspear"
             ],
             "sheathedprimary" : [ 
               { "name" : "npcrocketlauncher" }
