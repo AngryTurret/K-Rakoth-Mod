@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_fenronbench",
+  "colonyTags" : ["atprk_fenron"],
+  "rarity" : "Common",
+  "description" : "A short stone bench.",
+  "shortdescription" : "Refined Stone Bench",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+
+  "apexDescription" : "A hard stone bench.",
+  "avianDescription" : "It's a bench.",
+  "floranDescription" : "Ssstone sslab made into a ssseat.",
+  "glitchDescription" : "Neutral. A bench made of smooth stone.",
+  "humanDescription" : "A plain bench.",
+  "hylotlDescription" : "A bench made of refined stone.",
+  "novakidDescription" : "A short bench t' rest on.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "atprk_fenronbenchicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronbench.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        [-14, 21], // Right
+        [0, 21], // Middle
+        [14, 21] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_fenronbench.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        [-14, 21], // Left
+        [0, 21], // Middle
+        [14, 21] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

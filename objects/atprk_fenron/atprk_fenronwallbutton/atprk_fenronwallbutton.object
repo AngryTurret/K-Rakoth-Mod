@@ -1,0 +1,62 @@
+{
+  "objectName" : "atprk_fenronwallbutton",
+  "colonyTags" : ["atprk_fenron","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A barely visible stone button. What if I push it?",
+  "shortdescription" : "Stone Wall Button",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 15,
+
+  "apexDescription" : "There is a tiny button on the wall. Its purpose is unknown.",
+  "avianDescription" : "A secret button! It blends so well into the wall I barely spotted it.",
+  "floranDescription" : "Teeny tiny button. Floran mussst push!",
+  "glitchDescription" : "Alert. I see a small button here. Should I push it?",
+  "humanDescription" : "I knew I didn't imagine a small bump on the wall! It's a button!",
+  "hylotlDescription" : "Oh, I almost missed this button. I wonder if it does anything.",
+  "novakidDescription" : "This tiny button's very easy t' miss. For a good reason maybe.",
+
+  "inventoryIcon" : "atprk_fenronwallbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronwallbutton.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/momentaryswitch/momentaryswitch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/stonedoor_close_fast.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "atprk_fenronwallbutton.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "interval" : 15,
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

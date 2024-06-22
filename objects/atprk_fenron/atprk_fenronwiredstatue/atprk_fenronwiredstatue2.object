@@ -1,0 +1,62 @@
+{
+  "objectName" : "atprk_fenronwiredstatue2",
+  "colonyTags" : ["atprk_fenron","light","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 0,
+  "printable" : false,
+  "description" : "Smash this thing to pieces and see what happens!",
+  "shortdescription" : "Fiery Fenron Statue",
+  "race" : "generic",
+
+  "apexDescription" : "This statue appears to contain an archaic power source.",
+  "avianDescription" : "Something produces energy inside this statue.",
+  "floranDescription" : "Ssstone cat glowsss with power. What if Floran hitsss it?",
+  "glitchDescription" : "Thoughtful. Perhaps this statue is not a mere decoration... A battery maybe?",
+  "humanDescription" : "This stone figure seems to be a disguised power source of sorts.",
+  "hylotlDescription" : "A statue powered by an ancient battery. I wonder if I can turn it off somehow...",
+  "novakidDescription" : "This stone fella hides a secret. Gotta crack it open!",
+
+  "lightColor" : [32, 128, 37],
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk_fenronwiredstatueicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue2.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "frames" : 14,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue2.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 14,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "health" : 100,
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg" ],
+  "smashParticles" : [ { "count" : 10, "particle" : "rockshard" } ],
+
+  "scripts" : ["/objects/space/wiredtarget/wiredtarget.lua"],
+  "scriptDelta" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_fenronstatuebig",
+  "colonyTags" : ["atprk_fenron","pretty","valuable"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "description" : "A sacred idol of a forgotten race. The clenched fists are its most convincing part.",
+  "shortdescription" : "Large Fenron Statue",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 450,
+  "health" : 2.5,
+
+  "apexDescription" : "A statue of a sacred warlord, I presume. Its fists look particularly heavy yet refined.",
+  "avianDescription" : "This massive statue appears to be at least partially mechanized. It resembles our Avolite-powered automata.",
+  "floranDescription" : "Big ssstone warrior. Metal pieces shine through cracksss on armsss and chesst.",
+  "glitchDescription" : "Analytical. It seems that this statue's massive fists were able to move at some point. Was it part of a ritual?",
+  "humanDescription" : "Chances are, this statue depicts either an ancient deity or a ruler. My scanner shows traces of metal inside its arms.",
+  "hylotlDescription" : "A shoddily constructed stone idol. Its clenched fists clearly got more attention to detail compared to the rest of the body.",
+  "novakidDescription" : "A tall warrior with bad teeth. I spot some pieces o' eroded metal in these huge cuffs.",
+
+  "inventoryIcon" : "atprk_fenronstatuebigicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fenronstatuebig.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

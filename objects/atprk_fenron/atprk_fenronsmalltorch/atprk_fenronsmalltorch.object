@@ -1,0 +1,124 @@
+{
+  "objectName" : "atprk_fenronsmalltorch",
+  "colonyTags" : ["atprk_fenron","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "description" : "A torch protected by a sturdy stone shell.",
+  "shortdescription" : "Refined Stone Torch",
+  "race" : "generic",
+  "price" : 25,
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "An old stone torch.",
+  "avianDescription" : "A wall-mounted stone torch.",
+  "floranDescription" : "Thisss rock holdsss fire.",
+  "glitchDescription" : "Neutral. It's a torch in a stone cup.",
+  "humanDescription" : "An ancient stone torch.",
+  "hylotlDescription" : "A stone torch.",
+  "novakidDescription" : "An ol' torch.",
+
+  "lightColor" : [179, 149, 107],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk_fenronsmalltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronsmalltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "atprk_fenronsmalltorch.png",
+        "fg" : "atprk_fenronsmalltorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "atprk_fenronsmalltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "atprk_fenronsmalltorch.png",
+        "fg" : "atprk_fenronsmalltorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "atprk_fenronsmalltorchleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "atprk_fenronsmalltorchleft.png",
+        "fg" : "atprk_fenronsmalltorchleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "atprk_fenronsmalltorchright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "atprk_fenronsmalltorchright.png",
+        "fg" : "atprk_fenronsmalltorchrightlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0], [1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "atprk_fenronsmalltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "atprk_fenronsmalltorch.png",
+        "fg" : "atprk_fenronsmalltorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  "animation" : "atprk_fenronsmalltorch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  // "interactive" : false,
+  "inputNodes" : [ [0, 0] ]
+}

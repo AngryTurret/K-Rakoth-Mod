@@ -1,0 +1,72 @@
+{
+  "objectName" : "atprk_fenrontotemlamp",
+  "colonyTags" : ["atprk_fenron","light"],
+  "rarity" : "Uncommon",
+  "description" : "One can give this totem fiery hair.",
+  "shortdescription" : "Fiery Stone Totem",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 115,
+  "printable" : false,
+  "maximumLiquidLevel" : 1,
+
+  "apexDescription" : "A totem with another face on its back.",
+  "avianDescription" : "A two-faced pagan idol watches over this place.",
+  "floranDescription" : "Ssstone head with two faces. Floran can light it up.",
+  "glitchDescription" : "Attentive. Something is engraved on this totem's back.",
+  "humanDescription" : "This short totem hides the second face on its other side.",
+  "hylotlDescription" : "An idol of two faces guards this passage.",
+  "novakidDescription" : "There's somethin' hidden behind this rocky head.",
+
+  "lightColor" : [143, 107, 179],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk_fenrontotemlampicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenrontotemlamp.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_fenrontotemlamp.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "atprk_fenrontotemlamp.animation",
+  "animationParts" : {
+    "bg" : "atprk_fenrontotemlamp.png",
+    "fg" : "atprk_fenrontotemlamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  // "interactive" : false,
+
+  "inputNodes" : [ [0, 2] ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectName" : "atprk_fenronwalltorch",
+  "colonyTags" : ["atprk_fenron","light"],
+  "rarity" : "Common",
+  "description" : "A wall torch shaped like a predator's head.",
+  "shortdescription" : "Fenron Torch",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 75,
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A torch shaped like a roaring animal.",
+  "avianDescription" : "Its glowing maw and eyes can be seen from afar.",
+  "floranDescription" : "Thiss sstone beassst breathes fire!",
+  "glitchDescription" : "Startled. If it wasn't for a fiery plume, this would look like a living being.",
+  "humanDescription" : "I'd be mad too if my throat burned like this.",
+  "hylotlDescription" : "A hostile-looking torch for sure.",
+  "novakidDescription" : "A wild beast with a fiery breath.",
+
+  "lightColor" : [179, 149, 107],
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "atprk_fenronwalltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_fenronwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+    
+      "direction" : "left",
+      "flipImages" : true,
+    
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-7, 0]
+    },
+  {
+      "image" : "atprk_fenronwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+    
+      "direction" : "right",
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-7, 0]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "atprk_fenronwalltorch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk_fenronwalltorch.png",
+    "fg" : "atprk_fenronwalltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 1] ]
+}
