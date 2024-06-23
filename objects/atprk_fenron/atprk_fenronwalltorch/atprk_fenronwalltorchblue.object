@@ -12,10 +12,10 @@
   "apexDescription" : "A torch shaped like a roaring animal.",
   "avianDescription" : "Its glowing maw and eyes can be seen from afar.",
   "floranDescription" : "Thiss sstone beassst breathes fire!",
-  "glitchDescription" : "Startled. If it wasn't for a fiery plume, this would look like a living being.",
+  "glitchDescription" : "Startled. If it wasn't for the fiery plume, this would look like a living being.",
   "humanDescription" : "I'd be mad too if my throat burned like this.",
   "hylotlDescription" : "A hostile-looking torch for sure.",
-  "novakidDescription" : "A wild beast with a fiery breath.",
+  "novakidDescription" : "A wild beast with fiery breath.",
 
   "lightColor" : [107, 166, 179],
   "flickerPeriod" : 0.2,
