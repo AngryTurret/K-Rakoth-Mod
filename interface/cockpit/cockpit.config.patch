@@ -150,5 +150,27 @@
     { "op": "add", "path": "/displayDungeons/atprk_seatrench", "value": 
     {"description" : "A deep oceanic trench populated by exotic lifeforms.", "icon" : "/interface/cockpit/dungeons/atprk_seatrench.png" }
     }
-  ]
+  ],
+[
+{ "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower/ps_icon", "value": "/objects/atprk_glitchdevout/atprk_glitcharmor/atprk_glitcharmoricon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower/ps_name", "value": "Glitch Devout Tower" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_krakothoceanruins/ps_icon", "value": "/objects/atprk_krakoth/atprk-coraltree2/atprk-coraltree2icon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_krakothoceanruins/ps_name", "value": "K'Rakothan Underwater Ruins" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_apexarea48/ps_icon", "value": "/objects/atprk_apexarea48/atprk_apextestgun/atprk_apextestgunicon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_apexarea48/ps_name", "value": "Area 48" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_krakothchurch/ps_icon", "value": "/objects/atprk_gilded/atprk-gildedemblemlarge/atprk-gildedemblemlargeicon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_krakothchurch/ps_name", "value": "Church of Ri'shaan" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_krakothlab/ps_icon", "value": "/objects/atprk_krakoth/atprk-eldritchterraformerframe/atprk-eldritchterraformerframeicon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_krakothlab/ps_name", "value": "Terraforming Laboratory" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_krakothcitadel/ps_icon", "value": "/objects/atprk_krakoth/atprk-krakothrulerstatue/atprk-krakothrulerstatueicon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_krakothcitadel/ps_name", "value": "Sunken Citadel" },
+
+{ "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_icon", "value": "/objects/atprk_breakable/atprk_seatrenchstar1/atprk_seatrenchstar1icon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_name", "value": "Deep Sea Trench" }
+]
 ]
