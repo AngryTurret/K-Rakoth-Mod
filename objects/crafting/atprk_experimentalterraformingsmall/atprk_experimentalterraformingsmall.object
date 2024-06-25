@@ -14,7 +14,7 @@
   },
 
   "printable" : false,
-  "description" : "Experimental Microforming Console, a more compact version of the Experimental Microforming Station.",
+  "description" : "The Experimental Microforming Console, a more compact version of the Experimental Microforming Station.",
   "shortdescription" : "EM Console",
   "race" : "generic",
   "category" : "crafting",
