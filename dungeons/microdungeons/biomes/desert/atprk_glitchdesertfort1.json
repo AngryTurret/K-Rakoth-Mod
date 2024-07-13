@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2VEOgjAQBNBeQA\/hVbiYt+PPM2limmC1Ztvu7C7tTDI\/fKCPUqCwp3TfWZZlWZZlWZZVbQqeFYy1rOIss5I1ZyVrDr3zWnPonTsrWXNQ3uuhrduQQXq39G2TbEMG4c3jtaXP8ZNsQ4fzd+7Qq5NyjkpqEZT30lGLcHx1snXUIvTqhF566cUHtQaO6NV+v3Fc6\/R40WvD1b2j5tr6tqUoL+L98\/H\/9jw\/e3hHzFHHd6VvSIjvhDdgrZxSO9LaatYw5j5e+ytrYc399fu1nt1qaa7tj944Xm1rZK\/2vI3sRVnpPbdXMk\/offeq0B4v8lz+5+1ZB5a19EqsM41vj7fn3Y209NrPXXrpndmrcU2WXKujeDXuuZJ7sbb1jOPr4fV6fh61tpjptfVqWVvPa69qeyObEdYVvVHdaG80s4U3itnKGsXt4fVwezot3d62EXvLMfJ2zNQnk8+trA==",
+         "data":"eJzt2cGNwjAQBVA3AEVsK2mMG0VsQdyoiZVWlrxegsbO\/JmJ53\/pX3IIPByH2HmUcnuwLMuyLMuyLKvaEjwZjHvJ4uyTyVqTyVpD77rWGnrXTiZrDcp7bTp6DBmkdyv\/bZJjyCC8dby28nf8JMfQ4fxdO\/TqpJ+jkloE5b1M1CIcX51sE7UIvTqhl1568UGtgSN6tfc32rXOjBe9NszuPWreW9+OFOVF7D+333fm+dnDe8QcdXwzvUNCvCf8AtbKKbUjraNmDWPt8+d8fS2ste8+f69nt1qa985HbxyvtjWyV3veRvairPSe2yuZJ\/T+9qrQGS\/yWv7knVkH9rX0Sqwrje+Md2bvRlp67efujPfddbu69940g\/e76Zm90vtuP76j9+ooXuleaz++o\/\/F2tYzjq+H1+v5+ah1xEyvrVfLOnpde1XbG9mMsGb0RnWjvdHMFt4oZitrFLeH18Pt6bR0e9uO2Ed+I2\/HSn0BJaOyJQ==",
          "encoding":"base64",
          "height":80,
          "name":"back",
@@ -1819,69 +1819,6 @@
                 }, 
                 {
                  "height":8,
-                 "id":847,
-                 "name":"",
-                 "properties":
-                    {
-                     "back":"tombbrick",
-                     "colorVariant":"7"
-                    },
-                 "propertytypes":
-                    {
-                     "back":"string",
-                     "colorVariant":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":184,
-                 "x":128,
-                 "y":520
-                }, 
-                {
-                 "height":8,
-                 "id":848,
-                 "name":"",
-                 "properties":
-                    {
-                     "back":"tombbrick",
-                     "colorVariant":"7"
-                    },
-                 "propertytypes":
-                    {
-                     "back":"string",
-                     "colorVariant":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":184,
-                 "x":128,
-                 "y":504
-                }, 
-                {
-                 "height":40,
-                 "id":849,
-                 "name":"",
-                 "properties":
-                    {
-                     "back":"tombbrick3",
-                     "colorVariant":"7"
-                    },
-                 "propertytypes":
-                    {
-                     "back":"string",
-                     "colorVariant":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":184,
-                 "x":128,
-                 "y":464
-                }, 
-                {
-                 "height":8,
                  "id":850,
                  "name":"",
                  "properties":
@@ -1945,7 +1882,154 @@
                 }, 
                 {
                  "height":8,
-                 "id":853,
+                 "id":854,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":200,
+                 "y":480
+                }, 
+                {
+                 "height":8,
+                 "id":855,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":128,
+                 "y":520
+                }, 
+                {
+                 "height":8,
+                 "id":856,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":128,
+                 "y":504
+                }, 
+                {
+                 "height":40,
+                 "id":857,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":200,
+                 "y":488
+                }, 
+                {
+                 "height":40,
+                 "id":858,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":232,
+                 "y":488
+                }, 
+                {
+                 "height":8,
+                 "id":859,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":240,
+                 "y":504
+                }, 
+                {
+                 "height":8,
+                 "id":860,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":240,
+                 "y":520
+                }, 
+                {
+                 "height":8,
+                 "id":861,
                  "name":"",
                  "properties":
                     {
@@ -1960,9 +2044,93 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":184,
+                 "width":72,
                  "x":128,
                  "y":512
+                }, 
+                {
+                 "height":8,
+                 "id":862,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick5",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":240,
+                 "y":512
+                }, 
+                {
+                 "height":40,
+                 "id":863,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick3",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":128,
+                 "y":464
+                }, 
+                {
+                 "height":40,
+                 "id":864,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick3",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":240,
+                 "y":464
+                }, 
+                {
+                 "height":16,
+                 "id":865,
+                 "name":"",
+                 "properties":
+                    {
+                     "back":"tombbrick3",
+                     "colorVariant":"7"
+                    },
+                 "propertytypes":
+                    {
+                     "back":"string",
+                     "colorVariant":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":200,
+                 "y":464
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2057,7 +2225,7 @@
                  "visible":true,
                  "width":8,
                  "x":216,
-                 "y":488
+                 "y":480
                 }, 
                 {
                  "gid":6249,
@@ -2236,7 +2404,7 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":240,
+                 "x":248,
                  "y":504
                 }, 
                 {
@@ -2248,7 +2416,7 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":176,
+                 "x":168,
                  "y":504
                 }, 
                 {
@@ -2536,7 +2704,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":854,
+ "nextobjectid":866,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
