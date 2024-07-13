@@ -172,5 +172,27 @@
 
 { "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_icon", "value": "/objects/atprk_breakable/atprk_seatrenchstar1/atprk_seatrenchstar1icon.png" },
 { "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_name", "value": "Deep Sea Trench" }
+],
+[
+{ "op": "add", "path": "/displayBiomes/atprk_amber", "value": { "name": "Amber", "icon": "/items/materials/atprk_amberblock.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_ancientnecropolis", "value": { "name": "Ancient Necropolis", "icon": "/items/generic/crafting/atprk_ancientshards.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_forgottenmountains", "value": { "name": "Forgotten Mountains", "icon": "/objects/atprk_forgotten/atprk_forgottenbanner1/atprk_forgottenbanner1icon.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_glaciovolcanic", "value": { "name": "Glaciovolcanic", "icon": "/items/generic/crafting/atprk_noolithshard0.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_hungergrove", "value": { "name": "Hunger Grove", "icon": "/items/generic/crafting/atprk_fenronbasrelief0.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_navalminefield", "value": { "name": "Underwater Minefield", "icon": "/objects/atprk_breakable/atprk_krakothminefake/atprk_krakothminefakeicon.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_polluted", "value": { "name": "Polluted", "icon": "/items/generic/crafting/atprk_encryptionkey0.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_radiotrophic", "value": { "name": "Radiotrophic Forest", "icon": "/items/materials/atprk_radiotrophicwood.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_shipgraveyard", "value": { "name": "Ship Graveyard", "icon": "/objects/atprk_breakable/atprk_virtualconsolebroken/atprk_virtualconsolebrokenicon.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_sponge", "value": { "name": "Sponge", "icon": "/items/materials/atprk_spongeblock.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_ambercaves", "value": { "name": "Amber Caves", "icon": "/items/materials/atprk_amberblock.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_bluecaves", "value": { "name": "Blue Caves", "icon": "/items/materials/biorock2.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_chthoniccomplex", "value": { "name": "Chthonic Complex", "icon": "/items/generic/crafting/atprk_chthonicscraps.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_cryonicvents", "value": { "name": "Cryonic Vents", "icon": "/items/materials/atprk_frozenfishwater.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_deepnecropolis", "value": { "name": "Deep Necropolis", "icon": "/items/generic/crafting/atprk_ancientshards.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_flattenedhulls", "value": { "name": "Flattened Hulls", "icon": "/items/generic/crafting/atprk_betarobotpart0.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_grosscatacombs", "value": { "name": "Gross Catacombs", "icon": "/items/materials/sewage.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_irradiatedroots", "value": { "name": "Irradiated Roots", "icon": "/items/materials/atprk_radiotrophicwood.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_noolithbirthplace", "value": { "name": "Noolith Birthplace", "icon": "/items/generic/other/atprk_shapelessprism.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_rottensanctum", "value": { "name": "Rotten Sanctum", "icon": "/items/materials/atprk_deadtentacleblock.png" } }
 ]
 ]
