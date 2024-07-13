@@ -10,7 +10,7 @@
   "animation" : "atprk_krakothsmalldrone.animation",
   "reversed" : true,
 
-  "dropPools" : [ { "default" : "atprk_krakothrobotTreasure" } ],
+  "dropPools" : [ { "default" : "atprk_krakothsmalldroneTreasure" } ],
 
   "baseParameters" : {
     "scripts" : [
