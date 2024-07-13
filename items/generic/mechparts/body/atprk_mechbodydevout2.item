@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodydevout2",
+  "price" : 11200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodydevout2.png",
+  "description" : "An intimidating mech body designed to look like a massive knight.",
+  "shortdescription" : "Templar-2 Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atprk_devout2"]
+}

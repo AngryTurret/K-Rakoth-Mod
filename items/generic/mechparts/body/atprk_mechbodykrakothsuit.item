@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodykrakothsuit",
+  "price" : 11200,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodykrakothsuit.png",
+  "description" : "K'Rakothan power armor turned into a mech body.",
+  "shortdescription" : "Nautilus Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atprk_krakothsuit"]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodyrelicseeker",
+  "price" : 8000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodyrelicseeker.png",
+  "description" : "This mech body is often deployed on archaelogical sites.",
+  "shortdescription" : "Relic Seeker Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atprk_relicseeker"]
+}

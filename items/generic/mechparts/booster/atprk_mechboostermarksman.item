@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechboostermarksman",
+  "price" : 6720,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbooster",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechboostermarksman.png",
+  "description" : "Combat-oriented mech boosters. The guns are sadly just for show.",
+  "shortdescription" : "Marksman Mech Boosters",
+  "itemTags" : [ ],
+
+  "mechPart" : ["booster", "atprk_marksman"]
+}

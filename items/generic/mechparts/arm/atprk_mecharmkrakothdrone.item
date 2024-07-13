@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmkrakothdrone",
+  "price" : 6200,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmkrakothdrone.png",
+  "description" : "This mech arm deploys combat drones.",
+  "shortdescription" : "Eldrone Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_krakothdronelauncher"]
+}

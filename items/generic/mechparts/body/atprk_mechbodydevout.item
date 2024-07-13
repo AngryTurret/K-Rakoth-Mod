@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodydevout",
+  "price" : 8000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodydevout.png",
+  "description" : "A bulky armored mech body used by the Glitch Devouts.",
+  "shortdescription" : "Templar Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atprk_devout"]
+}

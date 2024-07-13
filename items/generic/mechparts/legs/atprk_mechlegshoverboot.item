@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechlegshoverboot",
+  "price" : 4480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mechlegs",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechlegshoverboot.png",
+  "description" : "Sleek mech legs that make use of K'Rakothan hoverpad technology.",
+  "shortdescription" : "Hoverboot Mech Legs",
+  "itemTags" : [ ],
+
+  "mechPart" : ["legs", "atprk_hoverboot"]
+}
