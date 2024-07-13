@@ -115,5 +115,32 @@
 		"order" : 82,
 		"item" : "atprk_algeistaf"
 	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_krakothsmalldroneaf",
+	  "value": 		
+	  {
+		"order" : 83,
+		"item" : "atprk_krakothsmalldroneaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_krakothpatroldroneaf",
+	  "value": 		
+	  {
+		"order" : 84,
+		"item" : "atprk_krakothpatroldroneaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_krakothmantisdroneaf",
+	  "value": 		
+	  {
+		"order" : 85,
+		"item" : "atprk_krakothmantisdroneaf"
+	  }
 	}
 ]
