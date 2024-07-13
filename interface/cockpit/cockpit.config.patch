@@ -4,9 +4,9 @@
       "op" : "add",
       "path" : "/visitableTypeDescription/atprk_boilingocean",
       "value" : [
-        "An ^#837ad7;aquatic planet^white; subjected to ^red;deadly heat^white;. Since oceanic water evaporates constantly, rainfall is extremely common here.",
+        "A ^#837ad7;boiling ocean^white; subjected to ^red;deadly heat^white;. Since oceanic water evaporates constantly, rainfall is extremely common here.",
         "This ^red;dangerously hot^white; planet is covered in a large ^#837ad7;boiling ocean^white;. Unless you want to get multiple burns all over your body, you should take caution before diving into this planet's waters.",
-        "A ^#837ad7;boiling oceanic^white; planet. My readings indicate that there are many ancient structures both across the surface and underwater."
+        "A ^#837ad7;boiling oceanic^white; planet. My readings indicate that there are many ancient structures both across the surface and underwater, somehow able to withstand ^red;the incredible heat^white;."
       ]
     },
     {
@@ -23,9 +23,9 @@
       "op" : "add",
       "path" : "/visitableTypeDescription/atprk_ashworld",
       "value" : [
-        "This ^#ffc053;ash-covered^white; planet appears to be relatively young. My sensors indicate occasional pools of lava and numerous lifeforms adapted to high temperatures.",
-        "The landing location is covered in a thick layer of ^#ffc053;volcanic ash^white;. Despite high temperatures, this planet is still habitable to most lifeforms.",
-        "Aside from ^#ffc053;ashy^white; mountains and small pools of hot lava, the current landing site is dotted with Glitch-built structures. Caution is advised."
+        "This ^#ffc053;ash^white;-covered planet appears to be relatively young. My sensors indicate occasional pools of lava and numerous lifeforms adapted to high temperatures.",
+        "The landing location is covered in a thick layer of volcanic ^#ffc053;ash^white;. Despite high temperatures, this planet is still habitable to most lifeforms.",
+        "Aside from ^#ffc053;ash^white; dusted mountains and small pools of hot lava, the current landing site is dotted with Glitch-built structures. Caution is advised."
       ]
     },
     {
@@ -42,9 +42,9 @@
       "op" : "add",
       "path" : "/visitableTypeDescription/atprk_chthonianmoon",
       "value" : [
-        "This moon appears to be the ^#68878e;former core^white; of a gas giant: its dense surface is rich in metals. ^red;A lack of breathable atmosphere^white; and ^red;extreme gravity^white; necessitate caution.",
+        "This moon appears to be the ^#68878e;chthonian^white; core of a former gas giant: its dense surface is rich in metals. ^red;A lack of breathable atmosphere^white; and ^red;extreme gravity^white; necessitate caution.",
         "The beam site is of ^#68878e;chthonian^white; terrain with ^red;no breatheable atmosphere^white;. On top of that, its metallic composition is responsible for ^red;increased gravity^white;.",
-        "This ^#68878e;chthonian^white; moon contains dense deposits of fuel and metals ready for extraction. As a downside, its ^red;intense gravity^white; will most likely crush your body."
+        "This ^red;airless^white; ^#68878e;chthonian^white; moon contains dense deposits of fuel and metals ready for extraction. As a downside, its ^red;intense gravity^white; will most likely crush your body."
       ]
     },
     {
@@ -61,8 +61,8 @@
       "op" : "add",
       "path" : "/visitableTypeDescription/atprk_ruinedworld",
       "value" : [
-        "After a successful process of hostile terraforming, this planet has become a new host for ^#641929;the Ruin^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
-        "What once was a potentially habitable planet now is nothing but ^#641929;a ferocious mass of tentacles^white;. By bringing this superorganism back into existence, ^red;you have officially betrayed the Terrene Protectorate^white;.",
+        "After a successful process of hostile terraforming, this planet has become a new host for the Ruin and its ^#641929;tentacles^white;. I wholeheartedly ^red;judge^white; you for what you've done here.",
+        "What once was a potentially habitable planet now is nothing but a ferocious mass of ^#641929;tentacles^white;. By bringing this superorganism back into existence, ^red;you have officially betrayed the Terrene Protectorate^white;.",
         "We have managed to terraform this whole planet into a colossal, hateful living being made of ^#641929;tentacles^white;. Captain, ^red;are we the baddies now^white;?"
       ]
     },
