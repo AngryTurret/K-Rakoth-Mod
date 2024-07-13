@@ -1,0 +1,48 @@
+[
+  {
+    "op" : "add",
+    "path" : "/atprk_glyphrunner",
+    "value" : {
+	  "stats" : {
+		"speed" : 7,
+		"jump" : 6
+	  },
+	  "partParameters" : {},
+	  "partImages" : {
+		"backLeg" : "leg/atprk_glyphrunner.png",
+		"backLegFullbright" : "leg/atprk_glyphrunner_fullbright.png",
+		"backLegJoint" : "legjoint/atprk_glyphrunner_back.png",
+		"frontLeg" : "leg/atprk_glyphrunner.png",
+		"frontLegFullbright" : "leg/atprk_glyphrunner_fullbright.png",
+		"frontLegJoint" : "legjoint/atprk_glyphrunner_front.png",
+		"hips" : "hips/atprk_glyphrunner.png"
+	  },
+	  "defaultPrimaryColors" : ["7c9484", "5e7366", "3f4d43", "202a23"],
+	  "defaultSecondaryColors" : ["757575", "474747", "292929", "151515"],
+	  "animationCustom" : {}
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_hoverboot",
+    "value" : {
+	  "stats" : {
+		"speed" : 6,
+		"jump" : 7
+	  },
+	  "partParameters" : {},
+	  "partImages" : {
+		"backLeg" : "leg/atprk_hoverboot.png",
+		"backLegFullbright" : "leg/atprk_hoverboot_fullbright.png",
+		"backLegJoint" : "legjoint/atprk_hoverboot.png",
+		"frontLeg" : "leg/atprk_hoverboot.png",
+		"frontLegFullbright" : "leg/atprk_hoverboot_fullbright.png",
+		"frontLegJoint" : "legjoint/atprk_hoverboot.png",
+		"hips" : "hips/atprk_hoverboot.png"
+	  },
+	  "defaultPrimaryColors" : ["7c9484", "5e7366", "3f4d43", "202a23"],
+	  "defaultSecondaryColors" : ["4e6355", "38473d", "212a24", "060706"],
+	  "animationCustom" : {}
+	}
+  }
+]

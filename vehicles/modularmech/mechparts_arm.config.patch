@@ -486,4 +486,85 @@
 			}
 		}
 	}
+},
+{
+	"op": "add",
+	"path": "/atprk_krakothdronelauncher",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/dronelauncher.lua",
+			"armClass": "DroneLauncher",
+			"rotationLimits": [-0.7, 0.6],
+			"fireOffset": [4, 0],
+			"deployTime": 0.4,
+			"launchTiming": 0.25,
+			"cooldownTime": 10,
+
+			"droneOrbitRate" : 0.8,
+			"droneOrbitDistance" : 4,
+
+			"maxDrones": 3,
+			"droneMonsterType": "atprk_mechkrakothdrone",
+			"droneParameters": {
+				"movementMode": "Orbit",
+				"attackMode": "Target",
+				"targetRange": 40,
+				"duration": 120,
+				"statusSettings": {
+					"stats": {
+						"flatMaxHealth": {
+							"baseValue": 3500
+						}
+					}
+				},
+				"gun": {
+					"fireDelay": 0.8,
+					"fireTime": 0.3,
+					"fireOffset": [2, 0],
+					"projectileType": "atprk_aeonenergybullet",
+					"projectileParameters": {
+						"speed": 70,
+						"power": 25
+					},
+					"projectileCount": 2,
+					"projectileSpacing": [0, 3.0]
+				}
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_krakothdronelauncher.png",
+			"<armName>Fullbright": "arm/atprk_krakothdronelauncher_fullbright.png"
+		},
+		"defaultPrimaryColors": ["7c9484",
+			"5e7366",
+			"3f4d43",
+			"202a23"
+		],
+		"defaultSecondaryColors": ["4e6355",
+			"38473d",
+			"212a24",
+			"060706"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+							"windup": {
+								"mode": "end"
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Activate": ["/sfx/gun/mech_plasmadrone1.ogg"],
+				"<armName>Recover": ["/sfx/gun/mech_shielddrone_recover1.ogg"]
+			}
+		}
+	}
 }]

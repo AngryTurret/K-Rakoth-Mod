@@ -1,0 +1,123 @@
+[
+  {
+    "op" : "add",
+    "path" : "/atprk_devout",
+    "value" : {
+	  "stats" : {
+		"energy" : 3,
+		"protection" : 5
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_devout_back.png",
+		"bodyFront" : "body/atprk_devout_front.png",
+		"bodyFullbright" : "body/atprk_devout_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "838383", "555555", "383838", "151515" ],
+	  "defaultSecondaryColors" : [ "c0ab5e", "9b7e14", "6b5509", "342804" ],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+			"sitPosition" : [0.75, 0.25]
+		}}}}
+	  }
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_devout2",
+    "value" : {
+	  "stats" : {
+		"energy" : 5,
+		"protection" : 7
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_devout2_back.png",
+		"bodyFront" : "body/atprk_devout2_front.png",
+		"bodyFullbright" : "body/atprk_devout2_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "9da8af", "676f83", "3d3d51", "24232f" ],
+	  "defaultSecondaryColors" : [ "fbdf71", "d9b035", "a26f03", "664601" ],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+			"sitPosition" : [0.75, 0.25]
+		}}}}
+	  }
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_relicseeker",
+    "value" : {
+	  "stats" : {
+		"energy" : 5,
+		"protection" : 3
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_relicseeker_back.png",
+		"bodyFront" : "body/atprk_relicseeker_front.png",
+		"bodyFullbright" : "body/atprk_relicseeker_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "976750", "714f3c", "513a2d", "36261e" ],
+	  "defaultSecondaryColors" : [ "7bf271", "35a52b", "1a6921", "0e3a14" ],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+			"sitPosition" : [0.56, 0.25]
+		}}}}
+	  }
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_krakothrobo",
+    "value" : {
+	  "stats" : {
+		"energy" : 7,
+		"protection" : 6
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat", "atprk_4ddistortion"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_krakothrobo_back.png",
+		"bodyFront" : "body/atprk_krakothrobo_front.png",
+		"bodyFullbright" : "body/atprk_krakothrobo_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "7c9484", "5e7366", "3f4d43", "202a23" ],
+	  "defaultSecondaryColors" : [ "4e6355", "38473d", "212a24", "060706" ],
+	  "animationCustom" : {}
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_krakothsuit",
+    "value" : {
+	  "stats" : {
+		"energy" : 6,
+		"protection" : 7
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat", "atprk_4ddistortion"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_krakothsuit_back.png",
+		"bodyFront" : "body/atprk_krakothsuit_front.png",
+		"bodyFullbright" : "body/atprk_krakothsuit_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "7c9484", "5e7366", "3f4d43", "202a23" ],
+	  "defaultSecondaryColors" : [ "757575", "474747", "292929", "151515" ],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+			"sitPosition" : [0.55, 0.28]
+		}}}}
+	  }
+	}
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "op" : "add",
+    "path" : "/atprk_hoverpads",
+    "value" : {
+	  "stats" : {
+		"speed" : 6,
+		"control" : 7
+	  },
+	  "partParameters" : {},
+	  "partImages" : {
+		"backBoosterBack" : "booster/atprk_hoverpads_back_back.png",
+		"backBoosterFullbright" : "boosterflame/atprk_hoverpads_back.png",
+		"backBoosterFront" : "booster/atprk_hoverpads_back_front.png",
+		"frontBoosterBack" : "booster/atprk_hoverpads_front_back.png",
+		"frontBoosterFullbright" : "boosterflame/atprk_hoverpads_front.png",
+		"frontBoosterFront" : "booster/atprk_hoverpads_front_front.png"
+	  },
+	  "defaultPrimaryColors" : ["7c9484", "5e7366", "3f4d43", "202a23"],
+	  "defaultSecondaryColors" : ["4e6355", "38473d", "212a24", "060706"],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : {
+		  "frontBoosterFullbright" : { "properties" : {
+		    "zLevel" : 10.5
+		  }}
+		}}
+	  }
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_marksman",
+    "value" : {
+	  "stats" : {
+		"speed" : 7,
+		"control" : 6
+	  },
+	  "partParameters" : {},
+	  "partImages" : {
+		"backBoosterBack" : "booster/atprk_marksman_back_back.png",
+		"backBoosterFullbright" : "boosterflame/atprk_marksman_back.png",
+		"backBoosterFront" : "booster/atprk_marksman_back_front.png",
+		"frontBoosterBack" : "booster/atprk_marksman_front_back.png",
+		"frontBoosterFullbright" : "boosterflame/atprk_marksman_front.png",
+		"frontBoosterFront" : "booster/atprk_marksman_front_front.png"
+	  },
+	  "defaultPrimaryColors" : ["7c9484", "5e7366", "3f4d43", "202a23"],
+	  "defaultSecondaryColors" : ["757575", "474747", "292929", "151515"],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : {
+		  "frontBoosterFullbright" : { "properties" : {
+		    "zLevel" : 10.5
+		  }}
+		}}
+	  }
+	}
+  }
+]
