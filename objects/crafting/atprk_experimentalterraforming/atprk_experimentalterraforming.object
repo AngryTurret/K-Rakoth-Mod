@@ -7,7 +7,7 @@
     "config" : "/interface/windowconfig/atprk_experimentalterraforming.config"
     },
   "printable" : false,
-  "description" : "Experimental Microforming Station, a K'Rakothan machine used for microformer creation.",
+  "description" : "The Experimental Microforming Station, a K'Rakothan machine used for microformer creation.",
   "shortdescription" : "EM Station",
   "race" : "generic",
   "category" : "crafting",
