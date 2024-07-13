@@ -20,7 +20,10 @@
           },
           "attack" : {
             "frames" : 4,
-            "cycle" : 0.2
+            "cycle" : 0.2,
+            "properties" : {
+              "immediateSound" : "/sfx/melee/swing_dagger.ogg"
+            }
           },
           "jump" : {
             "frames" : 4,
