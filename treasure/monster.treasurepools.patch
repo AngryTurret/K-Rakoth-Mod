@@ -242,6 +242,42 @@
    ]		
   },
   {"op" : "add",
+   "path" : "/atprk_krakothsmalldroneTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.70, "pool" : "atprk_krakothrobotTreasure"},
+	    {"weight" : 0.30, "item" : "stickofram"},
+	    {"weight" : 0.006, "item" : "atprk_krakothsmalldroneaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_krakothpatroldroneTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.70, "pool" : "atprk_krakothrobotTreasure"},
+	    {"weight" : 0.30, "item" : "stickofram"},
+	    {"weight" : 0.006, "item" : "atprk_krakothpatroldroneaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_krakothmantisdroneTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.70, "pool" : "atprk_krakothrobotTreasure"},
+	    {"weight" : 0.30, "item" : "stickofram"},
+	    {"weight" : 0.006, "item" : "atprk_krakothmantisdroneaf"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
    "path" : "/atprk_infinitemazerobotTreasure",
    "value" : [
 	[1, {
