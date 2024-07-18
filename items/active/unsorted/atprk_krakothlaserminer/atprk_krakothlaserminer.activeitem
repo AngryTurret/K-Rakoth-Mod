@@ -7,7 +7,7 @@
   "description" : "A long-lasting mining tool that drills with a focused energy beam.",
   "shortdescription" : "Aeon Mining Laser",
   "level" : 1,
-  "category" : "Tool",
+  "category" : "tool",
 
   "twoHanded" : true,
 
