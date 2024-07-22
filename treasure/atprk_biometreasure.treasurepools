@@ -365,7 +365,8 @@
       ],
       "pool" : [
         {"weight" : 0.7, "pool" : "basicTreasure"},
-        {"weight" : 0.3, "pool" : "atprk_glaciovolcanicTreasure"}
+        {"weight" : 0.3, "pool" : "atprk_glaciovolcanicTreasure"},
+        {"weight" : 0.1, "pool" : "crystalTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -406,7 +407,8 @@
       ],
       "pool" : [
         {"weight" : 0.8, "pool" : "basicTreasure"},
-        {"weight" : 0.2, "pool" : "atprk_noolithbirthplaceTreasure"}
+        {"weight" : 0.2, "pool" : "atprk_noolithbirthplaceTreasure"},
+        {"weight" : 0.1, "pool" : "crystalTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
