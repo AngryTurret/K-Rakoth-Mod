@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk-eldritchlamppostbroken",
+  "colonyTags" : ["atprk_krakoth"],
+  "rarity" : "Common",
+  "description" : "A thoroughly ruined lamp post.",
+  "shortdescription" : "Eldritch Lamp Post",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 85,
+
+  "apexDescription" : "A heavily damaged tubular lamp post.",
+  "avianDescription" : "This lamp post must have experienced a harsh impact from above.",
+  "floranDescription" : "Sssmashed tube.",
+  "glitchDescription" : "Aloof. A broken lamp post, not much to see here.",
+  "humanDescription" : "Someone or something decided to destroy this lamp post.",
+  "hylotlDescription" : "This lamp post was denied its original purpose.",
+  "novakidDescription" : "This lamp post must've blown up from the inside.",
+
+  "inventoryIcon" : "atprk-eldritchlamppostbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-eldritchlamppostbroken.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
