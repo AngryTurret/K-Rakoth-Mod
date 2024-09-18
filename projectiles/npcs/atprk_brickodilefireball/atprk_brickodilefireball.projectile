@@ -1,0 +1,20 @@
+{
+  "projectileName" : "atprk_brickodilefireball",
+  "physics" : "bullet",
+  "image" : "atprk_brickodilefireball.png",
+  "speed" : 20,
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "fullbright" : true,
+  "renderLayer" : "Monster+1",
+  "lightColor" : [96, 58, 29],
+
+  "timeToLive" : 5.0,
+  "power" : 50,
+  "emitters" : [ "fireplasma", "flames" ],
+  "damageKind" : "fireplasma",
+  "statusEffects" : [
+    "burning"
+  ],
+  "hydrophobic" : true
+}
