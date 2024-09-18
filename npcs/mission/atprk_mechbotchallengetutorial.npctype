@@ -1,0 +1,275 @@
+{
+  "type" : "atprk_mechbotchallengetutorial",
+  "baseType" : "villager",
+
+  "identity" : {
+    "name" : "Randy",
+    "gender" : "male",
+    "imagePath" : "atprk_npcrandy",
+    "hairGroup" : "hair",
+    "hairType" : "1",
+    "personalityIdle" : "idle.1",
+    "personalityArmIdle" : "idle.1"
+  },
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "chatSounds" : {
+      "default" : {
+        "male" : [
+          "/sfx/humanoid/robothurt_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/robothurt_female2.ogg"
+        ]
+      },
+      "human" : {
+        "male" : [
+          "/sfx/humanoid/robothurt_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/robothurt_female2.ogg"
+        ]
+      }
+    },
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Here we are! This place is huge!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a skilled mech pilot like you can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "glitch" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "human" : [
+            "Here we are! This place is huge!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a skilled mech pilot like you can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "Actually, while you're still here. Any news from Earth? It's been so quiet lately...",
+            "Nevermind, maybe next time. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "novakid" : [
+            "Here we are! This place is huge!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a skilled mech pilot like you can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "Remember to look around!",
+            "..."
+          ],
+          "trink" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "droden" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "nostos" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "Indix" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "robopenguin" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "mechineki" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "hmrobotsmk1" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ],
+          "spiderdroid" : [
+            "Here we are! Two robots go on an adventure!",
+            "Our scanners show many paths ahead, don't get surprised if you don't come back the same way!",
+            "I honestly don't know how old this ziggurat is. If it hasn't crumbled to dust yet...",
+            "...then it can't be all too bad! Watch your step, and you'll fine!",
+            "I mean, you MAY run into a deadly trap or two. The ancient people loved those for some reason.",
+            "But hey, I'm sure there's nothing a fellow machine can't deal with! Good luck!",
+            "I'll stay here and wait for the archaeologist crew. They should arrive any minute now!",
+            "...",
+            "Any minute now!...",
+            "...",
+            "...",
+            "...",
+            "Okay, it might take longer. Don't worry about me, go ahead!",
+            "...",
+            "..."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              ""
+            ],
+            "chest" : [
+              ""
+            ],
+            "back" : [
+              ""
+            ],
+            "legs" : [
+              ""
+            ]
+          }
+      ]]
+    ]
+  }
+}
