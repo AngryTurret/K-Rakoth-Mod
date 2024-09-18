@@ -229,6 +229,18 @@
    ]		
   },
   {"op" : "add",
+   "path" : "/atprk_brickodileTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.40, "item" : "stonerubble"},
+	    {"weight" : 0.10, "item" : "hardenedcarapace"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
    "path" : "/atprk_krakothrobotTreasure",
    "value" : [
 	[1, {
