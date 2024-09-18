@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_brickodile",
+  "category" : "atprk_brickodile",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_brickodile.png",
+    "bodyfullbright" : "atprk_brickodilefullbright.png"
+  }
+}
