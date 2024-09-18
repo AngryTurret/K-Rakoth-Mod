@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":82,
+ "tilecount":96,
  "tileheight":96,
  "tileproperties":
     {
@@ -794,6 +794,86 @@
          "object":"atprk-krakothreceptiondesk",
          "tilesetDirection":"right"
         },
+     "82":
+        {
+         "\/\/description":"An ancient airlock door... Or is it?",
+         "\/\/name":"atprk_hiddenbossdoor",
+         "\/\/shortdescription":"Hidden Force Field",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_hiddenbossdoor",
+         "tilesetDirection":"right"
+        },
+     "83":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster1",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster1",
+         "tilesetDirection":"right"
+        },
+     "84":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster2",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster2",
+         "tilesetDirection":"right"
+        },
+     "85":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster3",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster3",
+         "tilesetDirection":"right"
+        },
+     "86":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster4",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster4",
+         "tilesetDirection":"right"
+        },
+     "87":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster5",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster5",
+         "tilesetDirection":"right"
+        },
+     "88":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster6",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster6",
+         "tilesetDirection":"right"
+        },
+     "89":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster7",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster7",
+         "tilesetDirection":"right"
+        },
      "9":
         {
          "\/\/description":"An abandoned metal crate.",
@@ -802,6 +882,66 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk-krakothcontainer2",
+         "tilesetDirection":"right"
+        },
+     "90":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster8",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster8",
+         "tilesetDirection":"right"
+        },
+     "91":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster9",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster9",
+         "tilesetDirection":"right"
+        },
+     "92":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimbooster10",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimbooster10",
+         "tilesetDirection":"right"
+        },
+     "93":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimboosterend1",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimboosterend1",
+         "tilesetDirection":"right"
+        },
+     "94":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimboosterend2",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimboosterend2",
+         "tilesetDirection":"right"
+        },
+     "95":
+        {
+         "\/\/description":"A funnel designed to speed up the flow of water.",
+         "\/\/name":"atprk_swimboosterend3",
+         "\/\/shortdescription":"Current Accelerator",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_swimboosterend3",
          "tilesetDirection":"right"
         }
     },
@@ -1589,7 +1729,147 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "82":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "83":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "84":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "85":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "86":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "87":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "88":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "89":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "9":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "90":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "91":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "92":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "93":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "94":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "95":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -2088,10 +2368,94 @@
          "imageheight":16,
          "imagewidth":48
         },
+     "82":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_hiddenbossdoor.png",
+         "imageheight":40,
+         "imagewidth":16
+        },
+     "83":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster1.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "84":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster2.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "85":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster3.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "86":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster4.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "87":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster5.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "88":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster6.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "89":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster7.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
      "9":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcontainer2.png",
          "imageheight":16,
+         "imagewidth":24
+        },
+     "90":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster8.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "91":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster9.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "92":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimbooster10.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "93":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimboosterend1.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "94":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimboosterend2.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "95":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimboosterend3.png",
+         "imageheight":24,
          "imagewidth":24
         }
     },
