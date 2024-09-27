@@ -260,7 +260,12 @@
       "loops" : -1,
       "resource" : "/sfx/interface/aichatter1_loop.ogg"
     },
-
+    {
+      "timecode" : 31.5,
+      "endTimecode" : 35.5,
+      "loops" : 0,
+      "resource" : "/sfx/instruments/drumkit/52.ogg"
+    },
     {
       "timecode" : 1.0,
       "endTimecode" : 31.5,
