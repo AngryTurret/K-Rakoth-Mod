@@ -1,0 +1,9 @@
+{
+  "name" : "body3",
+  "category" : "atprk_spacerockenemy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body3.png"
+  }
+}
