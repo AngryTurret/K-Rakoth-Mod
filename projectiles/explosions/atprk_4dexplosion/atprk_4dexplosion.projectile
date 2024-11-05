@@ -1,0 +1,15 @@
+{
+  "projectileName" : "atprk_4dexplosion",
+  "image" : "atprk_4dexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [101, 0, 105],
+  "pointLight" : true,
+  "damagePoly" : [ [-27, 0], [-18, -18], [0, -27], [18, -18], [27, 0], [18, 18], [0, 27], [-18, 18] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "default"
+}

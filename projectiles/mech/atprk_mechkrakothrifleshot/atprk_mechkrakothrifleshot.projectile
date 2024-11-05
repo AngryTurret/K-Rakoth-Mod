@@ -1,0 +1,46 @@
+{
+  "projectileName" : "atprk_mechkrakothrifleshot",
+  "image" : "atprk_mechkrakothrifleshot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 5.0,
+  "speed" : 100,
+  "damageKind" : "fireplasma",
+  "knockback" : 5,
+  "fullbright" : true,
+  "flippable" : true,
+  "lightColor" : [150, 60, 120],
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 15,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "ember",
+            "size" : 1.5,
+            "color" : [255, 158, 223, 255],
+            "light" : [150, 60, 120],
+            "fullbright" : true,
+            "destructionTime" : 0.1,
+            "destructionAction" : "shrink",
+            "fade" : 0.9,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0.0, -50.0],
+            "approach" : [0, 30],
+            "timeToLive" : 0.1,
+            "layer" : "middle",
+            "variance" : {
+              "position" : [0.25, 0.25],
+              "size" : 0.3,
+              "initialVelocity" : [10, 10],
+              "timeToLive" : 0.1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
