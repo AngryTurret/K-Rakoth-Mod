@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-rishaanchurch",
  "spacing":0,
- "tilecount":43,
+ "tilecount":44,
  "tileheight":96,
  "tileproperties":
     {
@@ -360,6 +360,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk-gildedchest",
+         "tilesetDirection":"right"
+        },
+     "43":
+        {
+         "\/\/description":"A sealed tank of extradimensional particles.",
+         "\/\/name":"atprk_apexparticletank",
+         "\/\/shortdescription":"Exotic Particle Tank",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_apexparticletank",
          "tilesetDirection":"right"
         },
      "5":
@@ -763,6 +773,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "43":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1040,6 +1060,12 @@
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-gildedchest.png",
          "imageheight":16,
+         "imagewidth":16
+        },
+     "43":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_apexparticletank.png",
+         "imageheight":32,
          "imagewidth":16
         },
      "5":
