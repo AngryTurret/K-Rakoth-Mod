@@ -1,8 +1,17 @@
+--LoftyLoftyLoftyLofty
+--I have marked important changes with(\_/)
+
 require "/interface/cockpit/cockpitview.lua"
 require "/interface/cockpit/cockpitutil.lua"
 
+desiredSystemObject = "atprk_4driftspawned"
+
 -- engine callbacks
 function init()
+
+  desiredSystemObjectName = root.assetJson("/system_objects.config:atprk_4driftspawned.parameters.displayName")
+  desiredSystemObjectDesc = root.assetJson("/system_objects.config:atprk_4driftspawned.parameters.description")
+  
   View:init()
 
   self.clickEvents = {}
@@ -58,23 +67,24 @@ function configurationChanged()
 end
 
 function saveConfiguration()
-  local name = widget.getText("configure.name")
-  local description = widget.getText("configure.description")
+  local name = desiredSystemObjectName or "???"
+  local description = desiredSystemObjectDesc or "???"
   if name ~= "" and description ~= "" then
     self.configuration = {
       name = name,
       description = description
     }
-    self.configuration.name = widget.getText("configure.name")
-    self.configuration.description = widget.getText("configure.description")
+    self.configuration.name = name
+    self.configuration.description = description
     widget.setVisible("configure", false)
-    widget.setVisible("toggleConfigure", true)
+    widget.setVisible("toggleConfigure", false)
 
-    widget.setVisible("nameLabel", true)
+    widget.setVisible("nameLabel", false)
     widget.setText("nameLabel", config.getParameter("nameLabel")..name)
 
-    widget.setVisible("descriptionLabel", true)
+    widget.setVisible("descriptionLabel", false)
     widget.setText("descriptionLabel", config.getParameter("descriptionLabel")..description)
+	
     widget.focus("consoleScreenCanvas")
   end
 end
@@ -126,6 +136,7 @@ function connectState()
     end
     widget.setText("connectingLabel", config.getParameter("connectedText"))
     self.state:set(placeState, system, planets)
+	saveConfiguration()
   else
     pane.playSound(self.sounds.error)
     widget.setText("connectingLabel", string.format("%s\n%s", connect.connectText, connect.failText))
@@ -144,7 +155,7 @@ function placeState(system, planets)
 
   View:reset()
   View:setCamera("system", {0, 0}, View:systemScale(system))
-
+  
   local dotTimer = 0
   local lastValid = false
   while true do
@@ -299,7 +310,7 @@ function deployState(system, planets, deployPosition)
           displayName = self.configuration.name,
           description = self.configuration.description
         }
-        uuid = celestial.systemSpawnObject("anomaly", deployPosition, nil, parameters)
+        uuid = celestial.systemSpawnObject(desiredSystemObject, deployPosition, nil, parameters)
         deployed = true
       end
 
@@ -390,7 +401,7 @@ function renderSelection(mousePos, selectDistance, validSelection)
 
   local color
   if validSelection then
-    color = {255, 0, 255, 255}
+    color = {0, 255, 0, 255}
   else
     color = {255, 0, 0, 255}
   end
