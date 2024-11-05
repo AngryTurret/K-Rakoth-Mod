@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmkrakothrifle",
+  "price" : 6200,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmkrakothrifle.png",
+  "description" : "A fast rapid-fire mech rifle.",
+  "shortdescription" : "Aeon Rifle Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_krakothrifle"]
+}

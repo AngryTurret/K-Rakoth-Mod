@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mecharmkrakothbeamdrill",
+  "price" : 6200,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mecharmkrakothbeamdrill.png",
+  "description" : "A mech arm with a focused beam drill.",
+  "shortdescription" : "Aeon Beam Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "atprk_krakothbeamdrill"]
+}

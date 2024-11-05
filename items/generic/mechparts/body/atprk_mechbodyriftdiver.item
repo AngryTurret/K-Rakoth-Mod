@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_mechbodyriftdiver",
+  "price" : 10400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "atprk_mechbodyriftdiver.png",
+  "description" : "This experimental mech body allows to safely enter dimensional tunnels.",
+  "shortdescription" : "Riftdiver Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "atprk_riftdiver"]
+}
