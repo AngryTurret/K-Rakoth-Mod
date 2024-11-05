@@ -1,0 +1,52 @@
+{
+  "objectName" : "atprk_apexparticletank",
+  "colonyTags" : ["apex","apexresearchlab"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "description" : "A sealed tank of extradimensional particles.",
+  "shortdescription" : "Exotic Particle Tank",
+  "race" : "apex",
+  "price" : 125,
+  "printable" : false,
+  "health" : 4.5,
+
+  "apexDescription" : "Many strange glowing particles can be seen inside this tank.",
+  "avianDescription" : "These erratic motes don't look like they belong in our world.",
+  "floranDescription" : "Vibrant bitsss float behind the glass. Will they break out?",
+  "glitchDescription" : "Intrigued. This vacuum-sealed cannister contains samples of an otherworldly material.",
+  "humanDescription" : "My scanner detects a great amount of strange particles within.",
+  "hylotlDescription" : "There are many exotic particles darting around the tank.",
+  "novakidDescription" : "Idlin' near a barrel full o' glowin' bits can't be safe.",
+
+  "inventoryIcon" : "atprk_apexparticletankicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_apexparticletank.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_apexparticletanklit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 24,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_apexparticletank.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_apexparticletanklit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 24,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_4dparticle", 15, { } ] ]
+  ]
+}
