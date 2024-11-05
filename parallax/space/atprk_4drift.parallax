@@ -5,16 +5,17 @@
       "nohueshift" : true,
       "repeatY" : true,
       "parallax" : 1.5,
-      "minSpeed" : 7000,
-      "maxSpeed" : 5000
+      "unlit" : true,
+      "minSpeed" : 200000,
+      "maxSpeed" : 230000
     },
     {
       "kind" : "atprk_4driftfront",
       "nohueshift" : true,
       "repeatY" : true,
       "parallax" : 2.5,
-      "minSpeed" : 3000,
-      "maxSpeed" : 5000,
+      "minSpeed" : 160000,
+      "maxSpeed" : 195000,
       "directives" : "fade=000000=0.2"
     },
     {
@@ -22,18 +23,19 @@
       "nohueshift" : true,
       "repeatY" : true,
       "parallax" : 5,
+      "unlit" : true,
+      "minSpeed" : 70000,
+      "maxSpeed" : 75000
+    },
+    {
+      "kind" : "atprk_4driftback",
+      "nohueshift" : true,
+      "repeatY" : true,
+      "parallax" : 8,
       "unlit" : true
     },
     {
       "kind" : "atprk_4driftback",
-      "baseCount" : 4,
-      "nohueshift" : true,
-      "repeatY" : true,
-      "parallax" : 8
-    },
-    {
-      "kind" : "atprk_4driftback",
-      "baseCount" : 4,
       "nohueshift" : true,
       "repeatY" : true,
       "parallax" : 10,
