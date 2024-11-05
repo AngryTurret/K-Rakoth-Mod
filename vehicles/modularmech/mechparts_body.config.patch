@@ -76,6 +76,31 @@
   },
   {
     "op" : "add",
+    "path" : "/atprk_riftdiver",
+    "value" : {
+	  "stats" : {
+		"energy" : 5,
+		"protection" : 5
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation", "biomecold", "atprk_4ddistortion"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/atprk_riftdiver_back.png",
+		"bodyFront" : "body/atprk_riftdiver_front.png",
+		"bodyFullbright" : "body/atprk_riftdiver_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : [ "c36a5f", "994c49", "6f3130", "551d28" ],
+	  "defaultSecondaryColors" : [ "6c6c8e", "515167", "3c3c4c", "272733" ],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+			"sitPosition" : [0.56, 0.25]
+		}}}}
+	  }
+	}
+  },
+  {
+    "op" : "add",
     "path" : "/atprk_krakothrobo",
     "value" : {
 	  "stats" : {

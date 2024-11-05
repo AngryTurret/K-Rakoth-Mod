@@ -150,7 +150,7 @@
 				}
 			},
 			"sounds": {
-				"<armName>Fire": ["/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg"]
+				"<armName>Fire": ["/sfx/melee/mech_energysword_swing1.ogg", "/sfx/melee/mech_energysword_swing2.ogg", "/sfx/melee/mech_energysword_swing3.ogg", "/sfx/melee/mech_energysword_swing4.ogg"]
 			},
 			"transformationGroups": {
 				"<armName>" : {
@@ -489,6 +489,235 @@
 },
 {
 	"op": "add",
+	"path": "/atprk_krakothbeamdrill",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script": "/vehicles/modularmech/armscripts/beamarm.lua",
+			"armClass": "BeamArm",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [3.25, 0],
+
+			"windupTime" : 0.2,
+			"fireTime" : 0.1,
+			"holdFire" : true,
+			"winddownTime" : 0.8,
+
+			"repeatFire" : true,
+			"lockAim" : false,
+
+			"beamSourceOffset" : [3.25, 2.5625],
+			"beamHeight" : 0.5,
+			"beamLength" : 35,
+			"beamParticleDensity" : 0.5,
+			"beamTileDamage" : 14,
+			"beamTileDamageDepth" : 2
+		},
+
+		"damageSources": {
+			"<armName>Beam" : {
+				"enabled" : false,
+				"attachToPart" : "<armName>",
+
+				"line" : [ [3.25, 2.5], [33.25, 2.5] ],
+				"damage" : 42,
+				"damageSourceKind" : "fireplasma",
+				"damageRepeatTimeout" : 0.1,
+				"damageRepeatGroup" : "<armName>Beam",
+				"knockback" : 0,
+
+				"rayCheck" : true
+			}
+		},
+
+		"partImages": {
+			"<armName>" : "arm/atprk_krakothbeamdrill.png",
+			"<armName>Fullbright" : "arm/atprk_krakothbeamdrill_fullbright.png"
+		},
+		"defaultPrimaryColors": ["4e6355",
+			"38473d",
+			"212a24",
+			"060706"
+		],
+		"defaultSecondaryColors": ["7c9484",
+			"5e7366",
+			"3f4d43",
+			"202a23"
+		],
+		"animationCustom": {
+			"animatedParts" : {
+			  "stateTypes" : {
+			    "<armName>" : { "states" : {
+			      "active" : {
+			        "properties" : {
+			          "persistentSound" : "/sfx/gun/erchiuseyebeam_loop.ogg",
+			          "persistentSoundStopTime" : 0.5
+			        },
+			        "cycle" : 0.1
+			      },
+			      "windup" : {
+			        "cycle" : 0.2
+			      },
+			      "winddown" : {
+			        "cycle" : 0.6
+			      }
+			    }},
+			    "<armName>Beam" : {
+			      "default" : "off",
+			      "states" : {
+			        "off" : {},
+			        "fire" : {
+			          "frames" : 4,
+			          "cycle" : 0.5,
+			          "mode" : "transition",
+			          "transition" : "off"
+			        }
+			      }
+			    }
+			  },
+			  "parts" : {
+			    "<armName>Beam" : {
+			      "properties" : {
+			        "zLevel" : 10,
+			        "offset" : [3.25, 2.0625],
+			        "anchorPart" : "<armName>",
+			        "fullbright" : true,
+			        "centered" : false,
+			        "transformationGroups" : ["<armName>Beam"]
+			      },
+			      "partStates" : {
+			        "<armName>Beam" : {
+			          "fire" : {
+			            "properties" : {
+			              "image" : "/vehicles/modularmech/beam/atprk_krakothdrillbeam.png:<frame>"
+			            }
+			          }
+			        }
+			      }
+			    }
+			  }
+			},
+
+			"particleEmitters" : {
+			  "<armName>Beam" : {
+			    "active" : false,
+			    "anchorPart" : "<armName>",
+			    "particles" : [
+			      { "particle" : {
+			        "type" : "ember",
+			        "fullbright" : true,
+			        "color" : [249, 21, 207],
+			        "fade" : 0.5,
+			        "destructionAction" : "fade",
+			        "destructionTime" : 0.2,
+			        "initialVelocity" : [0, 0],
+			        "timeToLive" : 0.6,
+			        "layer" : "front",
+			        "variance" : {
+			            "initialVelocity" : [2, 2],
+			            "timeToLive" : 0.2
+			        }
+			      } }
+			    ]
+			  }
+			},
+			"transformationGroups" : {
+			  "<armName>Beam" : {}
+			},
+			"sounds": {
+			  "<armName>Windup" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+			  "<armName>WinddownNoFire" : [],
+			  "<armName>Winddown" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+			  "<armName>Fire" : []
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_krakothblade",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script" : "/vehicles/modularmech/armscripts/meleearm.lua",
+			"armClass": "MeleeArm",
+			"rotationLimits" : [-1.0, 1.0],
+			"fireOffset" : [3.5, 0.5],
+
+			"windupTime" : 0.4,
+			"windupAngle" : 0.8,
+
+			"swingTime" : 0.08,
+			"fireTime" : 0.3,
+
+			"fireAngle" : -0.8,
+			"comboFireAngle" : 0.8,
+
+			"cooldownTime" : 0.35,
+			"cooldownAngle" : -0.3,
+
+			"projectileType" : "atprk_mechkrakothbladeswoosh",
+			"projectileParameters": {
+				"power" : 275,
+				"knockback" : 45
+			},
+
+			"projectileTrackSource" : true,
+			"projectileBaseDistance" : 12,
+			"projectileTimeToLive" : 0.3
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_krakothblade.png",
+			"<armName>Fullbright": "arm/atprk_krakothblade_fullbright.png"
+		},
+		"defaultPrimaryColors": ["7c9484",
+			"5e7366",
+			"3f4d43",
+			"202a23"
+		],
+		"defaultSecondaryColors": ["4e6355",
+			"38473d",
+			"212a24",
+			"060706"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+						  "windup": {
+						    "properties" : {
+						      "persistentSound" : "/sfx/gun/magnorbs_fire5.ogg", "persistentSoundRangeMultiplier" : 1.0, "persistentSoundStopTime" : 0.5
+            }
+							},
+						  "winddown": {
+						    "properties" : {
+						      "persistentSound" : "/sfx/gun/magnorbs_fire5.ogg", "persistentSoundRangeMultiplier" : 1.0, "persistentSoundStopTime" : 0.5
+            }
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Fire": ["/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg"]
+			},
+			"transformationGroups": {
+				"<armName>" : {
+				  "interpolated" : false
+				}
+			}
+		}
+	}
+},
+{
+	"op": "add",
 	"path": "/atprk_krakothdronelauncher",
 	"value": {
 		"stats": {
@@ -525,7 +754,7 @@
 					"fireDelay": 0.8,
 					"fireTime": 0.3,
 					"fireOffset": [2, 0],
-					"projectileType": "atprk_aeonenergybullet",
+					"projectileType": "atprk_mechkrakothrifleshot",
 					"projectileParameters": {
 						"speed": 70,
 						"power": 25
@@ -564,6 +793,135 @@
 			"sounds": {
 				"<armName>Activate": ["/sfx/gun/mech_plasmadrone1.ogg"],
 				"<armName>Recover": ["/sfx/gun/mech_shielddrone_recover1.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_krakothminelayer",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script" : "/vehicles/modularmech/armscripts/remotedetonatorarm.lua",
+			"armClass": "RemoteDetonator",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [4.5, -0.2],
+
+			"windupTime" : 1.0,
+			"fireTime" : 0.4,
+			"cooldownTime" : 3.0,
+
+			"projectileType" : "atprk_mechkrakothmine",
+			"projectileParameters": {
+				"power" : 75
+			},
+
+			"projectileCount" : 2,
+			"projectileSpread" : 2.08,
+			"projectileInaccuracy" : 0.04,
+			"projectileRandomOffset" : [1.5, 0.75],
+			"projectileRandomSpeed" : [10, 15]
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_krakothminelayer.png",
+			"<armName>Fullbright": "arm/atprk_krakothminelayer_fullbright.png"
+		},
+		"defaultPrimaryColors": ["4e6355",
+			"38473d",
+			"212a24",
+			"060706"
+		],
+		"defaultSecondaryColors": ["757575",
+			"474747",
+			"292929",
+			"151515"
+		],
+		"animationCustom": {
+			"animatedParts" : { "stateTypes" : { "<armName>" : { "states" : {
+				"windup" : {
+					"mode" : "end"
+				}
+		}}}},
+			"sounds": {
+				"<armName>Recover" : ["/sfx/gun/mech_gravitymine_reload.ogg"],
+				"<armName>Fire" : ["/sfx/gun/mech_multidrone1.ogg"],
+				"<armName>Trigger" : ["/sfx/objects/apexcoolcomputer_switchon.ogg"]
+			}
+		}
+	}
+},
+{
+	"op": "add",
+	"path": "/atprk_krakothrifle",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script" : "/vehicles/modularmech/armscripts/gatlingarm.lua",
+			"armClass": "GatlingArm",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [5.0, -0.4],
+
+			"windupTime" : 0.3,
+			"fireTime" : 0.2,
+
+			"projectileType" : "atprk_mechkrakothrifleshot",
+			"projectileParameters": {
+				"power" : 55
+			},
+			"projectileCount" : 2,
+			"projectileSpacing" : [0, 0.7],
+
+			"projectileInaccuracy" : 0.01
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_krakothrifle.png",
+			"<armName>Fullbright": "arm/atprk_krakothrifle_fullbright.png"
+		},
+		"defaultPrimaryColors": ["7c9484",
+			"5e7366",
+			"3f4d43",
+			"202a23"
+		],
+		"defaultSecondaryColors": ["757575",
+			"474747",
+			"292929",
+			"151515"
+		],
+		"animationCustom": {
+			"animatedParts": {
+				"stateTypes": {
+					"<armName>": {
+						"states": {
+							"windup": {
+								"properties" : {
+								"persistentSound" : "/sfx/gun/mech_gatling_windup.ogg",
+								"persistentSoundRangeMultiplier" : 1.0,
+								"persistentSoundStopTime" : 0.2
+								}
+							},
+							"active": {
+								"cycle" : 0.2
+							},
+							"winddown": {
+								"properties" : {
+								"persistentSound" : "/sfx/gun/mech_gatling_winddown.ogg",
+								"persistentSoundRangeMultiplier" : 1.0,
+								"persistentSoundStopTime" : 0.2
+								}
+							}
+						}
+					}
+				}
+			},
+			"sounds": {
+				"<armName>Fire" : ["/sfx/gun/pulsecannon2.ogg"]
 			}
 		}
 	}
