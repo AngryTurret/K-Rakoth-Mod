@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt29FNwzAUBdCMQRmML4Zhgk7CGPwxAOuQSFSkkdvESdznuOdIT1FRaj348MV20nUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1O7cdR\/v\/XVpDfdvHWNrRfScGgPgmaXm0eFn9+q7v2dcc\/fXkB+pnuUHwHq38qPk+NYfrPE1KSCW\/JAfR5DKCxkCsdbkx3QvKHf8vfJjbt9sy57bdP9NfsS5lxMyBOIcef3xiDldfsSTH1An+bGsf\/kRR35AnY6+f7X098zpOdV\/bn6cE8U6p74+\/+ri8vkU0hEwOOj6Y\/c+5\/ofrj\/9dWmNemTGqXABZciPZf0P17f+urTkB9C6yzw3zY+S7w\/mPPt0o7LzY4\/9K\/kB8C+VH3NnD4kxstYYW9cNUeuPzO\/JD6Bp47l4aSXGeOi7FPIDIF7UXlDG13YZZ23PAKQd4X\/5UuMAsJ78AGAN+1dte4luAGiW9UfbXqMbAJrVen6M3xmJqig19AC0a81zpkfZC8p9t6VEDT1M\/16PKs8QAyW1OsfsnR2R65cjr4GAdrWYHyXWHc5aAK61tn9Vas9KfgBca2n9UfK8Q34AXBvnR3TdOgNeWqXPwQH4V8MzSvfm59r7A3hWtc\/PtfcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8t19TppyD",
+         "data":"eJzt29FNwzAUBdCMQRmML4Zhgk7CGPwxAOuQSFRNg9vabhw77jnSUwQK5sGHb+3EwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA647D8PE+XmNruv\/RMbauNXoOjQHwzELz6PS9W\/U93jOve\/e3kB+hnuUHQL5r+VFyfOsPcnwtCqhLfsiPPQjlhQyBunLyY7kXlDr+mrkQW6l7bsv9N\/lRz62ckCFQz57XH1vM6fKjPvkBbZIfcf3Lj3rkB7Rp7\/tXsX9nSs+h\/lPz4xgo8hzG+vyrk9PXhyodARPrj7j+p+vPeI2t47lH7jgULqAM+RHX\/3R9G6+xJT+A3p3mueW8XPL8YMq7T1eqyv6V\/AA4C+VH6mf+rc9S5OTHA78r+\/mH\/AB6Np+LYyswxqZnKeQHQH219oISfmyVcXJ7BiBsD5\/lS40DQD75AUAO+1d9e6ndANAt64++vdZuAOhW7\/kxPzNSq2ppoQegXznvme5lLyj1bEuhM\/L\/\/l9blXeIgZJ6nWPWzo6a65c9r4GAfvWYHyXWHZ61AFzqbf+q1J6V\/AC41NP6o+TzDvkBcGmeH7Xr2jPg2Cr9HByAsxbeUbo1P7feH8Czan1+br0\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADguf0C9huWjw==",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -931,7 +931,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8922,
                  "height":16,
                  "id":1063,
                  "name":"",
@@ -1355,7 +1355,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }, 
         {
-         "firstgid":8844,
+         "firstgid":8845,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,
