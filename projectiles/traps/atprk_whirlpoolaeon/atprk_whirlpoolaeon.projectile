@@ -2,7 +2,7 @@
   "projectileName" : "atprk_whirlpoolaeon",
   "image" : "atprk_whirlpoolaeon.png",
   "animationCycle" : 0.3,
-  "physics" : "illusion",
+  "physics" : "hover",
   "frameNumber" : 3,
   "windupFrames" : 2,
   "winddownFrames" : 2,
