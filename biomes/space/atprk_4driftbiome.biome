@@ -1,0 +1,19 @@
+{
+  "name" : "atprk_4driftbiome",
+  "friendlyName" : "Dimensional Tunnel",
+
+  "statusEffects" : [ "biomeairless", "atprk_4ddistortion" ],
+
+  "parallax" : "/parallax/space/atprk_4drift.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+    }
+  },
+
+  "hueShiftOptions" : [0]
+}
