@@ -123,6 +123,8 @@
       "path": "/mods_present/MorePlanetInfo",
       "inverse": false
     },
+    
+   { "op": "add", "path": "/weatherThreatValues", "value": {"atprk_elderspacejunk" : 2}},
 
    {"op": "add","path": "/namesList/atprk_ashylakes","value": {"word": "atprk_ashylakes","friendlyWord": "Ashy Lakes"}},
    {"op": "add","path": "/namesList/atprk_chthonianswamp","value": {"word": "atprk_chthonianswamp","friendlyWord": "Chthonian Swamp"}},
