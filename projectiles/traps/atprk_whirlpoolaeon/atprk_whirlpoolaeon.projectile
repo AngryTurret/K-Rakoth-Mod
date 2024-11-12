@@ -32,6 +32,8 @@
     }
   },
 
+  "scripts" : ["atprk_whirlpoolaeon.lua"],
+
   "actionOnReap" : [
     {
       "action" : "sound",

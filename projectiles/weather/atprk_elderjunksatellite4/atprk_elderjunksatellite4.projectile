@@ -1,0 +1,17 @@
+{
+  "projectileName" : "atprk_elderjunksatellite4",
+  "image" : "atprk_elderjunksatellite4.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [253, 160, 57],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 1.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef"
+}
