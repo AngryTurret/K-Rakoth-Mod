@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 30 },
+    { "item" : "salvagebooster", "count" : 50 },
+    { "item" : "salvagetier6", "count" : 25 },
+    { "item" : "atprk_aeonbattery", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "atprk_mechboostermarksman", "count" : 1 },
+  "groups" : [ "craftingmech", "mechbooster" ]
+}

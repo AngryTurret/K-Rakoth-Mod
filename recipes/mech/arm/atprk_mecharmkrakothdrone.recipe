@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 30 },
+    { "item" : "salvagearm", "count" : 50 },
+    { "item" : "salvagetier6", "count" : 25 },
+    { "item" : "atprk_eldertech", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "atprk_mecharmkrakothdrone", "count" : 1 },
+  "groups" : [ "craftingmech", "mecharm" ]
+}
