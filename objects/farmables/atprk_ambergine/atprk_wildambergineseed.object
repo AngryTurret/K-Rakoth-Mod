@@ -24,10 +24,10 @@
   "atprk_fenronDescription" : "Ah, sweet ambergines. They can be used to lure locusts away from your crops.",
   "atprk_noolithDescription" : "The scent makes this ambergine an easy target for flies and other insects.",
 
-  "inventoryIcon" : "atprk_wildambergineseedicon.png",
+  "inventoryIcon" : "atprk_ambergineseedicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_wildambergineseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "atprk_ambergineseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
