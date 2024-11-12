@@ -75,6 +75,14 @@
       "op" : "add",
       "path" : "/planetTypeColors/atprk_ruinedworld",
       "value" : [100, 25, 41]
+    },
+    {
+      "op" : "add",
+      "path" : "/displayWeathers/atprk_elderspacejunk",
+      "value" : {
+        "displayName" : "Metallic Debris",
+        "icon" : "/interface/cockpit/weather/atprk_elderspacejunk.png"
+      }
     }
   ],
 
@@ -115,6 +123,7 @@
       "path": "/mods_present/MorePlanetInfo",
       "inverse": false
     },
+
    {"op": "add","path": "/namesList/atprk_ashylakes","value": {"word": "atprk_ashylakes","friendlyWord": "Ashy Lakes"}},
    {"op": "add","path": "/namesList/atprk_chthonianswamp","value": {"word": "atprk_chthonianswamp","friendlyWord": "Chthonian Swamp"}},
    {"op": "add","path": "/namesList/atprk_amber","value": {"word": "atprk_amber","friendlyWord": "Amber"}},
