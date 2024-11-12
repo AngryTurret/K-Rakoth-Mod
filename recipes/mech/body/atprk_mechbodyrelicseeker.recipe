@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "titaniumbar", "count" : 20 },
     { "item" : "salvagebody", "count" : 10 },
     { "item" : "salvagetier4", "count" : 5 }
   ],
