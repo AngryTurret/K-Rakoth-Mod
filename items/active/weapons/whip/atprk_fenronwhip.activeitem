@@ -1,7 +1,7 @@
 {
   "itemName" : "atprk_fenronwhip",
   "price" : 1000,
-  "level" : 6,
+  "level" : 4,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "An antique weapon of Fenron origin.",
