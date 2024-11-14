@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 20 },
-    { "item" : "salvagearm", "count" : 25 },
-    { "item" : "salvagetier5", "count" : 10 },
+    { "item" : "refinedaegisalt", "count" : 30 },
+    { "item" : "salvagearm", "count" : 50 },
+    { "item" : "salvagetier6", "count" : 25 },
     { "item" : "atprk_noolithshard0", "count" : 2 }
   ],
   "duration" : 5,
