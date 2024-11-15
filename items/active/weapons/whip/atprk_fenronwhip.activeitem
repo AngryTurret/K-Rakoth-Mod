@@ -9,7 +9,7 @@
   "tooltipKind" : "base",
   "category" : "whip",
   "twoHanded" : false,
-  "itemTags" : ["weapon"],
+  "itemTags" : ["weapon", "upgradeableWeapon"],
 
   "inventoryIcon" : "atprk_fenronwhip.png:idle",
   "animation" : "whip.animation",
