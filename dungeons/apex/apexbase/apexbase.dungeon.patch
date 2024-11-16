@@ -1,0 +1,16 @@
+[
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "atprk_apexbasetopextra1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_apexbasetopextra1.json" ],
+      "chance" : 0
+    }	
+}
+]
