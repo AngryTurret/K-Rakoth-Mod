@@ -60,7 +60,7 @@
         {
           "name" : "approach-walk",
           "parameters" : {
-            "canJump" : true,
+            "canJump" : false,
             "run" : true,
             "moveState" : "walk"
           }
@@ -76,7 +76,7 @@
         {
           "name" : "approach-walk",
           "parameters" : {
-            "canJump" : true,
+            "canJump" : false,
             "run" : true,
             "moveState" : "walk"
           }
