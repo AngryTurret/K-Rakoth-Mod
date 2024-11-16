@@ -513,10 +513,11 @@
         {"weight" : 0.1, "item" : "salvagebody"},
         {"weight" : 0.1, "item" : "salvagebooster"},
         {"weight" : 0.1, "item" : "salvagelegs"},
-        {"weight" : 0.05, "item" : "spacesuithead"},
-        {"weight" : 0.05, "item" : "spacesuitchest"},
-        {"weight" : 0.05, "item" : "spacesuitback"},
-        {"weight" : 0.05, "item" : "spacesuitlegs"}
+        {"weight" : 0.05, "item" : "atprk_tinfoilhead"},
+        {"weight" : 0.05, "item" : "atprk_lostastronauthead"},
+        {"weight" : 0.05, "item" : "atprk_lostastronautchest"},
+        {"weight" : 0.05, "item" : "atprk_lostastronautback"},
+        {"weight" : 0.05, "item" : "atprk_lostastronautlegs"}
       ]
     }]
   ],
