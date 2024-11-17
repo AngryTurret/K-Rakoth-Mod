@@ -8,8 +8,8 @@
             "frames" : 1
           },
           "on" : {
-            "frames" : 3,
-            "cycle" : 0.4,
+            "frames" : 8,
+            "cycle" : 0.8,
             "mode" : "loop"
           }
         }

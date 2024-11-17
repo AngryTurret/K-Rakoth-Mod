@@ -6,7 +6,7 @@
   "shortdescription" : "Eldritch Shield Generator",
   "race" : "generic",
   "price" : 1000,
-  "lightColor" : [99, 13, 84],
+  "lightColor" : [117, 58, 127],
   "category" : "wire",
   "printable" : false,
 
@@ -27,7 +27,7 @@
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
-      "animationCycle" : 1.0,
+      "animationCycle" : 0.8,
 
       "lightPosition" : [-2, 2],
 
@@ -40,7 +40,7 @@
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
-      "animationCycle" : 1.0,
+      "animationCycle" : 0.8,
 
       "lightPosition" : [1, 2],
 
@@ -78,6 +78,6 @@
   "inputNodes" : [ [0, 2] ],
 
   "explodeOnSmash" : true,
-  "explosionProjectile" : "atprk_chthonicrpgexplosion",
+  "explosionProjectile" : "atprk_krakothgeneratorexplosion",
   "explosionOffset" : [1, 2]
 }
