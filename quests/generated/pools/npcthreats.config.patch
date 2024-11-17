@@ -15,7 +15,7 @@
 	"value" : [
 	  [ "generic" ],
 	  {
-		"name" : "creepy Glitch cultists",
+		"name" : "eldritch cultists",
 		"species" : "glitch",
 		"typeName" : "atprk_eldritchcultistthreat"
 	  }
@@ -26,7 +26,7 @@
 	"value" : [
 	  [ "generic" ],
 	  {
-		"name" : "Glitch Devouts",
+		"name" : "Devout knights",
 		"species" : "glitch",
 		"typeName" : "atprk_devoutthreat"
 	  }
@@ -37,7 +37,7 @@
 	"value" : [
 	  [ "ocean" ],
 	  {
-		"name" : "Glitch Devout divers",
+		"name" : "Devout divers",
 		"species" : "glitch",
 		"typeName" : "atprk_devoutdiverthreat"
 	  }

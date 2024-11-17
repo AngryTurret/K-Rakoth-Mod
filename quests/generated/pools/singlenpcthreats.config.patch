@@ -28,7 +28,7 @@
 	"value" : [
 	  [ "generic" ],
 	  {
-		"name" : "heavily armored rogue",
+		"name" : "chthonic rogue",
 		"species" : "glitch",
 		"typeName" : "atprk_outlawelderarmor",
 		"seed" : "stable"
@@ -40,7 +40,7 @@
 	"value" : [
 	  [ "generic" ],
 	  {
-		"name" : "unicorn-obsessed madman",
+		"name" : "unicorn warrior",
 		"species" : "human",
 		"typeName" : "atprk_outlawunicorn",
 		"seed" : "stable"
