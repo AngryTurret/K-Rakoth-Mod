@@ -925,4 +925,54 @@
 			}
 		}
 	}
+},
+{
+	"op": "add",
+	"path": "/atprk_krakothmissile",
+	"value": {
+		"stats": {
+			"power": 7,
+			"energy": 6
+		},
+		"partParameters": {
+			"script" : "/vehicles/modularmech/armscripts/missileburstarm.lua",
+			"armClass": "MissileBurst",
+			"rotationLimits" : [-1.75, 1.75],
+			"fireOffset" : [3.8, -0.75],
+
+			"windupTime" : 0.2,
+			"fireTime" : 0.3,
+			"cooldownTime" : 0.5,
+
+			"projectileType" : "atprk_mechkrakoth4dmissile",
+			"projectileParameters": {
+				"power" : 225
+			}
+		},
+		"partImages": {
+			"<armName>": "arm/atprk_krakothmissile.png",
+			"<armName>Fullbright": "arm/atprk_krakothmissile_fullbright.png"
+		},
+		"defaultPrimaryColors": ["4e6355",
+			"38473d",
+			"212a24",
+			"060706"
+		],
+		"defaultSecondaryColors": ["757575",
+			"474747",
+			"292929",
+			"151515"
+		],
+		"animationCustom": {
+			"animatedParts" : { "stateTypes" : { "<armName>" : { "states" : {
+				"windup" : {
+					"mode" : "end"
+				}
+		}}}},
+			"sounds": {
+				"<armName>Recover" : ["/sfx/interface/energy_full1.ogg"],
+				"<armName>Fire" : ["/sfx/gun/plasma_shotgun3.ogg"]
+			}
+		}
+	}
 }]
