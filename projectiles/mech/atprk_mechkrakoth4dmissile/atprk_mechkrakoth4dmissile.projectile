@@ -1,0 +1,45 @@
+{
+  "projectileName" : "atprk_mechkrakoth4dmissile",
+  "image" : "atprk_mechkrakoth4dmissile.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "fullbright" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/atprk_4dexplosion/atprk_4dexplosionknockback.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.075,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/atprk_mechkrakoth4dmissiletrail/atprk_mechkrakoth4dmissiletrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.2,
+        "layer" : "back",
+        "position" : [0.0, 0.0]
+      }
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 25.0,
+  "acceleration" : 30,
+  "timeToLive" : 1.25,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "scripts" : [ "/scripts/projectiles/homingprojectile.lua" ],
+  "scriptDelta" : 3,
+
+  "rotationRate" : 2.5,
+  "trackingLimit" : 2.0
+}
