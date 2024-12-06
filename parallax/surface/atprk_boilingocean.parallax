@@ -89,55 +89,62 @@
       "nohueshift" : true
     },
     {
+      "kind" : "atprk_boilingoceanshelf",
+      "offset" : [0, 450],
+      "parallax" : [8.1, 3.3],
+      "nohueshift" : true,
+      "fadePercent" : 0.05
+    },
+    {
       "kind" : "atprk_boilingoceanback",
-      "offset" : [0, 650],
-      "parallax" : [9.02, 1.233],
+      "offset" : [0, 550],
+      "parallax" : [9.1, 7.25],
       "fadePercent" : 0.1
     },
     {
       "kind" : "atprk_boilingoceanback",
-      "offset" : [0, 655],
-      "parallax" : [10, 1.234],
+      "offset" : [0, 525],
+      "parallax" : [9.7, 7.50],
       "fadePercent" : 0.25
     },
     {
       "kind" : "atprk_boilingoceantowers",
-      "offset" : [0, 450],
-      "parallax" : [9, 9],
-      "directives" : "",
-      "fadePercent" : 0.5,
-      "nohueshift" : true
-    },
-    {
-      "kind" : "atprk_boilingoceantowers",
-      "offset" : [0, 525],
-      "parallax" : [8, 8],
+      "offset" : [0, 375],
+      "parallax" : [11, 9],
       "directives" : "",
       "fadePercent" : 0.4,
       "nohueshift" : true
     },
     {
+      "kind" : "atprk_boilingoceantowers",
+      "offset" : [0, 350],
+      "parallax" : [12, 10],
+      "directives" : "",
+      "fadePercent" : 0.5,
+      "nohueshift" : true
+    },
+    {
       "kind" : "midnightclouds",
       "baseCount" : 2,
-      "offset" : [0, 340],
+      "offset" : [0, 300],
       "parallax" : 15
     },
     {
       "kind" : "midnightclouds",
       "baseCount" : 2,
-      "offset" : [0, 340],
+      "offset" : [0, 300],
       "parallax" : 15
     },
     {
       "kind" : "midnightclouds2",
       "baseCount" : 2,
-      "offset" : [0, 300],
+      "offset" : [0, 260],
       "parallax" : 20
     },
     {
       "kind" : "midnightclouds2",
       "baseCount" : 2,
-      "offset" : [0, 300],
+      "offset" : [0, 260],
       "parallax" : 20
     },
 // Day Clouds
