@@ -1,5 +1,4 @@
---LoftyLoftyLoftyLofty
---I have marked important changes with(\_/)
+--Shoutout to LoftyLoftyLoftyLofty for help with the interface window!
 
 require "/interface/cockpit/cockpitview.lua"
 require "/interface/cockpit/cockpitutil.lua"
