@@ -513,6 +513,102 @@
   ],
 
   // ================================
+  //       Dimensional Tunnels
+  // ================================
+
+  "atprk_4driftStabilizer" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_4dstabilizer", 1]}
+      ]
+    }]
+  ],
+
+  "atprk_4driftBasicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.40, "pool" : "valuableTreasure"},
+        {"weight" : 0.40, "item" : [ "atprk_4dparticle", 5]},
+        {"weight" : 0.40, "item" : [ "atprk_chthonicscraps", 2]},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 1]},
+        {"weight" : 0.10, "item" : [ "atprk_hyperpixel", 2]},
+        {"weight" : 0.10, "item" : [ "atprk_eldertech", 1]},
+        {"weight" : 0.02, "item" : [ "atprk-flagkrakoth-recipe", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.30, 2],
+        [0.20, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_4driftCannisterTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "item" : [ "atprk_4dparticle", 10]},
+        {"weight" : 0.33, "item" : [ "atprk_4dparticle", 25]},
+        {"weight" : 0.33, "item" : [ "atprk_4dparticle", 5]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.30, 2],
+        [0.20, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_4driftChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_4driftMechBlueprint"}
+      ],
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 3]},
+        {"weight" : 0.20, "item" : [ "atprk_eldertech", 2]},
+        {"weight" : 0.20, "item" : [ "atprk_aeonbattery", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_thinkingdrone", 1]}
+      ],
+      "poolRounds" : [
+        [0.55, 2],
+        [0.40, 3],
+        [0.05, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_4driftMechBlueprint" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "atprk_mechlegsglyphrunner-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mechlegshoverboot-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothblade-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothmissile-recipe"}
+      ]
+    }],
+    [3.9, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "atprk_mechboosterhoverpads-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mechboostermarksman-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothdrone-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothmines-recipe"}
+      ]
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "atprk_mechbodykrakothrobo-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mechbodykrakothsuit-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothbeamdrill-recipe"},
+        {"weight" : 0.25, "item" : "atprk_mecharmkrakothrifle-recipe"}
+      ]
+    }]
+  ],
+
+  // ================================
   //       Other
   // ================================
 
@@ -591,8 +687,8 @@
   "atprk_shapelessdwellingsTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.50, "item" : "atprk_shapelesscodex-codex"},
-        {"weight" : 0.50, "item" : "atprk_shapelessprism"},
+        {"weight" : 0.25, "item" : "atprk_shapelesscodex-codex"},
+        {"weight" : 0.70, "item" : "atprk_shapelessprism"},
         {"weight" : 0.25, "item" : [ "solidfuel", 25]}
       ],
       "poolRounds" : 2,
