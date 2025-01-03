@@ -422,7 +422,26 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":925,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"atprk_devouttrifangcritter"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":64,
+                 "y":80
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -470,7 +489,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":925,
+ "nextobjectid":926,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
