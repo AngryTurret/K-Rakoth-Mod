@@ -15,7 +15,7 @@
       "name" : "atprk_krakothruinsbase1",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsbase2", "atprk_krakothruins2a", "atprk_krakothruins2b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsbase2", "atprk_krakothruins2a", "atprk_krakothruins2b", "atprk_krakothruins2c" ] ]
 
       ],
       "def" : [ "tmx", "atprk_krakothruinsbase1.json" ]
@@ -24,7 +24,7 @@
       "name" : "atprk_krakothruinsbase2",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsbase1", "atprk_krakothruins2a", "atprk_krakothruins2b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsbase1", "atprk_krakothruins2a", "atprk_krakothruins2b", "atprk_krakothruins2c" ] ]
 
       ],
       "def" : [ "tmx", "atprk_krakothruinsbase2.json" ]
@@ -51,7 +51,7 @@
       "name" : "atprk_krakothruins2a",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruins2a", "atprk_krakothruins2b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruins2a", "atprk_krakothruins2b", "atprk_krakothruins2c" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruins2a.json" ],
       "chance" : 1
@@ -60,16 +60,25 @@
       "name" : "atprk_krakothruins2b",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruins2a", "atprk_krakothruins2b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruins2a", "atprk_krakothruins2b", "atprk_krakothruins2c" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruins2b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothruins2c",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothruins2a", "atprk_krakothruins2b", "atprk_krakothruins2c" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothruins2c.json" ],
       "chance" : 1
     },
     {
       "name" : "atprk_krakothruins3a",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruins3a", "atprk_krakothruins3b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruins3a", "atprk_krakothruins3b", "atprk_krakothruins3c" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruins3a.json" ],
       "chance" : 1
@@ -78,9 +87,18 @@
       "name" : "atprk_krakothruins3b",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotConnectToPart", [ "atprk_krakothruins3a", "atprk_krakothruins3b" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruins3a", "atprk_krakothruins3b", "atprk_krakothruins3c" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruins3b.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothruins3c",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "atprk_krakothruins3a", "atprk_krakothruins3b", "atprk_krakothruins3c" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothruins3c.json" ],
       "chance" : 1
     },
     {
@@ -97,7 +115,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4", "atprk_krakothruinsside5" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruinsside1.json" ],
       "chance" : 1
@@ -107,7 +125,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4", "atprk_krakothruinsside5" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruinsside2.json" ],
       "chance" : 1
@@ -117,7 +135,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4", "atprk_krakothruinsside5" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruinsside3.json" ],
       "chance" : 1
@@ -127,9 +145,19 @@
       "rules" : [
         [ "maxSpawnCount", [1] ],
         [ "ignorePartMaximumRule" ],
-        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4" ] ]
+        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4", "atprk_krakothruinsside5" ] ]
       ],
       "def" : [ "tmx", "atprk_krakothruinsside4.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_krakothruinsside5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "atprk_krakothruinsside1", "atprk_krakothruinsside2", "atprk_krakothruinsside3", "atprk_krakothruinsside4", "atprk_krakothruinsside5" ] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothruinsside5.json" ],
       "chance" : 1
     }
   ]

@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztne1xGyEQQK+WFJdRASogM+7HVaQc\/3MKSDzOTQheYBc4Frj3440s3YeA26dFe9h+O44fbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArej+M4ef3D4w\/fv30+hj+\/Bvt94N1uAMBfgJVJ+RuCvwBzIvkrgb8A8xE6+SyAvwBzEeffHO84DDAVcf59+ctTeB77i8cA15HyLYU1\/+IwQF+szpa+82q+C8\/usXVMZu8PjLv+I+Kgpj3xPaJaPGO\/x3WZ6Tquwizj5XH9e\/Wz9n1q821tPu59Db2v01199h4r7+vcq4+15\/3IlWctKvw5JPW69phSPh7Rz1mv24p4jyl8Ert3lb9Wh3fC2zXc3ZOUY1f6+zJBv73w9g5398Hibs9tOOzvIO6uTckti5+1ORiH18J7zOAfKd9G+EsO\/sTbR\/xdE41Xo\/y9s8PePuLumljdbfWXHPwVbx\/xd13w1x9vH\/F3TWrmzlf7e0eHvX3E37InjwGP1nZdtT7yyvWVK43vjv56u+TBrHHf6\/cSerPL+O7m7l399Yj71N+m8oj7Fk80\/Zj1cyXl66r+ent0N3\/j7WHcx39\/7nVgO2Oktmj7sZK\/kgfeTuKvzOnDSC8+3ut5lP+2a7xPrb+5+lSNv7k25voxcnzPx7v56+3TXfx9UcR9vE+Nv5r6c4u\/ln7M7O8v\/F2SnfNvztMah3fOv78Ch2MXvJ3E3\/n8vTr\/avy0Orx7\/l3dX2+XagjHfWd\/LfUrycufx\/\/UOCy1BX\/nwdtF61iH9DjvyPi6av6scbfW4VXmzy3xFDqLvzYHcy5a969h1H3Tq+bPFndrHG6dP3vcl7bGIf72cdhCr\/aMWNsXxnLpf4tp8m+uplxyN+ew5HIp\/2r6MWJ8W+Ivta+3mzP628NhjzaPJOdv6Z5QD3\/D80lt8R6f3jGXOsbbzdH+asakl7s7O52qX+XuC7X4m5qTh\/5K669WoTYfeLs50t9e82LLGO\/qcOo7p6ZebPW39L169fy7s7sr+Gt5T+9YudpfTR22l7+nw6v7m4vN3DHeXnrOnUe4m3pv71jpQal+lXOxxt\/ctl39LR3j7eZId3PjdLW7NZxxKa2VGEm8zkHjb8lHq7+l7Tl\/W8ZPqsnF71k7nrnY1MaIt5+r+jvi81jyVzOflO51thxb8leKdS9\/pfpVafxyr8c1OalmVnNOy72kFb290t9aj0c4q\/H3eeiJ\/a05dqf8G45H+Dz1ulSTS9XMrOdsjQ9vNz3dtTg82tuSv9I6J6ludO73aDx2R3+1j6maXI9z9ogRb0e9\/U157OVsi7\/SmqSSv6n7Pfj7tU\/SGOHvHP7OiMVfKY9q\/U3FJv7q6lf4i7+9\/I3jK+dvbq1Fzt\/U2uIZ\/A3bcraxh7+l+hX+4m+rv3E+1fibmxvm\/E2tmfD2V2pzj++qmvoV\/t7P31y9rNbfl2g\/yd\/SOkdL\/p3V3175l\/oV\/paclRyu8TfMqyV\/c+cg\/1K\/wuE6d09a\/A19i\/3V\/I5Bq79n7gt5FrZb9w+3j\/CX+tW9\/bWuF0m54r1+QzN\/Ho11\/vw4ZLfi1y31K8s58Xc9evlr5dF4bCn\/nsT+pn7XPrXdur\/kb9iWVP6V+ljqe6l+VXPOO\/h7Z4dzrowkl39jh0puat3V7i+9d9zGlvHT1K9qz3kHd2d0uPS97YpcbMF7fCxz9B5499cLbydXdfgjZs7P\/6fw3HKuHR3W5tZeeMfDaLw9XN3hHvlXYieHoT\/e7u3i9dXzuVkcnm3c74i3Vzv6nKtbtOTfGKur3mO+y\/Wd4XPKe3wBAAAAAAAA7sJvkqPVMA==",
+         "data":"eJztnduRGyEQADcWB+dSAArAVffjaC4Kh+M\/OwBbdd4yxgPMAMsA2x9dOmkfAnZag2a5u+\/H8eU7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgh\/HcZy8\/+bxm8+fPh7Dn9+D\/V54txsA8BdgZVL+huAvwJxI\/krgL8B8hE4+C+AvwFzE+TfHDxwGmIo4\/7794Sk8j\/3FY4DrSPmWwpp\/cRigL1ZnS995Nd+FZ\/fYOiaz9wfGXf8RcVDTnvgeUS2esd\/jusx0HVdhlvHyuP69+ln7PrX5tjYf976G3tfprj57j5X3de7Vx9rzvnLlWYsKfw5Jva49ppSPR\/Rz1uu2It5jCh\/E7l3lr9XhnfB2DXf3JOXYlf6+TdBvL7y9w919sLjbcxsO+zuIu2tTcsviZ20OxuG18B4z+EvKtxH+koM\/8PYRf9dE49Uof+\/ssLePuLsmVndb\/SUH\/4+3j\/i7Lvjrj7eP+LsmNXPnq\/29o8PePuJv2ZPHgEdru65aH3nl+sqVxndHf71d8mDWuO\/1ewm92WV8d3P3rv56xH3qb1N5xH2LJ5p+zPq5kvJ1VX+9Pbqbv\/H2MO7jvz\/3PrCdMVJbtP1YyV\/JA28n8VfmFYNfP4314vVez6P8t13jfWr9zdWnavzNtTHXj5Hjez7ezV9vn+7i75si7uN9avzV1J9b\/LX0Y2Z\/f+Lvkuycf3Oe1ji8c\/79GTgcu+DtJP7m\/Q2v+aj4ujr\/avy0Orx7\/l3dX2+XagjHfWd\/LfUryctvx7\/UOCy1BX\/nwdtF61iH9DjvyPi6av6scbfW4VXmzy3xFDqLvzYHcy5a969h1H3Tq+bPFndrHG6dP3vcl7bGIf72cdhCr\/aMWNsXxnLpf4tp8m+uplxyN+ew5HIp\/2r6MWJ8W+Ivta+3mzP628NhjzaPJOdv6Z5QD3\/D80lt8R6f3jGXOsbbzdH+asakl7s7O52qX+XuC7X4m5qTh\/5K669WoTYfeLs50t9e82LLGO\/qcOo7p6ZebPW39L169fy7s7sr+Gt5T+9YudpfTR22l7+nw6v7m4vN3DHeXnrOnUe4m3pv71jpQal+lXOxxt\/ctl39LR3j7eZId3PjdLW7NZxxKa2VGEm8zkHjb8lHq7+l7Tl\/W8ZPqsnF71k7nrnY1MaIt5+r+jvi81jyVzOflO51thxb8leKdS9\/pfpVafxyr8c1OalmVnNOy72kFb290t9aj0c4q\/H3eeiJ\/a05dqf8G45H+Dz1ulSTS9XMrOdsjQ9vNz3dtTg82tuSv9I6J6ludO73aDx2R3+1j6maXI9z9ogRb0e9\/U157OVsi7\/SmqSSv6n7Pfj7f5+kMcLfOfydEYu\/Uh7V+puKTfzV1a\/wF397+RvHV87f3FqLnL+ptcUz+Bu25WxjD39L9Sv8xd9Wf+N8qvE3NzfM+ZtaM+Htr9TmHt9VNfUr\/L2fv7l6Wa2\/b9F+kr+ldY6W\/Durv73yL\/Ur\/C05Kzlc42+YV0v+5s5B\/qV+hcN17p60+Bv6Fvur+R2DVn\/P3BfyLGy37h9uH+Ev9at7+2tdL5JyxXv9hmb+PBrr\/PlxyG7Fr1vqV5Zz4u969PLXyqPx2FL+PYn9Tf2ufWq7dX\/J37Atqfwr9bHU91L9quacd\/D3zg7nXBlJLv\/GDpXc1Lqr3V9677iNLeOnqV\/VnvMO7s7ocOl72xW52IL3+Fjm6D3w7q8X3k6u6vArZs7P\/6fw3HKuHR3W5tZeeMfDaLw9XN3hHvlXYieHoT\/e7u3i9dXzuVkcnm3c74i3Vzv6nKtbtOTfGKur3mO+y\/Wd4XPKe3wBAAAAAAAA7sIvYBfVlg==",
          "encoding":"base64",
          "height":75,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztnH1unDAQR7e36N85VI\/QHiT3yeWaA7QoQkHIHzP22OMx70k\/KdoF1h77LZAFXi8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA0f2\/5\/faV9\/9\/\/\/xRzvtl+XN9AJiHtb84DDCHu7v4CxAH\/AWIR8rbq7st\/uIwwFhy3t7dPfLxqvv7kVgPhwFsKXmbcrfHXxwGsKHmbcrd45j4iNTfc\/mSw\/gMUEfia83bmrOlc2GNx55ua9rE989+9Ix\/z7yw+Bxrb1fweMR44LOcVerlOQ9a83mJxl1rbyUeW3viXfsn++xdK+9xljqpjdTdUd5qfmPaOTviXdPV0uOpxl8vd3dx+N6fJ\/rrPQYrZYS3OX+93d3B4VK\/nuCxd\/1XyhPdxeG4eNd91Yz2dzV3d3C45PGODnvX2mKsojh83zb+jp8bOzvsXV+rMZK8lrqGcGRqHq\/qbqvDs+vb4rFk2Uh4u2fhbmps7q\/PnlsSh6P5W3LGq77W8ykaFvs6ax9b3L2ud3\/da25pEsXfFYO\/ffs6a39T26\/tY6\/v5\/w9rzWalVHutvbnXG+Uw171faq\/re7m\/K15LXm\/tj\/t9XfFfVerv61ZpR9W9S3NSfwtuyLdP6eclH6Gxt\/SfPeYX5J9SEu7Zrg7ox+W\/tbm107uHtRcrXmi2UfnnGzZn0bzt2cZab+sj5tn9qOnXSl\/c\/NzJ38l+1mNv6X3S05qXbyvL8lx\/\/qZ3DJ\/3vJpmV+Sz5Qs450R\/bCoce4za8eBO\/vb4orE8dJrM\/w98uv1FW8fiE3O8ayNqeZYOgrac9xafbT+atZv2SbZP1p\/j5Tu24zur6T\/ufd71pcuMzrWx89EV2vtNqT+3pNzOBLW\/vaO5yx\/OX7eJ63+Hkk5HAWNu5JE8Zfz373S6+\/d4Sis6O\/oRPg\/L5k3pqn7waJg7W+EePz+S8am53dt\/I0V\/N0v1v5Gcfjp\/s7K9fiuZZmea6Ysa9Tbjxn3L2jrhL9x0nutv3eok22tSs9DiYDW3+h+e8+pCO7uUCtJzUrPM4qC5tor\/J0Tz+PmXL1yx6mr5zMxXyXPIlsdyfWfO\/s787xMe+628v\/VUm1dKSl\/W54juDot\/u5yfryiI9e5t1rbIrXz7vAxX7Xu4i\/pmXsrehGxjae\/OYdr839lJP7eXX3K\/6i9510ENyK08epvS1ZF04ezJk\/6jcl73kVwI0Ib8fe7JviLG9HaiL\/fruLv+ES4ryJCG\/FXd15MyErBXxwmcYO\/+EviBn\/xl8TN7v4e4C\/ZNRb+rg7+kl2DvzhM4uYJ\/h70eLvyNezk2en1NxK9\/lrdQya5HmD281hmR\/LcGcnclaR1O17PxtHmKf4eWDjcG6m\/3veDe6fk3ruiPlbbWT07e3vF22H8lae2z5m9nZWzu7c1es6RtcfgmvOa3NiU7u\/U3AMqfW7DqPR+V1p8344ce+88lVEOa\/1t\/TzpvdszfW6pV493T3YXAAAAAAAAAObwDzCSR8g=",
+         "data":"eJztnH1unDAQR+kt+ncPVeUE7UFyn1wuOUCLIlRKwB5\/jGfGfk\/6SdEusGaYJ7MbYNsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGLzTobl14\/PvP79+\/u3dF5Py\/f6fJgH615eMdb+4vEcWPfxqvHiLy7HxLp\/V49Hf\/HYP9Z9S\/65WOPvKIfx2B\/WfUv+93DP25b39+1mvdHjBjuse5bcu9vir4XDuDwe654l9+7u58R7pP4ey3tx+BzQwfq4kmdvc86mvgt79XjPmV7bWRHr47h6ensbzePeWQnrWs+Yj1Nyy2p6K\/HYulYjMivWdY2Uj4Y8bbP0f0M9PV7N4T0zYF1D72nxtMRfK3dncfi6P5J1ImNdb+\/R8PbJX2t3Z3A4tV+zeGxd4yhZ0V0c9o11bSNG219v7s7g8Huijrn1vGJdT+1jpbn9lebeWfw990Z0h61rOOIYSV67u4ZQMzmPvbpb6\/Do+tZ4LF3eC9ZujXD37thcXx\/dWxKHo\/mbcsaqvpq95QENX7R9rHH3vN71daveKkkUfz1mVn813Co9D6n9DMnrdz2X8ve41mhUtNyt3Z9jPS2HreqrOZ9YouXuk785ryXv5+bTVn89zl21\/tbGy370qm+qJ6M6rDUvphyWvJdyWeJjbvlUv1v0l2QOqRnXCHdH7EdPf3P9FcXfXq7mPCmZo5+crJlPo\/nbsox0v3qfN4\/cj5Zx3fn71J8RHO45z5b4m3o\/5WSpi9f1JdnvXz\/ytMzvH8+p6S\/JZ0qWsY7GfvSo8dNn5s4DPTvc012pKxLHU6+N8HfPz+0z1j6QPjmOZ+6YHr2Cv8\/vl\/pbsn7NNsn8KfV3T+q+TWt\/Ndy97v\/T+y3rS5fRTu\/zZ1JW69JtSP29psVhTSz9bT2eo\/zl\/Hme1Pq7p9bhaO5KEsVfvv\/OlVZ\/axzGX5tE+J2XjDumueegjPS31d0I\/rXG4v+\/RDct\/9fG31jB3\/ky2l+v7q7m76icz+9qlmm5ZqpnjVr3Y8T9C6V1wt84ab3W3zrUqW+tJM8Bncnf6H5b91QEd2eolaRmL1udv1r08jflKP7qx\/K8+aleT+ep3vNy06\/SZ5GNdPdA2+FZ\/B35vaz0u5vn39XuxuopV38PN1+2+\/nWw3nzGU1\/Z\/l+7NGRc+95G1ukcV4d3vu19Bmglg7jb9wcvefRi4hjPPx9crjFDU20HM6dW5N13IgwxrO\/vaNNb39zczNZy40IY4zs79ZpnEdN8Bc3oo0Rf\/\/9\/o6\/+olwX0WEMeLvV4fxl0TJLP5uSmPHYeI52v6OBH\/JatH0dzT4S1aLhr9W4C9ZLT39tQZ\/yWqZxV9Nd\/fc3dtBiHV6+WuNpruer2Ena6eHv9Zoz7297yGTXA8w+nksoyN57oykdyWp3Y7Vs3FK0+KvNdru3jncGqm\/1veDWyfl3mtBfXptx3vwdozD+CtPbs4ZvR3Pwdsx7kvP6XLHJnV\/59M9oLn7u72kpG97bMO6PzTjBes69HK41N\/az8vdu23taA+Hc\/epr+wuQFSs3cFbgDasHcJbgHZaHCj1sccY8BbgKx56fzVn\/wCHRYTB",
          "encoding":"base64",
          "height":75,
          "name":"front",
@@ -846,7 +846,7 @@
                  "y":472
                 }, 
                 {
-                 "gid":8903,
+                 "gid":8917,
                  "height":24,
                  "id":1163,
                  "name":"",
@@ -858,7 +858,7 @@
                  "y":376
                 }, 
                 {
-                 "gid":8926,
+                 "gid":8940,
                  "height":24,
                  "id":1164,
                  "name":"",
@@ -1201,7 +1201,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8883,
+         "firstgid":8897,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

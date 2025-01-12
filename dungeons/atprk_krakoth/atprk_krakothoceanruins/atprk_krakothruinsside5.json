@@ -4,27 +4,27 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmU2OAiEQhTmLhzMewOUsTPo+nMydF9CJ00lJQKqoP5iuxYvdpISqj9dA6z2l2z10aD1SSj1552hVJ7b20b5W4ipVo7Ww9QQ3X+965++t4GbPzzvnmRTs7Ph55zqjgp0+P0w\/59Nb8L51De9XF4XdVtHOo2yrxfW+t8ubiRU\/DKeReDjmz+lT+dV2EVAGc8h5JijPLYYTlV+tHcOvrJ0iL35XI2H5jfjOil8ttqxFSxR+VN9h+WHng8JvRv9hfTjCDzMnFH5w7ZX2HNwXZuLXm2vKea\/Gj7OOnxfgV4vr+Q\/Lj8sOMjwaPyl2u3LR\/7WxTmjuH3DcUX7f9mpLfluFH4zD+o5yfoHjrs6v9F8ZxxnraP5rxXH03\/23falR4oypxY9y\/pNiV+6\/uVPj5a9Ozif2+R05\/1HOzxLsavxm8V9PEu8fXHZU\/3G915sbyho78rtzbrRz1OqzVqPUeGXfI\/3Efx48BT8dft55raLwnx6\/YMjnFwz5\/GZlOUNOVH5eOY\/mqV3DDDlo8bGoxSoPbzZaNf5ePwGeHEYw",
+         "data":"eJzt2EEKwjAURdG\/FhcnLsAFCN1PVtaZG9BBBRFpqiG5Sd4b3FkL+YdPKF0jbqs73D0ifo0+8yj9Y2vnNrZ2rudp57auqs6ErZozbazgTPsqONO2szvTpgrOtKed63Q5GO0ysvHL+XzKR9vM4nyN\/WibXpyXZymzm2l77ptz7l3axs7j1co5bXdBsnN158XO3ueJnL3Pdp7J+fPeUPp+LrEu3edctMuozu\/7rPZ\/o9S6ZrSJijXtoWJNW6hY0w4q1rSBijU9v4o5PbOKNz1rL9l5fHt6jpGycf\/m9Hmdc87t9wDRjnQ4",
          "encoding":"base64",
          "height":40,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
          "visible":true,
-         "width":80,
+         "width":90,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2VEKwjAMBuB6C589nKfwzft4OT2ACIJjtM2fLGnSmsD\/IOKafGVzbKVk\/Xs9gaxQyJzo7NJjzeSqNePooPNYlff83s7pZOfn3XMt10s7Ufy8jRC72yZahq9vpH7ePhy73mep2z4cP+4MnGiYcfxaa7ecem5H\/KReGp7UMVrnby2oW8uO8uP0fi+8SBwt9gyx6\/0e9aO8zideKM+eHXevqP2T2vX8qN65Xqgn1a\/W2shaSCg\/i96lc2mvr2GI+o2w28919BohvY5wrgPouevlN2pN6brpl36R\/Fr3Dek3j9+j\/DLST7JuRL+Z0rNLv\/RLv9hJv\/SL4pf\/vz5+n++2z32RrLIfHL+9E\/rMrvc8qnbM7X2sxrNSNJJ1azXiXccq0fDjvj9baV9aJTGxzNH3ZFbplbcZ4ujdD1Xe\/UUPUt49Rg63vPut9R6hB27N0qf1DBF6sPLhVpS+o\/po1nauNyhWXOM=",
+         "data":"eJzt2MEJwzAQRFG5i5xTnBtJP2nODQQdhJ2DQVqhWbP7P8zZ8MDCcinU22Ec9WX1xfm+WVOc\/1vhmd1ZaZrR2ds3g7Pacn\/fL2pPMo7q7G2awfmJxtGclW51n9K\/KKmNm\/Nr61uUcF7f7Fk78v634Wxz7vWqw1nj\/C3ncF7nbFmEcNaEsyacNeGsCWdNOOvCWdOs88iu95Rs\/+tqVmfFIoWzNpX1yHOiZv0GWbWoebtmca5522ZxbnkbZ3G+hrM+nH3C2SecteGrDVOisx+cFXFc",
          "encoding":"base64",
          "height":40,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":80,
+         "width":90,
          "x":0,
          "y":0
         }, 
@@ -53,242 +53,41 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":632,
-                 "y":208
+                 "x":712,
+                 "y":168
                 }, 
                 {
                  "gid":2147492449,
                  "height":40,
-                 "id":1043,
+                 "id":949,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":40,
-                 "x":592,
-                 "y":200
-                }, 
-                {
-                 "gid":8821,
-                 "height":64,
-                 "id":1044,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":528,
-                 "y":232
-                }, 
-                {
-                 "gid":8821,
-                 "height":64,
-                 "id":1045,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":288,
-                 "y":232
-                }, 
-                {
-                 "gid":8831,
-                 "height":32,
-                 "id":1046,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":312,
-                 "y":168
-                }, 
-                {
-                 "gid":2147492450,
-                 "height":16,
-                 "id":1047,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":504,
-                 "y":152
-                }, 
-                {
-                 "gid":8802,
-                 "height":16,
-                 "id":1048,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":504,
-                 "y":176
-                }, 
-                {
-                 "gid":8816,
-                 "height":88,
-                 "id":1049,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":400,
-                 "y":232
-                }, 
-                {
-                 "gid":8830,
-                 "height":40,
-                 "id":1050,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":344,
-                 "y":232
-                }, 
-                {
-                 "gid":2147492478,
-                 "height":40,
-                 "id":1051,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":480,
-                 "y":232
-                }, 
-                {
-                 "height":8,
-                 "id":1052,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"fish"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":368,
-                 "y":128
-                }, 
-                {
-                 "height":8,
-                 "id":1053,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"fish"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":472,
+                 "x":672,
                  "y":160
                 }, 
                 {
-                 "height":8,
-                 "id":1054,
+                 "gid":8821,
+                 "height":64,
+                 "id":950,
                  "name":"",
-                 "properties":
-                    {
-                     "monster":"fish"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":392,
+                 "width":24,
+                 "x":608,
                  "y":192
-                }, 
-                {
-                 "gid":8808,
-                 "height":16,
-                 "id":1055,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":152,
-                 "y":224
-                }, 
-                {
-                 "gid":8829,
-                 "height":40,
-                 "id":1056,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":88,
-                 "y":232
-                }, 
-                {
-                 "gid":2147492477,
-                 "height":40,
-                 "id":1057,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":256,
-                 "y":232
-                }, 
-                {
-                 "gid":8830,
-                 "height":40,
-                 "id":1058,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":136,
-                 "y":224
-                }, 
-                {
-                 "gid":2147492478,
-                 "height":40,
-                 "id":1059,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":216,
-                 "y":224
                 }, 
                 {
                  "gid":8810,
                  "height":16,
-                 "id":1060,
+                 "id":1000,
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsReligionLore\"]}"
+                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsTreasure\"]}"
                     },
                  "propertytypes":
                     {
@@ -298,63 +97,28 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":152,
-                 "y":208
+                 "x":544,
+                 "y":160
                 }, 
                 {
-                 "gid":8812,
-                 "height":16,
-                 "id":1061,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":200,
-                 "y":208
-                }, 
-                {
-                 "gid":8914,
-                 "height":16,
-                 "id":1062,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":184,
-                 "y":208
-                }, 
-                {
-                 "gid":8913,
-                 "height":16,
-                 "id":1065,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":152,
-                 "y":192
-                }, 
-                {
-                 "height":8,
-                 "id":1066,
+                 "gid":8877,
+                 "height":32,
+                 "id":1003,
                  "name":"",
                  "properties":
                     {
-                     "monster":"atprk_krakothmine"
+                     "parameters":"{\"treasurePools\":[\"atprk_krakothruinsTreasure\"]}"
                     },
                  "propertytypes":
                     {
-                     "monster":"string"
+                     "parameters":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":176,
-                 "y":144
+                 "width":48,
+                 "x":536,
+                 "y":192
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -425,7 +189,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1067,
+ "nextobjectid":1004,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -570,13 +334,9 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
-        }, 
-        {
-         "firstgid":8897,
-         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }],
  "tilewidth":8,
  "type":"map",
  "version":1,
- "width":80
+ "width":90
 }
