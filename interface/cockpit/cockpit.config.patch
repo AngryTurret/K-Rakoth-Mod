@@ -112,6 +112,11 @@
       "path": "/displayDungeons"
     },
     {
+      "inverse": false,
+      "op": "test",
+      "path": "/namesList"
+    },
+    {
       "op": "add",
       "path": "/mods_present/MorePlanetInfo",
       "value": true
