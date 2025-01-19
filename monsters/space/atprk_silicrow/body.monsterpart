@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_silicrow",
+  "category" : "atprk_silicrow",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_silicrow.png"
+  }
+}

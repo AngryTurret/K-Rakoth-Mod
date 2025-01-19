@@ -235,7 +235,21 @@
       "pool" : [
 	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
 	    {"weight" : 0.40, "item" : "stonerubble"},
-	    {"weight" : 0.10, "item" : "hardenedcarapace"}
+	    {"weight" : 0.09, "item" : "scorchedcore"},
+	    {"weight" : 0.01, "item" : "atprk_fenronbasrelief0"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/atprk_silicrowTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.50, "pool" : "noMeatMonsterTreasure"},
+	    {"weight" : 0.40, "item" : "crystal"},
+	    {"weight" : 0.09, "item" : "hardenedcarapace"},
+	    {"weight" : 0.01, "item" : "atprk_noolithshard0"}
       ]
     }]
    ]		

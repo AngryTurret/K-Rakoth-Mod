@@ -1,12 +1,12 @@
 {
-  "type" : "atprk_devoutattackminibosstele",
-  "shortdescription" : "Captain Flintheart",
-  "description" : "A Glitch Devout captain who escapes with a valuable set of equipment.",
+  "type" : "atprk_holodecoy3",
+  "shortdescription" : "Holographic Decoy",
+  "description" : "Sike!",
 
-  "categories" : [ "atprk_devoutattackminibosstele" ],
+  "categories" : [ "atprk_holodecoy3" ],
   "parts" : [ "body" ],
 
-  "animation" : "atprk_devoutattackminibosstele.animation",
+  "animation" : "atprk_holodecoy3.animation",
   "reversed" : true,
 
   "dropPools" : [ ],
@@ -17,12 +17,13 @@
     ],
 
     "behavior" : "bigapehologram",
+    "damageBar" : "None",
 
     "behaviorConfig" : {
       "disappearRange" : 15
     },
 
-    "knockoutTime" : 0.7,
+    "knockoutTime" : 1.8,
     "knockoutEffect" : "",
     "knockoutAnimationStates" : {
       "body" : "leave"

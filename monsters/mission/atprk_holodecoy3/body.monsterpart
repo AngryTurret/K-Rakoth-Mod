@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_holodecoy3",
+  "category" : "atprk_holodecoy3",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_holodecoy3.png",
+    "bodynobright" : "atprk_holodecoy3lit.png"
+  }
+}
