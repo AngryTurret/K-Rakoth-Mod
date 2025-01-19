@@ -1,0 +1,164 @@
+{
+  "kind" : "ayylien",
+
+  "charCreationTooltip" : {
+      "title" : "Ayylien",
+      "subTitle" : "C3H6O3",
+      "description" : "The Ayyliens are an evasive race of hyper-intelligent bovines rumored to have come from a distant part of the galaxy. Little is known about them, but the way they seem to watch other races from the shadows suggests an ulterior motive."
+  },
+
+  "nameGen" : [ "/species/ayyliennamegen.config:names", "/species/ayyliennamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/apexhurt_male1.ogg", "/sfx/humanoid/apexhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Fur colour", "Horns", "Shirt", "Legwear", "Spot colour", "Horn colour", "Shirt colour", "Legwear colour", "AYYLIEN", "Personality" ],
+  "skull" : "/humanoid/ayylien/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=a1ff63?replace=31a6ffFF=5ed60e",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+// Empty Hands
+      { "item" : "flagapex" },
+
+// Anvil
+      { "item" : "apextier1head" },
+      { "item" : "apextier1chest" },
+      { "item" : "apextier1pants" },
+      { "item" : "apextier2head" },
+      { "item" : "apextier2chest" },
+      { "item" : "apextier2pants" },
+
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+// Anvil2
+      { "item" : "apextier3head" },
+      { "item" : "apextier3chest" },
+      { "item" : "apextier3pants" },
+      { "item" : "apextier4head" },
+      { "item" : "apextier4chest" },
+      { "item" : "apextier4pants" },
+
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+
+// Anvil3
+      { "item" : "apextier5ahead" },
+      { "item" : "apextier5achest" },
+      { "item" : "apextier5apants" },
+      { "item" : "apextier6ahead" },
+      { "item" : "apextier6achest" },
+      { "item" : "apextier6apants" },
+
+      { "item" : "apextier5mhead" },
+      { "item" : "apextier5mchest" },
+      { "item" : "apextier5mpants" },
+      { "item" : "apextier6mhead" },
+      { "item" : "apextier6mchest" },
+      { "item" : "apextier6mpants" },
+
+      { "item" : "apextier5shead" },
+      { "item" : "apextier5schest" },
+      { "item" : "apextier5spants" },
+      { "item" : "apextier6shead" },
+      { "item" : "apextier6schest" },
+      { "item" : "apextier6spants" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+
+// Furniture Table 2
+      { "item" : "apexstoragelocker" },
+      { "item" : "apexshipdoor" },
+      { "item" : "apexshiphatch" },
+
+// Spinning Wheel
+      { "item" : "apexcommanderjacket" },
+      { "item" : "apexcommanderpants" },
+      { "item" : "apexnavyjacket" },
+      { "item" : "apexnavypants" },
+      { "item" : "apexofficerjacket" },
+      { "item" : "apexofficerpants" },
+      { "item" : "apexspecialistjacket" },
+      { "item" : "apexspecialistpants" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/sapemale.png",
+      "hair" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/sapefemale.png",
+      "hair" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    //WHITE
+    { "ffca8a" : "ffffff", "e0975c" : "e6e6e6", "a85636" : "b6b6b6", "6f2919" : "7b7b7b" },
+    //GRAY
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    //BLACK
+    { "ffca8a" : "b6b6b6", "e0975c" : "7b7b7b", "a85636" : "373737", "6f2919" : "151515" },
+    //LIGHT GREEN
+    { "ffca8a" : "e6e6e6", "e0975c" : "b4cfb4", "a85636" : "62a672", "6f2919" : "1d5741" },
+    //LIGHT CYAN
+    { "ffca8a" : "e6e6e6", "e0975c" : "b4cfc6", "a85636" : "62a69f", "6f2919" : "1d4657" },
+    //LIGHT BLUE
+    { "ffca8a" : "e6e6e6", "e0975c" : "b4c6cf", "a85636" : "627fa6", "6f2919" : "1d2057" },
+    //LIGHT PURPLE
+    { "ffca8a" : "e6e6e6", "e0975c" : "b4b8cf", "a85636" : "6762a6", "6f2919" : "371d57" },
+    //LIGHT PINK
+    { "ffca8a" : "e6e6e6", "e0975c" : "c6b4cf", "a85636" : "9f62a6", "6f2919" : "571d46" }
+  ],
+  "undyColor" : [
+    //LIGHT PINK
+    { "f32200" : "ffffff", "dc1f00" : "e6ccdf", "be1b00" : "e899d3", "951500" : "d35eae" },
+    //PINK
+    { "f32200" : "eab3db", "dc1f00" : "d35eae", "be1b00" : "97276d", "951500" : "59163f" }
+  ],
+  "hairColor" : [
+    //BONE
+    { "f7e7b2" : "e7dfbd", "d9c189" : "baaa7c", "a38d59" : "85734f", "735e3a" : "4f432c" },
+    //BLACK
+    { "f7e7b2" : "808080", "d9c189" : "555555", "a38d59" : "383838", "735e3a" : "151515" },
+    //BROWN
+    { "f7e7b2" : "9d9753", "d9c189" : "6d6330", "a38d59" : "463818", "735e3a" : "251c0b" },
+    //PALE BROWN
+    { "f7e7b2" : "8b826f", "d9c189" : "625c4f", "a38d59" : "474239", "735e3a" : "2a2722" },
+    //YELLOW
+    { "f7e7b2" : "f5f2b6", "d9c189" : "e4cc6c", "a38d59" : "b29335", "735e3a" : "9c6928" },
+    //ORANGE
+    { "f7e7b2" : "e7c474", "d9c189" : "c88b28", "a38d59" : "8d581c", "735e3a" : "663b14" },
+    //RUSTY ORANGE
+    { "f7e7b2" : "963e22", "d9c189" : "65271a", "a38d59" : "3e1810", "735e3a" : "200708" },
+    //STEEL BLUE
+    { "f7e7b2" : "9da8af", "d9c189" : "676f83", "a38d59" : "3d3d51", "735e3a" : "24232f" }
+  ]
+}

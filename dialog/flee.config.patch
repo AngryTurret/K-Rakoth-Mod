@@ -1,0 +1,30 @@
+[
+  {
+	"op": "add",
+	"path": "/helpme/ayylien",
+	"value": {
+	  "default" : [
+		"Tactical retreat!",
+		"Help! I'm unarmed!",
+		"I require assistance!",
+		"Requesting fire support, now!",
+		"Help me!",
+		"Run away!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/safe/ayylien",
+	"value": {
+	  "default" : [
+		"Crisis averted! Back to work!",
+		"I think it's over.",
+		"Well, that was a close call.",
+		"No further signs of hostile activity. Resuming my duties.",
+		"Phew, I made it!",
+		"Status report: safe, got scared a little."
+	  ]
+	}
+  }
+]

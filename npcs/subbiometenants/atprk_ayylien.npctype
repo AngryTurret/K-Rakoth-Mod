@@ -18,10 +18,6 @@
         "grumbles" : {
           "severe" : "/dialog/atprk_ayylien.config:severe",
           "final" : "/dialog/atprk_ayylien.config:final"
-        },
-        "arrivedHome" : {
-          "beacon" : "/dialog/atprk_ayylien.config:beacon",
-          "rent" : "/dialog/atprk_ayylien.config:rent"
         }
       },
 

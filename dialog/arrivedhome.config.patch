@@ -1,0 +1,24 @@
+[
+  {
+	"op": "add",
+	"path": "/beacon/ayylien",
+	"value": {
+	  "default" : [
+		"I've received your signals. What's the matter?",
+		"Make it quick, I must continue my survey.",
+		"The ability to click on a colony deed doesn't make you intelligent."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/rent/ayylien",
+	"value": {
+	  "default" : [
+		"You served our people well. Here is your reward.",
+		"Thank you for letting me spy on the- I MEAN stay in this wonderful colony.",
+		"Thank you. Your assistance will be remembered."
+	  ]
+	}
+  }
+]

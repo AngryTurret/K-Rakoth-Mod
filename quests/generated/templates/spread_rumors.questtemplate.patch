@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/ayylien",
+    "value": [
+	  "^cyan;I'd like to spend more time around <target> but <other> keeps getting in my way.",
+	  "^cyan;I want <target> to spend less time with <other>."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/ayylien",
+    "value": [
+	  "<target> seems to enjoy <other>'s company a bit too much, which goes against my plans. I've written a ^orange;message^white; for ^orange;<target>^white; that will change <target.pronoun.possessiveDet> mind about this pitiful union between the two of them. Can you ^green;deliver it to <target.pronoun.object>^white;?",
+	  "<other> just can't stay away from <target> for five minutes, can <other.pronoun.subject>? Perhaps if ^orange;<target>^white; learns, say, an unfortunate fact about this primitive ^orange;via a letter^white;, then <target.pronoun.subject>'ll stop interacting with <other.pronoun.object>. Will you ^green;help me make this happen^white;?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/ayylien",
+    "value": [
+	  "I've seen ^orange;<target>^white; hang out with that primitive ^orange;<other>^white; a lot recently. <other.pronoun.subject> tells <target.pronoun.object> not to trust me, and I'm having none of this! Can you ^green;pass this ^orange;note^green; to ^orange;<target>^white;? There's something <target.pronoun.subject> needs to know about <other>...",
+	  "^orange;<other>^white; is spreading a lot of lies about me, and I can't win ^orange;<target>^white; over if <target.pronoun.subject> believes them. If you ^green;get ^orange;<target>^green; to read this ^orange;letter^green; of mine^white;, <target.pronoun.subject> should stop listening to that liar."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/last/ayylien",
+    "value": [
+	  "Here comes the last part of my plan! <target> needs to stop wasting <target.pronoun.possessiveDet> time on ^orange;<other>^white;, so I've written this ^orange;letter^white; to expose <other.pronoun.possessiveDet> flaws. May I ask you to ^green;deliver it to ^orange;<target>^white;?",
+	  "Finally, I need to get ^orange;<other>^white; out of my way before getting closer to ^orange;<target>^white;. This ^orange;note^white; contains a list of <other>'s flaws - ^orange;<target> ^green;must learn about them^white; sooner or later."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "I'm trying to forge an alliance with <target>, but every time I speak to <target.pronoun.object>, ^orange;<other>^white; interrupts me! Can you ^green;pass this ^orange;message^green; to ^orange;<target>^white; that will explain my problem with <other>?",
+	  "^orange;<other>^white; is not worth ^orange;<target>'s^white; time! And I've planned out a little social experiment to prove this. Could you ^green;deliver this ^orange;note^green; to ^orange;<target>^white;? If <target.pronoun.subject> reads it, <target.pronoun.subject>'ll learn something about <other>..."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/ayylien",
+    "value": [
+	  "It worked! Nothing will stand between me and <target>'s trust anymore!",
+	  "Now <target> knows better not to waste oxygen talking with primitives. Let's see where this goes."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/ayylien",
+    "value": [
+	  "<target> no longer wants to hang out with <other>, which means I can become <target.pronoun.possessiveDet> new ally! Thank you for your assistance!",
+	  "No more of <other>'s slander! From now on I am the one <target> trusts! This means that <target.pronoun.subject> won't question me anymore..."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/ayylien",
+    "value": [
+	  "Yes! <target> no longer believes <other>'s words! Serves <other.pronoun.object> right for claiming that I'm an alien spy - which I'm ABSOLUTELY NOT as everyone knows!",
+	  "You've carried out my plan flawlessly! With <target> on my side, <other> won't be a threat to me. Thank you for your service."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "Success! <target> is now my ally instead of <other>'s! This is exactly what I meant to achieve! Thanks a lot!",
+	  "I can't believe <target.pronoun.subject> fell for it! Truth be told, everything that note said about <other> was made up. You primitives are so gullible, it's laughable!"
+	]
+  }
+]

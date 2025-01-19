@@ -1,0 +1,16 @@
+[
+  {
+	"op": "add",
+	"path": "/converse/ayylien",
+	"value": {
+	  "default" : [
+		"Reporting for duty!",
+		"What is your order?",
+		"Ready to go!",
+		"Waiting for your instructions, captain!",
+		"It's time to go out and explore the new worlds!",
+		"Ooh, are we going to study native fauna?"
+	  ]
+	}
+  }
+]

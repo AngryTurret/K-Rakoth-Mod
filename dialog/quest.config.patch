@@ -1,0 +1,288 @@
+[
+  {
+	"op": "add",
+	"path": "/share_secret/pleaseTakeReply/ayylien",
+	"value": {
+	  "default" : [
+		"Deliver this reply back to <questGiver>."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/intimidate/intimidated/ayylien",
+	"value": {
+	  "default" : [
+		"Please put this <item> away! Tell <questGiver> I'll do anything!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/intimidate/notIntimidated/ayylien",
+	"value": {
+	  "default" : [
+		"Why should I do what <questGiver> wants?",
+		"<questGiver>? Who do they think they are to threaten me?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/bribe/giftAccepted/ayylien",
+	"value": {
+	  "default" : [
+		"Is this an offering from <questGiver>? Consider it accepted.",
+		"<questGiver> really knows what I want. Tell them that I accept their bribe."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/bribe/giftAccepted2/ayylien",
+	"value": {
+	  "default" : [
+		"I wonder what <questGiver> wants from me though..."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/bribe/requestAdditionToHouse/ayylien",
+	"value": {
+	  "default" : [
+		"This gift is... acceptable. Just place it in my house somewhere.",
+		"A surprise for sure but a welcome one. Could you place this in my house while you're here?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/gift/giftAccepted/ayylien",
+	"value": {
+	  "default" : [
+		"Oh, is this for me? Let <questGiver> know that their gift is appreciated.",
+		"Is this a gift from <questGiver>? Well, uh... thanks?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/gift/giftAccepted2/ayylien",
+	"value": {
+	  "default" : [
+		"<questGiver> is beneficial to my goals.",
+		"People like <questGiver> make it easier to tolerate this backwater sector."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/gift/requestAdditionToHouse/ayylien",
+	"value": {
+	  "default" : [
+		"I like this gift. May I ask you to leave it in my house somewhere?",
+		"A surprise for sure but a welcome one. Could you place this in my house while you're here?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/return_stolen/objectTaken/ayylien",
+	"value": {
+	  "default" : [
+		"I'm sorry, I thought this <item> was for everyone to use.",
+		"I was going to put this <item> back when I found it before you showed up!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/collect_fine/fineCollected/ayylien",
+	"value": {
+	  "default" : [
+		"Alright, will you leave me alone if I pay back? Here!",
+		"Okay, okay, I'll pay the fine! I've got enough things to worry about!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/collect_gift/giftProvided/ayylien",
+	"value": {
+	  "default" : [
+		"Bring this <item> back to <questGiver>. I hope it is what's needed.",
+		"Will this <item> suffice?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/request_craft/giftProvided/ayylien",
+	"value": {
+	  "default" : [
+		"<item>? Like this one, right?",
+		"Here is the <item> you asked me to make."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/borrow/giftProvided/ayylien",
+	"value": {
+	  "default" : [
+		"<questGiver> may take my <item>, but they better bring it back soon.",
+		"I don't really need this <item> at the moment, <questGiver> can borrow it."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/extort/giftProvided/ayylien",
+	"value": {
+	  "default" : [
+		"Go ahead, take the <item>. But your act of aggression will not be forgotten.",
+		"This was unnecessary! Just take this <item> and let me be!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/hat/crafting/ayylien",
+	"value": {
+	  "default" : [
+		"This should be enough. Just wait a moment, I'm already working on it...",
+		"These materials aren't the best but I can make it work. Give me a minute."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/hat/crafted/ayylien",
+	"value": {
+	  "default" : [
+		"Done! Now deliver this parcel to <questGiver> for me.",
+		"I did my best. Bring this to <questGiver> and ask if they like it."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/helmet/crafting/ayylien",
+	"value": {
+	  "default" : [
+		"Do you have the materials? Great, let me start crafting then...",
+		"These materials aren't the best but I can make it work. Give me a minute."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/helmet/crafted/ayylien",
+	"value": {
+	  "default" : [
+		"Done! Now deliver this parcel to <questGiver> for me.",
+		"I did my best. Bring this to <questGiver> and ask if they like it."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/new_stock/trade/ayylien",
+	"value": {
+	  "default" : [
+		"Goods accepted. As promised, <questGiver> can now receive this parcel."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/kidnapping/kidnappersDead/ayylien",
+	"value": {
+	  "default" : [
+		"You received my distress signal! Thank goodness!",
+		"My ray gun ran out of charge at the worst possible time. Thank you for helping me out!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/kidnapping/followHome/ayylien",
+	"value": {
+	  "default" : [
+		"They took all my equipment off me! Can you lead me back to <questGiver> so I can restock?",
+		"I need to meet <questGiver> so I can recover. Do you know where they are?",
+		"Could you take me back to <questGiver>? They know how to help me."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/escort/found/ayylien",
+	"value": {
+	  "default" : [
+		"Where am I even? Hey, can you take me to <questGiver>?",
+		"This was not what I was looking for. Can you lead me back to <questGiver> so they can help me out?",
+		"I have no idea what this place is. All I know is that I need to find <questGiver>. Do you know them?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/barter/trade/ayylien",
+	"value": {
+	  "default" : [
+		"Goods accepted. As promised, <questGiver> can now receive the <receivedItems>."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/escort_trade/collectDelivery/ayylien",
+	"value": {
+	  "default" : [
+		"What is it? A delivery?"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/escort_trade/provideDelivery/ayylien",
+	"value": {
+	  "default" : [
+		"You can take this."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/kill_npcs/assistantIntro/ayylien",
+	"value": {
+	  "default" : [
+		"Greetings! <questGiver> contracted me to deal with the <enemy>.",
+		"<questGiver> reported the <enemy> sightings. We must stop them!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/kill_npc/surrender/ayylien",
+	"value": {
+	  "default" : [
+		"Your weaponry is superior! I surrender!",
+		"Stop, put your weapon away! I'm willing to negotiate!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/kill_npc/betray/ayylien",
+	"value": {
+	  "default" : [
+		"Foolish primitive! You fell for my ruse!",
+		"I lied! I refuse to surrender!",
+		"Get zapped, you fool!"
+	  ]
+	}
+  }
+]

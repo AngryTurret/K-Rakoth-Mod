@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/ayylien",
+    "value": [
+	  "^cyan;<target> keeps distracting me from my duties, and I can't let <target.pronoun.object> get away with this!",
+	  "^cyan;I want <target> to stop getting in my way."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/ayylien",
+    "value": [
+	  "I don't think ^orange;<target>^white; understands the importance of my work. If <target.pronoun.subject> refuses to listen to my words, perhaps a large ^orange;<item>^green; in front of <target.pronoun.possessiveDet> face^white; could change <target.pronoun.possessiveDet> mind.",
+	  "First, I need ^orange;<target>^white; to stay quiet. If you could ^green;point a big ^orange;<item>^green; at <target.pronoun.object>^white; on my behalf, I'm sure <target.pronoun.subject>'ll get the message..."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/ayylien",
+    "value": [
+	  "This won't be enough! I demand ^orange;<target>'s^white; total obedience! Can you ^green;approach <target.pronoun.object> with a big ^orange;<item> ^green;in your hand and explain this to <target.pronoun.object>?^white; This way <target.pronoun.subject>'ll listen.",
+	  "Perhaps <target> can apologize by showing <target.pronoun.possessiveDet> willingness to cooperate. Can you ^green;go ask <target.pronoun.object> if <target.pronoun.subject> will listen to my demands?^white; Just show <target.pronoun.object> your ^orange;<item>^white; if there're any objections."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/last/ayylien",
+    "value": [
+	  "My plan is nearing its completion! But I don't think ^orange;<target>^white; is fully loyal to me yet. ^green;A large ^orange;<item> ^green;pointed at <target.pronoun.object> should make it clear that <target.pronoun.possessiveDet> resistance is futile.^white; Will you do this for me?",
+	  "The last thing you have to do is to ensure ^orange;<target>'s^white; cooperation. Can you ^green;convince <target.pronoun.object> to obey me?^white; If <target.pronoun.subject> refuses, a big ^orange;<item>^white; in your hand should make a solid argument."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "I've heard that ^orange;<target>^white; is terribly afraid of ^orange;<item>s^white;. If you ^green;threaten <target.pronoun.object> with one on my behalf,^white; I'm sure <target.pronoun.subject>'ll start taking me seriously. Can you do this for me?",
+	  "If ^orange;<target>^white; doesn't respect me, then a high-quality ^orange;<item>^white; will teach <target.pronoun.object> a lesson! Can you ^green;pay this primitive a visit and hold it in front of <target.pronoun.object>^white; so that <target.pronoun.subject> knows <target.pronoun.possessiveDet> place?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/ayylien",
+    "value": [
+	  "Well done! From now on <target> will no longer cause trouble, or else!",
+	  "Finally, some compliance. As long as <target> respects my authority, <target.pronoun.subject> has nothing to fear."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/ayylien",
+    "value": [
+	  "Job well done! I'll see if <target> learned <target.pronoun.possessiveDet> lesson. There is one more step to my plan however.",
+	  "<target>'s continuous subservience should prove beneficial to my plan. I applaud your persuasion techniques!"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/ayylien",
+    "value": [
+	  "Now that <target> is no longer a problem, I can resume my work in peace. Thank you for reigning <target.pronoun.object> in for me!",
+	  "Thank you for dealing with <target>! Everything went smoothly according to my plan."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "Success, <target> is no longer a nuisance! If <target.pronoun.subject> minds <target.pronoun.possessiveDet> own business, I won't have to send you after <target.pronoun.object> again. This should be crystal clear by now.",
+	  "Feeble primitives! The second they see a superior being, they fold, as they should. Thanks to you <target> will no longer bother me."
+	]
+  }
+]

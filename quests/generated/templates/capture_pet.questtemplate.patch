@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/ayylien",
+    "value": [
+	  "^cyan;I request a <monster> specimen."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "I was asked to catch a ^orange;<monster>^white;, but all I've managed to find is a single <tradedMonster>. You <request> - ^green;can you take this ^orange;Capture Pod^green; and catch me a <monster>^white;?\nApparently these creatures are drawn to the ^orange;<spawnPoint>^white; <spawnPoint.direction>.",
+	  "I wanted to capture a ^orange;<monster>^white; but got a <tradedMonster> by accident. You <request> - ^green;can you take this ^orange;Capture Pod^green; and catch me a <monster>^white;? You can take my <tradedMonster> if you succeed.\nIf you're not sure where to start, <guide1> ^orange;<spawnPoint>^white;<spawnPoint.direction> - <guide2>."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "Thank you for capturing a live <monster>! <appreciation2>"
+	]
+  }
+]

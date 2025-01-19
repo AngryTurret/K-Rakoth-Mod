@@ -12,7 +12,7 @@
             "Fire!"
           ]
         },
-        "human" : {
+        "ayylien" : {
           "default" : [
             "Surrender your cattle and you will not be harmed!",
             "Pew pew pew!",
@@ -20,6 +20,14 @@
             "Look at this primitive fool!",
             "Do not resist, and we may spare you. Maybe.",
             "We come in peace!... Just kidding, not really. Fire!"
+          ],
+          "ayylien" : [
+            "Hey, you're supposed to help us!",
+            "Pew pew pew!",
+            "This planet will be ours!",
+            "You will be reported, defector!",
+            "Do not resist, and we may spare you. Maybe.",
+            "Dissent will not be tolerated! Open fire!"
           ]
         }
       }

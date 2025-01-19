@@ -1,0 +1,28 @@
+[
+  {
+	"op": "add",
+	"path": "/accuse/ayylien",
+	"value": {
+	  "default" : [
+		"You have the gall to loot our stuff like this!",
+		"Hands off, primitive!",
+		"This is exactly why we consider you a lesser being!",
+		"Stop! You aren't allowed to take any of this!",
+		"Who told you you could claim this?!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/alert/ayylien",
+	"value": {
+	  "default" : [
+		"Security alert! We've got thieves!",
+		"Guards! Stop this thief!",
+		"You're not going anywhere! Security!",
+		"Enough of this! I'm raising the alarm!",
+		"This primitive is stealing from us! Get them!"
+	  ]
+	}
+  }
+]

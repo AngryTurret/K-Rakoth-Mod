@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/ayylien",
+    "value": [
+	  "^cyan;I would like to win the favor of <target>, but I can't do it alone. May I request your assistance?",
+	  "^cyan;I want <target> to leave me to my own devices without being rude. Could you help me?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/ayylien",
+    "value": [
+	  "I hope this ^orange;<gift>^white; will please ^orange;<target>^white;. ^green;Will you deliver it to <target.pronoun.object>^white; on my behalf?",
+	  "Now that the ^orange;<gift>^white; is ready, it needs to be delivered to its new owner. ^green;Can you give it to ^orange;<target>^white; when you see <target.pronoun.object>?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "The final step of my little plan is to ^green;deliver this ^orange;<gift>^green; to ^orange;<target>^white;. Can you take care of this?",
+	  "Lastly, I need you to ^green;deliver the ^orange;<gift>^green; to ^orange;<target>^white;. I'm confident <target.pronoun.subject> will accept it."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/ayylien",
+    "value": [
+	  "Did it work? Did <target> take my <gift>? Excellent! I'm very grateful for your help.",
+	  "Great, <target> seems to enjoy the <gift> you gave <target.pronoun.object>. Just as planned... Err, I mean, well done! Thanks a lot! Ha ha..."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "It appears that <target> enjoyed the <gift> we prepared for <target.pronoun.object>. Thank you for helping me out!",
+	  "Yes, <target> took the <gift>! Now <target.pronoun.subject> won't try to sabotage my work any time soon. Thank you for your assistance!"
+	]
+  }
+]

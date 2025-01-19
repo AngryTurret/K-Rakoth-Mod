@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/ayylien",
+    "value": [
+	  "First of all, I need you to ^green;confiscate a single ^orange;<objectItem> ^green;from ^orange;<victim>^white; while <victim.pronoun.subject>'s gone. Why I need this <objectItem> is my own business, your job is to secure it.",
+	  "^orange;<victim>^white; has got a valuable ^orange;<objectItem>^white; in <victim.pronoun.possessiveDet> possession and refuses to hand it over! I need it for, well, scientific purposes, so I'd be grateful if you ^green;brought it to me^white;. <victim>'s consent is optional."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "Now I'd like to request a certain ^orange;<objectItem>^white; from ^orange;<victim>'s^white; personal supplies. <victim.pronoun.subject> prevented me from acquiring it peacefully, so you'll have to ^green;steal it from <victim.pronoun.object>^white;. Can you do this?",
+	  "Did you know that ^orange;<victim>^white; has <victim.pronoun.possessiveDet> very own ^orange;<objectItem>^white;? I didn't know either but now I need it for my plan! ^green;Can you take it from <victim.pronoun.object>^white; while nobody's looking?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/ayylien",
+    "value": [
+	  "You did it, the <objectItem> is mine! Make sure you haven't left any evidence behind.",
+	  "Did you retrieve the <objectItem> I asked for? Very well! Now keep it for a moment, we'll need it soon."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "Yes, yes, this is the <objectItem> I was talking about! Don't hand it over to me just yet though, I don't want <victim> to suspect anything.",
+	  "<victim>'s home security is laughable if you took <victim.pronoun.possessiveDet> <objectItem> away so easily! I almost feel sorry for that primitive fool."
+	]
+  }
+]

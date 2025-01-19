@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/ayylien",
+    "value": [
+	  "^cyan;It's be great if <target> was willing to cooperate more often... I have an idea.",
+	  "^cyan;I want <target> to owe me a favor. I've come up with a plan to make this happen."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/ayylien",
+    "value": [
+	  "Next I need to earn ^orange;<target>'s^white; trust. A nice little ^orange;<gift>^white; from my supplies should do the job - ^green;Can you deliver it to <target.pronoun.object>^white; for me?",
+	  "I know that ^orange;<target>^white; appreciates offerings. I want to offer <target.pronoun.object> the ^orange;<gift>^white;, so that <target.pronoun.subject> knows I'm a valuable ally. ^green;Could you deliver it to <target.pronoun.object>?"
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/ayylien",
+    "value": [
+	  "All you have to do now is to ^green;deliver this ^orange;<gift> ^green;to ^orange;<target>^white;. Before you ask, this is not a bribe, it's more of a, um, display of my good will.",
+	  "Now this is the important step of my plan. ^orange;<target>^white; needs to ^green;receive this ^orange;<gift>^green; and know it's from me^white;, which will hopefully persuade <target.pronoun.object> to become my ally."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/ayylien",
+    "value": [
+	  "Yes, <target> took the bait! This <gift> wasn't worthless after all.",
+	  "Did <target> accept the <gift>? That's great news! Now I have an ally willing to do my bidding."
+	]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/ayylien",
+    "value": [
+	  "See? Now <target> will surely assist me whenever I need <target.pronoun.object>. I must report this to my... uh, nothing. Pay no mind to my ramblings.",
+	  "Thank you! With your help, I've managed to convince <target> to become my minion! This will come in handy soon enough."
+	]
+  }
+]
