@@ -9,6 +9,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 145,
+  "printable" : false,
   "health" : 2.5,
 
   "apexDescription" : "I doubt this shape is efficient enough.",
