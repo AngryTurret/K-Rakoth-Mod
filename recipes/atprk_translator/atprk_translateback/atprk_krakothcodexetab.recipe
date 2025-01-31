@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_krakothcodexeta-codex", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_krakothtexteta",
+    "count" : 1
+  },
+  "groups" : [ "atprk_translator", "atprk_translateback", "nouncrafting" ]
+}

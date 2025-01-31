@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Gamma",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexgamma-codex"
+    "atprk_krakothcodexgamma-codex",
+    "atprk_krakothtextgamma"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

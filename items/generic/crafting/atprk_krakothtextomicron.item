@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Omicron",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexomicron-codex"
+    "atprk_krakothcodexomicron-codex",
+    "atprk_krakothtextomicron"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

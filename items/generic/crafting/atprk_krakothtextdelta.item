@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Delta",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexdelta-codex"
+    "atprk_krakothcodexdelta-codex",
+    "atprk_krakothtextdelta"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

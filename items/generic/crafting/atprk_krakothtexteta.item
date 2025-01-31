@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Eta",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexeta-codex"
+    "atprk_krakothcodexeta-codex",
+    "atprk_krakothtexteta"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

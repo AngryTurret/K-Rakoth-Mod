@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Rho",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexrho-codex"
+    "atprk_krakothcodexrho-codex",
+    "atprk_krakothtextrho"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Epsilon",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexepsilon-codex"
+    "atprk_krakothcodexepsilon-codex",
+    "atprk_krakothtextepsilon"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

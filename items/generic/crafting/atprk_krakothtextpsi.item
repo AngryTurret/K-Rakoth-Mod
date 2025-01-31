@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Psi",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexpsi-codex"
+    "atprk_krakothcodexpsi-codex",
+    "atprk_krakothtextpsi"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

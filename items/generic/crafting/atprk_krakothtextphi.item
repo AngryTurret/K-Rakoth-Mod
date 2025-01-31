@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Phi",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexphi-codex"
+    "atprk_krakothcodexphi-codex",
+    "atprk_krakothtextphi"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

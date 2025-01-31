@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Chi",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodexchi-codex"
+    "atprk_krakothcodexchi-codex",
+    "atprk_krakothtextchi"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

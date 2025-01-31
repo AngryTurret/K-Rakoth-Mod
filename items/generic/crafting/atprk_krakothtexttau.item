@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Tau",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodextau-codex"
+    "atprk_krakothcodextau-codex",
+    "atprk_krakothtexttau"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }

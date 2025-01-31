@@ -8,7 +8,8 @@
   "shortdescription" : "K'Rakoth Codex Theta",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
-    "atprk_krakothcodextheta-codex"
+    "atprk_krakothcodextheta-codex",
+    "atprk_krakothtexttheta"
   ],
   "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
 }
