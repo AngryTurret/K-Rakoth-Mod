@@ -17,9 +17,9 @@
   "hylotlDescription" : "These are just two smooth amber blocks that happen to fit a door frame perfectly.",
   "novakidDescription" : "These doors're sure to keep the bugs out at night.",
 
-  "atprk_anneliskDescription" : "Oh man, you can fit two full-grown Annelisks in these!",
-  "atprk_fenronDescription" : "I bet these amber stones could be used as shields as well.",
-  "atprk_noolithDescription" : "I already appreciate these chunks of amber. So many ancient arthropods to observe.",
+  "anneliskDescription" : "Oh man, you can fit two full-grown Annelisks in these!",
+  "fenronDescription" : "I bet these amber stones could be used as shields as well.",
+  "noolithDescription" : "I already appreciate these chunks of amber. So many ancient arthropods to observe.",
 
   "inventoryIcon" : "atprk_amberdoorpropicon.png",
   "orientations" : [

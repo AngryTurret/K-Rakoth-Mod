@@ -18,9 +18,9 @@
   "hylotlDescription" : "It is a pity someone left these doors in an awful condition like this.",
   "novakidDescription" : "What a borin' pair o' doors. No one even cares about wipin' dust off them.",
 
-  "atprk_anneliskDescription" : "What kind of ash is this? Permanent? Why can't I just clean it off?",
-  "atprk_fenronDescription" : "I could smash these gray doors with no effort.",
-  "atprk_noolithDescription" : "Gothic doors covered in a layer of dust.",
+  "anneliskDescription" : "What kind of ash is this? Permanent? Why can't I just clean it off?",
+  "fenronDescription" : "I could smash these gray doors with no effort.",
+  "noolithDescription" : "Gothic doors covered in a layer of dust.",
 
   "inventoryIcon" : "atprk_ashdoorpropicon.png",
   "orientations" : [

@@ -18,11 +18,9 @@
   "hylotlDescription" : "An old-fashioned desk lamp. Perhaps I should change the lightbulb.",
   "novakidDescription" : "The glow's so weak it's not even funny.",
 
-  "atprk_anneliskDescription" : "Well, that's just sad. Time to get a new lightbulb.",
-  "atprk_fenronDescription" : "Can you really call it a lamp? It barely illuminates anything other than itself.",
-  "atprk_noolithDescription" : "The faint light of this lamp brings back sad memories.",
-
-  "statusEffects" : [ ],
+  "anneliskDescription" : "Well, that's just sad. Time to get a new lightbulb.",
+  "fenronDescription" : "Can you really call it a lamp? It barely illuminates anything other than itself.",
+  "noolithDescription" : "The faint light of this lamp brings back sad memories.",
 
   "lightColor" : [161, 147, 141],
 

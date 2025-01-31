@@ -16,9 +16,9 @@
   "hylotlDescription" : "An experimental set of zero-gravity engines.",
   "novakidDescription" : "Yet another way to defy gravity.",
 
-  "atprk_anneliskDescription" : "A zero-gravity engine. Not all that special, really.",
-  "atprk_fenronDescription" : "A hoverpad repurposed from elder machinery.",
-  "atprk_noolithDescription" : "This design looks oddly familiar.",
+  "anneliskDescription" : "A zero-gravity engine. Not all that special, really.",
+  "fenronDescription" : "A hoverpad repurposed from elder machinery.",
+  "noolithDescription" : "This design looks oddly familiar.",
 
   "inventoryIcon" : "atprk_apexhoverpadicon.png",
   "orientations" : [

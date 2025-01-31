@@ -21,9 +21,9 @@
   "hylotlDescription" : "What a strange amber formation. As if its core had suddenly disappeared into nothingness.",
   "novakidDescription" : "Guess someone extracted an ancient bug from this blob o' amber and then filled it with other stuff.",
 
-  "atprk_anneliskDescription" : "This chest freaks me out, I swear!",
-  "atprk_fenronDescription" : "Something is hidden inside this glob of amber, I can tell.",
-  "atprk_noolithDescription" : "A makeshift container consisting of two amber bubbles.",
+  "anneliskDescription" : "This chest freaks me out, I swear!",
+  "fenronDescription" : "Something is hidden inside this glob of amber, I can tell.",
+  "noolithDescription" : "A makeshift container consisting of two amber bubbles.",
 
   "inventoryIcon" : "atprk_amberchesticon.png",
   "orientations" : [

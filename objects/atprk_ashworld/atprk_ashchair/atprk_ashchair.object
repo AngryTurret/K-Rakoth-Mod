@@ -17,9 +17,9 @@
   "hylotlDescription" : "A well-crafted, albeit stained chair.",
   "novakidDescription":  "I'd call it fancy if it weren't for all this ash all over it.",
 
-  "atprk_anneliskDescription" : "What a dull chair.",
-  "atprk_fenronDescription" : "This chair doesn't look very sturdy, if you ask me.",
-  "atprk_noolithDescription" : "A tall, ashy chair indeed.",
+  "anneliskDescription" : "What a dull chair.",
+  "fenronDescription" : "This chair doesn't look very sturdy, if you ask me.",
+  "noolithDescription" : "A tall, ashy chair indeed.",
 
   "inventoryIcon" : "atprk_ashchairicon.png",
   "orientations" : [

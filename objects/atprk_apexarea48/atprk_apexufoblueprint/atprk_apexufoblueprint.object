@@ -17,9 +17,9 @@
   "hylotlDescription" : "Was it absolutely necessary to waste the ancient knowledge on war?",
   "novakidDescription" : "A blueprint of a flyin' saucer.",
 
-  "atprk_anneliskDescription" : "Another dirty government secret asking for being stolen.",
-  "atprk_fenronDescription" : "I doubt this shape suits well for a military aircraft.",
-  "atprk_noolithDescription" : "I don't think the Miniknog realizes what force it attempts to tamper with.",
+  "anneliskDescription" : "Another dirty government secret asking for being stolen.",
+  "fenronDescription" : "I doubt this shape suits well for a military aircraft.",
+  "noolithDescription" : "I don't think the Miniknog realizes what force it attempts to tamper with.",
 
   "inventoryIcon" : "atprk_apexufoblueprinticon.png",
   "orientations" : [
