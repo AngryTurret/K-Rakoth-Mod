@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "A bed made of solid crystal. Rich but not very convenient.",
   "shortdescription" : "Monolith Bed",
-  "race" : "generic",
+  "race" : "noolith",
   "category" : "furniture",
   "price" : 140,
 

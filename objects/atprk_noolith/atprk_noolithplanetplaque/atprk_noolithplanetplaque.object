@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_noolithplanetplaque",
+  "colonyTags" : ["atprk_noolith","science","space"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+  "shortdescription" : "Durasteel Planet Plaque",
+  "description" : "An overview of an unidentified planet.",
+  "race" : "noolith",
+
+  "apexDescription" : "An astronomical plaque.",
+  "avianDescription" : "This tablet describes a celestial body I'm not familiar with. The cryptic writing doesn't help either.",
+  "floranDescription" : "Wide plate sssays sssomething about huge circle.",
+  "glitchDescription" : "Attentive. The circle in the middle has jagged patters. They're likely meant to represent continents.",
+  "humanDescription" : "This wall-mounted plaque shows an unknown planet.",
+  "hylotlDescription" : "Too bad the text is unreadable, it could provide a valuable insight into an alien world.",
+  "novakidDescription" : "Can't say I know what this means but it must be 'bout planets.",
+
+
+  "inventoryIcon" : "atprk_noolithplanetplaqueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithplanetplaque.png:<color>",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

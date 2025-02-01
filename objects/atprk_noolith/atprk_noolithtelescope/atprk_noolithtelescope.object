@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_noolithtelescope",
+  "colonyTags" : ["atprk_noolith","science","space"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 105,
+  "description" : "A very intricate telescope designed for stargazing.",
+  "shortdescription" : "Durasteel Telescope",
+  "race" : "noolith",
+
+  "apexDescription" : "I should be careful not to shatter this telescope. It's very sensitive.",
+  "avianDescription" : "A telescope this precise should give me a clear view of distant stars.",
+  "floranDescription" : "Fragile yet usseful telessscope.",
+  "glitchDescription" : "Pleased. This refined telescope grants a good view of the stars.",
+  "humanDescription" : "This sophisticated telescope features mirrors made from exotic crystals.",
+  "hylotlDescription" : "An indispensable tool for inspecting celestial bodies from a safe distance.",
+  "novakidDescription" : "A telescope with a fragile crystal lens.",
+
+  "inventoryIcon" : "atprk_noolithtelescopeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithtelescope.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

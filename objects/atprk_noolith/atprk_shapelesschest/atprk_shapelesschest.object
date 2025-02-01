@@ -4,12 +4,11 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 120,
   "description" : "A pale, withered crystalline box.",
   "shortdescription" : "Shapeless Chest",
-  "race" : "generic",
+  "race" : "noolith",
   "printable" : false,
   "health" : 2.0,
 

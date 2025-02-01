@@ -4,12 +4,11 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 55,
   "description" : "A cracked crystalline box.",
   "shortdescription" : "Old Monolith Chest",
-  "race" : "generic",
+  "race" : "noolith",
   "health" : 1.5,
 
   "apexDescription" : "Does the chest itself count as a treasure?",

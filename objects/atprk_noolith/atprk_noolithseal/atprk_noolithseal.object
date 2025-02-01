@@ -4,10 +4,9 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 90,
-
   "shortdescription" : "Monolith Seal",
   "description" : "A wall-mounted crystal seal.",
-  "race" : "generic",
+  "race" : "noolith",
 
   "apexDescription" : "A wall-mounted crystal. I wonder if it is natural.",
   "avianDescription" : "If only if this was an Avolite crystal...",

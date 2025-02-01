@@ -6,7 +6,8 @@
   "price" : 85,
   "description" : "A thick rectangular crystal that can be used as a table.",
   "shortdescription" : "Monolith Table",
-  "race" : "generic",
+  "race" : "noolith",
+  "printable" : false,
 
   "apexDescription" : "I would rather not eat at this cold crystalline table.",
   "avianDescription" : "The table's top is extremely smooth and shiny.",

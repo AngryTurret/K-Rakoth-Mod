@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "description" : "A bookcase carved from a large crystal.",
   "shortdescription" : "Old Monolith Bookcase",
-  "race" : "Generic",
+  "race" : "noolith",
   "category" : "storage",
   "price" : 95,
   "health" : 1.5,

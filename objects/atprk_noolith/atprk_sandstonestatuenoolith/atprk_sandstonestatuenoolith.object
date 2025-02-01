@@ -17,9 +17,9 @@
   "hylotlDescription" : "A sandstone statue of a beautiful angular creature.",
   "novakidDescription" : "I dunno who it is but they ain't enjoyin' being here.",
 
-  "atprk_anneliskDescription" : "Some serious-looking pal made of pure sandstone.",
-  "atprk_fenronDescription" : "An inanimate sandstone golem. I can tell it's waiting for a worthy opponent.",
-  "atprk_noolithDescription" : "A sandstone Noolith. I don't know who the author is but they managed to get it just right.",
+  "anneliskDescription" : "Some serious-looking pal made of pure sandstone.",
+  "fenronDescription" : "An inanimate sandstone golem. I can tell it's waiting for a worthy opponent.",
+  "noolithDescription" : "A sandstone Noolith. I don't know who the author is but they managed to get it just right.",
 
   "inventoryIcon" : "atprk_sandstonestatuenoolithicon.png",
   "orientations" : [

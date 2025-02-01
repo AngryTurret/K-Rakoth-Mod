@@ -6,7 +6,7 @@
   "price" : 250,
   "description" : "A smooth, tall pillar carved from a giant crystal.",
   "shortdescription" : "Monolith Pillar",
-  "race" : "generic",
+  "race" : "noolith",
 
   "apexDescription" : "A tall crystal monolith.",
   "avianDescription" : "A tall featureless pillar. Not very expressive.",

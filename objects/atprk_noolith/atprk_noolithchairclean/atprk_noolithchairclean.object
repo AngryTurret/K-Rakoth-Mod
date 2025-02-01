@@ -4,8 +4,9 @@
   "rarity" : "Common",
   "description" : "A crystal you can sit on.",
   "shortdescription" : "Monolith Chair",
-  "race" : "generic",
+  "race" : "noolith",
   "category" : "furniture",
+  "printable" : false,
   "price" : 105,
   
   "apexDescription" : "A crystal chair of highly questionable efficiency.",

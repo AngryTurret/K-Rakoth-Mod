@@ -6,7 +6,7 @@
   "price" : 70,
   "description" : "A thick rectangular crystal that can be used as a table.",
   "shortdescription" : "Old Monolith Table",
-  "race" : "generic",
+  "race" : "noolith",
 
   "apexDescription" : "An unstable crystalline table.",
   "avianDescription" : "The table's top is notably cracked.",

@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_noolithorrery",
+  "colonyTags" : ["atprk_noolith","science","space"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 95,
+  "description" : "A model of an unknown solar system.",
+  "shortdescription" : "Durasteel Orrery",
+  "race" : "noolith",
+
+  "apexDescription" : "A durasteel orrery with moving bits.",
+  "avianDescription" : "A model of some distant system.",
+  "floranDescription" : "Ssspinning metal thingy.",
+  "glitchDescription" : "Puzzled. What is the purpose of this mechanism?",
+  "humanDescription" : "I don't know what any of these planets are but the model is sure pretty.",
+  "hylotlDescription" : "A well-made orrery of an unknown system.",
+  "novakidDescription" : "This kinda looks like a star with planets 'round it.",
+
+  "inventoryIcon" : "atprk_noolithorreryicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithorrery.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "price" : 1600,
   "description" : "An incomplete Noolith body. It appears to be somewhat conscious.",
   "shortdescription" : "Imperfect Vessel",
-  "race" : "generic",
+  "race" : "noolith",
   "printable" : false,
 
   "apexDescription" : "Is this crystal being self-aware? Can I help it?",

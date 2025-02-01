@@ -4,12 +4,12 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 70,
   "description" : "A pretty crystalline box.",
   "shortdescription" : "Monolith Chest",
-  "race" : "generic",
+  "race" : "noolith",
+  "printable" : false,
   "health" : 1.5,
 
   "apexDescription" : "Does the chest itself count as a treasure?",

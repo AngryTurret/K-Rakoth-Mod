@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_noolithbench2",
+  "colonyTags" : ["atprk_noolith"],
+  "rarity" : "Common",
+  "description" : "A cold crystal bench.",
+  "shortdescription" : "Old Monolith Bench",
+  "race" : "noolith",
+  "category" : "furniture",
+  "price" : 190,
+
+  "apexDescription" : "I don't believe this is the most reasonable material for a bench.",
+  "avianDescription" : "This bench looks not unlike a chunk of solid ice.",
+  "floranDescription" : "Sssomeone hit thiss bench multiple timesss in a row.",
+  "glitchDescription" : "Aloof. An uncomfortable crystal bench.",
+  "humanDescription" : "A shattered crystalline bench. It may sting if I sit on it.",
+  "hylotlDescription" : "A bench carved from a single large crystal. Its surface has many little cracks.",
+  "novakidDescription" : "Can't say I find this bench here cozy.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "atprk_noolithbench2icon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithbench2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-14, 23], // Right
+        [0, 23], // Middle
+        [14, 23] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_noolithbench2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-14, 23], // Left
+        [0, 23], // Middle
+        [14, 23] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

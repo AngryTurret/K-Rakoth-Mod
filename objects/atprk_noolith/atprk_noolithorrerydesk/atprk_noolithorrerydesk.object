@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_noolithorrerydesk",
+  "colonyTags" : ["atprk_noolith","commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  "description" : "This desk is meant to support an orrery but it can also be used for other things.",
+  "shortdescription" : "Durasteel Orrery Desk",
+  "race" : "noolith",
+
+  "apexDescription" : "A large octagonal desk decorated with gems.",
+  "avianDescription" : "The top of this table is engraved with astronomical symbols.",
+  "floranDescription" : "A huge fancy dessk to show off trophies on.",
+  "glitchDescription" : "Impressed. A massive octagonal crystal seems to form the base of this table.",
+  "humanDescription" : "A perfect base for an orrery or another complex display.",
+  "hylotlDescription" : "I think I can discern some arcane symbols on the top.",
+  "novakidDescription" : "All these lil' gems 'n runes are too distractin'.",
+
+  "inventoryIcon" : "atprk_noolithorrerydeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithorrerydesk.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

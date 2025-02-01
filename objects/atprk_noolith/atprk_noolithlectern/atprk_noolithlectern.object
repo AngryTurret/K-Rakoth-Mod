@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_noolithlectern",
+  "colonyTags" : ["atprk_noolith","knowledge","science"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 65,
+  "description" : "A battered crystalline lectern.",
+  "shortdescription" : "Old Monolith Lectern",
+  "race" : "noolith",
+
+  "apexDescription" : "A crystalline reading desk.",
+  "avianDescription" : "This podium was clearly meant to hold a sacred text but it's nowhere to be seen.",
+  "floranDescription" : "Dessk too sssmall, Floran won't cut big meatsss here.",
+  "glitchDescription" : "Bemused. A lectern straight from an ancient crystal temple.",
+  "humanDescription" : "A crystal lectern once used for lenghty debates or something.",
+  "hylotlDescription" : "A minimalistic podium of this kind should draw all attention to a lector.",
+  "novakidDescription" : "A fancy spot t' read somethin' clever out loud.",
+
+  "inventoryIcon" : "atprk_noolithlecternicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithlectern.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

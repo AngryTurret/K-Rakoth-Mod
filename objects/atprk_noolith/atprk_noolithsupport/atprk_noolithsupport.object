@@ -1,0 +1,55 @@
+{
+  "objectName" : "atprk_noolithsupport",
+  "colonyTags" : ["atprk_noolith"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 25,
+  "description" : "An angular metal support.",
+  "shortdescription" : "Durasteel Support",
+  "race" : "noolith",
+  "printable" : false,
+
+  "apexDescription" : "A durasteel support.",
+  "avianDescription" : "A high-quality metal support.",
+  "floranDescription" : "Sssupporting metal beam.",
+  "glitchDescription" : "Neutral. A support forged from durasteel.",
+  "humanDescription" : "An angular durasteel support.",
+  "hylotlDescription" : "An oddly-shaped durasteel support.",
+  "novakidDescription" : "A bent beam o' steel made into a support.",
+
+  "inventoryIcon" : "atprk_noolithsupporticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithsupportleft.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 2], [2, 2], [2, 3], [3, 3] ],
+      "fgAnchors" : [ [-1, 0], [3, 4] ]
+    },
+    {
+      "image" : "atprk_noolithsupportright.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [0, 1], [-1, 1], [-1, 2], [-2, 2], [-2, 3], [-3, 3] ],
+      "fgAnchors" : [ [1, 0], [-3, 4] ]
+    },
+    {
+      "image" : "atprk_noolithsupportgroundleft.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [-1, 0], [-1, 1], [-2, 1], [-2, 2], [-3, 2], [-3, 3] ],
+      "fgAnchors" : [ [0, -1], [-4, 3] ]
+    },
+    {
+      "image" : "atprk_noolithsupportgroundright.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [1, 0], [1, 1], [2, 1], [2, 2], [3, 2], [3, 3] ],
+      "fgAnchors" : [ [0, -1], [4, 3] ]
+    }
+  ]
+}
