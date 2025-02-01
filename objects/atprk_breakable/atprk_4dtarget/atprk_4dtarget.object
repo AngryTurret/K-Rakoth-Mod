@@ -1,0 +1,50 @@
+{
+  "objectName" : "atprk_4dtarget",
+  "colonyTags" : ["atprk_4d","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 0,
+  "printable" : false,
+  "shortdescription" : "Extradimensional Node",
+  "description" : "Shoot this pulsing node to destroy a nearby obstacle.",
+  "race" : "generic",
+
+  "apexDescription" : "This object appears to be linked to a nearby extradimensional structure.",
+  "avianDescription" : "A bizarre construct tied to something else.",
+  "floranDescription" : "Floran shootsss firsst and asssks questions later.",
+  "glitchDescription" : "Thoughtful. Perhaps this strange node is part of something bigger.",
+  "humanDescription" : "This vibrant core looks vulnerable.",
+  "hylotlDescription" : "This otherworldly construct needs to be destroyed to proceed.",
+  "novakidDescription" : "Somethin' tells me this thing's larger than it seems t' be.",
+
+
+  "inventoryIcon" : "atprk_4dtargeticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_4dtarget.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "animationPosition" : [-16, -16],
+      "frames" : 36,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "animation" : "atprk_4dtarget.animation",
+  "animationParts" : {
+    "fg" : "atprk_4dtarget.png"
+  },
+
+  "outputNodes" : [ [0, 0] ],
+
+  "health" : 50,
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/npc/boss/tentacleboss_portal_open.ogg" ],
+
+  "scripts" : ["/objects/space/wiredtarget/wiredtarget.lua"],
+  "scriptDelta" : 0
+}

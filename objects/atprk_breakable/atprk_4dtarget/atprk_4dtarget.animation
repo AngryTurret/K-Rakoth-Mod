@@ -1,0 +1,42 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "atprk_4dtarget" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 36,
+            "cycle" : 2.0,
+            "mode" : "loop",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 0.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "", "", "/sfx/melee/laser_weapon_swing3.ogg", "", "", "", "/sfx/interface/stationtransponder_probeprep.ogg", "", "", "", "", "", "", "", "", "", "", "", "", "", "/sfx/melee/laser_weapon_swing3.ogg", "", "", "", "/sfx/interface/stationtransponder_probeprep.ogg", "", "", "", "", "", "", "", "", "", "", "" ]
+            }
+          }
+        }
+      }
+    },
+        
+    "parts" : {
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "atprk_4dtarget" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
