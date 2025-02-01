@@ -6,7 +6,7 @@
   "price" : 95,
   "description" : "It may work if you interact with it but nothing is guaranteed.",
   "shortdescription" : "Small Corporate Console",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "The screen on this console is shattered. I should be careful with the inputs.",
   "avianDescription" : "None of the buttons are signed so there is only one way to learn what they do...",

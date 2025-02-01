@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "description" : "An old shelf full of junk.",
   "shortdescription" : "Old Corporate Shelf",
-  "race" : "generic",
+  "race" : "annelisk",
   "category" : "storage",
   "price" : 115,
   "health" : 1.5,

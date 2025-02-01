@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A rusty metal table for an office lobby.",
   "shortdescription" : "Old Corporate Table",
-  "race" : "generic",
+  "race" : "annelisk",
   "category" : "furniture",
   "price" : 40,
 
@@ -16,9 +16,9 @@
   "hylotlDescription" : "A tasteless lobby table.",
   "novakidDescription" : "A pretty heavy table covered in rust.",
 
-  "atprk_anneliskDescription" : "A heavy mass-produced office table. Cheap stuff, really.",
-  "atprk_fenronDescription" : "A rust-covered office table.",
-  "atprk_noolithDescription" : "A cheap metal table fit for an office building.",
+  "anneliskDescription" : "A heavy mass-produced office table. Cheap stuff, really.",
+  "fenronDescription" : "A rust-covered office table.",
+  "noolithDescription" : "A cheap metal table fit for an office building.",
 
   "inventoryIcon" : "atprk_annelisktableicon.png",
   "orientations" : [

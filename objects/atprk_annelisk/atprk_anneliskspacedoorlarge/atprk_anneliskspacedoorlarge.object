@@ -6,7 +6,7 @@
   "price" : 175,
   "description" : "An large airlock door designed for privately-owned spacecraft.",
   "shortdescription" : "Old Corporate Airlock",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "An old airlock door.",
   "avianDescription" : "A decrepit airlock.",

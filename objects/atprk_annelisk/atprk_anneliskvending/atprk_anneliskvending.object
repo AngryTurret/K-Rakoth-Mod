@@ -6,10 +6,9 @@
   "price" : 135,
   "lightColor" : [151, 118, 91],
   "printable" : false,
-
   "shortdescription" : "Old Vending Machine",
   "description" : "A discarded yet still functional vending machine.",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "A vending machine that sells questionable drinks.",
   "avianDescription" : "I doubt I should buy anything from this vending machine. Who knows how long it's been standing here.",
@@ -19,9 +18,9 @@
   "hylotlDescription" : "I don't trust this old vending machine. What if all the drinks are spoiled?",
   "novakidDescription" : "Don't wanna buy anythin' from a rusty vendin' machine.",
 
-  "atprk_anneliskDescription" : "Oh hey, these things are still around!",
-  "atprk_fenronDescription" : "Should I give it a try and buy some soda?",
-  "atprk_noolithDescription" : "An incredibly old vending machine that still accepts money somehow.",
+  "anneliskDescription" : "Oh hey, these things are still around!",
+  "fenronDescription" : "Should I give it a try and buy some soda?",
+  "noolithDescription" : "An incredibly old vending machine that still accepts money somehow.",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {

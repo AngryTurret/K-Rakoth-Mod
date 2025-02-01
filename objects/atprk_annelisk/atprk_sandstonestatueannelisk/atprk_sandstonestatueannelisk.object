@@ -17,9 +17,9 @@
   "hylotlDescription" : "Some unknown worm-like being. It is probably extinct by now.",
   "novakidDescription" : "A sandystone worm? That's sure odd.",
 
-  "atprk_anneliskDescription" : "Cool, a guy made of sandstone. Can I have my own statue, too?",
-  "atprk_fenronDescription" : "What a waste of sandstone. I'd understand if it was someone honorable, but this? Pathetic.",
-  "atprk_noolithDescription" : "A sandstone Annelisk. The real one would be unpleasant to deal with.",
+  "anneliskDescription" : "Cool, a guy made of sandstone. Can I have my own statue, too?",
+  "fenronDescription" : "What a waste of sandstone. I'd understand if it was someone honorable, but this? Pathetic.",
+  "noolithDescription" : "A sandstone Annelisk. The real one would be unpleasant to deal with.",
 
   "inventoryIcon" : "atprk_sandstonestatueanneliskicon.png",
   "orientations" : [

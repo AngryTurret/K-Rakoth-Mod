@@ -6,7 +6,7 @@
   "price" : 60,
   "description" : "A dim wall light.",
   "shortdescription" : "Corporate Wall Light",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "lightColor" : [130, 53, 15],
 
