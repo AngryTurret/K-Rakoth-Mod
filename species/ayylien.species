@@ -4,7 +4,7 @@
   "charCreationTooltip" : {
       "title" : "Ayylien",
       "subTitle" : "C3H6O3",
-      "description" : "The Ayyliens are an evasive race of hyper-intelligent bovines rumored to have come from a distant part of the galaxy. Little is known about them, but the way they seem to watch other races from the shadows suggests an ulterior motive."
+      "description" : "The Ayyliens are an evasive race of hyper-intelligent bovines rumored to have come from a distant part of the galaxy. Little is known about them, but the way they seem to watch other races from the shadows suggests a sinister motive."
   },
 
   "nameGen" : [ "/species/ayyliennamegen.config:names", "/species/ayyliennamegen.config:names" ],
