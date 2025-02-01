@@ -6,7 +6,7 @@
   "price" : 85,
   "description" : "A decrepit office table.",
   "shortdescription" : "Round Corporate Table",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "A floor-mounted round table.",
   "avianDescription" : "A round table that wouldn't be out of place in an abandoned office.",

@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A mining crate full of precious crystals.",
   "shortdescription" : "Unsealed Corporate Crate",
-  "race" : "generic",
+  "race" : "annelisk",
   "category" : "decorative",
   "price" : 125,
   "health" : 1.5,

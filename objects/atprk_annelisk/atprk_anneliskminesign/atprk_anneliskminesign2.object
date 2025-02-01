@@ -6,7 +6,7 @@
   "price" : 70,
   "shortdescription" : "Falling Meteors Sign",
   "description" : "Don't forget to look up once in a while.",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "This area is subject to frequent meteor showers.",
   "avianDescription" : "This sign indicates common meteor strikes.",

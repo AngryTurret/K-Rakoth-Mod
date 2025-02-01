@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "description" : "A stationary beam drill.",
   "shortdescription" : "Ouroboros Beam Drill",
-  "race" : "generic",
+  "race" : "annelisk",
   "category" : "decorative",
   "price" : 450,
   "health" : 2.5,

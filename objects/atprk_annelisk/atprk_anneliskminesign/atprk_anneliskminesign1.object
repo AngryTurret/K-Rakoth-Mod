@@ -6,7 +6,7 @@
   "price" : 70,
   "shortdescription" : "Space Fauna Sign",
   "description" : "Watch out for asteroid monsters!",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "Hostile silicon-based life forms ahead.",
   "avianDescription" : "This sign indicates dangerous creatures ahead.",

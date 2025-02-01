@@ -5,7 +5,7 @@
   "category" : "decorative",
   "description" : "Out of order.",
   "shortdescription" : "Abandoned Sleeping Pod",
-  "race" : "generic",
+  "race" : "annelisk",
   "printable" : false,
   "price" : 160,
 
@@ -17,9 +17,9 @@
   "hylotlDescription" : "Someone or something destroyed this pod from the inside.",
   "novakidDescription" : "Can't see a thing beyond this metal lid!",
 
-  "atprk_anneliskDescription" : "Yuck! If this awful smell is anything to go by, someone overslept.",
-  "atprk_fenronDescription" : "I can barely stand near this thing without gagging.",
-  "atprk_noolithDescription" : "A sleeping pod turned into a deathtrap.",
+  "anneliskDescription" : "Yuck! If this awful smell is anything to go by, someone overslept.",
+  "fenronDescription" : "I can barely stand near this thing without gagging.",
+  "noolithDescription" : "A sleeping pod turned into a deathtrap.",
 
   "inventoryIcon" : "atprk_annelisksleepingpodbrokenicon.png",
   "orientations" : [

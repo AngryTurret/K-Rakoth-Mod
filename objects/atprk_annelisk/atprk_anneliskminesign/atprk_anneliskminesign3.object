@@ -6,7 +6,7 @@
   "price" : 70,
   "shortdescription" : "Mineral Sign",
   "description" : "A brief overview of various mineral properties.",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "A sign that describes some minerals.",
   "avianDescription" : "I must be approaching a large crystal deposit.",

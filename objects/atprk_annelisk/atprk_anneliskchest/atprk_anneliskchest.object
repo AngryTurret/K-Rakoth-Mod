@@ -4,12 +4,11 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 30,
   "description" : "A repurposed delivery package.",
   "shortdescription" : "Old Corporate Chest",
-  "race" : "generic",
+  "race" : "annelisk",
   "health" : 1.5,
 
   "apexDescription" : "A small delivery package containing treasures.",
@@ -20,9 +19,9 @@
   "hylotlDescription" : "A hard delivery package, abandoned long ago.",
   "novakidDescription" : "A strange plastic chest. Guess it's very cheap.",
 
-  "atprk_anneliskDescription" : "Looks like someone forgot to take this delivery package. Well, it can be mine now.",
-  "atprk_fenronDescription" : "A plastic box full of potentially useful things. Or maybe not.",
-  "atprk_noolithDescription" : "A forgotten delivery package.",
+  "anneliskDescription" : "Looks like someone forgot to take this delivery package. Well, it can be mine now.",
+  "fenronDescription" : "A plastic box full of potentially useful things. Or maybe not.",
+  "noolithDescription" : "A forgotten delivery package.",
 
   "inventoryIcon" : "atprk_anneliskchesticon.png",
   "orientations" : [

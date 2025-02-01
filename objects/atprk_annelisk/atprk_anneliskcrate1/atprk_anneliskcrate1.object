@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "description" : "A mass-produced crate. It has seen better days.",
   "shortdescription" : "Small Corporate Crate",
-  "race" : "generic",
+  "race" : "annelisk",
   "category" : "storage",
   "price" : 75,
   "health" : 1.5,

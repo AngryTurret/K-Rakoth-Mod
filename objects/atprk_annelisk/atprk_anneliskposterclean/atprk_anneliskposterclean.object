@@ -5,10 +5,9 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 85,
-
   "shortdescription" : "Corporate Poster",
   "description" : "A poster of what appears to be a company logo.",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "A poster depicting the logo of an unknown company.",
   "avianDescription" : "Apparently, there was an old company with this logo.",
@@ -18,9 +17,9 @@
   "hylotlDescription" : "It does not look anything like the Letheia logo, so it is definitely something else.",
   "novakidDescription" : "A company logo maybe, go figure.",
 
-  "atprk_anneliskDescription" : "People say Ouroboros Industrial Cartel was just a front company for the K'Rakoths. Maybe it was, maybe not. Go figure.",
-  "atprk_fenronDescription" : "They probably don't sell anything anymore, so why bother with ads?",
-  "atprk_noolithDescription" : "Ouroboros Industrial Cartel used to be something that controlled all Annelisks. And the company itself was controlled by the False Lords.",
+  "anneliskDescription" : "People say Ouroboros Industrial Cartel was just a front company for the K'Rakoths. Maybe it was, maybe not. Go figure.",
+  "fenronDescription" : "They probably don't sell anything anymore, so why bother with ads?",
+  "noolithDescription" : "Ouroboros Industrial Cartel used to be something that controlled all Annelisks. And the company itself was controlled by the False Lords.",
 
   "inventoryIcon" : "atprk_anneliskpostercleanicon.png",
   "orientations" : [

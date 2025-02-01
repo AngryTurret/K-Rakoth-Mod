@@ -6,7 +6,7 @@
   "price" : 85,
   "description" : "An office printer in dire need of a refill.",
   "shortdescription" : "Old Corporate Printer",
-  "race" : "generic",
+  "race" : "annelisk",
 
   "apexDescription" : "A large printing machine.",
   "avianDescription" : "This machine contains a small stack of faded papers.",
