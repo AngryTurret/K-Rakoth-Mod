@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A stone chair covered in vines.",
   "shortdescription" : "Overgrown Stone Chair",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 30,
 

@@ -6,7 +6,7 @@
   "price" : 100,
   "description" : "A fragment of a bigger stone bas-relief.",
   "shortdescription" : "Stone Bas-Relief Piece",
-  "race" : "generic",
+  "race" : "fenron",
   "printable" : false,
 
   "learnBlueprintsOnPickup" : [

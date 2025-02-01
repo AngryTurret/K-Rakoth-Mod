@@ -5,12 +5,11 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 90,
   "description" : "A small stone chest.",
   "shortdescription" : "Refined Stone Chest",
-  "race" : "generic",
+  "race" : "fenron",
   "health" : 1.5,
 
   "apexDescription" : "A simple stone chest.",

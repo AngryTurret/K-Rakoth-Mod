@@ -4,12 +4,11 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 70,
   "description" : "A small, overgrown chest.",
   "shortdescription" : "Overgrown Stone Chest",
-  "race" : "generic",
+  "race" : "fenron",
   "health" : 1.5,
 
   "apexDescription" : "This chest's lid is slightly open if you look close enough.",

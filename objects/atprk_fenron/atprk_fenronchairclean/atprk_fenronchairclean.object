@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "A primitive stone chair.",
   "shortdescription" : "Refined Stone Chair",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 45,
 

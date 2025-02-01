@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "A rather uncomfortable bed made from hard stone.",
   "shortdescription" : "Refined Stone Bed",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 85,
 

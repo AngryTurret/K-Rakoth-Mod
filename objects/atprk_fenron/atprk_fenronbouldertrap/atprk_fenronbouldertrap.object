@@ -6,7 +6,7 @@
   "description" : "A trap that drops heavy boulders on unsuspecting intruders.",
   "shortdescription" : "Fenron Boulder Trap",
   "category" : "trap",
-  "race" : "generic",
+  "race" : "fenron",
   "price" : 200,
 
   "apexDescription" : "If I time my movements correctly I can avoid the falling boulders.",

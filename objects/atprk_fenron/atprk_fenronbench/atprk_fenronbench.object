@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A short stone bench.",
   "shortdescription" : "Refined Stone Bench",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 100,
 

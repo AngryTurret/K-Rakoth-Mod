@@ -6,7 +6,7 @@
   "price" : 1600,
   "description" : "A complete bas-relief made by the long-gone Fenron race.",
   "shortdescription" : "Stone Bas-Relief",
-  "race" : "generic",
+  "race" : "fenron",
   "printable" : false,
 
   "apexDescription" : "An old bas-relief made by the long-extinct Fenron race. It was probably meant to be a tribute to their masters, the K'Rakoths.",

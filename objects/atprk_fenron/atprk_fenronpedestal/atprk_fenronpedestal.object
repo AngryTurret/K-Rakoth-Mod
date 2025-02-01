@@ -5,7 +5,7 @@
   "category" : "decorative",
   "description" : "A stone pedestal supported by wild vines.",
   "shortdescription" : "Overgrown Stone Pedestal",
-  "race" : "generic",
+  "race" : "fenron",
   "price" : 85,
 
   "apexDescription" : "A stone pedestal for important artifacts.",
