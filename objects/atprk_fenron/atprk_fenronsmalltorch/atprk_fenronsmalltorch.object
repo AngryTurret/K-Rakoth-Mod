@@ -5,7 +5,7 @@
   "category" : "light",
   "description" : "A torch protected by a sturdy stone shell.",
   "shortdescription" : "Refined Stone Torch",
-  "race" : "generic",
+  "race" : "fenron",
   "price" : 25,
   "maximumLiquidLevel" : 0.2,
 

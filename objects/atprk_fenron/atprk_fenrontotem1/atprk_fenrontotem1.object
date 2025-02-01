@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "An overgrown totem with few vaguely feline faces.",
   "shortdescription" : "Overgrown Stone Totem",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 145,
 

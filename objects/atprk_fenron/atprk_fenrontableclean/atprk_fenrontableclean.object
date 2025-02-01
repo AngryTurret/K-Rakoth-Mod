@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "A simple stone table made from round rocks.",
   "shortdescription" : "Refined Stone Table",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 50,
 

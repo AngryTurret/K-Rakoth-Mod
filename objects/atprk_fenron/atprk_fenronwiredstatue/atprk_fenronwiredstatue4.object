@@ -1,5 +1,5 @@
 {
-  "objectName" : "atprk_fenronwiredstatue2",
+  "objectName" : "atprk_fenronwiredstatue4",
   "colonyTags" : ["atprk_fenron","light","wired"],
   "rarity" : "Common",
   "category" : "wire",
@@ -17,7 +17,7 @@
   "hylotlDescription" : "A statue powered by an ancient battery. I wonder if I can turn it off somehow...",
   "novakidDescription" : "This stone fella hides a secret. Gotta crack it open!",
 
-  "lightColor" : [32, 128, 37],
+  "lightColor" : [84, 32, 128],
   "flickerPeriod" : 0.2,
   "flickerMinIntensity" : 0.85,
   "flickerMaxIntensity" : 0.9,
@@ -27,7 +27,7 @@
   "inventoryIcon" : "atprk_fenronwiredstatueicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue2.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue4.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-16, 0],
       "frames" : 14,
@@ -38,7 +38,7 @@
       "direction" : "left"
     },
     {
-      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue2.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "atprk_fenronwiredstatue4.png:<frame>", "fullbright" : true }, { "image" : "atprk_fenronwiredstatuelit.png:<frame>" } ],
       "imagePosition" : [-16, 0],
       "frames" : 14,
       "animationCycle" : 1.0,

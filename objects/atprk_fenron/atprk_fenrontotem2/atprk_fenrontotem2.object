@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A short stone totem overtaken by vines.",
   "shortdescription" : "Overgrown Stone Totem",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "decorative",
   "price" : 85,
 

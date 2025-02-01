@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A wall torch shaped like a predator's head.",
   "shortdescription" : "Blue Fenron Torch",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "light",
   "price" : 75,
   "maximumLiquidLevel" : 0.2,

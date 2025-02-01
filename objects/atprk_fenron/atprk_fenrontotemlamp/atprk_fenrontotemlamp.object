@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "description" : "One can give this totem fiery hair.",
   "shortdescription" : "Fiery Stone Totem",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "light",
   "price" : 115,
   "printable" : false,

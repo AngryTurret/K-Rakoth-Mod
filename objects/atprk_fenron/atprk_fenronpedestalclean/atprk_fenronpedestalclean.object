@@ -6,7 +6,7 @@
   "category" : "decorative",
   "description" : "A stone pedestal ornamented by feline faces.",
   "shortdescription" : "Refined Stone Pedestal",
-  "race" : "generic",
+  "race" : "fenron",
   "price" : 100,
 
   "apexDescription" : "A stone pedestal for important artifacts.",

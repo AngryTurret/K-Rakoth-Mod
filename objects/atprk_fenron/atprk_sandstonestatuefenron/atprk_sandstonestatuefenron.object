@@ -17,9 +17,9 @@
   "hylotlDescription" : "What are you, a mysterious feline creature?",
   "novakidDescription" : "Some tall wild cat or somethin'.",
 
-  "atprk_anneliskDescription" : "A strong furry guy. Should've put that thing on a sandstone leash or something.",
-  "atprk_fenronDescription" : "So many people mistake us for those primitive savannah dwellers it's not funny anymore.",
-  "atprk_noolithDescription" : "A Fenron statue made of sandstone. While not exactly authentic, it does capture their strength.",
+  "anneliskDescription" : "A strong furry guy. Should've put that thing on a sandstone leash or something.",
+  "fenronDescription" : "So many people mistake us for those primitive savannah dwellers it's not funny anymore.",
+  "noolithDescription" : "A Fenron statue made of sandstone. While not exactly authentic, it does capture their strength.",
 
   "inventoryIcon" : "atprk_sandstonestatuefenronicon.png",
   "orientations" : [

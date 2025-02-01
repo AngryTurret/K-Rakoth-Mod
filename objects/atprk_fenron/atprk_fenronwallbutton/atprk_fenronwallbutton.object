@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "A barely visible stone button. What if I push it?",
   "shortdescription" : "Stone Wall Button",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "wire",
   "price" : 15,
 

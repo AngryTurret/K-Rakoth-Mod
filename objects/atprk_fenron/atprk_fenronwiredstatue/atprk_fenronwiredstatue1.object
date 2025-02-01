@@ -7,7 +7,7 @@
   "printable" : false,
   "description" : "Smash this thing to pieces and see what happens!",
   "shortdescription" : "Fiery Fenron Statue",
-  "race" : "generic",
+  "race" : "fenron",
 
   "apexDescription" : "This statue appears to contain an archaic power source.",
   "avianDescription" : "Something produces energy inside this statue.",

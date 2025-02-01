@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "description" : "A wall torch shaped like a predator's head.",
   "shortdescription" : "Purple Fenron Torch",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "light",
   "price" : 105,
   "maximumLiquidLevel" : 0.2,

@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "description" : "A stone table overtaken by thick vines.",
   "shortdescription" : "Overgrown Stone Table",
-  "race" : "generic",
+  "race" : "fenron",
   "category" : "furniture",
   "price" : 35,
 

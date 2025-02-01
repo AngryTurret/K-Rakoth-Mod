@@ -5,7 +5,7 @@
   "category" : "decorative",
   "description" : "A sacred idol of a forgotten race. The clenched fists are its most convincing part.",
   "shortdescription" : "Large Fenron Statue",
-  "race" : "generic",
+  "race" : "fenron",
   "printable" : false,
   "price" : 450,
   "health" : 2.5,
