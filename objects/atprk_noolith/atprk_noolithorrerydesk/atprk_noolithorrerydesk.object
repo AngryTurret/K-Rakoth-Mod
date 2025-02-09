@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 110,
-  "description" : "This desk is meant to support an orrery but it can also be used for other things.",
+  "description" : "This desk is meant to support an orrery, but it can also be used for other things.",
   "shortdescription" : "Durasteel Orrery Desk",
   "race" : "noolith",
 
@@ -12,7 +12,7 @@
   "avianDescription" : "The top of this table is engraved with astronomical symbols.",
   "floranDescription" : "A huge fancy dessk to show off trophies on.",
   "glitchDescription" : "Impressed. A massive octagonal crystal seems to form the base of this table.",
-  "humanDescription" : "A perfect base for an orrery or another complex display.",
+  "humanDescription" : "A perfect base for an orrery or some other complex display.",
   "hylotlDescription" : "I think I can discern some arcane symbols on the top.",
   "novakidDescription" : "All these lil' gems 'n runes are too distractin'.",
 
