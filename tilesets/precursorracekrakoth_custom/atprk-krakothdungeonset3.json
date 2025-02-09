@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":51,
+ "tilecount":52,
  "tileheight":88,
  "tileproperties":
     {
@@ -463,6 +463,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk-4dcrateframesmall",
+         "tilesetDirection":"right"
+        },
+     "51":
+        {
+         "\/\/description":"Shoot this pulsing node to destroy a nearby obstacle.",
+         "\/\/name":"atprk_4dtarget",
+         "\/\/shortdescription":"Extradimensional Node",
+         "imagePositionX":"-16",
+         "imagePositionY":"-16",
+         "object":"atprk_4dtarget",
          "tilesetDirection":"right"
         },
      "6":
@@ -961,6 +971,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "51":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "6":
         {
          "\/\/description":"string",
@@ -1285,6 +1305,12 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcrateframesmall.png",
          "imageheight":16,
          "imagewidth":24
+        },
+     "51":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_4dtarget.png",
+         "imageheight":40,
+         "imagewidth":40
         },
      "6":
         {
