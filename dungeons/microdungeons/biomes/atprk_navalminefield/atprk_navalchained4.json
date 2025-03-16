@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2EEKwzAMRFGdpYfrOQq9W7PrmRoI2YQ2NbY0X8QSzNaeF5sQspg9lsr0eZlZ5sxg9LLTfZVuuqPSTHdTm+leSi\/dSW2m+5Q3zkt3UZuVez4PubL3aFWbKe\/9tqW81\/TS97nXfDatZsKq9FIZ+aakxtM6o7fVTI23Nfs5R1h732GZvIp\/d7TXw7jnva73L4pp6aGwRvp79lZbR\/wee2Xw\/rJ7r03dZ2X2np7vrMx2b2dmc6Q1m1tlpc1qp8L8bX3SGe2nHT3mkWdAG9TnTvdVuel+ajPdTe2mO1Uqlbz5AC8YfLg=",
+         "data":"eJzt2MsNgzAQBNCtheJSR6RcUlm4pSYSRT4E8bVnZ1ZmLc3NsucBMojR7D5mLp+XmUXOFYwou7ov063uyDSru7HN6l5Mr7oT26zu05P3OWDmoLyM67vl8bbOzYy9iuth\/2FZFd65taR37234Jb19etXPc615ayzNV55XiPfvGa\/6fdTyTXl2fD2IOUirpxc10N6jZtVAW6PfZw9r7RkWycv4d6f2Iowl7896e2GMIz0YVk9\/zd5sa4sfsVcE75odvbbqeWam9ESeWZHtaGdks6c1mptlVZvZToZ5aX2l09uvdtSYW66B2sC+7+q+LLe6H9us7sZ2qztlMpm4mQA+2Hz0",
          "encoding":"base64",
          "height":45,
          "name":"back",
@@ -177,7 +177,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":8866,
+                 "gid":8930,
                  "height":16,
                  "id":839,
                  "name":"",
@@ -600,7 +600,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8834,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
