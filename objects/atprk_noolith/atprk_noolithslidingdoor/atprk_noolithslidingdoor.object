@@ -1,0 +1,54 @@
+{
+  "objectName" : "atprk_noolithslidingdoor",
+  "colonyTags" : ["atprk_noolith","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "description" : "A well-crafted sliding door.",
+  "shortdescription" : "Durasteel Sliding Door",
+  "race" : "noolith",
+  "price" : 95,
+
+  "apexDescription" : "This door slides right into the ceiling.",
+  "avianDescription" : "A decorated sliding door.",
+  "floranDescription" : "Door goesss up, door goesss down...",
+  "glitchDescription" : "Captivated. A sophisticated sliding door.",
+  "humanDescription" : "A high-quality door that can be hidden away.",
+  "hylotlDescription" : "A durable sliding door.",
+  "novakidDescription" : "A slidin' door with no handle.",
+
+  "inventoryIcon" : "atprk_noolithslidingdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_noolithslidingdoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bardoor2_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bardoor2_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_noolithslidingdoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

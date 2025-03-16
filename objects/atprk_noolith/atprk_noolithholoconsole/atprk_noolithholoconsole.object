@@ -1,0 +1,83 @@
+{
+  "objectName" : "atprk_noolithholoconsole",
+  "colonyTags" : ["atprk_noolith","electronic","wired"],
+  "rarity" : "Common",
+  "description" : "A large console with a hologram projector.",
+  "shortdescription" : "Large Holographic Console",
+  "race" : "noolith",
+  "category" : "wire",
+  "price" : 140,
+
+  "lightColor" : [62, 84, 89],
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.97,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "A terminal with an additional holographic screen.",
+  "avianDescription" : "An intricate computer that displays holograms when active.",
+  "floranDescription" : "Sleek consssole showsss light sscreens.",
+  "glitchDescription" : "Captivated. A computer with an extra screen made of pure light.",
+  "humanDescription" : "This terminal looks impressive. I hope it works just as well.",
+  "hylotlDescription" : "This terminal is equipped with a hologram projector.",
+  "novakidDescription" : "A huge console that shows holograms.",
+
+  "inventoryIcon" : "atprk_noolithholoconsoleicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithholoconsole.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_noolithholoconsole.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "atprk_noolithholoconsole.animation",
+  "animationParts" : {
+    "bg" : "atprk_noolithholoconsole.png",
+    "fg" : "atprk_noolithholoconsolelit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_button.ogg" ],
+      "off" : [ "/sfx/objects/console_button3.ogg" ]
+    }
+  },
+  "animationPosition" : [-16, 0],
+
+  "soundEffect" : "/sfx/objects/electriclight.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [ 
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
