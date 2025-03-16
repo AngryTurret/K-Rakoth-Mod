@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmNsNgzAMRTMLq\/WHARigElN0CSbjrwtUqCBFEUkasONH78eRkIoU+3DjQNcQniswwzuEUEK6PkvUXHIj3b93vxqBXzu+pWu3CJVfzC4611odW\/GsxZUHPHleonoXZbX3yPTW87yzXU9MpOtIu231fMf1uPf8Gr7E19Sk64yKfFN4zvUS9xrn7DHwkK5T8sy9r6Q8xzk7c3T4mQvPoXZPS56599VVzyXXFHmm8tySZ859xeX56GlKetSQ51xtlj2nWdIwn3O1aZzP3Hmm8tySZ8ueLeXZ49zQkGdPnnNzQ0Oe\/+EclPwezNVm8f25Jc+9\/t+weA5e\/R5Mf8\/dS8HZOrXaOGug9gzqwDE8e4LCcctZCq7nWLpOy1DPHnDPMTz3cQzP\/H7hmd8thWfvz7D3uyHHmpxo8fpLXdKuPAKvAACghw\/gzEPS",
+         "data":"eJztmNsNgzAMRTMLq\/WHARigEot0AibjrwtUqCBFEUkasONH78eRkIoU+3DjQNcQniswwzuEUEK6PkvUXHIj3b93vxqBXzu+pWu3CJVfzC4611odW\/GsxZUHPHleonoXZbX3yPTW87yzXU9MpOtIu231fMf1uPf8Gr7E19Sk64yKfFN4zvUS9xrn7DHwkK5T8sy9r6Q8xzk7c3T4mQvPoXZPS56599VVzyXXFHmm8tySZ859xeX56GlKetSQ51xtlj2nWdIwn3O1aZzP3Hmm8tySZ8ueLeXZ49zQkGdPnnNzQ0Oe\/+EclPwezNVm8f25Jc+9\/t+weA5e\/R5Mf8\/dS8HZOrXaOGug9gzqwDE8e4LCcctZCq7nWLpOy1DPHnDPMTz3cQzP\/H7hmd8thWfvz7D3uyHHmpxo8fpLXdKuPAKvAACghw+1iEbi",
          "encoding":"base64",
          "height":40,
          "name":"back",
@@ -161,18 +161,6 @@
                  "y":184
                 }, 
                 {
-                 "gid":2147492478,
-                 "height":42,
-                 "id":911,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":496,
-                 "y":184
-                }, 
-                {
                  "gid":2147492471,
                  "height":64,
                  "id":912,
@@ -285,7 +273,7 @@
                  "y":144
                 }, 
                 {
-                 "gid":8932,
+                 "gid":8939,
                  "height":16,
                  "id":922,
                  "name":"",
@@ -294,6 +282,18 @@
                  "visible":true,
                  "width":16,
                  "x":472,
+                 "y":184
+                }, 
+                {
+                 "gid":2147492478,
+                 "height":40,
+                 "id":923,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":496,
                  "y":184
                 }],
          "opacity":1,
@@ -377,7 +377,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":923,
+ "nextobjectid":924,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -524,7 +524,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8852,
+         "firstgid":8859,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,

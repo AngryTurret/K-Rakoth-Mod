@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2ttNxTAMBuCyBc8MxxS8sQ\/LwQBwhCpVJfEtv2OT2JIFSKdN4q9J2xyO4zg+hfn68pvvP78\/P9H5fvm89Pw7JzrKM0eiojzzJCpmen7dMrqGGXM0Ij3LFO8607Nnmsn17P9oRpnO9myZcn3wdEf5efmiTTM8D3nMZar2j3GMJNLVEhGeFh+UJ+fHjVNSB8rX29TDs1f73v1z1j205TjqJ\/W1mmb1zGbp7UjVx9PU0\/O02t1y1DSTJ5e7WI6Yoj0\/BHX4SO6ZwbJlupLnbnNzxhyN8vS2zDo3I+eox\/1zhmPmuRk1R78cPGdZZp+b3nO0ZYn2nGlZnn8tkZ5RltK+9\/b+3l5k2dvjQ665FsvVPKVz877HikrkHLV43h1Q+0PZPT1M0WvuqCXCM8LS6kmtu9rvyjzuodGeUZYjnhHp4dl7vyjPPJ6cKTc3y\/P\/eEosRzwjLcszlyf1zFievKfHeouwvL6va03Ls70HcLaj\/X4FYUn9XZ59T2ovx9uzt65ynpztjp7cnvm1ZlpPzRyiTFvrrcR0RU8qzneKluP1vmm9f3L943wsubtn63irpcb0fu7RbLW1oidlKr3mLfVomaLOrW2vPDG14EzRde61t4sntXadvyP6eT8n6txUe1S71u9AEEndY6SePVPqOkHW2+Oc2mu+l1Ge0me68pR7zraUmpYn3270OtszrfU2f7sjfUV7PvZ3zkT11eOcmdv19uxF9Bgqy3PVROz3RY+hUu9Z83O8zpr\/jy\/PPHm1a+3zS\/dH7+dBe2qeb3dNi53GuDxjLK\/vrNRPy2fLc66lpydnivBs7fFf38FHvwehzjkjJe1qbRDHcH2xeiLXf+66r5Sntyd3XVHXWuU8z95nI\/s5kpL\/8T9T8hnJMZLjJDXWjLMX3HH\/xVHjyqXWkjsOOS4uNOfi+hltiDQdTfRYpBFd8wyZ3VQT0bXk8vGcHN2HUfNZlkeCOmlcz4zuy0xTbUTXRuOYydTiOsM0uiZa0+i+WC1HXDURXZeV0vPZSBrRNZiR1ojuN2IM2caBHpslosfrMebVxjMaq499tfFYYsfxrzIOLnawrCi\/Cnl8A4WSUYY=",
+         "data":"eJzt2ktu3DAMBmDnFl3P4XKCLrvLfXK5zAHaQWHAcCS+9FNkJBIgkgBjWeJnybYmx3EcX8J8f\/zPj3+\/\/3qj8+PyeWn7Oyc6yjNHoqI88yQqZno+bxldw4w5GpGeZYp3nenZM83kevZ\/NKNMZ3u2TLk+eLqj\/Lx80aYZnoc85jJV+9c4RhLpaokIT4sPypPz48YpqQPl623q4dmrfe\/+Oese2nIc9ZP6Wk2zemaz9Hak6uNp6ul5Wu1uOWqayZPLXSxHTNGen4I6fCb3zGDZMl3Jc7e5OWOORnl6W2adm5Fz1OP+OcMx89yMmqNPB89ZltnnpvccbVmiPWdalud3S6RnlKW07729vz8PWfb2+JBrrsVyNU\/p3LzvsaISOUctnncH1P5Qdk8PU\/SaO2qJ8IywtHpS6672uzKPe2i0Z5TliGdEenj23i\/KM48nZ8rNzfL8OZ4SyxHPSMvyzOVJPTOWJ+\/psd4iLK\/v61rT8mzvAZzn0X6\/grCk\/i7Pvie1l+Pt2VtXOU\/OdkdPbs\/8WjOtp2YOUaat9VZiuqInFec7Rcvxet+03j+5\/nE+ltzds3W81VJjem97NFvnWtGTMpVe85Z6tExRbWvPV56YWnCm6Dr3zreLJ7V2nb8j+nlvE9U2dT7qvNbvQBBJ3WOknj1T6jpB1tujTe0138soT+kzXXnKPWdbSk3Lkz9v9DrbM631Nv95R\/qK9nzt75yJ6qtHm5nP6+3Zi+gxVJbnqonY74seQ6Xes+bneJ01\/x9fnnnyatfa55fuj97bQXtqnm93TYudxrg8Yyyv76zUT8tny3OupacnZ4rwbO3xX9\/BR78HabX5e2K2xtL7TkNqgziG64vVE7n+c9d9pTy9PbnrirrWKud59j4b2c+RlPyP\/5mSz0iOkRwnqbFmnL3gjvspjhpXLrWW3HHIcXGhaYvrZ7Qh0nQ00WORRnTNM2R2U01E15LL13NydB9GzWdZHgnqpHE9M7ovM021EV0bjWMmU4vrDNPommhNo\/titRxx1UR0XVZKz2cjaUTXYEZaI7rfiDFkGwd6bJaIHq\/HmFcbz2isPvbVxmOJHce\/yji42MGyovwq5PEXF2NP8Q==",
          "encoding":"base64",
          "height":69,
          "name":"front",
@@ -329,18 +329,6 @@
                  "y":120
                 }, 
                 {
-                 "gid":2147492464,
-                 "height":88,
-                 "id":974,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":320,
-                 "y":400
-                }, 
-                {
                  "gid":8830,
                  "height":40,
                  "id":975,
@@ -464,6 +452,18 @@
                  "width":48,
                  "x":128,
                  "y":72
+                }, 
+                {
+                 "gid":2147492464,
+                 "height":80,
+                 "id":987,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":320,
+                 "y":400
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -591,7 +591,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":987,
+ "nextobjectid":988,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -736,6 +736,10 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
+        }, 
+        {
+         "firstgid":8898,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
  "type":"map",

@@ -341,18 +341,6 @@
                  "y":408
                 }, 
                 {
-                 "gid":8815,
-                 "height":64,
-                 "id":1028,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":848,
-                 "y":528
-                }, 
-                {
                  "gid":2147492463,
                  "height":64,
                  "id":1029,
@@ -487,18 +475,6 @@
                  "width":24,
                  "x":480,
                  "y":664
-                }, 
-                {
-                 "gid":2147492463,
-                 "height":64,
-                 "id":1042,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":968,
-                 "y":288
                 }, 
                 {
                  "gid":2147492461,
@@ -691,6 +667,30 @@
                  "width":48,
                  "x":968,
                  "y":408
+                }, 
+                {
+                 "gid":8951,
+                 "height":56,
+                 "id":1074,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":848,
+                 "y":528
+                }, 
+                {
+                 "gid":2147492599,
+                 "height":56,
+                 "id":1075,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":968,
+                 "y":288
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -890,7 +890,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1074,
+ "nextobjectid":1076,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -1035,6 +1035,10 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
+        }, 
+        {
+         "firstgid":8898,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
  "type":"map",

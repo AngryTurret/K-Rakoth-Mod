@@ -261,18 +261,6 @@
                  "y":528
                 }, 
                 {
-                 "gid":8815,
-                 "height":64,
-                 "id":1042,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":1040,
-                 "y":544
-                }, 
-                {
                  "gid":2147492463,
                  "height":64,
                  "id":1043,
@@ -925,7 +913,7 @@
                  "y":504
                 }, 
                 {
-                 "gid":2147492593,
+                 "gid":2147492594,
                  "height":16,
                  "id":1111,
                  "name":"",
@@ -937,7 +925,7 @@
                  "y":328
                 }, 
                 {
-                 "gid":2147492586,
+                 "gid":2147492587,
                  "height":16,
                  "id":1112,
                  "name":"",
@@ -947,6 +935,18 @@
                  "width":24,
                  "x":504,
                  "y":376
+                }, 
+                {
+                 "gid":8951,
+                 "height":56,
+                 "id":1113,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1040,
+                 "y":544
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1114,7 +1114,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1113,
+ "nextobjectid":1114,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -1261,7 +1261,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8897,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,
