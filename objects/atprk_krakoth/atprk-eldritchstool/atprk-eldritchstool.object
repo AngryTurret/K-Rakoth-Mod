@@ -1,0 +1,39 @@
+{
+  "objectName" : "atprk-eldritchstool",
+  "colonyTags" : ["atprk_krakoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A strange ancient stool.",
+  "shortdescription" : "Eldritch Stool",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "An unsettling elder stool.",
+  "avianDescription" : "Looks rather uncomfortable.",
+  "floranDescription" : "Floran doessss not like thisss chair.",
+  "glitchDescription" : "Somber. Not the best choice, but somewhat acceptable.",
+  "humanDescription" : "Creepy-looking stool. I wouldn't put it in a bar.",
+  "hylotlDescription" : "I would rather not sit on this stool.",
+  "novakidDescription" : "Ain't the best stool for a saloon.",
+
+  "inventoryIcon" : "atprk-eldritchstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-eldritchstool.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

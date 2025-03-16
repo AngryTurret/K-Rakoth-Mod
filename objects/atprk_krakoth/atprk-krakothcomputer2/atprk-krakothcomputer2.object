@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk-krakothcomputer2",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab"],
+  "rarity" : "Common",
+  "description" : "An advanced computer, seemingly functional despite centuries of inaction.",
+  "shortdescription" : "Elder Computer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 330,
+  "printable" : false,
+
+  "apexDescription" : "An advanced K'Rakothan computer.",
+  "avianDescription" : "It's fascinating how long this computer has been working yet it still looks quite modern.",
+  "floranDescription" : "Floran knowsss nothing about old computersss.",
+  "glitchDescription" : "Thoughtful. I wonder what kind of knowledge this computer could provide.",
+  "humanDescription" : "An ancient computer that has been standing here forever, probably.",
+  "hylotlDescription" : "An advanced machine once used by K'Rakoths. It probably holds much valuable data.",
+  "novakidDescription" : "An ancient computer that's been on forever.",
+
+  "inventoryIcon" : "atprk-krakothcomputer2icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk-krakothcomputer2.png:<color>", "fullbright" : true }, { "image" : "atprk-krakothcomputer2lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk-krakothcomputer2.png:<color>", "fullbright" : true }, { "image" : "atprk-krakothcomputer2lit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
