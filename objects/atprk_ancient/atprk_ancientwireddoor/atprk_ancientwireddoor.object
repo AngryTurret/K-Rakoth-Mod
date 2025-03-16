@@ -8,7 +8,7 @@
   "description" : "This door can only be opened by connecting it to a switch.",
   "shortdescription" : "Ancient Wired Door",
   "race" : "ancient",
-  "health" : 10000000,
+  "unbreakable" : true,
 
   "apexDescription" : "An indestructible door. The only way to open it is to connect it to a switch.",
   "avianDescription" : "Unless I connect this door to a switch, I won't be able to unseal it.",
@@ -18,9 +18,9 @@
   "hylotlDescription" : "The only way to advance is to put some kind of a lever near this door.",
   "novakidDescription" : "My matter manipulator won't break this door here. Gotta use the wirin' mode.",
 
-  "atprk_anneliskDescription" : "If I can't dismantle this door, then at least I can wire it to a switch, right?",
-  "atprk_fenronDescription" : "What a tough door! Guess brute force alone won't help me unseal it.",
-  "atprk_noolithDescription" : "My wiring tool seems to recognize this door. Could this be a hint?",
+  "anneliskDescription" : "If I can't dismantle this door, then at least I can wire it to a switch, right?",
+  "fenronDescription" : "What a tough door! Guess brute force alone won't help me unseal it.",
+  "noolithDescription" : "My wiring tool seems to recognize this door. Could this be a hint?",
 
   "inventoryIcon" : "atprk_ancientwireddooricon.png",
   "orientations" : [
@@ -67,7 +67,5 @@
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ],
 
-  "breakDropOptions" : [
-    [ [ "atprk_ancientshards", 1, { } ] ]
-  ]
+  "breakDropOptions" : [ ]
 }
