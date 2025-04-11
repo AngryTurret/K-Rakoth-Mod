@@ -1,0 +1,583 @@
+{
+  "metadata" : {
+    "name" : "atprk_4drift",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 80,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // LAYOUT
+    {
+      "name" : "atprk_4driftlayout_left1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_4driftlayout_left1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4driftlayout_left2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_4driftlayout_left2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4driftlayout_right1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_4driftlayout_right1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4driftlayout_right2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_4driftlayout_right2.json" ],
+      "chance" : 1
+    },
+
+    // BARRIERS
+
+    {
+      "name" : "atprk_4drift_barrierblock1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierblock1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierblock2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierblock2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierblock3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierblock3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierblock4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierblock4.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barriernode1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barriernode1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barriernode2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barriernode2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barriernode3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barriernode3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barriernode4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barriernode4.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierclosed1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrierclosed2", "atprk_4drift_barrierclosed3", "atprk_4drift_barrierclosed4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierclosed1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierclosed2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrierclosed1", "atprk_4drift_barrierclosed3", "atprk_4drift_barrierclosed4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierclosed2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierclosed3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrierclosed1", "atprk_4drift_barrierclosed2", "atprk_4drift_barrierclosed4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierclosed3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierclosed4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrierclosed1", "atprk_4drift_barrierclosed2", "atprk_4drift_barrierclosed3" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierclosed4.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrieropen1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrieropen2", "atprk_4drift_barrieropen3", "atprk_4drift_barrieropen4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrieropen1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrieropen2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrieropen1", "atprk_4drift_barrieropen3", "atprk_4drift_barrieropen4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrieropen2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrieropen3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrieropen1", "atprk_4drift_barrieropen2", "atprk_4drift_barrieropen4" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrieropen3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrieropen4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "atprk_4drift_barrieropen1", "atprk_4drift_barrieropen2", "atprk_4drift_barrieropen3" ] ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrieropen4.json" ],
+      "chance" : 1
+    },
+
+    // DEBRIS AND OTHER OBSTACLES
+
+    {
+      "name" : "atprk_4drift_asteroid_low1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_low2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_low3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_low3.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_mid1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_mid2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_mid3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_mid3.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_high1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_high2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_asteroid_high3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_asteroid_high3.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+
+    {
+      "name" : "atprk_4drift_debris_low1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_low2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_low3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_low3.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_mid1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_mid2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_mid3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_mid3.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_high1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_high2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_debris_high3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_debris_high3.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+
+    {
+      "name" : "atprk_4drift_shapes1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_shapes1.json" ],
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_shapes2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_shapes2.json" ],
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+    {
+      "name" : "atprk_4drift_shapes3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_shapes3.json" ],
+      "chance" : 1,
+      "markDungeonId" : false
+    },
+
+    // PRIMARY ENCOUNTERS
+
+    {
+      "name" : "atprk_4drift_primary_low1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_low2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_low3",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_low3.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_low4",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_low4.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+
+    {
+      "name" : "atprk_4drift_primary_mid1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_mid2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_mid3",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_mid3.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_mid4",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_mid4.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+
+    {
+      "name" : "atprk_4drift_primary_high1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_high2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_high3",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_high3.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_primary_high4",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_primary_high4.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    },
+
+    // SECONDARY ENCOUNTERS
+
+    {
+      "name" : "atprk_4drift_secondary_low1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_secondary_low2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_secondary_mid1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_secondary_mid2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_secondary_high1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_4drift_secondary_high2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_right1", "atprk_4driftlayout_right2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_4drift_secondary_high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.3
+    }  ]
+}

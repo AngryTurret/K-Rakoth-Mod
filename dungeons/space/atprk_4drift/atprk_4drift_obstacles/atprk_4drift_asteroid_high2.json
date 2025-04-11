@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt3Q1u0zAYgOEdgFNwkR6tV0cTRLNM4nxJnfgnzyNZCNSODvmt3cajX18AAAAAAAAAAAAAAP14JwP48c7Gr99tHw\/0JO\/DWgI\/Sn1YS8AaAiXLWvE99AHr8kYAAAAAAAAA7uDsF\/xvuYa\/DOCvvA3nJXm6rXP1e51ohVmVztPnnURuByOLrAU1htcsjCS6T9IIT\/P6N\/JGlj+\/spFXMqAnr5WRt5GOK5pY+zughdK8jI4r20i\/PtR2ZB723odGqOGTuXh3G5HHld8Wzqj1fN2ij63HtXY7OKp2G3u3r9nFmQER0WsTn64HPbWhDyLuaqPXASXfcyTSiD54krSJp\/Xh\/4dkT9pFrf1V63kf6SL\/np3TIpf2cOTMYG9dnHk8eSP6IHfXOdoWbZQasXYQ0Xpu39HH3jry\/vhfkVm1ntt3tLHXB2xpPb+PzPcr+oCS1j18Os\/P3g+iRmmjVh9wxEh9rM33I7eHM0Zq4+yAs2btA2rI9ywjNwK1LXNrxEbgaul825qvPTUCd4vMy9ZrCbQQfd6+o4+1RqCl3vpIG4GWom3U6OPIeXpnzulB7T5K94n+jCL04so20vtGPt\/Az\/HRm60Ozuyr9voq9aENelTzNUapj1Ib0LMabZxZP6wXjKBWH1uNrO2j7KcYyZVrx9Y6AqO4q4\/XXd8QVHZ1GzC6K\/oYUf56CRaRJpb3oGZrY+29hOX3kFvrYu0zzEftYVF6DkgHbJl1z3FkHwklT2tjhj0jnHH2s4Bgdp98VhbM6nt+R87a21vxNOk8z99\/izYCM1pbCyJ95J3AjPauY5auC7r2weyOtrHWCMwq0kapEZiZNmBbpI20keVXeIpII\/B0eSMAAAAAAAAAT\/MHKFyeLg==",
+         "data":"eJzt3QFumzAUgOEcYKfYRXK0Xn2qNquWZ8wzAWzg+ySrWpW22fT+mAS6vF4AAAAAAAAAAAAAAPP4yhbw46tYv36PvT8wk7IPewn8aPVhLwF7CLSkveJ76QPqykYAAAAAAAAAzuDaL\/hfOoefFvBX2YbrJXm6pevq1zrRCnfVup6+7CRyO7iyyF6wx\/KchSuJHidphKd5\/1tlI+nzRzbyzhbM5F1ZZRv5OqKJ2s+AEVpzGV1HtpF\/f9hbzxzO3odG2MMns3h2G5H7Vd4Wttjr8XpEH0v3q3Y76LV3G2u337OLLQsioucmlub89YrN\/Uxt6IOIT9pIZpt7jbCX7xmJNFLrItEHd5M30dtHa42e98jy\/0OyJu\/ik+ceV2qjdi2Y67Qo5T30XDM4Wxdb7k\/ZiD4onXUd7Yg2Wo3YO4gYPdtn9LG2j3x9\/K\/IXY2e7TPaWOsDloye7555P6IPaBndw9Kcvyqfq8351j4garY28kaSPfuAHrP3sTbvPX3AFrO1UXYS3SfWvg9sMXMfmmC08pjlyo3A3tJsXbEROFo+b0vzOlMjcLbIXI7eS2CE6OP2GX3UGoGRIo\/XZ\/aRNwIj9RzrfzrzPdfTu+acGUSPraL7R+tror+jCLM4so38ayPvb+D3+JjNUge9bbT6qDWiDa5gyz6xpY9WGzCzPdrYsn\/YL7iCvfpYaqR2HOV4iis5cu9Y2kfgKs7q433WXwh2dnQbcHVH9HFF5fMlSCJNpNeg7tZG7bWE9Gco1bqovYf5VXtIWo8B+YIldz3m6DmOhJantXGHY0bYIvJeQMm7+Ah3Fn2vrMT+wRN8z3fkWvu8D23wBPmcl6+\/RZ9\/wB3VnmdH+ig7gTtaO4\/ZOi\/o3Ad319tGrRG4q0gbrUbgzrQByyJt5I2kj\/AUkUbg6cpGAAAAAAAAAJ7mD4cFl8g=",
          "encoding":"base64",
          "height":100,
          "name":"front",
@@ -43,7 +43,55 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":2147492398,
+                 "height":16,
+                 "id":946,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":616,
+                 "y":520
+                }, 
+                {
+                 "gid":8751,
+                 "height":16,
+                 "id":947,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":856,
+                 "y":448
+                }, 
+                {
+                 "gid":8752,
+                 "height":16,
+                 "id":948,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1128,
+                 "y":648
+                }, 
+                {
+                 "gid":2147492399,
+                 "height":16,
+                 "id":949,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":688,
+                 "y":368
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -125,7 +173,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":946,
+ "nextobjectid":950,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -262,6 +310,10 @@
         {
          "firstgid":8681,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
+        }, 
+        {
+         "firstgid":8739,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-pollutedset1.json"
         }],
  "tilewidth":8,
  "type":"map",

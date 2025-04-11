@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt3GtuozAUgNEuoKuYjWRps\/VRNEKiLo\/rB3bA50hI\/UEJifzFoAh\/fQEAAAAQ8TfZgN9daASOu9AIM4u28Rp1gjBIpIl0gxl8\/8lvQx\/M4N2GPuCndxPrse7aCv7bmw+OOtEHM1iup3L7SDuBJ6rtw28fPFVOG8s9+9b9OzxRThvrTRvMInpNpQ1mlHO\/se4DZhFpBGaXNgIAAAAAAAAAAAAAAEA\/y\/OxrUSey4VPc\/Z8bGknR2vIRZ7PhVEia1TtdZKu89Zii7w2XC23i7P1SO7cyPr9MLeaLvba6NFHuo5Wq0asPcSito1lnF7Vxdn8sXVtd+VnwjxatFHTRM4xjtpI\/64dx2fvlecb2cXRfLB1zJLzqr3e0sfctr5zP6GNlt0u6wGXfj76mM\/WPW3PPnq0sXVupbQxn702SsbyJ\/ax99oQ8R5D0d\/yWjYyau7QBzlyx3btuOzZxtG5QETu9\/6I8a0RRinp466NpO8TzpS08cl9nJ2nPsjxlD6i56oPcjyhjdLGIeLufZS0oRGi7tyGPujhjl3og15GddHidfVBD73ni7Oxe3UfnlUnx6fMHVfMIel+1nKgRKvx2uI7v8Ux9\/bTBiUi1yQ1z4lc2Ud63KN9oNRWE+s2aueSSBu1r3G2QY10vlhvPfo4218fjLbXRs0Yjc4dr8D\/aIPRlvvYtI2S8ZnTRk4\/OfdDcKXSPt77b81Br4PjR\/rIWVsCesttI0fO\/LHXCcwi0ogm4Ce\/hQMAAAAAAAAAAAAAAAAAAAAAAAAAAABA3D+K2heQ",
+         "data":"eJzt3AuK2zAUQNEsoKvoRrK0br2EYvCosvWe5E8SnQOGIWT8CbqRTbAfDwAAAAAi\/hQL8H8XGoH9LjTCzKJtPO\/aQbhJpIlygRn8+p1vQx\/M4NWGPuCnVxPrse7cCv7Zmg\/2OtEHM1jOp7J9lJ3ANxrtw28ffKtMG8s1e+36Hb5Rpo31og1mET2n0gYzylxvrPuAWUQagdmVjQAAAAAAAAAAAAAAAHCd5f7Yo0Tuy4V307o\/treTvWfIRe7PhbtEnlG11Un5nLcjlsi24WzZLlrPI\/nkRtbHw9xGuthq44o+yudoHdWIZw+xGG1jGadnddGaP2rndmd+JszjiDZGmsisY6+N8u\/Rcdw6Vr7fnV3szQe1dfbs1+j5lj7mVvvOPaKNx8bro+O9Z9+W5wH3fj76mE\/tmvbouWNxVxu1feuljflstdEzlt+xj1a3sOc1hqK\/5fV+V7\/T3KEPMiJjqWdcH7GOMxuBiEwbd41vjXCXnj4+tZHyOKGl1saj8tqn9NHaT32QsTdmPqmP6L7qg4xvmTta+1xbICI7ru5uodZGz3FohIhPbmM9d2SPRR9EfWIXtT4ix6IPsu7q4ojt6oMrXD1ftMZuz3rK49hb3KtOxrvMHSNzSGtd6zb0QdZR43V0PPdsL7oOcwe9IuckI\/eJnNlHud6990CvWhPrNkbnkkgbo9toLTCinC\/WyxV9tN6vD+621cbIGI3OHc\/A\/2iDuy3XsWUbPeMz00amn8z1EJypt4\/X+2tz0HNn\/ZE+Ms+WgKtl28jIzB9bncAsIo1oAn7yWzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxP0FCX0TIg==",
          "encoding":"base64",
          "height":100,
          "name":"front",
@@ -43,7 +43,31 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":8752,
+                 "height":16,
+                 "id":946,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":976,
+                 "y":472
+                }, 
+                {
+                 "gid":8751,
+                 "height":16,
+                 "id":947,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":760,
+                 "y":384
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -125,7 +149,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":946,
+ "nextobjectid":948,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -262,6 +286,10 @@
         {
          "firstgid":8681,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
+        }, 
+        {
+         "firstgid":8739,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-pollutedset1.json"
         }],
  "tilewidth":8,
  "type":"map",
