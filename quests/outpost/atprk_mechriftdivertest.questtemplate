@@ -1,0 +1,48 @@
+{
+	"id": "atprk_mechriftdivertest",
+	"prerequisites": ["atprk_mechriftdiverunlock"],
+	"title": "^orange;Dimensional Tunnel Exploration",
+	"text": "So about the \"atypical forces\" from before. If you've ever seen those rare pink portals in space, they're known as ^orange;dimensional tunnels^white;, and my new ^orange;Riftdiver mech body^white; is designed specifically to counter their influence. If you want to see it in action, ^green;prepare your mech and come to me^white;! I know exactly where we can test it!",
+	"completionText": "Amazing, this mech body is flawless! This means that you can now dive head first into any dimensional tunnel on your way. With all the ancient tech lying around, we might even figure out a ^green;way to locate more of those tunnels^white;...",
+	"moneyRange": [1450, 1450],
+	"rewards" : [],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/instance.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image" : "/quests/outpost/penguinscientistportrait.png"
+				}],
+				"title": "Dr. Akaggy"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image" : "/quests/outpost/penguinscientistportrait.png"
+				}],
+				"title": "Dr. Akaggy"
+			}
+		},
+		"descriptions": {
+			"enterInstance": "Talk to ^orange;Dr. Akaggy^reset; to enter the ^orange;stable dimensional tunnel^reset;",
+			"findGoal": "Explore the ^orange;dimensional tunnel^reset;",
+			"turnIn": "Return to ^orange;Dr. Akaggy^reset; at the ^orange;Outpost^reset;"
+		},
+
+		"warpEntityUid": "outpostpenguinscientist",
+		"warpAction" : ["instanceworld:atprk_4drifttutorial", "deploy", true],
+		"warpDialog": "/interface/confirmation/atprk_teleportconfirmation.config:atprk_4drifttutorial",
+
+		"goalTrigger": "proximity",
+		"proximityRange": 15,
+
+		"goalEntityUid": "atprk_4drifttutorialexit",
+		"indicateGoal": false,
+		"trackGoalEntity": false,
+
+		"turnInEntityUid": "outpostpenguinscientist",
+
+		"giveBlueprints" : [ "atprk_4driftspawner" ]
+	}
+}
