@@ -46,8 +46,14 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "bandithat1", "parameters" : { "colorIndex" : 7 } } ],
-            "back" : [ { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } } ],
+            "head" : [
+              { "name" : "bandithat1", "parameters" : { "colorIndex" : 7 } },
+              { "name" : "headbandhead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "back" : [
+              { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "hikerback", "parameters" : { "colorIndex" : 0 } }
+            ],
             "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
             "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
           }

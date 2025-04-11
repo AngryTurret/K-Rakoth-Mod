@@ -20,19 +20,21 @@
       [0, [
           {
             "head" : [
-              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } }
+              "",
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } },
+              { "name" : "plainhoodhead", "parameters" : { "colorIndex" : 7 } },
+              { "name" : "scientisthead", "parameters" : { "colorIndex" : 0 } }
             ],
             "chest" : [
-              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } }
+              { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "neckruffle", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "novakidwaistcoat", "parameters" : { "colorIndex" : 3 } }
             ],
             "legs" : [
-              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } }
-            ],
-            "primary" : [
-              ""
-            ],
-            "sheathedprimary" : [
-              "npcpistol"
+              { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "steamgreylegs", "parameters" : { "colorIndex" : [1,2,11] } },
+              { "name" : "novakidblackpants", "parameters" : { "colorIndex" : [1,2,11] } },
+              { "name" : "hikerlegs", "parameters" : { "colorIndex" : [1,2,11] } }
             ]
           }
         ] ]
