@@ -1,0 +1,20 @@
+[{
+	"op" : "add",
+	"path" : "/scriptConfig/offeredQuests/-",
+	"value" : "atprk_mechriftdiverunlock"
+},
+{
+	"op" : "add",
+	"path" : "/scriptConfig/turnInQuests/-",
+	"value" : "atprk_mechriftdiverunlock"
+},
+{
+	"op" : "add",
+	"path" : "/scriptConfig/offeredQuests/-",
+	"value" : "atprk_mechriftdivertest"
+},
+{
+	"op" : "add",
+	"path" : "/scriptConfig/turnInQuests/-",
+	"value" : "atprk_mechriftdivertest"
+}]
