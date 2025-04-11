@@ -22,9 +22,82 @@
 		"displayName" : "Relic Seeker Ship",
 		"description" : "The crew of this ship scan planets for rare artifacts. They seem to be open to trade."
 		}
+	}
+  },
 
+  {
+    "op": "add",
+    "path": "/atprk_devoutship",
+    "value": {
+
+    "warpAction" : "InstanceWorld:atprk_devoutship",
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/atprk_shiphorizonright_devout.png" } ]
+    },
+
+    "moving" : true,
+    "speed" : 15.0,
+    "orbitRange" : [1, 1],
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/ships/npcship.png",
+      "displayName" : "Hostile Ship",
+      "description" : "Whoever's flying this ship, we shouldn't get close without being prepared for a fight."
+		}
+	}
+  },
+
+  {
+    "op": "add",
+    "path": "/atprk_4drift",
+    "value": {
+
+    "warpAction" : "InstanceWorld:atprk_4drift",
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/anomaly/atprk_4drifthorizonleft.png", "right": "/celestial/system/anomaly/atprk_4drifthorizonright.png" } ]
+    },
+
+    "moving" : false,
+    "speed" : 0,
+    "orbitRange" : [0, 0],
+    "generatedParameters" : {
+      "displayName" : "/celestial/atprk_4driftnames.config:nameGen"
+    },
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/anomaly/atprk_4drift.png",
+      "displayName" : "???",
+      "description" : "This object appears to be an unstable dimensional tunnel. Engaging it without proper equipment is ill-advised."
+		}
+	}
+  },
+
+  {
+    "op": "add",
+    "path": "/atprk_4driftspawned",
+    "value": {
+
+    "warpAction" : "InstanceWorld:atprk_4drift",
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/anomaly/atprk_4drifthorizonleft.png", "right": "/celestial/system/anomaly/atprk_4drifthorizonright.png" } ]
+    },
+
+    "moving" : false,
+    "speed" : 0,
+    "orbitRange" : [0, 0],
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/anomaly/atprk_4drift.png",
+      "displayName" : "Dimensional Tunnel",
+      "description" : "This artificial wormhole was created via advanced alien technology. It will linger for a while before sealing off."
+		}
 	}
   }
-
 
 ]
