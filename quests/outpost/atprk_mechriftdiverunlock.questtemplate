@@ -2,7 +2,7 @@
 	"id": "atprk_mechriftdiverunlock",
 	"prerequisites" : [ "mechupgrade2" ],
 	"title": "^orange;Thinking with Tunnels",
-	"text": "Just one more thing, friendo. I was commissioned to design a mech that can withstand... Well, let's call it ^orange;\"atypical forces\"^white; for now. The catch is that its protection mechanism requires materials that are hard to come by such as ^orange;exotic particles^white; and ^orange;elder tech^white;. If you get your hands on any, ^green;could you share^white;?",
+	"text": "Just one more thing, friendo. I was commissioned to design a mech that can withstand... Well, let's call them ^orange;\"atypical forces\"^white; for now. The catch is that its protection mechanism requires materials that are hard to come by such as ^orange;exotic particles^white; and ^orange;elder tech^white;. If you get your hands on any, ^green;could you share them^white;?",
 	"completionText": "This is exactly what I need! As a reward, I'll let you take a good look at the ^orange;Riftdiver mech body^white; prototype. Check out the ^green;mech part crafting table^white; any time you want, it'll be right here in a minute!",
 	"moneyRange": [1200, 1200],
 	"rewards" : [],
