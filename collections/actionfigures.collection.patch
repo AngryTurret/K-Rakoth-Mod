@@ -142,5 +142,14 @@
 		"order" : 85,
 		"item" : "atprk_krakothmantisdroneaf"
 	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_computerbossaf",
+	  "value": 		
+	  {
+		"order" : 86,
+		"item" : "atprk_computerbossaf"
+	  }
 	}
 ]
