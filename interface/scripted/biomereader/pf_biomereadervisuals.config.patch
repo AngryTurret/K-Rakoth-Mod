@@ -1,0 +1,294 @@
+[
+    {
+        "op": "add",
+        "path": "/atprk_ashworld",
+        "value": {
+            "description": "Dusty Hills and Plateaus",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_ashylakes",
+        "value": {
+            "description": "Pools of Searing Lava",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_boilingocean",
+        "value": {
+            "description": "Seas of the Forerunners",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_boilingoceanfloor",
+        "value": {
+            "description": "The Sunken Ecumenopolis",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthonianmoon",
+        "value": {
+            "description": "The Withered Giant",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthonianswamp",
+        "value": {
+            "description": "Haunted Wetlands",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_ruinedworld",
+        "value": {
+            "description": "The Reborn Abomination",
+            "icon": ""
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_humidunderground1",
+        "value": {
+            "description": "Algae Infestation",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_humidunderground2",
+        "value": {
+            "description": "Corals and Minerals",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_humidunderground3",
+        "value": {
+            "description": "Hadal Darkness",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthonianunderground",
+        "value": {
+            "description": "Eerie Erchius Tunnels",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthoniancaves",
+        "value": {
+            "description": "Bountiful Depths",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthoniandepths",
+        "value": {
+            "description": "The Deep Core",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthoniancorelayer",
+        "value": {
+            "description": "The Heart of a Giant",
+            "icon": ""
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_amber",
+        "value": {
+            "description": "Resin-Choked Woodlands",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_ancientnecropolis",
+        "value": {
+            "description": "Paradise Lost",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_forgottenmountains",
+        "value": {
+            "description": "The Arcane Mountain Range",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_glaciovolcanic",
+        "value": {
+            "description": "Polar Opposites",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_hungergrove",
+        "value": {
+            "description": "Predatory Vegetation",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_navalminefield",
+        "value": {
+            "description": "The Danger Zone",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_polluted",
+        "value": {
+            "description": "Nature's Lament",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_radiotrophic",
+        "value": {
+            "description": "Irradiated Ecosystem",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_shipgraveyard",
+        "value": {
+            "description": "A Spacefarers' Cemetery",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_sponge",
+        "value": {
+            "description": "Porous And Whimsical",
+            "icon": ""
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_ambercaves",
+        "value": {
+            "description": "Glistening Roots",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_bluecaves",
+        "value": {
+            "description": "Azure Underworld",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_chthoniccomplex",
+        "value": {
+            "description": "Industrialized Ruins",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_cryonicvents",
+        "value": {
+            "description": "The Frozen Refuge",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_deepnecropolis",
+        "value": {
+            "description": "Tomb of the Ancients",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_flattenedhulls",
+        "value": {
+            "description": "Blast from the Past",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_grosscatacombs",
+        "value": {
+            "description": "Revolting Burrows",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_irradiatedroots",
+        "value": {
+            "description": "Life Against All Odds",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_noolithbirthplace",
+        "value": {
+            "description": "The Crystalline Womb",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_rottensanctum",
+        "value": {
+            "description": "A Dead God's Corpse",
+            "icon": ""
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_kesslerfield",
+        "value": {
+            "description": "The Orbital Graveyard",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_shatteredshield",
+        "value": {
+            "description": "A Futile Effort",
+            "icon": ""
+        }
+    }
+]
