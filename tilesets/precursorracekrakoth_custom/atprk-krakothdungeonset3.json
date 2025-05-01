@@ -8,8 +8,8 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":52,
- "tileheight":88,
+ "tilecount":61,
+ "tileheight":112,
  "tileproperties":
     {
      "0":
@@ -475,6 +475,81 @@
          "object":"atprk_4dtarget",
          "tilesetDirection":"right"
         },
+     "52":
+        {
+         "\/\/description":"Is this monitor watching me?",
+         "\/\/name":"atprk_krakothmissionmonitor",
+         "\/\/shortdescription":"Elder Monitor",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk_krakothmissionmonitor",
+         "tilesetDirection":"right"
+        },
+     "53":
+        {
+         "\/\/description":"A thoroughly ruined lamp post.",
+         "\/\/name":"atprk-eldritchlamppostbroken",
+         "\/\/shortdescription":"Eldritch Lamp Post",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-eldritchlamppostbroken",
+         "tilesetDirection":"right"
+        },
+     "54":
+        {
+         "\/\/description":"Frozen sea water full of fish.",
+         "\/\/name":"atprk_frozenfishwater",
+         "\/\/shortdescription":"Marine Ice",
+         "material":"atprk_frozenfishwater"
+        },
+     "55":
+        {
+         "\/\/description":"A tall glass tube for kelp cultivation.",
+         "\/\/name":"atprk_cryotombhydrotube1",
+         "\/\/shortdescription":"Aquaponic Tube",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_cryotombhydrotube1",
+         "tilesetDirection":"right"
+        },
+     "56":
+        {
+         "\/\/description":"A tall glass tube for kelp cultivation.",
+         "\/\/name":"atprk_cryotombhydrotube2",
+         "\/\/shortdescription":"Aquaponic Tube",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_cryotombhydrotube2",
+         "tilesetDirection":"right"
+        },
+     "57":
+        {
+         "\/\/description":"A tall glass tube for kelp cultivation.",
+         "\/\/name":"atprk_cryotombhydrotube3",
+         "\/\/shortdescription":"Aquaponic Tube",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_cryotombhydrotube3",
+         "tilesetDirection":"right"
+        },
+     "58":
+        {
+         "\/\/description":"A long flashing light. This is not a good sign if it's active.",
+         "\/\/name":"atprk_cryotombalarmv",
+         "\/\/shortdescription":"Elder Alarm Light",
+         "imagePositionX":"0",
+         "imagePositionY":"-16",
+         "object":"atprk_cryotombalarmv"
+        },
+     "59":
+        {
+         "\/\/description":"A long flashing light. This is not a good sign if it's active.",
+         "\/\/name":"atprk_cryotombalarmh",
+         "\/\/shortdescription":"Elder Alarm Light",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_cryotombalarmh"
+        },
      "6":
         {
          "\/\/description":"A durable airlock hatch made of ancient alloys.",
@@ -483,6 +558,16 @@
          "imagePositionX":"-24",
          "imagePositionY":"-8",
          "object":"atprk-krakothhatch",
+         "tilesetDirection":"right"
+        },
+     "60":
+        {
+         "\/\/description":"A monitor once used by K'Rakoths. Once.",
+         "\/\/name":"atprk-krakothmonitorbroken",
+         "\/\/shortdescription":"Broken Elder Monitor",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"atprk-krakothmonitorbroken",
          "tilesetDirection":"right"
         },
      "7":
@@ -981,7 +1066,92 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "52":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "53":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "54":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "55":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "56":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "57":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "58":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "59":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
      "6":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "60":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -1075,7 +1245,7 @@
      "16":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
-         "imageheight":88,
+         "imageheight":80,
          "imagewidth":48
         },
      "17":
@@ -1105,7 +1275,7 @@
      "20":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchstool.png",
-         "imageheight":24,
+         "imageheight":16,
          "imagewidth":16
         },
      "21":
@@ -1129,7 +1299,7 @@
      "24":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothhoverpad.png",
-         "imageheight":18,
+         "imageheight":24,
          "imagewidth":48
         },
      "25":
@@ -1141,8 +1311,8 @@
      "26":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchtank.png",
-         "imageheight":53,
-         "imagewidth":46
+         "imageheight":48,
+         "imagewidth":48
         },
      "27":
         {
@@ -1153,13 +1323,13 @@
      "28":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcomputer1.png",
-         "imageheight":42,
+         "imageheight":40,
          "imagewidth":80
         },
      "29":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcomputer2.png",
-         "imageheight":42,
+         "imageheight":40,
          "imagewidth":40
         },
      "3":
@@ -1207,7 +1377,7 @@
      "36":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchmachinery1.png",
-         "imageheight":56,
+         "imageheight":48,
          "imagewidth":40
         },
      "37":
@@ -1312,11 +1482,65 @@
          "imageheight":40,
          "imagewidth":40
         },
+     "52":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmissionmonitor.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "53":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchlamppostbroken.png",
+         "imageheight":56,
+         "imagewidth":16
+        },
+     "54":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_frozenfishwater.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "55":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube1.png",
+         "imageheight":112,
+         "imagewidth":32
+        },
+     "56":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube2.png",
+         "imageheight":112,
+         "imagewidth":32
+        },
+     "57":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube3.png",
+         "imageheight":112,
+         "imagewidth":32
+        },
+     "58":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombalarmv.png",
+         "imageheight":32,
+         "imagewidth":8
+        },
+     "59":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombalarmh.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
      "6":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothhatch.png",
          "imageheight":24,
          "imagewidth":64
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmonitorbroken.png",
+         "imageheight":24,
+         "imagewidth":32
         },
      "7":
         {
