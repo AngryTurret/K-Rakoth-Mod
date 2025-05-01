@@ -47,7 +47,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_forgottenmountains"
+            }
           }
         ]
       },
@@ -117,7 +119,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_forgottenmountains"
+            }
           }
         ]
       },
@@ -152,7 +156,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "tombstone1" ], [0.2, "tombstone2" ], [0.2, "tombstone3" ], [0.3, "tombstone4" ], [0.2, "tombstone5" ], [0.2, "tombstone6" ], [0.2, "tombstone7" ], [0.3, "tombstone8" ], [0.3, "tombstone9" ], [0.2, "tombstone10" ], [0.1, "tombstone11" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_forgottenmountains"
+            }
           }
         ]
       },

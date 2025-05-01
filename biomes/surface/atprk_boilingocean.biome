@@ -187,7 +187,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_boilingocean"
+            }
           }
         ]
       },
@@ -201,7 +203,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_boilingocean"
+            }
           }
         ]
       },
@@ -240,7 +244,8 @@
           {
             "pool" : [ [1, "wildautomatoseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4,
+              "originBiome" : "surface/atprk_boilingocean"
             }
           }
         ]
@@ -256,7 +261,8 @@
           {
             "pool" : [ [1, "wildboltbulbseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface/atprk_boilingocean"
             }
           }
         ]
@@ -288,7 +294,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_boilingocean"
+            }
           }
         ]
       }

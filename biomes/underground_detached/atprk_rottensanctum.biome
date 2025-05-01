@@ -44,7 +44,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "tentaclepopsmall" ], [0.35, "tentaclepopmed" ], [0.35, "tentaclepopbig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_rottensanctum"
+            }
           }
         ]
       },
@@ -66,7 +68,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.125, "atprk_ruinseashell1" ], [0.125, "atprk_ruinseashell2" ], [0.125, "atprk_ruinseashell3" ], [0.125, "atprk_ruinseashell4" ], [0.125, "atprk_ruinseashell5" ], [0.125, "atprk_ruinseashell6" ], [0.125, "atprk_ruinseashell7" ], [0.125, "atprk_ruinseashell8" ]]
+            "pool" : [ [0.125, "atprk_ruinseashell1" ], [0.125, "atprk_ruinseashell2" ], [0.125, "atprk_ruinseashell3" ], [0.125, "atprk_ruinseashell4" ], [0.125, "atprk_ruinseashell5" ], [0.125, "atprk_ruinseashell6" ], [0.125, "atprk_ruinseashell7" ], [0.125, "atprk_ruinseashell8" ]],
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_rottensanctum"
+            }
           }
         ]
       },

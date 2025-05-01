@@ -54,7 +54,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -68,7 +70,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_chthonianrocksmall1" ], [0.2, "atprk_chthonianrocksmall2" ], [0.2, "atprk_chthonianrocksmall3" ], [0.2, "atprk_chthonianrocksmall4" ], [0.2, "atprk_chthonianrocksmall5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -82,7 +86,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "atprk_erchiusfogprimer" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -96,7 +102,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -145,7 +153,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -159,7 +169,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       },
@@ -173,7 +185,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_chthonianrocksmall1" ], [0.2, "atprk_chthonianrocksmall2" ], [0.2, "atprk_chthonianrocksmall3" ], [0.2, "atprk_chthonianrocksmall4" ], [0.2, "atprk_chthonianrocksmall5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_chthonianswamp"
+            }
           }
         ]
       }

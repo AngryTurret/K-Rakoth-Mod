@@ -44,7 +44,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_bluecaves"
+            }
           }
         ]
       },
@@ -104,7 +106,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_bluecaves"
+            }
           }
         ]
       },
@@ -118,7 +122,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_bluecaves"
+            }
           }
         ]
       },
@@ -132,7 +138,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_bluecaves"
+            }
           }
         ]
       },

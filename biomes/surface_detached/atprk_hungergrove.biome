@@ -54,7 +54,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_hungergrove"
+            }
           }
         ]
       },
@@ -150,7 +152,8 @@
           {
             "pool" : [ [1, "wilddirturchinseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 2,
+              "originBiome" : "surface_detached/atprk_hungergrove"
             }
           }
         ]

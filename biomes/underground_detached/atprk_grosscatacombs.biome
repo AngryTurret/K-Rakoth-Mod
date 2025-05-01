@@ -46,7 +46,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_grosscatacombs"
+            }
           }
         ]
       },
@@ -60,7 +62,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "prisontoilet" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_grosscatacombs"
+            }
           }
         ]
       },
@@ -96,7 +100,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ], [0.35, "smashbones4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_grosscatacombs"
+            }
           }
         ]
       },
@@ -128,7 +134,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "prisontoilet" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_grosscatacombs"
+            }
           }
         ]
       },

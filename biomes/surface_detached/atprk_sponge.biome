@@ -154,7 +154,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "oshroom1" ], [0.20, "oshroom2" ], [0.20, "oshroom3" ], [0.20, "oshroom4" ], [0.20, "oshroom5" ]]
+            "pool" : [ [0.20, "oshroom1" ], [0.20, "oshroom2" ], [0.20, "oshroom3" ], [0.20, "oshroom4" ], [0.20, "oshroom5" ]],
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_sponge"
+            }
           }
         ]
       },
@@ -181,7 +184,8 @@
           {
             "pool" : [ [1, "wildcoralcreepseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4,
+              "originBiome" : "surface_detached/atprk_sponge"
             }
           }
         ]
@@ -197,7 +201,8 @@
           {
             "pool" : [ [1, "wildreefpodseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface_detached/atprk_sponge"
             }
           }
         ]

@@ -52,7 +52,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.25, "capsulemed" ], [0.15, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_polluted"
+            }
           }
         ]
       },
@@ -126,7 +128,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "atprk_pollutedjunk1" ], [0.25, "atprk_pollutedjunk2" ], [0.25, "atprk_pollutedjunk3" ], [0.25, "atprk_pollutedjunk4" ], [0.25, "atprk_pollutedjunk5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_polluted"
+            }
           }
         ]
       }
@@ -151,7 +155,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.25, "capsulemed" ], [0.15, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_polluted"
+            }
           }
         ]
       },

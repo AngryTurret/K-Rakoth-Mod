@@ -76,7 +76,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.125, "seashell1" ], [0.125, "seashell2" ], [0.125, "seashell3" ], [0.125, "seashell4" ], [0.125, "seashell5" ], [0.125, "seashell6" ], [0.125, "seashell7" ], [0.125, "seashell8" ]]
+            "pool" : [ [0.125, "seashell1" ], [0.125, "seashell2" ], [0.125, "seashell3" ], [0.125, "seashell4" ], [0.125, "seashell5" ], [0.125, "seashell6" ], [0.125, "seashell7" ], [0.125, "seashell8" ]],
+            "parameters" : {
+              "originBiome" : "surface/atprk_boilingoceanfloor"
+            }
           }
         ]
       },
@@ -159,7 +162,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "atprk_boilingoceanplant1" ], [0.35, "atprk_boilingoceanplant2" ], [0.35, "atprk_boilingoceanplant3" ], [0.35, "atprk_boilingoceanplant4" ], [0.35, "atprk_boilingoceanplant5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_boilingoceanfloor"
+            }
           }
         ]
       },
@@ -196,7 +201,8 @@
           {
             "pool" : [ [1, "wildreefpodseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface/atprk_boilingoceanfloor"
             }
           }
         ]

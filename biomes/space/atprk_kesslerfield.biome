@@ -8,10 +8,11 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
+        "select" : 3,
         "pool" : [
           [ 1, "atprk_krakothpatroldrone" ],
-          [ 1, "atprk_krakothspacemine" ]
+          [ 1, "atprk_krakothspacemine" ],
+          [ 1, "atprk_xenoprobeasteroid" ]
         ]
       }
     ]
