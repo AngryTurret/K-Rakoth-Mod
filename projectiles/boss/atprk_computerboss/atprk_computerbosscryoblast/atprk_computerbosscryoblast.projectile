@@ -1,0 +1,21 @@
+{
+  "projectileName" : "atprk_computerbosscryoblast",
+  "image" : "atprk_computerbosscryoblast.png",
+  "animationCycle" : 2.0,
+  "animationLoops" : false,
+  "lightColor" : [115, 211, 255],
+  "frameNumber" : 25,
+  "flippable" : true,
+  "fullbright" : true,
+  "renderLayer" : "Monster+10",
+  "physics" : "illusion",
+  "emitters" : [ "iceplasmarocket" ],
+  "damageKind" : "icebarrier",
+  "damagePoly" : [ [-1.0, -1.0], [-1.0, 1.0], [1.0, 1.0], [1.0, -1.0] ],
+  "statusEffects" : [
+    {"effect": "frostsnare", "duration" : 3}
+  ],
+  "power" : 70,
+  "speed" : 25,
+  "timeToLive" : 2.0
+}
