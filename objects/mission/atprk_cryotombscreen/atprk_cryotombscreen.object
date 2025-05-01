@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_cryotombscreen",
+  "colonyTags" : ["misc"],
+  "price" : 3000,
+  "rarity" : "Legendary",
+  "description" : "This massive screen displays all sorts of data, but mostly unchecked notifications.",
+  "shortdescription" : "Stasis Keeper Monitor",
+  "race" : "generic",
+  "printable" : false,
+  "scannable" : false,
+
+  "inventoryIcon" : "atprk_cryotombscreen.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_cryotombscreen.png",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animationPosition" : [32, 24],
+  "animationParts" : {
+    "frame" : "atprk_cryotombscreen.png",
+    "screen" : "atprk_cryotombscreenlit.png"
+  },
+  "animation" : "atprk_cryotombscreen.animation",
+
+  "scripts" : [ "atprk_cryotombscreen.lua" ],
+
+  "launcherGroups" : [ 1 ],
+  "fistOffset" : [0, 0]
+}

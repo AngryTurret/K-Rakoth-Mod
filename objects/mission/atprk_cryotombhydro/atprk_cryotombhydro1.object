@@ -1,0 +1,51 @@
+{
+  "objectName" : "atprk_cryotombhydro1",
+  "colonyTags" : ["atrpk_krakoth","science"],
+  "rarity" : "Common",
+  "description" : "A variety of aquatic lifeforms preserved in a safe environment.",
+  "shortdescription" : "Aquaponic Preserve",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+
+  "lightColor" : [151, 41, 114],
+
+  "apexDescription" : "An elaborate aquaponic tray.",
+  "avianDescription" : "Who knows if these seaweeds could survive outside this preserve.",
+  "floranDescription" : "Can't reach tasssty ssea sssnacks because of thisss thick glass!",
+  "glitchDescription" : "Enchanted. A well-preserved collection of exotic seaweeds.",
+  "humanDescription" : "A long growing tray protected by a bulletproof glass.",
+  "hylotlDescription" : "So many distinct specimen I hardly recognize, they must be ancient!",
+  "novakidDescription" : "I wonder what keeps all these sea plants alive.",
+
+  "inventoryIcon" : "atprk_cryotombhydroicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_cryotombhydro1.png:<color>", "fullbright" : true }, { "image" : "atprk_cryotombhydro1lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [8, 0],
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_cryotombhydro1.png:<color>", "fullbright" : true }, { "image" : "atprk_cryotombhydro1lit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [8, 0],
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

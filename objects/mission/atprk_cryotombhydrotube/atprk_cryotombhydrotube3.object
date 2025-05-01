@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_cryotombhydrotube3",
+  "colonyTags" : ["atrpk_krakoth","science"],
+  "rarity" : "Legendary",
+  "price" : 225,
+  "description" : "A tall glass tube for kelp cultivation.",
+  "shortdescription" : "Aquaponic Tube",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "health" : 5,
+
+  "lightColor" : [151, 41, 114],
+
+  "flickerPeriod" : 2,
+  "flickerMinIntensity" : 0.8,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "An advanced aquaponic pillar.",
+  "avianDescription" : "Something to keep seaweeds fresh and healthy.",
+  "floranDescription" : "Ssseaweeds grow sssafely behind the glass.",
+  "glitchDescription" : "Amazed. This tube keeps kelp safe from foreign contaminants.",
+  "humanDescription" : "Multiple growing trays combined into one.",
+  "hylotlDescription" : "A mechanical pillar equipped with life support systems.",
+  "novakidDescription" : "A tall shelf for sea plants.",
+
+  "inventoryIcon" : "atprk_cryotombhydrotubeicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_cryotombhydrotube3.png:<color>", "fullbright" : true }, { "image" : "atprk_cryotombhydrotube3lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 6],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_cryotombhydrotube3.png:<color>", "fullbright" : true }, { "image" : "atprk_cryotombhydrotube3lit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 6],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
