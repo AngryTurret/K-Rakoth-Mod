@@ -1,0 +1,145 @@
+{
+  "name": "atprk_computerboss_missileattack",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/animator.lua"
+  ],
+  "parameters": {
+    "missileAttackTime": 6.5,
+    "missileAttackWindup": 0.3,
+    "projectorList": "",
+    "target": "",
+    "waves": 1
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "setScreenStates",
+        "type": "action",
+        "name": "setScreenStates",
+        "parameters": {
+          "state": {"value": "missile"}
+        }
+      },
+      {
+        "title": "setVelocity",
+        "type": "action",
+        "name": "setVelocity",
+        "parameters": {
+          "velocity": {"value": [0, 0]}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 0.5}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "windup"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_stagesound",
+        "type": "module",
+        "name": "atprk_computerboss_stagesound",
+        "parameters": {
+          "projectorCount": {"key": "projectorCount"},
+          "stage1": {"value": "stage1Attack"},
+          "stage2": {"value": "stage2Attack"},
+          "stage3": {"value": "stage3Attack"},
+          "stage4": {"value": "stage4Attack"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "missile"},
+          "type": {"value": "attackSound"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": "<missileAttackWindup>"}
+        }
+      },
+      {
+        "title": "repeater",
+        "type": "decorator",
+        "name": "repeater",
+        "parameters": {
+          "maxLoops": {"key": "<waves>"},
+          "untilSuccess": {"value": false}
+        },
+        "child": {
+          "title": "sequence",
+          "type": "composite",
+          "name": "sequence",
+          "parameters": {},
+          "children": [
+            {
+              "title": "fireProjectorMissiles",
+              "type": "action",
+              "name": "fireProjectorMissiles",
+              "parameters": {
+                "power": {"value": 10},
+                "projectorList": {"key": "<projectorList>"},
+                "target": {"key": "<target>"}
+              }
+            },
+            {
+              "title": "timer",
+              "type": "action",
+              "name": "timer",
+              "parameters": {
+                "time": {"value": "<missileAttackTime>"}
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "off"},
+          "type": {"value": "attackSound"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "winddown"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_idle",
+        "type": "module",
+        "name": "atprk_computerboss_idle",
+        "parameters": {}
+      }
+    ]
+  }
+}

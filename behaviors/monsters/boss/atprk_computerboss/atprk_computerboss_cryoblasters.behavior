@@ -1,0 +1,142 @@
+{
+  "name": "atprk_computerboss_cryoblasters",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {
+    "fistLaunchTime": 2,
+    "fistLauncherGroups": 1,
+    "fistCount": 4
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "fist"},
+          "type": {"value": "attackSound"}
+        }
+      },
+      {
+        "title": "setScreenStates",
+        "type": "action",
+        "name": "setScreenStates",
+        "parameters": {
+          "state": {"value": "cryo"}
+        }
+      },
+      {
+        "title": "setVelocity",
+        "type": "action",
+        "name": "setVelocity",
+        "parameters": {
+          "velocity": {"value": [0, 0]}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 0.25}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "windup"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_stagesound",
+        "type": "module",
+        "name": "atprk_computerboss_stagesound",
+        "parameters": {
+          "projectorCount": {"key": "projectorCount"},
+          "stage1": {"value": "stage1Attack"},
+          "stage2": {"value": "stage2Attack"},
+          "stage3": {"value": "stage3Attack"},
+          "stage4": {"value": "stage4Attack"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 0.5}
+        }
+      },
+      {
+        "title": "repeater",
+        "type": "decorator",
+        "name": "repeater",
+        "parameters": {
+          "maxLoops": {"key": "<fistCount>"},
+          "untilSuccess": {"value": false}
+        },
+        "child": {
+          "title": "sequence",
+          "type": "composite",
+          "name": "sequence",
+          "parameters": {},
+          "children": [
+            {
+              "title": "launchEnergyFists",
+              "type": "action",
+              "name": "launchEnergyFists",
+              "parameters": {
+                "launchGroups": {"key": "<fistLauncherGroups>"},
+                "power": {"value": 10}
+              }
+            },
+            {
+              "title": "timer",
+              "type": "action",
+              "name": "timer",
+              "parameters": {
+                "time": {"value": "<fistLaunchTime>"}
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "off"},
+          "type": {"value": "attackSound"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "winddown"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_idle",
+        "type": "module",
+        "name": "atprk_computerboss_idle",
+        "parameters": {}
+      }
+    ]
+  }
+}

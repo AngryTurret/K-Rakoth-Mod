@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_computerbossprojectorbooster",
+  "category" : "atprk_computerbossprojector",
+  "type" : "booster",
+
+  "frames" : {
+    "booster" : "booster.png"
+  }
+}

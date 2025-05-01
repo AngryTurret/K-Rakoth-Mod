@@ -1,0 +1,434 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : {
+        "priority" : 1,
+        "default" : "idle",
+        "states" : {
+          "spawnidle" : {
+            "frames" : 6,
+            "cycle" : 2.6,
+            "mode" : "loop"
+          },
+          "spawn" : {
+            "frames" : 39,
+            "cycle" : 3.0,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 1.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "", "", "", "", "", "", "", "", "", "","", "", "", "", "/sfx/objects/miningchest_open.ogg","", "", "", "", "","", "", "", "", "","", "", "", "/sfx/gun/mech_shielddrone1.ogg", "","", "", "", "", "","", "", "", "" ]
+            }
+          },
+          "idle" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "glitch" : {
+            "frames" : 3,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "windup" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "attack"
+          },
+          "attack" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "loop"
+          },
+          "winddown" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "firewindup" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "fire"
+          },
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "loop"
+          },
+          "firewinddown" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "summonwindup" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "summon"
+          },
+          "summon" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "loop"
+          },
+          "summonwinddown" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "death" : {
+            "frames" : 22,
+            "cycle" : 1.5
+          }
+        }
+      },
+      "idleSound" : {
+        "priority" : 2,
+        "default" : "off",
+        "states" : {
+          "off" : {
+          },
+          "stage1" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/fluorescent_light_loud.ogg",
+              "persistentSoundRangeMultiplier" : 1.6
+            }
+          },
+          "stage2" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/fluorescent_light_loud.ogg",
+              "persistentSoundRangeMultiplier" : 1.4
+            }
+          },
+          "stage3" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/fluorescent_light_loud.ogg",
+              "persistentSoundRangeMultiplier" : 1.2
+            }
+          },
+          "stage4" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/fluorescent_light_loud.ogg",
+              "persistentSoundRangeMultiplier" : 1.0
+            }
+          }
+        }
+      },
+      "attackSound" : {
+        "priority" : 3,
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "fist" : {
+            "properties" : {
+              // "persistentSound" : "/sfx/npc/boss/apeboss_sweep.ogg"
+            }
+          },
+          "missile" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/bluealert.ogg",
+              "persistentSoundRangeMultiplier" : 1.5
+            }
+          },
+          "sweep" : {
+            "properties" : {
+              "persistentSound" : "/sfx/npc/boss/apeboss_sweep.ogg",
+              "persistentSoundRangeMultiplier" : 1.5
+            }
+          }
+        }
+      },
+      "damage" : {
+        "priority" : 4,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [0.0, 0.125],
+          "transformationGroups" : [ "body" ],
+          "image" : "<partImage>"
+        },
+        "partStates" : {
+          "body" : {
+            "spawnidle" : {
+              "properties" : {
+                "image" : "<partImage>:spawnidle.<frame>"
+              }
+            },
+            "spawn" : {
+              "properties" : {
+                "image" : "<partImage>:spawn.<frame>"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.idle.<frame>"
+              }
+            },
+            "glitch" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.glitch.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.windup.<frame>"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.attack.<frame>"
+              }
+            },
+            "winddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.winddown.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.firewindup.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.fire.<frame>"
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.firewinddown.<frame>"
+              }
+            },
+            "summonwindup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summonwindup.<frame>"
+              }
+            },
+            "summon" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summon.<frame>"
+              }
+            },
+            "summonwinddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summonwinddown.<frame>"
+              }
+            },
+            "death" : {
+              "properties" : {
+                "image" : "<partImage>:death.<frame>"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:stage4.idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "bodynobright" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "offset" : [0.0, 0.125],
+          "transformationGroups" : [ "body" ],
+          "image" : "<partImage>"
+        },
+        "partStates" : {
+          "body" : {
+            "spawnidle" : {
+              "properties" : {
+                "image" : "<partImage>:spawnidle.<frame>"
+              }
+            },
+            "spawn" : {
+              "properties" : {
+                "image" : "<partImage>:spawn.<frame>"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.idle.<frame>"
+              }
+            },
+            "glitch" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.glitch.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.windup.<frame>"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.attack.<frame>"
+              }
+            },
+            "winddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.winddown.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.firewindup.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.fire.<frame>"
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.firewinddown.<frame>"
+              }
+            },
+            "summonwindup" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summonwindup.<frame>"
+              }
+            },
+            "summon" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summon.<frame>"
+              }
+            },
+            "summonwinddown" : {
+              "properties" : {
+                "image" : "<partImage>:<stage>.summonwinddown.<frame>"
+              }
+            },
+            "death" : {
+              "properties" : {
+                "image" : "<partImage>:death.<frame>"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:stage4.idle.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "globalTagDefaults" : {
+    "stage" : "stage1"
+  },
+
+  "transformationGroups" : {
+    "body" : {"interpolated" : true}
+  },
+
+  "particleEmitters" : {
+    "damage" : {
+      "emissionRate" : 0.7,
+      "particles" : [
+      ]
+    }
+  },
+
+  "sounds" : {
+    "turnHostile" : [ ],
+    "deathPuff" : [ ],
+    "stage1Glitch" : [ ],
+    "stage2Glitch" : {
+      "pool" : [ "/sfx/interface/clickon_error.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage3Glitch" : {
+      "pool" : [ "/sfx/interface/clickon_error.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage4Glitch" : {
+      "pool" : [ "/sfx/interface/clickon_error_single.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage1Attack" : {
+      "pool" : [ "/sfx/interface/ship_error1.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage2Attack" : {
+      "pool" : [ "/sfx/interface/ship_error1.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage3Attack" : {
+      "pool" : [ "/sfx/interface/ship_error1.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage4Attack" : {
+      "pool" : [ "/sfx/interface/sniper_mark_stop3.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage2Transition" : {
+      "pool" : [ "/sfx/objects/bluealert.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage3Transition" : {
+      "pool" : [ "/sfx/objects/bluealert.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "stage4Transition" : {
+      "pool" : [ "/sfx/objects/bluealert.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "spawn" : [ ],
+    "death" : {
+      "pool" : [ "/sfx/tech/mech_powerdown.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "fireWarning" : {
+      "pool" : [ "/sfx/interface/rocket_lockon.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "fireLaser" : {
+      "pool" : [ "/sfx/gun/plasma_mp3.ogg" ],
+      "rangeMultiplier" : 1.5
+    },
+    "droneSummon" : {
+      "pool" : [ "/sfx/interface/stationtransponder_valid2.ogg" ],
+      "rangeMultiplier" : 1.5
+    }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0.25,
+      "directives" : "fade=ffffff;0.5"
+    }
+  }
+}

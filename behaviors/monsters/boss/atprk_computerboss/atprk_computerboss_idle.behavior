@@ -1,0 +1,63 @@
+{
+  "name": "atprk_computerboss_idle",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/time.lua",
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/animator.lua"
+  ],
+  "parameters": {},
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 1.2}
+        }
+      },
+      {
+        "title": "setScreenStates",
+        "type": "action",
+        "name": "setScreenStates",
+        "parameters": {
+          "state": {"value": "idle"}
+        }
+      },
+      {
+        "title": "apeboss-stagesound",
+        "type": "module",
+        "name": "apeboss-stagesound",
+        "parameters": {
+          "projectorCount": {"key": "projectorCount"},
+          "stage1": {"value": "stage1Glitch"},
+          "stage2": {"value": "stage2Glitch"},
+          "stage3": {"value": "stage3Glitch"},
+          "stage4": {"value": "stage4Glitch"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "glitch"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 1.4}
+        }
+      }
+    ]
+  }
+}

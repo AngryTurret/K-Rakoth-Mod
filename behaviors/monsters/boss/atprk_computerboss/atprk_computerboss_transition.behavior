@@ -1,0 +1,138 @@
+{
+  "name": "atprk_computerboss_transition",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/world.lua",
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/animator.lua",
+    "/scripts/behavior.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {
+    "projectorList": "",
+    "stage": "stage1",
+    "projectorSpeed": 10
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "succeeder",
+        "type": "decorator",
+        "name": "succeeder",
+        "parameters": {},
+        "child": {
+          "title": "each",
+          "type": "decorator",
+          "name": "each",
+          "parameters": {
+            "list": {"key": "<projectorList>"},
+            "type": {"value": "entity"}
+          },
+          "child": {
+            "title": "succeeder",
+            "type": "decorator",
+            "name": "succeeder",
+            "parameters": {},
+            "child": {
+              "title": "sendEntityMessage",
+              "type": "action",
+              "name": "sendEntityMessage",
+              "parameters": {
+                "entity": {"key": "eachItem"},
+                "message": {"value": "heal"}
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "updateProjectors",
+        "type": "action",
+        "name": "updateProjectors",
+        "parameters": {
+          "projectorList": {"key": "<projectorList>"}
+        }
+      },
+      {
+        "title": "setGlobalTag",
+        "type": "action",
+        "name": "setGlobalTag",
+        "parameters": {
+          "tag": {"value": "<stage>"},
+          "type": {"value": "stage"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "<stage>"},
+          "type": {"value": "idleSound"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "off"},
+          "type": {"value": "attackSound"}
+        }
+      },
+      {
+        "title": "setNumber",
+        "type": "action",
+        "name": "setNumber",
+        "parameters": {
+          "number": {"key": "<projectorSpeed>"}
+        },
+        "output": {
+          "number": "projectorSpeed"
+        }
+      },
+      {
+        "title": "setProjectorSpeeds",
+        "type": "action",
+        "name": "setProjectorSpeeds",
+        "parameters": {
+          "projectorList": {"key": "<projectorList>"},
+          "speed": {"key": "<projectorSpeed>"}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "glitch"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_stagesound",
+        "type": "module",
+        "name": "atprk_computerboss_stagesound",
+        "parameters": {
+          "projectorCount": {"value": 4},
+          "stage1": {"value": ""},
+          "stage2": {"value": "stage2Transition"},
+          "stage3": {"value": "stage3Transition"},
+          "stage4": {"value": "stage4Transition"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 0.45}
+        }
+      }
+    ]
+  }
+}
