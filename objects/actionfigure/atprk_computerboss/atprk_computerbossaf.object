@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_computerbossaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "atprk_computerbossaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"An intelligent computer programmed to guard the K'Rakothan cryogenic tomb.\"",
+  "shortdescription" : "Stasis Keeper Figurine",
+
+
+  "inventoryIcon" : "atprk_computerbossaficon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_computerbossaf.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_computerbossaf.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
