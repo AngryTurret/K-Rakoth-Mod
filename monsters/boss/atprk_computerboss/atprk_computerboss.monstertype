@@ -8,7 +8,7 @@
   "animation" : "atprk_computerboss.animation",
   "dropPools" : [
     {
-      "default" : "bigapeTreasure"
+      "default" : "atprk_computerbossTreasure"
     }
   ],
 
