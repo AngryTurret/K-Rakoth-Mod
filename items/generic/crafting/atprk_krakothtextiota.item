@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "atprk_krakothtextiota.png",
-  "description" : "A holographic text about an ancient tomb. ^red;Requires translation.^white;",
+  "description" : "A holographic text about an ancient faith. ^red;Requires translation.^white;",
   "shortdescription" : "K'Rakoth Codex Iota",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
