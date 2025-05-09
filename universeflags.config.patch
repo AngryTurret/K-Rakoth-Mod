@@ -109,6 +109,20 @@
   },
   {
     "op": "add",
+    "path": "/atprk_relicseekerhq_cryotombflag",
+    "value": {
+          "actions": [
+      {
+        "type" : "placeDungeon",
+        "dungeonId" : "atprk_relicseekerhq_postcryotomb",
+        "targetInstance" : "atprk_relicseekerhq",
+        "targetPosition" : [361, 871]
+      }
+          ]
+    }
+  },
+  {
+    "op": "add",
     "path": "/atprk_relicseekerhq_vaultraiderflag",
     "value": {
           "actions": [
