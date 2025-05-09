@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_relicseekerdisplay1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A strange stone head found in the middle of ancient ruins.",
+  "shortdescription" : "Relic Display",
+  "race" : "generic",
+
+  "apexDescription" : "I suspect it to be an ancient weapon of sorts.",
+  "avianDescription" : "I suppose it used to be a head of an ancient statue.",
+  "floranDescription" : "Sssquare-jawed sskull. Were the Ancients huntersss too?",
+  "glitchDescription" : "Observant. This sculpture is reminiscent of the statues built by the Ancients.",
+  "humanDescription" : "A strange skull-like stone figure. Looks rather heavy.",
+  "hylotlDescription" : "A rectangular head that probably belonged to a bigger sculpture.",
+  "novakidDescription" : "For a second I thought it was a Mooshi skull. Ain't even close, really.",
+
+
+  "inventoryIcon" : "atprk_relicseekerdisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicseekerdisplay1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

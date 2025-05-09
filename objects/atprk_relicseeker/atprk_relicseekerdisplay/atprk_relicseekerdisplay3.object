@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_relicseekerdisplay3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A gilded K'Rakoth statue forced into a display.",
+  "shortdescription" : "Relic Display",
+  "race" : "generic",
+
+  "apexDescription" : "A gilded statue of a tentacled being.",
+  "avianDescription" : "Was it necessary to force the statue into a display?",
+  "floranDescription" : "Sssmall hunchback sssquid. Looksss weak.",
+  "glitchDescription" : "Respectful. It must have been a notable ancient king.",
+  "humanDescription" : "A strange golden statue of a crowned alien.",
+  "hylotlDescription" : "The statue is all right, but the display itself is redundant.",
+  "novakidDescription" : "Is that real gold, by the way?",
+
+
+  "inventoryIcon" : "atprk_relicseekerdisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicseekerdisplay3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}
