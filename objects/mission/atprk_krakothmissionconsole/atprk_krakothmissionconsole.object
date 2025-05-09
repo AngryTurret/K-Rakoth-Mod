@@ -1,0 +1,73 @@
+{
+  "objectName" : "atprk_krakothmissionconsole",
+  "colonyTags" : ["atprk_krakoth","electronic","wired"],
+  "rarity" : "Legendary",
+  "description" : "A large ancient console. What happens if I interact with it?",
+  "shortdescription" : "Large Elder Console",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 450,
+  "lightColor" : [108, 28, 73],
+  
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.975,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "I can discern a few symbols on the screen. Now this is something.",
+  "avianDescription" : "A complex ancient terminal of sorts. Let's see what it does.",
+  "floranDescription" : "Big computer. Floran sssmash buttonss to ssse what happens.",
+  "glitchDescription" : "Neutral. An ancient console. Whatever it does, I should attempt to activate it.",
+  "humanDescription" : "This console is not as inoperable as the rest. I need to check what it does.",
+  "hylotlDescription" : "This console seems to be important. What if I activate it?",
+  "novakidDescription" : "This computer looks a lot simpler than some. Gotta figure out what it's for.",
+
+  "inventoryIcon" : "atprk_krakothmissionconsoleicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_krakothmissionconsole.png:<color>.on",
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "flipImages" : true,
+      "direction" : "left",
+
+      "lightPosition" : [-1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_krakothmissionconsole.png:<color>.on",
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "atprk_krakothmissionconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "atprk_krakothmissionconsole.png",
+    "fg" : "atprk_krakothmissionconsolelit.png"
+  },
+
+  "outputNodes" : [ [0, 1] ]
+}
