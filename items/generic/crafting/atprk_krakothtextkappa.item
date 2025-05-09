@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_krakothtextkappa",
+  "price" : 25,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_krakothtextkappa.png",
+  "description" : "A somber ancient text. ^red;Requires translation.^white;",
+  "shortdescription" : "K'Rakoth Codex Kappa",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "atprk_krakothcodexkappa-codex",
+    "atprk_krakothtextkappa"
+  ],
+  "radioMessagesOnPickup" : [ "atprk_krakothcodexmessage" ]
+}
