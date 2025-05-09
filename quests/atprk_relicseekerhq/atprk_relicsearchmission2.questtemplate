@@ -1,0 +1,51 @@
+{
+	"id" : "atprk_relicsearchmission2",
+	"prerequisites" : [ "atprk_relicsearchmission1" ],
+	"title" : "^green;The Cryogenic Tomb",
+	"text" : "Thank you for protectin' us. That was so stressful... I'm sorry, but I have t' stay behind and make sure the crew's doin' well. Don't worry about the ^orange;cryogenic tomb^white; though, we're still goin' to uncover it. I'll send you its coordinates if you wish to ^green;go ahead and inspect the area^white;.",
+	"completionText" : "You can't imagine how important this is - we've got a ton of work to do! On behalf of the Relic Seekers, I'd like to give you this. We wouldn't be able to get this far without your contribution.",
+	"moneyRange" : [5000, 5000],
+	"rewards": [
+		[
+			["rewardbag", 1]
+		]
+	],
+
+	"canBeAbandoned" : false,
+  	"updateDelta" : 10,
+  	"script" : "/quests/scripts/atprk_cryotombmission.lua",
+  	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : {
+				"portrait" : [ {"image" : "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait3.png"} ],
+				"title" : "Libra"
+			},
+      "questComplete" : {
+				"portrait" : [ {"image" : "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait1.png"} ],
+				"title" : "Libra"
+			}
+		},
+
+		"descriptions" : {
+			"findTomb" : "^green;Reach ^orange;the bottom^white; of the ^orange;Cryogenic Tomb^white;",
+			"turnIn" : "^green;Return^white; to ^orange;Libra^reset; aboard ^orange;ST Syllectis^reset;"
+		},
+
+		"compassUpdate" : 0.2,
+
+		"associatedMission" : "atprk_missioncryotomb",
+
+		"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
+		"missionRadioMessage" : {
+			"messageId" : "atprk_cryotombunlocked",
+			"text" : "I have received coordinates for ^orange;The Cryogenic Tomb^reset;. ^green;Use the ship computer^reset; to access the location."
+		},
+
+		"cryotombFoundCinema" : "/cinematics/atprk_cryotombfound.cinematic",
+
+		"relicseekerUid" : "atprk_relicseekerlibra",
+		"goalUid" : "atprk_cryotombgoal",
+
+		"setUniverseFlags" : ["atprk_relicseekerhq_cryotombflag"]
+  }
+}

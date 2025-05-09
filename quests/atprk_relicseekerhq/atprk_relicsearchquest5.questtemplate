@@ -21,13 +21,13 @@
 				"portrait": [{
 					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait2.png"
 				}],
-				"title": "Libra Eclipse"
+				"title": "Libra"
 			},
 			"questComplete": {
 				"portrait": [{
 					"image": "/objects/atprk_relicseeker/atprk_relicseekerlibra/atprk_libraportrait4.png"
 				}],
-				"title": "Libra Eclipse"
+				"title": "Libra"
 			}
 		},
 		"requireTurnIn": true,
