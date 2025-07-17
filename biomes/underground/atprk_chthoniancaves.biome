@@ -57,7 +57,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ]
+            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ],
+            "parameters" : {
+              "originBiome" : "underground/atprk_atprk_chthoniancaves"
+            }
           }
         ]
       },
@@ -70,7 +73,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ]
+            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ],
+            "parameters" : {
+              "originBiome" : "underground/atprk_atprk_chthoniancaves"
+            }
           }
         ]
       },
@@ -84,7 +90,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_chthonianrocksmall1" ], [0.2, "atprk_chthonianrocksmall2" ], [0.2, "atprk_chthonianrocksmall3" ], [0.2, "atprk_chthonianrocksmall4" ], [0.2, "atprk_chthonianrocksmall5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground/atprk_atprk_chthoniancaves"
+            }
           }
         ]
       },

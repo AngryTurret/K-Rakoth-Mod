@@ -1,0 +1,17 @@
+{
+  "missionName" : "atprk_missioncryotomb",
+  "icon" : "atprk_missioncryotombicon.png",
+  "missionWorld" : "atprk_cryotombmission",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "The Cryogenic Tomb",
+      "repeatButtonText" : "Revisit the Cryogenic Tomb",
+      "selectSpeech" : {
+        "animation" : "talk",
+        "text" : "This ancient tomb is a potential hideout of the last K'Rakoths.",
+        "speedModifier" : 1.0
+      }
+    }
+  }
+}

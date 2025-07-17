@@ -70,7 +70,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ancientnecropolis"
+            }
           }
         ]
       },
@@ -93,7 +95,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.1, "atprk_ancientdebris1" ], [0.1, "atprk_ancientdebris2" ], [0.1, "atprk_ancientdebris3" ], [0.1, "atprk_ancientdebris4" ], [0.1, "atprk_ancientdebris5" ], [0.1, "atprk_ancientdebris6" ], [0.1, "atprk_ancientdebris7" ], [0.1, "atprk_ancientdebris8" ], [0.1, "atprk_ancientdebris9" ], [0.1, "atprk_ancientdebris10" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_ancientnecropolis"
+            }
           }
         ]
       },
@@ -107,7 +111,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "atprk_ancientmistprimer" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_ancientnecropolis"
+            }
           }
         ]
       },
@@ -137,7 +143,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_ancientnecropolis"
+            }
           }
         ]
       },
@@ -151,7 +159,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_ancientnecropolis"
+            }
           }
         ]
       },

@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":96,
+ "tilecount":97,
  "tileheight":96,
  "tileproperties":
     {
@@ -942,6 +942,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"-8",
          "object":"atprk_swimboosterend3",
+         "tilesetDirection":"right"
+        },
+     "96":
+        {
+         "\/\/description":"There appears to be a hidden motion sensor.",
+         "\/\/name":"atprk_cryotombscanner",
+         "\/\/shortdescription":"Hidden Scanner",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_cryotombscanner",
          "tilesetDirection":"right"
         }
     },
@@ -1878,6 +1888,16 @@
          "imagePositionY":"string",
          "object":"string",
          "tilesetDirection":"string"
+        },
+     "96":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
@@ -2457,6 +2477,12 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_swimboosterend3.png",
          "imageheight":24,
          "imagewidth":24
+        },
+     "96":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombscanner.png",
+         "imageheight":8,
+         "imagewidth":8
         }
     },
  "tilewidth":128,

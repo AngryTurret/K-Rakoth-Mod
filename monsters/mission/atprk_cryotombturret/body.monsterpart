@@ -1,0 +1,11 @@
+{
+  "name" : "atprk_cryotombturret",
+  "category" : "atprk_cryotombturret",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_cryotombturretbody.png",
+    "turret" : "atprk_cryotombturretturret.png",
+    "turretfullbright" : "atprk_cryotombturretturretfullbright.png"
+  }
+}

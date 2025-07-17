@@ -1,0 +1,32 @@
+{
+  "objectName" : "atprk_relicseekerdisplay4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "An exotic rock containing metal.",
+  "shortdescription" : "Relic Display",
+  "race" : "generic",
+
+  "apexDescription" : "This large rock was found near some ancient ruins.",
+  "avianDescription" : "This large rock is extremely old, maybe even older than Avos.",
+  "floranDescription" : "Ssstupid rock, how iss it ssspecial?",
+  "glitchDescription" : "Informed. This ancient rock consists of both stone and metal.",
+  "humanDescription" : "A big rock found near some ancient ruins.",
+  "hylotlDescription" : "A notably old rock. Who knows how long it has been around.",
+  "novakidDescription" : "A big ol' rock.",
+
+
+  "inventoryIcon" : "atprk_relicseekerdisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicseekerdisplay4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

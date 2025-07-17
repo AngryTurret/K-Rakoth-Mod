@@ -183,7 +183,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },
@@ -197,7 +199,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },
@@ -283,7 +287,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smokegen" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },
@@ -298,7 +304,8 @@
           {
             "pool" : [ [1, "wildautomatoseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4,
+              "originBiome" : "surface/atprk_ashworld"
             }
           }
         ]
@@ -352,7 +359,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },
@@ -378,7 +387,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },
@@ -416,7 +427,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ashworld"
+            }
           }
         ]
       },

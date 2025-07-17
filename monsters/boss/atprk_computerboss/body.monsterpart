@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_computerboss",
+  "category" : "atprk_computerboss",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_computerboss.png",
+    "bodynobright" : "atprk_computerbosslit.png"
+  }
+}

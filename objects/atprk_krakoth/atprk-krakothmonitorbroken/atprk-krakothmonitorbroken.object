@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk-krakothmonitorbroken",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "shortdescription" : "Broken Elder Monitor",
+  "description" : "A monitor once used by K'Rakoths. Once.",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 200,
+
+  "apexDescription" : "A cracked monitor.",
+  "avianDescription" : "I'll just assume this didn't display anything important.",
+  "floranDescription" : "Screen got sssmashed in frussstration.",
+  "glitchDescription" : "Distraught. How will I learn what this monitor says if it's broken?",
+  "humanDescription" : "Not even duct tape can salvage this.",
+  "hylotlDescription" : "This monitor is clearly out of order.",
+  "novakidDescription" : "Can't read much from a cracked screen.",
+
+  "inventoryIcon" : "atprk-krakothmonitorbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-krakothmonitorbroken.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

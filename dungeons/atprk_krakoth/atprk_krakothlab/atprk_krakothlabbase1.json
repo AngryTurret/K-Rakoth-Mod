@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmu9tAyEMxW+WrtYvGSADVMoUXSKLtd+6QHtqrVqWAfPXHLwnPSlNgDvjXwxc83kcb58wDMMwDMMwDMOdfEAu8s47cj+fkHuIC\/mHSMg\/RKrN\/cfPGGTo2qplAFpH4AAiYT2AToEDiJTLwMoc3P78\/vJr+nsHgYN\/cQY4C7toNw7ujbyawAE4OLUTBw9mqv3ae7HP+HsraRcOnsKUV+292GdynFW0CwePo309WKkmrMxBq73ADnuGFAfe91cjcGDX1TnQzvwWj2pPnl2rcWDJ1ej24KCfRtf81dcOcAAOTs1+XpDnNMtZzuLcvr2v5a2ZOZDPbCzPgqzO7TviWp48zMyB93fU41pempED7zXc2x4ayYH1ebx3HrxtUev\/bYzmQDtba2fs0DN\/7fl\/rE2rvr2vpa0LsfYrcPCMvL4f\/3smivlVsZwXrU3IuX17X4uzwOcgNVct5cEBSb6m\/HMOaK74XkrOX05eSvu2vFYoFh67Za5aKsWBZKFGlthkPdiRg7txrlpqNg5QD8bXAwsD2tpQykUNB71zM5KDUJvZOYixkKOSdWH3fWJsrlrJi4PYHljWg5hXOjeG6kHv80IOAzEWcpR6fiDrwSinnuuMvBdZD2Jz1UIlHJSeI+n3Gc8j\/RsOD6f+\/+N9f6F7ptelKmWAfI5RwsGs5t95WQPuE9xfyiWqZYCzYFWIYwvrNW20dlq\/3HpgGbNnXLJNrloxwP31My75lFYjZAzaWifbhPZWfB3NHVcbP7UnfSjtQ2N6xdUjryX55xxossZ1vubzlcqN7BMal++9QhykciPzpI05Oq4dOEidsXI5kDmU+\/OYQxzIv0fHBQ7a14PcdaG0HqzGgcZCLQexNiV9rPWgdF2w1oNecc3CgWSilgOsC9esB5a14msSDrAu+PMww3nBc13oFdfsHEgWSvYHLc\/ZqXpQui5Y60GvuK7AAWdBxnVL+Gl0ahztetZ+PcZsFdfVOCCXzPXVn\/mPjMs7vz05aFELZnSPuLzzC8PwPv4GX0sxCg==",
+         "data":"eJztmtttIzEMRaeWtJafFOACFnAjrsBFpJ3NXxpIBhsiXIKSqCc10r3ABca2pBlKx9TD\/jiOPx8wDMMwDMMwDMOdfEAu8h53jP18wthDXBh\/iITxh0i1Y\/\/3uw0ydG3VMgCtI3AAkTAfQKfAAUTKZWBlDt5+\/P7yz\/R6B4GDX3EGOAu7aDcObo28msABODi1Ewd3Zsr9\/L3Hy\/\/WPuPvraRdOHgKP344kO9xa5\/JdlbRLhzcj\/T3OzcfrJQTVuag1VpghzVDigPv56sROLDr6hzIXE7nPymPKk+eXatxYBmr0eXBQT+Nzvmrzx3gABycmn2\/IPdplr2cxbl1e9\/LWzNzIM9stLMg7WzH4ty6I+7lycPMHHh\/Rz3u5aUZOfCew73toZEcWM\/jvcfB2xa1\/m1jNAfa3lrbY8ucSr8Pauf\/sTZDzq0beh7p0ntp80Ks\/AocPCPXt+N3zUQxvyqW\/aKVCTm3bqi8nNtL78VZ4H2Q6quW8uCAJK9p\/DkHWp\/L\/sthoLRuqHyMgVDdUCw8dktftVSKA8lCjSyxyXwQ+97NwkFu3RQHN2NftdRsHFjyAfVfLQf0f6TZOBidDywMaHNDKRc1HGh934qDktwes2zLwtAVOIixkKOSeaHnOlH7j2LtvUJzV+k6MdZXreTFQWwNLPNBzC32jak9X8t7WcrJfNB7v5DDQIyFHKXOD2Q+GOXUuc7IZ5H5INZXLVTCQek+kv6f8TzS\/+HwcOr3H+\/nCz0zXZeqlAHy2UYJB7Oaf+dlDrhN8Hwpl6iWAc6CVSGOLazXlNHKafVy84GlzZ5xyTK5asUA9+d3u+RTWo6QMWhznSwTWlvxeTS3Xa19ug6tFe9K+VCbXnH1GNeS8eccaLLGdV7z\/kqtq2WdULt87RXiQGNBKxNrs2Vc74a4duAgtcfK5UCOoVyfxxziQL5uGRc46MNBKh9QHe237Zb5YDUONBZqOYiVKaljzQeWObsmH\/SKaxYOJBO1HGBeuGY+sMwVn5NwYJ0XtJzgMS9Y4pqVgxAPM+wXPOeFXnHNzoFkoWR90HKfncoHpfOCNR\/0iusKHHAWZFxvCT+NTrWj3c9ar0ebreK6Ggfkkr6++pn\/yLi8x7cnBy1ywYzuEZf3+MIwvI+\/ADF4RyI=",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmFFuhDAMRDnL3qw9SaU9RS\/BxfrJBarV1hJFCXFiJ+PAPGl+sXEeELIshBBCCCGEENKPHwaSCKBnwOCcQN8rg\/UBfW8M1gX0\/TA4F9D9j8j34x10H1FdQPc90gG6kAfd88j1v5MPNUTrx5OSAxIE0eYerR8vjmv9XP4H7UKkd0KkXjxJOXAE7UKk2UfqxcLZOz\/lgJByYZQXo2avmX+UPiy0OiCgXKAHfpT2AFoQewd64EPLs69lhAv0wE5PB4TeLtADPZp\/\/x4OCKW9g8UPeqAD7YDQywV6UKa0\/6vdB1rJ1be4QA\/OQTzzrVhcoAdvorz3rbR+N+jBdRwQWly4uwfRvv1e1O4h7uzBzM98KzkX7urBHR0QUi5c1YOz9zzagdb5eJKbQ25WM3qg2SMh3wMRPHih3U96u1DC04PcPuno+tOx7mzZz0Azq9k80GTdBb0eqKBmUAI9F4YeMHE8WAL0yNADJoYDS4A+mRgeLAF6ZegBE8MBAd1zLpozl1xe\/+mfj\/Osxhro+Xh7sFRcf\/vLx+Md7ZpIauYsNVqiOa9ZjTVqvayZgdTYKtbG6oCgdWDvQdSM8GBEZN6jHDhzYUvE8mx4Jldb60HNNUfdT8qDfXo7IKRqn3mA+lZqzuxzewPLNXvm6IJmLbbyklajrYt24Mo57g9Gu1BTkx7Qg5k8qP0uREirBx4u1NabxYMZE9yDL3oQ3wOLCy21ZvHgbt8FenCd0APGw4MWF1rrtJwjWs74PM7se13T+75m9OCOZ\/4j76t1fWpdoAf0gBBCfgG+DPo7",
+         "data":"eJztmOFthDAMhTPLbdbO0AEqdZFOcIv15y1Qna6WKCLEsU2eA++T3l9snA8IKYUQQgghhBBCjuOHgSQD6BkwOCfQ98pgfUDfG4N1AX0\/DM4FdP8j8n17Bd1HVhfQfY90gC7UQfc8cv2v5EMP2fqJpOWABEG2uWfrJ4r1Wn+V\/0G7kOmdkKmXSLYcWIN2IdPsM\/XiYe+dv+WAsOXCKC9GzV4z\/yx9eLA6IKBcoAdxtPYAWhB7B3oQg+XZ1zLCBXrg50gHhKNdoAd6NP\/+RzggtPYOHj\/ogQ60A8JRLtCDNq39X+8+0EutvscFerAP4pm34nGBHrzI8t73Yv1u0IPzOCBYXLi6B9m+\/VH07iGu7MHMz7yVmgtX9eCKDghbLpzVg733PNoB63wiqc2hNqsZPdDskZDvgQwePNHuJ6NdaBHpQW2ftHb9K7DubFnOQDOr2TzQ5L4Iej1QQc2gBXouDD1g8nhQEvTI0AMmhwMlQZ9MDg9Kgl4ZesDkcEBA91yL5syllud\/+vttP3dnDfR8oj0oHdd\/\/OXt9spHaWd5htIzZ6lhiea85u6s0eulRDMzqfHoWBuvA4LWgaUHWTPCgxGReY9yYM+Fx0Y8z0ZkarW1HvRcc9T9bHmwzNEOCFu19zxAfSs1Z\/a1vYHnmkdm7YJmLR7tJe1GWxftwJmzdEG7HpEu9NSkB\/RgJg96vwsZYvUgwoXeerN4MGOSe\/BJD\/J74HHBUmsWD672XaAH5wk9YCI8sLhgrWM5R\/Sc8bXO7KPO8yzXjL6vGT244pn\/yPuyrk+vC\/SAHhBCyC\/11v\/L",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -1078,7 +1078,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8852,
+         "firstgid":8859,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,

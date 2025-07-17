@@ -47,7 +47,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_glaciovolcanic"
+            }
           }
         ]
       },
@@ -79,7 +81,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "atprk_glaciovolcaniccrystal1" ], [0.25, "atprk_glaciovolcaniccrystal2" ], [0.25, "atprk_glaciovolcaniccrystal3" ], [0.25, "atprk_glaciovolcaniccrystal4" ], [0.05, "atprk_glaciovolcaniccrystal5" ], [0.05, "atprk_glaciovolcaniccrystal6" ], [0.05, "atprk_glaciovolcaniccrystal7" ], [0.05, "atprk_glaciovolcaniccrystal8" ]  ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_glaciovolcanic"
+            }
           }
         ]
       }
@@ -104,7 +108,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "atprk_glaciovolcaniccrystal1" ], [0.15, "atprk_glaciovolcaniccrystal2" ], [0.15, "atprk_glaciovolcaniccrystal3" ], [0.15, "atprk_glaciovolcaniccrystal4" ], [0.20, "atprk_glaciovolcaniccrystal5" ], [0.20, "atprk_glaciovolcaniccrystal6" ], [0.20, "atprk_glaciovolcaniccrystal7" ], [0.20, "atprk_glaciovolcaniccrystal8" ]  ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_glaciovolcanic"
+            }
           }
 
         ]

@@ -49,10 +49,10 @@
   ],
 
   "offeredQuests" : [
-    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5", "atprk_relicsearchmission1"
+    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5", "atprk_relicsearchmission1", "atprk_relicsearchmission2"
   ],
   "turnInQuests" : [
-    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5"
+    "atprk_relicsearchquest1", "atprk_relicsearchquest2", "atprk_relicsearchquest3", "atprk_relicsearchquest4", "atprk_relicsearchquest5", "atprk_relicsearchmission2"
   ],
 
   "scripts" : ["/scripts/chattyObject.lua"],
@@ -67,7 +67,11 @@
     "Space Train Syllectis may be a bit old 'n rusty but there's no way I'm trading it for anythin' else!",
     "Do you like reading books? We've got a whole collection of historical records 'n classic literature.",
     "You're from the Protectorate, right? I'm sorry for what had happened to Earth. It's a great loss.",
-    "Have you ever seen K'Rakothan ruins before? They're so imposing 'n spacious."
+    "Have you ever seen K'Rakothan ruins before? They're so imposing 'n spacious.",
+    "Think twice before throwin' away spare relic parts. Why not recycle them instead?",
+    "Come say hi to our Repairbot, he doesn't bite!",
+    "Remember that you can't just waltz into any K'Rakothan facility. Some of 'em remain protected to this day.",
+    "We keep hearin' about some \"dimensional tunnels\" but we haven't encountered any. I guess they're that rare."
   ],
 
   "breakDropOptions" : [

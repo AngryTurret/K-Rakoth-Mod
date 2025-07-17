@@ -1,0 +1,237 @@
+{
+  "name": "atprk_computerboss_dronesummon",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/position.lua",
+    "/scripts/actions/math.lua",
+    "/scripts/actions/world.lua",
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/projectiles.lua"
+  ],
+  "parameters": {
+    "needleTargetOffset": [0, 15],
+    "needleMinAngle": -0.5,
+    "needleMaxAngle": 0.5
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "setScreenStates",
+        "type": "action",
+        "name": "setScreenStates",
+        "parameters": {
+          "state": {"value": "summon"}
+        }
+      },
+      {
+        "title": "dynamic",
+        "type": "composite",
+        "name": "dynamic",
+        "parameters": {},
+        "children": [
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "groundPosition",
+                "type": "action",
+                "name": "groundPosition",
+                "parameters": {
+                    "avoidLiquid": {"value": true},
+                    "maxHeight": {"value": 5},
+                    "minHeight": {"value": -20},
+                    "position": {"key": "targetPosition"}
+              },
+                "output": {
+                    "position": "targetGround"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "setVelocity",
+        "type": "action",
+        "name": "setVelocity",
+        "parameters": {
+          "velocity": {"value": [0, 0]}
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "summonwindup"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "atprk_computerboss_stagesound",
+        "type": "module",
+        "name": "atprk_computerboss_stagesound",
+        "parameters": {
+          "projectorCount": {"key": "projectorCount"},
+          "stage1": {"value": "stage1Attack"},
+          "stage2": {"value": "stage2Attack"},
+          "stage3": {"value": "stage3Attack"},
+          "stage4": {"value": "stage4Attack"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 2}
+        }
+      },
+      {
+        "title": "repeater",
+        "type": "decorator",
+        "name": "repeater",
+        "parameters": {
+          "maxLoops": {"value": 3},
+          "untilSuccess": {"value": false}
+        },
+        "child": {
+          "title": "sequence",
+          "type": "composite",
+          "name": "sequence",
+          "parameters": {},
+          "children": [
+            {
+              "title": "random",
+              "type": "action",
+              "name": "random",
+              "parameters": {
+                "max": {"key": "<needleMaxAngle>"},
+                "min": {"key": "<needleMinAngle>"}
+              },
+              "output": {
+                "number": "randAngle"
+              }
+            },
+            {
+              "title": "vecRotate",
+              "type": "action",
+              "name": "vecRotate",
+              "parameters": {
+                "angle": {"key": "randAngle"},
+                "vector": {"value": [0, -1]}
+              },
+              "output": {
+                "vector": "aimVector"
+              }
+            },
+            {
+              "title": "spawnProjectile",
+              "type": "action",
+              "name": "spawnProjectile",
+              "parameters": {
+                "aimVector": {"key": "aimVector"},
+                "angle": {"value": 0},
+                "offset": {"value": [5.5, 0.5]},
+                "position": {"key": "self"},
+                "projectileConfig": {"value": {}},
+                "projectileType": {"value": "atprk_computerbossdronespawn"},
+                "scalePower": {"value": true},
+                "sourceEntity": {"key": "self"},
+                "trackSource": {"value": false}
+              }
+            },
+            {
+              "title": "random",
+              "type": "action",
+              "name": "random",
+              "parameters": {
+                "max": {"key": "<needleMaxAngle>"},
+                "min": {"key": "<needleMinAngle>"}
+              },
+              "output": {
+                "number": "randAngle"
+              }
+            },
+            {
+              "title": "vecRotate",
+              "type": "action",
+              "name": "vecRotate",
+              "parameters": {
+                "angle": {"key": "randAngle"},
+                "vector": {"value": [0, -1]}
+              },
+              "output": {
+                "vector": "aimVector"
+              }
+            },
+            {
+              "title": "spawnProjectile",
+              "type": "action",
+              "name": "spawnProjectile",
+              "parameters": {
+                "aimVector": {"key": "aimVector"},
+                "angle": {"value": 0},
+                "offset": {"value": [-5.5, 0.5]},
+                "position": {"key": "self"},
+                "projectileConfig": {"value": {}},
+                "projectileType": {"value": "atprk_computerbossdronespawn"},
+                "scalePower": {"value": true},
+                "sourceEntity": {"key": "self"},
+                "trackSource": {"value": false}
+              }
+            },
+            {
+              "title": "timer",
+              "type": "action",
+              "name": "timer",
+              "parameters": {
+                "time": {"value": 0.3}
+              }
+            },
+            {
+              "title": "playSound",
+              "type": "action",
+              "name": "playSound",
+              "parameters": {
+                "sound": {"value": "droneSummon"}
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "summonwinddown"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": 5.0}
+        }
+      },
+      {
+        "title": "atprk_computerboss_idle",
+        "type": "module",
+        "name": "atprk_computerboss_idle",
+        "parameters": {}
+      }
+    ]
+  }
+}

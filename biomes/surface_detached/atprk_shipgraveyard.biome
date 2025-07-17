@@ -53,7 +53,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },
@@ -97,7 +99,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.08, "atprk_pollutedjunk1" ], [0.08, "atprk_pollutedjunk2" ], [0.08, "atprk_pollutedjunk3" ], [0.08, "atprk_pollutedjunk4" ], [0.08, "atprk_pollutedjunk5" ], [0.02, "atprk_krakothdebris1" ], [0.02, "atprk_krakothdebris2" ], [0.02, "atprk_krakothdebris3" ], [0.02, "atprk_krakothdebris4" ], [0.02, "atprk_krakothdebris5" ]],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },
@@ -111,7 +115,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "atprk_virtualconsolebroken" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },
@@ -126,7 +132,8 @@
           {
             "pool" : [ [1, "currentcornseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4,
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
             }
           }
         ]
@@ -149,7 +156,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },
@@ -163,7 +172,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.08, "atprk_pollutedjunk1" ], [0.08, "atprk_pollutedjunk2" ], [0.08, "atprk_pollutedjunk3" ], [0.08, "atprk_pollutedjunk4" ], [0.08, "atprk_pollutedjunk5" ], [0.02, "atprk_krakothdebris1" ], [0.02, "atprk_krakothdebris2" ], [0.02, "atprk_krakothdebris3" ], [0.02, "atprk_krakothdebris4" ], [0.02, "atprk_krakothdebris5" ]],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },
@@ -177,7 +188,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_shipgraveyard"
+            }
           }
         ]
       },

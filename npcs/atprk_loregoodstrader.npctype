@@ -46,7 +46,11 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "scientisthead", "parameters" : { "colorIndex" : 0 } } ],
+            "head" : [
+              { "name" : "scientisthead", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "glasses2head", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "sunglasses1head", "parameters" : { "colorIndex" : 0 } }
+            ],
             "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
             "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
           }

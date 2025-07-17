@@ -162,7 +162,8 @@
           {
             "pool" : [ [1, "atprk_wildruinousgrowth" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface/atprk_ruinedworld"
             }
           }
         ]
@@ -194,7 +195,9 @@
         "objectSets" : [
           {
             "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ruinedworld"
+            }
           }
         ]
       },
@@ -223,7 +226,9 @@
         "objectSets" : [
           {
             "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface/atprk_ruinedworld"
+            }
           }
         ]
       },
@@ -247,7 +252,8 @@
           {
             "pool" : [ [1, "atprk_wildruinousgrowth" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface/atprk_ruinedworld"
             }
           }
         ]

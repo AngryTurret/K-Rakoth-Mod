@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmsENgzAMRTNLh6sYgA24dBpunYG1WiSsupZD4sQGg3z4ag+B+NX2d0BdUkpLKBQKhUKhQzVsmr96PnxrRvFqsb4Fkq5vuUaLdb0HZoX7T+mno1m5vTHr+t0D67BdQz\/vyDomXh5Yab\/21uOE7gmS5jW3j7Y39bLC7441OGGlNZyrwZxyrBBTjrVlH+1+1WKFfvPMqlXDJdaeGvbiTbU1HN50rDdxe2CVWFtnTs0+Vv2699vvrZOeJST7WHvTnfK616\/YT7GvcjGM6T8W2q94Tc8+Vt4EMTzJdy6GibBSH8Zrevax8iZJDDSvdL7W5LWW1aJfJbVF88qxlvJaW8NnelNvDZ\/tTdJZ0OpNLTPH6twkzWtu5mjm1ercVBLNa+4ssedNkn08PedYXhOsev3qkdXLM51nVo0afm0qvUeBdV76teU9EDBw8wbPHczq4X1TDyt3jsDnibNZNfqVstKccqxX9aarsGp6k6SGPXhTD6vEm67O6n3m0H6VxoFZS2tbWSEui\/8QeJWGN8F9pDPvaOF8tLCGrqkPXK3Mlw==",
+         "data":"eJztmlEOgzAIhnuWHW7xAN7Al53GUyzxWpuJZIxQW1pQNDz82R6q5RvwU82WlNISCoVCoVDoUA2b5q+eD9+aUbxarG+BpOtbrtFiXe+BWeH+U\/rpaFZub8y6fvfAOmzX0M87so6JlwdW2q+99Tihe4Kkec3to+1Nvazwu2MNTlhpDedqMKccK8SUY23ZR7tftVih3zyzatVwibWnhr14U20Nhzcd603cHlgl1taZU7OPVb\/u\/fZ766RnCck+1t50p7zu9Sv2U+yrXAxj+o+F9ite07OPlTdBDE\/ynYthIqzUh\/Gann2svEkSA80rna81ea1ltehXSW3RvHKspbzW1vCZ3tRbw2d7k3QWtHpTy8yxOjdJ85qbOZp5tTo3lUTzmjtL7HmTZB9PzzmW1wSrXr96ZPXyTOeZVaOGX5tK71FgnZd+bXkPBAzcvMFzB7N6eN\/Uw8qdI\/B54mxWjX6lrDSnHOtVvekqrJreJKlhD97Uwyrxpquzep85tF+lcWDW0tpWVojL4j8EXqXhTXAf6cw7WjgfLayha+oDGJz6pQ==",
          "encoding":"base64",
          "height":48,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2u8JwyAQh2Fncbh2gW6QffrNybJAK0U4xD+pip7te\/DDNBwND+bDJcQYiqIoiqJm19mZR2N6r7vC6nO8c7PGOPtZw3H826\/HoGuuss7eUw37WtqzKz07WOWe3W067CtWrFixYsWK9YojN0v8ivUp0tOzg3VFsGLFuk+wYsVaT3gv6OefEDknHJnkesL\/abbm4sTqonOlaLTWvC1Wrfdw6V7+Jj3O2daUe1QfVh3W+FktfnbN9e1oXRGsWLHuk5nW1Kxbmx9Sfdqtcu5JfSdQmh3j41bvDKt0jrC2eqn\/qReUaAuV",
+         "data":"eJzt2v0JwyAQh2Fncbh2gW6QfTqFG2WBVopwiB+pip7te\/DDNBwND+aPS4gxFEVRFEXNrrMzj8b0XneF1ed452aNcfazhuP4t1+PQddcZZ29pxr2tbRnV3p2sMo9u9t02FesWLFixYoV6xVHbpb4FetTpKdnB+uKYMWKdZ9gxYq1nvBe0M8\/IXJOODLJ9YT\/02zNxYnVRedK0WiteVusWu\/h0r38TXqcs60p96g+rDqs8bNa\/Oya69vRuiJYsWLdJzOtqVm3Nj+k+rRb5dyT+k6gNDvGx63eGVbpHGFt9VL\/Uy+pcAzB",
          "encoding":"base64",
          "height":48,
          "name":"front",
@@ -45,7 +45,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1707,
                  "name":"",
@@ -57,7 +57,7 @@
                  "y":136
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1708,
                  "name":"",
@@ -69,7 +69,7 @@
                  "y":136
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1709,
                  "name":"",
@@ -81,7 +81,7 @@
                  "y":304
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1710,
                  "name":"",
@@ -93,7 +93,7 @@
                  "y":304
                 }, 
                 {
-                 "gid":8910,
+                 "gid":8925,
                  "height":24,
                  "id":1711,
                  "name":"",
@@ -105,7 +105,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":8910,
+                 "gid":8925,
                  "height":24,
                  "id":1712,
                  "name":"",
@@ -153,7 +153,7 @@
                  "y":144
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1732,
                  "name":"",
@@ -237,7 +237,7 @@
                  "y":216
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1745,
                  "name":"",
@@ -249,7 +249,7 @@
                  "y":176
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1747,
                  "name":"",
@@ -261,7 +261,7 @@
                  "y":232
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1748,
                  "name":"",
@@ -273,7 +273,7 @@
                  "y":232
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1749,
                  "name":"",
@@ -285,7 +285,7 @@
                  "y":232
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1750,
                  "name":"",
@@ -297,7 +297,7 @@
                  "y":176
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1751,
                  "name":"",
@@ -309,7 +309,7 @@
                  "y":176
                 }, 
                 {
-                 "gid":8921,
+                 "gid":8936,
                  "height":8,
                  "id":1752,
                  "name":"",
@@ -361,7 +361,7 @@
                  "y":320
                 }, 
                 {
-                 "gid":8920,
+                 "gid":8935,
                  "height":72,
                  "id":1757,
                  "name":"",
@@ -373,7 +373,7 @@
                  "y":368
                 }, 
                 {
-                 "gid":8930,
+                 "gid":8945,
                  "height":8,
                  "id":1761,
                  "name":"",
@@ -463,7 +463,7 @@
                  "visible":true,
                  "width":8,
                  "x":352,
-                 "y":352
+                 "y":344
                 }, 
                 {
                  "height":8,
@@ -482,7 +482,7 @@
                  "visible":true,
                  "width":8,
                  "x":136,
-                 "y":352
+                 "y":344
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -690,7 +690,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8883,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

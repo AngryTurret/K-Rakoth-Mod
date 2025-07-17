@@ -52,7 +52,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_radiotrophic"
+            }
           }
         ]
       },
@@ -105,7 +107,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "atprk_radiotrophicbush1" ], [0.35, "atprk_radiotrophicbush2" ], [0.35, "atprk_radiotrophicbush3" ], [0.35, "atprk_radiotrophicbush4" ], [0.35, "atprk_radiotrophicbush5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_radiotrophic"
+            }
           }
         ]
       },
@@ -121,7 +125,8 @@
           {
             "pool" : [ [1, "wildtoxictopseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,
+              "originBiome" : "surface_detached/atprk_radiotrophic"
             }
           }
         ]
@@ -147,7 +152,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_radiotrophic"
+            }
           }
         ]
       },

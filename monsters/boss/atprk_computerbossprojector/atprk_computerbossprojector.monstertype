@@ -1,0 +1,150 @@
+{
+  "type" : "atprk_computerbossprojector",
+
+  "categories" : [ "atprk_computerbossprojector" ],
+  "parts" : [ "projector", "booster", "lamp" ],
+
+  "animation" : "atprk_computerbossprojector.animation",
+
+  "dropPools" : [ ],
+
+  "damageTeamType" : "enemy",
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/atprk_computerbossprojector/atprk_computerbossprojector.lua"
+    ],
+    "initialScriptDelta" : 1,
+
+    "renderLayer" : "foregroundEntity",
+
+    "lampOffset" : [0,0.5],
+    "lampColors" : [
+      [100, 100, 0],
+      [100, 100, 0],
+      [100, 100, 0],
+      [100, 100, 0]
+    ],
+
+    "spawningOffset" : [0, 20],
+    "leadSpawningOffset" : [0, -15],
+    "spawningColor" : [150, 150, 0],
+
+    "circleDirection" : -1,
+    "tangentialVelocityApproachMultiplier" : 20,
+    "centripetalVelocityMultiplier" : 50.0,
+    "maxCentripetalVelocity" : 25,
+    "centripetalForce" : 2500,
+
+    "missileProjectileType" : "atprk_computerbossmissile",
+    "leftMissileOffset" : [-1.0, 0.0],
+    "rightMissileOffset" : [-1.0, 0.0],
+
+    "touchDamage" : {
+      "poly" : [ [1, 0.5], [1.25, 0.375], [1.25, -0.375], [1, -0.5], [-1, -0.5], [-1.25, -0.375], [-1.25, 0.375], [-1, 0.5] ],
+      "damage" : 6,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "electrichammer",
+      "knockback" : 30,
+      "statusEffects" : [ "electrified" ]
+    },
+
+    "selfDamagePoly" : [ [1, 1.3125], [1.25, 1.0625], [1.25, -1.0625], [1, -1.3125], [-1, -1.3125], [-1.25, -1.0625], [-1.25, 1.0625], [-1, 1.3125] ],
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ ],
+
+      "gravityEnabled" : false,
+      "mass" : 1.0,
+      "flySpeed" : 10,
+      "airFriction" : 0.2,
+      "airForce" : 200.0,
+      "physicsEffectCategories" : ["boss"]
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathSound" : "deathPuff",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "grit" : {
+          "baseValue" : 1.0
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 250
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "specialStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "healingStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "stunImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8]
+  }
+}

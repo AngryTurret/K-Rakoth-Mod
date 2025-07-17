@@ -47,7 +47,11 @@
       [0, [
           {
             "head" : [ { "name" : "mininghathead", "parameters" : { "colorIndex" : 7 } } ],
-            "back" : [ { "name" : "foundryforemanback", "parameters" : { "colorIndex" : 1 } } ],
+            "back" : [
+              { "name" : "foundryforemanback", "parameters" : { "colorIndex" : [1,2] } },
+              { "name" : "foundryback", "parameters" : { "colorIndex" : [1,2] } },
+              { "name" : "survivalgearback", "parameters" : { "colorIndex" : 0 } }
+            ],
             "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 11 } } ],
             "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 11 } } ]
           }

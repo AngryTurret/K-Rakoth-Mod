@@ -34,7 +34,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "atprk_krakothdebris1" ], [0.25, "atprk_krakothdebris2" ], [0.25, "atprk_krakothdebris3" ], [0.25, "atprk_krakothdebris4" ], [0.25, "atprk_krakothdebris5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_chthoniccomplex"
+            }
           }
         ]
       }
@@ -56,7 +58,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_chthoniccomplex"
+            }
           }
         ]
       },
@@ -70,7 +74,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_chthoniccomplex"
+            }
           }
         ]
       },
@@ -102,7 +108,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_chthoniccomplex"
+            }
           }
         ]
       },
@@ -116,7 +124,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk-eldritchmachinery1" ], [0.2, "atprk-eldritchmachinery2" ], [0.2, "atprk-eldritchlamppost" ], [0.2, "atprk-krakothturret" ], [0.2, "atprk-eldritchtank" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_chthoniccomplex"
+            }
           }
         ]
       }

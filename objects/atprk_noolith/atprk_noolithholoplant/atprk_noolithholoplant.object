@@ -1,0 +1,64 @@
+{
+  "objectName" : "atprk_noolithholoplant",
+  "colonyTags" : ["atprk_noolith","nature","pretty"],
+  "rarity" : "Common",
+  "description" : "A hologram of an alien plant.",
+  "shortdescription" : "Holographic Plant",
+  "race" : "noolith",
+  "category" : "decorative",
+  "price" : 85,
+
+  "lightColor" : [62, 84, 89],
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.97,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "Some sort of a plant display.",
+  "avianDescription" : "A hologram of a small plant.",
+  "floranDescription" : "Fake plant in a fake pot.",
+  "glitchDescription" : "Calm. A holographic image of a short plant.",
+  "humanDescription" : "A tiny holographic tree.",
+  "hylotlDescription" : "Chances are, this plant is long extinct.",
+  "novakidDescription" : "An unsightly glowin' tree.",
+
+  "inventoryIcon" : "atprk_noolithholoplanticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithholoplant.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_noolithholoplant.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "atprk_noolithholoplant.animation",
+  "animationParts" : {
+    "bg" : "atprk_noolithholoplant.png",
+    "fg" : "atprk_noolithholoplantlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 1] ],
+
+  "interactive" : false
+}

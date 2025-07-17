@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2GGOwiAQBWDO4uGMB9D\/JtzHY+g\/z7TbpGRZAwLD63tomWSSmmqZL9MW8OHc9TFz93l3zo2cezCi7Op6mW51jUyzuja2WV0X06uuiW1W1zOyVxkIb+tvlYHo8fRO7\/Rq4tO9vvH7CK9yPmJ5WfPvrXBe5W0xt8Q773KO4e3dL7REyns8\/J1TemvNLRG8wRiOTyQvYs8fx2XNVPjVdIqM8XHKm7uWxYv6X6c2Xr1xpryX9bN3+b5v4Sy5Ld5UWu5nn0iEMc7n7\/UsudRyLqQ3XjuXKmvw3gqJ9vaYe8cN\/fXuf6\/9yzm012pGeBX9tXgRYyqeX6sZ5V16WHo\/q72o8Wrn32\/15tZXSi9yvOnledn38vTyvOx5aHp5XsU6MudlzL+jeBnrK4sV7WWtn61WpJm5P+r1Isys\/S\/CivIy+ovy9poZzy\/SivAuPXz3fh7J2uuumX9HtKK8qfXViFarewsv07pHb6sb6VVZW8wor9paa469lnfTSNbWe\/sbrFu61R6WW10\/y66udebn5w+ZtYsG",
+         "data":"eJzt2EFugzAQBVCfpYdDHKDZV\/Imp+EYza5naiyBSpGN8fjzv0k80khEJHieBrCdh3Nfj55vn9\/OuZbzHYwou7pepltdI9Osro1tVtfF9KprYpvV9bTsVQbCW\/pbZSB63L3d272auLrXF34f4VXORywva\/6dMudV3hJzSex5wzmGt3a\/UBIx7\/3j75zSe9RcEot3MYYYnscjyYvY86\/jNmcs\/GwaZ+84H+95U9eyeFH\/6xyNrXdYZcx7mz97l+77Gc6c2+KNpeV+9pFEGNf587yeJUMtn5n0xmunUmVdvFMm0d4ac+24S3+9+99rvzmH9lrNCK+ivxYvYkzF82s1o7yhh7n3s9qLGm\/tHXbm31f1ptZXSi9yvO7ledn3cvfyvOx5qHt5XsU6MuVlzL+teBnrK4sV7WWtn61WpJm5P6r1Isys\/S\/CivIy+ovy1poZzy\/SivCGHu69n1uy1rqPzL8tWlHe2PqqRavVfYaXaUV57xfylrqRXpW1xDxtjFav2nrUvPZa3k0tWUvv7VewnulWe1hudf0su7rWntfPX3\/tjDg=",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2QEKwyAMBVDPssPtBj1B79Oj7DK9wBhUkFDbaGJ+OvMhjELRvFphbilFIintzmsGo5Yd3a+lG92jpRndm7UZ3ZelF92TtRndT3jHedG9WJvRfYQ3vOF9tvf9svOizYuBlwZttfaizBbeWrQdnPtWoFfLvB5ejvnMm69paVt7zcvR90r65XjP3mctb2vu1iXXh1SLt\/TRZ0eLO540eRzqqlXuf01tXs7YpX8vPjXDdfZ4y\/3bOs9ZWVtL78bwbspeibl3PrS31zyTVzIXcv\/2mmfySucJr1+vxjzhtfdyY+1t\/T7p2dt6HrS2hnf8++zhvIDwItb26d7ezOaVmlvPR2ir1BzesV7NSLzc\/evFOtrraV1pvHlHR9Nb+53eizVHw+ttv95F6vW8Z6\/CMUvX0os1585bXl\/9v\/YU7y9c79PXNkfT5N2aM4uzzCxOmlmcNP\/uq8Wb8wuCFJOU",
+         "data":"eJzt2eGNwyAMBWBm6XDdIBPwJ9N0lFsmC5wqFZ3PuiQGGz9z8CSrqtSCv1Kq0KS0spLSEbxmMFrZ0f16utE9eprRvXmb0X15etE9eZvR\/SxvPy+6F28zuo\/lXd7lHdu7P\/y8aPPm4OVBW729KLOH9yzWDsnrMtBrZc4fr8T8l\/f5+F2az0OSlrXMnzpI\/xLvln5MB3s\/rx5WqTuT+mJV4y3rWTwbG5uWdDxtyjjcdVal\/5zk3ndJxqb+gzxaRuqk3qfQmyu9d+Vtpd6XwPsy9mrMrfOhva3mmbyauZD7t9U8k1c7z\/LG9VrMs7zX3h34+2zlrbmeHN1bc17osb41QXiR15NW3+eRzgsIL2JtR\/e2Zjav1lx7PkJbtebl7eu1jMYr3b9RrK3eXeiNtK480by9U+u9Oi+c\/U8fxVpi4Y22X++i9Ubes1eRmLVrGcVacuelz6\/ur43ifUfqHX1tSyxN0a0lszhpZnHyzOLk+e++s0RzfgNkVpls",
          "encoding":"base64",
          "height":60,
          "name":"front",

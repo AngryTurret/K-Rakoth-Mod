@@ -1,0 +1,44 @@
+{
+	"id": "atprk_mechriftdiverunlock",
+	"prerequisites" : [ "mechupgrade2" ],
+	"title": "^orange;Thinking with Tunnels",
+	"text": "Just one more thing, friendo. I was commissioned to design a mech that can withstand... Well, let's call them ^orange;\"atypical forces\"^white; for now. The catch is that its protection mechanism requires materials that are hard to come by such as ^orange;exotic particles^white; and ^orange;elder tech^white;. If you get your hands on any, ^green;could you share them^white;?",
+	"completionText": "This is exactly what I need! As a reward, I'll let you take a good look at the ^orange;Riftdiver mech body^white; prototype. Check out the ^green;mech part crafting table^white; any time you want, it'll be right here in a minute!",
+	"moneyRange": [1200, 1200],
+	"rewards" : [],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/main.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/quests/outpost/penguinscientistportrait.png"
+				}],
+				"title": "Dr. Akaggy"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/quests/outpost/penguinscientistportrait.png"
+				}],
+				"title": "Dr. Akaggy"
+			}
+		},
+		"requireTurnIn": true,
+
+		"conditions": [{
+				"type": "gatherItem",
+				"itemName": "atprk_eldertech",
+				"count": 5,
+				"consume": true
+			},
+			{
+				"type": "gatherItem",
+				"itemName": "atprk_4dparticle",
+				"count": 15,
+				"consume": true
+			}
+		],
+		"giveBlueprints" : [ "atprk_mechbodyriftdiver" ]
+	}
+}

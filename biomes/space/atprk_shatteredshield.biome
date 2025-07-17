@@ -1,6 +1,6 @@
 {
   "name" : "atprk_shatteredshield",
-  "friendlyName" : "Shattered Orbital Shield",
+  "friendlyName" : "Shattered Shield",
 
   "mainBlock" : "atprk_energyshieldblock",
   "subBlocks" : [ "atprk_slopedkrakothscrap", "junktech" ],
@@ -8,9 +8,10 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [
-          [ 1, "atprk_krakothspacemine" ]
+          [ 1, "atprk_krakothspacemine" ],
+          [ 1, "atprk_xenoprobeasteroid" ]
         ]
       }
     ]

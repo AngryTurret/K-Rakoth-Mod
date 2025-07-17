@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt190NgzAMBGDPwnBdpPv0oYNkmS5Q9QHVRW7Iz50dlJx04gUFfwQJEFlZEXkN3hmMKHv0vJ7u6Bk9zdGzeZtZ17ttZfX0Rlu9zWzrXfJlm9neo\/XsfLZ5JKu3meGstXqYkV6ElW1meT\/zPre+MsxML2JNtBntfci3qGcQadZBzccownxMtIltthJtqjH3Wmf0jm5u8ZYk2lXiTSDryO6j95+5N\/s6yWi0V8+AiuW0qr83zv53W2t5db2sSX7fj+zm5vCwzui1zDX3pndN7+c5qqKOyES7WHuaS7TN06oT7fS07pnFqdM6a8t5I6Z2T0bau9ZcefaVa+cNzQZ0\/g==",
+         "data":"eJzt190NgzAMBGDPwnBdpPt0ib5nmS5Q9QHVRW7Iz50dlJx04gUFfwQJEFlZEXkN3hmMKHv0vJ7u6Bk9zdGzeZtZ17ttZfX0Rlu9zWzrXfJlm9neo\/XsfLZ5JKu3meGstXqYkV6ElW1meT\/zPre+MsxML2JNtBntfci3qGcQadZBzccownxMtIltthJtqjH3Wmf0jm5u8ZYk2lXiTSDryO6j95+5N\/s6yWi0V8+AiuW0qr83zv53W2t5db2sSX7fj+zm5vCwzui1zDX3pndN7+c5qqKOyES7WHuaS7TN06oT7fS07pnFqdM6a8t5I6Z2T0bau9ZcefaVa+cNOB12Dg==",
          "encoding":"base64",
          "height":39,
          "name":"front",
@@ -57,7 +57,7 @@
                  "y":192
                 }, 
                 {
-                 "gid":8886,
+                 "gid":8903,
                  "height":64,
                  "id":827,
                  "name":"",
@@ -93,7 +93,7 @@
                  "y":200
                 }, 
                 {
-                 "gid":8919,
+                 "gid":8936,
                  "height":8,
                  "id":830,
                  "name":"",
@@ -105,7 +105,7 @@
                  "y":136
                 }, 
                 {
-                 "gid":8918,
+                 "gid":8935,
                  "height":72,
                  "id":833,
                  "name":"",
@@ -114,30 +114,6 @@
                  "visible":true,
                  "width":24,
                  "x":192,
-                 "y":200
-                }, 
-                {
-                 "gid":2147492555,
-                 "height":53,
-                 "id":834,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":46,
-                 "x":288,
-                 "y":200
-                }, 
-                {
-                 "gid":2147492555,
-                 "height":53,
-                 "id":835,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":46,
-                 "x":240,
                  "y":200
                 }, 
                 {
@@ -202,7 +178,7 @@
                  "y":120
                 }, 
                 {
-                 "gid":8928,
+                 "gid":8945,
                  "height":8,
                  "id":840,
                  "name":"",
@@ -214,7 +190,7 @@
                  "y":136
                 }, 
                 {
-                 "gid":8928,
+                 "gid":8945,
                  "height":8,
                  "id":841,
                  "name":"",
@@ -224,6 +200,30 @@
                  "width":8,
                  "x":272,
                  "y":136
+                }, 
+                {
+                 "gid":2147492572,
+                 "height":48,
+                 "id":842,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":240,
+                 "y":200
+                }, 
+                {
+                 "gid":2147492572,
+                 "height":48,
+                 "id":843,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":288,
+                 "y":200
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -414,7 +414,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":842,
+ "nextobjectid":844,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -561,7 +561,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8881,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

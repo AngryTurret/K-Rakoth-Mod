@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_cryotombscanner",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 15,
+  "description" : "There appears to be a hidden motion sensor.",
+  "shortdescription" : "Hidden Scanner",
+  "race" : "generic",
+
+  "apexDescription" : "There is a hidden proximity device. I should avoid it.",
+  "avianDescription" : "My scanner detects a hidden proximity sensor.",
+  "floranDescription" : "Ssscanner in the dark tracksss my motions.",
+  "glitchDescription" : "Attentive. This appears to be a concealed motion tracking device.",
+  "humanDescription" : "Somebody hid a motion sensor right here. It's barely visible.",
+  "hylotlDescription" : "A cleverly concealed proximity scanner.",
+  "novakidDescription" : "I'm not the only one with a scanner here huh. Best not t' set it off.",
+
+  "inventoryIcon" : "atprk_cryotombscannericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_cryotombscanner.png:<frame>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/proximitysensor/proximitysensor.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/mission/atprk_cryotombscanner/atprk_cryotombscanner.animation",
+  "animationParts" : {
+    "switch" : "atprk_cryotombscanner.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [0.5, 0.5], [0.5, 0.5] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "proximitysensor"
+    ],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

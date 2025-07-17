@@ -79,7 +79,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground/atprk_humidunderground1"
+            }
           }
         ]
       },
@@ -93,7 +95,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground/atprk_humidunderground1"
+            }
           }
         ]
       },
@@ -106,7 +110,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.125, "seashell1" ], [0.125, "seashell2" ], [0.125, "seashell3" ], [0.125, "seashell4" ], [0.125, "seashell5" ], [0.125, "seashell6" ], [0.125, "seashell7" ], [0.125, "seashell8" ]]
+            "pool" : [ [0.125, "seashell1" ], [0.125, "seashell2" ], [0.125, "seashell3" ], [0.125, "seashell4" ], [0.125, "seashell5" ], [0.125, "seashell6" ], [0.125, "seashell7" ], [0.125, "seashell8" ]],
+            "parameters" : {
+              "originBiome" : "underground/atprk_humidunderground1"
+            }
           }
         ]
       },
@@ -167,7 +174,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground/atprk_humidunderground1"
+            }
           }
         ]
       },

@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_computerbossprojectorlamp",
+  "category" : "atprk_computerbossprojector",
+  "type" : "lamp",
+
+  "frames" : {
+    "lamp" : "lamp.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "projectileName" : "atprk_computerbossxwarning",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "atprk_computerbossxwarning.png",
+  "animationCycle" : 0.8,
+  "frameNumber" : 2,
+  "speed" : 25,
+  "fullbright" : true,
+  "renderLayer" : "Monster+1",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "periodicActions" : [
+    {
+      "time" : 0.045,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/boss/atprk_computerbossxwarningtrail/atprk_computerbossxwarningtrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.15,
+        "layer" : "back",
+        "position" : [0.0, 0.0]
+      }
+    }
+  ]
+}

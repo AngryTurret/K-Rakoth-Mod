@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1dkNgCAQRdGpxeKIBdiB\/fhnDbSlRk2QgMgILsn9OEHDZOC5WhGxAAAAAAAAHzM2\/6TJ2v0UWXmGQ1mNI7aGyawr1cevuZN16dXP562sY2j9vcaVqivRJ7Snu1lbOY6xtY13rM16pU9sT1+5r6ln+O37euV9zcl6RnPNSr6vpfdYu48mq\/89jBm2Wv8\/58492adm1pwcuXMamqwAAAAAAAA1TdzYVR8=",
+         "data":"eJzt1esJgCAUhuEzS8NJA7RB+zRF4FoVFZho5km7wPvjwcLD0a+rFRELAAAAAADwMWPzT5qs3U+RlWc4lNU4YmuYzLpSffyaO1mXXv183so6htbfa1ypuhJ9Qnu6m7WV4xhb23jH2qxX+sT29JX7mnqG376vV97XnKxnNNes5Ptaeo+1+2iy+t\/DmGGr9f9z7tyTfWpmzcmRO6ehyQoAAAAAAFDTBCqaY4k=",
          "encoding":"base64",
          "height":48,
          "name":"back",
@@ -45,7 +45,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1481,
                  "name":"",
@@ -57,7 +57,7 @@
                  "y":168
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8930,
                  "height":16,
                  "id":1483,
                  "name":"",
@@ -125,7 +125,7 @@
                  "y":232
                 }, 
                 {
-                 "gid":8929,
+                 "gid":8944,
                  "height":16,
                  "id":1492,
                  "name":"",
@@ -137,7 +137,7 @@
                  "y":168
                 }, 
                 {
-                 "gid":8932,
+                 "gid":8947,
                  "height":8,
                  "id":1494,
                  "name":"",
@@ -149,7 +149,7 @@
                  "y":200
                 }, 
                 {
-                 "gid":8932,
+                 "gid":8947,
                  "height":8,
                  "id":1495,
                  "name":"",
@@ -199,7 +199,7 @@
                  "visible":true,
                  "width":8,
                  "x":232,
-                 "y":216
+                 "y":200
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -407,7 +407,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8883,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

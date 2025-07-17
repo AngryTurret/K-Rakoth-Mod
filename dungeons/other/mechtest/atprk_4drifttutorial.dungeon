@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "atprk_4drifttutorial",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [
+      "atprk_4drifttutorial"
+    ],
+    "gravity" : 40,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_4drifttutorial",
+      "rules" : [],
+      "def" : [ "tmx", "atprk_4drifttutorial.json" ],
+      "chance" : 1,
+      "markDungeonId" : true
+    }
+  ]
+}

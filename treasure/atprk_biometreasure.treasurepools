@@ -147,9 +147,9 @@
         {"weight" : 0.02, "item" : "atprk_amberinsect1"},
         {"weight" : 0.02, "item" : "atprk_amberinsect2"},
         {"weight" : 0.02, "item" : "atprk_amberinsect3"},
-        {"weight" : 0.05, "item" : "bioluminhead"},
-        {"weight" : 0.05, "item" : "bioluminchest"},
-        {"weight" : 0.05, "item" : "bioluminlegs"}
+        {"weight" : 0.05, "item" : "atprk_triceratopshead"},
+        {"weight" : 0.05, "item" : "atprk_triceratopschest"},
+        {"weight" : 0.05, "item" : "atprk_triceratopslegs"}
       ]
     }]
   ],
@@ -189,9 +189,9 @@
         {"weight" : 0.05, "item" : "atprk_amberinsect2"},
         {"weight" : 0.05, "item" : "atprk_amberinsect3"},
         {"weight" : 0.001, "item" : "amberfossil"},
-        {"weight" : 0.05, "item" : "bioluminhead"},
-        {"weight" : 0.05, "item" : "bioluminchest"},
-        {"weight" : 0.05, "item" : "bioluminlegs"}
+        {"weight" : 0.05, "item" : "atprk_triceratopshead"},
+        {"weight" : 0.05, "item" : "atprk_triceratopschest"},
+        {"weight" : 0.05, "item" : "atprk_triceratopslegs"}
       ]
     }]
   ],
@@ -637,7 +637,11 @@
         {"weight" : 0.1, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.05, "item" : "atprk_krakothtextchi"},
         {"weight" : 0.1, "item" : "atprk_eldertech"},
-        {"weight" : 0.1, "item" : "atprk_aeonbattery"}
+        {"weight" : 0.1, "item" : "atprk_aeonbattery"},
+        {"weight" : 0.05, "item" : "atprk_abyssalsuithead"},
+        {"weight" : 0.05, "item" : "atprk_abyssalsuitchest"},
+        {"weight" : 0.05, "item" : "atprk_abyssalsuitpants"},
+        {"weight" : 0.05, "item" : "atprk_blobfishhead"}
       ]
     }]
   ],

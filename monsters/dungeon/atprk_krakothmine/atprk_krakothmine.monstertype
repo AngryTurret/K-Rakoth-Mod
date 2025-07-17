@@ -108,7 +108,7 @@
 
       "airFriction" : 4,
       "airForce" : 15,
-      "flySpeed" : 7,
+      "flySpeed" : 4,
 
       "physicsEffectCategories" : ["stationarymonster"]
     },

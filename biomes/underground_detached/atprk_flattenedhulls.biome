@@ -34,7 +34,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_flattenedhulls"
+            }
           }
         ]
       },
@@ -60,7 +62,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.5, "wreckwiresceiling" ], [0.4, "shipgreeble1" ], [0.4, "shipgreeble2" ], [0.4, "shipgreeble3" ], [0.4, "shipgreeble4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_flattenedhulls"
+            }
           }
         ]
       },
@@ -74,7 +78,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.08, "atprk_pollutedjunk1" ], [0.08, "atprk_pollutedjunk2" ], [0.08, "atprk_pollutedjunk3" ], [0.08, "atprk_pollutedjunk4" ], [0.08, "atprk_pollutedjunk5" ], [0.02, "atprk_krakothdebris1" ], [0.02, "atprk_krakothdebris2" ], [0.02, "atprk_krakothdebris3" ], [0.02, "atprk_krakothdebris4" ], [0.02, "atprk_krakothdebris5" ]],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_flattenedhulls"
+            }
           }
         ]
       },
@@ -97,7 +103,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "atprk_virtualconsolebroken" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_flattenedhulls"
+            }
           }
         ]
       },

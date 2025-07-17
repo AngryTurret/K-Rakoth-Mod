@@ -1,0 +1,119 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "screen" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 6,
+            "cycle" : 2.6,
+            "mode" : "loop"
+          },
+          "cryo" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "shoot" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "summon" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "missile" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "misc" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "blue" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "frame" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "image" : "<partImage>"
+        }
+      },
+      "screen" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "screen" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "cryo" : {
+              "properties" : {
+                "image" : "<partImage>:cryo.<frame>"
+              }
+            },
+            "shoot" : {
+              "properties" : {
+                "image" : "<partImage>:shoot.<frame>"
+              }
+            },
+            "summon" : {
+              "properties" : {
+                "image" : "<partImage>:summon.<frame>"
+              }
+            },
+            "missile" : {
+              "properties" : {
+                "image" : "<partImage>:missile.<frame>"
+              }
+            },
+            "misc" : {
+              "properties" : {
+                "image" : "<partImage>:misc.<frame>"
+              }
+            },
+            "blue" : {
+              "properties" : {
+                "image" : "<partImage>:blue.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "globalTagDefaults" : {
+    "directives" : ""
+  },
+
+  "lights" : {
+  },
+
+  "particleEmitters" : {
+    "fire" : {
+      "particles" : []
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ ]
+  }
+}

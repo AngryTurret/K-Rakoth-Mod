@@ -43,7 +43,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -111,7 +113,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "atprk_amberblobfloor1" ], [0.25, "atprk_amberblobfloor2" ], [0.25, "atprk_amberblobfloor3" ], [0.25, "atprk_amberblobfloor4" ], [0.25, "atprk_amberblobfloor5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -125,7 +129,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -166,7 +172,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -192,7 +200,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "atprk_amberblobfloor1" ], [0.25, "atprk_amberblobfloor2" ], [0.25, "atprk_amberblobfloor3" ], [0.25, "atprk_amberblobfloor4" ], [0.25, "atprk_amberblobfloor5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -205,7 +215,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.33, "atprk_amberblobceiling1" ], [0.33, "atprk_amberblobceiling2" ], [0.33, "atprk_amberblobceiling3" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       },
@@ -237,7 +249,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_amber"
+            }
           }
         ]
       }

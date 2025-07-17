@@ -1,0 +1,66 @@
+{
+  "objectName" : "atprk_noolithdronedisplay",
+  "colonyTags" : ["atprk_noolith","space","pretty"],
+  "rarity" : "Uncommon",
+  "description" : "A hologram of an ancient assault drone.",
+  "shortdescription" : "Holographic Drone Model",
+  "race" : "noolith",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 450,
+  "health" : 2.5,
+
+  "lightColor" : [62, 84, 89],
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.97,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "A holographic model of a combat drone.",
+  "avianDescription" : "An image of an automated construct, likely built for defense.",
+  "floranDescription" : "Prisssmatic golem or sssomething.",
+  "glitchDescription" : "Focused. I figure this shows a mechanism of sorts, but its purpose is beyond me.",
+  "humanDescription" : "I'm not entirely sure but this may be a simulated model of a combat drone.",
+  "hylotlDescription" : "This hologram shows a fully functional prototype of a battle drone.",
+  "novakidDescription" : "A light display o' some strange robot.",
+
+  "inventoryIcon" : "atprk_noolithdronedisplayicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithdronedisplay.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_noolithdronedisplay.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "atprk_noolithdronedisplay.animation",
+  "animationParts" : {
+    "bg" : "atprk_noolithdronedisplay.png",
+    "fg" : "atprk_noolithdronedisplaylit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [-2, 1] ],
+
+  "interactive" : false
+}

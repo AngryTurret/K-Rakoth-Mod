@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_noolithwalllight",
+  "colonyTags" : ["atprk_noolith","light"],
+  "rarity" : "Common",
+  "description" : "A rhombus-shaped wall light.",
+  "shortdescription" : "Durasteel Wall Light",
+  "race" : "noolith",
+  "category" : "light",
+  "price" : 45,
+
+  "lightColor" : [206, 236, 243],
+
+  "apexDescription" : "A cold wall-mounted light.",
+  "avianDescription" : "A light shaped like a refined crystal.",
+  "floranDescription" : "Cold blue light.",
+  "glitchDescription" : "Uncomfortable. This light is anything but warm.",
+  "humanDescription" : "This light sort of looks like a prism.",
+  "hylotlDescription" : "An unusually shaped wall light.",
+  "novakidDescription" : "A blue wall-mounted light.",
+
+  "inventoryIcon" : "atprk_noolithwalllighticon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithwalllight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_noolithwalllight.png",
+    "fg" : "atprk_noolithwalllightlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

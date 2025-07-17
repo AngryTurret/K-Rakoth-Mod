@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt10EKwjAQQNE5i4fzIj2TJ\/MCUmihSkQMmdTB9+Evms3kkyzSCAAAAAAAAGAe96Jq1aq1jlq1aq2j1v7W6yViiWfXtdH77pmT0bp629y\/M1q\/nTO69biPrM7eORmtv6pWrVrrqFWr1jpmtL6+U2c5u3V\/g5\/hp96RrcfO1j\/IrPWRre\/u0Fnn2TrflvgfHpjWJpE=",
+         "data":"eJzt10EKwjAQQNE5i4fzIr2aN\/ICUmihSkQMmdTB9+Evms3kkyzSCAAAAAAAAGAe96Jq1aq1jlq1aq2j1v7W6yViiWfXtdH77pmT0bp629y\/M1q\/nTO69biPrM7eORmtv6pWrVrrqFWr1jpmtL6+U2c5u3V\/g5\/hp96RrcfO1j\/IrPWRre\/u0Fnn2TrflvgfHijKJs0=",
          "encoding":"base64",
          "height":48,
          "name":"front",
@@ -117,7 +117,7 @@
                  "y":320
                 }, 
                 {
-                 "gid":8900,
+                 "gid":8915,
                  "height":64,
                  "id":1747,
                  "name":"",
@@ -129,7 +129,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":2147492548,
+                 "gid":2147492563,
                  "height":64,
                  "id":1748,
                  "name":"",
@@ -177,7 +177,7 @@
                  "y":200
                 }, 
                 {
-                 "gid":8894,
+                 "gid":8909,
                  "height":24,
                  "id":1755,
                  "name":"",
@@ -197,7 +197,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":8894,
+                 "gid":8909,
                  "height":24,
                  "id":1756,
                  "name":"",
@@ -444,7 +444,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8883,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

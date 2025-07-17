@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt3dFt1EAUhtEtA1EVTzxtGRRABVRCZ0SiBRQpKzkjk3U8c33tO+eTzgNIwYudzJ8oiLzcbj9fAACAIW4nLfu+APBe9i70ln3\/AGaSfeZHlX1fASrLPuOPKPseA1SSfaZnlH3PIUr2x9aesu8Z87yvjSz7\/sMe2R83WWXfd+Z+\/1sr+1nAmuyPi7OX\/XxmlP3Mz1z2s4HX98MvHXq76rWzn1tVAx7rVGU\/L+b1eB\/82qG3CtfOfo5nNODx6BNlP2\/PfN4qnOFXu7Y0OlshSdqbnZAk9WQ7JEl7sxs6uh8bVLv2lutG\/92liD67HX+yX7Au3X3h+8Ly911buk5bd8N2qLdZz3D7ocrZDx3RrGe4\/VD1nm2H\/VBvs57h9kPVsx+KzvfPff9cdftoO+yHRvT6ufbjvMz4vHt5\/TO8Bl97qEr2Q9Fln532Q4rp7+39htgPjS777LQfUlz2Q5G1Z2fr25tRPf685TXa\/Tjy2u1rsB+qlP1QZPbDfqhu9kORbd2Pnp+\/tLRnPyKvbT9UOfuhyLbuR8\/Pz1jasx+R17Yfqpz9UGT2w36obvZDkTk73QPVzX4oMmene6C62Q9F5ux0D1Q3+6HInJ3ugepmPxRZe3b+TrAs4\/r2Q1WzH4rs2b+\/OkL7ejLYD1XMfiiy9uz89ebe\/HqrPW+3LPpaa29nP1S1dj+kkZ1hP+6db2c\/pPXa\/8M9+\/WoVvbDfqhu9kORneH7H2dgP1SttZ9fm\/2aVCtff9gP1WzLz0D3\/XT1ZD\/sh2pmP3SWrnjGXvE1SyP633Z8tCFSVFc8i6\/4mqURPdsPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABi\/QMzVi8f",
+         "data":"eJzt3VFKI0EUhtEsQ1yVTz5lGS7AFbgSd6bgFkQwUBbRtF19c7tuzgfnYQYy3ZMw9SuRyfvh8PwOAAAAAAAAAAAATOkwYdnPGcCtyD7vs8p+3gFmkH1W773s1wdgT77OxbsBo8167ezXDSDT6Ry9HzBahWtnv46wBxv8k9SEVTjDZ7u2tHW2QpK0NjshSRrJdkiS1mY3dO2eFqh27SXXjf67SxH9dzvesm9YU3dsPDba33dtaZ6W7obt0Gi3eobbD1XOfuga3eoZbj9UvUvbYT802q2e4fZD1bMfis77594\/V93+2g77oS36+lr7dF5mfN3dXn8P9+B7D1XJfii67LPTfkgxfRx+boj90NZln532Q4rLfiiy\/uzsPXzbqtOf116j349rXru\/B\/uhStkPRWY\/7IfqZj8U2dL9GPn8pdaa\/Yi8tv1Q5eyHIlu6HyOfn9Fasx+R17Yfqpz9UGT2w36obvZDkTk7PQeqm\/1QZM5Oz4HqZj8UmbPTc6C62Q9F5uz0HKhu9kOR9Wfna4K2jOvbD1XNfiiySz9\/dQ39\/WSwH6qY\/VBk\/dn58u3Y\/XqpNY9ri77WucfZD1Wt3w9py\/awH8fBx9kP6Xz9\/+GefT+qlf2wH6qb\/VBke3j\/Yw\/sh6p17vNrs+9JtfL9h\/1QzZZ8Brr30zWS\/bAfqpn90F6a8Yyd8Z6lLfptO\/7aECmqGc\/iGe9Z2qJL+wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQKxPlSCsPA==",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -1099,6 +1099,10 @@
         {
          "firstgid":8801,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
+        }, 
+        {
+         "firstgid":8845,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glitchdevoutset1.json"
         }],
  "tilewidth":8,
  "type":"map",

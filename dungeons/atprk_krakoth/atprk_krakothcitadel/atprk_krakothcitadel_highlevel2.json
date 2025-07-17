@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2EEKwjAQQNE5i4fzIp7Jk3kBKbQQiy6SScTB9+EvGkoyv7smAgAAAAAAAPgej6Jq1aq1jlrntF4vEbd4dVsbnTW73+rWzfvu8Zxpzey3srWdL9s5Y7\/Vrb+kVq1a66hVq9Y6atWqtY5ax1vP\/9Kr5+85b2brcU\/QurK397wRzt+yvQ9556f3s\/aeh\/\/hCUn6Rrk=",
+         "data":"eJzt2EEKwjAQQNE5i4fzIl7NG3kBKbQQiy6SScTB9+EvGkoyv7smAgAAAAAAAPgej6Jq1aq1jlrntF4vEbd4dVsbnTW73+rWzfvu8Zxpzey3srWdL9s5Y7\/Vrb+kVq1a66hVq9Y6atWqtY5ax1vP\/9Kr5+85b2brcU\/QurK397wRzt+yvQ9556f3s\/aeh\/\/hCbcuRvU=",
          "encoding":"base64",
          "height":48,
          "name":"front",
@@ -81,7 +81,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":8900,
+                 "gid":8915,
                  "height":64,
                  "id":1747,
                  "name":"",
@@ -93,7 +93,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":2147492548,
+                 "gid":2147492563,
                  "height":64,
                  "id":1748,
                  "name":"",
@@ -141,7 +141,7 @@
                  "y":200
                 }, 
                 {
-                 "gid":8894,
+                 "gid":8909,
                  "height":24,
                  "id":1756,
                  "name":"",
@@ -161,7 +161,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":8894,
+                 "gid":8909,
                  "height":24,
                  "id":1757,
                  "name":"",
@@ -444,7 +444,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8883,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

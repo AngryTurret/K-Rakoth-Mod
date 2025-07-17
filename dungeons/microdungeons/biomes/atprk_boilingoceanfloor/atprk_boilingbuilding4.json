@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2cFtwzAMBVCP0s7S0bpPR\/EyPfRaBGhQQqEoUqJEmf4fIHJwLEovTgwrx4EgiHe+gyp7olzv9FlEu2W0j\/bI7v3zJle0TxbvR++WdUbvlea059Pz83gtePeH60ety2PZvWel1k+y3sG71Xv0uGda\/VvWnPcqc829xFqzvC1rkKwjvGc41+Y9Gs06ynvhx\/t\/abxXWXP3bWvNura162hdyztZj4w1y9qyDusavkitsKb9RsbSznsn6+wF6329Yb3OG9awvlLBGtYZC9bXsj7\/qvbsy51Dj9NnAu4Z+PFsP\/Jajin108yXG+dkytO6HLu290T3Q57F7TlZ9tC0Zd0\/6p0vZ12691jXxuu9rqV1eHx3JdeR65rOu2V9Gqw1Y3ntPdH5e1hL37mRcbNYS797FmPpNw7WuvuMxlaaI6x1fTh\/y3mwtlv3FqxzW1sC632te\/8jXW3t9d9ulPVIrbT2LFhf07rHW1qb9P4I79ZnoT3Xy\/pYaJGlPBK9ht1rRaLXmNlWk2iHq\/t5JNryDsYIgiAIgiAIcrf8AudLZWs=",
+         "data":"eJzt2cFtwzAMBVCP0u7UjbpPR\/EyPfRaBGhQQqEoUqJEmf4fIHJwLEovTgwrx4EgiHe+gyp7olzv9FlEu2W0j\/bI7v3zJle0TxbvR++WdUbvlea059Pz83gtePeH60ety2PZvWel1k+y3sG71Xv0uGda\/VvWnPcqc829xFqzvC1rkKwjvGc41+Y9Gs06ynvhx\/t\/abxXWXP3bWvNura162hdyztZj4w1y9qyDusavkitsKb9RsbSznsn6+wF6329Yb3OG9awvlLBGtYZC9bXsj7\/qvbsy51Dj9NnAu4Z+PFsP\/Jajin108yXG+dkytO6HLu290T3Q57F7TlZ9tC0Zd0\/6p0vZ12691jXxuu9rqV1eHx3JdeR65rOu2V9Gqw1Y3ntPdH5e1hL37mRcbNYS797FmPpNw7WuvuMxlaaI6x1fTh\/y3mwtlv3FqxzW1sC632te\/8jXW3t9d9ulPVIrbT2LFhf07rHW1qb9P4I79ZnoT3Xy\/pYaJGlPBK9ht1rRaLXmNlWk2iHq\/t5JNryDsYIgiAIgiAIcrf8AsSEZtA=",
          "encoding":"base64",
          "height":51,
          "name":"front",
@@ -34,7 +34,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8519,
+                 "gid":8536,
                  "height":64,
                  "id":776,
                  "name":"",
@@ -46,7 +46,7 @@
                  "y":192
                 }, 
                 {
-                 "gid":8519,
+                 "gid":8536,
                  "height":64,
                  "id":777,
                  "name":"",
@@ -58,7 +58,7 @@
                  "y":192
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":778,
                  "name":"",
@@ -70,7 +70,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":779,
                  "name":"",
@@ -82,7 +82,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":780,
                  "name":"",
@@ -94,31 +94,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":8550,
-                 "height":56,
-                 "id":781,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":464,
-                 "y":272
-                }, 
-                {
-                 "gid":2147492198,
-                 "height":56,
-                 "id":782,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":544,
-                 "y":272
-                }, 
-                {
-                 "gid":2147492199,
+                 "gid":2147492216,
                  "height":72,
                  "id":784,
                  "name":"",
@@ -170,7 +146,7 @@
                  "y":272
                 }, 
                 {
-                 "gid":8519,
+                 "gid":8536,
                  "height":64,
                  "id":788,
                  "name":"",
@@ -182,7 +158,7 @@
                  "y":192
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":790,
                  "name":"",
@@ -194,7 +170,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":791,
                  "name":"",
@@ -206,7 +182,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":8552,
+                 "gid":8569,
                  "height":8,
                  "id":792,
                  "name":"",
@@ -238,7 +214,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":8551,
+                 "gid":8568,
                  "height":72,
                  "id":795,
                  "name":"",
@@ -439,7 +415,7 @@
                  "y":96
                 }, 
                 {
-                 "gid":8561,
+                 "gid":8578,
                  "height":8,
                  "id":811,
                  "name":"",
@@ -451,7 +427,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":8561,
+                 "gid":8578,
                  "height":8,
                  "id":812,
                  "name":"",
@@ -461,6 +437,30 @@
                  "width":8,
                  "x":184,
                  "y":128
+                }, 
+                {
+                 "gid":8567,
+                 "height":48,
+                 "id":814,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":464,
+                 "y":272
+                }, 
+                {
+                 "gid":2147492215,
+                 "height":48,
+                 "id":815,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":544,
+                 "y":272
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -614,7 +614,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":814,
+ "nextobjectid":816,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -753,7 +753,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8514,
+         "firstgid":8531,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

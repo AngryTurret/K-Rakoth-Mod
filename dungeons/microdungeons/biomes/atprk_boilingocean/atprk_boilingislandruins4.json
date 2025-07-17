@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2d0NwjAMBGDPwnDMgQTzdAz6xkz0JSKK+mMnqc8lZ+leUBruayVa0VnkMTMMwzAMwzAM0zVvEYmcEYy97Oi+nm50R08zupu3Gd3L04vu5G1G96H3PC+6i7cZ3YNeeqN5UUMvvfTSS++Y3ohDL730tnmnJfebLta1rd40yWs5R0feSX7JO0\/FGsva3l6L+cibTzKUn1nXHk2t13JsOVG9+Yzs1Zq3JqI3n7X\/oI+O\/1fv3j5bE8UrorOuma92P1obzTtC6565F\/G8sTWWd8CfZb01zxNS0yPFy6u9dnvp4bWYa709rLnZw1u7d+l9VeSq3hpraaaX3hYnvfRqvejfZ4QXff\/18EZ6vvLyXu35ueU7ImU0r9aM7shrfL73X9xWb2SzpmuNN6Jd27HVG8Hcw9DLjOjCMClfH2cdNA==",
+         "data":"eJzt2d0NwjAMBGDPwnDMgcQ+nQLRN2aiLxFR1B87SX0uOUv3gtJwXyvRis4ij5lhGIZhGIZhmK55i0jkjGDsZUf39XSjO3qa0d28zehenl50J28zug+953nRXbzN6B700hvNixp66aWXXnrH9EYceumlt807LbnfdLGubfWmSV7LOTryTvJL3nkq1ljW9vZazEfefJKh\/My69mhqvZZjy4nqzWdkr9a8NRG9+az9B310\/L969\/bZmiheEZ11zXy1+9HaaN4RWvfMvYjnja2xvAP+LOuteZ6Qmh4pXl7ttdtLD6\/FXOvtYc3NHt7avUvvqyJX9dZYSzO99LY46aVX60X\/PiO86PuvhzfS85WX92rPzy3fESmjebVmdEde4\/O9\/+K2eiObNV1rvBHt2o6t3gjmHoZeZkQXhkn5At6pNnQ=",
          "encoding":"base64",
          "height":70,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2e0NgjAQgGFmcTgdhP0cwzmIURIg\/bi73pUG3ie58MfUvggJ6jQBAAAAAAAAAAAAALD3fPxmtLUirPtbZ57sc1xrNMf9RcxIWj9PyecNAACA8b0To3nue\/2fdT2PmvdP7X8dSet3pM\/zs99p30l9X8pNqXfbXHvdsSt3jOzNHaWtmt5tc+n9PwEj6dW0Sntr13Z0r\/Ua1ty7mvaevdq9evSm7usevZZ9prQ29+i17jHnbr2WZnrppfcavZG\/P7f05pot63j9f+DxfaBHb6\/mltbSNd2yZm2Pkg7vztr969UsOSfWNbx7vdpHGa2z9yvp8GodsVuzTy9nXENXdafWaAs\/5WFA",
+         "data":"eJzt2eHNgkAMgGFmcThdwA3YzzGYwxAlAXLHtb32uMD7JA1\/vmBfhQT9hgEAAAAAAAAAAAAAgK3n4ze9nSvCst8y42Cf\/bl6s98vYnpS+3lKPm8AAAD075OYt3Dm577X\/1nX8zgqdkjtv4ykdR7p8\/zo97ZvpL4v5eaod91c+rt9V+4Y2Zs7Sls1vevmo9efAkbSq2mV9pau7ehe6zWsuXc17S17tbt69Kbu6xa9lj1Taptb9Fp3zLlbr6WZXnrpvUZv5O\/PNb25Zst5vP5\/4PF9oEVvq+aa1qNruuacpR0lHd6dpfvXq1nynljP4d3r1d7LaJ29r6TDq7XHbs2eXs64hq7qTq3RvmhPYBQ=",
          "encoding":"base64",
          "height":70,
          "name":"front",
@@ -45,7 +45,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147492499,
+                 "gid":2147492563,
                  "height":64,
                  "id":786,
                  "name":"",
@@ -54,18 +54,6 @@
                  "visible":true,
                  "width":16,
                  "x":352,
-                 "y":368
-                }, 
-                {
-                 "gid":8851,
-                 "height":64,
-                 "id":787,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":104,
                  "y":368
                 }, 
                 {
@@ -90,7 +78,7 @@
                  "y":288
                 }, 
                 {
-                 "gid":2147492491,
+                 "gid":2147492555,
                  "height":28,
                  "id":793,
                  "name":"",
@@ -156,6 +144,18 @@
                  "width":24,
                  "x":224,
                  "y":472
+                }, 
+                {
+                 "gid":8951,
+                 "height":56,
+                 "id":803,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":104,
+                 "y":368
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -458,7 +458,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":803,
+ "nextobjectid":804,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -605,7 +605,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8834,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

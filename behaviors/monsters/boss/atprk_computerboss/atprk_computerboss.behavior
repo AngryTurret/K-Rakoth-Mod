@@ -1,0 +1,1030 @@
+{
+  "name": "atprk_computerboss",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/entity.lua",
+    "/scripts/actions/boss/atprk_computerboss.lua",
+    "/scripts/actions/world.lua",
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/math.lua",
+    "/scripts/behavior/bdata.lua",
+    "/scripts/actions/movement.lua",
+    "/scripts/actions/status.lua",
+    "/scripts/actions/monster.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/behavior.lua"
+  ],
+  "parameters": {
+    "projectorCount": 4,
+    "projectorDistance": 10,
+    "spawnTime": 3
+  },
+  "root": {
+    "title": "Reset",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "setDying",
+        "type": "action",
+        "name": "setDying",
+        "parameters": {
+          "shouldDie": {"value": false}
+        }
+      },
+      {
+        "title": "spawnProjectors",
+        "type": "action",
+        "name": "spawnProjectors",
+        "parameters": {
+          "count": {"key": "<projectorCount>"},
+          "distance": {"key": "<projectorDistance>"},
+          "monsterType": {"value": "atprk_computerbossprojector"}
+        },
+        "output": {
+          "projectors": "projectors"
+        }
+      },
+      {
+        "title": "each",
+        "type": "decorator",
+        "name": "each",
+        "parameters": {
+          "list": {"key": "projectors"},
+          "type": {"value": "entity"}
+        },
+        "child": {
+          "title": "succeeder",
+          "type": "decorator",
+          "name": "succeeder",
+          "parameters": {},
+          "child": {
+            "title": "sendEntityMessage",
+            "type": "action",
+            "name": "sendEntityMessage",
+            "parameters": {
+              "entity": {"key": "eachItem"},
+              "message": {"value": "startSpawnSequence"}
+            }
+          }
+        }
+      },
+      {
+        "title": "setAnimationState",
+        "type": "action",
+        "name": "setAnimationState",
+        "parameters": {
+          "state": {"value": "spawnidle"},
+          "type": {"value": "body"}
+        }
+      },
+      {
+        "title": "parallel",
+        "type": "composite",
+        "name": "parallel",
+        "parameters": {
+          "fail": {"value": -1},
+          "success": {"value": -1}
+        },
+        "children": [
+          {
+            "title": "monster-targeting",
+            "type": "module",
+            "name": "monster-targeting",
+            "parameters": {
+              "targetQueryRange": {"value": 80},
+              "keepTargetInRange": {"value": 100},
+              "targetEntityTypes": {"value": ["player"]},
+              "keepTargetInSight": {"value": true},
+              "queryTargets": {"value": true},
+              "targetOnDamage": {"value": true},
+              "targetOutOfSightTime": {"value": 1}
+            }
+          },
+          {
+            "title": "each",
+            "type": "decorator",
+            "name": "each",
+            "parameters": {
+              "list": {"key": "projectors"},
+              "type": {"value": "entity"}
+            },
+            "child": {
+              "title": "succeeder",
+              "type": "decorator",
+              "name": "succeeder",
+              "parameters": {},
+              "child": {
+                "title": "keepEntityLoaded",
+                "type": "action",
+                "name": "keepEntityLoaded",
+                "parameters": {
+                  "entity": {"key": "eachItem"},
+                  "region": {"value": [-16, -16, 16, 16]}
+                }
+              }
+            }
+          },
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "filter",
+                "type": "decorator",
+                "name": "filter",
+                "parameters": {
+                  "list": {"key": "projectors"},
+                  "type": {"value": "entity"}
+                },
+                "child": {
+                  "title": "sequence",
+                  "type": "composite",
+                  "name": "sequence",
+                  "parameters": {},
+                  "children": [
+                    {
+                      "title": "entityExists",
+                      "type": "action",
+                      "name": "entityExists",
+                      "parameters": {
+                        "entity": {"key": "filterItem"}
+                      }
+                    },
+                    {
+                      "title": "entityHealth",
+                      "type": "action",
+                      "name": "entityHealth",
+                      "parameters": {
+                        "entity": {"key": "filterItem"}
+                      },
+                      "output": {
+                        "number": "projectorHealth"
+                      }
+                    },
+                    {
+                      "title": "greaterThan",
+                      "type": "action",
+                      "name": "greaterThan",
+                      "parameters": {
+                        "first": {"key": "projectorHealth"},
+                        "second": {"value": 0}
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "title": "listSize",
+                "type": "action",
+                "name": "listSize",
+                "parameters": {
+                  "list": {"key": "projectors"}
+                },
+                "output": {
+                  "number": "projectorCount"
+                }
+              }
+            ]
+          },
+          {
+            "title": "faceDirection",
+            "type": "action",
+            "name": "faceDirection",
+            "parameters": {
+              "direction": {"value": 1}
+            }
+          },
+          {
+            "title": "dynamic",
+            "type": "composite",
+            "name": "dynamic",
+            "parameters": {},
+            "children": [
+              {
+                "title": "parallel",
+                "type": "composite",
+                "name": "parallel",
+                "parameters": {
+                  "fail": {"value": 1},
+                  "success": {"value": -1}
+                },
+                "children": [
+                  {
+                    "title": "entityExists",
+                    "type": "action",
+                    "name": "entityExists",
+                    "parameters": {
+                      "entity": {"key": "target"}
+                    }
+                  },
+                  {
+                    "title": "Reset",
+                    "type": "composite",
+                    "name": "sequence",
+                    "parameters": {},
+                    "children": [
+                      {
+                        "title": "projectorHealthPercentage",
+                        "type": "action",
+                        "name": "projectorHealthPercentage",
+                        "parameters": {
+                          "count": {"value": 4},
+                          "projectorList": {"key": "projectors"}
+                        },
+                        "output": {
+                          "healthPercentage": "projectorHealth"
+                        }
+                      },
+                      {
+                        "title": "setResourcePercentage",
+                        "type": "action",
+                        "name": "setResourcePercentage",
+                        "parameters": {
+                          "percentage": {"key": "projectorHealth"},
+                          "resource": {"value": "health"}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "title": "sequence",
+                    "type": "composite",
+                    "name": "sequence",
+                    "parameters": {},
+                    "children": [
+                      {
+                        "title": "setDamageBar",
+                        "type": "action",
+                        "name": "setDamageBar",
+                        "parameters": {
+                          "type": {"value": "Special"}
+                        }
+                      },
+                      {
+                        "title": "battleMusic",
+                        "type": "action",
+                        "name": "battleMusic",
+                        "parameters": {
+                          "enable": {"value": true}
+                        }
+                      },
+                      {
+                        "title": "Spiderboss",
+                        "type": "composite",
+                        "name": "dynamic",
+                        "parameters": {},
+                        "children": [
+                          {
+                            "title": "failer",
+                            "type": "decorator",
+                            "name": "failer",
+                            "parameters": {},
+                            "child": {
+                              "title": "limiter",
+                              "type": "decorator",
+                              "name": "limiter",
+                              "parameters": {
+                                "limit": {"value": 1}
+                              },
+                              "child": {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "setProjectorSpeeds",
+                                    "type": "action",
+                                    "name": "setProjectorSpeeds",
+                                    "parameters": {
+                                      "projectorList": {"key": "projectors"},
+                                      "speed": {"value": 10}
+                                    }
+                                  },
+                                  {
+                                    "title": "each",
+                                    "type": "decorator",
+                                    "name": "each",
+                                    "parameters": {
+                                      "list": {"key": "projectors"},
+                                      "type": {"value": "entity"}
+                                    },
+                                    "child": {
+                                      "title": "succeeder",
+                                      "type": "decorator",
+                                      "name": "succeeder",
+                                      "parameters": {},
+                                      "child": {
+                                        "title": "sendEntityMessage",
+                                        "type": "action",
+                                        "name": "sendEntityMessage",
+                                        "parameters": {
+                                          "entity": {"key": "eachItem"},
+                                          "message": {"value": "stopSpawnSequence"}
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "timer",
+                                    "type": "action",
+                                    "name": "timer",
+                                    "parameters": {
+                                      "time": {"value": "<spawnTime>"}
+                                    },
+                                    "output": {
+                                      "ratio": "1.0"
+                                    }
+                                  },
+                                  {
+                                    "title": "setAnimationState",
+                                    "type": "action",
+                                    "name": "setAnimationState",
+                                    "parameters": {
+                                      "state": {"value": "spawn"},
+                                      "type": {"value": "body"}
+                                    }
+                                  },
+                                  {
+                                    "title": "timer",
+                                    "type": "action",
+                                    "name": "timer",
+                                    "parameters": {
+                                      "time": {"value": "<spawnTime>"}
+                                    }
+                                  },
+                                  {
+                                    "title": "setFlag",
+                                    "type": "action",
+                                    "name": "setFlag",
+                                    "parameters": {
+                                      "name": {"value": "hasSpawned"}
+                                    }
+                                  },
+                                  {
+                                    "title": "each",
+                                    "type": "decorator",
+                                    "name": "each",
+                                    "parameters": {
+                                      "list": {"key": "projectors"},
+                                      "type": {"value": "entity"}
+                                    },
+                                    "child": {
+                                      "title": "succeeder",
+                                      "type": "decorator",
+                                      "name": "succeeder",
+                                      "parameters": {},
+                                      "child": {
+                                        "title": "sendEntityMessage",
+                                        "type": "action",
+                                        "name": "sendEntityMessage",
+                                        "parameters": {
+                                          "entity": {"key": "eachItem"},
+                                          "message": {"value": "heal"}
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "title": "parallel",
+                            "type": "composite",
+                            "name": "parallel",
+                            "parameters": {
+                              "fail": {"value": 1},
+                              "success": {"value": -1}
+                            },
+                            "children": [
+                              {
+                                "title": "greaterThan",
+                                "type": "action",
+                                "name": "greaterThan",
+                                "parameters": {
+                                  "first": {"key": "projectorCount"},
+                                  "second": {"value": 3}
+                                }
+                              },
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "atprk_computerboss_transition",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_transition",
+                                    "parameters": {
+                                      "projectorList": {"key": "projectors"},
+                                      "stage": {"value": "stage1"},
+                                      "projectorSpeed": {"value": 10}
+                                    }
+                                  },
+                                  {
+                                    "title": "repeater",
+                                    "type": "decorator",
+                                    "name": "repeater",
+                                    "parameters": {
+                                      "maxLoops": {"value": -1},
+                                      "untilSuccess": {"value": false}
+                                    },
+                                    "child": {
+                                      "title": "sequence",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "atprk_computerboss_cryoblasters",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_cryoblasters",
+                                          "parameters": {
+                                            "fistLaunchTime": {"value": 1.5},
+                                            "fistCount": {"value": 3}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st1a",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st1a",
+                                          "parameters": {}
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_cryoblasters",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_cryoblasters",
+                                          "parameters": {
+                                            "fistLaunchTime": {"value": 1.5},
+                                            "fistCount": {"value": 2}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st1b",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st1b",
+                                          "parameters": {}
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "parallel",
+                            "type": "composite",
+                            "name": "parallel",
+                            "parameters": {
+                              "fail": {"value": 1},
+                              "success": {"value": -1}
+                            },
+                            "children": [
+                              {
+                                "title": "greaterThan",
+                                "type": "action",
+                                "name": "greaterThan",
+                                "parameters": {
+                                  "first": {"key": "projectorCount"},
+                                  "second": {"value": 2}
+                                }
+                              },
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "atprk_computerboss_transition",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_transition",
+                                    "parameters": {
+                                      "projectorList": {"key": "projectors"},
+                                      "stage": {"value": "stage2"},
+                                      "projectorSpeed": {"value": 20}
+                                    }
+                                  },
+                                  {
+                                    "title": "atprk_computerboss_dronesummon",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_dronesummon",
+                                    "parameters": {}
+                                  },
+                                  {
+                                    "title": "repeater",
+                                    "type": "decorator",
+                                    "name": "repeater",
+                                    "parameters": {
+                                      "maxLoops": {"value": -1},
+                                      "untilSuccess": {"value": false}
+                                    },
+                                    "child": {
+                                      "title": "sequence",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "atprk_computerboss_cryoblasters",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_cryoblasters",
+                                          "parameters": {
+                                            "fistLaunchTime": {"value": 1.5},
+                                            "fistCount": {"value": 3}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st2a",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st2a",
+                                          "parameters": {}
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_missileattack",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_missileattack",
+                                          "parameters": {
+                                            "missileAttackTime": {"value": 5},
+                                            "missileAttackWindup": {"value": 0.3},
+                                            "projectorList": {"key": "projectors"},
+                                            "target": {"key": "target"}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st2b",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st2b",
+                                          "parameters": {}
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "parallel",
+                            "type": "composite",
+                            "name": "parallel",
+                            "parameters": {
+                              "fail": {"value": 1},
+                              "success": {"value": -1}
+                            },
+                            "children": [
+                              {
+                                "title": "greaterThan",
+                                "type": "action",
+                                "name": "greaterThan",
+                                "parameters": {
+                                  "first": {"key": "projectorCount"},
+                                  "second": {"value": 1}
+                                }
+                              },
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "atprk_computerboss_transition",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_transition",
+                                    "parameters": {
+                                      "projectorList": {"key": "projectors"},
+                                      "stage": {"value": "stage3"},
+                                      "projectorSpeed": {"value": 25}
+                                    }
+                                  },
+                                  {
+                                    "title": "atprk_computerboss_dronesummon",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_dronesummon",
+                                    "parameters": {}
+                                  },
+                                  {
+                                    "title": "repeater",
+                                    "type": "decorator",
+                                    "name": "repeater",
+                                    "parameters": {
+                                      "maxLoops": {"value": -1},
+                                      "untilSuccess": {"value": false}
+                                    },
+                                    "child": {
+                                      "title": "sequence",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "atprk_computerboss_missileattack",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_missileattack",
+                                          "parameters": {
+                                            "missileAttackTime": {"value": 3.14},
+                                            "missileAttackWindup": {"value": 0.3},
+                                            "projectorList": {"key": "projectors"},
+                                            "target": {"key": "target"},
+                                            "waves": {"value": 2}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st3a",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st3a",
+                                          "parameters": {}
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_cryoblasters",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_cryoblasters",
+                                          "parameters": {
+                                            "fistLaunchTime": {"value": 1.5},
+                                            "fistCount": {"value": 3}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st3b",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st3b",
+                                          "parameters": {}
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "parallel",
+                            "type": "composite",
+                            "name": "parallel",
+                            "parameters": {
+                              "fail": {"value": 1},
+                              "success": {"value": -1}
+                            },
+                            "children": [
+                              {
+                                "title": "greaterThan",
+                                "type": "action",
+                                "name": "greaterThan",
+                                "parameters": {
+                                  "first": {"key": "projectorCount"},
+                                  "second": {"value": 0}
+                                }
+                              },
+                              {
+                                "title": "sequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "atprk_computerboss_transition",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_transition",
+                                    "parameters": {
+                                      "projectorList": {"key": "projectors"},
+                                      "stage": {"value": "stage4"},
+                                      "projectorSpeed": {"value": 30}
+                                    }
+                                  },
+                                  {
+                                    "title": "atprk_computerboss_dronesummon",
+                                    "type": "module",
+                                    "name": "atprk_computerboss_dronesummon",
+                                    "parameters": {}
+                                  },
+                                  {
+                                    "title": "repeater",
+                                    "type": "decorator",
+                                    "name": "repeater",
+                                    "parameters": {
+                                      "maxLoops": {"value": -1},
+                                      "untilSuccess": {"value": false}
+                                    },
+                                    "child": {
+                                      "title": "sequence",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "atprk_computerboss_missileattack",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_missileattack",
+                                          "parameters": {
+                                            "missileAttackTime": {"value": 2.1},
+                                            "missileAttackWindup": {"value": 0.3},
+                                            "projectorList": {"key": "projectors"},
+                                            "target": {"key": "target"},
+                                            "waves": {"value": 4}
+                                          }
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_laserx_st1a",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_laserx_st1a",
+                                          "parameters": {}
+                                        },
+                                        {
+                                          "title": "atprk_computerboss_dronesummon",
+                                          "type": "module",
+                                          "name": "atprk_computerboss_dronesummon",
+                                          "parameters": {}
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "Reset",
+                            "type": "composite",
+                            "name": "sequence",
+                            "parameters": {},
+                            "children": [
+                              {
+                                "title": "setScreenStates",
+                                "type": "action",
+                                "name": "setScreenStates",
+                                "parameters": {
+                                  "state": {"value": "blue"}
+                                }
+                              },
+                              {
+                                "title": "setVelocity",
+                                "type": "action",
+                                "name": "setVelocity",
+                                "parameters": {
+                                  "velocity": {"value": [0, 0]}
+                                }
+                              },
+                              {
+                                "title": "setAnimationState",
+                                "type": "action",
+                                "name": "setAnimationState",
+                                "parameters": {
+                                  "state": {"value": "death"},
+                                  "type": {"value": "body"}
+                                }
+                              },
+                              {
+                                "title": "playSound",
+                                "type": "action",
+                                "name": "playSound",
+                                "parameters": {
+                                  "sound": {"value": "death"}
+                                }
+                              },
+                              {
+                                "title": "timer",
+                                "type": "action",
+                                "name": "timer",
+                                "parameters": {
+                                  "time": {"value": 1.5}
+                                }
+                              },
+                              {
+                                "title": "setResourcePercentage",
+                                "type": "action",
+                                "name": "setResourcePercentage",
+                                "parameters": {
+                                  "percentage": {"value": 0},
+                                  "resource": {"value": "health"}
+                                }
+                              },
+                              {
+                                "title": "battleMusic",
+                                "type": "action",
+                                "name": "battleMusic",
+                                "parameters": {
+                                  "enable": {"value": false}
+                                }
+                              },
+                              {
+                                "title": "setDying",
+                                "type": "action",
+                                "name": "setDying",
+                                "parameters": {
+                                  "shouldDie": {"value": true}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Reset",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "succeeder",
+                    "type": "decorator",
+                    "name": "succeeder",
+                    "parameters": {},
+                    "child": {
+                      "title": "Reset",
+                      "type": "composite",
+                      "name": "sequence",
+                      "parameters": {},
+                      "children": [
+                        {
+                          "title": "hasFlag",
+                          "type": "action",
+                          "name": "hasFlag",
+                          "parameters": {
+                            "name": {"key": "hasSpawned"}
+                          }
+                        },
+                        {
+                          "title": "setAnimationState",
+                          "type": "action",
+                          "name": "setAnimationState",
+                          "parameters": {
+                            "state": {"value": "idle"},
+                            "type": {"value": "body"}
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "setGlobalTag",
+                    "type": "action",
+                    "name": "setGlobalTag",
+                    "parameters": {
+                      "tag": {"value": "stage1"},
+                      "type": {"value": "stage"}
+                    }
+                  },
+                  {
+                    "title": "battleMusic",
+                    "type": "action",
+                    "name": "battleMusic",
+                    "parameters": {
+                      "enable": {"value": false}
+                    }
+                  },
+                  {
+                    "title": "setProjectorSpeeds",
+                    "type": "action",
+                    "name": "setProjectorSpeeds",
+                    "parameters": {
+                      "projectorList": {"key": "projectors"},
+                      "speed": {"value": 10}
+                    }
+                  },
+                  {
+                    "title": "succeeder",
+                    "type": "decorator",
+                    "name": "succeeder",
+                    "parameters": {},
+                    "child": {
+                      "title": "selector",
+                      "type": "composite",
+                      "name": "selector",
+                      "parameters": {},
+                      "children": [
+                        {
+                          "title": "Reset",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "greaterThan",
+                              "type": "action",
+                              "name": "greaterThan",
+                              "parameters": {
+                                "first": {"key": "projectorCount"},
+                                "second": {"value": 3}
+                              }
+                            },
+                            {
+                              "title": "each",
+                              "type": "decorator",
+                              "name": "each",
+                              "parameters": {
+                                "list": {"key": "projectors"},
+                                "type": {"value": "entity"}
+                              },
+                              "child": {
+                                "title": "succeeder",
+                                "type": "decorator",
+                                "name": "succeeder",
+                                "parameters": {},
+                                "child": {
+                                  "title": "sendEntityMessage",
+                                  "type": "action",
+                                  "name": "sendEntityMessage",
+                                  "parameters": {
+                                    "entity": {"key": "eachItem"},
+                                    "message": {"value": "heal"}
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Reset",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "each",
+                              "type": "decorator",
+                              "name": "each",
+                              "parameters": {
+                                "list": {"key": "projectors"},
+                                "type": {"value": "entity"}
+                              },
+                              "child": {
+                                "title": "sendEntityMessage",
+                                "type": "action",
+                                "name": "sendEntityMessage",
+                                "parameters": {
+                                  "entity": {"key": "eachItem"},
+                                  "message": {"value": "destroy"}
+                                }
+                              }
+                            },
+                            {
+                              "title": "spawnProjectors",
+                              "type": "action",
+                              "name": "spawnProjectors",
+                              "parameters": {
+                                "count": {"key": "<projectorCount>"},
+                                "distance": {"key": "<projectorDistance>"},
+                                "monsterType": {"value": "atprk_computerbossprojector"}
+                              },
+                              "output": {
+                                "projectors": "projectors"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "flyToPosition",
+                    "type": "action",
+                    "name": "flyToPosition",
+                    "parameters": {
+                      "position": {"key": "spawn"},
+                      "tolerance": {"value": 1}
+                    }
+                  },
+                  {
+                    "title": "setVelocity",
+                    "type": "action",
+                    "name": "setVelocity",
+                    "parameters": {
+                      "velocity": {"value": [0, 0]}
+                    }
+                  },
+                  {
+                    "title": "setResourcePercentage",
+                    "type": "action",
+                    "name": "setResourcePercentage",
+                    "parameters": {
+                      "percentage": {"value": 1},
+                      "resource": {"value": "health"}
+                    }
+                  },
+                  {
+                    "title": "runner",
+                    "type": "action",
+                    "name": "runner",
+                    "parameters": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

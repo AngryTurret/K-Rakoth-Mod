@@ -1,0 +1,28 @@
+{
+  "projectileName" : "atprk_cryotombturretshot",
+  "image" : "atprk_cryotombturretshot.png",
+  "animationCycle" : 0.3,
+  "animationLoops" : true,
+  "lightColor" : [115, 211, 255],
+  "frameNumber" : 4,
+  "flippable" : false,
+  "fullbright" : true,
+  "renderLayer" : "Monster+1",
+  "physics" : "laser",
+  "emitters" : [ "iceplasmarocket" ],
+  "damageKind" : "slash",
+  "statusEffects" : [
+    {"effect": "frostsnare", "duration" : 3}
+  ],
+
+  "actionOnReap" : [
+    {
+      "action" : "spark"
+    }
+  ],
+
+  "speed" : 35,
+  "timeToLive" : 3.5,
+
+  "damageRepeatTimeout" : 0.5
+}

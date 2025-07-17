@@ -1,0 +1,61 @@
+{
+  "objectName" : "atprk_cryotombalarmv",
+  "colonyTags" : ["atprk_krakoth","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 85,
+  "description" : "A long flashing light. This is not a good sign if it's active.",
+  "shortdescription" : "Elder Alarm Light",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [58, 217, 111],
+  "flickerPeriod" : 1,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "A large alarm tied to nearby traps.",
+  "avianDescription" : "If this alarm lights up, I ought to expect trouble.",
+  "floranDescription" : "Thisss light may give away Floran'ss position.",
+  "glitchDescription" : "Cautious. I don't want to know what happens if something sets off this alarm.",
+  "humanDescription" : "I should avoid any traps, or else this alarm will be set off.",
+  "hylotlDescription" : "This sickly green flashing light is sure to draw unwanted attention.",
+  "novakidDescription" : "I don't wanna trigger this alarm for certain.",
+
+  "inventoryIcon" : "atprk_cryotombalarmvicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_cryotombalarmv.png:<color>.<frame>",
+      "imagePosition" : [0, -16],
+      "direction" : "left",
+
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_cryotombalarmv.png:<color>.<frame>",
+      "imagePosition" : [0, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/mission/atprk_cryotombalarmv/atprk_cryotombalarmv.animation",
+  "animationParts" : {
+    "bg" : "atprk_cryotombalarmv.png",
+    "fg" : "atprk_cryotombalarmvlit.png"
+  },
+  "animationPosition" : [0, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "interactive" : false
+
+}

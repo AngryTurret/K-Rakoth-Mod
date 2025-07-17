@@ -38,7 +38,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "icesphere1" ], [0.25, "icesphere2" ], [0.25, "icesphere3" ], [0.25, "icesphere4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       }
@@ -60,7 +62,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       },
@@ -74,7 +78,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       },
@@ -106,7 +112,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "icesphere1" ], [0.25, "icesphere2" ], [0.25, "icesphere3" ], [0.25, "icesphere4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       },
@@ -120,7 +128,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       },
@@ -134,7 +144,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "atprk_frozenchucklefish" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       },
@@ -148,7 +160,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "iceshard1" ], [0.2, "iceshard2" ], [0.2, "iceshard3" ], [0.2, "iceshard4" ], [0.2, "iceshard5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_cryonicvents"
+            }
           }
         ]
       }

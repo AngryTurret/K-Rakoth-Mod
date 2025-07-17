@@ -1,0 +1,21 @@
+{
+  "projectileName" : "atprk_computerbossdronespawn",
+  "image" : "atprk_computerbossdronespawn.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 0,
+  "timeToLive" : 0.01,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "atprk_krakothsmalldrone_minion",
+      "level" : 6,
+      "offset" : [0, 0],
+      "arguments" : {
+        "aggressive" : true
+      }
+    }
+  ]
+}

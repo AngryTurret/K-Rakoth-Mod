@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt11EKgzAQBNCcxcN5A\/8LOVLvUP96phbaxZCqTdxZk5gZmI+Chn3EBp2du80sy7Isy7Isy0LrKk8Pxq304ozTk1XSk1VCr976MCoqSK\/VvMi1LLzIoPe5hf+t1TMNXLLq0HvtIL0TYpGdoM9o7TyTW8zW9iNBv2+EXu+OmaeoyFi8S8qcuV657z4stfaizP7bcfh0K+Eehk7pv\/tzYvm9kOpdM8bWEbTPlt+EsTc2j0NetV7rb37vfs3huZ1jlXUsrVq332h47q793qu1U2PfmzvVd8SMMEqf7\/VaaU9Wrbn03PTaWVsyy5zIM6tmO9pZs9nSWpv7LGtp89lOjTn1vrXrSjpz\/anXl55fYy49B9tfX9zHRm4=",
+         "data":"eJzt10EKgzAUBNCcxcN5A\/eFbDxYqbueqYX2Y0hVopkxsZmBWRQ0\/Eds0Mm526SqqqqqqqqqKrSu8rRgXEsrzjgtWS0tWS3y5lsfpKKC9LLmRa7F8CKD3ucr\/G9ZzzRwyaoj738H6R0Qi2wEfUbnzjO42cy2Hwn6fSP0enfMPERFhvEuaXPu9dp9924u24sy+2\/77tO1hHsYOq3jt4gwvxdSvUtGax94EfvM\/CaMvbHZHH1CEV72N793v+bw3B67dLOtw7Tmuv1Kw3N36fdW2c4c+9bcqb4jZoTR+nyvd5W2ZM01l55bXp71SmabE3lm1WxHO2s2M621uc+yljaf7cwxp963dF1J515\/6vWl588xl55Dba8v2i9IwQ==",
          "encoding":"base64",
          "height":49,
          "name":"back",
@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt0sENwjAMQNHMwnBs0Aly6WQcOxOHEmGhFLAbnAT\/J1mVoqrNb5oSAAAAAAAAAACI4vaYUSy9N+BsSbGar5d9oii9ufdGnJTeKP901PP9595NTK23rMv7Wr7Xy1aZ0pXT87qK1mycb97t0fdp1pd++Q9opvbt3k2P1nywbu3VjmerZrRtR99xll7Z3Op5Z3k0t2hs0TpL+y\/1bvNslXp3erYWUTol614t941IeyYjnZ3VzHvH3O6+kFpS",
+         "data":"eJzt0kEOgyAQQFHO0sN5A0\/AhpN16Zm6qKQTA7ZO6QCd\/5KJiTHCF0MAAAAAAAAAAABe3PcZxdp7A8bW4Ks53Z7jRe6NvTdiZNl7vfzTi8PzXf68dxNT6s335XMt17WyFSZ3xfC6JtEalfPJ2hZ97yYd+uU\/UJpUmdK3O5serbFy\/6y31q1Z37L1yhxbtd9xll7Z3Op937JobtHYonWW9l\/q3WbZKvXutGzNvHRK2r1qnhvR1TMZ6ey0Zt475vYAgPlccg==",
          "encoding":"base64",
          "height":49,
          "name":"front",
@@ -466,7 +466,7 @@
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8881,
+         "firstgid":8898,
          "source":"..\/..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

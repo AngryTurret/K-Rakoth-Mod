@@ -6,6 +6,7 @@
   "shortdescription" : "Ouroboros Beam Drill",
   "race" : "annelisk",
   "category" : "decorative",
+  "printable" : false,
   "price" : 450,
   "health" : 2.5,
 

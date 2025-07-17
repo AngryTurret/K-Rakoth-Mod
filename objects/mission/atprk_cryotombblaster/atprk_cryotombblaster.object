@@ -1,0 +1,109 @@
+{
+  "objectName" : "atprk_cryotombblaster",
+  "colonyTags" : ["atprk_krakoth","evil","misc"],
+  "printable" : false,
+  "price" : 3000,
+  "rarity" : "Legendary",
+  "description" : "Originally designed to cool down the ancient machinery, it was retrofitted to be used as a weapon.",
+  "shortdescription" : "Retractable Cryogenic Blaster",
+  "race" : "generic",
+
+  "apexDescription" : "A deadly ice barrier generator.",
+  "avianDescription" : "This machine creates an icy pillar.",
+  "floranDescription" : "Not sssolid but very cold wall.",
+  "glitchDescription" : "Cautious. A freezing barrier.",
+  "humanDescription" : "An icy barrier generator.",
+  "hylotlDescription" : "A timed cryogenic barrier generator.",
+  "novakidDescription" : "A huge gizmo makin' walls o' pure frost.",
+
+  "inventoryIcon" : "atprk_cryotombblastericon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_cryotombblaster.png:idle.1",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ 
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0] 
+      ],
+      "anchors" : [ "bottom" ],
+      "fistVector" : [0, 1],
+
+      "renderLayer" : "Monster+2",
+      "animationPosition" : [0, 8],
+      "animationParts" : {
+        "launcher" : "atprk_cryotombblaster.png",
+        "launcherlit" : "atprk_cryotombblasterlit.png"
+      },
+      "directives" : ""
+    },
+    {
+      "image" : "atprk_cryotombblaster.png:idle.1?flipy",
+      "imagePosition" : [-16, -8],
+
+      "spaces" : [ 
+        [-2, -1], [-1, -1], [0, -1], [1, -1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0] 
+      ],
+      "anchors" : [ "top" ],
+      "fistVector" : [0, -1],
+
+      "renderLayer" : "Monster+2",
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "launcher" : "atprk_cryotombblaster.png",
+        "launcherlit" : "atprk_cryotombblasterlit.png"
+      },
+      "directives" : "?flipy"
+    },
+    {
+      "image" : "atprk_cryotombblasterv.png:idle.1",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ 
+        [0, 1], [1, 1],
+        [0, 0], [1, 0],
+        [0, -1], [1, -1],
+        [0, -2], [1, -2]
+      ],
+      "anchors" : [ "left" ],
+      "fistVector" : [1, 0],
+
+      "renderLayer" : "Monster+2",
+      "animationPosition" : [8, 0],
+      "animationParts" : {
+        "launcher" : "atprk_cryotombblasterv.png",
+        "launcherlit" : "atprk_cryotombblastervlit.png"
+      },
+      "directives" : ""
+    },
+    {
+      "image" : "atprk_cryotombblasterv.png:idle.1?flipx",
+      "imagePosition" : [-8, -16],
+
+      "spaces" : [ 
+        [-1, 1], [0, 1],
+        [-1, 0], [0, 0],
+        [-1, -1], [0, -1],
+        [-1, -2], [0, -2]
+      ],
+      "anchors" : [ "right" ],
+      "fistVector" : [-1, 0],
+
+      "renderLayer" : "Monster+2",
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "launcher" : "atprk_cryotombblasterv.png",
+        "launcherlit" : "atprk_cryotombblastervlit.png"
+      },
+      "directives" : "?flipx"
+    }
+  ],
+
+  "animation" : "atprk_cryotombblaster.animation",
+
+  "scripts" : [ "atprk_cryotombblaster.lua" ],
+  "launcherGroups" : [ 1 ],
+  "fistOffset" : [0, 0],
+  "fistTimeToLive" : 4.0
+}

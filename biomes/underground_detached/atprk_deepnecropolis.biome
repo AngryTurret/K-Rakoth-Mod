@@ -62,7 +62,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_deepnecropolis"
+            }
           }
         ]
       }
@@ -84,7 +86,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_deepnecropolis"
+            }
           }
         ]
       },
@@ -98,7 +102,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_deepnecropolis"
+            }
           }
         ]
       },
@@ -121,7 +127,9 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_deepnecropolis"
+            }
           }
         ]
       },
@@ -144,7 +152,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.05, "atprk_ancientdebris1" ], [0.05, "atprk_ancientdebris2" ], [0.05, "atprk_ancientdebris3" ], [0.05, "atprk_ancientdebris4" ], [0.05, "atprk_ancientdebris5" ], [0.05, "atprk_ancientdebris6" ], [0.05, "atprk_ancientdebris7" ], [0.05, "atprk_ancientdebris8" ], [0.05, "atprk_ancientdebris9" ], [0.05, "atprk_ancientdebris10" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "underground_detached/atprk_deepnecropolis"
+            }
           }
         ]
       }
@@ -152,12 +162,5 @@
   },
 
 
-  "hueShiftOptions" : [0],
-
-  "sky" : {
-    "topColor" : [182, 204, 255],
-    "bottomColor" : [224, 239, 255],
-    "nightTopColor" : [0, 0, 30],
-    "nightBottomColor" : [0, 0, 0]
-  }
+  "hueShiftOptions" : [0]
 }

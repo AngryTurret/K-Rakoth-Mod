@@ -49,7 +49,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.25, "smashbones1" ], [0.25, "smashbones2" ], [0.25, "smashbones3" ], [0.25, "smashbones4" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_navalminefield"
+            }
           }
         ]
       },
@@ -63,7 +65,9 @@
         "objectSets" : [
           {
             "pool" : [ [0.2, "atprk_krakothdebris1" ], [0.2, "atprk_krakothdebris2" ], [0.2, "atprk_krakothdebris3" ], [0.2, "atprk_krakothdebris4" ], [0.2, "atprk_krakothdebris5" ] ],
-            "parameters" : { }
+            "parameters" : {
+              "originBiome" : "surface_detached/atprk_navalminefield"
+            }
           }
         ]
       },
