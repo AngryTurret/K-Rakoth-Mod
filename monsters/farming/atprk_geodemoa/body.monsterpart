@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_geodemoa",
+  "category" : "atprk_geodemoa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

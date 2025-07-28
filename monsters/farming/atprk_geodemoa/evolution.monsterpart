@@ -1,0 +1,9 @@
+{
+  "name" : "evolution",
+  "category" : "atprk_geodemoa",
+  "type" : "spawn",
+
+  "frames" : {
+    "spawn" : "evolution.png"
+  }
+}
