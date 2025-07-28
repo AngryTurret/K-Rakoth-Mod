@@ -1,0 +1,14 @@
+[
+	{
+        "op": "add",
+        "path": "/atprk_geodemoaHarvest",
+        "value": [
+            [0, {
+                "pool": [
+                        { "weight": 1.0, "item": "geode"}
+                    ]
+                }
+            ]
+        ]
+    }
+]
