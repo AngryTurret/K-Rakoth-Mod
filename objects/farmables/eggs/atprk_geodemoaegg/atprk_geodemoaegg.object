@@ -1,0 +1,48 @@
+{
+  "objectName" : "atprk_geodemoaegg",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "farmBeastEgg",
+  "price" : 2000,
+
+  "description" : "Hatches into a geomoa chick, which grows into an adult geomoa. Geomoa produce geodes.",
+  "shortdescription" : "Geomoa Egg",
+  "race" : "generic",
+
+  "apexDescription" : "Geomoa are well known for their bad temper. Hopefully a chick will be easier to tame.",
+  "avianDescription" : "A geode-laying bird! This will sure come in handy once it matures.",
+  "floranDescription" : "Ssstealing geomoa eggs from their parentsss takes sssome effort. These birdsss are tough.",
+  "glitchDescription" : "Anticipating. This precious egg has a geomoa chick inside.",
+  "humanDescription" : "Soon a little geomoa should hatch from this egg.",
+  "hylotlDescription" : "A sparkling egg of a majestic geode-covered creature. Soon it will hatch.",
+  "novakidDescription" : "If you see an unattended geomoa egg, grab it and run. It'll bring fortune!",
+
+  "inventoryIcon" : "atprk_geodemoaegg.png:idle.1",
+  "orientations" : [
+    {
+      "image" : "atprk_geodemoaegg.png:idle.1",
+      "imagePosition" : [-7, -3],
+
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/farmables/eggs/farmableegg.animation",
+  "animationPosition" : [-7, -3],
+  "animationParts" : {
+    "egg" : "atprk_geodemoaegg.png"
+  },
+
+  "scripts" : ["/objects/farmables/eggs/farmableegg.lua"],
+  "scriptDelta" : 60,
+
+  "hatchTime" : 40,
+  "forceHatchTime" : 80,
+
+  "spawnMonster" : "atprk_geodemoababy",
+  "spawnOffset" : [0.5, 0.5]
+}
