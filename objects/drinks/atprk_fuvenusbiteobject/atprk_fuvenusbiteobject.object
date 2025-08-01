@@ -1,0 +1,25 @@
+{
+  "objectName" : "atprk_fuvenusbiteobject",
+  "printable" : false,
+  "colonyTags" : ["cooking"],
+  "rarity" : "Uncommon",
+  "description" : "A blend of predatory plant and cactus juices.",
+  "shortdescription" : "Bite of Venus",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 220,
+
+  "floranDescription" : "Cacti and Traproots tassste good together.",
+  "glitchDescription" : "Pleased. No spikes, no teeth, just as I like it.",
+  "novakidDescription" : "I wouldn't give this to underage Novakids if you know what I mean.",
+
+  "inventoryIcon" : "atprk_fuvenusbiteobjecticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fuvenusbiteobject.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

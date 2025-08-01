@@ -1,0 +1,25 @@
+{
+  "objectName" : "atprk_fudeepseasteakobject",
+  "printable" : false,
+  "colonyTags" : ["cooking"],
+  "rarity" : "Rare",
+  "description" : "A deep-fried steak of deep sea meat. Also spicy.",
+  "shortdescription" : "Deep Sea Steak",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 420,
+
+  "floranDescription" : "Meaty ssstarfish. Floran likesss its smell.",
+  "glitchDescription" : "Doubtful. As tempting as it looks, it's too exotic for my taste.",
+  "novakidDescription" : "What kind o' meat's that supposed t' be?",
+
+  "inventoryIcon" : "atprk_fudeepseasteakobjecticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fudeepseasteakobject.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

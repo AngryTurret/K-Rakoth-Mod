@@ -1,0 +1,29 @@
+{
+  "objectName" : "atprk_fustuffedflytrapobject",
+  "printable" : false,
+  "colonyTags" : ["cooking"],
+  "rarity" : "Uncommon",
+  "description" : "Don't worry, it doesn't have any flies as the name may suggest.",
+  "shortdescription" : "Stuffed Flytrap",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 290,
+
+  "apexDescription" : "Gross. Some Apex nobles would take a bite though.",
+  "avianDescription" : "Did this Traproot consume its prey before it was cooked?",
+  "floranDescription" : "Weak plant getss eaten by ssstronger plant. That's how nature worksss!",
+  "glitchDescription" : "Relieved. No flies detected indeed.",
+  "humanDescription" : "So it's like stuffed cabbage except it's also predatory, right?",
+  "hylotlDescription" : "What an exotic way to serve meat... I cannot wait to try it out!",
+  "novakidDescription" : "Nah, you may keep that meat, you lil' snappy plant.",
+
+  "inventoryIcon" : "atprk_fustuffedflytrapobjecticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fustuffedflytrapobject.png:<color>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
