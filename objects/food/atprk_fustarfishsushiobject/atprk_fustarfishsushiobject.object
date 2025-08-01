@@ -1,0 +1,25 @@
+{
+  "objectName" : "atprk_fustarfishsushiobject",
+  "printable" : false,
+  "colonyTags" : ["sushibar","cooking"],
+  "rarity" : "Rare",
+  "description" : "Exotic starfish rolls to spice your dinner up.",
+  "shortdescription" : "Starfish Sushi",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 280,
+
+  "floranDescription" : "Extra ssspicy ssushi!",
+  "glitchDescription" : "Uncertain. I could give it a try but I would rather not.",
+  "novakidDescription" : "Wasn't a good ol' fish enough?",
+
+  "inventoryIcon" : "atprk_fustarfishsushiobjecticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fustarfishsushiobject.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

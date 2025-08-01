@@ -1,0 +1,25 @@
+{
+  "objectName" : "atprk_fusanguinesaladobject",
+  "printable" : false,
+  "colonyTags" : ["cooking"],
+  "rarity" : "Common",
+  "description" : "Healthy and nutritious, albeit slightly bitter.",
+  "shortdescription" : "Sanguine Salad",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+
+  "floranDescription" : "Red sssalad looks like it hasss ssome meat.",
+  "glitchDescription" : "Bored. A bitter salad. At least its ingredients are somewhat notable.",
+  "novakidDescription" : "Ain't bad but more vegetables wouldn't hurt it.",
+
+  "inventoryIcon" : "atprk_fusanguinesaladobjecticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_fusanguinesaladobject.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
