@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "atprk_starfishsushi",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "atprk_fustarfishsushiobject",
+        "count": 1
+    },
+    "groups": [
+        "platingtable",
+        "plating",
+        "excludeFromQuests"
+    ]
+}
