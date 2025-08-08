@@ -1,7 +1,7 @@
 {
   "type" : "atprk_geodemoa",
   "shortdescription" : "Geomoa",
-  "description" : "A domesticated geomoa is a gentle creature unlike its wild brethren.",
+  "description" : "A domesticated geomoa is a gentle creature, unlike its wild brethren.",
 
   "categories" : [ "atprk_geodemoa" ],
   "parts" : [ "body", "spawn" ],
