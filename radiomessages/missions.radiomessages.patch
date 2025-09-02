@@ -173,7 +173,7 @@
       "path": "/atprk_cryotombmessage04a",
       "value": {
         "type" : "mission",
-        "text" : "The ambient temperature is decreasing. Soon it will be low enough to reach the freezing point of water. Please consider changing into thermal underwear."
+        "text" : "The ambient temperature is decreasing down to 280 Kelvin. Soon it will be low enough to reach the freezing point of water. Please consider changing into thermal underwear."
       }
   },
   {
@@ -249,7 +249,7 @@
       "path": "/atprk_cryotombmessage08a",
       "value": {
         "type" : "mission",
-        "text" : "Location analysis complete. The estimated number of preserved individuals is enough to populate a town."
+        "text" : "Location analysis complete. The estimated number of preserved individuals is enough to populate a medium-sized settlement."
       }
   },
   {
@@ -430,4 +430,5 @@
     "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
       }
   }
+
 ]
