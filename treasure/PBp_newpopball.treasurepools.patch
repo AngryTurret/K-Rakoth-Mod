@@ -1,0 +1,130 @@
+[
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_algeistaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_ambryoaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_androneaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_clamiaaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_crawleechaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_duodungaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_hungertrictusaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_krakothmantisdroneaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_krakothpatroldroneaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_krakothsmalldroneaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_lunarcrustoiseaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_oculopteraf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_roxmolaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_sapphaseaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_shruberserkaf"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/PBp_actionfigurePopball/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_xenoprobeaf"
+    }
+  }
+]
