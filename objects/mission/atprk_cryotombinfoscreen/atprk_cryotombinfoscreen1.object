@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_cryotombinfoscreen1",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Legendary",
+  "description" : "A display of a cryogenically frozen K'Rakoth. Not much else can be made out.",
+  "shortdescription" : "Large Elder Monitor",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 350,
+  "lightColor" : [57, 3, 47],
+
+  "apexDescription" : "Most likely a medical scan of a preserved specimen.",
+  "avianDescription" : "This must be something related to a frozen K'Rakoth.",
+  "floranDescription" : "Big ssscreen showss big ssleeping sssquids. Floran can't read the resst.",
+  "glitchDescription" : "Perplexed. Wait, which one of them is shown here?",
+  "humanDescription" : "A simplified picture of an adult K'Rakoth.",
+  "hylotlDescription" : "Well, I suppose this program keeps track of a person's health but I need more details.",
+  "novakidDescription" : "Somethin' to keep in mind if I come here again.",
+
+  "inventoryIcon" : "atprk_cryotombinfoscreenicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_cryotombinfoscreen1.png:<color>.on",
+      "imagePosition" : [-16, -16],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_cryotombinfoscreen1.png:<color>.on",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "atprk_cryotombinfoscreen.animation",
+  "animationParts" : {
+    "bg" : "atprk_cryotombinfoscreen1.png",
+    "fg" : "atprk_cryotombinfoscreen1lit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

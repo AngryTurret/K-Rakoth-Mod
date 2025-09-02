@@ -1,0 +1,56 @@
+{
+  "objectName" : "atprk_cryotombinfoscreen2",
+  "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
+  "rarity" : "Legendary",
+  "description" : "Some graphs, diagrams and long lines of text fill the screen.",
+  "shortdescription" : "Large Elder Monitor",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 350,
+  "lightColor" : [57, 3, 47],
+
+  "apexDescription" : "I don't have any idea what this diagram is supposed to track.",
+  "avianDescription" : "The more I try to focus on these pop-up windows, the less I understand.",
+  "floranDescription" : "Flashing ssscreen hurtsss Floran's eyesss.",
+  "glitchDescription" : "Dizzy. I can't keep track of this program, everything shifts too fast.",
+  "humanDescription" : "Neat, more ancient records. Too bad I cannot read any of them yet.",
+  "hylotlDescription" : "A lot of this data needs translation but I don't even know where to start.",
+  "novakidDescription" : "Surely this ain't a meaningless wall o' text but I've no idea what any of it says.",
+
+  "inventoryIcon" : "atprk_cryotombinfoscreenicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_cryotombinfoscreen2.png:<color>.on",
+      "imagePosition" : [-16, -16],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk_cryotombinfoscreen2.png:<color>.on",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "atprk_cryotombinfoscreen.animation",
+  "animationParts" : {
+    "bg" : "atprk_cryotombinfoscreen2.png",
+    "fg" : "atprk_cryotombinfoscreen2lit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}
