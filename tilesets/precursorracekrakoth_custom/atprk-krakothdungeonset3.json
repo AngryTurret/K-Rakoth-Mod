@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":61,
+ "tilecount":63,
  "tileheight":112,
  "tileproperties":
     {
@@ -568,6 +568,26 @@
          "imagePositionX":"-16",
          "imagePositionY":"-8",
          "object":"atprk-krakothmonitorbroken",
+         "tilesetDirection":"right"
+        },
+     "61":
+        {
+         "\/\/description":"A display of a cryogenically frozen K'Rakoth. Not much else can be made out.",
+         "\/\/name":"atprk_cryotombinfoscreen1",
+         "\/\/shortdescription":"Large Elder Monitor",
+         "imagePositionX":"-16",
+         "imagePositionY":"-16",
+         "object":"atprk_cryotombinfoscreen1",
+         "tilesetDirection":"right"
+        },
+     "62":
+        {
+         "\/\/description":"Some graphs, diagrams and long lines of text fill the screen.",
+         "\/\/name":"atprk_cryotombinfoscreen2",
+         "\/\/shortdescription":"Large Elder Monitor",
+         "imagePositionX":"-16",
+         "imagePositionY":"-16",
+         "object":"atprk_cryotombinfoscreen2",
          "tilesetDirection":"right"
         },
      "7":
@@ -1161,6 +1181,26 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "61":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "62":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "7":
         {
          "\/\/description":"string",
@@ -1540,6 +1580,18 @@
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmonitorbroken.png",
          "imageheight":24,
+         "imagewidth":32
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen1.png",
+         "imageheight":40,
+         "imagewidth":32
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen2.png",
+         "imageheight":40,
          "imagewidth":32
         },
      "7":

@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothoceanruins",
  "spacing":0,
- "tilecount":97,
+ "tilecount":98,
  "tileheight":96,
  "tileproperties":
     {
@@ -952,6 +952,16 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_cryotombscanner",
+         "tilesetDirection":"right"
+        },
+     "97":
+        {
+         "\/\/description":"A large ancient console. What happens if I interact with it?",
+         "\/\/name":"atprk_krakothmissionconsole",
+         "\/\/shortdescription":"Large Elder Console",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_krakothmissionconsole",
          "tilesetDirection":"right"
         }
     },
@@ -1898,6 +1908,16 @@
          "imagePositionY":"string",
          "object":"string",
          "tilesetDirection":"string"
+        },
+     "97":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
@@ -1947,7 +1967,7 @@
      "15":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
-         "imageheight":88,
+         "imageheight":80,
          "imagewidth":48
         },
      "16":
@@ -2235,8 +2255,8 @@
      "59":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchcaptainchairlarge.png",
-         "imageheight":28,
-         "imagewidth":34
+         "imageheight":24,
+         "imagewidth":32
         },
      "6":
         {
@@ -2483,6 +2503,12 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombscanner.png",
          "imageheight":8,
          "imagewidth":8
+        },
+     "97":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmissionconsole.png",
+         "imageheight":32,
+         "imagewidth":40
         }
     },
  "tilewidth":128,
