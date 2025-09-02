@@ -159,6 +159,14 @@
         "text" : "You have found an obsolete starmap upgrade. It is not compatible with modern navigation systems, so you will have to find another way to access its contents."
       }
   },
+  {
+    "op": "add",
+      "path": "/atprk_4dstabilizermessage",
+      "value": {
+        "type" : "tutorial",
+        "text" : "Looks like this alien device grants protection from spatial distortion. Keep in mind that it will likely work for a limited time only."
+      }
+  },
 
   // ------- Miscellaneous -------
   {
@@ -213,6 +221,15 @@
         "text": "Now, now, no need for senseless vandalism! If you really need to obtain something you can't normally get, why don't you just use, ahem, commands?",
     "senderName" : "Colt",
     "portraitImage" : "/interface/chatbubbles/atprk_coltchat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_dontbreakthisthing7",
+      "value": {
+        "text": "Ow, that hurt!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
       }
   }
 ]

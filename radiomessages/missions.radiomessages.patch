@@ -15,7 +15,7 @@
       "path": "/atprk_devoutattackmessage02a",
       "value": {
         "type" : "mission",
-        "text" : "Stressful. We're under attack! The Glitch Devouts have hacked our systems and boarded the train!",
+        "text" : "Stressful. We're under attack! The Devouts have hacked our systems and boarded the train!",
     "senderName" : "Starklance",
     "portraitImage" : "/interface/chatbubbles/atprk_starcartographerchat.png:<frame>"
       }
@@ -27,7 +27,7 @@
         "type" : "mission",
         "text" : "'ight, don't panic! We must deal with these intruders! Open the hatch 'n take 'em down!",
     "senderName" : "Libra Eclipse",
-    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+    "portraitImage" : "/interface/chatbubbles/atprk_libraworried.png:<frame>"
       }
   },
   {
@@ -106,6 +106,328 @@
         "text" : "Thank goodness, you made it through! Now that you've dealt with the Devouts, you need t' find a way to bring our relics back.",
     "senderName" : "Libra Eclipse",
     "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+
+  // ------- Cryogenic Tomb -------
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage01a",
+      "value": {
+        "type" : "mission",
+        "text" : "I detect an active K'Rakothan facility below this island. Numerous encrypted signals suggest the presense of advanced machinery."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage01b",
+      "value": {
+        "type" : "mission",
+        "text" : "This is it. Now all you have t' do is dive down to the bottom of the sea, look for a way in 'n see if the place is traversable.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage01c",
+      "value": {
+        "type" : "mission",
+        "text" : "I won't lie, that's easier said than done on your own but we can't risk the Devouts followin' us in. We'll monitor your actions from above.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage02a",
+      "value": {
+        "type" : "mission",
+        "text" : "Phew, I was worried for a moment! So many mines everywhere... Nevermind, you did well.\n \nOh wait, before you go any deeper!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_libraworried.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage02b",
+      "value": {
+        "type" : "mission",
+        "text" : "I know you're a capable fighter but try not t' charge at every drone you see. If anythin' bad happens to you, I don't think we'll be able to come t' rescue in time. Please take care.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage03",
+      "value": {
+        "type" : "mission",
+        "text" : "So far, so good, keep goin'. Just pay attention to your surroundings, we don't know what else you may encounter.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage04a",
+      "value": {
+        "type" : "mission",
+        "text" : "The ambient temperature is decreasing. Soon it will be low enough to reach the freezing point of water. Please consider changing into thermal underwear."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage04b",
+      "value": {
+        "type" : "mission",
+        "text" : "Well, if I had t' guess, whatever kept this tomb cool is now out of order. This might become a problem.",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage05a",
+      "value": {
+        "type" : "mission",
+        "text" : "Are you alright? Sigh... That was so close! The security down there is a lot more flexible than we expected!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_libraworried.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage05b",
+      "value": {
+        "type" : "mission",
+        "text" : "Let's hope that the actual inhabitants aren't too far from your position - if there are any left...",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_libraworried.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage06a",
+      "value": {
+        "type" : "mission",
+        "text" : "I have concluded that a considerable amount of water was drained to the lower floors to prevent the entire facility from freezing over."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage06b",
+      "value": {
+        "type" : "mission",
+        "text" : "This must be a sign - you're approachin' the important part of this tomb! The K'Rakoths could be right around the corner!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage06c",
+      "value": {
+        "type" : "mission",
+        "text" : "Keep it up! I'm sure we're close to a breakthrough!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage07",
+      "value": {
+        "type" : "mission",
+        "text" : "I can't believe this. After a while... ^#71f2f6;We found them.^white;",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage08a",
+      "value": {
+        "type" : "mission",
+        "text" : "Location analysis complete. The estimated number of preserved individuals is enough to populate a town."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage08b",
+      "value": {
+        "type" : "mission",
+        "text" : "Incredible... You know what this means? We must be the first in the galaxy to see the livin' members of an elder race! This is a historical event in the makin'!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage08c",
+      "value": {
+        "type" : "mission",
+        "text" : "Once we learn how to wake 'em up safely, we'll finally peek beyond the veil of mystery! The entire scientific community will be in awe!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_cryotombmessage08d",
+      "value": {
+        "type" : "mission",
+        "text" : "You've done enough here. See you outside!",
+    "senderName" : "Libra Eclipse",
+    "portraitImage" : "/interface/chatbubbles/atprk_librachat.png:<frame>"
+      }
+  },
+
+  // ------- Dimensional Tunnel Tutorial -------
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage01",
+      "value": {
+        "type" : "mission",
+        "text" : "You are now inside an isolated portion of the dimensional tunnel. Please do not exit your vehicle until you navigate to safety."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage02",
+      "value": {
+        "type" : "mission",
+        "text" : "The luminous barriers around you are largely impervious to damage. According to my calculations, they are merely parts of a larger structure on a different spatial plane."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage03",
+      "value": {
+        "type" : "mission",
+        "text" : "Despite this, some segments of the barriers appear to be more malleable than the rest. A decent mining tool should be enough to break through them."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage04",
+      "value": {
+        "type" : "mission",
+        "text" : "The rotating object ahead emits faint signals. Try to reach it somehow, it might unlock a new passage."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage05",
+      "value": {
+        "type" : "mission",
+        "text" : "Disregard the previous instructions. You have to exit your mech to proceed. If this is of any help, I am detecting something in the nearby container that ^green;negates the side effects^white; of extradimensional travel."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_4drifttutorialmessage06",
+      "value": {
+        "type" : "mission",
+        "text" : "I recommend to gather any items you may find useful and ^green;beam out via the closest teleporter^white; before your protection wears off."
+      }
+  },
+
+  // ------- Randy's Challenges -------
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge1message01",
+      "value": {
+        "type" : "mission",
+        "text" : "This mech is equipped with high-quality excavation tools. Use them efficiently, and you'll get through this area without much trouble."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge1message02",
+      "value": {
+        "type" : "mission",
+        "text" : "Pretty dark down here huh? I'm sure I've seen a flickering light in the distance, so at least you can follow it if you're lost!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge1message03",
+      "value": {
+        "type" : "mission",
+        "text" : "Alright, this looks like a dead end to me. But our scanners keep picking up signals from below... You see anything suspicious?",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge1message04",
+      "value": {
+        "type" : "mission",
+        "text" : "You've got a sharp eye! I think you may go back to the Syllectis now. Our team will take over from here and inspect this area further!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge2message01",
+      "value": {
+        "type" : "mission",
+        "text" : "WARNING! THE CURRENT MECH CONFIGURATION LACKS OFFENSIVE CAPABILITIES!\nYour Peril level has increased dramatically. Please proceed with caution.",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge2message02",
+      "value": {
+        "type" : "mission",
+        "text" : "That's right, no big guns! Instead you get two friendly drones by your side! Just keep driving around, they'll take care of the rest.",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge3message01",
+      "value": {
+        "type" : "mission",
+        "text" : "You are currently piloting a Letheia mining mech. It should help you break through rocky asteroids and silicon-based creatures alike."
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge3message02",
+      "value": {
+        "type" : "mission",
+        "text" : "Hey! It's me again, here for a quick tip! Don't forget to use your Beam Drill to clear the path!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge3message03",
+      "value": {
+        "type" : "mission",
+        "text" : "I see a parked shuttle ahead! No one's aboard so let's check it out, there might be something.",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
+      }
+  },
+  {
+    "op": "add",
+      "path": "/atprk_mechbotchallenge3message04",
+      "value": {
+        "type" : "mission",
+        "text" : "Good thing those angry rock monsters didn't follow you in, it'd be a mess! Anyway, your job here is done. I'll be waiting for you!",
+    "senderName" : "Randy",
+    "portraitImage" : "/interface/chatbubbles/atprk_randychat.png:<frame>"
       }
   }
 ]
