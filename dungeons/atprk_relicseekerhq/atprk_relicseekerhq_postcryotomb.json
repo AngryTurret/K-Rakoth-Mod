@@ -45,18 +45,6 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8935,
-                 "height":40,
-                 "id":928,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":26,
-                 "x":104,
-                 "y":88
-                }, 
-                {
                  "gid":8910,
                  "height":40,
                  "id":929,
@@ -177,7 +165,7 @@
                  "y":88
                 }, 
                 {
-                 "gid":8958,
+                 "gid":8959,
                  "height":16,
                  "id":942,
                  "name":"",
@@ -189,7 +177,7 @@
                  "y":72
                 }, 
                 {
-                 "gid":8960,
+                 "gid":8961,
                  "height":8,
                  "id":943,
                  "name":"",
@@ -201,7 +189,7 @@
                  "y":72
                 }, 
                 {
-                 "gid":8958,
+                 "gid":8959,
                  "height":16,
                  "id":945,
                  "name":"",
@@ -211,6 +199,18 @@
                  "width":16,
                  "x":0,
                  "y":72
+                }, 
+                {
+                 "gid":8947,
+                 "height":56,
+                 "id":946,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":96,
+                 "y":88
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -281,7 +281,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":946,
+ "nextobjectid":947,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -432,7 +432,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk_relicseekerset1.json"
         }, 
         {
-         "firstgid":8947,
+         "firstgid":8948,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }],
  "tilewidth":8,

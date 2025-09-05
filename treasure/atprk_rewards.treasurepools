@@ -492,5 +492,35 @@
         {"weight" : 0.01, "item" : "atprk_oculopteraf"}
       ]
     }]
+  ],
+  "atprk_restoredcodex1" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "atprk_krakothtextalpha"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextbeta"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextchi"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextdelta"},
+        {"weight" : 0.1, "item" : "atprk_krakothtexteta"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextgamma"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextkappa"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextphi"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextpsi"},
+        {"weight" : 0.1, "item" : "atprk_krakothtexttheta"}
+      ]
+    }]
+  ],
+  "atprk_restoredcodex2" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "atprk_krakothtextepsilon"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextiota"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextomicron"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextrho"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextsigma"},
+        {"weight" : 0.1, "item" : "atprk_krakothtexttau"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextupsilon"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextxi"}
+      ]
+    }]
   ]
 }

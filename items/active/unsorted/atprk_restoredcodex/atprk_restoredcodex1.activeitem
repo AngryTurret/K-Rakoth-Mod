@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_restoredcodex1",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Use this to get a random K'Rakoth codex entry.",
+  "shortdescription" : "Restored K'Rakoth Codex",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_restoredcodex1.png",
+  "animation" : "atprk_restoredcodex1.animation",
+  "animationCustom" : {},
+  "scripts" : ["atprk_restoredcodex.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_restoredcodex1",
+    "level" : 1
+  }
+}

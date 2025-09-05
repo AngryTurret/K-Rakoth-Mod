@@ -1,0 +1,76 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "confetti" ]
+            }
+          },
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "confetti",
+            "properties" : {
+              "immediateSound" : "/sfx/objects/ancientconsole_on.ogg",
+              "particleEmittersOff" : [ "confetti" ]
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [-0.01, 0], [0, 0] ]
+            }
+          },
+          "confetti" : {
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "confetti" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "gun" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "atprk_restoredcodex2.png",
+          "offset" : [0.0, 0.0]
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "confetti" : {
+      "emissionRate" : 200.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/shards/geodeshard.animation",
+            "position" : [1.0, 0],
+            "size" : 0.0,
+            "light" : [0, 0, 0],
+            "fade" : 0.0,
+            "initialVelocity" : [0.0, 0.0],
+            "finalVelocity" : [0.0, 0.0],
+            "approach" : [0, 10],
+            "timeToLive" : 0,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [0, 0]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

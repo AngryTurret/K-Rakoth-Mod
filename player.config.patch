@@ -30,6 +30,15 @@
 
   { "op" : "add",
 	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_restoredcodex1" }
+  },
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "atprk_restoredcodex2" }
+  },
+
+  { "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
 	"value" : { "item" : "atprk_tiny4dsyphon" }
   },
   { "op" : "add",
@@ -60,11 +69,15 @@
   },
   { "op" : "add",
 	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
-	"value" : "atprk_krakothspaceturret"
+	"value" : "atprk_brickodile"
   },
   { "op" : "add",
 	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
-	"value" : "atprk_krakothspacemine"
+	"value" : "atprk_silicrow"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "atprk_krakothspaceturret"
   },
   { "op" : "add",
 	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
