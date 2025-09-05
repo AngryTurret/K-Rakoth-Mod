@@ -25,7 +25,7 @@
   ],
 
   "printable" : false,
-  "description" : "Used to restore ancient relics from pieces.",
+  "description" : "Used to restore ancient relics from fragments.",
   "shortdescription" : "^orange;Reconstruction Table^white;",
   "race" : "generic",
   "category" : "crafting",
@@ -53,3 +53,4 @@
     }
   ]
 }
+
