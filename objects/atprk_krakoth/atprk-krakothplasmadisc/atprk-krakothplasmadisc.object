@@ -16,12 +16,12 @@
   "flickerPeriodVariance" : 0.05,
   "flickerIntensityVariance" : 0.025,
 
-  "apexDescription" : "More Apex equipment. Experimentation or torture, who knows?",
+  "apexDescription" : "More K'Rakothan equipment. Experiment or energy capacitor, who knows?",
   "avianDescription" : "Is this electricity? Avians use crystal resonance to power our technology.",
   "floranDescription" : "Trapped lightning sstruggles to essscape.",
   "glitchDescription" : "Anxious. This device harnesses many millions of volts.",
   "humanDescription" : "Better keep my hands away, or else I'll get electrocuted.",
-  "hylotlDescription" : "Such a device likely has a sinister purpose.",
+  "hylotlDescription" : "Such a device likely has an inscrutable purpose.",
   "novakidDescription" : "I can't look at that for too long.",
 
   "inventoryIcon" : "atprk-krakothplasmadiscicon.png",
@@ -65,3 +65,4 @@
   "inputNodes" : [ [0, 0] ]
 
 }
+
