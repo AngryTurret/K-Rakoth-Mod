@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":42,
+ "tilecount":43,
  "tileheight":80,
  "tileproperties":
     {
@@ -373,6 +373,16 @@
          "imagePositionX":"-24",
          "imagePositionY":"0",
          "object":"atprk_relicexchange_penguin",
+         "tilesetDirection":"right"
+        },
+     "42":
+        {
+         "\/\/description":"Restores corrupted K'Rakoth codices into readable text.",
+         "\/\/name":"atprk_codexrestorer",
+         "\/\/shortdescription":"K'Rakothan Defragmentator",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_codexrestorer",
          "tilesetDirection":"right"
         },
      "5":
@@ -790,6 +800,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "42":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1063,6 +1083,12 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_penguin.png",
          "imageheight":30,
          "imagewidth":48
+        },
+     "42":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_codexrestorer.png",
+         "imageheight":56,
+         "imagewidth":40
         },
      "5":
         {

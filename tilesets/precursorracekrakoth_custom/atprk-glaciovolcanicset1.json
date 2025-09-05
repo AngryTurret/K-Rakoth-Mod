@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-noolith",
  "spacing":0,
- "tilecount":16,
+ "tilecount":29,
  "tileheight":72,
  "tileproperties":
     {
@@ -90,6 +90,46 @@
          "object":"atprk_shapelesschest",
          "tilesetDirection":"right"
         },
+     "16":
+        {
+         "\/\/description":"A rich vault of knowledge, all stored in holographic records.",
+         "\/\/name":"atprk_noolitharchive",
+         "\/\/shortdescription":"Durasteel Archive",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolitharchive",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"A cold crystal bench.",
+         "\/\/name":"atprk_noolithbench1",
+         "\/\/shortdescription":"Old Monolith Bench",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithbench1",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "\/\/description":"A cold crystal bench.",
+         "\/\/name":"atprk_noolithbench2",
+         "\/\/shortdescription":"Old Monolith Bench",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithbench2",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "\/\/description":"A hologram of an alien plant.",
+         "\/\/name":"atprk_noolithholoplant",
+         "\/\/shortdescription":"Holographic Plant",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_noolithholoplant",
+         "tilesetDirection":"right"
+        },
      "2":
         {
          "\/\/description":"A large cold crystal.",
@@ -98,6 +138,96 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_glaciovolcaniccrystal3"
+        },
+     "20":
+        {
+         "\/\/description":"A hologram of an ancient assault drone.",
+         "\/\/name":"atprk_noolithdronedisplay",
+         "\/\/shortdescription":"Holographic Drone Model",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithdronedisplay",
+         "tilesetDirection":"right"
+        },
+     "21":
+        {
+         "\/\/description":"A large console with a hologram projector.",
+         "\/\/name":"atprk_noolithholoconsole",
+         "\/\/shortdescription":"Large Holographic Console",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_noolithholoconsole",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "\/\/description":"A battered crystalline lectern.",
+         "\/\/name":"atprk_noolithlectern",
+         "\/\/shortdescription":"Old Monolith Lectern",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_noolithlectern",
+         "tilesetDirection":"right"
+        },
+     "23":
+        {
+         "\/\/description":"A model of an unknown solar system.",
+         "\/\/name":"atprk_noolithorrery",
+         "\/\/shortdescription":"Durasteel Orrery",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithorrery",
+         "tilesetDirection":"right"
+        },
+     "24":
+        {
+         "\/\/description":"This desk is meant to support an orrery, but it can also be used for other things.",
+         "\/\/name":"atprk_noolithorrerydesk",
+         "\/\/shortdescription":"Durasteel Orrery Desk",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithorrerydesk",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "\/\/description":"An overview of an unidentified planet.",
+         "\/\/name":"atprk_noolithplanetplaque",
+         "\/\/shortdescription":"Durasteel Planet Plaque",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_noolithplanetplaque",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "\/\/description":"A rhombus-shaped wall light.",
+         "\/\/name":"atprk_noolithwalllight",
+         "\/\/shortdescription":"Durasteel Wall Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"atprk_noolithwalllight",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A very intricate telescope designed for stargazing.",
+         "\/\/name":"atprk_noolithtelescope",
+         "\/\/shortdescription":"Durasteel Telescope",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_noolithtelescope",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "\/\/description":"A well-crafted sliding door.",
+         "\/\/name":"atprk_noolithslidingdoor",
+         "\/\/shortdescription":"Durasteel Sliding Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_noolithslidingdoor",
+         "tilesetDirection":"right"
         },
      "3":
         {
@@ -245,6 +375,46 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "2":
         {
          "\/\/description":"string",
@@ -253,6 +423,96 @@
          "imagePositionX":"string",
          "imagePositionY":"string",
          "object":"string"
+        },
+     "20":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "21":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "22":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "23":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "24":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "25":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "3":
         {
@@ -370,11 +630,89 @@
          "imageheight":16,
          "imagewidth":16
         },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolitharchive.png",
+         "imageheight":56,
+         "imagewidth":48
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithbench1.png",
+         "imageheight":24,
+         "imagewidth":48
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithbench2.png",
+         "imageheight":24,
+         "imagewidth":48
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithholoplant.png",
+         "imageheight":32,
+         "imagewidth":16
+        },
      "2":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_glaciovolcaniccrystal3.png",
          "imageheight":16,
          "imagewidth":22
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithdronedisplay.png",
+         "imageheight":48,
+         "imagewidth":32
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithholoconsole.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithlectern.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithorrery.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithorrerydesk.png",
+         "imageheight":16,
+         "imagewidth":48
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithplanetplaque.png",
+         "imageheight":32,
+         "imagewidth":24
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithwalllight.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithtelescope.png",
+         "imageheight":28,
+         "imagewidth":32
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithslidingdoor.png",
+         "imageheight":40,
+         "imagewidth":40
         },
      "3":
         {
@@ -419,6 +757,6 @@
          "imagewidth":16
         }
     },
- "tilewidth":40,
+ "tilewidth":48,
  "type":"tileset"
 }
