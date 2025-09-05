@@ -2,7 +2,7 @@
   "objectName" : "atprk_cryotombinfoscreen2",
   "colonyTags" : ["atrpk_krakoth","atprk_krakothlab","electronic"],
   "rarity" : "Legendary",
-  "description" : "Some graphs, diagrams and long lines of text fill the screen.",
+  "description" : "Graphs, diagrams, and long lines of text fill this screen.",
   "shortdescription" : "Large Elder Monitor",
   "race" : "generic",
   "printable" : false,
@@ -13,10 +13,10 @@
   "apexDescription" : "I don't have any idea what this diagram is supposed to track.",
   "avianDescription" : "The more I try to focus on these pop-up windows, the less I understand.",
   "floranDescription" : "Flashing ssscreen hurtsss Floran's eyesss.",
-  "glitchDescription" : "Dizzy. I can't keep track of this program, everything shifts too fast.",
-  "humanDescription" : "Neat, more ancient records. Too bad I cannot read any of them yet.",
+  "glitchDescription" : "Dizzy. I can't keep track of this program, everything shifts too quickly.",
+  "humanDescription" : "Neat, more ancient records. Too bad I can't read any of them yet.",
   "hylotlDescription" : "A lot of this data needs translation but I don't even know where to start.",
-  "novakidDescription" : "Surely this ain't a meaningless wall o' text but I've no idea what any of it says.",
+  "novakidDescription" : "Surely this ain't a meaningless wall o' text, but I've no idea what any of it says.",
 
   "inventoryIcon" : "atprk_cryotombinfoscreenicon.png",
   "orientations" : [
@@ -54,3 +54,4 @@
   "inputNodes" : [ [0, 0] ]
 
 }
+
