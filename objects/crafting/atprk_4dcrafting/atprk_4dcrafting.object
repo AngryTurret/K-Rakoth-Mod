@@ -1,0 +1,61 @@
+{
+  "objectName" : "atprk_4dcrafting",
+  "colonyTags" : ["crafting","electronic"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/atprk_4dcrafting.config"
+  },
+
+  "printable" : false,
+  "description" : "A high-tech station that creates four-dimensional objects.",
+  "shortdescription" : "Dimensional Compressor",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 250,
+
+  "learnBlueprintsOnPickup" : [
+    "atprk_4dcube",
+    "atprk_hyperpixel"
+  ],
+
+  "lightColor" : [99, 13, 84],
+
+  "apexDescription" : "An ancient device that allows its user to create multidimensional objects.",
+  "avianDescription" : "This station creates rather complex but somewhat mundane objects.",
+  "floranDescription" : "Floran can make hypercubesss to sstore ssstuff in.",
+  "glitchDescription" : "Intrigued. With this station, I'll be able to create small four-dimensional spaces.",
+  "humanDescription" : "Now I can make my own hypercubes and store items in them!",
+  "hylotlDescription" : "An ancient machine that folds reality itself to make mundane objects.",
+  "novakidDescription" : "Something weird's goin' on here, but I could use it.",
+
+  "inventoryIcon" : "atprk_4dcraftingicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_4dcrafting.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_4dcraftinglit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_4dcrafting.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_4dcraftinglit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

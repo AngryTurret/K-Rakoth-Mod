@@ -1,0 +1,66 @@
+{
+  "objectName" : "atprk_codexrestorer",
+  "colonyTags" : ["crafting","electronic"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/atprk_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "K'Rakothan Defragmentator",
+        "subtitle" : "No knowledge is lost forever",
+        "icon" : {
+          "file" : "/interface/crafting/atprk_translatoricon.png"
+        }
+      }
+    },
+    "filter" : [ "atprk_codexrestorer" ]
+  },
+
+  "printable" : false,
+  "description" : "Restores corrupted K'Rakoth codices into readable text.",
+  "shortdescription" : "K'Rakothan Defragmentator",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 750,
+
+  "lightColor" : [117, 58, 127],
+
+  "apexDescription" : "An advaced AI-powered tool to restore corrupted codex entries.",
+  "avianDescription" : "This computer's task is to look through bits of information and summarize it in a written form.",
+  "floranDescription" : "Machine that recreatesss text from gibberish. Wish it alssso accepted paper...",
+  "glitchDescription" : "Analytical. While not flawless, this station tries its best to guess the contents of corrupted codex entries.",
+  "humanDescription" : "No more garbled data! This station will restore any corrupted codex I feed it.",
+  "hylotlDescription" : "This computer scans corrupted data and attempts to assemble it into coherent text.",
+  "novakidDescription" : "To put it simply, a computer that turns unreadable into readable.",
+
+  "inventoryIcon" : "atprk_codexrestorericon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "atprk_codexrestorer.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_codexrestorerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "atprk_codexrestorer.png:<color>.<frame>", "fullbright" : true }, { "image" : "atprk_codexrestorerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
