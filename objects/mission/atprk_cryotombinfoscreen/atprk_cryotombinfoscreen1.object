@@ -10,10 +10,10 @@
   "price" : 350,
   "lightColor" : [57, 3, 47],
 
-  "apexDescription" : "Most likely a medical scan of a preserved specimen.",
+  "apexDescription" : "Most likely the medical scan of a preserved specimen.",
   "avianDescription" : "This must be something related to a frozen K'Rakoth.",
   "floranDescription" : "Big ssscreen showss big ssleeping sssquids. Floran can't read the resst.",
-  "glitchDescription" : "Perplexed. Wait, which one of them is shown here?",
+  "glitchDescription" : "Perplexed. Wait, which one of the K'Rakoths is being shown here?",
   "humanDescription" : "A simplified picture of an adult K'Rakoth.",
   "hylotlDescription" : "Well, I suppose this program keeps track of a person's health but I need more details.",
   "novakidDescription" : "Somethin' to keep in mind if I come here again.",
@@ -54,3 +54,4 @@
   "inputNodes" : [ [0, 0] ]
 
 }
+
