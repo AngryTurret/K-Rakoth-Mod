@@ -1,0 +1,67 @@
+{
+  "objectName" : "atprk-krakothplasmadisc",
+  "colonyTags" : ["atprk_krakoth","atprk_krakothlab","science","electronic","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 105,
+  "description" : "An ancient artifact containing a plasma field.",
+  "shortdescription" : "Elder Plasma Disc",
+  "race" : "generic",
+  "fullbright" : true,
+  "lightColor" : [151, 41, 114],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "More Apex equipment. Experimentation or torture, who knows?",
+  "avianDescription" : "Is this electricity? Avians use crystal resonance to power our technology.",
+  "floranDescription" : "Trapped lightning sstruggles to essscape.",
+  "glitchDescription" : "Anxious. This device harnesses many millions of volts.",
+  "humanDescription" : "Better keep my hands away, or else I'll get electrocuted.",
+  "hylotlDescription" : "Such a device likely has a sinister purpose.",
+  "novakidDescription" : "I can't look at that for too long.",
+
+  "inventoryIcon" : "atprk-krakothplasmadiscicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk-krakothplasmadisc.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "atprk-krakothplasmadisc.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "right",
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/plasmadisc.ogg",
+
+  "animation" : "atprk-krakothplasmadisc.animation",
+  "animationParts" : {
+    "bg" : "atprk-krakothplasmadisc.png",
+    "fg" : "atprk-krakothplasmadisclit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}
