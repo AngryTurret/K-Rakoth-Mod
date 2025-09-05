@@ -8,7 +8,7 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "K'Rakothan Defragmentator",
-        "subtitle" : "No knowledge is lost forever",
+        "subtitle" : "No knowledge is truely lost forever",
         "icon" : {
           "file" : "/interface/crafting/atprk_translatoricon.png"
         }
@@ -32,7 +32,7 @@
   "glitchDescription" : "Analytical. While not flawless, this station tries its best to guess the contents of corrupted codex entries.",
   "humanDescription" : "No more garbled data! This station will restore any corrupted codex I feed it.",
   "hylotlDescription" : "This computer scans corrupted data and attempts to assemble it into coherent text.",
-  "novakidDescription" : "To put it simply, a computer that turns unreadable into readable.",
+  "novakidDescription" : "To put it simply, a computer that turns th' unreadable into th' readable.",
 
   "inventoryIcon" : "atprk_codexrestorericon.png",
 
@@ -64,3 +64,4 @@
     }
   ]
 }
+
