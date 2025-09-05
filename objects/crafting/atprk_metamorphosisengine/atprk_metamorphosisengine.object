@@ -17,7 +17,7 @@
   },
 
   "apexDescription" : "I should not use it... Or should I?...",
-  "avianDescription" : "Oh Kluex... This machine radiates with pure evil yet it's so... entrancing.",
+  "avianDescription" : "Oh Kluex... This machine radiates pure evil yet it's so... entrancing.",
   "floranDescription" : "Ssso much force... Floran can get much ssstronger now.",
   "glitchDescription" : "Tempted. This eldritch engine... It calls for me...",
   "humanDescription" : "The powers this machine can give me, they're so... tempting...",
@@ -53,3 +53,4 @@
     }
   ]
 }
+
