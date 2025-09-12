@@ -27,7 +27,7 @@
   "glitchDescription" : "Intrigued. With this station, I'll be able to create small four-dimensional spaces.",
   "humanDescription" : "Now I can make my own hypercubes and store items in them!",
   "hylotlDescription" : "An ancient machine that folds reality itself to make mundane objects.",
-  "novakidDescription" : "Something weird's goin' on here, but I could use it.",
+  "novakidDescription" : "Something weird's goin' on with this, but at least I could make use of it.",
 
   "inventoryIcon" : "atprk_4dcraftingicon.png",
 
@@ -59,3 +59,4 @@
     }
   ]
 }
+
