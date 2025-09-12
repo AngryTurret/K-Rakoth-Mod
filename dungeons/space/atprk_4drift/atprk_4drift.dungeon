@@ -4,7 +4,7 @@
   "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ],
+    "anchor" : [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ],
     "gravity" : 80,
     "breathable" : true,
     "maxRadius" : 1000000,
@@ -29,6 +29,14 @@
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "atprk_4driftlayout_left2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4driftlayout_left3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "atprk_4driftlayout_left3.json" ],
       "chance" : 1
     },
     {
@@ -410,7 +418,7 @@
     {
       "name" : "atprk_4drift_primary_low1",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_low1.json" ],
       "maximumThreatLevel" : 3.9,
@@ -419,7 +427,7 @@
     {
       "name" : "atprk_4drift_primary_low2",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_low2.json" ],
       "maximumThreatLevel" : 3.9,
@@ -428,7 +436,7 @@
     {
       "name" : "atprk_4drift_primary_low3",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_low3.json" ],
       "maximumThreatLevel" : 3.9,
@@ -437,7 +445,7 @@
     {
       "name" : "atprk_4drift_primary_low4",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_low4.json" ],
       "maximumThreatLevel" : 3.9,
@@ -447,7 +455,7 @@
     {
       "name" : "atprk_4drift_primary_mid1",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_mid1.json" ],
       "minimumThreatLevel" : 4,
@@ -457,7 +465,7 @@
     {
       "name" : "atprk_4drift_primary_mid2",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_mid2.json" ],
       "minimumThreatLevel" : 4,
@@ -467,7 +475,7 @@
     {
       "name" : "atprk_4drift_primary_mid3",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_mid3.json" ],
       "minimumThreatLevel" : 4,
@@ -477,7 +485,7 @@
     {
       "name" : "atprk_4drift_primary_mid4",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_mid4.json" ],
       "minimumThreatLevel" : 4,
@@ -488,7 +496,7 @@
     {
       "name" : "atprk_4drift_primary_high1",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_high1.json" ],
       "minimumThreatLevel" : 5,
@@ -497,7 +505,7 @@
     {
       "name" : "atprk_4drift_primary_high2",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_high2.json" ],
       "minimumThreatLevel" : 5,
@@ -506,7 +514,7 @@
     {
       "name" : "atprk_4drift_primary_high3",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_high3.json" ],
       "minimumThreatLevel" : 5,
@@ -515,7 +523,7 @@
     {
       "name" : "atprk_4drift_primary_high4",
       "rules" : [
-        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2" ] ]
+        [ "doNotConnectToPart", [ "atprk_4driftlayout_left1", "atprk_4driftlayout_left2", "atprk_4driftlayout_left3" ] ]
       ],
       "def" : [ "tmx", "atprk_4drift_primary_high4.json" ],
       "minimumThreatLevel" : 5,
