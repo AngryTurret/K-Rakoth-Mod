@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_noolithwalllighttiny",
+  "colonyTags" : ["atprk_noolith","light"],
+  "rarity" : "Common",
+  "description" : "A rhombus-shaped wall light.",
+  "shortdescription" : "Small Durasteel Wall Light",
+  "race" : "annelisk",
+  "category" : "light",
+  "price" : 45,
+
+  "lightColor" : [87, 150, 164],
+
+  "apexDescription" : "A tiny light source.",
+  "avianDescription" : "This lamp on the wall almost looks like a tiny star.",
+  "floranDescription" : "Tiny glowing ssspot.",
+  "glitchDescription" : "Indifferent. A cold wall-mounted light.",
+  "humanDescription" : "A dim blue wall light.",
+  "hylotlDescription" : "A sparkling wall light.",
+  "novakidDescription" : "This light's a bit cold.",
+
+  "inventoryIcon" : "atprk_noolithwalllighttinyicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithwalllighttiny.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_noolithwalllighttiny.png",
+    "fg" : "atprk_noolithwalllighttinylit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

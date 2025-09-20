@@ -1,0 +1,76 @@
+{
+  "objectName" : "atprk_noolithairlockdoor",
+  "colonyTags" : ["atprk_noolith","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 175,
+  "description" : "A sharp geometrical airlock door.",
+  "shortdescription" : "Durasteel Airlock Door",
+  "race" : "noolith",
+
+  "apexDescription" : "A lightly decorated airlock door.",
+  "avianDescription" : "For a large steel door it opens and closes surprisingly swiftly.",
+  "floranDescription" : "Huge sssteel door with sharp edgesss.",
+  "glitchDescription" : "Careful. A door like this could cut a Glitch in half.",
+  "humanDescription" : "A secure durasteel door.",
+  "hylotlDescription" : "A reliable airlock door to seal the danger away.",
+  "novakidDescription" : "A door like this can take quite a bit o' punishment.",
+
+  "inventoryIcon" : "atprk_noolithairlockdooricon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_noolithairlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "door" : "atprk_noolithairlockdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "atprk_noolithairlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+
+      "animationParts" : {
+        "door" : "atprk_noolithairlockdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "atprk_noolithairlockdoor.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}
