@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-noolith",
  "spacing":0,
- "tilecount":29,
+ "tilecount":35,
  "tileheight":72,
  "tileproperties":
     {
@@ -205,7 +205,7 @@
          "\/\/name":"atprk_noolithwalllight",
          "\/\/shortdescription":"Durasteel Wall Light",
          "imagePositionX":"-8",
-         "imagePositionY":"-8",
+         "imagePositionY":"0",
          "object":"atprk_noolithwalllight",
          "tilesetDirection":"right"
         },
@@ -229,6 +229,16 @@
          "object":"atprk_noolithslidingdoor",
          "tilesetDirection":"right"
         },
+     "29":
+        {
+         "\/\/description":"A sharp geometrical airlock door.",
+         "\/\/name":"atprk_noolithairlockdoor",
+         "\/\/shortdescription":"Durasteel Airlock Door",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_noolithairlockdoor",
+         "tilesetDirection":"right"
+        },
      "3":
         {
          "\/\/description":"A large cold crystal.",
@@ -237,6 +247,55 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_glaciovolcaniccrystal4"
+        },
+     "30":
+        {
+         "\/\/description":"An angular metal support.",
+         "\/\/name":"atprk_noolithsupport",
+         "\/\/shortdescription":"Durasteel Support",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_noolithsupport",
+         "tilesetDirection":"right"
+        },
+     "31":
+        {
+         "\/\/description":"An angular metal support.",
+         "\/\/name":"atprk_noolithsupport_orientation1",
+         "\/\/shortdescription":"Durasteel Support",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithsupport",
+         "tilesetDirection":"left"
+        },
+     "32":
+        {
+         "\/\/description":"An angular metal support.",
+         "\/\/name":"atprk_noolithsupport_orientation2",
+         "\/\/shortdescription":"Durasteel Support",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithsupport",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "\/\/description":"An angular metal support.",
+         "\/\/name":"atprk_noolithsupport_orientation3",
+         "\/\/shortdescription":"Durasteel Support",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_noolithsupport",
+         "tilesetDirection":"left"
+        },
+     "34":
+        {
+         "\/\/description":"A rhombus-shaped wall light.",
+         "\/\/name":"atprk_noolithwalllighttiny",
+         "\/\/shortdescription":"Small Durasteel Wall Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_noolithwalllighttiny"
         },
      "4":
         {
@@ -514,7 +573,66 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "29":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        },
+     "30":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "31":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "32":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "33":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "34":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -714,11 +832,47 @@
          "imageheight":40,
          "imagewidth":40
         },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithairlockdoor.png",
+         "imageheight":64,
+         "imagewidth":24
+        },
      "3":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_glaciovolcaniccrystal4.png",
          "imageheight":16,
          "imagewidth":22
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithsupport.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithsupport_orientation1.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithsupport_orientation2.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithsupport_orientation3.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithwalllighttiny.png",
+         "imageheight":8,
+         "imagewidth":8
         },
      "4":
         {
