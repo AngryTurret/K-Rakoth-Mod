@@ -4,11 +4,11 @@
   "description" : "An account of a failed infiltration attempt.",
   "icon" : "atprk_krakothcodexlambdaicon.png",
   "contentPages" : [
-    "One of us got caught. Before anyone knew, every passage was sealed right in front of them, and they were locked in a room swarmed by drones. I've lost count of how long they spent inside, but ever since they were approached by the vault's staff, I haven't seen them.
+    "One of us got caught. Before anyone knew, every passage was sealed right in front of them, and they were locked in a room swarming with drones. I've lost count of how long they spent inside, but ever since they were approached by the vault's staff, I haven't seen them.
 
 Chances are, they are now kept away and interrogated. This doesn't bode well for our mission, as this incident proves that the vault's security is much more rigid than we anticipated.",
 
-"And this is despite the fact that, at least formally, no one in particular is assigned to guard duty. Granted, there are people in charge of security but they mostly check recordings and drone performance.
+"And this is despite the fact that, at least formally, no one in particular is assigned guard duty. Granted, there are people in charge of security but they mostly check recordings and drone performance.
 
 Everything else is fully automated. The thinking machine responsible for surveillance must be particularly advanced, perhaps even sapient to a degree. It has access to the vault's numerous systems, and its eyes and ears are everywhere.",
 
@@ -16,7 +16,7 @@ Everything else is fully automated. The thinking machine responsible for surveil
 
 Was it a slipup on our part? Did we leave behind a piece of evidence it could pick up on? Is the machine just this good at pattern recognition?
 
-I don't know if anyone suspects me but I have to lay low. Should I fail, the cover will be blown, and another attempt will not be feasible."
+I don't know if anyone suspects me but I have to lay low. Should I fail, our cover will be blown, and another attempt will not be feasible."
 
   ],
     "itemConfig" : {
