@@ -1,0 +1,34 @@
+{
+  "id" : "atprk_glitchdevouthiddencodex",
+  "species" : "glitch",
+  "title" : "From Your Tinkerer Team",
+  "description" : "Some safety instructions hastily written by a tech-savvy crew member.",
+  "icon" : "atprk_glitchtraitorcodex.png",
+  "contentPages" : [
+  "Fellow servants of our Cosmic Lords,
+
+It has come to our attention that many of you have trouble understanding the nature of the sacred K'Rakothan artifacts and how to handle them properly. We are aware that this is far beyond what you are used to, but aboard this spacecraft, we cannot afford any mistakes or confusion.
+
+To account for this, we have updated our safety guidelines to be as clear and straightforward as possible.",
+
+"This letter summarizes some of the changes, so please take your time to read through them. To stay safe aboard the spacecraft, follow these simple instructions:
+
+- If you are not fluent in K'Rakothan, DO NOT use any machinery that is not labelled as safe without supervision.
+- Any instances of unnatural glow, strange geometries, or vertigo-inducing visions MUST BE immediately reported to the nearest tinkerer.",
+
+"- DO NOT attempt to touch or prod the source of the aforementioned anomalies. Direct contact with it WILL result in severe harm to you or your surroundings.
+- DO NOT bring any animals close to the artifacts unless explicitly ordered to do so.
+- If you forgot what any given artifact does, once again, ASK the nearest tinkerer. NEVER try to guess.
+
+Failure to follow any of these instructions WILL result in disciplinary action.",
+
+"We hope this will not be necessary, but Captain Flitheart insisted that everyone aboard should remember this. Past negligence has already cost us the opportunity to retrieve the K'Rakoth survivor; we cannot cover up another incident like this.
+
+From now on please pay attention and always refer to these instructions when in doubt."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
