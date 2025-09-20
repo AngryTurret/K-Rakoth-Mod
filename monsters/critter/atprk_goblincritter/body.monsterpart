@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_goblincritter",
+  "category" : "atprk_goblincritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

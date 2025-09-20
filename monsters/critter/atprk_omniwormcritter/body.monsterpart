@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_omniwormcritter",
+  "category" : "atprk_omniwormcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

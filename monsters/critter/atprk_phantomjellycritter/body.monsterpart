@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_phantomjellycritter",
+  "category" : "atprk_phantomjellycritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

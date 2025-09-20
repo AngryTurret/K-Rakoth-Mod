@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_scallopcritter",
+  "category" : "atprk_scallopcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}
