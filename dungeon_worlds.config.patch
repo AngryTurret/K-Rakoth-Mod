@@ -1,5 +1,4 @@
 [
-
   {
     "op" : "add",
     "path" : "/atprk_relicseekership",
@@ -19,6 +18,45 @@
     "biome" : "space"
     }
   },
+  {
+    "op" : "add",
+    "path" : "/atprk_devoutship",
+    "value" : {
+    "primaryDungeon" : "atprk_devoutship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_4drift",
+    "value" : {
+    "primaryDungeon" : "atprk_4drift",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [2500, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 960,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/atprk_tranquility_distorted.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve", "atprk_4ddistortion"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "atprk_4driftbiome"
+    }
+  },
+
   {
     "op" : "add",
     "path" : "/atprk_relicseekerhq",
@@ -55,6 +93,102 @@
     "biome" : "atprk_relicseekerhqbiome"
     }
   },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_cryotombmission",
+    "value" : {
+      "primaryDungeon" : "atprk_cryotombmission",
+    "threatLevel" : 7,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1400,
+    "dungeonSurfaceHeight" : 1209,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/ocean_surface_calm.ogg",
+    "musicTrack" : "/music/atprk_equatorial_complex.ogg",
+    "environmentStatusEffects" : ["dontstarve"],
+    "biome" : "atprk_boilingocean"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge1",
+    "value" : {
+      "primaryDungeon" : "atprk_mechbotchallenge1",
+    "threatLevel" : 4,
+    "gravity" : 80,
+    "worldSize" : [1200, 1000],
+    "dungeonBaseHeight" : 500,
+    "dungeonSurfaceHeight" : 500,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/desert_underground.ogg",
+    "musicTrack" : "/music/europa.ogg",
+    "environmentStatusEffects" : ["dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "underground1b"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge2",
+    "value" : {
+      "primaryDungeon" : "atprk_mechbotchallenge2",
+    "threatLevel" : 5,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1200, 1000],
+    "dungeonBaseHeight" : 500,
+    "dungeonSurfaceHeight" : 500,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop2.ogg",
+    "musicTrack" : "/music/arctic-constellation1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge3",
+    "value" : {
+      "primaryDungeon" : "atprk_mechbotchallenge3",
+    "threatLevel" : 5,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1200, 1000],
+    "dungeonBaseHeight" : 500,
+    "dungeonSurfaceHeight" : 500,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_4drifttutorial",
+    "value" : {
+      "primaryDungeon" : "atprk_4drifttutorial",
+    "threatLevel" : 6,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1200, 500],
+    "dungeonBaseHeight" : 300,
+    "dungeonSurfaceHeight" : 300,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/atprk_tranquility_distorted.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve", "atprk_4ddistortion"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "atprk_4driftbiome"
+    }
+  },
+
   {
     "op" : "add",
     "path" : "/atprk_infinitemaze",
@@ -135,6 +269,5 @@
     "environmentStatusEffects" : ["dontstarve"]
     }
   }
-
 ]
 

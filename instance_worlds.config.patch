@@ -1,5 +1,4 @@
 [
-
   {
     "op" : "add",
     "path" : "/atprk_relicseekership",
@@ -30,6 +29,76 @@
         "dayLightColor" : [120, 120, 120],
         "eveningLightColor" : [120, 120, 120],
         "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_devoutship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_devoutship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_4drift",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_4drift",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 80, 120],
+        "dayLightColor" : [120, 80, 120],
+        "eveningLightColor" : [120, 80, 120],
+        "nightLightColor" : [120, 80, 120]
       }
     }
     }
@@ -104,6 +173,228 @@
         "dayLightColor" : [120, 120, 120],
         "eveningLightColor" : [120, 120, 120],
         "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_cryotombmission",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_cryotombmission",
+    "seed" : 1111,
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "skyParameters" : {
+      "dayLength" : 1153.36,
+      "surfaceLevel" : 1200,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+      "horizonImages" : [ ],
+
+      "skyType" : "atmospheric",
+      "skyColoring" : {
+        "mainColor" : [255, 255, 255],
+
+        "morningColors" : [[54, 81, 64], [124, 225, 157]],
+        "dayColors" : [[84, 120, 108], [160, 175, 185]],
+        "eveningColors" : [[25, 65, 45], [52, 187, 100]],
+        "nightColors" : [[24, 53, 49, 80], [42, 60, 70, 160]],
+
+        "morningLightColor" : [93, 142, 95],
+        "dayLightColor" : [114, 144, 132],
+        "eveningLightColor" : [71, 145, 92],
+        "nightLightColor" : [20, 60, 40]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge1",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_mechbotchallenge1",
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "worldProperties" : {
+      "mechTempItemSet" : {
+        "body" : "atprk_mechbodyrelicseeker",
+        "booster" : "mechboosterstalwart",
+        "legs" : "mechlegshopper",
+        "leftArm" : "mecharmchainsaw",
+        "rightArm" : "mecharmspikefist"
+      },
+      "mechTempPrimaryColorIndex" : 13,
+      "mechTempSecondaryColorIndex" : 7
+    },
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [0, 0, 0],
+        "dayLightColor" : [0, 0, 0],
+        "eveningLightColor" : [0, 0, 0],
+        "nightLightColor" : [0, 0, 0]
+      }
+    }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge2",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_mechbotchallenge2",
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "worldProperties" : {
+      "mechTempItemSet" : {
+        "body" : "mechbodybad",
+        "booster" : "mechboostersleek",
+        "legs" : "mechlegssleek",
+        "leftArm" : "mecharmplasmadrone",
+        "rightArm" : "mecharmshielddrone"
+      },
+      "mechTempPrimaryColorIndex" : 12,
+      "mechTempSecondaryColorIndex" : 3
+    },
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "planet" : {
+        "pos" : [ 0.5, 0.5 ],
+        "layers" : [ {
+          "scale" : 0.1,
+          "image" : "/celestial/system/terrestrial/biomes/tundra/maskie3.png"
+        }, {
+          "scale" : 0.1,
+          "image" : "/celestial/system/terrestrial/biomes/tundra/maskie2.png?addmask=/celestial/system/terrestrial/dynamics/temperate/3.png"
+        }, {
+          "scale" : 0.1,
+          "image" : "/celestial/system/terrestrial/biomes/tundra/maskie1.png?addmask=/celestial/system/terrestrial/dynamics/temperate/10.png"
+        }, {
+          "scale" : 0.1,
+          "image" : "/celestial/system/terrestrial/shadows/8.png"
+        } ]
+      },
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/atprk_mechbotchallenge3",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_mechbotchallenge3",
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "worldProperties" : {
+      "mechTempItemSet" : {
+        "body" : "mechbodyhuman",
+        "booster" : "mechboosterhammer",
+        "legs" : "mechlegstwinjet",
+        "leftArm" : "mecharmbeamdrill",
+        "rightArm" : "mecharmclustermine"
+      },
+      "mechTempPrimaryColorIndex" : 15,
+      "mechTempSecondaryColorIndex" : 2
+    },
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/atprk_4drifttutorial",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "atprk_4drifttutorial",
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 80, 120],
+        "dayLightColor" : [120, 80, 120],
+        "eveningLightColor" : [120, 80, 120],
+        "nightLightColor" : [120, 80, 120]
       }
     }
     }
