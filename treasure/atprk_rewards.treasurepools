@@ -514,6 +514,7 @@
       "pool" : [
         {"weight" : 0.1, "item" : "atprk_krakothtextepsilon"},
         {"weight" : 0.1, "item" : "atprk_krakothtextiota"},
+        {"weight" : 0.1, "item" : "atprk_krakothtextlambda"},
         {"weight" : 0.1, "item" : "atprk_krakothtextomicron"},
         {"weight" : 0.1, "item" : "atprk_krakothtextrho"},
         {"weight" : 0.1, "item" : "atprk_krakothtextsigma"},

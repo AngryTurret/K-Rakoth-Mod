@@ -51,7 +51,81 @@
   "atprk_devoutattackLoreTreasure" : [
     [1, {
       "fill" : [
-        {"item" : [ "atprk_krakothtextcorrupted", 1]}
+        {"item" : [ "atprk_glitchdevouthiddencodex-codex", 1]}
+      ]
+    }]
+  ],
+
+  // ================================
+  //       Cryogenic Tomb
+  // ================================
+
+  "atprk_cryotombBasicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "pool" : "basicTreasure"},
+        {"weight" : 0.1, "item" : [ "atprk_krakothmetal", 10]},
+        {"weight" : 0.1, "item" : [ "junktech", 10]},
+        {"weight" : 0.1, "item" : [ "heavyironbars", 10]},
+        {"weight" : 0.1, "item" : "atprk-eldritchpclarge" },
+        {"weight" : 0.1, "item" : "atprk-eldritchcodexframe" },
+        {"weight" : 0.05, "pool" : "commonGun"},
+        {"weight" : 0.05, "item" : "atprk_eldertech" },
+        {"weight" : 0.05, "item" : "atprk_aeonbattery" }
+      ],
+      "poolRounds" : [
+        [0.50, 0],
+        [0.30, 1],
+        [0.10, 2],
+        [0.05, 3],
+        [0.05, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_cryotombRewardTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "techcard", 1]},
+        {"weight" : 0.2, "item" : [ "diamond", 1]},
+        {"weight" : 0.1, "item" : [ "money", 1000]},
+        {"weight" : 0.1, "pool" : "uncommonGun"},
+        {"weight" : 0.15, "item" : [ "capturepod", 1]},
+        {"weight" : 0.15, "pool" : "uncommonMelee"},
+        {"weight" : 0.1, "pool" : "shield"}
+      ],
+      "poolRounds" : [
+        [0.5, 4],
+        [0.5, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "atprk_cryotombRareTreasure1" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextiota", 1]},
+        {"item" : [ "atprk_abyssalsuithead", 1]}
+      ]
+    }]
+  ],
+
+  "atprk_cryotombRareTreasure2" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextkappa", 1]},
+        {"item" : [ "atprk_abyssalsuitchest", 1]}
+      ]
+    }]
+  ],
+
+  "atprk_cryotombRareTreasure3" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "atprk_krakothtextlambda", 1]},
+        {"item" : [ "atprk_abyssalsuitpants", 1]}
       ]
     }]
   ]
