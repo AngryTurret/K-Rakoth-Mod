@@ -139,6 +139,23 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_scallopcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_scallopcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_seahorsecritter",
 	  "spawnParameters" : {
 		"area" : "liquid",
@@ -147,6 +164,23 @@
       },
       "spawnChance" : 0.02,
       "monsterType" : "atprk_seahorsecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_phantomjellycritter",
+	  "spawnParameters" : {
+		"area" : "liquid",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_phantomjellycritter",
       "monsterParameters" : {
         "aggressive": false
       }
@@ -215,6 +249,23 @@
       },
       "spawnChance" : 0.15,
       "monsterType" : "atprk_meteorollcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_omniwormcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_omniwormcritter",
       "monsterParameters" : {
         "aggressive": false
       }
@@ -300,6 +351,23 @@
       },
       "spawnChance" : 0.15,
       "monsterType" : "atprk_pixiecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_goblincritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_goblincritter",
       "monsterParameters" : {
         "aggressive": false
       }
