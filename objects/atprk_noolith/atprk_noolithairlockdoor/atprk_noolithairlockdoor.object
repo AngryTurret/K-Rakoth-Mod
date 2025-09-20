@@ -9,11 +9,11 @@
   "race" : "noolith",
 
   "apexDescription" : "A lightly decorated airlock door.",
-  "avianDescription" : "For a large steel door it opens and closes surprisingly swiftly.",
+  "avianDescription" : "For a large steel door, it opens and closes surprisingly swiftly.",
   "floranDescription" : "Huge sssteel door with sharp edgesss.",
   "glitchDescription" : "Careful. A door like this could cut a Glitch in half.",
   "humanDescription" : "A secure durasteel door.",
-  "hylotlDescription" : "A reliable airlock door to seal the danger away.",
+  "hylotlDescription" : "A reliable airlock door to seal danger away.",
   "novakidDescription" : "A door like this can take quite a bit o' punishment.",
 
   "inventoryIcon" : "atprk_noolithairlockdooricon.png",
@@ -74,3 +74,4 @@
   "inputNodes" : [ [-1, 7] ],
   "outputNodes" : [ [1, 0] ]
 }
+
