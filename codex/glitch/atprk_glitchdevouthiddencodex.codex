@@ -1,13 +1,13 @@
 {
   "id" : "atprk_glitchdevouthiddencodex",
   "species" : "glitch",
-  "title" : "From Your Tinkerer Team",
+  "title" : "Message From the Tinkerer Team",
   "description" : "Some safety instructions hastily written by a tech-savvy crew member.",
   "icon" : "atprk_glitchtraitorcodex.png",
   "contentPages" : [
   "Fellow servants of our Cosmic Lords,
 
-It has come to our attention that many of you have trouble understanding the nature of the sacred K'Rakothan artifacts and how to handle them properly. We are aware that this is far beyond what you are used to, but aboard this spacecraft, we cannot afford any mistakes or confusion.
+It has come to our attention that many of you have trouble understanding the nature of the sacred K'Rakothan artifacts and how to handle them properly. We are aware that this is far beyond what you are used to, but aboard this vessel, we cannot afford any mistakes or confusion.
 
 To account for this, we have updated our safety guidelines to be as clear and straightforward as possible.",
 
@@ -22,7 +22,7 @@ To account for this, we have updated our safety guidelines to be as clear and st
 
 Failure to follow any of these instructions WILL result in disciplinary action.",
 
-"We hope this will not be necessary, but Captain Flitheart insisted that everyone aboard should remember this. Past negligence has already cost us the opportunity to retrieve the K'Rakoth survivor; we cannot cover up another incident like this.
+"We hope this will not be necessary, but Captain Flintheart insisted that everyone aboard should remember this. Past negligence has already cost us the opportunity to retrieve a K'Rakoth survivor; we cannot cover up another incident like this.
 
 From now on please pay attention and always refer to these instructions when in doubt."
 
