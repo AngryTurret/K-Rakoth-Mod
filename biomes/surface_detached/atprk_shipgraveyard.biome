@@ -23,7 +23,7 @@
         "pool" : [
           [ 0.25, "atprk_meteorollcritter" ],
           [ 0.25, "atprk_trifangcritter" ],
-          [ 0.25, "rolypolycritter" ]
+          [ 0.25, "atprk_omniwormcritter" ]
         ]
       }
     ],

@@ -22,7 +22,8 @@
           [ 1, "squidcritter" ],
           [ 1, "jellycritter" ],
           [ 1, "crabcritter" ],
-          [ 1, "tortoisecritter" ]
+          [ 1, "tortoisecritter" ],
+          [ 1, "atprk_scallopcritter" ]
         ]
       }
     ],

@@ -22,7 +22,7 @@
         "select" : 2,
         "pool" : [
           [ 1, "appofloatcritter" ],
-          [ 1, "blipcritter" ],
+          [ 1, "atprk_omniwormcritter" ],
           [ 1, "hazmatcritter" ],
           [ 1, "mousecritter" ]
         ]

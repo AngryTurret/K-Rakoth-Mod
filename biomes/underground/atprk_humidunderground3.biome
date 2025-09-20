@@ -31,7 +31,7 @@
         "select" : 3,
         "pool" : [
           [ 1, "squidcritter" ],
-          [ 1, "jellocritter" ],
+          [ 1, "atprk_phantomjellycritter" ],
           [ 1, "atprk_seapigcritter" ],
           [ 1, "glowingfishcritter" ],
           [ 1, "fishberrycritter" ]
