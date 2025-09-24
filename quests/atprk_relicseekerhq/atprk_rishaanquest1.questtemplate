@@ -66,13 +66,13 @@
 					"messageId": "atprk_rishaanquest1_up3",
 					"type": "quest",
 					"unique": false,
-					"text": "This appears to be a recurring symbol in K'Rakothan religion. The giant eye in the middle represents Ri'shaan's omniscience, and the tendrils display His grip on countless worlds."
+					"text": "This appears to be a recurring symbol in K'Rakothan religion. The giant eye in the middle appears to represent Ri'shaan's omniscience, and the tendrils display His grip on countless worlds."
 				},
 				"atprk-gildedorgan": {
 					"messageId": "atprk_rishaanquest1_up4",
 					"type": "quest",
 					"unique": false,
-					"text": "An ancient organ to perform ceremonial music. Remarkably, it was constructed in a way that allowed K'Rakoths to play it both underwater and on the surface."
+					"text": "An ancient organ likely for performing ceremonial music. Remarkably, it appears to be constructed in a way that allowed K'Rakoths to play it both underwater and on the surface."
 				},
 				"atprk-gildedportrait-glitch": {
 					"messageId": "atprk_rishaanquest1_up5",
@@ -90,7 +90,7 @@
 					"messageId": "atprk_rishaanquest1_up7",
 					"type": "quest",
 					"unique": false,
-					"text": "Apparently, Ri'shaan relied on this race to gain some of His strength. The portrait we see here does not match any known sapient species, which is quite unnerving."
+					"text": "Apparently, Ri'shaan relied on this race to gain some of His strength. The portrait we see here does not match any known sapient species."
 				},
 				"atprk-gildedportrait-tailed": {
 					"messageId": "atprk_rishaanquest1_up8",
@@ -102,13 +102,13 @@
 					"messageId": "atprk_rishaanquest1_up9",
 					"type": "quest",
 					"unique": false,
-					"text": "Throughout K'Rakothan history, a crown was not necessarily worn by rulers. More often than not, it was reserved for priesthood instead."
+					"text": "It seems that throughout K'Rakothan history, a crown was not necessarily worn by rulers. More often than not, it was reserved for priesthood instead."
 				},
 				"atprk-krakothartpiece2": {
 					"messageId": "atprk_rishaanquest1_up10",
 					"type": "quest",
 					"unique": false,
-					"text": "This painting displays Ri'shaan's mortal form, and as you can see, it strongly matches the Ruin. Should we tell Colt?"
+					"text": "This painting appears to depict Ri'shaan's mortal form, and as you can see, it strongly matches the Ruin. Should we tell Colt?"
 				}
 			},
 			"genericProgress": [],
@@ -133,4 +133,5 @@
 		},
 		"dialogClueValue": 4
 	}
+
 }
