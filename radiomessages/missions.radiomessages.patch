@@ -289,7 +289,7 @@
       "path": "/atprk_4drifttutorialmessage01",
       "value": {
         "type" : "mission",
-        "text" : "You are now inside an isolated portion of the dimensional tunnel. Please do not exit your vehicle until you navigate to safety."
+        "text" : "You are now inside an isolated portion of a dimensional tunnel. Please do not exit your vehicle until you navigate to safety."
       }
   },
   {
@@ -321,7 +321,7 @@
       "path": "/atprk_4drifttutorialmessage05",
       "value": {
         "type" : "mission",
-        "text" : "Disregard the previous instructions. You have to exit your mech to proceed. If this is of any help, I am detecting something in the nearby container that ^green;negates the side effects^white; of extradimensional travel."
+        "text" : "Please disregard the previous instructions. You have to exit your mech to proceed. If this is of any help, I am detecting something in the nearby container that ^green;negates the side effects^white; of extradimensional travel."
       }
   },
   {
@@ -329,7 +329,7 @@
       "path": "/atprk_4drifttutorialmessage06",
       "value": {
         "type" : "mission",
-        "text" : "I recommend to gather any items you may find useful and ^green;beam out via the closest teleporter^white; before your protection wears off."
+        "text" : "I recommend gathering any items you may find useful and ^green;beam out via the closest teleporter^white; before your protection wears off."
       }
   },
 
@@ -397,7 +397,7 @@
       "path": "/atprk_mechbotchallenge3message01",
       "value": {
         "type" : "mission",
-        "text" : "You are currently piloting a Letheia mining mech. It should help you break through rocky asteroids and silicon-based creatures alike."
+        "text" : "You are currently piloting a Letheia mining mech. It should help you break through rocky asteroids and silicon-based life forms alike."
       }
   },
   {
@@ -432,3 +432,4 @@
   }
 
 ]
+
