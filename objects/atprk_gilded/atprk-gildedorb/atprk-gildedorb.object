@@ -1,0 +1,38 @@
+{
+  "objectName" : "atprk-gildedorb",
+  "colonyTags" : ["atprk_krakoth","atprk_religious","pretty"],
+  "rarity" : "Common",
+  "description" : "A minor K'Rakoth artifact. Don't let it roll away!",
+  "shortdescription" : "Gilded Orb",
+  "race" : "generic",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 75,
+
+  "apexDescription" : "A spherical ornament. It doesn't seem to have any practical use.",
+  "avianDescription" : "A gilded crown jewel.",
+  "floranDescription" : "Important people on paintingsss often hold these thingsss.",
+  "glitchDescription" : "Informed. The golden orb, one of the many symbols of a king's authority.",
+  "humanDescription" : "A golden sphere of sorts.",
+  "hylotlDescription" : "A symbol of one's rule over the world.",
+  "novakidDescription" : "A round handheld trinket.",
+
+  "atprk_anneliskDescription" : "Grenade!... Wait, why am I saying this?",
+  "atprk_fenronDescription" : "A purely ceremonial object.",
+  "atprk_noolithDescription" : "A sphere of gold with an eye overlooking it.",
+
+  "inventoryIcon" : "atprk-gildedorbicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk-gildedorb.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
