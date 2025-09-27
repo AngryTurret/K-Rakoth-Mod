@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-rishaanchurch",
  "spacing":0,
- "tilecount":44,
+ "tilecount":45,
  "tileheight":96,
  "tileproperties":
     {
@@ -370,6 +370,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_apexparticletank",
+         "tilesetDirection":"right"
+        },
+     "44":
+        {
+         "\/\/description":"A minor K'Rakoth artifact. Don't let it roll away!",
+         "\/\/name":"atprk-gildedorb",
+         "\/\/shortdescription":"Gilded Orb",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-gildedorb",
          "tilesetDirection":"right"
         },
      "5":
@@ -783,6 +793,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "44":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -922,7 +942,7 @@
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-gildedfloorbutton.png",
          "imageheight":8,
-         "imagewidth":12
+         "imagewidth":16
         },
      "22":
         {
@@ -1023,7 +1043,7 @@
      "37":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_apexhoverpad.png",
-         "imageheight":18,
+         "imageheight":24,
          "imagewidth":48
         },
      "38":
@@ -1068,11 +1088,17 @@
          "imageheight":32,
          "imagewidth":16
         },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-gildedorb.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
      "5":
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-gildedcorallight.png",
          "imageheight":18,
-         "imagewidth":12
+         "imagewidth":16
         },
      "6":
         {
