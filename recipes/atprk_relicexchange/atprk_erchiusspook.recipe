@@ -1,5 +1,6 @@
 {
   "input" : [
+    { "item" : "capturepod", "count" : 1 },
     { "item" : "atprk_shapelessprism", "count" : 1 },
     { "item" : "atprk_ancientshards", "count" : 2 },
     { "item" : "solidfuel", "count" : 25 }
@@ -34,3 +35,4 @@
   },
   "groups" : [ "atprk_relicexchange", "atprk_relicexchange_hylotl", "nouncrafting" ]
 }
+
