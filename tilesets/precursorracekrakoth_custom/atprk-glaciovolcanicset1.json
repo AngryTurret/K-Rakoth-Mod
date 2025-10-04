@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-noolith",
  "spacing":0,
- "tilecount":35,
+ "tilecount":38,
  "tileheight":72,
  "tileproperties":
     {
@@ -296,6 +296,36 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"atprk_noolithwalllighttiny"
+        },
+     "35":
+        {
+         "\/\/description":"A crystal you can sit on.",
+         "\/\/name":"atprk_noolithchairclean",
+         "\/\/shortdescription":"Monolith Chair",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_noolithchairclean",
+         "tilesetDirection":"right"
+        },
+     "36":
+        {
+         "\/\/description":"A simple chair. It's plain but efficient.",
+         "\/\/name":"atprk_noolithsteelchair",
+         "\/\/shortdescription":"Durasteel Chair",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk_noolithsteelchair",
+         "tilesetDirection":"right"
+        },
+     "37":
+        {
+         "\/\/description":"A sharp geometrical airlock door.",
+         "\/\/name":"atprk_noolithairlockdoorsmall",
+         "\/\/shortdescription":"Durasteel Airlock Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_noolithairlockdoorsmall",
+         "tilesetDirection":"right"
         },
      "4":
         {
@@ -641,6 +671,36 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "35":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "4":
         {
          "\/\/description":"string",
@@ -873,6 +933,24 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithwalllighttiny.png",
          "imageheight":8,
          "imagewidth":8
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithchairclean.png",
+         "imageheight":24,
+         "imagewidth":24
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithsteelchair.png",
+         "imageheight":32,
+         "imagewidth":16
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_noolithairlockdoorsmall.png",
+         "imageheight":40,
+         "imagewidth":48
         },
      "4":
         {
