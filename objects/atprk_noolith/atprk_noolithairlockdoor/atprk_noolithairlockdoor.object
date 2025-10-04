@@ -5,7 +5,7 @@
   "category" : "door",
   "price" : 175,
   "description" : "A sharp geometrical airlock door.",
-  "shortdescription" : "Durasteel Airlock Door",
+  "shortdescription" : "Large Durasteel Airlock Door",
   "race" : "noolith",
 
   "apexDescription" : "A lightly decorated airlock door.",
@@ -13,7 +13,7 @@
   "floranDescription" : "Huge sssteel door with sharp edgesss.",
   "glitchDescription" : "Careful. A door like this could cut a Glitch in half.",
   "humanDescription" : "A secure durasteel door.",
-  "hylotlDescription" : "A reliable airlock door to seal danger away.",
+  "hylotlDescription" : "A reliable airlock door to seal the danger away.",
   "novakidDescription" : "A door like this can take quite a bit o' punishment.",
 
   "inventoryIcon" : "atprk_noolithairlockdooricon.png",
@@ -74,4 +74,3 @@
   "inputNodes" : [ [-1, 7] ],
   "outputNodes" : [ [1, 0] ]
 }
-
