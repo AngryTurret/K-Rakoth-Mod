@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_chthonicalloy", "count" : 10 },
+    { "item" : "atprk_eldertech", "count" : 2 },
+    { "item" : "atprk_aeonbattery", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_chthonicspear", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all", "mod" ]
+}
