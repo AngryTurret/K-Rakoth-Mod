@@ -1,0 +1,63 @@
+{
+  "objectName" : "atprk_seatrenchstar2",
+  "colonyTags" : ["atprk_seatrench","nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+
+  "description" : "An alien starfish native to deep oceanic trenches.",
+  "shortdescription" : "Exotic Starfish",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [50, 29, 65],
+
+  "apexDescription" : "An exotic bioluminescent organism. It does not appear to be disturbed by my presense.",
+  "avianDescription" : "A majectic starfish born in the oceanic abyss.",
+  "floranDescription" : "Ssspooky ssstarfish.",
+  "glitchDescription" : "Impressed. A delightful sea creature native to deep trenches.",
+  "humanDescription" : "I wonder if this starfish sees me. Probably not.",
+  "hylotlDescription" : "A somewhat unsettling but mostly harmless deep sea creature.",
+  "novakidDescription" : "If Novakids were sea creatures, they'd look somethin' like this but maybe more glowy.",
+
+  "anneliskDescription" : "Something that escaped from a Hylotl sushi bar and found a way into the ocean.",
+  "fenronDescription" : "With enough effort I can cook this little starfish into something tasty.",
+  "noolithDescription" : "An unsettling marine creature. At least it seems to be harmless.",
+  
+  "inventoryIcon" : "atprk_seatrenchstaricon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_seatrenchstar2.png:<color>", "fullbright" : true }, { "image" : "atprk_seatrenchstar2lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_seatrenchstar2.png:<color>", "fullbright" : true }, { "image" : "atprk_seatrenchstar2lit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/npc/enemydeathpuff.ogg", "/sfx/npc/enemydeathpuff.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_exoticstarfish", 1, { } ], [ "biosample", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
