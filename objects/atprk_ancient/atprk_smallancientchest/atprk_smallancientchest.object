@@ -21,9 +21,9 @@
   "hylotlDescription" : "This chest has an unfamiliar design, I am unable to determine its maker.",
   "novakidDescription" : "It's a wonder this chest is still standin' after all this time.",
 
-  "atprk_anneliskDescription" : "How come the Ancients too were into glowy strip lights?",
-  "atprk_fenronDescription" : "An unimaginably old chest standing firm against the ravages of time.",
-  "atprk_noolithDescription" : "An ancient chest marked by blue glowing strips.",
+  "anneliskDescription" : "How come the Ancients too were into glowy strip lights?",
+  "fenronDescription" : "An unimaginably old chest standing firm against the ravages of time.",
+  "noolithDescription" : "An ancient chest marked by blue glowing strips.",
 
   "inventoryIcon" : "atprk_smallancientchesticon.png",
   "orientations" : [

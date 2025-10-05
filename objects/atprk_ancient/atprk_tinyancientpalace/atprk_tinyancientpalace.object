@@ -18,9 +18,9 @@
   "hylotlDescription" : "A grand miniature castle. The local ruler accepts ancient artifacts in exchange for tiny buildings.",
   "novakidDescription" : "Here lives a tiny rich fella who's willin' t' trade. I wonder what he offers.",
 
-  "atprk_anneliskDescription" : "So this is where the tiny guy lives huh. Hey, I'd like to buy some of these funny houses!",
-  "atprk_fenronDescription" : "The ruler of everything that's tiny resides in this castle. Perhaps I can prove my worth and learn his wisdom.",
-  "atprk_noolithDescription" : "A glorious residence of the Emperor of Gnomekind. If I show respect, I'll be allowed to learn something valuable from him.",
+  "anneliskDescription" : "So this is where the tiny guy lives huh. Hey, I'd like to buy some of these funny houses!",
+  "fenronDescription" : "The ruler of everything that's tiny resides in this castle. Perhaps I can prove my worth and learn his wisdom.",
+  "noolithDescription" : "A glorious residence of the Emperor of Gnomekind. If I show respect, I'll be allowed to learn something valuable from him.",
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
