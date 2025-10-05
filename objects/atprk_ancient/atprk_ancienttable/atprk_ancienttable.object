@@ -18,9 +18,9 @@
   "hylotlDescription" : "Even though this table is close to the original, you can still see subtle differences.",
   "novakidDescription" : "This bad boy can fit so much spoiled food on it!",
 
-  "atprk_anneliskDescription" : "Here, I recycled ancient junk into useful stuff. Am I not a genius?",
-  "atprk_fenronDescription" : "There is no way anyone will believe me if I say this table is very ancient.",
-  "atprk_noolithDescription" : "I may have taken some liberties but it should look more or less authentic.",
+  "anneliskDescription" : "Here, I recycled ancient junk into useful stuff. Am I not a genius?",
+  "fenronDescription" : "There is no way anyone will believe me if I say this table is very ancient.",
+  "noolithDescription" : "I may have taken some liberties but it should look more or less authentic.",
 
   "inventoryIcon" : "atprk_ancienttableicon.png",
   "orientations" : [

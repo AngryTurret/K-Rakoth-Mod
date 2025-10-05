@@ -1,30 +1,30 @@
 {
-  "objectName" : "atprk_ancientvase",
+  "objectName" : "atprk_ancientvasebroken",
   "colonyTags" : ["ancient","atprk_ancient","pretty"],
   "rarity" : "Rare",
   "category" : "decorative",
-  "price" : 80,
+  "price" : 60,
   "description" : "A relic from another era of galactic history.",
-  "shortdescription" : "Necropolis Vase",
+  "shortdescription" : "Cracked Necropolis Vase",
   "race" : "ancient",
   "printable" : false,
 
   "apexDescription" : "Apex nobles keep similar artifacts in their mansions, no doubt.",
   "avianDescription" : "A beautiful relic of the past that should be preserved further.",
-  "floranDescription" : "Big empty vase. Floran iss not amussed.",
+  "floranDescription" : "Ssssomebody or ssomething hit the vase ssome time ago.",
   "glitchDescription" : "Pleased. This vase would be a fine addition to my relic collection.",
-  "humanDescription" : "How did this vase stay intact for so long?",
+  "humanDescription" : "Apparently this vase was damaged long ago. There are still some shards inside.",
   "hylotlDescription" : "A beautiful vase made of mysterious ancient materials.",
-  "novakidDescription" : "A person-tall vase. I don't wanna break it, so I'll be careful.", 
+  "novakidDescription" : "A person-tall vase. It has been standin' there for way too long.",
 
   "anneliskDescription" : "How much pixels can I get for this antique vase? Just asking.",
-  "fenronDescription" : "Just a tall ancient urn, not much to wiggle your tail about.",
-  "noolithDescription" : "A well-crafted vase typical of the Ancients.",
+  "fenronDescription" : "Just a shattered ancient urn.",
+  "noolithDescription" : "A well-crafted vase typical of the Ancients. It's a shame it's damaged.",
 
-  "inventoryIcon" : "atprk_ancientvaseicon.png",
+  "inventoryIcon" : "atprk_ancientvasebrokenicon.png",
   "orientations" : [
     {
-      "dualImage" : "atprk_ancientvase.png:<color>",
+      "dualImage" : "atprk_ancientvasebroken.png:<color>",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,
