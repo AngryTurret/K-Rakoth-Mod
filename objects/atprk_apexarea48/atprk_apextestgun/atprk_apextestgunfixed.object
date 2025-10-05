@@ -1,0 +1,52 @@
+{
+  "objectName" : "atprk_apextestgunfixed",
+  "colonyTags" : ["atprk_krakoth","apex","apexresearchlab","combat"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 450,
+  "description" : "A K'Rakothan weapon repurposed by the Miniknog.",
+  "shortdescription" : "Reverse-Engineered Cannon",
+  "race" : "apex",
+  "printable" : false,
+
+  "apexDescription" : "No doubt, this railgun will be used against rebels.",
+  "avianDescription" : "The unholy mixture of Apex knowledge and ancient technology.",
+  "floranDescription" : "Big gun made of old ssstuff.",
+  "glitchDescription" : "Disturbed. I wouldn't want this cannon to be aimed at me.",
+  "humanDescription" : "The Apex government knows how to repurpose ancient technology, it seems.",
+  "hylotlDescription" : "A reverse-engineered weapon that looks like a railgun.",
+  "novakidDescription" : "That's a very big iron right there! May I touch it?",
+
+  "anneliskDescription" : "If this cannon was intact, guess I'd be dead on spot.",
+  "fenronDescription" : "This cannon could use some target practice.",
+  "noolithDescription" : "Where have I seen this before?...",
+
+  "inventoryIcon" : "atprk_apextestgunfixedicon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "atprk_apextestgunfixed.png:<color>", "fullbright" : true }, { "image" : "atprk_apextestgunfixedlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "atprk_apextestgunfixed.png:<color>", "fullbright" : true }, { "image" : "atprk_apextestgunfixedlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
