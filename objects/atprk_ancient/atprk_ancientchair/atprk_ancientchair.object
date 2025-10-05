@@ -17,9 +17,9 @@
   "hylotlDescription" : "An ancient-looking chair, except it's not ancient at all. Ironic.",
   "novakidDescription" : "The chair's too hard to sit on. I'd rather stand.",
 
-  "atprk_anneliskDescription" : "Hm, I could make a quick buck on selling ancient furniture, couldn't I?",
-  "atprk_fenronDescription" : "A chair made from hardened ancient materials.",
-  "atprk_noolithDescription" : "An angular chair of an Ancient design.",
+  "anneliskDescription" : "Hm, I could make a quick buck on selling ancient furniture, couldn't I?",
+  "fenronDescription" : "A chair made from hardened ancient materials.",
+  "noolithDescription" : "An angular chair of an Ancient design.",
 
   "inventoryIcon" : "atprk_ancientchairicon.png",
   "orientations" : [

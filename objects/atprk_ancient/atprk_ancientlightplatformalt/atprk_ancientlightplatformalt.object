@@ -19,9 +19,9 @@
   "hylotlDescription" : "This energy barrier can support weight beyond it's means.",
   "novakidDescription" : "Solid energy, just like us Novakid.",
 
-  "atprk_anneliskDescription" : "A fancy light platform.",
-  "atprk_fenronDescription" : "How does this platform work? I mean, something has to power it, right?",
-  "atprk_noolithDescription" : "A solid beam of light I can stand on.",
+  "anneliskDescription" : "A fancy light platform.",
+  "fenronDescription" : "How does this platform work? I mean, something has to power it, right?",
+  "noolithDescription" : "A solid beam of light I can stand on.",
 
   "inventoryIcon" : "atprk_ancientlightplatformalticon.png",
 

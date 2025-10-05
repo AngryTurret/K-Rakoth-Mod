@@ -1,0 +1,35 @@
+{
+  "objectName" : "atprk_ancienthololore1",
+  "colonyTags" : ["ancient","light","pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+  "lightColor" : [36, 159, 184],
+  "description" : "An ancient holographic depiction of a mythological scene.",
+  "shortdescription" : "Ancient Hologram",
+  "race" : "ancient",
+
+  "apexDescription" : "An enormous creature attacking people across the universe.",
+  "avianDescription" : "This mighty being must've claimed countless lives in its wake.",
+  "floranDescription" : "Monster feasssts on unlucky prey. Only the ssstrongest will ssurvive!",
+  "glitchDescription" : "Uneasy. One of the smaller figures looks familiar. I don't like the implications...",
+  "humanDescription" : "I see, getting up close to the creature was a terrible idea.",
+  "hylotlDescription" : "This haunting scene depicts the many victims of a voracious beast.",
+  "novakidDescription" : "I can only make out one of these lil' guys. What's with the other three?",
+
+  "inventoryIcon" : "atprk_ancienthololoreicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_ancienthololore1.png:<color>.<frame>", "fullbright" : true,
+      "renderLayer" : "Object+1",
+      "imagePosition" : [-52, 0],
+      "frames" : 2,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

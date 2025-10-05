@@ -19,9 +19,9 @@
   "hylotlDescription" : "A barrier of pure light that prevents anything from passing through.",
   "novakidDescription" : "Solid energy, just like us Novakid.",
 
-  "atprk_anneliskDescription" : "If it weren't for this awful glow, it'd be a very efficient way to keep strangers out.",
-  "atprk_fenronDescription" : "How does this barrier work? I mean, something has to power it, right?",
-  "atprk_noolithDescription" : "A solid beam of light.",
+  "anneliskDescription" : "If it weren't for this awful glow, it'd be a very efficient way to keep strangers out.",
+  "fenronDescription" : "How does this barrier work? I mean, something has to power it, right?",
+  "noolithDescription" : "A solid beam of light.",
 
   "inventoryIcon" : "atprk_ancientlightdooricon.png",
   "orientations" : [

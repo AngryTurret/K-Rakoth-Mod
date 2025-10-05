@@ -17,9 +17,9 @@
   "hylotlDescription" : "A curious design, indeed.",
   "novakidDescription" : "Double doors that look older than they really are.",
 
-  "atprk_anneliskDescription" : "If anybody asks, these doors are millenia old and totally not bought in a store.",
-  "atprk_fenronDescription" : "With these heavy ancient doors, no one will barge in so easily.",
-  "atprk_noolithDescription" : "These are nothing but a cheap copy.",
+  "anneliskDescription" : "If anybody asks, these doors are millenia old and totally not bought in a store.",
+  "fenronDescription" : "With these heavy ancient doors, no one will barge in so easily.",
+  "noolithDescription" : "These are nothing but a cheap copy.",
 
   "inventoryIcon" : "atprk_ancientdoorpropicon.png",
   "orientations" : [

@@ -19,9 +19,9 @@
   "hylotlDescription" : "I can use the power of the Ancients to summon a mighty guardian.",
   "novakidDescription" : "That glowy beacon'll call a strong warrior from the past if I place it just right.",
 
-  "atprk_anneliskDescription" : "Thanks to this huge thingamajig, I can obtain my own bodyguard for free!",
-  "atprk_fenronDescription" : "With this heavy beacon, I can summon a skillful warrior who will aid me in combat.",
-  "atprk_noolithDescription" : "I can summon a remnant of the Ancient forces if I align this beacon correctly.",
+  "anneliskDescription" : "Thanks to this huge thingamajig, I can obtain my own bodyguard for free!",
+  "fenronDescription" : "With this heavy beacon, I can summon a skillful warrior who will aid me in combat.",
+  "noolithDescription" : "I can summon a remnant of the Ancient forces if I align this beacon correctly.",
 
 
   "inventoryIcon" : "atprk_ancientguardbeaconicon.png",
