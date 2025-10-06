@@ -11,10 +11,10 @@
   "race" : "ancient",
 
   "apexDescription" : "An enormous creature attacking people across the universe.",
-  "avianDescription" : "This mighty being must've claimed countless lives in its wake.",
+  "avianDescription" : "This mighty being must have claimed countless lives in its wake.",
   "floranDescription" : "Monster feasssts on unlucky prey. Only the ssstrongest will ssurvive!",
   "glitchDescription" : "Uneasy. One of the smaller figures looks familiar. I don't like the implications...",
-  "humanDescription" : "I see, getting up close to the creature was a terrible idea.",
+  "humanDescription" : "I see, getting up close to this creature was a terrible idea.",
   "hylotlDescription" : "This haunting scene depicts the many victims of a voracious beast.",
   "novakidDescription" : "I can only make out one of these lil' guys. What's with the other three?",
 
@@ -33,3 +33,4 @@
     }
   ]
 }
+
