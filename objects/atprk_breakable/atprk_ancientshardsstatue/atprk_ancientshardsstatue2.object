@@ -8,13 +8,13 @@
   "race" : "generic",
   "printable" : false,
 
-  "apexDescription" : "A statue of what appears to be the Cultivator or his avatar.",
+  "apexDescription" : "A statue of what appears to be the Cultivator, or his avatar.",
   "avianDescription" : "Is this what the Ancients looked like?",
   "floranDescription" : "Ssstrange glowing face.",
-  "glitchDescription" : "Impressed. It's remarkable how long this statue endured harsh climates.",
+  "glitchDescription" : "Impressed. It's remarkable how long this statue has endured the harsh climate.",
   "humanDescription" : "The Cultivator reminds me of a person in a spacesuit.",
   "hylotlDescription" : "A statue of the Cultivator in his full glory.",
-  "novakidDescription" : "This statue here makes me feel... oddly nostalgic...",
+  "novakidDescription" : "This here statue makes me feel... oddly nostalgic...",
 
   "anneliskDescription" : "An ancient astronaut, I guess?",
   "fenronDescription" : "A statue of a forceful godlike being.",
@@ -68,3 +68,4 @@
   "explosionProjectile" : "atprk_ancientshardsstatueexplosionbasealt",
   "explosionOffset" : [1, 2]
 }
+
