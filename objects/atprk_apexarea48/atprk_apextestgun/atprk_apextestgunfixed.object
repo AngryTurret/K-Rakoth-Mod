@@ -9,13 +9,13 @@
   "race" : "apex",
   "printable" : false,
 
-  "apexDescription" : "No doubt, this railgun will be used against rebels.",
-  "avianDescription" : "The unholy mixture of Apex knowledge and ancient technology.",
+  "apexDescription" : "No doubt this railgun will be used against the rebels.",
+  "avianDescription" : "An unholy mixture of Apex knowledge and ancient technology.",
   "floranDescription" : "Big gun made of old ssstuff.",
   "glitchDescription" : "Disturbed. I wouldn't want this cannon to be aimed at me.",
   "humanDescription" : "The Apex government knows how to repurpose ancient technology, it seems.",
   "hylotlDescription" : "A reverse-engineered weapon that looks like a railgun.",
-  "novakidDescription" : "That's a very big iron right there! May I touch it?",
+  "novakidDescription" : "That's a very big iron right there! Maybe I could touch it?",
 
   "anneliskDescription" : "If this cannon was intact, guess I'd be dead on spot.",
   "fenronDescription" : "This cannon could use some target practice.",
@@ -50,3 +50,4 @@
     }
   ]
 }
+
