@@ -194,7 +194,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ] ],
+            "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ], [3.5, "tentaclepopsmall" ], [3.5, "tentaclepopmed" ], [3.5, "tentaclepopbig" ], [2.0, "tentaclespike" ] ],
             "parameters" : {
               "originBiome" : "surface/atprk_ruinedworld"
             }
@@ -225,7 +225,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ] ],
+            "pool" : [ [2.0, "tentaclepart1" ], [0.8, "tentaclepart2" ], [0.8, "tentaclepart3" ], [0.4, "tentaclespawner1" ], [3.5, "tentaclepopsmall" ], [3.5, "tentaclepopmed" ], [3.5, "tentaclepopbig" ], [2.0, "tentaclespike" ] ],
             "parameters" : {
               "originBiome" : "surface/atprk_ruinedworld"
             }
@@ -261,3 +261,4 @@
     ]
   }
 }
+
