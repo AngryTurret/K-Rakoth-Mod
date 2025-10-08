@@ -8,13 +8,13 @@
   "race" : "generic",
   "printable" : false,
 
-  "apexDescription" : "A realistic statue of a hooded person. I wonder who it is.",
+  "apexDescription" : "A realistic statue of a hooded person. I wonder who it is?",
   "avianDescription" : "Is this what the Ancients looked like?",
   "floranDescription" : "Ssstone perssson with glowing eyess.",
-  "glitchDescription" : "Wary. What does this person hide under the hood?",
+  "glitchDescription" : "Wary. What does this person hide under their hood?",
   "humanDescription" : "A statue of an Ancient being huh? I thought they were taller.",
   "hylotlDescription" : "A beautifully crafted statue with glowing eyes.",
-  "novakidDescription" : "A very familiar look...",
+  "novakidDescription" : "A very familiar lookin' statue...",
 
   "anneliskDescription" : "Hiding your face as usual, eh?",
   "fenronDescription" : "These glowing eyes could easily give this statue's position away.",
@@ -68,3 +68,4 @@
   "explosionProjectile" : "atprk_ancientshardsstatueexplosionbase",
   "explosionOffset" : [1, 2]
 }
+
