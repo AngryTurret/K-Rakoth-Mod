@@ -1,5 +1,7 @@
 [
   [{
+  [
+  {
     "op" : "add",
     "path" : "/planetTypes/atprk_boilingocean",
     "value" : {
@@ -654,6 +656,12 @@
     "path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
     "value" : [ 2.0, "atprk_glitchdevouttower" ]
   },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ocean/layers/subsurface/dungeons/-",
+    "value" : [ 0.2, "atprk_krakothoceanruins" ]
+  },
   {
     "op" : "add",
     "path" : "/planetTypes/desert/layers/surface/dungeons/-",
@@ -789,4 +797,6 @@
     [{"op" : "test", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "inverse" : true },
     {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "value" : [] }],
     [{"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons/-", "value" : [ 1.0, "atprk_krakothoceanruins" ] }]
+  }
+  ]
 ]
