@@ -1,0 +1,147 @@
+{
+  "kind" : "noolith",
+
+  "charCreationTooltip" : {
+      "title" : "Noolith",
+      "subTitle" : "Si",
+      "description" : "Hailing from the deepest caves, these enigmatic beings can be described as intelligent crystals taking the humanoid form. Albeit secluded and somewhat xenophobic, Nooliths are known for their wisdom."
+  },
+
+  "nameGen" : [ "/species/noolithmalenamegen.config:names", "/species/noolithfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/apexhurt_male1.ogg", "/sfx/humanoid/apexhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Body colour", "Head shape", "Shirt", "Legwear", "Eye colour", "", "Shirt colour", "Legwear colour", "NOOLITH", "Personality" ],
+  "skull" : "/humanoid/noolith/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80ffd5?replace=31a6ffFF=36d0b6",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+// Empty Hands
+      { "item" : "flagapex" },
+
+// Anvil
+      { "item" : "apextier1head" },
+      { "item" : "apextier1chest" },
+      { "item" : "apextier1pants" },
+      { "item" : "apextier2head" },
+      { "item" : "apextier2chest" },
+      { "item" : "apextier2pants" },
+
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+// Anvil2
+      { "item" : "apextier3head" },
+      { "item" : "apextier3chest" },
+      { "item" : "apextier3pants" },
+      { "item" : "apextier4head" },
+      { "item" : "apextier4chest" },
+      { "item" : "apextier4pants" },
+
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+
+// Anvil3
+      { "item" : "apextier5ahead" },
+      { "item" : "apextier5achest" },
+      { "item" : "apextier5apants" },
+      { "item" : "apextier6ahead" },
+      { "item" : "apextier6achest" },
+      { "item" : "apextier6apants" },
+
+      { "item" : "apextier5mhead" },
+      { "item" : "apextier5mchest" },
+      { "item" : "apextier5mpants" },
+      { "item" : "apextier6mhead" },
+      { "item" : "apextier6mchest" },
+      { "item" : "apextier6mpants" },
+
+      { "item" : "apextier5shead" },
+      { "item" : "apextier5schest" },
+      { "item" : "apextier5spants" },
+      { "item" : "apextier6shead" },
+      { "item" : "apextier6schest" },
+      { "item" : "apextier6spants" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+
+// Furniture Table 2
+      { "item" : "apexstoragelocker" },
+      { "item" : "apexshipdoor" },
+      { "item" : "apexshiphatch" },
+
+// Spinning Wheel
+      { "item" : "apexcommanderjacket" },
+      { "item" : "apexcommanderpants" },
+      { "item" : "apexnavyjacket" },
+      { "item" : "apexnavypants" },
+      { "item" : "apexofficerjacket" },
+      { "item" : "apexofficerpants" },
+      { "item" : "apexspecialistjacket" },
+      { "item" : "apexspecialistpants" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/sapemale.png",
+      "hair" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/sapefemale.png",
+      "hair" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    //RED
+    { "ffca8a" : "ffdee3", "e0975c" : "f0b2bc", "a85636" : "c5979e", "6f2919" : "9b6e75" },
+    //ORANGE
+    { "ffca8a" : "ffefde", "e0975c" : "f5d1ac", "a85636" : "c9af93", "6f2919" : "9f856a" },
+    //YELLOW
+    { "ffca8a" : "fff9de", "e0975c" : "f5e8ac", "a85636" : "c9c093", "6f2919" : "9f966a" },
+    //GREEN
+    { "ffca8a" : "deffe4", "e0975c" : "acf5b9", "a85636" : "93c99d", "6f2919" : "6a9f75" },
+    //TEAL
+    { "ffca8a" : "deffef", "e0975c" : "acf5d1", "a85636" : "93c9af", "6f2919" : "6a9f87" },
+    //CYAN
+    { "ffca8a" : "defffa", "e0975c" : "b2f0e6", "a85636" : "97c5be", "6f2919" : "6e9b94" },
+    //BLUE
+    { "ffca8a" : "dee4ff", "e0975c" : "acb9f5", "a85636" : "939cc9", "6f2919" : "6a739f" },
+    //PURPLE
+    { "ffca8a" : "efdeff", "e0975c" : "d2b2f0", "a85636" : "af97c5", "6f2919" : "866e9b" }
+  ],
+  "undyColor" : [
+    //EMERALD
+    { "f32200" : "79fa66", "dc1f00" : "2bcd1e", "be1b00" : "0d9319", "951500" : "015801" },
+    //GEODE
+    { "f32200" : "0ff48e", "dc1f00" : "14bf73", "be1b00" : "0d8751", "951500" : "074227" }
+  ],
+  "hairColor" : [
+    //BLACK
+    { "f7e7b2" : "808080", "d9c189" : "555555", "a38d59" : "383838", "735e3a" : "151515" }
+  ]
+}
