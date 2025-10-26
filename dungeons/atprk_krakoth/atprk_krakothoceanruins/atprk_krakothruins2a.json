@@ -913,7 +913,7 @@
                  "y":504
                 }, 
                 {
-                 "gid":2147492594,
+                 "gid":2147492595,
                  "height":16,
                  "id":1111,
                  "name":"",
@@ -925,7 +925,7 @@
                  "y":328
                 }, 
                 {
-                 "gid":2147492587,
+                 "gid":2147492588,
                  "height":16,
                  "id":1112,
                  "name":"",
@@ -937,7 +937,7 @@
                  "y":376
                 }, 
                 {
-                 "gid":8951,
+                 "gid":8952,
                  "height":56,
                  "id":1113,
                  "name":"",
@@ -1261,7 +1261,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8898,
+         "firstgid":8899,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

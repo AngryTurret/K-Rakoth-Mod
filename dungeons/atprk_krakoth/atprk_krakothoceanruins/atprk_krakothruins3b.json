@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt3NlNAzEQBuCtJcWhFLAFIOWFalIF5eSNFACWspIz+Bjb4znW8\/ALwoaNjy8T7wGPbft8eDyebH62bYsj3Z7W9pZy\/8v1Lx+X91xf22q\/L91Xz1wf1hJ7voLvMZ6x3qX7ufp7T3rsz+JZU6RNuWNezz3rDauRduaW53pOxT3bjvQYS2SvRLp92lxbeW9Ij6tU7pVIt0+Lbcp9ued5CTX49sqeeCzdPqtxzzLx+jwvbpk+tfXxaKT7pznumT7w\/EV4fOtMal\/S\/dMc90ybcB4ZXi+BnuF5Z5iU53hf4XvpfmqNW+b1XLMMTbtn96zVc64G52q3ex7zzGEcvv4zSku7b695nv2VyjPGcso0lWet4zXDc8n4LM\/PTLDtnn0OofdcQs0z9jiQ2rPW8eLwzVGbRz1j16GjiV8zd8\/Fsf2wljonEVvGrp1L+2ppl9R4aYh7LnuG27GeR48Hoed7Q7tW9Sy1bs55hj8Lc\/h1+b8enZnwWvv2\/rkP3cTPiT3H26mPB3vaxTVe8P12Nss9nlM\/l\/IMXaXcHM\/JecZYbjke7GmXe57nOVeDU57j+hyPGdf8UNRnrGXs8aDXZz1rjVpy6w\/r9XnkeDDl2euzDc+5WPacsvy9vSdl2j2f0zIM5\/z0rjfg+Y2S5Zzp0vkNjeuNns\/gnutpFjy39I3r+sBIfYYGa5ZTpkueW9ql5XpK7jzA2Ty39o\/j2m1sAbqCxmr1GWsZmsbW51q7uMar1\/IKnin7yBFuz9L9bUnNshXPWNMc\/XTP57fsnt2ztOfc8y17PoNp90xnuXfOZ1t2z+651XHvnHNYbjVN1Tf3rCOYebRmudUzdhy0BXP\/Rq9nuC+LnmfONbfnUdNwm8a\/H9LsWeN4UcaC51J2ppzFs8bxsu6Z0rTE\/Qi563DSnmvtkhqvFTxTmZbyDLdr8Vxql3vWaTqeS675obq\/btRz7f4NTLu4xgu+31bw3GNayjPl\/XWUnrXe\/3zco76a51bT1upzvH3UM9yX5vq8sucW19bq82zPXp\/1esaYPoPno16Wshv3fHxd3XPL+oNzfijXGz2vb2m9wWnYgmesa67rA9T1OUTi\/2\/49RTdnjmu3c74e6ve\/79RO19XaxfXeLnn8bWHtdTWz9Ltsxhpqyt7DjXzqMN74rF0+yxG2urKrr0+r+3Z4+HML195sCk=",
+         "data":"eJzt3NltGzEQBmDW4uICFbAFBNCLq1EVLsdvcQExAS1AjXgMyeEcywnww5ZWWfH4NOYe9ncIf789Hk8x\/0IIaaTb09veWh6\/uf3mz8drbs9trf8v3VfPWh\/Wknq+ge8xnrHepfu5+2dPeuyv4llTpE25Y17PI+sNq5F25pbXes7FPduO9BhL5GhEun3aXFv5bEiPq1QejUi3T4ttyn2553WJNfj+zJF5LN0+q3HPMvH6vC5umT6t9fFspPunOe6ZPvD8RXx8H0xuX9L90xz3TJt4HhleL4Ge4XlnmJzndF\/xe+l+ao1b5vXcsgxNu2f3rNVzqQaXard7nvPMYRy+\/0+Snnbfn\/O8+iuVZ4zlnGkqz1rHa4XnmvFVnn8KwbZ79TmE0XMJLc\/Y40Bqz1rHi8M3R22e9Yxdh84mfc\/SPRfn9tNa7pxEahm7dq7tq6ddUuOlIe657hlux3qePR6Enh8d7drVs9S6ueQZPhfn8PPjfT26MvG9jvD6cx+6SV+Tek63Ux8PjrSLa7zg5+1qlkc8556X8gxd5dycryl5xljuOR4caZd7Xue5VINzntP6nI4Z1\/xQ1GesZezxoNdnPWuNVkrrD+v1eeZ4MOfZ67MNz6VY9pyz\/BVekzPtnq9pGYZzfkbXG\/D8Rs1yTMiYrp3f0LjeGPkZPHI9zYLnnr5xXR+Yqc\/QYMtyCO91uua5p11arqeUzgNczXNv\/ziu3aYWoCtorFWfa5ZPz7m1B7Y+t9rFNV6jlnfwTNlHjnB7lu5vT1qWrXjGmubop2bPpWPDK3jmtOye3bO059LrLXu+gmn3TGd5dM5XW3bP7rnX8eicc1juNU3VN\/esI5h5tGa51zN2HLQFc\/\/GqGe4L4ueV841t+dZ03Cbxt8f0uxZ43hRxoLnWg6mrPIcAq9njeNl3TOlaYn7EUrX4aQ9t9olNV47eKYyLeUZbp\/xXDPd67nWLves03Q6l1zzQ3V\/HfRcqtHnc9Bz6\/4NTLu4xgt+3nbwPGJayjPl\/XW5e+pC5jHGs9b7n8971Hfz3GvaWn1Ot+c851yXPMN9aa7PO3vucW2tPmM8l\/5hPHt91usZY\/oKns96Wcth3PP5dXfPPesPzvmhXG+MvL+l9QanYQuesa65rg9Q1+cYib+\/4ddTdHvmuHa74vetRv\/+Rut8XatdXOPlnufXHtbSWj9Lt89ipK3u7DnWzLMOH5nH0u2zGGmrO7v2+ry3Z4+HM\/8BOH+auQ==",
          "encoding":"base64",
          "height":50,
          "name":"back",
@@ -829,7 +829,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":8946,
+                 "gid":8947,
                  "height":16,
                  "id":1100,
                  "name":"",
@@ -841,7 +841,7 @@
                  "y":200
                 }, 
                 {
-                 "gid":8918,
+                 "gid":8919,
                  "height":16,
                  "id":1103,
                  "name":"",
@@ -853,7 +853,7 @@
                  "y":368
                 }, 
                 {
-                 "gid":2147492566,
+                 "gid":2147492567,
                  "height":16,
                  "id":1104,
                  "name":"",
@@ -1160,7 +1160,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8898,
+         "firstgid":8899,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

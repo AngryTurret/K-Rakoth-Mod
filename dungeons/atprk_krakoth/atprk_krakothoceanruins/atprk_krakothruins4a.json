@@ -464,6 +464,18 @@
                  "width":48,
                  "x":320,
                  "y":400
+                }, 
+                {
+                 "gid":2147492486,
+                 "height":48,
+                 "id":988,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":112,
+                 "y":208
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -505,25 +517,6 @@
                  "width":8,
                  "x":384,
                  "y":312
-                }, 
-                {
-                 "height":8,
-                 "id":956,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"atprk_krakothmine"
-                    },
-                 "propertytypes":
-                    {
-                     "monster":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":136,
-                 "y":184
                 }, 
                 {
                  "height":8,
@@ -591,7 +584,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":988,
+ "nextobjectid":989,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -738,7 +731,7 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8898,
+         "firstgid":8899,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }],
  "tilewidth":8,

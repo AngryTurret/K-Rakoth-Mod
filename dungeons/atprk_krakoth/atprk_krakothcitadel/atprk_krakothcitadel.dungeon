@@ -99,6 +99,14 @@
       "def" : [ "tmx", "atprk_krakothcitadel_hallway5.json" ],
       "chance" : 0.1
     },
+    {
+      "name" : "atprk_krakothcitadel_hallway6",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "atprk_krakothcitadel_hallway6.json" ],
+      "chance" : 0.1
+    },
 
     // ROOF PIECES
     {
