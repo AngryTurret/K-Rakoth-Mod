@@ -12,5 +12,19 @@
 		"Ooh, are we going to study native fauna?"
 	  ]
 	}
+  },
+  {
+	"op": "add",
+	"path": "/converse/noolith",
+	"value": {
+	  "default" : [
+		"Do you suppose we could find more of my kind along the way?",
+		"So what exactly is your plan?",
+		"Don't mind if I do!",
+		"It's great to see the stars once more.",
+		"I wonder what the future has in store for me. The possibilities are endless.",
+		"As long as this keeps me away from the Shapeless..."
+	  ]
+	}
   }
 ]

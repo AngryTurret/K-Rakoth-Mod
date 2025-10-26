@@ -15,6 +15,20 @@
   },
   {
 	"op": "add",
+	"path": "/helpme/noolith",
+	"value": {
+	  "default" : [
+		"I'm not ready to deal with this!",
+		"Ah! Stop it!",
+		"What is happening?!",
+		"Not my vessel! Help me!",
+		"Stay away from me!",
+		"Not like this!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
 	"path": "/safe/ayylien",
 	"value": {
 	  "default" : [
@@ -24,6 +38,20 @@
 		"No further signs of hostile activity. Resuming my duties.",
 		"Phew, I made it!",
 		"Status report: safe, got scared a little."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/safe/noolith",
+	"value": {
+	  "default" : [
+		"That was terrible.",
+		"I need some rest.",
+		"Please no more of this!",
+		"Am I safe?",
+		"Watch your step, I think I left some shards behind.",
+		"I'm safe for now."
 	  ]
 	}
   }

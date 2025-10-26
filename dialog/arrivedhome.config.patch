@@ -6,7 +6,22 @@
 	  "default" : [
 		"I've received your signals. What's the matter?",
 		"Make it quick, I must continue my survey.",
+		"Okay, what are we doing here?",
+		"I came here as soon as I heard your call.",
 		"The ability to click on a colony deed doesn't make you intelligent."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/beacon/noolith",
+	"value": {
+	  "default" : [
+		"Greetings. Do you wish to discuss something?",
+		"What did you need me for?",
+		"What is it? Do I need to know something?",
+		"Were you looking for me?",
+		"Here I am. You called for me, is that correct?"
 	  ]
 	}
   },
@@ -17,7 +32,22 @@
 	  "default" : [
 		"You served our people well. Here is your reward.",
 		"Thank you for letting me spy on the- I MEAN stay in this wonderful colony.",
+		"Great job maintaining this place. You deserve a reward.",
+		"Take this gift, it's yours now.",
 		"Thank you. Your assistance will be remembered."
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/rent/noolith",
+	"value": {
+	  "default" : [
+		"Please accept this token of appreciation. You've earned it.",
+		"May this gift remind you of my gratitude.",
+		"I hope you'll like this present as much as I enjoy my stay here.",
+		"Much obliged for all your help, my friend.",
+		"You're doing a lot of work around here. For that I am grateful."
 	  ]
 	}
   }

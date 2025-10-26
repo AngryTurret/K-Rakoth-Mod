@@ -14,6 +14,19 @@
   },
   {
 	"op": "add",
+	"path": "/accuse/noolith",
+	"value": {
+	  "default" : [
+		"I don't believe this is yours. Put it back!",
+		"Hey! Don't claim things that don't belong to you!",
+		"The least you could do is ask. Don't be a thief.",
+		"You know this belongs to somebody else!",
+		"Cease this thievery, or else!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
 	"path": "/alert/ayylien",
 	"value": {
 	  "default" : [
@@ -22,6 +35,19 @@
 		"You're not going anywhere! Security!",
 		"Enough of this! I'm raising the alarm!",
 		"This primitive is stealing from us! Get them!"
+	  ]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/alert/noolith",
+	"value": {
+	  "default" : [
+		"I warned you! I'm calling the guards!",
+		"That's it! Guards, take care of this thief!",
+		"Help! This robber is running loose!",
+		"Face the consequences then! Guards!",
+		"Somebody stop this barbarian!"
 	  ]
 	}
   }
