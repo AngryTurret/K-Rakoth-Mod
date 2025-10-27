@@ -1,0 +1,45 @@
+{
+  "objectName" : "atprk_radiotrophicbush5",
+  "colonyTags" : ["atprk_radiotrophic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+  "description" : "A plant that feeds off radiation.",
+  "shortdescription" : "Radiotrophic Bush",
+  "race" : "generic",
+
+  "apexDescription" : "A plant that feeds off radiation to survive.",
+  "avianDescription" : "A small plant that needs radiation to grow.",
+  "floranDescription" : "Sssmall weak plant makess Floran sssad.",
+  "glitchDescription" : "Neutral. A plant that absorbs radiation.",
+  "humanDescription" : "A plant that feeds off radiation.",
+  "hylotlDescription" : "This plant can endure much radiation.",
+  "novakidDescription" : "A poor plant massacred by radiation.",
+
+  "anneliskDescription" : "An irradiated plant.",
+  "fenronDescription" : "This plant consumes radiation itself to survive. That's brutal.",
+  "noolithDescription" : "Life finds a way to thrive even in the least hospitable conditions.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_radiotrophicbush5.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "plantshard" } ],
+  "smashDropOptions" : [
+    [ [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
