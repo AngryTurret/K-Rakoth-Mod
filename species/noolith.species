@@ -4,7 +4,7 @@
   "charCreationTooltip" : {
       "title" : "Noolith",
       "subTitle" : "Si",
-      "description" : "Hailing from the deepest caves, these enigmatic beings can be described as intelligent crystals taking the humanoid form. Albeit secluded and somewhat xenophobic, Nooliths are known for their wisdom."
+      "description" : "Hailing from the deepest of caves, these enigmatic beings can be described as intelligent crystals taking on a humanoid form. While secluded and somewhat xenophobic, Nooliths are known for their wisdom."
   },
 
   "nameGen" : [ "/species/noolithmalenamegen.config:names", "/species/noolithfemalenamegen.config:names" ],
@@ -145,3 +145,4 @@
     { "f7e7b2" : "808080", "d9c189" : "555555", "a38d59" : "383838", "735e3a" : "151515" }
   ]
 }
+
