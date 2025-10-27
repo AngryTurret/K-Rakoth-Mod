@@ -128,7 +128,7 @@
       "path": "/mods_present/MorePlanetInfo",
       "inverse": false
     },
-    
+
    { "op": "add", "path": "/weatherThreatValues", "value": {"atprk_elderspacejunk" : 2}},
 
    {"op": "add","path": "/namesList/atprk_ashylakes","value": {"word": "atprk_ashylakes","friendlyWord": "Ashy Lakes"}},
@@ -183,7 +183,7 @@
 { "op": "add", "path": "/displayDungeons/atprk_krakothcitadel/ps_icon", "value": "/objects/atprk_krakoth/atprk-krakothrulerstatue/atprk-krakothrulerstatueicon.png" },
 { "op": "add", "path": "/displayDungeons/atprk_krakothcitadel/ps_name", "value": "Sunken Citadel" },
 
-{ "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_icon", "value": "/objects/atprk_breakable/atprk_seatrenchstar1/atprk_seatrenchstar1icon.png" },
+{ "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_icon", "value": "/objects/atprk_breakable/atprk_seatrenchstar/atprk_seatrenchstaricon.png" },
 { "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_name", "value": "Deep Sea Trench" }
 ],
 [
