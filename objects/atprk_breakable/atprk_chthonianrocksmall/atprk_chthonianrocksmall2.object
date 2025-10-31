@@ -1,0 +1,44 @@
+{
+  "objectName" : "atprk_chthonianrocksmall2",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+  "description" : "A hard metallic rock.",
+  "shortdescription" : "Small Chthonian Rock",
+  "race" : "generic",
+  "health" : 5,
+
+  "apexDescription" : "A metallic rock.",
+  "avianDescription" : "A metal-coated rock.",
+  "floranDescription" : "Hard ssstone.",
+  "glitchDescription" : "Neutral. A rock with traces of various metals.",
+  "humanDescription" : "A dull metal rock.",
+  "hylotlDescription" : "A rock rich with metal.",
+  "novakidDescription" : "A tough rock.",
+
+  "anneliskDescription" : "A metal-rich rock.",
+  "fenronDescription" : "A dense alien rock.",
+  "noolithDescription" : "A rock reinforced by metal.",
+
+  "inventoryIcon" : "atprk_chthonianrocksmallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_chthonianrocksmall2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "rockshard" } ],
+
+  "biomePlaced" : true
+}
