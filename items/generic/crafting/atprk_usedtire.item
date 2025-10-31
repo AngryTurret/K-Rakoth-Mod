@@ -1,0 +1,10 @@
+{
+  "itemName" : "atprk_usedtire",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "atprk_usedtire.png",
+  "description" : "A rubber tire that has rolled over many roads.",
+  "shortdescription" : "Used Tire",
+  "itemTags" : [ "reagent" ]
+}
