@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_glaciovolcaniccrystal3",
+  "colonyTags" : ["atprk_glaciovolcanic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+  "price" : 60,
+
+  "description" : "A large cold crystal.",
+  "shortdescription" : "Glaciovolcanic Crystal",
+  "race" : "generic",
+
+  "apexDescription" : "A pale cold crystal.",
+  "avianDescription" : "A cold shard of crystal.",
+  "floranDescription" : "Big cryssstal.",
+  "glitchDescription" : "Neutral. A giant crystal.",
+  "humanDescription" : "A big crystal.",
+  "hylotlDescription" : "A smooth crystal.",
+  "novakidDescription" : "A big cold crystal.",
+
+  "anneliskDescription" : "Something I can sell to a local pawnshop.",
+  "fenronDescription" : "A large frozen crystal.",
+  "noolithDescription" : "A crystal suitable for a new Noolith vessel.",
+
+  "inventoryIcon" : "atprk_glaciovolcaniccrystalicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_glaciovolcaniccrystal3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "iceshard" } ],
+  "smashDropOptions" : [
+    [ [ "crystal", 2, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}

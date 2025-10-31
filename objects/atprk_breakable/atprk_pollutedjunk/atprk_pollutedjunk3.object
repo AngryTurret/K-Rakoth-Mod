@@ -1,0 +1,44 @@
+{
+  "objectName" : "atprk_pollutedjunk3",
+  "colonyTags" : ["atprk_polluted"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+  "description" : "A pile of junk. There isn't much more to it.",
+  "shortdescription" : "Dirty Debris",
+  "race" : "generic",
+
+  "apexDescription" : "Old junk covered in rust.",
+  "avianDescription" : "Some ancient debris.",
+  "floranDescription" : "Uselessss sstuff.",
+  "glitchDescription" : "Repulsed. Rust-covered debris.",
+  "humanDescription" : "Some old junk.",
+  "hylotlDescription" : "A pile of debris. How irresponsible.",
+  "novakidDescription" : "Bunch o' junk.",
+
+  "anneliskDescription" : "It's not mine, just saying.",
+  "fenronDescription" : "A pile of metallic debris.",
+  "noolithDescription" : "Judging by its contents, it's a pile of Annelisk-made debris.",
+
+  "inventoryIcon" : "atprk_pollutedjunkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_pollutedjunk3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "junk", 1, { } ], [ "metallic", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
