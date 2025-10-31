@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_tirestack1",
+  "colonyTags" : ["atprk_highway"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+  "description" : "A towering stack of used tires.",
+  "shortdescription" : "Tire Stack",
+  "race" : "generic",
+
+  "apexDescription" : "A stack of tires.",
+  "avianDescription" : "A set of tires fit for a large vehicle.",
+  "floranDescription" : "That'sss a lot of rubber ringsss.",
+  "glitchDescription" : "Thoughtful. Are these winter tires or summer ones?",
+  "humanDescription" : "We should be grateful that hoverbikes don't need these things.",
+  "hylotlDescription" : "I fear these tires are only good for recycling at this point.",
+  "novakidDescription" : "Tires are like horseshoes, but for cars.",
+
+  "anneliskDescription" : "A stack of perfectly fine tires.",
+  "fenronDescription" : "I bet there is a bunch of junk in the middle.",
+  "noolithDescription" : "It's just a stack of used tires.",
+
+  "inventoryIcon" : "atprk_tirestackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_tirestack1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashOnBreak" : true,
+  "smashDropOptions" : [
+    [ [ "atprk_usedtire", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
