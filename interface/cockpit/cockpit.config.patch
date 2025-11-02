@@ -25,7 +25,7 @@
       "value" : [
         "This ^#ffc053;ash^white;-covered planet appears to be relatively young. My sensors indicate occasional pools of lava and numerous lifeforms adapted to high temperatures.",
         "The landing location is covered in a thick layer of volcanic ^#ffc053;ash^white;. Despite high temperatures, this planet is still habitable to most lifeforms.",
-        "Aside from ^#ffc053;ash^white; dusted mountains and small pools of hot lava, the current landing site is dotted with Glitch-built structures. Caution is advised."
+        "Aside from ^#ffc053;ash^white; dusted mountains and small pools of hot lava, the current landing site is dotted with fortified structures. Caution is advised."
       ]
     },
     {
@@ -165,6 +165,7 @@
     }
   ],
 [
+{ "op": "test", "path": "/displayDungeons" },
 { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower/ps_icon", "value": "/objects/atprk_glitchdevout/atprk_glitcharmor/atprk_glitcharmoricon.png" },
 { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower/ps_name", "value": "Glitch Devout Tower" },
 
@@ -187,6 +188,7 @@
 { "op": "add", "path": "/displayDungeons/atprk_seatrench/ps_name", "value": "Deep Sea Trench" }
 ],
 [
+{ "op": "test", "path": "/displayBiomes" },
 { "op": "add", "path": "/displayBiomes/atprk_amber", "value": { "name": "Amber", "icon": "/items/materials/atprk_amberblock.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_ancientnecropolis", "value": { "name": "Ancient Necropolis", "icon": "/items/generic/crafting/atprk_ancientshards.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_forgottenmountains", "value": { "name": "Forgotten Mountains", "icon": "/objects/atprk_forgotten/atprk_forgottenbanner1/atprk_forgottenbanner1icon.png" } },
@@ -194,9 +196,10 @@
 { "op": "add", "path": "/displayBiomes/atprk_hungergrove", "value": { "name": "Hunger Grove", "icon": "/items/generic/crafting/atprk_fenronbasrelief0.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_navalminefield", "value": { "name": "Underwater Minefield", "icon": "/objects/atprk_breakable/atprk_krakothminefake/atprk_krakothminefakeicon.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_polluted", "value": { "name": "Polluted", "icon": "/items/generic/crafting/atprk_encryptionkey0.png" } },
-{ "op": "add", "path": "/displayBiomes/atprk_radiotrophic", "value": { "name": "Radiotrophic Forest", "icon": "/items/materials/atprk_radiotrophicwood.png" } },
+{ "op": "add", "path": "/displayBiomes/atprk_radiotrophic", "value": { "name": "Radiotrophic", "icon": "/items/materials/atprk_radiotrophicwood.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_shipgraveyard", "value": { "name": "Ship Graveyard", "icon": "/objects/atprk_breakable/atprk_virtualconsolebroken/atprk_virtualconsolebrokenicon.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_sponge", "value": { "name": "Sponge", "icon": "/items/materials/atprk_spongeblock.png" } },
+
 { "op": "add", "path": "/displayBiomes/atprk_ambercaves", "value": { "name": "Amber Caves", "icon": "/items/materials/atprk_amberblock.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_bluecaves", "value": { "name": "Blue Caves", "icon": "/items/materials/biorock2.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_chthoniccomplex", "value": { "name": "Chthonic Complex", "icon": "/items/generic/crafting/atprk_chthonicscraps.png" } },
@@ -207,5 +210,16 @@
 { "op": "add", "path": "/displayBiomes/atprk_irradiatedroots", "value": { "name": "Irradiated Roots", "icon": "/items/materials/atprk_radiotrophicwood.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_noolithbirthplace", "value": { "name": "Noolith Birthplace", "icon": "/items/generic/other/atprk_shapelessprism.png" } },
 { "op": "add", "path": "/displayBiomes/atprk_rottensanctum", "value": { "name": "Rotten Sanctum", "icon": "/items/materials/atprk_deadtentacleblock.png" } }
+],
+[
+{ "op": "test", "path": "/planetSearch_ignore" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_boilingoceanfloor" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_humidunderground1" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_humidunderground2" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_humidunderground3" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_chthonianunderground" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_chthoniancaves" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_chthoniandepths" },
+{ "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "atprk_chthoniancorelayer" }
 ]
 ]
