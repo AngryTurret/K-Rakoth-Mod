@@ -123,6 +123,38 @@
       "chance" : 1
     },
     {
+      "name" : "atprk_4drift_barrierturn1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierturn1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierturn2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierturn2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierturn3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierturn3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "atprk_4drift_barrierturn4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/atprk_4drift/atprk_4drift_obstacles/atprk_4drift_barrierturn4.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "atprk_4drift_barrierclosed1",
       "rules" : [
         [ "maxSpawnCount", [1] ],
