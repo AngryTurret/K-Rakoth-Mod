@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":63,
+ "tilecount":68,
  "tileheight":112,
  "tileproperties":
     {
@@ -588,6 +588,56 @@
          "imagePositionX":"-16",
          "imagePositionY":"-16",
          "object":"atprk_cryotombinfoscreen2",
+         "tilesetDirection":"right"
+        },
+     "63":
+        {
+         "\/\/description":"Some alien kelp with pale glowing bulbs.",
+         "\/\/name":"atprk_boilingoceanplant1",
+         "\/\/shortdescription":"Phantom Eye Kelp",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_boilingoceanplant1",
+         "tilesetDirection":"right"
+        },
+     "64":
+        {
+         "\/\/description":"Some alien kelp with pale glowing bulbs.",
+         "\/\/name":"atprk_boilingoceanplant2",
+         "\/\/shortdescription":"Phantom Eye Kelp",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_boilingoceanplant2",
+         "tilesetDirection":"right"
+        },
+     "65":
+        {
+         "\/\/description":"Some alien kelp with pale glowing bulbs.",
+         "\/\/name":"atprk_boilingoceanplant3",
+         "\/\/shortdescription":"Phantom Eye Kelp",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_boilingoceanplant3",
+         "tilesetDirection":"right"
+        },
+     "66":
+        {
+         "\/\/description":"Some alien kelp with pale glowing bulbs.",
+         "\/\/name":"atprk_boilingoceanplant4",
+         "\/\/shortdescription":"Phantom Eye Kelp",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_boilingoceanplant4",
+         "tilesetDirection":"right"
+        },
+     "67":
+        {
+         "\/\/description":"Some alien kelp with pale glowing bulbs.",
+         "\/\/name":"atprk_boilingoceanplant5",
+         "\/\/shortdescription":"Phantom Eye Kelp",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_boilingoceanplant5",
          "tilesetDirection":"right"
         },
      "7":
@@ -1201,6 +1251,56 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "63":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "64":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "65":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "66":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "67":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "7":
         {
          "\/\/description":"string",
@@ -1593,6 +1693,36 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen2.png",
          "imageheight":40,
          "imagewidth":32
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant1.png",
+         "imageheight":44,
+         "imagewidth":15
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant2.png",
+         "imageheight":75,
+         "imagewidth":22
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant3.png",
+         "imageheight":59,
+         "imagewidth":22
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant4.png",
+         "imageheight":31,
+         "imagewidth":22
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant5.png",
+         "imageheight":37,
+         "imagewidth":39
         },
      "7":
         {
