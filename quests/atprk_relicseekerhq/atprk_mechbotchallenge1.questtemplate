@@ -1,0 +1,46 @@
+{
+	"id": "atprk_mechbotchallenge1",
+	"title": "^orange;Temple of Light and Darkness",
+	"text": "I knew you'd get curious! Ms. Eclipse sent us coordinates of a large ^green;Fenron ziggurat^white; and told us to investigate it. The problem is, it sank below the ground ages ago, and the entrance got blocked by a nasty cave-in! \n\nThis is why we need someone who can pilot a mech. Just ^green;talk to me if you're up for some digging^white;!",
+	"completionText": "Nice work! The archaeologist crew followed you in and found a primitive ^orange;Pneumatic Fist^white; inside one of those creepy statues. I've already uploaded its blueprint to the ^green;mech part crafting table^white; nearby, check it out!",
+	"moneyRange": [750, 750],
+	"rewards" : [],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/instance.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_mechbotrandy/atprk_randyportrait1.png"
+				}],
+				"title": "Randy"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_mechbotrandy/atprk_randyportrait1.png"
+				}],
+				"title": "Randy"
+			}
+		},
+		"descriptions": {
+			"enterInstance": "Talk to ^orange;Randy^reset; to travel to the ^orange;buried ziggurat^reset;",
+			"findGoal" : "Navigate through the ^orange;buried ziggurat^reset;",
+			"turnIn": "Return to ^orange;Randy^reset; and claim your reward"
+		},
+
+		"warpEntityUid": "atprk_mechbotrandy",
+		"warpAction" : ["instanceworld:atprk_mechbotchallenge1", "deploy", true],
+		"warpDialog": "/interface/confirmation/atprk_teleportconfirmation.config:atprk_mechbotchallenge1",
+
+		"goalTrigger": "proximity",
+		"proximityRange": 15,
+
+		"goalEntityUid": "atprk_mechbotchallenge1exit",
+		"indicateGoal": false,
+		"trackGoalEntity": false,
+
+		"turnInEntityUid": "atprk_mechbotrandy",
+		"giveBlueprints" : [ "atprk_mecharmfenronfist" ]
+	}
+}

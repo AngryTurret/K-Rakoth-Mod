@@ -1,0 +1,47 @@
+{
+	"id": "atprk_mechbotchallenge3",
+	"prerequisites": ["atprk_mechbotchallenge2"],
+	"title": "^orange;Miner Inconvenience",
+	"text": "Hello again! We've just discovered a derelict ^green;Annelisk mining station^white;! It was pretty much sealed inside of a huge asteroid but Starklance has found a way in. A whole new place to dig through! Isn't that great? \n\nYou know the drill. I'm ^green;ready when you're ready^white;!",
+	"completionText": "Thanks for clearing up the path! There was this huge ^orange;Ouroboros Drill^white; aboard the shuttle - you can now ^green;turn it into a mech arm^white; if you've got enough spare parts!",
+	"moneyRange": [750, 750],
+	"rewards" : [],
+
+	"updateDelta": 10,
+	"script": "/quests/scripts/instance.lua",
+	"scriptConfig": {
+		"portraits": {
+			"questStarted": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_mechbotrandy/atprk_randyportrait1.png"
+				}],
+				"title": "Randy"
+			},
+			"questComplete": {
+				"portrait": [{
+					"image": "/objects/atprk_relicseeker/atprk_mechbotrandy/atprk_randyportrait1.png"
+				}],
+				"title": "Randy"
+			}
+		},
+		"descriptions": {
+			"enterInstance": "Talk to ^orange;Randy^reset; to travel to the ^orange;mining station^reset;",
+			"findGoal" : "Navigate through the ^orange;mining station^reset;",
+			"turnIn": "Return to ^orange;Randy^reset; and claim your reward"
+		},
+
+		"warpEntityUid": "atprk_mechbotrandy",
+		"warpAction" : ["instanceworld:atprk_mechbotchallenge3", "deploy", true],
+		"warpDialog": "/interface/confirmation/atprk_teleportconfirmation.config:atprk_mechbotchallenge3",
+
+		"goalTrigger": "proximity",
+		"proximityRange": 15,
+
+		"goalEntityUid": "atprk_mechbotchallenge3exit",
+		"indicateGoal": false,
+		"trackGoalEntity": false,
+
+		"turnInEntityUid": "atprk_mechbotrandy",
+		"giveBlueprints" : [ "atprk_mecharmanneliskbeamdrill" ]
+	}
+}

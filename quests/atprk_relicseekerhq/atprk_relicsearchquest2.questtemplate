@@ -2,7 +2,7 @@
 	"id": "atprk_relicsearchquest2",
 	"prerequisites": ["atprk_relicsearchquest1"],
 	"title": "^green;Forty-Eight",
-	"text": "Now that we've got the first relic, we can move on. Rumors say the Miniknog scientists working in ^orange;Area 48^white; have created a ^green;Reverse-Engineered Cannon^white; based on K'Rakothan tech. My most educated guess is that ^#ff00ff;alien planets^white; is where you should look for it. Should anythin' go south, use the ^orange;Reconstruction Table^white;!",
+	"text": "Now that we've got the first relic, we can move on. Rumors say the Miniknog scientists working in ^orange;Area 48^white; have created a ^green;Praetor Cannon^white; based on K'Rakothan tech. My most educated guess is that ^#ff00ff;alien planets^white; is where you should look for it. Should anythin' go south, use the ^orange;Reconstruction Table^white;!",
 	"completionText": "Oh Cultivator, what have they done to... Whatever, no worries! We can still gather much useful information from this weapon.",
 	"moneyRange": [1000, 1000],
 	"rewards": [
