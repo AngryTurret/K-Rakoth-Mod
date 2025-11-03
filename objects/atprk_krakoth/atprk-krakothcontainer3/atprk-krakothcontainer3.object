@@ -49,8 +49,8 @@
 
   "scripts" : ["/scripts/atprk_container.lua"],
 
-  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "openSounds" : [ "/sfx/objects/metalslidingdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalslidingdoor_close.ogg" ],
   "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
