@@ -2,8 +2,8 @@
 	"id": "atprk_mechbotchallenge2",
 	"prerequisites": ["atprk_mechbotchallenge1"],
 	"title": "^orange;Observatory in the Skies",
-	"text": "Hey, buddy, don't pass by! A little birdie told me about a ^green;Noolith observatory^white; full of treasures! What it didn't tell me about is that the place is surrounded by dangerous debris. We can't get any closer! \n\nThink you can sort this out for us? ^green;Come here when you're ready^white;, and I'll set up a mech right away!",
-	"completionText": "See, I told you you'll be safe! I'm sure this ^orange;Comet Drone^white; we found out there will make ^green;a decent addition to your mech^white;. Here, let me show you its schematics real quick!",
+	"text": "Hey, buddy, don't be a stranger! A little birdie told me about a ^green;Noolith observatory^white; full of treasures! What they didn't tell me about is that the place is surrounded by dangerous debris. We can't get inside! \n\nThink you can sort this out for us? ^green;Come here when you're ready^white;, and I'll set up a mech right away!",
+	"completionText": "See, I told you you'll be safe! I'm sure this ^orange;Comet Drone^white; we found out there will make ^green;a decent addition to your mech's arsenal^white;. Here, let me show you its schematics real quick!",
 	"moneyRange": [750, 750],
 	"rewards" : [],
 
@@ -44,4 +44,5 @@
 		"turnInEntityUid": "atprk_mechbotrandy",
 		"giveBlueprints" : [ "atprk_mecharmnoolithdronelauncher" ]
 	}
+
 }
