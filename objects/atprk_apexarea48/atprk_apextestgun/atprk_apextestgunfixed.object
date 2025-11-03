@@ -5,7 +5,7 @@
   "category" : "decorative",
   "price" : 450,
   "description" : "A K'Rakothan weapon repurposed by the Miniknog.",
-  "shortdescription" : "Reverse-Engineered Cannon",
+  "shortdescription" : "Praetor Cannon",
   "race" : "apex",
   "printable" : false,
 
@@ -50,4 +50,3 @@
     }
   ]
 }
-
