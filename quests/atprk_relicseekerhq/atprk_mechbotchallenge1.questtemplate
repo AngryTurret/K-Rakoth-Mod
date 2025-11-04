@@ -1,8 +1,8 @@
 {
 	"id": "atprk_mechbotchallenge1",
 	"title": "^orange;Temple of Light and Darkness",
-	"text": "I knew you'd get curious! Ms. Eclipse sent us coordinates of a large ^green;Fenron ziggurat^white; and told us to investigate it. The problem is, it sank below the ground ages ago, and the entrance got blocked by a nasty cave-in! \n\nThis is why we need someone who can pilot a mech. Just ^green;talk to me if you're up for some digging^white;!",
-	"completionText": "Nice work! The archaeologist crew followed you in and found a primitive ^orange;Pneumatic Fist^white; inside one of those creepy statues. I've already uploaded its blueprint to the ^green;mech part crafting table^white; nearby, check it out!",
+	"text": "I knew you'd get curious! Ms. Eclipse sent us coordinates to a large ^green;Fenron ziggurat^white; and told us to investigate it. The problem is, it sank below the ground ages ago, and the entrance got blocked by a nasty cave-in! \n\nThis is why we need someone who can pilot a mech. Just ^green;talk to me if you're up for some digging^white;!",
+	"completionText": "Nice work! The archaeologist crew followed you in and found a primitive ^orange;Pneumatic Fist^white; on one of those creepy statues. I've already uploaded its blueprint to the ^green;mech part crafting table^white; nearby, feel free to check it out!",
 	"moneyRange": [750, 750],
 	"rewards" : [],
 
@@ -43,4 +43,5 @@
 		"turnInEntityUid": "atprk_mechbotrandy",
 		"giveBlueprints" : [ "atprk_mecharmfenronfist" ]
 	}
+
 }
