@@ -3,7 +3,7 @@
 
 ## K'Rakoths, Lords of the Cosmos
 
-This mod adds dungeons, biomes and lore related to [b]K'Rakoths[/b], an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
+This mod adds dungeons, biomes and lore related to **K'Rakoths**, an old aquatic race that used to have advanced technology, expanded knowledge of the universe and several servant species. However, no matter what they did, they were always overshadowed by the Ancients and with each generation, they grew envious of them. In a desperate attempt to outclass the Ancients, K'Rakoths declared the arms race that somehow ended in their downfall. Whatever had happened to them, it's up to you to find out!
 
 ## Planets
 - **Ashy** - relatively young planets known for moderate volcanic activity yet safe to traverse even without heat protection. Many Glitch structures can be found there, as well as two unique mini-biomes.
