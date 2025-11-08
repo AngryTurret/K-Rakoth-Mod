@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk-krakothlab",
  "spacing":0,
- "tilecount":68,
+ "tilecount":69,
  "tileheight":112,
  "tileproperties":
     {
@@ -638,6 +638,16 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"atprk_boilingoceanplant5",
+         "tilesetDirection":"right"
+        },
+     "68":
+        {
+         "\/\/description":"A perfectly generic four-dimensional object.",
+         "\/\/name":"atprk-4dperfect",
+         "\/\/shortdescription":"Perfectly Generic Tesseract",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"atprk-4dperfect",
          "tilesetDirection":"right"
         },
      "7":
@@ -1301,6 +1311,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "68":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "7":
         {
          "\/\/description":"string",
@@ -1723,6 +1743,12 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant5.png",
          "imageheight":37,
          "imagewidth":39
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dperfect.png",
+         "imageheight":16,
+         "imagewidth":16
         },
      "7":
         {
