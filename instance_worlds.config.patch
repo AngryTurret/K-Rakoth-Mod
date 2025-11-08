@@ -407,7 +407,7 @@
     "type" : "FloatingDungeon",
     "dungeonWorld" : "atprk_infinitemaze",
     "spawningEnabled" : false,
-    "beamUpRule" : "AnywhereWithWarning",
+    "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
     "skyParameters" : {
@@ -440,7 +440,7 @@
     "type" : "FloatingDungeon",
     "dungeonWorld" : "atprk_infinitemazealt",
     "spawningEnabled" : false,
-    "beamUpRule" : "AnywhereWithWarning",
+    "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
     "skyParameters" : {
@@ -473,7 +473,7 @@
     "type" : "FloatingDungeon",
     "dungeonWorld" : "atprk_infinitemazealtalt",
     "spawningEnabled" : false,
-    "beamUpRule" : "AnywhereWithWarning",
+    "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
     "skyParameters" : {
@@ -506,7 +506,7 @@
     "type" : "FloatingDungeon",
     "dungeonWorld" : "atprk_infinitemazeshop",
     "spawningEnabled" : false,
-    "beamUpRule" : "AnywhereWithWarning",
+    "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
     "skyParameters" : {
@@ -539,7 +539,7 @@
     "type" : "FloatingDungeon",
     "dungeonWorld" : "atprk_infinitemazevaultroom",
     "spawningEnabled" : false,
-    "beamUpRule" : "AnywhereWithWarning",
+    "beamUpRule" : "Anywhere",
     "disableDeathDrops" : true,
 
     "skyParameters" : {
