@@ -1,30 +1,30 @@
 { "backgroundcolor":"#000000",
- "height":12,
+ "height":300,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJybzcDAMJsO2AMJt6PRuDCl6kbtGbVnuNijj4Tb0WhcmBx1NUi4HY3GhclRV0InDABWJXWH",
+         "data":"eJzt1AEJADEAxLD5NzZbr2IcT1OIhd5zzgV4TJJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VygQZJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VygQZJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VygQZJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VygQZJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VygQZJKrZ8LNEhSqfVzgQZJKrV+LtAgSaXWzwUaJKnU+rlAgySVWj8XaJCkUuvnAg2SVGr9XKBBkkqtnws0SFKp9XOBBkkqtX4u0CBJpdbPBRokqdT6uUCDJJVaPxdokKRS6+cCDZJUav1coEGSSq2fCzRIUqn1c4EGSSq1fi7QIEml1s8FGiSp1Pq5QIMklVo\/F2iQpFLr5wINklRq\/VwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiTD4MGDZk=",
          "encoding":"base64",
-         "height":12,
+         "height":300,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
          "visible":true,
-         "width":26,
+         "width":600,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJx7zcDA8HoUj+JRPIrpiEvohAH7YxJi",
+         "data":"eJzt1kENgEAAA0H8OySYQQMPto+bSdZC0+sC+N8tSQcFUFhvnSSVARQeSTog\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8K6C03jxJKvKvgNJ68ySpyL8CSuvNk6Qi\/woorTdPkor8KwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+O4FqmyMLQ==",
          "encoding":"base64",
-         "height":12,
+         "height":300,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":26,
+         "width":600,
          "x":0,
          "y":0
         }, 
@@ -43,175 +43,7 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"objects",
-         "objects":[
-                {
-                 "gid":8910,
-                 "height":40,
-                 "id":929,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":26,
-                 "x":176,
-                 "y":88
-                }, 
-                {
-                 "gid":8908,
-                 "height":40,
-                 "id":930,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":26,
-                 "x":32,
-                 "y":88
-                }, 
-                {
-                 "gid":4106,
-                 "height":24,
-                 "id":931,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":24,
-                 "y":24
-                }, 
-                {
-                 "gid":4106,
-                 "height":24,
-                 "id":932,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":184,
-                 "y":24
-                }, 
-                {
-                 "gid":4072,
-                 "height":12,
-                 "id":933,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":72,
-                 "y":48
-                }, 
-                {
-                 "gid":4072,
-                 "height":12,
-                 "id":934,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":152,
-                 "y":48
-                }, 
-                {
-                 "gid":4072,
-                 "height":12,
-                 "id":935,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":0,
-                 "y":48
-                }, 
-                {
-                 "gid":4478,
-                 "height":16,
-                 "id":936,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":72,
-                 "y":88
-                }, 
-                {
-                 "gid":4478,
-                 "height":16,
-                 "id":938,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":0,
-                 "y":88
-                }, 
-                {
-                 "gid":4478,
-                 "height":16,
-                 "id":941,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":144,
-                 "y":88
-                }, 
-                {
-                 "gid":8961,
-                 "height":8,
-                 "id":943,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":144,
-                 "y":72
-                }, 
-                {
-                 "gid":8959,
-                 "height":16,
-                 "id":945,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":0,
-                 "y":72
-                }, 
-                {
-                 "gid":8947,
-                 "height":56,
-                 "id":946,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":96,
-                 "y":88
-                }, 
-                {
-                 "gid":9114,
-                 "height":16,
-                 "id":947,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":72,
-                 "y":72
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -264,7 +96,19 @@
         {
          "draworder":"topdown",
          "name":"anchors etc",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":212,
+                 "height":8,
+                 "id":1494,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2256,
+                 "y":1128
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -281,7 +125,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":948,
+ "nextobjectid":1879,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -293,15 +137,15 @@
         }, 
         {
          "firstgid":198,
-         "source":"..\/..\/..\/tilesets\/packed\/supports.json"
-        }, 
-        {
-         "firstgid":235,
          "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":259,
+         "firstgid":222,
          "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
+        }, 
+        {
+         "firstgid":250,
+         "source":"..\/..\/..\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":287,
@@ -421,26 +265,18 @@
         }, 
         {
          "firstgid":8700,
-         "source":"..\/..\/..\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/station.json"
         }, 
         {
-         "firstgid":8801,
+         "firstgid":8730,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/outpost.json"
         }, 
         {
-         "firstgid":8905,
-         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk_relicseekerset1.json"
-        }, 
-        {
-         "firstgid":8948,
-         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
-        }, 
-        {
-         "firstgid":9046,
-         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
+         "firstgid":8834,
+         "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glaciovolcanicset1.json"
         }],
  "tilewidth":8,
  "type":"map",
  "version":1,
- "width":26
+ "width":600
 }

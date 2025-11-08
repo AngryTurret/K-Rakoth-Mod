@@ -1,0 +1,80 @@
+{
+  "metadata" : {
+    "name" : "atprk_mechbotchallenge2",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "atprk_mechbotchallenge2_a1", "atprk_mechbotchallenge2_a2" ],
+    "gravity" : 60,
+    "maxRadius" : 1000000,
+    "maxParts" : 10,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "atprk_mechbotchallenge2_a1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_a1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_a1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_a2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_a2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_a1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_b1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_b1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_b1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_b2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_b2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_b1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_c1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_c1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_c1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_c2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_c2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_c1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_d1",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_d1" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_d1.json" ],
+      "chance" : 0.5
+    },
+    {
+      "name" : "atprk_mechbotchallenge2_d2",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_mechbotchallenge2_d2" ] ]
+      ],
+      "def" : [ "tmx", "atprk_mechbotchallenge2_d1.json" ],
+      "chance" : 0.5
+    }
+  ]
+}

@@ -1883,6 +1883,18 @@
                  "width":8,
                  "x":1400,
                  "y":1072
+                }, 
+                {
+                 "gid":2147492502,
+                 "height":24,
+                 "id":1707,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1176,
+                 "y":944
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1894,7 +1906,87 @@
          "color":"#ffff00",
          "draworder":"topdown",
          "name":"wiring - lights & guns",
-         "objects":[],
+         "objects":[
+                {
+                 "height":0,
+                 "id":1708,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":40,
+                         "y":-80
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1184,
+                 "y":936
+                }, 
+                {
+                 "height":0,
+                 "id":1709,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":184,
+                         "y":-56
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1240,
+                 "y":912
+                }, 
+                {
+                 "height":0,
+                 "id":1710,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":304,
+                         "y":-56
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1240,
+                 "y":912
+                }, 
+                {
+                 "height":0,
+                 "id":1711,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":160,
+                         "y":152
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1240,
+                 "y":912
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -3421,7 +3513,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1707,
+ "nextobjectid":1712,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
