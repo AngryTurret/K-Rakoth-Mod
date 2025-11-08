@@ -1,0 +1,13 @@
+{
+  "itemName": "atprk_ashrock",
+  "inventoryIcon": "atprk_ashrock.png",
+  "category": "block",
+  "materialId": 62113,
+  "price": 0,
+  "rarity": "Common",
+  "description": "Ash-covered rocks.",
+  "shortdescription": "Ashy Stone",
+  "glitchdescription": "Neutral. Rough ashy stone.",
+  "florandescription": "Dusssty ssstoness.",
+  "novakiddescription": "Dusty rocks."
+}
