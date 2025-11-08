@@ -46,7 +46,14 @@
     }
   ],
   "breakDropOptions" : [
-    [ [ "barrellarge", 1, { } ] ]
+    [ [ "atprk_dontpickthisup7", 1, { } ] ]
+  ],
+
+  "offeredQuests" : [
+    "atprk_mechbotchallenge1"
+  ],
+  "turnInQuests" : [
+    "atprk_mechbotchallenge1"
   ],
 
   "scripts" : [ "/objects/atprk_relicseeker/atprk_relicexchange/atprk_relicexchange.lua" ],
