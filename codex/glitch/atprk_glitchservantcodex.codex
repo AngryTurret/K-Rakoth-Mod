@@ -5,25 +5,25 @@
   "description" : "A Glitch book about an enigmatic spacefaring race.",
   "icon" : "atprk_glitchservantcodex.png",
   "contentPages" : [
-  "Our kingdom was always devastated by wars. Dark knights raided our villages, took away our automatos and robot chickens, burnt our houses and demolished our fortresses. Even once we retreated to the distant worlds, peace was not an option: that time, our enemy was nature itself. Hot deserts and cold mountains were not the best places to grow crops, and wild animals were rampant. We had very little hope.
+  "Our kingdom had always been devastated by wars. Dark knights raided our villages, took away our automatos and robot chickens, burnt our houses and demolished our fortresses. Even once we retreated to distant worlds, peace was not an option: our enemy became nature itself. Hot deserts and cold mountains were poor places to grow crops, and wild animals were rampant. We had very little hope.
 
 Until they arrived.",
 
 "One day, they descended from the heavens. They called themselves ^green;K'Rakoths, the Lords of the Cosmos^white;. They wore shells harder than our best armor, and they towered over even the tallest of us.
 
-At first we were afraid, for we had never encountered any creatures like these before. Everything about their look was ominous and dominant, as if they came for our lands and souls. Thankfully, we were wrong about them.",
+At first we were afraid, for we had never encountered any creatures like these before. Everything about their look was ominous and imposing, as if they came for our lands and souls. Thankfully, we were wrong about them.",
 
-"The K'Rakoths offered their aid: they gave us knowledge and power to reclaim our lost planets, as well as to never suffer from starvation. In return, we gave them our strongest warriors and artisans every time they demanded them. Our king always listened to their wisdom until he was no longer needed, for the K'Rakoths became our only masters.
+"The K'Rakoths offered their aid: they gave us the knowledge and power to reclaim our lost planets, as well as to never suffer from starvation. In return, we gave them our strongest warriors and artisans every time they demanded them. Our king always listened to their wisdom until he was no longer needed, for the K'Rakoths became our only masters.
 
-For centuries we stayed stronger than ever...",
+For centuries we were stronger than ever...",
 
 "...and then everything changed.
 
-In the depths of the cosmos, a new adversary woke up. Our strength was not enough to end the threat, and neither was our allies'. One by one they fell, and not even the K'Rakoths knew how to stop it. They told us not to give up and went into the great unknown to find the key to victory. We were the only ones left.",
+In the depths of the cosmos, a new adversary woke up. Our strength was not enough to end the threat, and neither were our allies'. One by one they fell, and not even the K'Rakoths knew how to stop it. They told us not to give up and went into the great unknown to find the key to victory. We were the only ones left.",
 
-"The threat was gone. Perhaps our master found the way to stop it, but we never found out. They never came back.
+"The threat was gone. Perhaps our masters found a way to stop it, but we never found out. They never came back.
 
-We fear the worst but still have hope. We want to believe that the K'Rakoths are still alive, and that one day, they shall come back.
+We fear the worst but still hold hope. We want to believe that the K'Rakoths are still alive, and that one day, they shall return.
 
 Until then, we will wait."
 
@@ -33,3 +33,4 @@ Until then, we will wait."
     "price" : 25
   }
 }
+
