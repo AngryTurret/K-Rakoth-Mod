@@ -1,7 +1,7 @@
 {
   "id" : "atprk_relicseekercodex",
   "title" : "About the Relic Seekers",
-  "description" : "A handy guide to the Relic Seeker organization, its goals and offers.",
+  "description" : "A handy guide to the Relic Seeker organization, its goals, and offers.",
   "icon" : "atprk_relicseekercodexcover1.png",
   "contentPages" : [
     "^green;INTRODUCTION^white;
@@ -50,3 +50,4 @@ The Relic Seekers - trying to remember everything you may forget."
     "price" : 25
   }
 }
+
