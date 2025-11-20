@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/objectSpawnPool/-",
-    "value": [ 0.06, "atprk_relicseekership" ]
+    "value": [ 0.08, "atprk_relicseekership" ]
   },
   {
     "op": "add",
@@ -12,6 +12,7 @@
   {
     "op": "add",
     "path": "/objectSpawnPool/-",
-    "value": [ 0.08, "atprk_4drift" ]
+    "value": [ 0.06, "atprk_4drift" ]
   }
+
   ]
