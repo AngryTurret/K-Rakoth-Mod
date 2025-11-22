@@ -590,7 +590,7 @@
         {"weight" : 0.25, "item" : "atprk_mecharmkrakothmissile-recipe"}
       ]
     }],
-    [3.9, {
+    [4.9, {
       "pool" : [
         {"weight" : 0.25, "item" : "atprk_mechboosterhoverpads-recipe"},
         {"weight" : 0.25, "item" : "atprk_mechboostermarksman-recipe"},
@@ -739,3 +739,4 @@
   ]
 
 }
+
