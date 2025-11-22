@@ -6,25 +6,25 @@
   "contentPages" : [
   "Species 015: ^orange;The Automata^white;. 
 
-A sapient species of relatively primitive robots that emulate many functions of organic lifeforms. Despite apparent technological stagnation, they were found across several planets in different solar systems. So far we are unable to determine who created the Automata, but their tribalism and lack of significant scientific advancement seems to be an unintended side effect rather than a feature.",
+A sapient species of relatively primitive robots that emulate many functions of organic lifeforms. Despite apparent technological stagnation, they were found across several planets in different star systems. So far we are unable to determine who created the Automata, but their tribalism and lack of significant scientific advancement seems to be an unintended side effect rather than a feature.",
 
-"Even though the Automata require as much resources as organic servant races to maintain them, their metallic bodies make them more resilient, therefore, we chose to recruit more Automata as guards and troops. Due to their mindset, training them to use advanced weaponry proves to be somewhat difficult but manageable.",
+"Even though the Automata require as much resources as organic servant races to maintain them, their metallic bodies make them more resilient, therefore, we chose to recruit more Automata as guards and troops. Due to their mindset, training them to use advanced weaponry proves to be somewhat difficult, but manageable.",
 
-"Species 003: ^blue;The Crystals^white;.
+"Species 003: ^#6da4a5;The Crystals^white;.
 
 A species of intelligent crystalline beings originating from the cold planet of Lithia IV. Their bodies grow deep underground in the form of giant self-aware crystals, which are then carved into more humanoid shapes. Our scholars suggest that this race is also artificial, similar to Species 015. Unlike them, however, the Crystals show a greater degree of understanding our universe.",
 
-"Before we intergrated the Crystals in our society, they were extremely territorial and xenophobic. Despite this, after several research agreements, trade deals and the silent removal of non-cooperative individuals, we managed to change their attitude to our alliance. Now we have many talented Crystals among our scholars, and even more of them serve as our elite troops.",
+"Before we intergrated the Crystals in our society, they were extremely territorial and xenophobic. Despite this, after several research agreements, trade deals, and the silent removal of non-cooperative individuals, we managed to change their attitude to our alliance. Now we have many talented Crystals among our scholars, and even more of them serve as our elite troops.",
 
-"Species 022: ^violet;The Ferals^white;.
+"Species 022: ^#98789a;The Ferals^white;.
 
-A primitive species of mammalian creatures with notable vibrant fur and long tails. Their homeworld is Kohria, a radioactive planet covered in dense vegetation. Upon discovery, it was established that the Ferals had only reached the Bronze Age and followed a strict caste system. They also had their own distinct warrior culture.",
+A primitive species of mammalian creatures with notably vibrant fur and long tails. Their homeworld is Kohria, a radioactive planet covered in dense vegetation. Upon discovery, it was established that the Ferals had only reached the Bronze Age and followed a strict caste system. They also had their own distinct warrior culture.",
 
-"Years later, Project Apotheosis was initiated to uplift the Ferals and integrate them into our society. While the Ferals had difficulties grasping various concepts known to K'Rakoths and demonstrated poor discipline, the project was overall sucessful. Since then they perform numerous menial jobs and provide more troops.",
+"Years later, Project Apotheosis was initiated to uplift the Ferals and integrate them into our society. While the Ferals had difficulties grasping various concepts known to K'Rakoths and demonstrated poor discipline, the project was overall sucessful. Since then they perform numerous menial jobs and provide simple footsoldiers.",
 
-"Species 008: ^red;The Worms^white;.
+"Species 008: ^#a56d70;The Worms^white;.
 
-An annelid species from a small planetoid known as AE-1879, colloquially known as Eye of Fortune. Each individual has the features of both males and females and reproduces by dividing their body in two halves or more. Having evolved on a planetoid with a low oxygen concentration, they have enlarged lung-like organs and can hold their breath longer than most races.",
+An annelid species from a small planetoid known as AE-1879, colloquially known as Eye of Fortune. Each individual has the features of both males and females and reproduces by dividing their body into two halves or more. Having evolved on a planetoid with a low oxygen concentration, they have enlarged lung-like organs and can hold their breath longer than most races.",
 
 "The Worms could be characterized as a thrifty and opportunistic people whose society was ruled by a few corporations rather than any conventional government. This was true until they faced large-scale corporate warfare which disrupted order greatly. This allowed us to step in and establish a puppet government which gradually integrated the Worms into our society as well.",
 
@@ -38,3 +38,4 @@ An annelid species from a small planetoid known as AE-1879, colloquially known a
     "price" : 50
   }
 }
+
