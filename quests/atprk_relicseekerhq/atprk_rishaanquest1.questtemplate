@@ -7,7 +7,7 @@
 	"moneyRange": [750, 750],
 	"rewards": [
 		[
-			["rewardbag", 1, {"treasure" : { "level" : 5 }}]
+			["rewardbag", 1, { "level" : 5 }]
 		]
 	],
 
