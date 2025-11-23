@@ -13,7 +13,7 @@
   "glitchDescription" : "Disappointed. I expected more than a boulder trap, to be honest.",
   "humanDescription" : "Rolling boulders come out of this hole.",
   "hylotlDescription" : "A boulder trap? I expected more from the elder race.",
-  "novakidDescription" : "This thing's trowin' rocks at me.",
+  "novakidDescription" : "This thing's throwin' rocks at me.",
 
   "atprk_anneliskDescription" : "Really? Just a boulder? No lasers, no antimatter bombs, no killer drones? Well, that's anticlimactic.",
   "atprk_fenronDescription" : "My people used boulder traps before it was cool.",
@@ -94,3 +94,4 @@
   "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
   "smashParticles" : [ { "count" : 9, "particle" : "potshard" } ]
 }
+
