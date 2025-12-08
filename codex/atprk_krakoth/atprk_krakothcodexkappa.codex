@@ -4,7 +4,7 @@
   "description" : "A diary of a surviving K'Rakoth engineer.",
   "icon" : "atprk_krakothcodexkappaicon.png",
   "contentPages" : [
-  "This is it: the inmates are running the asylum. Whenever you go, you bump into those madmen foaming at the mouth about the Gestalt and its needs. Our former allies are strung along with this insanity and have joined the cult; those who refuse try to flee, becoming the next target for forceful assimilation.
+  "This is it: the inmates are running the asylum. Wherever you go, you bump into those madmen foaming at the mouth about the Gestalt and its needs. Our former allies are strung along with this insanity and have joined the cult; those who refuse try to flee, becoming the next target for forceful assimilation.
 
 And the government? Many prominent officials have ties to the Church of the Growing One, so of course one should not expect them to help.",
 
@@ -14,7 +14,7 @@ The Tek'mellian Federation is on its last tentacles, and everything we've been s
 
 "My only refuge in this grim reality is trusting the grand plan to work out. It's relieving to know people who are not out to get me, the ones who saw it all coming and prepared in advance.
 
-Granted, rebuilding the civilization once we wake up in the future will be an arduous toil, but at this point I've got nothing to lose. If I have to wait out centuries to escape this nightmare, then so be it.",
+Granted, rebuilding our civilization once we wake up in the future will be an arduous task, but at this point I've got nothing to lose. If I have to wait out centuries to escape this nightmare, then so be it.",
 
 "I also know that I'll not stay aimless in this new world far ahead (assuming there will be one left). After all, I haven't spent years tending to agricultural machinery for nothing, and people will always need to eat."
 
@@ -24,3 +24,4 @@ Granted, rebuilding the civilization once we wake up in the future will be an ar
     "price" : 50
   }
 }
+
