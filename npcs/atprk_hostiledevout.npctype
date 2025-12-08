@@ -17,7 +17,7 @@
             "Excited. Oh, you just gave me an excuse!",
             "Hostile. No mercy for intruders!",
             "Eager. For the Lords of the Cosmos!",
-            "Intimidating. You dare sneaking into the sacred place?!",
+            "Intimidating. You dare sneak into this sacred place?!",
             "Aggressive. Get out of our temple, you heretic!",
             "Fearless. Our masters protect us!",
             "Alert. I see an intruder!",
@@ -61,3 +61,4 @@
     ]
   }
 }
+
