@@ -3,7 +3,7 @@
   "level" : 1,
   "price" : 15000,
   "rarity" : "Legendary",
-  "description" : "Open an extradimensional tunnel for a brief amount of time.",
+  "description" : "Opens an extradimensional tunnel for a brief amount of time.",
   "shortdescription" : "Dimensional Tunneller",
   "twoHanded" : true,
   "maxStack" : 1,
@@ -19,3 +19,4 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/atprk_place4drift/atprk_place4drift.config"
 }
+
