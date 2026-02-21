@@ -8,7 +8,8 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":43,
+ "tilecount":44,
+ "tiledversion":"1.11.2",
  "tileheight":80,
  "tileproperties":
     {
@@ -383,6 +384,16 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_codexrestorer",
+         "tilesetDirection":"right"
+        },
+     "43":
+        {
+         "\/\/description":"A large shipping container with the Relic Seeker emblem on it.",
+         "\/\/name":"atprk_relicseekershippingcontainer",
+         "\/\/shortdescription":"Relic Shipping Container",
+         "imagePositionX":"-56",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekershippingcontainer",
          "tilesetDirection":"right"
         },
      "5":
@@ -810,6 +821,16 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "43":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1090,6 +1111,12 @@
          "imageheight":56,
          "imagewidth":40
         },
+     "43":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershippingcontainer.png",
+         "imageheight":48,
+         "imagewidth":120
+        },
      "5":
         {
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay4.png",
@@ -1121,6 +1148,7 @@
          "imagewidth":16
         }
     },
- "tilewidth":64,
- "type":"tileset"
+ "tilewidth":120,
+ "type":"tileset",
+ "version":1.1
 }
