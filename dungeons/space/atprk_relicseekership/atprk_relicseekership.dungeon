@@ -4,7 +4,7 @@
   "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "atprk_relicseekerback1", "atprk_relicseekerback2" ],
+    "anchor" : [ "atprk_relicseekerback1", "atprk_relicseekerback2", "atprk_relicseekerback3" ],
     "gravity" : 80,
     "breathable" : true,
     "maxRadius" : 1000000,
@@ -41,6 +41,14 @@
         [ "doNotCombineWith", [ "atprk_relicseekerback2" ] ]
       ],
       "def" : [ "tmx", "atprk_relicseekerback2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "atprk_relicseekerback3",
+      "rules" : [
+        [ "doNotCombineWith", [ "atprk_relicseekerback3" ] ]
+      ],
+      "def" : [ "tmx", "atprk_relicseekerback3.json" ],
       "chance" : 0.3
     },
     {
