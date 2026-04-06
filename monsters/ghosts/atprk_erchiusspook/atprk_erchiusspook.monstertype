@@ -12,7 +12,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/monster.lua"
+      "/monsters/atprk_monster.lua"
     ],
 
     "behavior" : "monster",
@@ -77,7 +77,7 @@
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
       "knockback" : 20,
-      "statusEffects" : [ ]
+      "statusEffects" : [ "atprk_erchiusdrain" ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],
