@@ -3,16 +3,13 @@
 
   "effectConfig" : {
     "damageDistance" : 15,
-    "maxDps" : 80,
+    "maxDps" : 10,
 
-    "effectMaxErchius" : 5000,
-    "effectDistance" : [25, 50],
+    "effectDistance" : 25,
     "emissionRate" : 25,
     "desaturateAmount" : 100,
     "lightColor" : [180, 90, 180],
-    "multiplyColor" : [0, -150, 0],
-
-    "healRatio" : 1.0
+    "multiplyColor" : [0, -150, 0]
   },
   "defaultDuration" : 5,
 
@@ -24,4 +21,6 @@
 
   "label" : "Haunted",
   "icon" : "/interface/statuses/erchiussickness.png"
+  //"icon" : "/interface/statuses/atprk_erchiusdrain.png" (current icon is placeholder)
+
 }

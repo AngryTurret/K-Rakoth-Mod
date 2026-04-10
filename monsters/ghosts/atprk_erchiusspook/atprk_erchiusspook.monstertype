@@ -12,10 +12,13 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/atprk_monster.lua"
+      "/monsters/atprk_erchiusspook.lua"
     ],
 
     "behavior" : "monster",
+
+    "emissionRange" : 20,
+    "maxEmissionRate" : 100,
 
     "renderLayer" : "foregroundEntity",
 
@@ -72,7 +75,7 @@
 
     "touchDamage" : {
       "poly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
-      "damage" : 10,
+      "damage" : 0,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
