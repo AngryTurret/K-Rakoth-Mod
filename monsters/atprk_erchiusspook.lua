@@ -10,7 +10,6 @@ require "/scripts/tenant.lua"
 require "/scripts/actions/movement.lua"
 require "/scripts/actions/animator.lua"
 
--- Engine callback - called on initialization of entity
 function init()
   self.pathing = {}
 
@@ -49,7 +48,6 @@ function init()
 
   capturable.init()
 
-  -- Listen to damage taken
   self.damageTaken = damageListener("damageTaken", function(notifications)
     for _,notification in pairs(notifications) do
       if notification.healthLost > 0 then
@@ -72,12 +70,6 @@ function init()
       self.shouldDie = true
       status.addEphemeralEffect("monsterdespawn")
     end)
-	
-  message.setHandler("healFromEffect", function(_,_,healAmount)
-      if type(healAmount) == "number" and healAmount > 0 then
-        status.modifyResource("health", healAmount)
-      end
-    end)
 
   local deathBehavior = config.getParameter("deathBehavior")
   if deathBehavior then
@@ -99,6 +91,10 @@ function init()
   monster.setInteractive(config.getParameter("interactive", false))
 
   monster.setAnimationParameter("chains", config.getParameter("chains"))
+
+  self.targetId = config.getParameter("target")
+  self.emissionRange = config.getParameter("emissionRange")
+  self.maxEmissionRate = config.getParameter("maxEmissionRate")
 end
 
 function update(dt)
@@ -120,7 +116,6 @@ function update(dt)
     animator.setAnimationState("damage", "none")
   end
 
-  -- Suppressing touch damage
   if self.suppressDamageTimer then
     monster.setDamageOnTouch(false)
     self.suppressDamageTimer = math.max(self.suppressDamageTimer - dt, 0)
@@ -173,8 +168,21 @@ function update(dt)
 
     setDamageSources()
     setPhysicsForces()
-    monster.setDamageParts(self.damageParts)
     overrideCollisionPoly()
+
+    if self.emissionRange and self.targetId and world.entityExists(self.targetId) then
+      local targetPosition = world.entityPosition(self.targetId)
+      local targetDistance = world.magnitude(targetPosition, mcontroller.position())
+      local emissionDistanceRatio = 1 - math.min(1.0, targetDistance / self.emissionRange)
+      animator.setParticleEmitterEmissionRate("erchius", emissionDistanceRatio * self.maxEmissionRate)
+      if targetDistance < self.emissionRange then
+        animator.setGlobalTag("near", "near.")
+      else
+        animator.setGlobalTag("near", "")
+      end
+    else
+      animator.setGlobalTag("near", "")
+    end
   end
   self.behaviorTick = self.behaviorTick + 1
   
@@ -271,8 +279,6 @@ function overrideCollisionPoly()
   for _,part in pairs(collisionParts) do
     local collisionPoly = animator.partPoly(part, "collisionPoly")
     if collisionPoly then
-      -- Animator flips the polygon by default
-      -- to have it unflipped we need to flip it again
       if not config.getParameter("flipPartPoly", true) and mcontroller.facingDirection() < 0 then
         collisionPoly = poly.flip(collisionPoly)
       end
