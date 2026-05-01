@@ -20,7 +20,5 @@
   "animationConfig" : "atprk_erchiusdrain.animation",
 
   "label" : "Haunted",
-  "icon" : "/interface/statuses/erchiussickness.png"
-  //"icon" : "/interface/statuses/atprk_erchiusdrain.png" (current icon is placeholder)
-
+  "icon" : "/interface/statuses/atprk_erchiusdrain.png"
 }
