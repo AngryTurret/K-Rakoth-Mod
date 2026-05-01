@@ -106,12 +106,17 @@
           ],
           "arcanian" : [
             "Menacing. I'm going to drop you off on a viridescent planet!",
-            "Jeering. Your arcane trickery does not scare me!",
-            "Hostile. You should have minded your business, Arcanian!"
+            "Hostile. You should have minded your business, Arcanian!",
+            "Jeering. Your arcane trickery does not scare me!"
           ],
           "gilten" : [
             "Alert. I knew the Aurea would come for our masters' legacy! Stay back!",
             "Proud. I shall never kneel before the Gilten!",
+            "Jeering. Your arcane trickery does not scare me!"
+          ],
+          "spectwing" : [
+            "Threatening. An abyssborn monster like you must be slain!",
+            "Assertive. Surrender, you evil fae!",
             "Jeering. Your arcane trickery does not scare me!"
           ],
           "avali" : [
