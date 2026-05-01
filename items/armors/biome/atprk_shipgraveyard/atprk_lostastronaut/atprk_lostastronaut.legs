@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "category" : "legwear",
   "description" : "These spacesuit trousers belonged to an unfortunate explorer.",
-  "shortdescription" : "Lost Astronaut's Pants",
+  "shortdescription" : "Ghastronaut's Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

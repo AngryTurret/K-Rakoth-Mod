@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "category" : "backwear",
   "description" : "Is it full of breathable air or toxic gases? There's only one way to find out!",
-  "shortdescription" : "Lost Astronaut's Backpack",
+  "shortdescription" : "Ghastronaut's Backpack",
   "tooltipKind" : "back",
 
   "maleFrames" : "back.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "category" : "chestwear",
   "description" : "A spooky spacesuit chest piece. Might be haunted.",
-  "shortdescription" : "Lost Astronaut's Chest",
+  "shortdescription" : "Ghastronaut's Chest",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
