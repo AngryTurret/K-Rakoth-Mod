@@ -48,5 +48,7 @@
 
 {"op":"add","path":"/supportedContainers/atprk_spongechest","value":"/objects/atprk_sponge/atprk_spongechest/atprk_spongechest.object"},
 
-{"op":"add","path":"/supportedContainers/atprk_ufochest","value":"/objects/atprk_ufo/atprk_ufochest/atprk_ufochest.object"}
+{"op":"add","path":"/supportedContainers/atprk_ufochest","value":"/objects/atprk_ufo/atprk_ufochest/atprk_ufochest.object"},
+
+{"op":"add","path":"/supportedContainers/atprk_highwaychest","value":"/objects/biome/atprk_highway/atprk_highwaychest/atprk_highwaychest.object"}
 ]
