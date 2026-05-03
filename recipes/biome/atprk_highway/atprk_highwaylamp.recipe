@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "atprk_usedtire", "count" : 15 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 1 }
+  ],
+  "output" : { "item" : "atprk_highwaylamp", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all", "mod" ]
+}

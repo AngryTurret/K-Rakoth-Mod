@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "atprk_usedtire", "count" : 30}
+  ],
+  "output" : {
+    "item" : "atprk_highwaydoor",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "doors", "all", "mod" ]
+}

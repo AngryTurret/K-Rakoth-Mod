@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "atprk_usedtire", "count" : 15},
+    { "item" : "whitedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "atprk_highwaytireswan",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all", "mod" ]
+}
