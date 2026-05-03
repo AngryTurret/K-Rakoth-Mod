@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "light",
   "printable" : false,
-  "description" : "A lamp that pretends to be a set of traffic lights.",
+  "description" : "A lamp thats pretending to be a set of traffic lights.",
   "shortdescription" : "Highway Lamp",
   "race" : "generic",
   "price" : 105,
@@ -14,7 +14,7 @@
   "floranDescription" : "Red light! Green light! Red light! Green light!",
   "glitchDescription" : "Pleased. I like this lamp a lot. I wish it had more color options though.",
   "humanDescription" : "I'm not sure if this lamp is meant to be left outside or indoors.",
-  "hylotlDescription" : "There is no way this lamp won't cause any confusion.",
+  "hylotlDescription" : "There is no way this lamp won't cause any confusion, clearly.",
   "novakidDescription" :  "This lamp can switch between two colors just like real traffic lights.",
 
   "lightColor" : [73, 179, 73],
