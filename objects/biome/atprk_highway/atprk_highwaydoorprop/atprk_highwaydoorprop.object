@@ -1,0 +1,31 @@
+{
+  "objectName" : "atprk_highwaydoorprop",
+  "colonyTags" : ["atprk_highway","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A door garnished with a tire of all things.",
+  "shortdescription" : "Highway Door Prop",
+  "race" : "generic",
+
+  "apexDescription" : "What purpose does this tire serve? Is it purely decorative?",
+  "avianDescription" : "A ring of rubber doesn't make a good wreath.",
+  "floranDescription" : "Wheelsss don't belong here! Unless... Hmmm...",
+  "glitchDescription" : "Irked. I don't get why there is a wheel. Otherwise this is a normal door.",
+  "humanDescription" : "A great choice to mark a garage or a car shop.",
+  "hylotlDescription" : "One poorly chosen detail can ruin the whole picture... Especially if it's a random tire.",
+  "novakidDescription" : "A door that wouldn't be outta place in a garage.",
+
+  "inventoryIcon" : "atprk_highwaydoorpropicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_highwaydoorprop.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

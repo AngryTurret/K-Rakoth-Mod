@@ -1,0 +1,60 @@
+{
+  "objectName" : "atprk_highwaylamp",
+  "colonyTags" : ["atprk_highway","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "printable" : false,
+  "description" : "A lamp that pretends to be a set of traffic lights.",
+  "shortdescription" : "Highway Lamp",
+  "race" : "generic",
+  "price" : 105,
+
+  "apexDescription" : "Unless installed near a road, these traffic lights serve no particular purpose.",
+  "avianDescription" : "Utterly pointless traffic lights. At least these can be used as an improvised lamp.",
+  "floranDescription" : "Red light! Green light! Red light! Green light!",
+  "glitchDescription" : "Pleased. I like this lamp a lot. I wish it had more color options though.",
+  "humanDescription" : "I'm not sure if this lamp is meant to be left outside or indoors.",
+  "hylotlDescription" : "There is no way this lamp won't cause any confusion.",
+  "novakidDescription" :  "This lamp can switch between two colors just like real traffic lights.",
+
+  "lightColor" : [73, 179, 73],
+  "lightColorOff" : [200, 40, 40],
+
+  "inventoryIcon" : "atprk_highwaylampicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_highwaylamp.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 3],
+      "animationPosition" : [-7, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_highwaylamp.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "lightPosition" : [0, 3],
+      "animationPosition" : [-7, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "atprk_highwaylamp.png",
+    "fg" : "atprk_highwaylamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ]
+}

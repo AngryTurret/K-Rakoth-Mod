@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_highwaychest",
+  "colonyTags" : ["atprk_highway","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 55,
+  "description" : "A rusty chest with orange markings.",
+  "shortdescription" : "Highway Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A chest marked with orange paint.",
+  "avianDescription" : "A marked chest to keep helpful tools in.",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Excited. What could be inside?",
+  "humanDescription" : "A slightly rusty chest.",
+  "hylotlDescription" : "There is little as exciting as an unopened chest.",
+  "novakidDescription" : "A chest with reflective stripes.",
+
+  "inventoryIcon" : "atprk_highwaychesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_highwaychest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "scripts" : ["/scripts/atprk_container.lua"],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

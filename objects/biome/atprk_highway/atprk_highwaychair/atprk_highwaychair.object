@@ -1,0 +1,47 @@
+{
+  "objectName" : "atprk_highwaychair",
+  "colonyTags" : ["atprk_highway"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A seat for an elaborate makeshift vehicle. Or a living room.",
+  "shortdescription" : "Highway Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 65,
+
+  "apexDescription" : "A heap of car bits remade into a chair.",
+  "avianDescription" : "If this is just a seat, where is the rest of the car?",
+  "floranDescription" : "Gray ssseat ssmells like rubber and gasoline.",
+  "glitchDescription" : "Perplexed. Where did these spare car parts come from?",
+  "humanDescription" : "A seat and a tire, both taken out of an old car.",
+  "hylotlDescription" : "A lazily assembled chair of spare car parts.",
+  "novakidDescription" : "This seat wasn't really meant t' be used like this.",
+
+  "inventoryIcon" : "atprk_highwaychairicon.png",
+  "orientations" : [
+    { 
+      "image" : "atprk_highwaychair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [6, 23],
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "atprk_highwaychair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [-2, 23],
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}

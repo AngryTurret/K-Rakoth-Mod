@@ -1,0 +1,33 @@
+{
+  "objectName" : "atprk_highwaycone",
+  "colonyTags" : ["atprk_highway"],
+  "rarity" : "Common",
+  "description" : "It's just a traffic cone.",
+  "shortdescription" : "Traffic Cone",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "apexDescription" : "A traffic cone.",
+  "avianDescription" : "This lowkey looks like a wizard hat, but it isn't.",
+  "floranDescription" : "Traffic cone, empty like my sssoul.",
+  "glitchDescription" : "Analytical. A striped hollow cone. It's slightly dirty.",
+  "humanDescription" : "A dirty traffic cone.",
+  "hylotlDescription" : "This cone marks a path one should not cross.",
+  "novakidDescription" : "It's pretty easy t' knock over.",
+
+  "inventoryIcon" : "atprk_highwayconeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_highwaycone.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "atprk_highwaybobotsign",
+  "colonyTags" : ["atprk_highway"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A sign that indicates the presense of multiple bobots nearby.",
+  "shortdescription" : "Bobot Warning Sign",
+  "race" : "generic",
+
+  "apexDescription" : "This area is often patrolled by bobots.",
+  "avianDescription" : "Bobots tend to roam around this place, hence the warning.",
+  "floranDescription" : "Ussseless ssign, metal thingsss don't ssscare Floran.",
+  "glitchDescription" : "Warned. According to this sign, bobots frequent this area.",
+  "humanDescription" : "Apparently bobots are a big deal aroung here.",
+  "hylotlDescription" : "If this sign is to be trusted, bobots tend to gather in this spot.",
+  "novakidDescription" : "Roamin' tincans? Whatever, it's nothin' to be afraid of.",
+
+  "inventoryIcon" : "atprk_highwaybobotsignicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_highwaybobotsign.png:<color>",
+      "imagePosition" : [-10, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0,0], [0,1], [0,2], [-1,3], [0,3], [1,3], [-1,4], [0,4], [1,4], [-1,5], [0,5] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_highwaybobotsign.png:<color>",
+      "imagePosition" : [-6, 0],
+
+      "direction" : "right",
+
+      "spaces" : [ [0,0], [0,1], [0,2], [-1,3], [0,3], [1,3], [-1,4], [0,4], [1,4], [1,5], [0,5] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

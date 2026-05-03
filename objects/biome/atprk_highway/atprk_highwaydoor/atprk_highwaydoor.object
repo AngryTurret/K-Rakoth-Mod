@@ -1,0 +1,70 @@
+{
+  "objectName" : "atprk_highwaydoor",
+  "colonyTags" : ["atprk_highway","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "door",
+  "description" : "A door garnished with a tire of all things.",
+  "shortdescription" : "Highway Door",
+  "race" : "generic",
+  "price" : 170,
+
+  "apexDescription" : "What purpose does this tire serve? Is it purely decorative?",
+  "avianDescription" : "A ring of rubber doesn't make a good wreath.",
+  "floranDescription" : "Wheelsss don't belong here! Unless... Hmmm...",
+  "glitchDescription" : "Irked. I don't get why there is a wheel. Otherwise this is a normal door.",
+  "humanDescription" : "A great choice to mark a garage or a car shop.",
+  "hylotlDescription" : "One poorly chosen detail can ruin the whole picture... Especially if it's a random tire.",
+  "novakidDescription" : "A door that wouldn't be outta place in a garage.",
+
+  "inventoryIcon" : "atprk_highwaydooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "atprk_highwaydoor.png:right",
+  
+  "orientations" : [
+    {
+      "image" : "atprk_highwaydoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "atprk_highwaydoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bardoor2_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bardoor2_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_highwaydoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "atprk_highwaytable",
+  "colonyTags" : ["atprk_highway","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "A makeshift table assembled from tires and road signs.",
+  "shortdescription" : "Highway Table",
+  "race" : "generic",
+
+  "apexDescription" : "I don't think this table will last long before it crumbles.",
+  "avianDescription" : "A bunch of junk was recycled into this somewhat comfy table.",
+  "floranDescription" : "Tire got ssstabbed with a whole table. That'sss brutal.",
+  "glitchDescription" : "Baffled. I swear people will do anything to spare some pixels.",
+  "humanDescription" : "Not the cleanest table I've seen.",
+  "hylotlDescription" : "An unsightly garbage table.",
+  "novakidDescription" : "This table's just a bunch o' junk found near a road.",
+
+  "inventoryIcon" : "atprk_highwaytableicon.png",
+  "orientations" : [
+    {
+      "image" : "atprk_highwaytable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "atprk_highwaytable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

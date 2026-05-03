@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_highwaytireswan",
+  "colonyTags" : ["atprk_highway"],
+  "rarity" : "Common",
+  "description" : "An empty swan-shaped planter.",
+  "shortdescription" : "Tire Swan",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "apexDescription" : "Ah, tire swans. I have seen a few of these near appartment buildings.",
+  "avianDescription" : "For something made from an old tire, this little swan is oddly endearing.",
+  "floranDescription" : "Ugh! Why doesss bird taste like rubber?!",
+  "glitchDescription" : "Amused. I've never seen anyone turn a tire into a bird-shaped planter before.",
+  "humanDescription" : "A tire shaped like a swan, unless it's secretly a swan shaped like a tire.",
+  "hylotlDescription" : "This swan didn't turn out too well but I appreciate the effort.",
+  "novakidDescription" : "A cheap makeshift goose statue.",
+
+  "inventoryIcon" : "atprk_highwaytireswanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_highwaytireswan.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
