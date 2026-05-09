@@ -99,29 +99,31 @@
       "kind" : "atprk_boilingoceanback",
       "offset" : [0, 550],
       "parallax" : [9.1, 7.25],
+      "nohueshift" : true,
       "fadePercent" : 0.1
     },
     {
       "kind" : "atprk_boilingoceanback",
       "offset" : [0, 525],
       "parallax" : [9.7, 7.50],
+      "nohueshift" : true,
       "fadePercent" : 0.25
     },
     {
       "kind" : "atprk_boilingoceantowers",
+      "baseCount" : 3,
       "offset" : [0, 375],
       "parallax" : [11, 9],
       "directives" : "",
-      "fadePercent" : 0.4,
-      "nohueshift" : true
+      "fadePercent" : 0.4
     },
     {
       "kind" : "atprk_boilingoceantowers",
+      "baseCount" : 3,
       "offset" : [0, 350],
       "parallax" : [12, 10],
       "directives" : "",
-      "fadePercent" : 0.5,
-      "nohueshift" : true
+      "fadePercent" : 0.5
     },
     {
       "kind" : "midnightclouds",
