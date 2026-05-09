@@ -121,6 +121,8 @@
     }
   ],
 
+  "hueShiftOptions" : [-30, -15, 0, 15, 30],
+
   "mainBlock" : "clay",
   "subBlocks" : [ "blaststone" ],
   "ores" : "surface",
