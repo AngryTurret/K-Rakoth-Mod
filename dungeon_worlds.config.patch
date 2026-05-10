@@ -143,7 +143,7 @@
     "dungeonSurfaceHeight" : 500,
     "ambientLightLevel" : [32, 32, 32],
     "ambientNoises" : "/sfx/environmental/space_loop2.ogg",
-    "musicTrack" : "/music/arctic-constellation1.ogg",
+    "musicTrack" : "/music/atprk_floating_cities.ogg",
     "environmentStatusEffects" : ["biomeairless", "dontstarve"],
     "worldEdgeForceRegions" : "TopAndBottom",
     "biome" : "space"

@@ -140,7 +140,7 @@
 
   "musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/accretion-disc.ogg", "/music/casiopeia.ogg", "/music/desert-exploration2.ogg", "/music/the-eternal-tide.ogg", "/music/vast-immortal-suns.ogg", "/music/inviolate-loop.ogg", "/music/body-electric-loop.ogg", "/music/atlas.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg" ]
+      "tracks" : [ "/music/atprk_floating_cities.ogg", "/music/accretion-disc.ogg", "/music/casiopeia.ogg", "/music/desert-exploration2.ogg", "/music/the-eternal-tide.ogg", "/music/vast-immortal-suns.ogg", "/music/inviolate-loop.ogg", "/music/body-electric-loop.ogg", "/music/atlas.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg" ]
     },
     "night" : {
       "tracks" : [ "/music/nomads.ogg", "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg", "/music/mercury.ogg", "/music/epsilon-indi.ogg", "/music/forsaken-grotto.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg" ]
