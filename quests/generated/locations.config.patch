@@ -870,6 +870,10 @@
 		"name" : "abandoned shipwreck",
 		"tags" : [ "generic", "friendly", "largespace" ]
 	  },
+	  "atprk_geodemoanest" : {
+		"name" : "geode nest",
+		"tags" : [ "generic", "friendly" ]
+	  },
 	  "atprk_smallrishaanbeacon1" : {
 		"name" : "Ri'shaan's Beacon",
 		"tags" : [ "generic", "friendly" ]
