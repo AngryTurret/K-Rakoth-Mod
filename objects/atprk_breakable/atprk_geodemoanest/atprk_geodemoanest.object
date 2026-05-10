@@ -1,0 +1,43 @@
+{
+  "objectName" : "atprk_geodemoanest",
+  "colonyTags" : ["geode","misc"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "price" : 0,
+  "printable" : false,
+  "description" : "A rocky nest surrounding a huge shiny egg.",
+  "shortdescription" : "Geomoa's Nest",
+  "race" : "generic",
+
+  "apexDescription" : "A rare geomoa egg in a hardy nest.",
+  "avianDescription" : "These geode shards around the nest discourage egg-eating predators.",
+  "floranDescription" : "Rocky egg, big but not yummy. What'ss the point then?",
+  "glitchDescription" : "Shifty. Will anyone notice if, say, this pretty little egg disappears?...",
+  "humanDescription" : "Birds love hoarding shiny stuff, don't they?",
+  "hylotlDescription" : "A large bird's nest built from twigs, pebbles and crystal gems.",
+  "novakidDescription" : "A geode-like egg! What a sight!",
+
+  "inventoryIcon" : "atprk_geodemoanesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_geodemoanest.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "atprk_geodemoaegg", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "atprk_geodemoaegg", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}
