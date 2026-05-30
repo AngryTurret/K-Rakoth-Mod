@@ -1,0 +1,29 @@
+{
+  "name" : "atprk_bluecactus",
+  "description" : "A spiky cactus.",
+  "shortdescription" : "A spiky cactus.",
+  "floranDescription" : "Prickly cactusss.",
+  "glitchDescription" : "Careful. A pointy cactus.",
+  "shapes" : [
+    {
+      "base" : "atprk_bluecactus1.png"
+    },
+
+    {
+      "base" : "atprk_bluecactus2.png"
+    },
+
+    {
+      "base" : "atprk_bluecactus3.png"
+    },
+
+    {
+      "base" : "atprk_bluecactus4.png"
+    },
+
+    {
+      "base" : "atprk_bluecactus5.png"
+    }
+
+  ]
+}
