@@ -1,0 +1,8 @@
+{
+  "name" : "atprk_drybluegrass_b",
+  "description" : "Dry, brittle grass.",
+  "shortdescription" : "Dry grass.",
+  "floranDescription" : "Dead grass.",
+  "glitchDescription" : "Statement. Dry grass.",
+  "images" : [ "atprk_drybluegrass6.png", "atprk_drybluegrass7.png", "atprk_drybluegrass8.png", "atprk_drybluegrass9.png", "atprk_drybluegrass10.png" ]
+}
