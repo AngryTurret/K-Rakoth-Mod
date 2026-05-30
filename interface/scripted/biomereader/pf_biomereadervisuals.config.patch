@@ -147,6 +147,14 @@
     },
     {
         "op": "add",
+        "path": "/atprk_highway",
+        "value": {
+            "description": "A Lonesome Road",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
         "path": "/atprk_hungergrove",
         "value": {
             "description": "Predatory Vegetation",
@@ -214,7 +222,7 @@
         "op": "add",
         "path": "/atprk_chthoniccomplex",
         "value": {
-            "description": "Industrialized Ruins",
+            "description": "Industrial Ruins",
             "icon": ""
         }
     },
@@ -288,6 +296,111 @@
         "path": "/atprk_shatteredshield",
         "value": {
             "description": "A Futile Effort",
+            "icon": ""
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_biomass",
+        "value": {
+            "description": "The Land That Bleeds",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_fireflyhive",
+        "value": {
+            "description": "A Luminous Warren",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_floralglade",
+        "value": {
+            "description": "Blooming Fields",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_fungalquagmire",
+        "value": {
+            "description": "Peat and Mushrooms",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_geomechanical",
+        "value": {
+            "description": "Metallic Gemstones",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_lunarcraters",
+        "value": {
+            "description": "Haunted Weald",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_paraspritenest",
+        "value": {
+            "description": "Invasive Species",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_prismaticmine",
+        "value": {
+            "description": "Shiny Hollows",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_rainbowlagoon",
+        "value": {
+            "description": "Colorful Haven",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_sandbeach",
+        "value": {
+            "description": "A Peaceful Coast",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_spongeylands",
+        "value": {
+            "description": "Squishy Sponges",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_tarvalley",
+        "value": {
+            "description": "Decaying Bones",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_toxicbeach",
+        "value": {
+            "description": "A Noxious Coast",
             "icon": ""
         }
     }
