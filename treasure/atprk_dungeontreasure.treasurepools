@@ -29,7 +29,7 @@
       "pool" : [
         {"weight" : 0.70, "pool" : "valuableTreasure"},
         {"weight" : 0.30, "pool" : "goodWeapon"},
-        {"weight" : 0.01, "item" : [ "atprk_glitchpainting1", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_glitchpainting1", 1]},
         {"weight" : 0.02, "item" : [ "plaguemasterhead", 1]},
         {"weight" : 0.02, "item" : [ "plumeknighthead", 1]},
         {"weight" : 0.02, "item" : [ "soulguise", 1]}
@@ -110,7 +110,7 @@
       "pool" : [
         {"weight" : 0.60, "pool" : "valuableTreasure"},
         {"weight" : 0.20, "pool" : "goodWeapon"},
-        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece1", 1]},
+        {"weight" : 0.02, "item" : [ "atprk-krakothartpiece1", 1]},
         {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 3]},
         {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 5]}
@@ -190,7 +190,7 @@
       "pool" : [
         {"weight" : 0.50, "pool" : "valuableTreasure"},
         {"weight" : 0.50, "pool" : "goodWeapon"},
-        {"weight" : 0.01, "item" : [ "atprk_apexufoblueprint", 1]},
+        {"weight" : 0.02, "item" : [ "atprk_apexufoblueprint", 1]},
         {"weight" : 0.05, "item" : [ "atprk_hyperpixel", 1]},
         {"weight" : 0.20, "item" : [ "beachcreeperhead", 1]},
         {"weight" : 0.20, "item" : [ "beachcreeperchest", 1]},
@@ -263,7 +263,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.60, "pool" : "valuableTreasure"},
-        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece2", 1]},
+        {"weight" : 0.02, "item" : [ "atprk-krakothartpiece2", 1]},
         {"weight" : 0.05, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
         {"weight" : 0.20, "item" : [ "atprk_hyperpixel", 3]},
         {"weight" : 0.02, "item" : [ "atprk_hyperpixel", 6]}
@@ -358,7 +358,7 @@
       "pool" : [
         {"weight" : 0.60, "pool" : "valuableTreasure"},
         {"weight" : 0.20, "pool" : "goodWeapon"},
-        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece3", 1]},
+        {"weight" : 0.02, "item" : [ "atprk-krakothartpiece3", 1]},
         {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.20, "item" : [ "atprk_eldertech", 3]},
         {"weight" : 0.02, "item" : [ "atprk_thinkingdrone", 1]},
@@ -386,7 +386,7 @@
   ],
 
   // ================================
-  //       Submerged Citadel
+  //       Sunken Citadel
   // ================================
 
     "atprk_krakothcitadelTreasure" : [
@@ -415,7 +415,7 @@
       "pool" : [
         {"weight" : 0.60, "pool" : "valuableTreasure"},
         {"weight" : 0.20, "pool" : "goodWeapon"},
-        {"weight" : 0.01, "item" : [ "atprk-krakothartpiece4", 1]},
+        {"weight" : 0.02, "item" : [ "atprk-krakothartpiece4", 1]},
         {"weight" : 0.05, "item" : [ "atprk_krakothtextcorrupted", 1]},
         {"weight" : 0.01, "item" : [ "atprk_krakothtextcorruptedgold", 1]},
         {"weight" : 0.20, "item" : [ "atprk_eldertech", 3]},
@@ -739,4 +739,3 @@
   ]
 
 }
-
