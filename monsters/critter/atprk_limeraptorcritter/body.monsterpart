@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_limeraptorcritter",
+  "category" : "atprk_limeraptorcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_jackalopecritter",
+  "category" : "atprk_jackalopecritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodynobright" : "bodynobright.png"
+  }
+}

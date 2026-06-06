@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_lemonraptorcritter",
+  "category" : "atprk_lemonraptorcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}
