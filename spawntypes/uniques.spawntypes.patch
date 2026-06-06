@@ -176,7 +176,7 @@
         "region" : "all",
         "time" : "all"
       },
-      "spawnChance" : 0.01,
+      "spawnChance" : 0.0075,
       "monsterType" : [
         [0.99, "atprk_xenoprobe"],
         [0.01, "atprk_xenoproberare"]

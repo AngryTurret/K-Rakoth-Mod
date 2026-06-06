@@ -37,6 +37,57 @@
 	"op" : "add",
 	"path" : "/-",
 	"value" : {
+	  "name" : "atprk_orangeraptorcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_orangeraptorcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_lemonraptorcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_lemonraptorcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_limeraptorcritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_limeraptorcritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
 	  "name" : "atprk_fenronscabcritter",
 	  "spawnParameters" : {
 		"area" : "surface",
@@ -334,6 +385,23 @@
       },
       "spawnChance" : 0.06,
       "monsterType" : "atprk_babyparaspritecritter",
+      "monsterParameters" : {
+        "aggressive": false
+      }
+    }
+  },
+  {
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	  "name" : "atprk_jackalopecritter",
+	  "spawnParameters" : {
+		"area" : "surface",
+        "region" : "exposed",
+        "time" : "all"
+      },
+      "spawnChance" : 0.02,
+      "monsterType" : "atprk_jackalopecritter",
       "monsterParameters" : {
         "aggressive": false
       }
