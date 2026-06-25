@@ -3,8 +3,9 @@
   "colonyTags" : ["atprk_krakoth","atprk_4d","storage","commerce"],
   "rarity" : "Legendary",
   "objectType" : "container",
-  "tooltipKind" : "container",
-  "description" : "A more compact version of the Extradimensional Crate.",
+  "tooltipKind" : "eppaugment",
+  "tooltipFields" : {"instructionLabel":""},
+  "description" : "A more compact version of the Extradimensional Crate. ^red;Deletes contents when broken.^reset;",
   "shortdescription" : "Extradimensional Box",
   "race" : "generic",
   "printable" : false,
@@ -13,7 +14,7 @@
   "health" : 1.5,
 
   "apexDescription" : "A very efficient usage of third- and fourth-dimensional space.",
-  "avianDescription" : "I wonder if I can make four-dimensional storage even smaller. I could carry it around!",
+  "avianDescription" : "I wonder if I can make four-dimensional storage even smaller. Maybe I could carry it around then!",
   "floranDescription" : "It's bigger on the inssside!",
   "glitchDescription" : "Surprised. This container's capacity is comparable to a large cargo crate.",
   "humanDescription" : "Ah, a nice little storage container that can keep a lot of stuff in it.",
@@ -57,13 +58,14 @@
     }
   ],
 
-  "scripts" : ["/scripts/atprk_container.lua"],
+  "scripts" : ["/scripts/atprk_container.lua", "/scripts/atprk_4Dstorage.lua"],
 
   "openSounds" : [ "/sfx/objects/mechbeacon_pulse2.ogg" ],
   "closeSounds" : [ "/sfx/objects/mechbeacon_pulse1.ogg" ],
   "slotCount" : 64,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
-
+  "autoCloseCooldown" : 3600,
+  "inputNodes" : [ [-1, 0.5] ],
+  "outputNodes" : [ [1, 1] ]
 }
