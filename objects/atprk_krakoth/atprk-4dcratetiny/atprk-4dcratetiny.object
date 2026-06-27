@@ -12,6 +12,7 @@
   "race" : "generic",
   "printable" : false,
   "health" : 1.5,
+  "radioMessagesOnPickup" : [ "atprk_4dcratemessage" ],
 
   "apexDescription" : "This is clearly getting out of hand.",
   "avianDescription" : "At least it won't take much space itself.",

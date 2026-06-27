@@ -12,6 +12,7 @@
   "category" : "storage",
   "price" : 75,
   "health" : 1.5,
+  "radioMessagesOnPickup" : [ "atprk_4dcratemessage" ],
 
   "apexDescription" : "A very efficient usage of third- and fourth-dimensional space.",
   "avianDescription" : "I wonder if I can make four-dimensional storage even smaller. Maybe I could carry it around then!",

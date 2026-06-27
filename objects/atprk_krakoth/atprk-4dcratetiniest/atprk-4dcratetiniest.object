@@ -12,6 +12,7 @@
   "race" : "generic",
   "printable" : false,
   "health" : 1.5,
+  "radioMessagesOnPickup" : [ "atprk_4dcratemessage" ],
 
   "apexDescription" : "At this point it does not even look all that efficient.",
   "avianDescription" : "I cannot believe how small it is...",

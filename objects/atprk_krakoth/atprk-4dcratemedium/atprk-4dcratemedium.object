@@ -12,6 +12,7 @@
   "category" : "storage",
   "price" : 220,
   "health" : 2.5,
+  "radioMessagesOnPickup" : [ "atprk_4dcratemessage" ],
 
   "apexDescription" : "A four-dimensional crate? But I thought the fourth dimension was temporal, not spatial!",
   "avianDescription" : "Is this a four-dimensional container? By Kluex, how is this possible?",
