@@ -167,6 +167,14 @@
         "text" : "It looks like this alien device grants protection from spatial distortion. Keep in mind that it will likely work for a limited time only."
       }
   },
+  {
+    "op": "add",
+      "path": "/atprk_4dcratemessage",
+      "value": {
+        "type" : "tutorial",
+        "text" : "Thanks to their unusual properties, extradimensional containers can be linked together, thus creating a shared storage space. Keep this in mind once you unlock Wire Mode."
+      }
+  },
 
   // ------- Miscellaneous -------
   {
