@@ -18,7 +18,7 @@ This mod adds dungeons, biomes and lore related to **K'Rakoths**, an old aquatic
 - **The Terraforming Laboratory**, an isolated research complex where K'Rakoths once tried to uncover every secret behind the mysterious art of terraforming. Nobody knows if they ever succeeded, but you can find out once you manage to get in.
 - **The Sunken Citadel**, a massive fortified structure hidden deep below the waves of Boiling planets. Even if its builders are long gone, an army of security robots still protects it from intruders. You will need the Distortion Sphere tech to traverse its many rooms.
 - New space encounters such as friendly **Relic Seeker Ships**, hostile **Devout Ships**, and rarely seen **Dimensional Tunnels**. Can you find them all?
-- 
+
 ## Mini-Biomes
 - **Radiotrophic**, an irradiated forest of short but durable trees. Spawns on Alien planets.
 - **Hunger Grove**, an overgrown terrain infested by countless predatory plants. Spawns on Jungle planets.
