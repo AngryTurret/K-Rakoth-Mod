@@ -403,5 +403,22 @@
             "description": "A Noxious Coast",
             "icon": ""
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/atprk_coldashworld",
+        "value": {
+            "description": "Chilling Barrens",
+            "icon": ""
+        }
+    },
+    {
+        "op": "add",
+        "path": "/atprk_lushashworld",
+        "value": {
+            "description": "Forest of Pale Trees",
+            "icon": ""
+        }
     }
 ]

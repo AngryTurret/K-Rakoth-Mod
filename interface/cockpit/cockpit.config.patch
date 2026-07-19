@@ -142,6 +142,9 @@
    {"op": "add","path": "/namesList/atprk_radiotrophic","value": {"word": "atprk_radiotrophic","friendlyWord": "Radiotrophic"}},
    {"op": "add","path": "/namesList/atprk_shipgraveyard","value": {"word": "atprk_shipgraveyard","friendlyWord": "Ship Graveyard"}},
 
+   {"op": "add","path": "/namesList/atprk_coldashworld","value": {"word": "atprk_coldashworld","friendlyWord": "Volcanic Winter"}},
+   {"op": "add","path": "/namesList/atprk_lushashworld","value": {"word": "atprk_lushashworld","friendlyWord": "Ashy Woods"}},
+
     { "op": "add", "path": "/displayDungeons/atprk_glitchdevouttower", "value": 
     {"description" : "Possibly a Glitch religious structure. Unusual signals detected.", "icon" : "/interface/cockpit/dungeons/atprk_glitchdevouttower.png" }
     },
