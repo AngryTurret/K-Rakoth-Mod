@@ -84,5 +84,7 @@
   ],
   "breakDropOptions" : [
     [ [ "atprk_dontpickthisup2", 1, { } ] ]
-  ]
+  ],
+
+  "uniqueId" : "atprk_infinitemazegatekeeper"
 }
