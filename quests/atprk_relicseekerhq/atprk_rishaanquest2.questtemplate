@@ -27,6 +27,12 @@
 					"image": "/objects/atprk_relicseeker/atprk_relicseekercolt/atprk_coltportrait1.png"
 				}],
 				"title": "Colt"
+			},
+			"questFailed": {
+				"portrait": [{
+					"image": "/objects/atprk_ancient/atprk_infinitemazegatekeeper/atprk_gatekeeperportrait.png"
+				}],
+				"title": "The Keeper"
 			}
 		},
 		"requireTurnIn": true,
@@ -44,6 +50,12 @@
 				"count": 1,
 				"consume": false
 			}
-		]
+		],
+		"failConditions": [{
+			"type" : "proximity",
+			"entityUid" : "atprk_infinitemazegatekeeper",
+			"range" : 10,
+			"failureText" : "The kind of knowledge you are seeking is forbidden. I urge you to stop before it is too late."
+		}]
 	}
 }

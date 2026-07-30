@@ -26,6 +26,12 @@
 					"image": "/objects/atprk_relicseeker/atprk_relicseekercolt/atprk_coltportrait3.png"
 				}],
 				"title": "Colt"
+			},
+			"questFailed": {
+				"portrait": [{
+					"image": "/objects/atprk_ancient/atprk_infinitemazegatekeeper/atprk_gatekeeperportrait.png"
+				}],
+				"title": "The Keeper"
 			}
 		},
 
@@ -36,6 +42,12 @@
 			"itemName": "tentacleblock",
 			"count": 10,
 			"consume": true
+		}],
+		"failConditions": [{
+			"type" : "proximity",
+			"entityUid" : "atprk_infinitemazegatekeeper",
+			"range" : 10,
+			"failureText" : "You are treading a thin line. Whatever reasoning you may have, the risk is not worth it. Believe me."
 		}]
 	}
 }
