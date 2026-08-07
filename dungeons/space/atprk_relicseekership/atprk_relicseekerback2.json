@@ -1,4 +1,5 @@
 { "backgroundcolor":"#000000",
+ "compressionlevel":-1,
  "height":100,
  "infinite":false,
  "layers":[
@@ -7,6 +8,7 @@
          "data":"eJzt2mFqwjAYgOFeZ7fZYXYB77NeYn+8lhQsjJCY2qT52u354IEhdVZfMuPqfZqmOwAAAAAAAAAAAAAAAAAAAAAcqDTR54W+9On7URH9HGjr+10R\/Rxo6\/vu+rXez6M00efFvm5bZ\/09PwNFv2ZX0jr6nlvr6HturRN9\/hzbd5nls09tL9yLz1kxfW9Pc+HnPXL31\/d8fdf3zVrP9Dh9z9c33Qvt7TtP+l6lb6+\/zfrG9V3XW9p37kzfmL7vrN9Xe7Da\/kzf2L5b9s+lY9L33FJf1x9i+ub65Bq96psel962PNbXU\/RrdwU95nffLfukrX1zt1m\/MX1H\/v\/K+h3f93MQ63ds3+jz5\/i+I68NukaoL3378n\/t+X6k71ReS26OuA\/6oi\/6AgAAAAAAAAAAAAAAAAAAwF\/zAAFptiY=",
          "encoding":"base64",
          "height":100,
+         "id":1,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
@@ -20,6 +22,7 @@
          "data":"eJzt2dFtwjAUQNGs0\/26VaFD9KNLsEzFhyUUxfZznDjFOkd6EhI2H1wMRFkWAAAAAAAAAAAAAAAAAAAAADjXIzO3HfNTGK6R6\/u9lHvl5iszGl8j0jcpPU5TO9+M1dp36zt33bd2xhmnpW\/Oum9kPWMc\/fsbOb\/Odr9ct+ikvvel3uR1TW9fjWN6+762K816za1x\/fo5fWOO7Bs5t5Hzey\/s07dNb990TfM5cPSN6+37nN\/Bo2+cvnPTd276zk3fuek7t3fsm67JqHvHvmmo03du+s5N37npO7fetlfcX\/D\/Oa63b\/TefuSeYete6o7qO3r0jTmi71XD+Wrv+\/Mz8LExj8Jr7tnDeWpnauvc1+zZwzX0nZu+c9MXAAAAAAAAAAAAAAAAAAAA\/r8\/jXB3Sw==",
          "encoding":"base64",
          "height":100,
+         "id":2,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -31,6 +34,7 @@
         {
          "color":"#5555ff",
          "draworder":"topdown",
+         "id":3,
          "name":"mods",
          "objects":[
                 {
@@ -1335,6 +1339,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":4,
          "name":"objects",
          "objects":[
                 {
@@ -1383,18 +1388,6 @@
                  "visible":true,
                  "width":16,
                  "x":696,
-                 "y":456
-                }, 
-                {
-                 "gid":5683,
-                 "height":40,
-                 "id":2190,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":912,
                  "y":456
                 }, 
                 {
@@ -1580,6 +1573,18 @@
                  "width":16,
                  "x":880,
                  "y":368
+                }, 
+                {
+                 "gid":9312,
+                 "height":40,
+                 "id":2322,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":912,
+                 "y":456
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1590,6 +1595,7 @@
         {
          "color":"#ffff00",
          "draworder":"topdown",
+         "id":5,
          "name":"wiring - lights & guns",
          "objects":[],
          "opacity":1,
@@ -1601,6 +1607,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":6,
          "name":"monsters & npcs",
          "objects":[
                 {
@@ -1633,6 +1640,7 @@
         {
          "color":"#00ffff",
          "draworder":"topdown",
+         "id":7,
          "name":"wiring - locked door",
          "objects":[],
          "opacity":1,
@@ -1643,6 +1651,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":8,
          "name":"outside the map",
          "objects":[],
          "opacity":1,
@@ -1653,6 +1662,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":9,
          "name":"anchors etc",
          "objects":[
                 {
@@ -1682,6 +1692,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":10,
          "name":"items",
          "objects":[],
          "opacity":1,
@@ -1690,10 +1701,11 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2322,
+ "nextlayerid":11,
+ "nextobjectid":2323,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.1.1",
+ "tiledversion":"1.11.2",
  "tileheight":8,
  "tilesets":[
         {
@@ -1858,6 +1870,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1,
+ "version":1.1,
  "width":120
 }
