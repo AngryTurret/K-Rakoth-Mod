@@ -1,0 +1,57 @@
+{
+  "objectName" : "atprk_relicseekershiphatch",
+  "colonyTags" : ["atprk_relicseeker","door"],
+  "rarity" : "Uncommon",
+  "category" : "door",
+  "price" : 165,
+  "description" : "A decorated space train hatch.",
+  "shortdescription" : "Relic Seeker Ship Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "I suppose the brass tubes were mounted for shielding.",
+  "avianDescription" : "Simple and straightforward, hopefully not prone to getting stuck too often.",
+  "floranDescription" : "Are these brass pipesss going through the hatch?",
+  "glitchDescription" : "Neutral. A somewhat rustic space train hatch.",
+  "humanDescription" : "A fairly average spaceship hatch with green stripes.",
+  "hylotlDescription" : "The vision is evident, yet the craftsmanship is not quite there.",
+  "novakidDescription" : "An ol' reliable space train airlock hatch.",
+
+  "inventoryIcon" : "atprk_relicseekershiphatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_relicseekershiphatch.png:default",
+      "imagePosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "atprk_relicseekershiphatch.png"
+  },
+  "animationPosition" : [-16, -20],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
+}
