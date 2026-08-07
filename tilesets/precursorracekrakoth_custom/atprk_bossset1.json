@@ -8,7 +8,8 @@
  "margin":0,
  "name":"atprk_bossstuff",
  "spacing":0,
- "tilecount":6,
+ "tilecount":11,
+ "tiledversion":"1.11.2",
  "tileheight":80,
  "tileproperties":
     {
@@ -29,6 +30,16 @@
          "imagePositionX":"-16",
          "imagePositionY":"-8",
          "object":"atprk_cryotombblaster"
+        },
+     "10":
+        {
+         "\/\/description":"A block of sticky slime. Something stirs beneath the surface.",
+         "\/\/name":"atprk_4x4box5",
+         "\/\/shortdescription":"Breakable Slime Block",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_4x4box5",
+         "tilesetDirection":"right"
         },
      "2":
         {
@@ -67,6 +78,46 @@
          "imagePositionY":"-16",
          "object":"atprk_cryotombhydro1",
          "tilesetDirection":"right"
+        },
+     "6":
+        {
+         "\/\/description":"A solid stone block. It will take a moment to break it down.",
+         "\/\/name":"atprk_4x4box1",
+         "\/\/shortdescription":"Breakable Stone Block",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_4x4box1",
+         "tilesetDirection":"right"
+        },
+     "7":
+        {
+         "\/\/description":"A solid stone block. It will take a moment to break it down.",
+         "\/\/name":"atprk_4x4box2",
+         "\/\/shortdescription":"Breakable Stone Block",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_4x4box2",
+         "tilesetDirection":"right"
+        },
+     "8":
+        {
+         "\/\/description":"A block of cooling obsidian. Tough stuff.",
+         "\/\/name":"atprk_4x4box3",
+         "\/\/shortdescription":"Breakable Obsidian Block",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_4x4box3",
+         "tilesetDirection":"right"
+        },
+     "9":
+        {
+         "\/\/description":"A block of sticky slime. Something stirs beneath the surface.",
+         "\/\/name":"atprk_4x4box4",
+         "\/\/shortdescription":"Breakable Slime Block",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_4x4box4",
+         "tilesetDirection":"right"
         }
     },
  "tilepropertytypes":
@@ -88,6 +139,16 @@
          "imagePositionX":"string",
          "imagePositionY":"string",
          "object":"string"
+        },
+     "10":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "2":
         {
@@ -126,6 +187,46 @@
          "imagePositionY":"string",
          "object":"string",
          "tilesetDirection":"string"
+        },
+     "6":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "7":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "8":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "9":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
@@ -140,6 +241,12 @@
         {
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombblaster_orientation1.png",
          "imageheight":16,
+         "imagewidth":32
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_4x4box5.png",
+         "imageheight":32,
          "imagewidth":32
         },
      "2":
@@ -165,8 +272,33 @@
          "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydro1.png",
          "imageheight":48,
          "imagewidth":144
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_4x4box1.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_4x4box2.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_4x4box3.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_4x4box4.png",
+         "imageheight":32,
+         "imagewidth":32
         }
     },
  "tilewidth":144,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }

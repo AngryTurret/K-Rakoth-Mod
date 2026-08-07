@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":44,
+ "tilecount":46,
  "tiledversion":"1.11.2",
  "tileheight":80,
  "tileproperties":
@@ -394,6 +394,26 @@
          "imagePositionX":"-56",
          "imagePositionY":"0",
          "object":"atprk_relicseekershippingcontainer",
+         "tilesetDirection":"right"
+        },
+     "44":
+        {
+         "\/\/description":"A decorated space train door.",
+         "\/\/name":"atprk_relicseekershipdoor",
+         "\/\/shortdescription":"Relic Seeker Ship Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"atprk_relicseekershipdoor",
+         "tilesetDirection":"right"
+        },
+     "45":
+        {
+         "\/\/description":"A decorated space train hatch.",
+         "\/\/name":"atprk_relicseekershiphatch",
+         "\/\/shortdescription":"Relic Seeker Ship Hatch",
+         "imagePositionX":"-16",
+         "imagePositionY":"-24",
+         "object":"atprk_relicseekershiphatch",
          "tilesetDirection":"right"
         },
      "5":
@@ -831,6 +851,26 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "44":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "45":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1116,6 +1156,18 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershippingcontainer.png",
          "imageheight":48,
          "imagewidth":120
+        },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershipdoor.png",
+         "imageheight":40,
+         "imagewidth":48
+        },
+     "45":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershiphatch.png",
+         "imageheight":44,
+         "imagewidth":40
         },
      "5":
         {
