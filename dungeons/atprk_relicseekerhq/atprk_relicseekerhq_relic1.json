@@ -1,12 +1,14 @@
 { "backgroundcolor":"#000000",
+ "compressionlevel":-1,
  "height":10,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJwTZmBgECaA1+BgI2NNIjC6OdjUNBKB0c3BpW6fEgQfYsDEuMzBpo4Yc5D9CDPnCBJuxGE+ujklUIzLPWuJwOjuwaamEYnGF87o7kHHJURgdPdgi3dizUGOL2wAAGJSUrg=",
+         "data":"eJwTZmBgECaA1+BgI2NNIjC6OdjUNBKB0c3Bpe6XEgQfYsDEuMzBpo4Yc5D9CDPnCBJuxGE+ujklUIzLPWuJwOjuwaamEYnGF87o7kHHJURgdPdgi3dizUGOL2wAABOQU6g=",
          "encoding":"base64",
          "height":10,
+         "id":1,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
@@ -20,6 +22,7 @@
          "data":"eJwrYWBgKCECH4JiXPKvicQwc4hVT2tz1kAxpeaMYsowMWmwBCm+cMkDAGXLlGs=",
          "encoding":"base64",
          "height":10,
+         "id":2,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -31,6 +34,7 @@
         {
          "color":"#5555ff",
          "draworder":"topdown",
+         "id":3,
          "name":"mods",
          "objects":[
                 {
@@ -126,6 +130,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":4,
          "name":"objects",
          "objects":[
                 {
@@ -139,18 +144,6 @@
                  "width":8,
                  "x":64,
                  "y":80
-                }, 
-                {
-                 "gid":4064,
-                 "height":40,
-                 "id":923,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":64,
-                 "y":72
                 }, 
                 {
                  "gid":4852,
@@ -177,7 +170,7 @@
                  "y":16
                 }, 
                 {
-                 "gid":8822,
+                 "gid":8847,
                  "height":48,
                  "id":930,
                  "name":"",
@@ -213,7 +206,7 @@
                  "y":16
                 }, 
                 {
-                 "gid":8862,
+                 "gid":8899,
                  "height":16,
                  "id":933,
                  "name":"",
@@ -259,6 +252,18 @@
                  "width":26,
                  "x":96,
                  "y":72
+                }, 
+                {
+                 "gid":8845,
+                 "height":40,
+                 "id":942,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":64,
+                 "y":72
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -269,6 +274,7 @@
         {
          "color":"#ffff00",
          "draworder":"topdown",
+         "id":5,
          "name":"wiring - lights & guns",
          "objects":[],
          "opacity":1,
@@ -280,6 +286,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":6,
          "name":"monsters & npcs",
          "objects":[],
          "opacity":1,
@@ -291,6 +298,7 @@
         {
          "color":"#00ffff",
          "draworder":"topdown",
+         "id":7,
          "name":"wiring - locked door",
          "objects":[],
          "opacity":1,
@@ -301,6 +309,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":8,
          "name":"outside the map",
          "objects":[],
          "opacity":1,
@@ -311,6 +320,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":9,
          "name":"anchors etc",
          "objects":[],
          "opacity":1,
@@ -321,6 +331,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":10,
          "name":"items",
          "objects":[],
          "opacity":1,
@@ -329,10 +340,11 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":941,
+ "nextlayerid":11,
+ "nextobjectid":943,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.1.1",
+ "tiledversion":"1.11.2",
  "tileheight":8,
  "tilesets":[
         {
@@ -406,7 +418,8 @@
         {
          "firstgid":5843,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/furniture.json"
-        }, 
+        },
+    
         {
          "firstgid":6197,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/light.json"
@@ -476,19 +489,20 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk_relicseekerset1.json"
         }, 
         {
-         "firstgid":8822,
+         "firstgid":8847,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-glitchdevoutset1.json"
-        }, 
+        },
+    
         {
-         "firstgid":8848,
+         "firstgid":8885,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8894,
+         "firstgid":8954,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1,
+ "version":1.1,
  "width":18
 }
