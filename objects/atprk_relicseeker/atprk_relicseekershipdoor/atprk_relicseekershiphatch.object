@@ -14,7 +14,7 @@
   "glitchDescription" : "Neutral. A somewhat rustic space train hatch.",
   "humanDescription" : "A fairly average spaceship hatch with green stripes.",
   "hylotlDescription" : "The vision is evident, yet the craftsmanship is not quite there.",
-  "novakidDescription" : "An ol' reliable space train airlock hatch.",
+  "novakidDescription" : "A reliable ol' space train airlock hatch.",
 
   "inventoryIcon" : "atprk_relicseekershiphatchicon.png",
   "orientations" : [
