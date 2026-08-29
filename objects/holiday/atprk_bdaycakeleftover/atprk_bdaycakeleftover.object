@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_bdaycakeleftover",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "description" : "A leftover cake slice.",
+  "shortdescription" : "Birthday Cake Leftovers",
+  "printable" : false,
+  "race" : "generic",
+  "price" : 125,
+
+  "apexDescription" : "So pink... Must be a strawberry flavor.",
+  "avianDescription" : "Whoah, the cake's almost gone! We got a fast eater here!",
+  "floranDescription" : "Hey, leave sssome for me!",
+  "glitchDescription" : "Stumped. The cake's layers are somehow perfectly even. I almost don't want to eat it.",
+  "humanDescription" : "There's not much left on the plate but it's not too late to grab a piece.",
+  "hylotlDescription" : "A crudely cut cake slice.",
+  "novakidDescription" : "I know sharin' is carin' but I want some of this sweet cake too!",
+
+  "inventoryIcon" : "atprk_bdaycakeleftovericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_bdaycakeleftover.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "atprk_bdaycakeslice", 1, { } ] ]
+  ]
+}

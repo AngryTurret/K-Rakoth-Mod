@@ -1,0 +1,76 @@
+{
+  "objectName" : "atprk_8ball",
+  "colonyTags" : ["misc","valuable"],
+  "rarity" : "Uncommon",
+  "description" : "The all-knowing ball. Ask it anything!",
+  "shortdescription" : "Magic 8-Ball",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 128,
+  "printable" : false,
+
+  "apexDescription" : "Will my people break free from oppression?",
+  "avianDescription" : "The eighth sphere, please enlighten me. Did the egg come first?",
+  "floranDescription" : "Anssswer me, little ball, will Floran become the ssstrongesst thing alive?",
+  "glitchDescription" : "Inquiring. Are you secretly a tiny robot in a round shell?",
+  "humanDescription" : "Think I should forget it all and settle on Mars?",
+  "hylotlDescription" : "Oh great black pearl, share your wisdom. Is harmony across the galaxy possible?",
+  "novakidDescription" : "Let's see. Is it high noon right now?",
+
+  "anneliskDescription" : "Does this ball only answer yes or no questions?",
+  "fenronDescription" : "Can I trust your insight, little sphere?",
+  "noolithDescription" : "Is there a reason to keep going?",
+
+  "inventoryIcon" : "atprk_8ballicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_8ball.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+  "chatOptions" : [
+    "Yes.",
+    "Of course.",
+    "Certainly.",
+    "True.",
+    "Definitely.",
+    "Positive.",
+    "No.",
+    "Doubtfully.",
+    "Negative.",
+    "False.",
+    "No way.",
+    "Not at all.",
+    "Maybe.",
+    "Probably.",
+    "Plausible.",
+    "Unknown.",
+    "Likely.",
+    "Unlikely.",
+    "I don't know.",
+    "Uncertain.",
+    "Maybe yes, maybe no.",
+    "Ask again later.",
+    "No idea.",
+    "42.",
+    "What?",
+    "No one knows.",
+    "Don't count on this.",
+    "Improbable.",
+    "Possible.",
+    "Impossible.",
+    "Answer not found.",
+    "Whatever.",
+    "Take a guess."
+  ]
+}

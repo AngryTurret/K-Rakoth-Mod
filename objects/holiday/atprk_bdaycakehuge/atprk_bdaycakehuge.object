@@ -1,0 +1,59 @@
+{
+  "objectName" : "atprk_bdaycakehuge",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "description" : "A cake so big you can have it and eat it.",
+  "shortdescription" : "Large Birthday Cake",
+  "printable" : false,
+  "race" : "generic",
+  "price" : 450,
+  "health" : 5,
+
+  "apexDescription" : "There is a secret hiding spot for a performer of sorts, if not a surveillance camera.",
+  "avianDescription" : "What a waste of a good cake, somebody carved out the middle part! Why?",
+  "floranDescription" : "Emergency food sssuply AND ambush ssspot!",
+  "glitchDescription" : "Proud. A delectable cake straight from a royal banquet.",
+  "humanDescription" : "If you add two tiny figurines to the top layer, this will turn into a wedding cake!",
+  "hylotlDescription" : "I find this a bit excessive, but I guess it can be shared with a... Wait, is it hollow?",
+  "novakidDescription" : "This was baked either for a huge group o' friends or one nasty glutton.",
+
+  "inventoryIcon" : "atprk_bdaycakehugeicon.png",
+  "orientations" : [
+    { 
+      "image" : "atprk_bdaycakehuge.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [0.5, 25],
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "atprk_bdaycakehuge.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [0.5, 25],
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "happy",
+  "sitStatusEffects" : [
+    "nude"
+  ],
+  "sitCoverImage" : "/objects/holiday/atprk_bdaycakehuge/atprk_bdaycakehuge.png",
+
+  "breakDropOptions" : [
+    [ [ "atprk_bdaycakeslice", 1, { } ], [ "atprk_bdaycakeslice", 1, { } ], [ "atprk_bdaycakeslice", 1, { } ], [ "atprk_bdaycakeslice", 1, { } ] ]
+  ]
+}

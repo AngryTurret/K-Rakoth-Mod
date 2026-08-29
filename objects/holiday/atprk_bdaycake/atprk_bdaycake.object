@@ -1,0 +1,37 @@
+{
+  "objectName" : "atprk_bdaycake",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "description" : "A layered cake, baked with love for a large company.",
+  "shortdescription" : "Birthday Cake",
+  "printable" : false,
+  "race" : "generic",
+  "price" : 250,
+
+  "apexDescription" : "A large cake generously covered in pink frosting.",
+  "avianDescription" : "A delightful treat fit for a grand celebration.",
+  "floranDescription" : "Mmm, sssweet cake. Pink like meatss of Floran's enemiesss.",
+  "glitchDescription" : "Hungry. I wouldn't mind a piece right now.",
+  "humanDescription" : "I hope it's not just frosting and coconut shavings all the way down.",
+  "hylotlDescription" : "This is a very inviting cake. May I help myself to it?",
+  "novakidDescription" : "Now all that's left is to bring a few candles, and the cake's ready t' go!",
+
+  "inventoryIcon" : "atprk_bdaycakeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "atprk_bdaycake.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "atprk_bdaycakeslice", 1, { } ] ]
+  ]
+}
