@@ -16,7 +16,7 @@
         "pool" : [
           [ 1, "atprk_pixiecritter" ],
           [ 1, "atprk_goblincritter" ],
-          [ 1, "cliffcritter" ],
+          [ 1, "atprk_jackalopecritter" ],
           [ 1, "dartcritter" ]
         ]
       }

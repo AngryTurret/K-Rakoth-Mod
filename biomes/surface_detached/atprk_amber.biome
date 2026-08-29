@@ -14,8 +14,8 @@
         "select" : 2,
         "pool" : [
           [ 0.33, "atprk_amberballcritter" ],
-          [ 0.33, "rolypolycritter" ],
-          [ 0.33, "swarmflyingcritter" ]
+          [ 0.33, "atprk_orangeraptorcritter" ],
+          [ 0.33, "rolypolycritter" ]
         ]
       }
     ],
