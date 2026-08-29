@@ -1,0 +1,24 @@
+{
+  "itemName" : "atprk_bdaycakeslice",
+  "rarity" : "Uncommon",
+  "price" : 150,
+  "category" : "food",
+  "inventoryIcon" : "atprk_bdaycakeslice.png",
+  "description" : "A hefty slice of layered cake.",
+  "shortdescription" : "Birthday Cake Slice",
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "effects" : [ [
+    {
+        "effect" : "partytime",
+        "duration" : 45
+    }
+  ] ]
+}
