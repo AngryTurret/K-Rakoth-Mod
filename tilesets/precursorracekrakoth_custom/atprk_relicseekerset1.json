@@ -8,7 +8,7 @@
  "margin":0,
  "name":"atprk_relicseeker",
  "spacing":0,
- "tilecount":46,
+ "tilecount":49,
  "tiledversion":"1.11.2",
  "tileheight":80,
  "tileproperties":
@@ -414,6 +414,36 @@
          "imagePositionX":"-16",
          "imagePositionY":"-24",
          "object":"atprk_relicseekershiphatch",
+         "tilesetDirection":"right"
+        },
+     "46":
+        {
+         "\/\/description":"A layered cake, baked with love for a large group.",
+         "\/\/name":"atprk_bdaycake",
+         "\/\/shortdescription":"Birthday Cake",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_bdaycake",
+         "tilesetDirection":"right"
+        },
+     "47":
+        {
+         "\/\/description":"A leftover cake slice.",
+         "\/\/name":"atprk_bdaycakeleftover",
+         "\/\/shortdescription":"Birthday Cake Leftovers",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"atprk_bdaycakeleftover",
+         "tilesetDirection":"right"
+        },
+     "48":
+        {
+         "\/\/description":"A cake so big you can have it and eat it too.",
+         "\/\/name":"atprk_bdaycakehuge",
+         "\/\/shortdescription":"Large Birthday Cake",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"atprk_bdaycakehuge",
          "tilesetDirection":"right"
         },
      "5":
@@ -871,6 +901,36 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "46":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "47":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "48":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "5":
         {
          "\/\/description":"string",
@@ -1168,6 +1228,24 @@
          "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershiphatch.png",
          "imageheight":44,
          "imagewidth":40
+        },
+     "46":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycake.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycakeleftover.png",
+         "imageheight":8,
+         "imagewidth":24
+        },
+     "48":
+        {
+         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycakehuge.png",
+         "imageheight":32,
+         "imagewidth":32
         },
      "5":
         {
