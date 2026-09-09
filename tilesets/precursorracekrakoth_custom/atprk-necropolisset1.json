@@ -9,6 +9,7 @@
  "name":"atprk-necropolis",
  "spacing":0,
  "tilecount":41,
+ "tiledversion":"1.11.2",
  "tileheight":96,
  "tileproperties":
     {
@@ -404,7 +405,7 @@
          "\/\/description":"Remains of an ancient civilization.",
          "\/\/name":"atprk_ancientdebris4",
          "\/\/shortdescription":"Ancient Debris",
-         "imagePositionX":"0",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_ancientdebris4",
          "tilesetDirection":"right"
@@ -414,7 +415,7 @@
          "\/\/description":"Remains of an ancient civilization.",
          "\/\/name":"atprk_ancientdebris5",
          "\/\/shortdescription":"Ancient Debris",
-         "imagePositionX":"0",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atprk_ancientdebris5",
          "tilesetDirection":"right"
@@ -1080,5 +1081,6 @@
         }
     },
  "tilewidth":98,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }
