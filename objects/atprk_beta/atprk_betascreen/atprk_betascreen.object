@@ -22,9 +22,9 @@
   "hylotlDescription" : "Whatever this screen is meant to display is no longer decipherable.",
   "novakidDescription" : "A bunch o' gibberish on the screen.",
 
-  "atprk_anneliskDescription" : "Gee, that's a lot of spam.",
-  "atprk_fenronDescription" : "If any of this data was important, sure it'd be written in a more accessible form?",
-  "atprk_noolithDescription" : "A stream of heavily corrupted information.",
+  "anneliskDescription" : "Gee, that's a lot of spam.",
+  "fenronDescription" : "If any of this data was important, sure it'd be written in a more accessible form?",
+  "noolithDescription" : "A stream of heavily corrupted information.",
 
   "inventoryIcon" : "atprk_betascreenicon.png",
   "orientations" : [

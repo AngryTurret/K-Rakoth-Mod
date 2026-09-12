@@ -17,9 +17,9 @@
   "hylotlDescription" : "This angular bed reminds me of deep sea predators in a way.",
   "novakidDescription" : "A metal bed with some shiny stripes glued on.",
 
-  "atprk_anneliskDescription" : "This is still better than that one ugly bed in my old apartments.",
-  "atprk_fenronDescription" : "A metallic bed with sharp protrusions.",
-  "atprk_noolithDescription" : "I expected more shades of blue for some reason.",
+  "anneliskDescription" : "This is still better than that one ugly bed in my old apartments.",
+  "fenronDescription" : "A metallic bed with sharp protrusions.",
+  "noolithDescription" : "I expected more shades of blue for some reason.",
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,

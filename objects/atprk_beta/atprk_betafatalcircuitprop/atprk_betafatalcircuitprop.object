@@ -17,9 +17,9 @@
   "hylotlDescription" : "Was this robot meant to be an advanced Glitch warform by chance?",
   "novakidDescription" : "That's a tall rusty fella.",
 
-  "atprk_anneliskDescription" : "Not sure if this was a mech or an automated security robot.",
-  "atprk_fenronDescription" : "The fiercest war beasts are not created, they are born.",
-  "atprk_noolithDescription" : "I wonder if the Usurpers ever tried to mutilate the Glitch in a similar way.",
+  "anneliskDescription" : "Not sure if this was a mech or an automated security robot.",
+  "fenronDescription" : "The fiercest war beasts are not created, they are born.",
+  "noolithDescription" : "I wonder if the Usurpers ever tried to mutilate the Glitch in a similar way.",
 
   "inventoryIcon" : "atprk_betafatalcircuitpropicon.png",
   "orientations" : [

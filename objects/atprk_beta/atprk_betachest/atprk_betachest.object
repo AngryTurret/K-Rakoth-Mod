@@ -20,9 +20,9 @@
   "hylotlDescription" : "The markings on this chest are light-reflective.",
   "novakidDescription" : "A stainless steel chest with glowin' stripes.",
 
-  "atprk_anneliskDescription" : "A hardy stainless steel chest.",
-  "atprk_fenronDescription" : "This chest will be easily exposed unless I remove these shiny stripes.",
-  "atprk_noolithDescription" : "A small chest manufactured from high-quality steel.",
+  "anneliskDescription" : "A hardy stainless steel chest.",
+  "fenronDescription" : "This chest will be easily exposed unless I remove these shiny stripes.",
+  "noolithDescription" : "A small chest manufactured from high-quality steel.",
 
   "inventoryIcon" : "atprk_betachesticon.png",
   "orientations" : [

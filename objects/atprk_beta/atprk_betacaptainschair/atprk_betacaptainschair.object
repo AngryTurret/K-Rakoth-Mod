@@ -17,9 +17,9 @@
   "hylotlDescription" : "This captain's chair was evidently not used in a while.",
   "novakidDescription" : "This chair must've seen many stars... 'n butts.",
 
-  "atprk_anneliskDescription" : "What a cheap captain's chair. At least it's comfy.",
-  "atprk_fenronDescription" : "This chair has endured disrepair for ages.",
-  "atprk_noolithDescription" : "An old-fashioned captain's chair typical of Human spacecraft.",
+  "anneliskDescription" : "What a cheap captain's chair. At least it's comfy.",
+  "fenronDescription" : "This chair has endured disrepair for ages.",
+  "noolithDescription" : "An old-fashioned captain's chair typical of Human spacecraft.",
 
   "inventoryIcon" : "atprk_betacaptainschairicon.png",
   

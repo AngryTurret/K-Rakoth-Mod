@@ -16,9 +16,9 @@
   "hylotlDescription" : "This empty dispensing pod used to provide free crafting materials.",
   "novakidDescription" : "Well, uh, a broken dispenser?",
 
-  "atprk_anneliskDescription" : "This better contain something useful!",
-  "atprk_fenronDescription" : "I'll be honest, I'm not sure what this pod was meant to do.",
-  "atprk_noolithDescription" : "I don't recognize this mechanism at all, let alone the matter it contains.",
+  "anneliskDescription" : "This better contain something useful!",
+  "fenronDescription" : "I'll be honest, I'm not sure what this pod was meant to do.",
+  "noolithDescription" : "I don't recognize this mechanism at all, let alone the matter it contains.",
 
   "inventoryIcon" : "atprk_betadungeonpodicon.png",
   "orientations" : [

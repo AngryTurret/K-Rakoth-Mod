@@ -17,9 +17,9 @@
   "hylotlDescription" : "An unpleasant-looking chair. Besides, the light-reflective cushion is a weird design choice.",
   "novakidDescription" : "Well, at least it's got a shiny cushion.",
 
-  "atprk_anneliskDescription" : "Could these spikes be any sharper?",
-  "atprk_fenronDescription" : "This chair looks more like a beartrap.",
-  "atprk_noolithDescription" : "An angular chair with a soft cushion.",
+  "anneliskDescription" : "Could these spikes be any sharper?",
+  "fenronDescription" : "This chair looks more like a beartrap.",
+  "noolithDescription" : "An angular chair with a soft cushion.",
 
   "inventoryIcon" : "atprk_betachairicon.png",
   "orientations" : [
