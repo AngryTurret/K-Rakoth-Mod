@@ -24,6 +24,30 @@
             "Angry. You are not supposed to be here!",
             "Menacing. Your journey ends here!",
             "Intimidating. No mercy to hoarders!"
+          ],
+          "fragmentedruin" : [
+            "Startled. It's already here!?",
+            "Imperious. Freeze!",
+            "Menacing. Down with you, wretched creature!",
+            "Confident. You can't get past me!",
+            "Assertive. Corner it before it runs off!",
+            "Agressive. Don't underestimate my hammer!",
+            "Focused. Don't let it escape!",
+            "Angry. You are not supposed to be here!",
+            "Hostile. Quick, kill it!",
+            "Intimidating. No mercy to hoarders!"
+          ],
+          "smolruin" : [
+            "Startled. It's already here!?",
+            "Imperious. Freeze!",
+            "Menacing. Down with you, wretched creature!",
+            "Confident. You can't get past me!",
+            "Assertive. Corner it before it runs off!",
+            "Agressive. Don't underestimate my hammer!",
+            "Focused. Don't let it escape!",
+            "Angry. You are not supposed to be here!",
+            "Hostile. Quick, kill it!",
+            "Intimidating. No mercy to hoarders!"
           ]
         }
       }

@@ -24,6 +24,30 @@
             "Imposing. Get off our spaceship, hoarder!",
             "Annoyed. Come on, give me a break!",
             "Intimidating. No mercy to hoarders!"
+          ],
+          "fragmentedruin" : [
+            "Panicking. Code red! I repeat, code red!",
+            "Alert. Oh lord, it's spreading! Kill it!",
+            "Frightened. S-stay back!",
+            "Angry. You are not supposed to be here!",
+            "Alarmed. They got a spawn of Ri'shaan on their side!",
+            "Menacing. This wrench is heavier than it looks!",
+            "Terrified. Help! A monster!",
+            "Imposing. Get off our spaceship, parasite!",
+            "Alert. I see it!",
+            "Intimidating. No mercy to hoarders!"
+          ],
+          "smolruin" : [
+            "Panicking. Code red! I repeat, code red!",
+            "Alert. Oh lord, it's spreading! Kill it!",
+            "Frightened. S-stay back!",
+            "Angry. You are not supposed to be here!",
+            "Alarmed. They got a spawn of Ri'shaan on their side!",
+            "Menacing. This wrench is heavier than it looks!",
+            "Terrified. Help! A monster!",
+            "Imposing. Get off our spaceship, parasite!",
+            "Alert. I see it!",
+            "Intimidating. No mercy to hoarders!"
           ]
         }
       }
