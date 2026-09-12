@@ -1,0 +1,23 @@
+{
+  "id" : "atprk_relicseekerdossier4",
+  "title" : "Dossier: Jade",
+  "description" : "A brief document about the lone vault raider.",
+  "icon" : "atprk_relicseekercodexcover2.png",
+  "contentPages" : [
+    "Name: Jade
+Gender: Female
+Race: Deadbeat
+
+A young mercenary only known as Jade. Not much information about her past is verifiable other than the fact she was found in the middle of a scorched desert, away from her people. A crew of Penguins saved her from a certain doom and, unsure where she came from, decided to adopt her. She was then taken offworld and trained in short- and long-range combat.",
+
+"The mercenary unit Jade became part of was eventually employed by the Relic Seekers to escort their cargo space trains. The unit's current tasks also involve shipping and personnel protection.
+
+While Jade is not officially a Relic Seeker, and at times she displays a lack of subordination, her skills are particularly helpful during the artifact recovery missions. Her combat experience also grants extra security aboard the ST Syllectis."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}
+
