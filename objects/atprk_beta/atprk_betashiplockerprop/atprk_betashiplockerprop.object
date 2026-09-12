@@ -8,7 +8,7 @@
   "description" : "A locker that cannot be unlocked.",
   "shortdescription" : "Oldschool Shiplocker",
   "race" : "generic",
-  "health" : 1.5,
+  "health" : 5,
 
   "apexDescription" : "A ship's storage system. I think it ran out of power.",
   "avianDescription" : "There is no way to unlock this anymore.",
@@ -18,9 +18,9 @@
   "hylotlDescription" : "Since this storage locker is not powered, I cannot open it.",
   "novakidDescription" : "A tightly sealed locker.",
 
-  "atprk_anneliskDescription" : "A shiplocker so old it's barely functional.",
-  "atprk_fenronDescription" : "I guess I might need a crowbar here.",
-  "atprk_noolithDescription" : "There is probably something hidden in this locker but it's no use bothering with it.",
+  "anneliskDescription" : "A shiplocker so old it's barely functional.",
+  "fenronDescription" : "I guess I might need a crowbar here.",
+  "noolithDescription" : "There is probably something hidden in this locker but it's no use bothering with it.",
 
   "inventoryIcon" : "atprk_betashiplockerpropicon.png",
   "orientations" : [
@@ -37,7 +37,6 @@
   "scripts" : [
     "/objects/noisy/noisy.lua"
   ],
-  
-  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
-  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+  "breakDropPool" : "atprk_betaLockerTreasure"
 }

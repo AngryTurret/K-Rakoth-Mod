@@ -17,9 +17,9 @@
   "hylotlDescription" : "An intrusive, ugly metal table.",
   "novakidDescription" : "A fine steel table.",
 
-  "atprk_anneliskDescription" : "A strangely geometric table.",
-  "atprk_fenronDescription" : "These yellow stripes under the table look like eyes!",
-  "atprk_noolithDescription" : "A stainless steel table.",
+  "anneliskDescription" : "A strangely geometric table.",
+  "fenronDescription" : "These yellow stripes under the table look like eyes!",
+  "noolithDescription" : "A stainless steel table.",
 
   "inventoryIcon" : "atprk_betatableicon.png",
   "orientations" : [
