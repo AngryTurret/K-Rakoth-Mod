@@ -1,0 +1,9 @@
+{
+  "itemName" : "atprk_wrappedgift",
+  "rarity" : "uncommon",
+  "category" : "tradeGoods",
+  "inventoryIcon" : "atprk_wrappedgift.png",
+  "description" : "A present in a colorful packaging. Find a way to open it and get some goodies!",
+  "shortdescription" : "^orange;Well-Wrapped Gift^white;",
+  "price" : 150
+}
