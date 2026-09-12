@@ -466,6 +466,36 @@
     }]
   ],
 
+  "atprk_unwrappedgift" : [
+    [1, {
+      "fill" : [
+        {"pool" : "atprk_unwrappedgiftpool"},
+        {"pool" : "atprk_unwrappedgiftpool"}
+      ]
+    }]
+  ],
+  "atprk_unwrappedgiftpool" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.10, "item" : "present1"},
+        {"weight" : 0.10, "item" : "present2"},
+        {"weight" : 0.10, "item" : "present3"},
+        {"weight" : 0.10, "item" : "present4"},
+        {"weight" : 0.10, "item" : "bigpresent"},
+        {"weight" : 0.10, "item" : "atprk_bdaycakehuge"},
+        {"weight" : 0.10, "item" : "atprk_partyhat1"},
+        {"weight" : 0.10, "item" : "atprk_partyhat2"},
+        {"weight" : 0.10, "item" : "atprk_lampshadehat"},
+        {"weight" : 0.10, "item" : "atprk_roosterhead"},
+        {"weight" : 0.10, "item" : "atprk_spacesniperhat"},
+        {"weight" : 0.10, "item" : "atprk_snakescarf"},
+        {"weight" : 0.05, "item" : "atprk_8ball"},
+        {"weight" : 0.01, "pool" : "rarefurniture"},
+        {"weight" : 0.01, "pool" : "costume"}
+      ]
+    }]
+  ],
+
   // ================================
   //       Other
   // ================================
