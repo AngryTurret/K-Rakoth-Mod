@@ -769,6 +769,39 @@
       ],
       "allowDuplication" : false
     }]
+  ],
+
+  "atprk_betaLockerTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.40, "pool" : "basicTreasure"},
+        {"weight" : 0.40, "item" : [ "rottenfood", 3]},
+        {"weight" : 0.30, "item" : [ "bunkerdisplay1", 1]},
+        {"weight" : 0.30, "item" : [ "bunkerdisplay2", 1]},
+        {"weight" : 0.30, "item" : [ "bunkerdisplay3", 1]},
+        {"weight" : 0.30, "item" : [ "bunkerlighth", 2]},
+        {"weight" : 0.30, "item" : [ "bunkerlightv", 2]},
+        {"weight" : 0.30, "item" : [ "wreckchair", 1]},
+        {"weight" : 0.30, "item" : [ "wreckpanel1", 2]},
+        {"weight" : 0.30, "item" : [ "wreckscreen", 1]},
+        {"weight" : 0.30, "item" : [ "wreckturbines", 1]},
+        {"weight" : 0.30, "item" : [ "wrecktv", 1]},
+        {"weight" : 0.05, "item" : [ "bunkerdisplay4", 1]},
+        {"weight" : 0.05, "item" : [ "poop", 1]},
+        {"weight" : 0.01, "item" : [ "monsterplating", 1]},
+        {"weight" : 0.01, "item" : [ "laserdiode", 1]},
+        {"weight" : 0.01, "item" : [ "lead", 1]},
+        {"weight" : 0.01, "item" : [ "polymer", 1]},
+        {"weight" : 0.01, "item" : [ "uraniumrod", 1]}
+      ],
+      "poolRounds" : [
+        [0.45, 1],
+        [0.35, 2],
+        [0.15, 3],
+        [0.05, 4]
+      ],
+      "allowDuplication" : false
+    }]
   ]
 
 }
