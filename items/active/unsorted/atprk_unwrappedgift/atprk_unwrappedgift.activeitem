@@ -1,0 +1,23 @@
+{
+  "itemName" : "atprk_unwrappedgift",
+  "price" : 150,
+  "level" : 2,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "Open this box to get some goodies. Free of charge!",
+  "shortdescription" : "^orange;Unwrapped Gift^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "atprk_unwrappedgift.png",
+  "animation" : "atprk_unwrappedgift.animation",
+  "animationCustom" : {},
+  "scripts" : ["/items/active/unsorted/atprk_unpackedgoods.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "atprk_unwrappedgift",
+    "level" : 2
+  }
+}
