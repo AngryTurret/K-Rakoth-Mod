@@ -25,13 +25,13 @@
     "filter" : [ "heartforge" ]
   },
 
-  "apexDescription" : "A festive forge with tools for crafting festive decorations.",
-  "avianDescription" : "This festive forge will allow me to spread holiday cheer.",
-  "floranDescription" : "Floran make pretty red bowsss.",
-  "glitchDescription" : "Festive. I shall craft the most delicious gumdrop.",
-  "humanDescription" : "I can craft loads of holiday decorations with this forge!",
-  "hylotlDescription" : "With this forge, I can create the tackiest of holiday decorations.",
-  "novakidDescription" : "This here forge will let me craft festive items!",
+  "apexDescription" : "A lovely forge with tools for crafting lovely items.",
+  "avianDescription" : "This romantic forge will allow me to spread the love.",
+  "floranDescription" : "Floran make pretty red bow.",
+  "glitchDescription" : "Longing. I shall craft the most delicious chocolate.",
+  "humanDescription" : "I can craft loads of lovely items with this forge!",
+  "hylotlDescription" : "With this forge, I can create the tackiest of outfits.",
+  "novakidDescription" : "This here forge will let me craft romantic items!",
 
   "statusEffects" : [ ],
     
