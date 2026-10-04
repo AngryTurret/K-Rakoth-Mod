@@ -46,9 +46,8 @@
   "atprk_glitchdevoutLore" : [
     [1, {
       "pool" : [
-        {"weight" : 0.33, "item" : "atprk_glitchservantcodex-codex"},
-        {"weight" : 0.33, "item" : "atprk_glitchtraitorcodex-codex"},
-        {"weight" : 0.33, "item" : "atprk_glitchdevouthint"}
+        {"weight" : 0.50, "item" : "atprk_glitchservantcodex-codex"},
+        {"weight" : 0.50, "item" : "atprk_glitchtraitorcodex-codex"}
       ],
       "poolRounds" : 1,
       "allowDuplication" : false
