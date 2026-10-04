@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/spaceCostume/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "atprk_spacesniperhat"
+    }
+  }
+]

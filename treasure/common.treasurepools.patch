@@ -1,6 +1,56 @@
 [
   {
     "op": "add",
+    "path": "/costume/0/1/pool/-",
+    "value": {
+      "weight": 0.0003,
+      "item": "atprk_lampshadehat"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/costume/0/1/pool/-",
+    "value": {
+      "weight": 0.0003,
+      "item": "atprk_partyhat1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/costume/0/1/pool/-",
+    "value": {
+      "weight": 0.0003,
+      "item": "atprk_partyhat2"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/costume/0/1/pool/-",
+    "value": {
+      "weight": 0.0003,
+      "item": "atprk_roosterhead"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/costume/0/1/pool/-",
+    "value": {
+      "weight": 0.0003,
+      "item": "atprk_snakescarf"
+    }
+  },
+
+  {
+    "op": "add",
+    "path": "/rarefurniture/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "atprk_8ball"
+    }
+  },
+
+  {
+    "op": "add",
     "path": "/microformerTreasure/0/1/pool/-",
     "value": {
       "weight": 1.00,
