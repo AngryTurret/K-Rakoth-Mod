@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 60,
-  "description" : "A casket for those who need extra storage space. ^red;Deletes contents when broken.^reset;",
+  "description" : "A small casket designed for those who really need extra storage space.",
   "shortdescription" : "Extradimensional Casket",
   "race" : "generic",
   "printable" : false,
