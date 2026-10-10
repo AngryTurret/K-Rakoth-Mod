@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "A multidimensional storage solution. ^red;Deletes contents when broken.^reset;",
+  "description" : "This container can store many more items thanks to the fourth-dimensional space inside of it.",
   "shortdescription" : "Extradimensional Crate",
   "race" : "generic",
   "printable" : false,

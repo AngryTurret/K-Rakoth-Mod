@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 60,
-  "description" : "A tiny space-bending container. ^red;Deletes contents when broken.^reset;",
+  "description" : "A tiny extradimensional storage container. It cannot get any smaller.",
   "shortdescription" : "Extradimensional Capsule",
   "race" : "generic",
   "printable" : false,
