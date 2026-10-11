@@ -2,75 +2,75 @@ function init()
   script.setUpdateDelta(10)
   
   storage.groupId = storage.groupId or nil
+  storage.groupLeader = storage.groupLeader or nil
+  storage.canonicalMember = storage.canonicalMember or nil
   storage.canonicalInventory = storage.canonicalInventory or nil
   storage.lastMergedKey = storage.lastMergedKey or nil
   
-  storage.groupLeader = nil
-  storage.members = {}
-  storage.knownMembers = {}
-  storage.canonicalMember = nil
+  storage.members = storage.members or {}
   storage.active = false
   storage.isLeader = false
   storage.lastWired = false
   storage.awaitingMerge = false
   storage.memberInventoryKeys = {}
-  storage.debugLog = {}
-  
-  storage.validContainerTags = {
-    ["atprk_4dcratemedium"] = true,
-    ["atprk-4dcratesmall"] = true,
-    ["atprk-4dcratetiny"] = true,
-    ["atprk-4dcratetiniest"] = true
-  }
+  storage.lastNeighborsKey = ""
   
   message.setHandler("getMembership", handleGetMembership)
   message.setHandler("getInventory", handleGetInventory)
   message.setHandler("syncInventory", handleSyncInventory)
+  message.setHandler("getWiredNeighbors", handleGetWiredNeighbors)
 end
 
-function collectNetworkMembers(neighbors)
-  local members = uniqueIds({entity.id()})
+function handleGetWiredNeighbors()
+  return getConnectedNodeIds()
+end
+
+function handleGetMembership()
+  return {
+    groupId = storage.groupId,
+    groupLeader = storage.groupLeader,
+    members = storage.members,
+    active = storage.active,
+    isLeader = storage.isLeader,
+    wiredNeighbors = getConnectedNodeIds()
+  }
+end
+
+function collectNetworkMembers(initialNeighbors)
+  local members = {}
   local memberMeta = {}
-  memberMeta[entity.id()] = {groupId = storage.groupId, groupLeader = storage.groupLeader, active = storage.active}
-
-  for _, neighborId in ipairs(neighbors) do
-    members[#members + 1] = neighborId
-  end
-
-  local seen = {}
-  for _, memberId in ipairs(members) do
-    seen[memberId] = true
-  end
+  local visited = {}
   local queue = {}
-  for _, memberId in ipairs(members) do
-    queue[#queue + 1] = memberId
+
+  visited[entity.id()] = true
+  members[#members + 1] = entity.id()
+  memberMeta[entity.id()] = { groupId = storage.groupId, groupLeader = storage.groupLeader, active = storage.active }
+
+  for _, neighborId in ipairs(initialNeighbors) do
+    if neighborId and world.entityExists(neighborId) and not visited[neighborId] then
+      visited[neighborId] = true
+      queue[#queue + 1] = neighborId
+    end
   end
 
   while #queue > 0 do
-    local memberId = table.remove(queue)
-    if memberId and memberId ~= entity.id() and world.entityExists(memberId) then
+    local currentId = table.remove(queue, 1)
+    if currentId and world.entityExists(currentId) then
       local success, response = pcall(function()
-        local promise = world.sendEntityMessage(memberId, "getMembership")
+        local promise = world.sendEntityMessage(currentId, "getMembership")
         return promise:result()
       end)
-      if success and type(response) == "table" and type(response.members) == "table" then
-        memberMeta[memberId] = { groupId = response.groupId, groupLeader = response.groupLeader, active = response.active }
-        for _, memberId2 in ipairs(response.members) do
-          if memberId2 and not seen[memberId2] then
-            local valid = true
-            if memberId2 ~= entity.id() and memberId2 ~= memberId then
-              local validateSuccess, validateResponse = pcall(function()
-                local validatePromise = world.sendEntityMessage(memberId2, "getMembership")
-                return validatePromise:result()
-              end)
-              if not validateSuccess or type(validateResponse) ~= "table" or type(validateResponse.members) ~= "table" then
-                valid = false
-              end
-            end
-            if valid then
-              seen[memberId2] = true
-              members[#members + 1] = memberId2
-              queue[#queue + 1] = memberId2
+      
+      if success and type(response) == "table" then
+        members[#members + 1] = currentId
+        memberMeta[currentId] = { groupId = response.groupId, groupLeader = response.groupLeader, active = response.active }
+
+        local wireNeighbors = response.wiredNeighbors
+        if type(wireNeighbors) == "table" then
+          for _, neighborId in ipairs(wireNeighbors) do
+            if neighborId and world.entityExists(neighborId) and not visited[neighborId] then
+              visited[neighborId] = true
+              queue[#queue + 1] = neighborId
             end
           end
         end
@@ -86,47 +86,72 @@ function update(dt)
   local hasWired = (#wired > 0)
   
   if not hasWired then
-    if storage.lastWired then
-      storage.lastWired = false
-      return
-    end
     if storage.groupId then
       leaveGroup()
     end
+    storage.lastNeighborsKey = ""
     return
   end
 
-  if not storage.lastWired then
-    storage.awaitingMerge = false
+  local neighbors = uniqueIds(wired)
+  table.sort(neighbors)
+  local neighborsKey = table.concat(neighbors, ",")
+
+  if not storage.isLeader and storage.groupLeader and world.entityExists(storage.groupLeader) then
+    if neighborsKey == storage.lastNeighborsKey then
+      return
+    end
   end
+
+  storage.lastNeighborsKey = neighborsKey
   storage.lastWired = true
   
-  local neighbors = uniqueIds(wired)
   local allMembers, memberMeta = collectNetworkMembers(neighbors)
   local leader = chooseLeader(allMembers)
   
   storage.members = allMembers
-  storage.groupLeader = leader
   storage.active = true
   storage.isLeader = (entity.id() == leader)
+  
   if not storage.isLeader then
+    storage.groupLeader = leader
     return
   end
 
-  if storage.awaitingMerge then
-    return
+  local previousLeader = storage.canonicalMember or storage.groupLeader
+  local oldLeaderUnwired = false
+
+  if previousLeader and previousLeader ~= entity.id() then
+    local oldLeaderInNetwork = false
+    for _, memberId in ipairs(allMembers) do
+      if memberId == previousLeader then
+        oldLeaderInNetwork = true
+        break
+      end
+    end
+
+    if not oldLeaderInNetwork then
+      if world.entityExists(previousLeader) then
+        oldLeaderUnwired = true
+        clearInventory()
+        storage.canonicalInventory = {}
+        storage.lastMergedKey = nil
+        storage.groupId = generateGroupId()
+      else
+        storage.groupId = storage.groupId or generateGroupId()
+      end
+    end
   end
-  
+
+  storage.groupLeader = entity.id()
+  storage.canonicalMember = entity.id()
+
   if not storage.groupId then
     storage.groupId = generateGroupId()
   end
   
-  local result = attemptConsolidate(allMembers, memberMeta)
-  if result == false then
-    storage.awaitingMerge = true
-  else
-    storage.awaitingMerge = false
-  end
+  local result = attemptConsolidate(allMembers, memberMeta, oldLeaderUnwired)
+  storage.awaitingMerge = not result
 end
 
 function die()
@@ -142,24 +167,11 @@ function die()
   end
 
   if otherMembersExist then
-    debug("die() - clearing inventory on wired member to prevent duplicate drops")
     clearInventory()
-  else
-    debug("die() - preserving inventory to drop naturally on break")
   end
 end
 
 function uninit()
-end
-
-function handleGetMembership()
-  return {
-    groupId = storage.groupId,
-    groupLeader = storage.groupLeader,
-    members = storage.members,
-    active = storage.active,
-    isLeader = storage.isLeader
-  }
 end
 
 function normalizeInventory(inventory)
@@ -181,29 +193,55 @@ function getInventory()
 end
 
 function handleSyncInventory(_, _, inventory, groupId, groupLeader, members)
+  local wired = getConnectedNodeIds()
+  if #wired == 0 then
+    return
+  end
+
   if not inventory or not groupId or not groupLeader or type(members) ~= "table" then
     return
   end
   
   local normalized = normalizeInventory(inventory)
+  local newKey = inventoryGroupKey(normalized)
+
   storage.groupId = groupId
   storage.groupLeader = groupLeader
+  storage.canonicalMember = groupLeader
   storage.members = uniqueIds(members)
   storage.active = true
-  storage.isLeader = false
-  storage.canonicalMember = groupLeader
+  storage.isLeader = (entity.id() == groupLeader)
   storage.canonicalInventory = normalized
-  storage.lastMergedKey = inventoryGroupKey(normalized)
+  storage.lastMergedKey = newKey
+
   applyInventory(entity.id(), normalized)
-  storage.memberInventoryKeys[entity.id()] = storage.lastMergedKey
+  storage.memberInventoryKeys[entity.id()] = newKey
 end
 
 function syncInventory(inventory, groupId, groupLeader, members)
   handleSyncInventory(nil, nil, inventory, groupId, groupLeader, members)
 end
 
-function attemptConsolidate(members, memberMeta)
+function attemptConsolidate(members, memberMeta, oldLeaderUnwired)
   members = uniqueIds(members)
+
+  if oldLeaderUnwired then
+    local emptyInventory = {}
+    local finalKey = inventoryGroupKey(emptyInventory)
+    storage.canonicalInventory = emptyInventory
+    storage.lastMergedKey = finalKey
+    storage.members = members
+    storage.active = true
+    
+    storage.memberInventoryKeys = {}
+    for _, memberId in ipairs(members) do
+      storage.memberInventoryKeys[memberId] = finalKey
+    end
+
+    syncToAll(members, emptyInventory)
+    return true
+  end
+
   local allMembers = uniqueIds({entity.id()})
   for _, memberId in ipairs(members) do
     if memberId ~= entity.id() then
@@ -259,8 +297,14 @@ function attemptConsolidate(members, memberMeta)
     end
   end
 
-  if #changedMembers == 1 then
+  if #changedMembers > 0 then
     local changedId = changedMembers[1]
+    for _, gm in ipairs(changedMembers) do
+      if gm == entity.id() then
+        changedId = gm
+        break
+      end
+    end
     baseInventory = allInventories[changedId] or {}
   else
     baseInventory = storage.canonicalInventory or allInventories[entity.id()] or {}
@@ -369,7 +413,7 @@ end
 
 function itemIdentityKey(item)
   local key = item.name
-  if item.parameters then
+  if item.parameters and type(item.parameters) == "table" and next(item.parameters) ~= nil then
     key = key .. ":" .. sb.print(item.parameters)
   end
   if item.durability then
@@ -385,8 +429,8 @@ function getItemMaxStack(item)
   if not item or not item.name then
     return 1
   end
-  local cfg = root.itemConfig(item)
-  if cfg and cfg.config then
+  local success, cfg = pcall(root.itemConfig, item)
+  if success and cfg and cfg.config then
     return cfg.config.maxStack or cfg.config.stackSize or math.max(1, item.count or 1)
   end
   return math.max(1, item.count or 1)
@@ -442,6 +486,10 @@ end
 
 function applyInventory(targetId, inventory)
   if not world.entityExists(targetId) then return end
+  local current = normalizeInventory(world.containerItems(targetId) or {})
+  if inventoryGroupKey(current) == inventoryGroupKey(inventory) then
+    return
+  end
   world.containerTakeAll(targetId)
   for _, item in pairs(inventory) do
     if item and item.count and item.count > 0 then
@@ -458,9 +506,15 @@ end
 
 function leaveGroup()
   local keeper = storage.canonicalMember or storage.groupLeader
-  if entity.id() ~= keeper then
-    clearInventory()
+  local isLeader = storage.isLeader or (keeper == entity.id())
+
+  if not isLeader then
+    local keeperExists = keeper and world.entityExists(keeper)
+    if keeper and keeperExists then
+      clearInventory()
+    end
   end
+
   storage.groupId = nil
   storage.groupLeader = nil
   storage.members = {}
@@ -470,22 +524,11 @@ function leaveGroup()
   storage.canonicalInventory = nil
   storage.lastMergedKey = nil
   storage.memberInventoryKeys = {}
+  storage.lastNeighborsKey = ""
 end
 
 function getConnectedNodeIds()
   local ids = {}
-  local inputIds, outputIds = nil, nil
-  
-  if object.getInputNodeIds then
-    pcall(function() inputIds = object.getInputNodeIds(0) end)
-  end
-  if object.getOutputNodeIds then
-    pcall(function() outputIds = object.getOutputNodeIds(0) end)
-  end
-  
-  if (not inputIds or next(inputIds) == nil) and (not outputIds or next(outputIds) == nil) then
-    return findNearbyContainers()
-  end
   
   local function addNeighborsFromResult(result)
     if not result or type(result) ~= "table" then return end
@@ -507,29 +550,7 @@ function getConnectedNodeIds()
     end
   end
   
-  if #ids == 0 then
-    ids = findNearbyContainers()
-  end
-  
-  return ids
-end
-
-function findNearbyContainers()
-  local myPos = entity.position()
-  local searchRadius = 150
-  local nearby = world.entityQuery(myPos, searchRadius, { includedTypes = { "object" } })
-  local containers = {}
-  
-  for _, entityId in ipairs(nearby) do
-    if entityId ~= entity.id() and world.entityExists(entityId) then
-      local objectName = world.entityName(entityId)
-      if storage.validContainerTags and storage.validContainerTags[objectName] then
-        containers[#containers + 1] = entityId
-      end
-    end
-  end
-  
-  return containers
+  return uniqueIds(ids)
 end
 
 function generateGroupId()

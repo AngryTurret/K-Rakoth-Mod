@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "This container can store many more items thanks to the fourth-dimensional space inside of it.",
+  "description" : "A K'Rakoth engineered storage device harnessing the fourth dimension.",
   "shortdescription" : "Extradimensional Crate",
   "race" : "generic",
   "printable" : false,
