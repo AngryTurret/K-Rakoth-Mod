@@ -1,12 +1,14 @@
 { "backgroundcolor":"#000000",
+ "compressionlevel":-1,
  "height":40,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmd1txCAMx5nl2s36cgN0gEpZpBPcZPfWBXpIh+RYdgAbsEl4sJoPMOBf\/zbkniH8PJddxv5CCLVW4s\/DXGaLa2+zmKd2zFljfXZbPHyZJEd9v\/pZmHVuHpXja\/1trz4WZh3HUTxqmSwe\/bnU+JklXz2EDGO\/O+ob76X+jvzW8ODGT36Txfvf295ybaQ+8HrSfKi+Uu5pHPgsja\/5f+rNI647F0uujdRHDQ\/8rNTguMm4OUr8anhwuvXC46jv101maZwN+PCiDzgPeG\/Jg5oPxwPuB7j44zaQx+P9N40jZQz9tuCxBV888HyuxoPSh1U9t9SHl3w1qz609WPx8M2D01fLfJU7v8xcz3vy+PzIs4htevBY+tjXJFh3OA6QBceDYiLVh\/d6jp+VWok+NuYaMsBMSnlIzoMcw57Graf1d7ISfeT2bFR90fKYxTRaqNVH6\/0Vx2NmJtY8Yk6irike8b2UR+vfIlsYxWN0vuLOk6lWcLmM4lGzVuvYl87Vop5DFqluQ6Nq+5l5wPlanj84FkfcFo99rGFequUB401pA+aq9B63k9Zy63j34lHSpmS\/S2kDMuDaSfUxA5fR+oD7KLyXws+4fKbl4ZnPaH3k9rtHHGp51DDxwmi0Pqh9Lq4XHnhYMRqtDxh\/XDNKrSZOLXmM4NRTH\/AZVz8k5o1HSzZHPLizXkmbO3oHvyNrWHjnoeGS+nI8uG8h1DX1vQQ+g+ePUTysWEi55HhQ\/rE+uDajfmfwqA0NF+t59lqn9byuxOUs65mRjaYuzmDSNWn3cZIYtmTxD8Onj8E=",
+         "data":"eJztmd1txCAMx5nlukB36ssN0AEqZZxKN9m9dYEe0iE5lh3ABmwSHqzmAwz4178NuWcIP89ll7G\/EEKtlfjzMJfZ4trbLOapHXPWWJ\/dFg9fJslR369+Fmadm0fl+Fp\/26uPhVnHcRSPWiaLR38uNX5myVcPIcPY7476xnupvyO\/NTy48ZPfZPH+97a3XBupD7yeNB+qr5R7Ggc+S+Nr\/p9684jrzsWSayP1UcMDPys1OG4ybo4SvxoenG698Djq+3WTWRpnAz686APOA95b8qDmw\/GA+wEu\/rgN5PF4\/03jSBlDvy14bMEXDzyfq\/Gg9GFVzy314SVfzaoPbf1YPHzz4PTVMl\/lzi8z1\/OePD4\/8iximx48lj72NQnWHY4DZMHxoJhI9eG9nuNnpVaij425hgwwk1IekvMgx7Cncetp\/Z2sRB+5PRtVX7Q8ZjGNFmr10Xp\/xfGYmYk1j5iTqGuKR3wv5dH6t8gWRvEYna+482SqFVwuo3jUrNU69qVztajnkEWq29Co2n5mHnC+lucPjsURt8VjH2uYl2p5wHhT2oC5Kr3H7aS13DrevXiUtCnZ71LagAy4dlJ9zMBltD7gPgrvpfAzLp9peXjmM1ofuf3uEYdaHjVMvDAarQ9qn4vrhQceVoxG6wPGH9eMUquJU0seIzj11Ad8xtUPiXnj0ZLNEQ\/urFfS5o7ewe\/IGhbeeWi4pL4cD+5bCHVNfS+Bz+D5YxQPKxZSLjkelH+sD67NqN8ZPGpDw8V6nr3WaT2vK3E5y3pmZKOpizOYdE3afZwkhi1Z\/AMuYaXm",
          "encoding":"base64",
          "height":40,
+         "id":1,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
@@ -17,9 +19,10 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2N1NxDAMB\/DcA09sASzECMzSfZiCjVgAIRRhWfmwYyd2Glv6P9zpesn516S9pjSnvjuJmlO9vo+EMtaqeXKO15gntWb0XdvNej6Sc03rd3y88GPdEw\/R8BjpfRjxPWb2OcJ3kYx1JX6s++PdRNL75wc\/pxppeEh7P2LEPSdGM\/O7S2NQ10itB7MNWjYr5oPHuQrnqqRGPWpzs7Bo9Wr2ON48PkE8eKyYj1ePk5P7Fh4+Eh6+AvdFjXp7DQ9JvtJ\/NCzCw5dHrvDw4RHrY71H7jtcD\/j98FjjAXveMuF4QJP8rAX\/\/7IOdT4WHiUbLQ\/r556SWHiUfMJjjsfTgxe4PvDrEzy09yqJB7bQ8uh9bmU01gL3OgM9YG8la2PEI5tYG1BMOBZcT+xBMYF9f09\/uatHyYTqAe\/JSqHsVz0T3PeSxd08sInWtYLjgU1qfS\/5\/GbUI5d1\/714UPejloWGB65TPOB+VtuTuBaS+ytO3dEj9+1K7esENys8VhpZeJTO89o68OpRq109KCba62Nl7ejRuo+lrhevHrB28uBew7EL1cNDjXhQ0vs\/WDuOMwYnu3jkonrcId4tYIWHvzrNY4fi3oNJj7car1Y\/TaD2JQ==",
+         "data":"eJzt2N1NxDAMB\/DcA09sAQuwCiMwS\/dhCjZiAYRQhGXlw46d2Gls6f9wp+sl51+T9prSnPruJGpO9fo+EspYq+bJOV5jntSa0XdtN+v5SM41rd\/x8cKPdU88RMNjpPdhxPeY2ecI30Uy1pX4se6PdxNJ758f\/JxqpOEh7f2IEfecGM3M7y6NQV0jtR7MNmjZrJgPHucqnKuSGvWozc3CotWr2eN48\/gE8eCxYj5ePU5O7lt4+Eh4+ArcFzXq7TU8JPlK\/9GwCA9fHrnCw4dHrI\/1HrnvcD3g98NjjQfsecuE4wFN8rMW\/P\/LOtT5WHiUbLQ8rJ97SmLhUfIJjzkeTw9e4PrAr0\/w0N6rJB7YQsuj97mV0VgL3OsM9IC9layNEY9sYm1AMeFYcD2xB8UE9v09\/eWuHiUTqge8JyuFsl\/1THDfSxZ388AmWtcKjgc2qfW95PObUY9c1v334kHdj1oWGh64TvGA+1ltT+JaSO6vOHVHj9y3K7WvE9ys8FhpZOFROs9r68CrR6129aCYaK+PlbWjR+s+lrpevHrA2smDew3HLlQPDzXiQUnv\/2DtOM4YnOzikYvqcYd4t4AVHv7qNI8dinsPJj3earxa\/QAbsf65",
          "encoding":"base64",
          "height":40,
+         "id":2,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -31,6 +34,7 @@
         {
          "color":"#5555ff",
          "draworder":"topdown",
+         "id":3,
          "name":"mods",
          "objects":[],
          "opacity":1,
@@ -42,6 +46,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":4,
          "name":"objects",
          "objects":[
                 {
@@ -89,7 +94,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":248,
+                 "x":240,
                  "y":104
                 }, 
                 {
@@ -149,7 +154,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":248,
+                 "x":240,
                  "y":128
                 }, 
                 {
@@ -184,7 +189,7 @@
                  "y":112
                 }, 
                 {
-                 "gid":2147492523,
+                 "gid":2147492534,
                  "height":88,
                  "id":966,
                  "name":"",
@@ -196,7 +201,7 @@
                  "y":160
                 }, 
                 {
-                 "gid":2147492563,
+                 "gid":2147492574,
                  "height":38,
                  "id":967,
                  "name":"",
@@ -264,7 +269,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":8915,
+                 "gid":8926,
                  "height":38,
                  "id":974,
                  "name":"",
@@ -376,6 +381,7 @@
         {
          "color":"#ffff00",
          "draworder":"topdown",
+         "id":5,
          "name":"wiring - lights & guns",
          "objects":[],
          "opacity":1,
@@ -387,6 +393,7 @@
         {
          "color":"#ff0000",
          "draworder":"topdown",
+         "id":6,
          "name":"monsters & npcs",
          "objects":[],
          "opacity":1,
@@ -398,6 +405,7 @@
         {
          "color":"#00ffff",
          "draworder":"topdown",
+         "id":7,
          "name":"wiring - locked door",
          "objects":[],
          "opacity":1,
@@ -408,6 +416,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":8,
          "name":"outside the map",
          "objects":[],
          "opacity":1,
@@ -418,6 +427,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":9,
          "name":"anchors etc",
          "objects":[
                 {
@@ -440,6 +450,7 @@
         }, 
         {
          "draworder":"topdown",
+         "id":10,
          "name":"items",
          "objects":[],
          "opacity":1,
@@ -448,10 +459,11 @@
          "x":0,
          "y":0
         }],
+ "nextlayerid":11,
  "nextobjectid":985,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.1.1",
+ "tiledversion":"1.11.2",
  "tileheight":8,
  "tilesets":[
         {
@@ -595,15 +607,15 @@
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset3.json"
         }, 
         {
-         "firstgid":8859,
+         "firstgid":8870,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset1.json"
         }, 
         {
-         "firstgid":8956,
+         "firstgid":8968,
          "source":"..\/..\/..\/..\/..\/mods\/precursorracekrakoth\/tilesets\/precursorracekrakoth_custom\/atprk-krakothdungeonset2.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1,
+ "version":1.1,
  "width":100
 }
