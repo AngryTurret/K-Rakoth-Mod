@@ -118,31 +118,60 @@
   ],
   "bodyColor" : [
     //RED
-    { "ffca8a" : "ffdee3", "e0975c" : "f0b2bc", "a85636" : "c5979e", "6f2919" : "9b6e75" },
+    { "ffca8a" : "ffced1", "e0975c" : "e2a0a4", "a85636" : "b0696e", "6f2919" : "85393e" },
     //ORANGE
-    { "ffca8a" : "ffefde", "e0975c" : "f5d1ac", "a85636" : "c9af93", "6f2919" : "9f856a" },
+    { "ffca8a" : "ffe3cd", "e0975c" : "edc09a", "a85636" : "b58766", "6f2919" : "855939" },
     //YELLOW
-    { "ffca8a" : "fff9de", "e0975c" : "f5e8ac", "a85636" : "c9c093", "6f2919" : "9f966a" },
+    { "ffca8a" : "fff9d8", "e0975c" : "ece3b5", "a85636" : "c9bc88", "6f2919" : "857339" },
     //GREEN
-    { "ffca8a" : "deffe4", "e0975c" : "acf5b9", "a85636" : "93c99d", "6f2919" : "6a9f75" },
+    { "ffca8a" : "ecf9dc", "e0975c" : "c1dfae", "a85636" : "87b684", "6f2919" : "4a784e" },
     //TEAL
-    { "ffca8a" : "deffef", "e0975c" : "acf5d1", "a85636" : "93c9af", "6f2919" : "6a9f87" },
+    { "ffca8a" : "dcf9f0", "e0975c" : "b1dcce", "a85636" : "76b19e", "6f2919" : "34725e" },
     //CYAN
-    { "ffca8a" : "defffa", "e0975c" : "b2f0e6", "a85636" : "97c5be", "6f2919" : "6e9b94" },
+    { "ffca8a" : "d8f7fa", "e0975c" : "a9cdd1", "a85636" : "7aa2a7", "6f2919" : "4b666a" },
     //BLUE
-    { "ffca8a" : "dee4ff", "e0975c" : "acb9f5", "a85636" : "939cc9", "6f2919" : "6a739f" },
+    { "ffca8a" : "dceef9", "e0975c" : "aec4df", "a85636" : "848ab6", "6f2919" : "4b4a78" },
     //PURPLE
-    { "ffca8a" : "efdeff", "e0975c" : "d2b2f0", "a85636" : "af97c5", "6f2919" : "866e9b" }
+    { "ffca8a" : "f0deff", "e0975c" : "d4b9eb", "a85636" : "9f85b6", "6f2919" : "624a78" },
+    //PINK
+    { "ffca8a" : "ffe8fd", "e0975c" : "eebfeb", "a85636" : "c18cbd", "6f2919" : "784a75" }
   ],
   "undyColor" : [
-    //EMERALD
-    { "f32200" : "79fa66", "dc1f00" : "2bcd1e", "be1b00" : "0d9319", "951500" : "015801" },
-    //GEODE
-    { "f32200" : "0ff48e", "dc1f00" : "14bf73", "be1b00" : "0d8751", "951500" : "074227" }
+    //LIGHT RED
+    { "f32200" : "ffffff", "dc1f00" : "ffdee3", "be1b00" : "f0b2bc", "951500" : "c5979e" },
+    //LIGHT ORANGE
+    { "f32200" : "ffffff", "dc1f00" : "ffefde", "be1b00" : "f5d1ac", "951500" : "c9af93" },
+    //LIGHT YELLOW
+    { "f32200" : "ffffff", "dc1f00" : "fff9de", "be1b00" : "f5e8ac", "951500" : "c9c093" },
+    //LIGHT GREEN
+    { "f32200" : "ffffff", "dc1f00" : "deffe4", "be1b00" : "acf5b9", "951500" : "93c99d" },
+    //LIGHT TEAL
+    { "f32200" : "ffffff", "dc1f00" : "deffef", "be1b00" : "acf5d1", "951500" : "93c9af" },
+    //LIGHT CYAN
+    { "f32200" : "ffffff", "dc1f00" : "defffa", "be1b00" : "b2f0e6", "951500" : "97c5be" },
+    //LIGHT BLUE
+    { "f32200" : "ffffff", "dc1f00" : "dee4ff", "be1b00" : "acb9f5", "951500" : "939cc9" },
+    //LIGHT PURPLE
+    { "f32200" : "ffffff", "dc1f00" : "efdeff", "be1b00" : "d2b2f0", "951500" : "af97c5" }
   ],
   "hairColor" : [
-    //BLACK
-    { "f7e7b2" : "808080", "d9c189" : "555555", "a38d59" : "383838", "735e3a" : "151515" }
+    //RED
+    { "f7e7b2" : "ffced1", "d9c189" : "e2a0a4", "a38d59" : "b0696e", "735e3a" : "85393e" },
+    //ORANGE
+    { "f7e7b2" : "ffe3cd", "d9c189" : "edc09a", "a38d59" : "b58766", "735e3a" : "855939" },
+    //YELLOW
+    { "f7e7b2" : "fff9d8", "d9c189" : "ece3b5", "a38d59" : "c9bc88", "735e3a" : "857339" },
+    //GREEN
+    { "f7e7b2" : "ecf9dc", "d9c189" : "c1dfae", "a38d59" : "87b684", "735e3a" : "4a784e" },
+    //TEAL
+    { "f7e7b2" : "dcf9f0", "d9c189" : "b1dcce", "a38d59" : "76b19e", "735e3a" : "34725e" },
+    //CYAN
+    { "f7e7b2" : "d8f7fa", "d9c189" : "a9cdd1", "a38d59" : "7aa2a7", "735e3a" : "4b666a" },
+    //BLUE
+    { "f7e7b2" : "dceef9", "d9c189" : "aec4df", "a38d59" : "848ab6", "735e3a" : "4b4a78" },
+    //PURPLE
+    { "f7e7b2" : "f0deff", "d9c189" : "d4b9eb", "a38d59" : "9f85b6", "735e3a" : "624a78" },
+    //PINK
+    { "f7e7b2" : "ffe8fd", "d9c189" : "eebfeb", "a38d59" : "c18cbd", "735e3a" : "784a75" }
   ]
 }
-
