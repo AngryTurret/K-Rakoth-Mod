@@ -1,7 +1,7 @@
 {
   "type" : "atprk_roxmolrare",
   "shortdescription" : "Shapeless Roxmol",
-  "description" : "A semi-sapient crystal struggling to understand the world around it.",
+  "description" : "A semi-sapient crystal struggling to understand the world around itself.",
 
   "categories" : [ "atprk_roxmolrare" ],
   "parts" : [ "body" ],
@@ -23,8 +23,8 @@
       "targetQueryRange" : 15,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 15,
-      "targetOutOfSightTime" : 2.5,
+      "keepTargetInRange" : 25,
+      "targetOutOfSightTime" : 5.5,
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
@@ -32,14 +32,23 @@
 
       "hostileActions" : [
         {
-          "name" : "approach-walk",
+          "name" : "action-charge",
+          "cooldown" : 1.5,
           "parameters" : {
-            "canJump" : true,
-            "maxJumps" : 3,
-            "jumpXVelocity" : 12,
-            "jumpYVelocity" : 30,
-            "jumpXControlForce" : 50,
-            "minXRange" : 10
+            "maximumRange" : 6,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "chargeTime" : 0.5,
+            "chargeSpeed" : 45,
+            "chargeControlForce" : 200,
+            "chargeState" : "kick",
+            "wallCrashSound" : "",
+            "wallCrashEmitter" : "",
+
+            "winddownStopForce" : 200,
+            "winddownState" : "",
+            "winddownTime" : 0.5
           }
         }
       ],
@@ -55,20 +64,6 @@
             "winddownState" : "invulnerablewinddown",
 
             "invulnerableTime" : 20
-          }
-        }
-      ],
-
-      "damageTakenActions" : [
-        {
-          "name" : "action-invulnerable",
-          "parameters" : {
-            "windupTime" : 0.5,
-            "windupState" : "invulnerablewindup",
-            "winddownTime" : 0.5,
-            "winddownState" : "invulnerablewinddown",
-
-            "invulnerableTime" : 4
           }
         }
       ],
@@ -134,8 +129,8 @@
       "collisionPoly" : [ [0.3125, 1.25], [0.8125, 0.75],  [0.8125, -0.75], [0.3125, -1.25],  [-0.3125, -1.25], [-0.8125, -0.75],  [-0.8125, 0.75], [-0.3125, 1.25] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 4,
-      "runSpeed" : 6,
+      "walkSpeed" : 8,
+      "runSpeed" : 10,
 
       "airFriction" : 0,
 
@@ -174,13 +169,13 @@
           "baseValue" : 0.25
         },
         "knockbackThreshold" : {
-          "baseValue" : 9
+          "baseValue" : 12
         },
         "maxHealth" : {
           "baseValue" : 54
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -189,28 +184,28 @@
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : 0.2
         },
         "fireResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : 0.2
         },
         "fireStatusImmunity" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "iceResistance" : {
-          "baseValue" : 0.5
+          "baseValue" : 0.2
         },
         "iceStatusImmunity" : {
           "baseValue" : 0.0
         },
         "electricResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.2
         },
         "electricStatusImmunity" : {
           "baseValue" : 0.0
         },
         "poisonResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.2
         },
         "poisonStatusImmunity" : {
           "baseValue" : 0.0

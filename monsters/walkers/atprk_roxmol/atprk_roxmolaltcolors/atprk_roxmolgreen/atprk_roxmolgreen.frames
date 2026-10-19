@@ -1,17 +1,17 @@
 {
   "frameGrid" : {
     "size" : [16, 32],
-    "dimensions" : [10, 4],
+    "dimensions" : [13, 4],
 
     "names" : [
-      [ null, "sleep.1", null, "idle.1", null, "hurt.1" ],
-      [ null, "winddown.1", "winddown.2", "winddown.3", "winddown.4", "winddown.5" ],
-      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", null, "skid.1" ],
+      [ null, "sleep.1", null, "idle.1", null, "hurt.1", null, "skid.1" ],
+      [ null, "winddown.1", "winddown.2", "winddown.3", "winddown.4", "winddown.5", null, "kick.1", "kick.2", "kick.3", "kick.4", "kick.5" ],
+      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8", "walk.9", "walk.10", "walk.11", "walk.12" ],
       [ null, "windup.1", "windup.2", "windup.3", "windup.4", "windup.5", "windup.6", "windup.7", "windup.8", "invulnerable.1" ]
     ]
   },
   "aliases" : {
-  	"jump.1" : "walk.5",
-  	"fall.1" : "walk.2"
+  	"jump.1" : "walk.2",
+  	"fall.1" : "skid.1"
   }
 }
