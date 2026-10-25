@@ -1,1 +1,0 @@
-Move these three folders into your starbound/tiled folder before using any of this mod's tilesets.
