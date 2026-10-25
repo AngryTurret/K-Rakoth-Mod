@@ -9,6 +9,7 @@
  "name":"atprk-glitchtower",
  "spacing":0,
  "tilecount":38,
+ "tiledversion":"1.11.2",
  "tileheight":88,
  "tileproperties":
     {
@@ -754,233 +755,234 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_glitcharmor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_glitcharmor.png",
          "imageheight":48,
          "imagewidth":32
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_glitchbanner1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_glitchbanner1.png",
          "imageheight":40,
          "imagewidth":24
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchemblem.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchemblem.png",
          "imageheight":64,
          "imagewidth":96
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchenigma.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchenigma.png",
          "imageheight":32,
          "imagewidth":32
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
-         "imageheight":88,
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
+         "imageheight":80,
          "imagewidth":48
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcratemedium.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-4dcratemedium.png",
          "imageheight":32,
          "imagewidth":48
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothgenerator.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothgenerator.png",
          "imageheight":32,
          "imagewidth":32
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothswitch1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothswitch1.png",
          "imageheight":16,
          "imagewidth":16
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothhatch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothhatch.png",
          "imageheight":24,
          "imagewidth":64
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
          "imageheight":8,
          "imagewidth":8
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchpressureplatform.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchpressureplatform.png",
          "imageheight":16,
          "imagewidth":40
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_glitchbanner2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_glitchbanner2.png",
          "imageheight":24,
          "imagewidth":16
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_ashtable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_ashtable.png",
          "imageheight":16,
          "imagewidth":40
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_ashchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_ashchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_ashchair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_ashchair.png",
          "imageheight":41,
          "imagewidth":15
         },
      "23":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_asharmchair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_asharmchair.png",
          "imageheight":24,
          "imagewidth":32
         },
      "24":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_ashlight.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_ashlight.png",
          "imageheight":16,
          "imagewidth":16
         },
      "25":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_ashdoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_ashdoor.png",
          "imageheight":40,
          "imagewidth":40
         },
      "26":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenbanner1.png",
          "imageheight":40,
          "imagewidth":24
         },
      "27":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenbanner2.png",
          "imageheight":40,
          "imagewidth":24
         },
      "28":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbanner3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenbanner3.png",
          "imageheight":24,
          "imagewidth":16
         },
      "29":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenarmor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenarmor.png",
          "imageheight":40,
          "imagewidth":16
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_glitchstandard.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_glitchstandard.png",
          "imageheight":40,
          "imagewidth":16
         },
      "30":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenbowl.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenbowl.png",
          "imageheight":8,
          "imagewidth":16
         },
      "31":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenchandelier.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenchandelier.png",
          "imageheight":16,
          "imagewidth":40
         },
      "32":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_forgottenstandard.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_forgottenstandard.png",
          "imageheight":40,
          "imagewidth":16
         },
      "33":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betacaptainschair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_betacaptainschair.png",
          "imageheight":24,
          "imagewidth":24
         },
      "34":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betadungeonpod.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_betadungeonpod.png",
          "imageheight":40,
          "imagewidth":24
         },
      "35":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betashiplockeralt.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_betashiplockeralt.png",
          "imageheight":24,
          "imagewidth":24
         },
      "36":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betaspawner.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_betaspawner.png",
          "imageheight":40,
          "imagewidth":16
         },
      "37":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_betashiplockerprop.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_betashiplockerprop.png",
          "imageheight":24,
          "imagewidth":32
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothstonestatue.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothstonestatue.png",
          "imageheight":48,
          "imagewidth":48
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_servantstatue-crystal.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_servantstatue-crystal.png",
          "imageheight":44,
          "imagewidth":16
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_servantstatue-glitch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_servantstatue-glitch.png",
          "imageheight":44,
          "imagewidth":16
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_servantstatue-tailed.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_servantstatue-tailed.png",
          "imageheight":44,
          "imagewidth":16
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_servantstatue-worm.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_servantstatue-worm.png",
          "imageheight":44,
          "imagewidth":16
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshell1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothshell1.png",
          "imageheight":40,
          "imagewidth":40
         }
     },
  "tilewidth":96,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }

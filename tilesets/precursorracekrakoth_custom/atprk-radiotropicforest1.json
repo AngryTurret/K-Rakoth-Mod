@@ -351,109 +351,109 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicbush1.png",
          "imageheight":16,
          "imagewidth":24
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicbush2.png",
          "imageheight":16,
          "imagewidth":24
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblock.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblock.png",
          "imageheight":8,
          "imagewidth":8
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblobfloor1.png",
          "imageheight":16,
          "imagewidth":24
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblobfloor2.png",
          "imageheight":16,
          "imagewidth":16
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblobfloor3.png",
          "imageheight":6,
          "imagewidth":14
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblobfloor4.png",
          "imageheight":16,
          "imagewidth":16
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_amberblobfloor5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_amberblobfloor5.png",
          "imageheight":6,
          "imagewidth":14
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_geodemoanest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_geodemoanest.png",
          "imageheight":16,
          "imagewidth":24
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicbush3.png",
          "imageheight":16,
          "imagewidth":24
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicbush4.png",
          "imageheight":16,
          "imagewidth":24
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicbush5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicbush5.png",
          "imageheight":16,
          "imagewidth":24
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_radiotropicchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_radiotropicchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothlocker.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothlocker.png",
          "imageheight":24,
          "imagewidth":32
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothpodbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothpodbroken.png",
          "imageheight":64,
          "imagewidth":32
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
          "imageheight":8,
          "imagewidth":8
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
          "imageheight":8,
          "imagewidth":8
         }

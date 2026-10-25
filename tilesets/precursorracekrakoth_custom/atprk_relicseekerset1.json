@@ -985,295 +985,295 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicexchange.png",
          "imageheight":43,
          "imagewidth":56
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershiplight.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekershiplight.png",
          "imageheight":8,
          "imagewidth":16
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_crateunpacker.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_crateunpacker.png",
          "imageheight":48,
          "imagewidth":40
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerlogo.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerlogo.png",
          "imageheight":40,
          "imagewidth":40
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_smalllaptop.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_smalllaptop.png",
          "imageheight":16,
          "imagewidth":16
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_starcartographer.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_starcartographer.png",
          "imageheight":32,
          "imagewidth":24
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechplatformoff.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_mechplatformoff.png",
          "imageheight":80,
          "imagewidth":48
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporter.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerhqteleporter.png",
          "imageheight":8,
          "imagewidth":32
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerlibra.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerlibra.png",
          "imageheight":40,
          "imagewidth":32
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporterunique.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerhqteleporterunique.png",
          "imageheight":64,
          "imagewidth":32
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraider.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_vaultraider.png",
          "imageheight":40,
          "imagewidth":24
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraidershop.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_vaultraidershop.png",
          "imageheight":24,
          "imagewidth":54
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplay1.png",
          "imageheight":40,
          "imagewidth":26
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplay5.png",
          "imageheight":40,
          "imagewidth":26
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_artifactrecycler.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_artifactrecycler.png",
          "imageheight":32,
          "imagewidth":32
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_artifactrecycleroff.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_artifactrecycleroff.png",
          "imageheight":32,
          "imagewidth":32
         },
      "23":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff1.png",
          "imageheight":64,
          "imagewidth":32
         },
      "24":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerhqteleporteroff2.png",
          "imageheight":8,
          "imagewidth":32
         },
      "25":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerhqteleporterengine.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerhqteleporterengine.png",
          "imageheight":8,
          "imagewidth":32
         },
      "26":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchangeclosed.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicexchangeclosed.png",
          "imageheight":43,
          "imagewidth":56
         },
      "27":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_crateunpackerclosed.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_crateunpackerclosed.png",
          "imageheight":48,
          "imagewidth":40
         },
      "28":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraiderinfinitemaze.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_vaultraiderinfinitemaze.png",
          "imageheight":30,
          "imagewidth":32
         },
      "29":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekercoltpraying.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekercoltpraying.png",
          "imageheight":28,
          "imagewidth":16
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplay2.png",
          "imageheight":40,
          "imagewidth":26
         },
      "30":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplaysmashed.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplaysmashed.png",
          "imageheight":40,
          "imagewidth":26
         },
      "31":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerlibradevoutattack.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerlibradevoutattack.png",
          "imageheight":32,
          "imagewidth":32
         },
      "32":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_starcartographerdevoutattack.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_starcartographerdevoutattack.png",
          "imageheight":33,
          "imagewidth":24
         },
      "33":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_vaultraidershopinfinitemaze.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_vaultraidershopinfinitemaze.png",
          "imageheight":32,
          "imagewidth":54
         },
      "34":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_woodenstand2broken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_woodenstand2broken.png",
          "imageheight":16,
          "imagewidth":16
         },
      "35":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechbotrandy.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_mechbotrandy.png",
          "imageheight":32,
          "imagewidth":16
         },
      "36":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechbotrandydevoutattack.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_mechbotrandydevoutattack.png",
          "imageheight":34,
          "imagewidth":24
         },
      "37":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_saloontablebroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_saloontablebroken.png",
          "imageheight":20,
          "imagewidth":40
         },
      "38":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_mechcraftingtableoff.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_mechcraftingtableoff.png",
          "imageheight":48,
          "imagewidth":64
         },
      "39":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_novakid.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicexchange_novakid.png",
          "imageheight":40,
          "imagewidth":56
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplay3.png",
          "imageheight":40,
          "imagewidth":26
         },
      "40":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_hylotl.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicexchange_hylotl.png",
          "imageheight":38,
          "imagewidth":48
         },
      "41":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicexchange_penguin.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicexchange_penguin.png",
          "imageheight":30,
          "imagewidth":48
         },
      "42":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_codexrestorer.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_codexrestorer.png",
          "imageheight":56,
          "imagewidth":40
         },
      "43":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershippingcontainer.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekershippingcontainer.png",
          "imageheight":48,
          "imagewidth":120
         },
      "44":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershipdoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekershipdoor.png",
          "imageheight":40,
          "imagewidth":48
         },
      "45":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekershiphatch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekershiphatch.png",
          "imageheight":44,
          "imagewidth":40
         },
      "46":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycake.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_bdaycake.png",
          "imageheight":16,
          "imagewidth":24
         },
      "47":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycakeleftover.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_bdaycakeleftover.png",
          "imageheight":8,
          "imagewidth":24
         },
      "48":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_bdaycakehuge.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_bdaycakehuge.png",
          "imageheight":32,
          "imagewidth":32
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekerdisplay4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekerdisplay4.png",
          "imageheight":40,
          "imagewidth":26
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_reconstructiontable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_reconstructiontable.png",
          "imageheight":28,
          "imagewidth":32
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_goodscrate1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_goodscrate1.png",
          "imageheight":16,
          "imagewidth":24
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_goodscrate2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_goodscrate2.png",
          "imageheight":32,
          "imagewidth":40
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_relicseekercolt.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_relicseekercolt.png",
          "imageheight":36,
          "imagewidth":16
         }

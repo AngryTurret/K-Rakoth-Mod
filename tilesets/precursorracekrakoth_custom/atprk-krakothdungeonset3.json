@@ -9,6 +9,7 @@
  "name":"atprk-krakothlab",
  "spacing":0,
  "tilecount":69,
+ "tiledversion":"1.11.2",
  "tileheight":112,
  "tileproperties":
     {
@@ -1356,419 +1357,420 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_slopedkrakothpanel.png",
          "imageheight":8,
          "imagewidth":8
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakotharmor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakotharmor.png",
          "imageheight":56,
          "imagewidth":32
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothlocker.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothlocker.png",
          "imageheight":24,
          "imagewidth":32
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchcodexframe.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchcodexframe.png",
          "imageheight":8,
          "imagewidth":16
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchpc.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchpc.png",
          "imageheight":16,
          "imagewidth":16
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshell2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothshell2.png",
          "imageheight":16,
          "imagewidth":16
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothshell1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothshell1.png",
          "imageheight":40,
          "imagewidth":40
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothstatue1.png",
          "imageheight":80,
          "imagewidth":48
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchlamppost.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchlamppost.png",
          "imageheight":64,
          "imagewidth":16
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchtable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchtable.png",
          "imageheight":16,
          "imagewidth":40
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchchair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchchair.png",
          "imageheight":28,
          "imagewidth":34
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmetal.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothmetal.png",
          "imageheight":8,
          "imagewidth":8
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchstool.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchstool.png",
          "imageheight":16,
          "imagewidth":16
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothpodbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothpodbroken.png",
          "imageheight":64,
          "imagewidth":32
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothpod.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothpod.png",
          "imageheight":64,
          "imagewidth":32
         },
      "23":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothpodsleeper.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothpodsleeper.png",
          "imageheight":64,
          "imagewidth":32
         },
      "24":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothhoverpad.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothhoverpad.png",
          "imageheight":24,
          "imagewidth":48
         },
      "25":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_oldpiggybank.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_oldpiggybank.png",
          "imageheight":16,
          "imagewidth":16
         },
      "26":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchtank.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchtank.png",
          "imageheight":48,
          "imagewidth":48
         },
      "27":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchwallpanel.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchwallpanel.png",
          "imageheight":24,
          "imagewidth":24
         },
      "28":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcomputer1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothcomputer1.png",
          "imageheight":40,
          "imagewidth":80
         },
      "29":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothcomputer2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothcomputer2.png",
          "imageheight":40,
          "imagewidth":40
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothswitch1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothswitch1.png",
          "imageheight":16,
          "imagewidth":16
         },
      "30":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframe.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframe.png",
          "imageheight":64,
          "imagewidth":32
         },
      "31":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_terraformercorepedestal.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_terraformercorepedestal.png",
          "imageheight":32,
          "imagewidth":24
         },
      "32":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchwalllight.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchwalllight.png",
          "imageheight":16,
          "imagewidth":16
         },
      "33":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmonitor1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothmonitor1.png",
          "imageheight":24,
          "imagewidth":32
         },
      "34":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmonitor2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothmonitor2.png",
          "imageheight":24,
          "imagewidth":32
         },
      "35":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_4dblock.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_4dblock.png",
          "imageheight":8,
          "imagewidth":8
         },
      "36":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchmachinery1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchmachinery1.png",
          "imageheight":48,
          "imagewidth":40
         },
      "37":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchmachinery2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchmachinery2.png",
          "imageheight":72,
          "imagewidth":24
         },
      "38":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchfloodlight.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchfloodlight.png",
          "imageheight":8,
          "imagewidth":8
         },
      "39":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothprobebroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothprobebroken.png",
          "imageheight":18,
          "imagewidth":32
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothgenerator.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothgenerator.png",
          "imageheight":32,
          "imagewidth":32
         },
      "40":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothdebris1.png",
          "imageheight":16,
          "imagewidth":24
         },
      "41":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothdebris2.png",
          "imageheight":16,
          "imagewidth":24
         },
      "42":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothdebris3.png",
          "imageheight":16,
          "imagewidth":24
         },
      "43":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothdebris4.png",
          "imageheight":24,
          "imagewidth":40
         },
      "44":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothdebris5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothdebris5.png",
          "imageheight":24,
          "imagewidth":40
         },
      "45":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframefixed.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchterraformerframefixed.png",
          "imageheight":64,
          "imagewidth":32
         },
      "46":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchwalllightbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchwalllightbroken.png",
          "imageheight":16,
          "imagewidth":16
         },
      "47":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchfloodlightbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchfloodlightbroken.png",
          "imageheight":8,
          "imagewidth":8
         },
      "48":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchclock.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchclock.png",
          "imageheight":16,
          "imagewidth":16
         },
      "49":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothtechsignsmall.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothtechsignsmall.png",
          "imageheight":8,
          "imagewidth":16
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothdoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothdoor.png",
          "imageheight":64,
          "imagewidth":24
         },
      "50":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcrateframesmall.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-4dcrateframesmall.png",
          "imageheight":16,
          "imagewidth":24
         },
      "51":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_4dtarget.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_4dtarget.png",
          "imageheight":40,
          "imagewidth":40
         },
      "52":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_krakothmissionmonitor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_krakothmissionmonitor.png",
          "imageheight":24,
          "imagewidth":32
         },
      "53":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-eldritchlamppostbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-eldritchlamppostbroken.png",
          "imageheight":56,
          "imagewidth":16
         },
      "54":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_frozenfishwater.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_frozenfishwater.png",
          "imageheight":8,
          "imagewidth":8
         },
      "55":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube1.png",
          "imageheight":112,
          "imagewidth":32
         },
      "56":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube2.png",
          "imageheight":112,
          "imagewidth":32
         },
      "57":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombhydrotube3.png",
          "imageheight":112,
          "imagewidth":32
         },
      "58":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombalarmv.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombalarmv.png",
          "imageheight":32,
          "imagewidth":8
         },
      "59":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombalarmh.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombalarmh.png",
          "imageheight":8,
          "imagewidth":32
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothhatch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothhatch.png",
          "imageheight":24,
          "imagewidth":64
         },
      "60":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothmonitorbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothmonitorbroken.png",
          "imageheight":24,
          "imagewidth":32
         },
      "61":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen1.png",
          "imageheight":40,
          "imagewidth":32
         },
      "62":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_cryotombinfoscreen2.png",
          "imageheight":40,
          "imagewidth":32
         },
      "63":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant1.png",
          "imageheight":44,
          "imagewidth":15
         },
      "64":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant2.png",
          "imageheight":75,
          "imagewidth":22
         },
      "65":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant3.png",
          "imageheight":59,
          "imagewidth":22
         },
      "66":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant4.png",
          "imageheight":31,
          "imagewidth":22
         },
      "67":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk_boilingoceanplant5.png",
          "imageheight":37,
          "imagewidth":39
         },
      "68":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dperfect.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-4dperfect.png",
          "imageheight":16,
          "imagewidth":16
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcratemedium.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-4dcratemedium.png",
          "imageheight":32,
          "imagewidth":48
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-4dcrateframe.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-4dcrateframe.png",
          "imageheight":32,
          "imagewidth":48
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_krakoth\/atprk-krakothturret.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_krakoth\/atprk-krakothturret.png",
          "imageheight":28,
          "imagewidth":22
         }
     },
  "tilewidth":80,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }

@@ -9,6 +9,7 @@
  "name":"atprk-hungergrove",
  "spacing":0,
  "tilecount":23,
+ "tiledversion":"1.11.2",
  "tileheight":88,
  "tileproperties":
     {
@@ -478,143 +479,144 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronchair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronchair.png",
          "imageheight":24,
          "imagewidth":16
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenrontable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenrontable.png",
          "imageheight":16,
          "imagewidth":40
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwiredstatue2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwiredstatue2.png",
          "imageheight":32,
          "imagewidth":32
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwiredstatue3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwiredstatue3.png",
          "imageheight":32,
          "imagewidth":32
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwallbutton.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwallbutton.png",
          "imageheight":8,
          "imagewidth":8
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwalltorchpurple.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwalltorchpurple.png",
          "imageheight":26,
          "imagewidth":24
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenrontotemlamp.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenrontotemlamp.png",
          "imageheight":28,
          "imagewidth":24
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronsmalltorch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronsmalltorch.png",
          "imageheight":16,
          "imagewidth":8
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronsmalltorch_orientation2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronsmalltorch_orientation2.png",
          "imageheight":16,
          "imagewidth":8
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronsmalltorch_orientation3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronsmalltorch_orientation3.png",
          "imageheight":16,
          "imagewidth":8
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronbouldertrap.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronbouldertrap.png",
          "imageheight":32,
          "imagewidth":32
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronbench.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronbench.png",
          "imageheight":8,
          "imagewidth":48
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronpedestalclean.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronpedestalclean.png",
          "imageheight":24,
          "imagewidth":16
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronstatuebig.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronstatuebig.png",
          "imageheight":88,
          "imagewidth":64
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwiredstatue4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwiredstatue4.png",
          "imageheight":32,
          "imagewidth":32
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenrontotem1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenrontotem1.png",
          "imageheight":64,
          "imagewidth":32
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenrontotem2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenrontotem2.png",
          "imageheight":28,
          "imagewidth":32
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronpedestal.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronpedestal.png",
          "imageheight":24,
          "imagewidth":16
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwalltorch.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwalltorch.png",
          "imageheight":26,
          "imagewidth":24
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwalltorchgreen.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwalltorchgreen.png",
          "imageheight":26,
          "imagewidth":24
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwalltorchblue.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwalltorchblue.png",
          "imageheight":26,
          "imagewidth":24
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_fenronwiredstatue1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_fenronwiredstatue1.png",
          "imageheight":32,
          "imagewidth":32
         }
     },
  "tilewidth":64,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }

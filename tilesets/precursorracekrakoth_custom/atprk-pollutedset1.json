@@ -9,6 +9,7 @@
  "name":"atprk-annelisk",
  "spacing":0,
  "tilecount":29,
+ "tiledversion":"1.11.2",
  "tileheight":64,
  "tileproperties":
     {
@@ -578,179 +579,180 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskchair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskchair.png",
          "imageheight":20,
          "imagewidth":16
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_annelisksleepingpodbroken3.png",
          "imageheight":40,
          "imagewidth":24
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_batterycrystal1.png",
          "imageheight":16,
          "imagewidth":16
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_batterycrystal2.png",
          "imageheight":16,
          "imagewidth":16
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_batterycrystal3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_batterycrystal3.png",
          "imageheight":16,
          "imagewidth":16
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllighth.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskwalllighth.png",
          "imageheight":8,
          "imagewidth":16
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllightv.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskwalllightv.png",
          "imageheight":16,
          "imagewidth":8
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacechair.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskspacechair.png",
          "imageheight":32,
          "imagewidth":16
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskminesign1.png",
          "imageheight":24,
          "imagewidth":32
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskminesign2.png",
          "imageheight":24,
          "imagewidth":32
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminesign3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskminesign3.png",
          "imageheight":24,
          "imagewidth":32
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisktable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_annelisktable.png",
          "imageheight":16,
          "imagewidth":40
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacepanel.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskspacepanel.png",
          "imageheight":24,
          "imagewidth":16
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrystalcrate.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskcrystalcrate.png",
          "imageheight":24,
          "imagewidth":48
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskroundtable.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskroundtable.png",
          "imageheight":16,
          "imagewidth":32
         },
      "23":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacedoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskspacedoor.png",
          "imageheight":40,
          "imagewidth":48
         },
      "24":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspacedoorlarge.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskspacedoorlarge.png",
          "imageheight":64,
          "imagewidth":24
         },
      "25":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskspaceshelf.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskspaceshelf.png",
          "imageheight":48,
          "imagewidth":48
         },
      "26":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskminingdrill.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskminingdrill.png",
          "imageheight":48,
          "imagewidth":56
         },
      "27":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskwalllighttiny.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskwalllighttiny.png",
          "imageheight":8,
          "imagewidth":8
         },
      "28":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskprinter.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskprinter.png",
          "imageheight":32,
          "imagewidth":32
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskvending.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskvending.png",
          "imageheight":40,
          "imagewidth":32
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskposter.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskposter.png",
          "imageheight":32,
          "imagewidth":24
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisklogo.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_annelisklogo.png",
          "imageheight":32,
          "imagewidth":32
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrate1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskcrate1.png",
          "imageheight":16,
          "imagewidth":24
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_anneliskcrate2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_anneliskcrate2.png",
          "imageheight":24,
          "imagewidth":32
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_annelisksleepingpodbroken1.png",
          "imageheight":40,
          "imagewidth":24
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/prekursorracekrakoth_misc\/atprk_annelisksleepingpodbroken2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_misc\/atprk_annelisksleepingpodbroken2.png",
          "imageheight":40,
          "imagewidth":24
         }
     },
  "tilewidth":56,
- "type":"tileset"
+ "type":"tileset",
+ "version":1.1
 }

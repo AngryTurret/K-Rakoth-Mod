@@ -835,247 +835,247 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_smallancientchest.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_smallancientchest.png",
          "imageheight":16,
          "imagewidth":16
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancienttomb.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancienttomb.png",
          "imageheight":16,
          "imagewidth":48
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris6.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris6.png",
          "imageheight":16,
          "imagewidth":24
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris7.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris7.png",
          "imageheight":16,
          "imagewidth":24
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris8.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris8.png",
          "imageheight":16,
          "imagewidth":24
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris9.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris9.png",
          "imageheight":32,
          "imagewidth":24
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris10.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris10.png",
          "imageheight":40,
          "imagewidth":40
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazedoor.png",
          "imageheight":64,
          "imagewidth":32
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoorreturn.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazedoorreturn.png",
          "imageheight":64,
          "imagewidth":32
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedooralt.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazedooralt.png",
          "imageheight":64,
          "imagewidth":32
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedooraltalt.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazedooraltalt.png",
          "imageheight":64,
          "imagewidth":32
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazemechplatform.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazemechplatform.png",
          "imageheight":80,
          "imagewidth":48
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientshardsstatue1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientshardsstatue1.png",
          "imageheight":40,
          "imagewidth":24
         },
      "20":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancienthomeblock.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancienthomeblock.png",
          "imageheight":8,
          "imagewidth":8
         },
      "21":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding1.png",
          "imageheight":32,
          "imagewidth":56
         },
      "22":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding2.png",
          "imageheight":32,
          "imagewidth":40
         },
      "23":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding3.png",
          "imageheight":32,
          "imagewidth":40
         },
      "24":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding4.png",
          "imageheight":24,
          "imagewidth":32
         },
      "25":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientbuilding5.png",
          "imageheight":24,
          "imagewidth":32
         },
      "26":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientlight.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientlight.png",
          "imageheight":16,
          "imagewidth":8
         },
      "27":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_tinyancientpalace.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_tinyancientpalace.png",
          "imageheight":80,
          "imagewidth":64
         },
      "28":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazevaultbypass.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazevaultbypass.png",
          "imageheight":28,
          "imagewidth":98
         },
      "29":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazegatekeeper.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazegatekeeper.png",
          "imageheight":35,
          "imagewidth":32
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientshardsstatue2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientshardsstatue2.png",
          "imageheight":40,
          "imagewidth":24
         },
      "30":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_infinitemazedoorshop.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_infinitemazedoorshop.png",
          "imageheight":64,
          "imagewidth":32
         },
      "31":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield.png",
          "imageheight":96,
          "imagewidth":16
         },
      "32":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield_orientation2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfield_orientation2.png",
          "imageheight":12,
          "imagewidth":96
         },
      "33":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall.png",
          "imageheight":72,
          "imagewidth":16
         },
      "34":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall_orientation2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientfloatingballfieldsmall_orientation2.png",
          "imageheight":12,
          "imagewidth":72
         },
      "35":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientwireddoor.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientwireddoor.png",
          "imageheight":40,
          "imagewidth":48
         },
      "36":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfield.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdockingfield.png",
          "imageheight":96,
          "imagewidth":16
         },
      "37":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfield_orientation2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdockingfield_orientation2.png",
          "imageheight":12,
          "imagewidth":96
         },
      "38":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall.png",
          "imageheight":72,
          "imagewidth":16
         },
      "39":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall_orientation2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdockingfieldsmall_orientation2.png",
          "imageheight":12,
          "imagewidth":72
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientvasebroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientvasebroken.png",
          "imageheight":28,
          "imagewidth":16
         },
      "40":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientguardbeaconbroken.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientguardbeaconbroken.png",
          "imageheight":53,
          "imagewidth":46
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris1.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris1.png",
          "imageheight":48,
          "imagewidth":56
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris2.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris2.png",
          "imageheight":24,
          "imagewidth":24
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris3.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris3.png",
          "imageheight":48,
          "imagewidth":40
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris4.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris4.png",
          "imageheight":16,
          "imagewidth":16
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/precursorracekrakoth_ancient\/atprk_ancientdebris5.png",
+         "image":"..\/..\/tiledimages\/precursorracekrakoth_ancient\/atprk_ancientdebris5.png",
          "imageheight":16,
          "imagewidth":16
         }
