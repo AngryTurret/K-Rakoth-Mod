@@ -52,10 +52,10 @@
       },
       "spawnChance" : 0.1,
       "monsterType" : [
-        [0.25, "atprk_roxmol"],
-        [0.25, "atprk_roxmolblue"],
-        [0.24, "atprk_roxmolgreen"],
-        [0.25, "atprk_roxmolpurple"],
+        [0.2475, "atprk_roxmol"],
+        [0.2475, "atprk_roxmolblue"],
+        [0.2475, "atprk_roxmolgreen"],
+        [0.2475, "atprk_roxmolpurple"],
         [0.01, "atprk_roxmolrare"]
       ],
       "monsterParameters" : {
@@ -75,8 +75,10 @@
       },
       "spawnChance" : 0.02,
       "monsterType" : [
-        [0.80, "atprk_sapphase"],
-        [0.19, "atprk_sapphaseillusionist"],
+        [0.2475, "atprk_sapphase"],
+        [0.2475, "atprk_sapphaseorange"],
+        [0.2475, "atprk_sapphasegreen"],
+        [0.2475, "atprk_sapphasepurple"],
         [0.01, "atprk_sapphaserare"]
       ],
       "monsterParameters" : {
