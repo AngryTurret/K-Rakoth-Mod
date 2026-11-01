@@ -6,7 +6,7 @@
   "collectablesOnPickup" : { "actionfigures" : "atprk_sapphaseaf" },
   "price" : 5000,
   "printable" : false,
-  "description" : "The label reads, \"Its hardened sapphire shell protects its actual body - a small yellow core.\"",
+  "description" : "The label reads, \"The hardened crystalline shell protects its actual body - a small core in the middle.\"",
   "shortdescription" : "Sapphase Figurine",
 
 
