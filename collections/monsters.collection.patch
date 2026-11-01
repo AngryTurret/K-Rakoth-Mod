@@ -36,7 +36,7 @@
 	  {
 	    "order" : 64,
 	    "monsterType" : "atprk_sapphase",
-	    "icon" : "/monsters/ghosts/atprk_sapphase/atprk_sapphase.png:idle.1"
+	    "icon" : "/monsters/flyers/atprk_sapphase/atprk_sapphase.png:wakeup.4"
 	  }
 	},
 	{
