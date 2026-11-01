@@ -1,0 +1,43 @@
+{
+  "frameGrid" : {
+    "size" : [24, 32],
+    "dimensions" : [14, 4],
+
+    "names" : [
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8", "idle.9", "idle.10", "idle.11", "idle.12" ],
+      [ null, "wakeup.1", "wakeup.2", "wakeup.3", "wakeup.4", null, "aggro.fly.1", "aggro.fly.2", "aggro.fly.3", "aggro.fly.4", "aggro.fly.5", "aggro.fly.6", "aggro.fly.7", "aggro.fly.8" ],
+      [ null, "windup.1", "windup.2", "windup.3", "windup.4", null, "blast.1", "blast.2", "blast.3", "blast.4", "blast.5", "blast.6", null, "hurt.1" ],
+      [ null, "shield.1", "shield.2", "shield.3", "shield.4", "shield.5", "shield.6", "shield.7", "shield.8", "shield.9", "shield.10", "shield.11", "shield.12" ]
+    ]
+  },
+  "aliases" : {
+    "wakeup.5" : "wakeup.3",
+
+    "aggro.idle.1" : "wakeup.3",
+    "aggro.idle.2" : "wakeup.3",
+    "aggro.idle.3" : "wakeup.3",
+    "aggro.idle.4" : "wakeup.3",
+    "aggro.idle.5" : "wakeup.3",
+    "aggro.idle.6" : "wakeup.3",
+    "aggro.idle.7" : "wakeup.3",
+    "aggro.idle.8" : "wakeup.3",
+    "aggro.idle.9" : "wakeup.3",
+    "aggro.idle.10" : "wakeup.3",
+    "aggro.idle.11" : "wakeup.3",
+    "aggro.idle.12" : "wakeup.3",
+
+    "fly.1" : "idle.1",
+    "fly.2" : "idle.2",
+    "fly.3" : "idle.3",
+    "fly.4" : "idle.6",
+    "fly.5" : "idle.7",
+    "fly.6" : "idle.8",
+    "fly.7" : "idle.9",
+    "fly.8" : "idle.8",
+
+    "shieldwindup.1" : "wakeup.3",
+    "shieldwindup.2" : "wakeup.2",
+    "shieldwindup.3" : "wakeup.1",
+    "shieldwindup.4" : "wakeup.1"
+  }
+}

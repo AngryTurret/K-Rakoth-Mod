@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_sapphasegreen",
+  "category" : "atprk_sapphasegreen",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_sapphasegreen.png",
+    "bodynobright" : "atprk_sapphasegreenlit.png"
+  }
+}

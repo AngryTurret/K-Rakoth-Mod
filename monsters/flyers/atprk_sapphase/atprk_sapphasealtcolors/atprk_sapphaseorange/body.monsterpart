@@ -1,0 +1,10 @@
+{
+  "name" : "atprk_sapphaseorange",
+  "category" : "atprk_sapphaseorange",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_sapphaseorange.png",
+    "bodynobright" : "atprk_sapphaseorangelit.png"
+  }
+}
