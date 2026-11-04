@@ -1,0 +1,15 @@
+{
+  "itemName" : "atprk_tesseract",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "Storage",
+  "inventoryIcon" : "atprk_tesseracticon.png",
+  "description" : "Convenient 4th dimensional storage in the palm of your hand.",
+  "shortdescription" : "Extradimensional Bag",
+
+  "scripts" : [ "atprk_tesseract.lua" ],
+
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+  "maxStack" : 1
+}
