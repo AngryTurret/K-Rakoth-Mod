@@ -17,6 +17,7 @@ function init()
 
   player.setProperty("4dPulse", now)
   self.inventory = player.getProperty("4dInventory", {})
+  normalizeInventory()
   
   self.lastSeenCursorItem = player.swapSlotItem()
   self.guiClickedThisFrame = false
@@ -63,15 +64,33 @@ function uninit()
   pane.playSound("/sfx/objects/mechbeacon_pulse1.ogg")
 end
 
+function normalizeInventory()
+  local normalized = {}
+  if type(self.inventory) == "table" then
+    for k, v in pairs(self.inventory) do
+      normalized[tostring(k)] = v
+    end
+  end
+  self.inventory = normalized
+end
+
+function getSlotItem(index)
+  if not self.inventory then return nil end
+  local keyStr = tostring(index)
+  local keyNum = tonumber(index)
+  return self.inventory[keyStr] or (keyNum and self.inventory[keyNum]) or nil
+end
+
 function refreshSlots()
   for i = 1, 64 do
     local slotName = "slot" .. i
-    local item = self.inventory[tostring(i)] or nil
+    local item = getSlotItem(i)
     widget.setItemSlotItem(slotName, item)
   end
 end
 
 function saveInventory()
+  normalizeInventory()
   player.setProperty("4dInventory", self.inventory)
 end
 
@@ -79,7 +98,7 @@ function takeAll()
   self.guiClickedThisFrame = true
   for i = 1, 64 do
     local key = tostring(i)
-    local slotItem = self.inventory[key]
+    local slotItem = getSlotItem(i)
     if slotItem then
       local remaining = player.giveItem(slotItem)
       if remaining and remaining.count > 0 then
@@ -98,9 +117,9 @@ function sort()
 
   local rawItems = {}
   for i = 1, 64 do
-    local key = tostring(i)
-    if self.inventory[key] then
-      table.insert(rawItems, copyItem(self.inventory[key]))
+    local item = getSlotItem(i)
+    if item then
+      table.insert(rawItems, copyItem(item))
     end
   end
 
@@ -125,12 +144,17 @@ function sort()
   for _, item in ipairs(consolidated) do
     local conf = root.itemConfig(item)
     local cfg = (conf and conf.config) or {}
-    local rarity = string.lower(cfg.rarity or "common")
+    
+    local rarity = string.lower(type(cfg.rarity) == "string" and cfg.rarity or "common")
+    local category = string.lower(type(cfg.category) == "string" and cfg.category or "")
+    local shortdesc = type(cfg.shortdescription) == "string" and cfg.shortdescription or (type(item) == "table" and item.name or tostring(item))
+    shortdesc = string.lower(shortdesc)
+
     metaCache[item] = {
       rarityWeight = RARITY_MAP[rarity] or 1,
-      category = string.lower(cfg.category or ""),
-      shortdescription = string.lower(cfg.shortdescription or item.name or ""),
-      name = item.name or ""
+      category = category,
+      shortdescription = shortdesc,
+      name = type(item) == "table" and (item.name or "") or tostring(item)
     }
   end
 
@@ -193,7 +217,7 @@ function autoDepositItem(item)
 
   for i = 1, 64 do
     local key = tostring(i)
-    local slotItem = self.inventory[key]
+    local slotItem = getSlotItem(i)
     if slotItem and itemsMatch(slotItem, item) then
       local space = maxStack - slotItem.count
       if space > 0 then
@@ -208,7 +232,7 @@ function autoDepositItem(item)
 
   for i = 1, 64 do
     local key = tostring(i)
-    local slotItem = self.inventory[key]
+    local slotItem = getSlotItem(i)
     if slotItem == nil then
       local transfer = math.min(item.count, maxStack)
       self.inventory[key] = copyItem(item, transfer)
@@ -223,7 +247,7 @@ end
 function slotClicked(widgetName)
   self.guiClickedThisFrame = true
   local slotIndex = string.sub(widgetName, 5)
-  local slotItem = self.inventory[slotIndex]
+  local slotItem = getSlotItem(slotIndex)
   local cursorItem = player.swapSlotItem()
   local shiftHeld = player.getProperty("4dShiftHeld", false)
 
@@ -231,7 +255,7 @@ function slotClicked(widgetName)
     if cursorItem == nil then
       if slotItem ~= nil then
         player.giveItem(slotItem)
-        self.inventory[slotIndex] = nil
+        self.inventory[tostring(slotIndex)] = nil
         saveInventory()
         widget.setItemSlotItem(widgetName, nil)
       end
@@ -242,7 +266,7 @@ function slotClicked(widgetName)
     if cursorItem == nil then
       if slotItem ~= nil then
         player.setSwapSlotItem(slotItem)
-        self.inventory[slotIndex] = nil
+        self.inventory[tostring(slotIndex)] = nil
         saveInventory()
         widget.setItemSlotItem(widgetName, nil)
       end
@@ -253,8 +277,9 @@ function slotClicked(widgetName)
 end
 
 function handleLeftClickPlacement(widgetName, slotIndex, slotItem, cursorItem)
+  local key = tostring(slotIndex)
   if slotItem == nil then
-    self.inventory[slotIndex] = cursorItem
+    self.inventory[key] = cursorItem
     player.setSwapSlotItem(nil)
     saveInventory()
     widget.setItemSlotItem(widgetName, cursorItem)
@@ -266,7 +291,7 @@ function handleLeftClickPlacement(widgetName, slotIndex, slotItem, cursorItem)
       slotItem.count = slotItem.count + transferCount
       cursorItem.count = cursorItem.count - transferCount
       
-      self.inventory[slotIndex] = slotItem
+      self.inventory[key] = slotItem
       if cursorItem.count <= 0 then
         player.setSwapSlotItem(nil)
       else
@@ -275,13 +300,13 @@ function handleLeftClickPlacement(widgetName, slotIndex, slotItem, cursorItem)
       saveInventory()
       widget.setItemSlotItem(widgetName, slotItem)
     else
-      self.inventory[slotIndex] = cursorItem
+      self.inventory[key] = cursorItem
       player.setSwapSlotItem(slotItem)
       saveInventory()
       widget.setItemSlotItem(widgetName, cursorItem)
     end
   else
-    self.inventory[slotIndex] = cursorItem
+    self.inventory[key] = cursorItem
     player.setSwapSlotItem(slotItem)
     saveInventory()
     widget.setItemSlotItem(widgetName, cursorItem)
@@ -291,9 +316,10 @@ end
 function slotRightClicked(widgetName)
   self.guiClickedThisFrame = true
   local slotIndex = string.sub(widgetName, 5)
-  local slotItem = self.inventory[slotIndex]
+  local slotItem = getSlotItem(slotIndex)
   local cursorItem = player.swapSlotItem()
   local shiftHeld = player.getProperty("4dShiftHeld", false)
+  local key = tostring(slotIndex)
 
   if shiftHeld then
     if slotItem ~= nil then
@@ -304,13 +330,13 @@ function slotRightClicked(widgetName)
         local remaining = slotItem.count - takeCount
         if remaining > 0 then
           slotItem.count = remaining
-          self.inventory[slotIndex] = slotItem
+          self.inventory[key] = slotItem
         else
-          self.inventory[slotIndex] = nil
+          self.inventory[key] = nil
         end
         player.setSwapSlotItem(newCursorItem)
         saveInventory()
-        widget.setItemSlotItem(widgetName, self.inventory[slotIndex])
+        widget.setItemSlotItem(widgetName, self.inventory[key])
       elseif itemsMatch(cursorItem, slotItem) then
         local maxStack = getItemMaxStack(cursorItem)
         local space = maxStack - cursorItem.count
@@ -320,13 +346,13 @@ function slotRightClicked(widgetName)
           local remaining = slotItem.count - transferCount
           if remaining > 0 then
             slotItem.count = remaining
-            self.inventory[slotIndex] = slotItem
+            self.inventory[key] = slotItem
           else
-            self.inventory[slotIndex] = nil
+            self.inventory[key] = nil
           end
           player.setSwapSlotItem(cursorItem)
           saveInventory()
-          widget.setItemSlotItem(widgetName, self.inventory[slotIndex])
+          widget.setItemSlotItem(widgetName, self.inventory[key])
         end
       end
     end
@@ -336,13 +362,13 @@ function slotRightClicked(widgetName)
         local newCursorItem = copyItem(slotItem, 1)
         if slotItem.count > 1 then
           slotItem.count = slotItem.count - 1
-          self.inventory[slotIndex] = slotItem
+          self.inventory[key] = slotItem
         else
-          self.inventory[slotIndex] = nil
+          self.inventory[key] = nil
         end
         player.setSwapSlotItem(newCursorItem)
         saveInventory()
-        widget.setItemSlotItem(widgetName, self.inventory[slotIndex])
+        widget.setItemSlotItem(widgetName, self.inventory[key])
       end
     elseif slotItem ~= nil and itemsMatch(cursorItem, slotItem) then
       local maxStack = getItemMaxStack(cursorItem)
@@ -350,13 +376,13 @@ function slotRightClicked(widgetName)
         cursorItem.count = cursorItem.count + 1
         if slotItem.count > 1 then
           slotItem.count = slotItem.count - 1
-          self.inventory[slotIndex] = slotItem
+          self.inventory[key] = slotItem
         else
-          self.inventory[slotIndex] = nil
+          self.inventory[key] = nil
         end
         player.setSwapSlotItem(cursorItem)
         saveInventory()
-        widget.setItemSlotItem(widgetName, self.inventory[slotIndex])
+        widget.setItemSlotItem(widgetName, self.inventory[key])
       end
     end
   end
