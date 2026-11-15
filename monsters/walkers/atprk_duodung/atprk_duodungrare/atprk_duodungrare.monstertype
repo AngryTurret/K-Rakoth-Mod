@@ -1,7 +1,7 @@
 {
   "type" : "atprk_duodungrare",
   "shortdescription" : "Poison Scarabroach",
-  "description" : "Working in tandem with a stray Toxic Po, this dung beetle accelerates in a matter of seconds.",
+  "description" : "There isn't much it cares about more than its ball of waste and junk.",
 
   "categories" : [ "atprk_duodungrare" ],
   "parts" : [ "body" ],
