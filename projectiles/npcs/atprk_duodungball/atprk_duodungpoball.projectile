@@ -1,0 +1,25 @@
+{
+  "projectileName" : "atprk_duodungpoball",
+  "power" : 20,
+  "speed" : 15,
+  "bounces" : 1,
+  "physics" : "grenade",
+  "image" : "atprk_duodungpoball.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 8,
+  "timeToLive" : 3,
+  "damageKind" : "tarball",
+  "damagePoly" : [ [-7.5, 0], [-5, -5], [0, -7.5], [5, -5], [7.5, 0], [5, 5], [0, 7.5], [-5, 5] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/atprk_duodungballexplosion/atprk_duodungballexplosion.config"
+    },
+    {
+      "action" : "spawnmonster",
+      "type" : "megapo",
+      "offset" : [0,0]
+    }
+  ],
+  "emitters" : [ "defaultbrown" ]
+}

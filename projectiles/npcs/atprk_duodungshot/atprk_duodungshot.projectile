@@ -1,0 +1,19 @@
+{
+  "projectileName" : "atprk_duodungshot",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "image" : "atprk_duodungshot.png",
+  "speed" : 28,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/blocks/footstep_mud.ogg"
+      ]
+    }
+  ],
+  "power" : 6,
+  "damageKind" : "tarball"
+}
