@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_duodungpo",
+  "category" : "atprk_duodungpo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_duodungpo.png"
+  }
+}

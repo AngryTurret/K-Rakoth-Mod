@@ -6,12 +6,45 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 1.6,
+            "mode" : "loop"
           },
           "walk" : {
             "frames" : 8,
-            "cycle" : 0.8,
+            "cycle" : 0.6,
             "mode" : "loop"
+          },
+          "jump" : {
+            "frames" : 2,
+            "cycle" : 0.5
+          },
+          "fall" : {
+            "frames" : 2,
+            "cycle" : 0.5
+          },
+          "stompwindup" : {
+            "frames" : 4,
+            "cycle" : 0.4
+          },
+          "stomp" : {
+            "frames" : 6,
+            "cycle" : 0.6,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "immediateSound" : "/sfx/projectiles/goo_spit2.ogg"
+            }
+          },
+          "windup" : {
+            "frames" : 4,
+            "cycle" : 0.4
+          },
+          "fire" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
           }
         }
       },
@@ -53,7 +86,7 @@
       "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
-          "offset" : [0.0, 0.625]
+          "offset" : [-0.0625, 0.6875]
         },
         "partStates" : {
           "body" : {
@@ -65,6 +98,36 @@
             "walk" : {
               "properties" : {
                 "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:jump.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              }
+            },
+            "stompwindup" : {
+              "properties" : {
+                "image" : "<partImage>:stompwindup.<frame>"
+              }
+            },
+            "stomp" : {
+              "properties" : {
+                "image" : "<partImage>:stomp.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire.<frame>"
               }
             }
           },
@@ -95,7 +158,6 @@
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "monstersplosion" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
@@ -143,6 +205,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/projectiles/throw_item_huge.ogg" ],
+    "fire" : [ "/sfx/projectiles/throw_item_small.ogg" ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "type" : "atprk_duodungrare",
-  "shortdescription" : "Poison Duodung",
+  "shortdescription" : "Poison Scarabroach",
   "description" : "Working in tandem with a stray Toxic Po, this dung beetle accelerates in a matter of seconds.",
 
   "categories" : [ "atprk_duodungrare" ],
@@ -24,7 +24,7 @@
       "targetQueryRange" : 20,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 50,
+      "keepTargetInRange" : 45,
       "targetOutOfSightTime" : 2.5,
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
@@ -33,23 +33,56 @@
 
       "hostileActions" : [
         {
-          "name" : "action-leap",
-          "cooldown" : 0.5,
+          "name" : "action-fire",
+          "cooldown" : 3.6,
           "parameters" : {
-            "minimumRange" : 0,
-            "maximumRange" : 20,
-            "maxXRange" : 8,
-            "windupTime" : 0,
-            "windupState" : "",
+            "requireLineOfSight" : true,
+            "maximumRange" : 24,
+            "minimumRange" : 12,
+            "windupState" : "windup",
+            "windupTime" : 0.6,
 
-            "leapVelocity" : 25,
-            "collisionCheck" : true,
-            "highArc" : false,
-            "leapState" : "",
-            "fallState" : "",
+            "projectileType" : "atprk_duodungrareshot",
+            "projectileParameters" : {
+              "speed" : 35
+            },
+            "fireOffset" : [0.875, 0.7],
+            "aimAtTarget" : true,
+            "fireState" : "fire",
+            "fireDelay" : 0.1,
+            "fireSound" : "fire",
+
+            "fireArc": true,
+            "projectileSpeed": 50,
+            "gravityMultiplier": 0.6,
 
             "winddownState" : "",
-            "winddownTime" : 0
+            "winddownTime" : 2.4
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 0.8,
+          "parameters" : {
+            "maximumRange" : 8,
+            "minimumRange" : 1,
+            "windupState" : "stompwindup",
+            "windupTime" : 0.4,
+
+            "projectileType" : "atprk_duodungrareshot",
+            "fireOffset" : [0, 0.2],
+
+            "aimAtTarget" : false,
+            "projectileCount" : 2,
+            "fireDelay" : 0.15,
+            "projectileInterval" : 0.1,
+            "inaccuracy" : 0.5,
+            "aimDirection" : [0,1],
+            "fireSound" : "fire",
+            "fireState" : "stomp",
+
+            "winddownState" : "",
+            "winddownTime" : 0.6
           }
         }
       ],
@@ -60,7 +93,7 @@
         {
           "name" : "approach-walk",
           "parameters" : {
-            "canJump" : false,
+            "canJump" : true,
             "run" : true,
             "moveState" : "walk"
           }
@@ -76,7 +109,7 @@
         {
           "name" : "approach-walk",
           "parameters" : {
-            "canJump" : false,
+            "canJump" : true,
             "run" : true,
             "moveState" : "walk"
           }
@@ -97,8 +130,8 @@
         {
           "name" : "action-spawnmonster",
           "parameters" : {
-            "offset" : [0,0],
-            "monsterType" : "megapo",
+            "offset" : [0,2],
+            "monsterType" : "crustoise",
             "replacement" : true
           }
         },
@@ -106,10 +139,10 @@
           "name" : "action-projectile",
           "parameters" : {
             "projectileCount" : 1,
-            "projectileType" : "atprk_fallingdungbeetle",
+            "projectileType" : "atprk_duodungrareball",
             "projectileParameters" : {},
-            "aimDirection" : [0, 1],
-            "inaccuracy" : 1.5,
+            "aimDirection" : [1, 1],
+            "inaccuracy" : 0.2,
             "fireOffset" : [0, 1]
           }
         }
