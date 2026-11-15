@@ -1,0 +1,12 @@
+{
+  "projectileName" : "atprk_duodungrareballexplosion",
+  "image" : "atprk_duodungrareballexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "tarball"
+}
