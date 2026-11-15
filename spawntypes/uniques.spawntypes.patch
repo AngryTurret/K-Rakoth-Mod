@@ -200,11 +200,12 @@
       },
       "spawnChance" : 0.05,
       "monsterType" : [
-        [0.99, "atprk_duodung"],
+        [0.795, "atprk_duodung"],
+        [0.195, "atprk_duodungpo"],
         [0.01, "atprk_duodungrare"]
       ],
       "monsterParameters" : {
-        "aggressive" : true
+        "aggressive" : false
       }
     }
   },
