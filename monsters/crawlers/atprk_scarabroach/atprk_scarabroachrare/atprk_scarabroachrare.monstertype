@@ -11,6 +11,8 @@
   "dropPools" : [ { "default" : "atprk_scarabroachTreasure", "bow" : "atprk_scarabroachHunting" } ],
 
   "baseParameters" : {
+    "monsterClass" : "rare",
+
     "scripts" : [
       "/monsters/monster.lua"
     ],
