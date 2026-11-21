@@ -1,0 +1,9 @@
+{
+  "name" : "atprk_scarabroach",
+  "category" : "atprk_scarabroach",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "atprk_scarabroach.png"
+  }
+}
