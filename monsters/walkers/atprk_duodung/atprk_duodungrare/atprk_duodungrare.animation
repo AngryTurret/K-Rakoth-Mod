@@ -158,14 +158,6 @@
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },

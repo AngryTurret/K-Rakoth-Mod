@@ -131,7 +131,7 @@
           "name" : "action-spawnmonster",
           "parameters" : {
             "offset" : [0,2],
-            "monsterType" : "crustoise",
+            "monsterType" : "atprk_scarabroach",
             "replacement" : true
           }
         },

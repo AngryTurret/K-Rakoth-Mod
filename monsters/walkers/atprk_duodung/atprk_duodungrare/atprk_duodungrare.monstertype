@@ -131,7 +131,7 @@
           "name" : "action-spawnmonster",
           "parameters" : {
             "offset" : [0,2],
-            "monsterType" : "crustoise",
+            "monsterType" : "atprk_scarabroachrare",
             "replacement" : true
           }
         },
@@ -209,7 +209,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 60
+          "baseValue" : 55
         },
         "protection" : {
           "baseValue" : 0.0
