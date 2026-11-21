@@ -91,10 +91,19 @@
 	},
 	{
 	  "op": "add", 
-	  "path": "/collectables/atprk_clamiaaf",
+	  "path": "/collectables/atprk_scarabroachaf",
 	  "value": 		
 	  {
 		"order" : 80,
+		"item" : "atprk_scarabroachaf"
+	  }
+	},
+	{
+	  "op": "add", 
+	  "path": "/collectables/atprk_clamiaaf",
+	  "value": 		
+	  {
+		"order" : 81,
 		"item" : "atprk_clamiaaf"
 	  }
 	},
@@ -103,7 +112,7 @@
 	  "path": "/collectables/atprk_crawleechaf",
 	  "value": 		
 	  {
-		"order" : 81,
+		"order" : 82,
 		"item" : "atprk_crawleechaf"
 	  }
 	},
@@ -112,7 +121,7 @@
 	  "path": "/collectables/atprk_algeistaf",
 	  "value": 		
 	  {
-		"order" : 82,
+		"order" : 83,
 		"item" : "atprk_algeistaf"
 	  }
 	},
@@ -121,7 +130,7 @@
 	  "path": "/collectables/atprk_krakothsmalldroneaf",
 	  "value": 		
 	  {
-		"order" : 83,
+		"order" : 84,
 		"item" : "atprk_krakothsmalldroneaf"
 	  }
 	},
@@ -130,7 +139,7 @@
 	  "path": "/collectables/atprk_krakothpatroldroneaf",
 	  "value": 		
 	  {
-		"order" : 84,
+		"order" : 85,
 		"item" : "atprk_krakothpatroldroneaf"
 	  }
 	},
@@ -139,7 +148,7 @@
 	  "path": "/collectables/atprk_krakothmantisdroneaf",
 	  "value": 		
 	  {
-		"order" : 85,
+		"order" : 86,
 		"item" : "atprk_krakothmantisdroneaf"
 	  }
 	},
@@ -148,7 +157,7 @@
 	  "path": "/collectables/atprk_computerbossaf",
 	  "value": 		
 	  {
-		"order" : 86,
+		"order" : 87,
 		"item" : "atprk_computerbossaf"
 	  }
 	}

@@ -91,10 +91,20 @@
 	},
 	{
 	  "op": "add",
-	  "path": "/collectables/atprk_clamiarare",
+	  "path": "/collectables/atprk_scarabroachrare",
 	  "value": 	  
 	  {
 	    "order" : 67,
+	    "monsterType" : "atprk_scarabroachrare",
+	    "icon" : "/monsters/crawlers/atprk_scarabroach/atprk_scarabroachrare/atprk_scarabroachrare.png:idle.1"
+	  }
+	},
+	{
+	  "op": "add",
+	  "path": "/collectables/atprk_clamiarare",
+	  "value": 	  
+	  {
+	    "order" : 68,
 	    "monsterType" : "atprk_clamiarare",
 	    "icon" : "/monsters/walkers/atprk_clamia/atprk_clamiarare/atprk_clamiarare.png:idle.1"
 	  }
@@ -104,7 +114,7 @@
 	  "path": "/collectables/atprk_crawleechrare",
 	  "value": 	  
 	  {
-	    "order" : 68,
+	    "order" : 69,
 	    "monsterType" : "atprk_crawleechrare",
 	    "icon" : "/monsters/crawlers/atprk_crawleech/atprk_crawleechrare/atprk_crawleechrare.png:idle.1"
 	  }
@@ -114,7 +124,7 @@
 	  "path": "/collectables/atprk_algeistrare",
 	  "value": 	  
 	  {
-	    "order" : 69,
+	    "order" : 70,
 	    "monsterType" : "atprk_algeistrare",
 	    "icon" : "/monsters/ghosts/atprk_algeist/atprk_algeistrare/atprk_algeistrare.png:fly.1"
 	  }
