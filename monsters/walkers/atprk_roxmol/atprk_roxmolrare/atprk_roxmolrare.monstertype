@@ -11,6 +11,8 @@
   "dropPools" : [ { "default" : "atprk_roxmolTreasure", "bow" : "atprk_roxmolHunting" } ],
 
   "baseParameters" : {
+    "monsterClass" : "rare",
+
     "scripts" : [
       "/monsters/monster.lua"
     ],

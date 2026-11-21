@@ -11,6 +11,8 @@
   "dropPools" : [ { "default" : "atprk_duodungTreasure", "bow" : "atprk_duodungHunting" } ],
 
   "baseParameters" : {
+    "monsterClass" : "rare",
+
     "scripts" : [
       "/monsters/monster.lua"
     ],
