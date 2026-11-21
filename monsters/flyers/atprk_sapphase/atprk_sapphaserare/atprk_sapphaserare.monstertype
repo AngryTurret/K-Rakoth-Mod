@@ -11,6 +11,8 @@
   "dropPools" : [ { "default" : "atprk_sapphaseTreasure", "bow" : "atprk_sapphaseHunting" } ],
 
   "baseParameters" : {
+    "monsterClass" : "rare",
+
     "scripts" : [
       "/monsters/monster.lua"
     ],
