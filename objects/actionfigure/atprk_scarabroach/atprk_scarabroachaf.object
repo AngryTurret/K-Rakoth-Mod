@@ -1,0 +1,34 @@
+{
+  "objectName" : "atprk_scarabroachaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "atprk_scarabroachaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Once the Scarabroach loses its dung ball, all that remains is one very, very cranky beetle.\"",
+  "shortdescription" : "H. Scarabroach Figurine",
+
+
+
+  "inventoryIcon" : "atprk_scarabroachaf.png",
+  "orientations" : [
+    {
+      "image" : "atprk_scarabroachaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "atprk_scarabroachaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
